@@ -251,60 +251,48 @@
               <!-- /.card -->
             </div>
             <div class="col-12">
-              <div class="card">
+              <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Responsive Hover Table</h3>
+                  <h3 class="card-title">Submissions</h3>
   
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-  
-                      <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th>ID</th>
-                        <th>User</th>
                         <th>Date</th>
-                        <th>Status</th>
-                        <th>Reason</th>
+                        <th>Working Days</th>
+                        <th>Work Days Into the Month</th>
+                        <th>Units</th>
+                        <th>Volume</th>
+                        <th>Average Subs Per Day</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>183</td>
-                        <td>John Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-success">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>3-11-2020</td>
+                        <td>22</td>
+                        <td>8</td>
+                        <td>322</td>
+                        <td>$ 146,463,504.00</td>
+                        <td>40</td>
                       </tr>
                       <tr>
-                        <td>219</td>
-                        <td>Alexander Pierce</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-warning">Pending</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>2-12-2020</td>
+                        <td>19</td>
+                        <td>8</td>
+                        <td>269</td>
+                        <td>$ 127,692,100.00</td>
+                        <td>34</td>
                       </tr>
                       <tr>
-                        <td>657</td>
-                        <td>Bob Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-primary">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                      </tr>
-                      <tr>
-                        <td>175</td>
-                        <td>Mike Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-danger">Denied</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>1-13-2020</td>
+                        <td>21</td>
+                        <td>8</td>
+                        <td>236</td>
+                        <td>$ 95,626,728.00</td>
+                        <td>30</td>
                       </tr>
                     </tbody>
                   </table>
@@ -315,60 +303,48 @@
             </div>
             
             <div class="col-12">
-              <div class="card">
+              <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Responsive Hover Table</h3>
+                  <h3 class="card-title">Submissions</h3>
   
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-  
-                      <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th>ID</th>
-                        <th>User</th>
                         <th>Date</th>
-                        <th>Status</th>
-                        <th>Reason</th>
+                        <th>Working Days</th>
+                        <th>Work Days Into the Month</th>
+                        <th>Units</th>
+                        <th>Volume</th>
+                        <th>Average Subs Per Day</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>183</td>
-                        <td>John Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-success">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>3-11-2020</td>
+                        <td>22</td>
+                        <td>8</td>
+                        <td>322</td>
+                        <td>$ 146,463,504.00</td>
+                        <td>40</td>
                       </tr>
                       <tr>
-                        <td>219</td>
-                        <td>Alexander Pierce</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-warning">Pending</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>2-12-2020</td>
+                        <td>19</td>
+                        <td>8</td>
+                        <td>269</td>
+                        <td>$ 127,692,100.00</td>
+                        <td>34</td>
                       </tr>
                       <tr>
-                        <td>657</td>
-                        <td>Bob Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-primary">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                      </tr>
-                      <tr>
-                        <td>175</td>
-                        <td>Mike Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-danger">Denied</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>1-13-2020</td>
+                        <td>21</td>
+                        <td>8</td>
+                        <td>236</td>
+                        <td>$ 95,626,728.00</td>
+                        <td>30</td>
                       </tr>
                     </tbody>
                   </table>
@@ -379,60 +355,48 @@
             </div>
 
             <div class="col-12">
-              <div class="card">
+              <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Responsive Hover Table</h3>
+                  <h3 class="card-title">Submissions</h3>
   
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-  
-                      <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th>ID</th>
-                        <th>User</th>
                         <th>Date</th>
-                        <th>Status</th>
-                        <th>Reason</th>
+                        <th>Working Days</th>
+                        <th>Work Days Into the Month</th>
+                        <th>Units</th>
+                        <th>Volume</th>
+                        <th>Average Subs Per Day</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>183</td>
-                        <td>John Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-success">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>3-11-2020</td>
+                        <td>22</td>
+                        <td>8</td>
+                        <td>322</td>
+                        <td>$ 146,463,504.00</td>
+                        <td>40</td>
                       </tr>
                       <tr>
-                        <td>219</td>
-                        <td>Alexander Pierce</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-warning">Pending</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>2-12-2020</td>
+                        <td>19</td>
+                        <td>8</td>
+                        <td>269</td>
+                        <td>$ 127,692,100.00</td>
+                        <td>34</td>
                       </tr>
                       <tr>
-                        <td>657</td>
-                        <td>Bob Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-primary">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                      </tr>
-                      <tr>
-                        <td>175</td>
-                        <td>Mike Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-danger">Denied</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>1-13-2020</td>
+                        <td>21</td>
+                        <td>8</td>
+                        <td>236</td>
+                        <td>$ 95,626,728.00</td>
+                        <td>30</td>
                       </tr>
                     </tbody>
                   </table>
@@ -443,60 +407,48 @@
             </div>
 
             <div class="col-12">
-              <div class="card">
+              <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Responsive Hover Table</h3>
+                  <h3 class="card-title">Submissions</h3>
   
-                  <div class="card-tools">
-                    <div class="input-group input-group-sm" style="width: 150px;">
-                      <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-  
-                      <div class="input-group-append">
-                        <button type="submit" class="btn btn-default"><i class="fas fa-search"></i></button>
-                      </div>
-                    </div>
-                  </div>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th>ID</th>
-                        <th>User</th>
                         <th>Date</th>
-                        <th>Status</th>
-                        <th>Reason</th>
+                        <th>Working Days</th>
+                        <th>Work Days Into the Month</th>
+                        <th>Units</th>
+                        <th>Volume</th>
+                        <th>Average Subs Per Day</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>183</td>
-                        <td>John Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-success">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>3-11-2020</td>
+                        <td>22</td>
+                        <td>8</td>
+                        <td>322</td>
+                        <td>$ 146,463,504.00</td>
+                        <td>40</td>
                       </tr>
                       <tr>
-                        <td>219</td>
-                        <td>Alexander Pierce</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-warning">Pending</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>2-12-2020</td>
+                        <td>19</td>
+                        <td>8</td>
+                        <td>269</td>
+                        <td>$ 127,692,100.00</td>
+                        <td>34</td>
                       </tr>
                       <tr>
-                        <td>657</td>
-                        <td>Bob Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-primary">Approved</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
-                      </tr>
-                      <tr>
-                        <td>175</td>
-                        <td>Mike Doe</td>
-                        <td>11-7-2014</td>
-                        <td><span class="tag tag-danger">Denied</span></td>
-                        <td>Bacon ipsum dolor sit amet salami venison chicken flank fatback doner.</td>
+                        <td>1-13-2020</td>
+                        <td>21</td>
+                        <td>8</td>
+                        <td>236</td>
+                        <td>$ 95,626,728.00</td>
+                        <td>30</td>
                       </tr>
                     </tbody>
                   </table>
