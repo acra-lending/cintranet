@@ -69,11 +69,12 @@ Route::get('humanresources/paylocity', function (){
     return view('pages.humanresources.paylocity');
 });
 
-Route::get('filemanager/upload', function (){
-    return view('pages.filemanager.upload');
+Route::get('mediamanager/files', function (){
+    return view('pages.mediamanager.files');
 });
 
 Route::get('infotech/ticket', function(){
     return view('pages.infotech.ticket');
 });
+
 

@@ -6622,7 +6622,7 @@ button.bg-warning:focus {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #AB2328 !important;
 }
 
 a.bg-danger:hover, a.bg-danger:focus,
@@ -18857,13 +18857,13 @@ html.maximized-card {
 }
 
 .info-box .progress {
-  background-color: rgba(0, 0, 0, 0.125);
+  background-color: rgba(61, 57, 53, 0.125);
   height: 2px;
   margin: 5px 0;
 }
 
 .info-box .progress .progress-bar {
-  background-color: #ffffff;
+  background-color: #AB2328;
 }
 
 .info-box .info-box-icon {
@@ -27447,7 +27447,7 @@ blockquote.quote-gray-dark h6 {
 }
 
 .bg-danger {
-  background-color: #dc3545 !important;
+  background-color: #AB2328 !important;
 }
 
 .bg-danger,
