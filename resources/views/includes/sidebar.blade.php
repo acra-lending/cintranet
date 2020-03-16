@@ -277,6 +277,12 @@
                     </li>
                 </ul>
             </li>
+            <li class=" nav-item">
+                <a href="/mediamanager/files" class="nav-link {{ Request::path() === 'mediamanager/files' ? 'active' : ''}}">
+                    <i class="nav-icon fas fa-hdd"></i>
+                    <p>File Manager</p>
+                </a>
+            </li>
         </ul>
         </nav>
         <!-- /.sidebar-menu -->
