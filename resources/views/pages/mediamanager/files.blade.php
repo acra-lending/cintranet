@@ -528,8 +528,17 @@
                                   </div>
                                 </div>
                               </div>
-                              <button class="btn btn-danger float-right mr-2">Upload</button>
-                            </div>
+                                <div class="col-md-4 float-right">
+                                <div class="input-group">
+                                    <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                    </div>
+                                    <div class="input-group-append">
+                                    <span class="input-group-text" id="">Upload</span>
+                                    </div>
+                                </div>
+                                </div>
                           </div><!-- end form cards -->
                         </div>
                       </div>
