@@ -53,6 +53,11 @@ Route::get('sales/ratesheets', function (){
     return view('pages.sales.ratesheets');
 });
 
+Route::get('sales/flyers', function (){
+    return view('pages.sales.flyers');
+});
+
+
 Route::get('operations/daily', function (){
     return view('pages.operations.daily');
 });

@@ -17633,6 +17633,22 @@ html.maximized-card {
   margin: 0;
 }
 
+.card-title-2 {
+  float: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 725px;
+}
+
+.card-title-3 {
+  float: left;
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin: 0;
+  margin-left: 258px;
+}
+
 .card-text {
   clear: both;
 }

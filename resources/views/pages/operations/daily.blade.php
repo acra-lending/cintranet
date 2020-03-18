@@ -40,8 +40,8 @@
                       <tbody>
                         <tr>
                           <td>Today's Subs</td>
-                          <td>35</td>
-                          <td>$ 11,569,600.00</td>
+                          <td><strong>35</strong></td>
+                          <td><strong>$ 11,569,600.00</strong></td>
                         </tr>
                         <tr>
                           <td>Incompletes NOT sub</td>
@@ -172,7 +172,7 @@
                         <tr>
                           <th>Date</th>
                           <th>Working Days</th>
-                          <th>Work Days Into the Month</th>
+                          <th>Work Days Into Month</th>
                           <th>Units</th>
                           <th>Volume</th>
                           <th>Average Subs Per Day</th>
@@ -253,7 +253,9 @@
             <div class="col-12">
               <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Submissions</h3>
+                  <h3 class="card-title">Fundings</h3>
+                  <h3 class="card-title-2">Funded Loans</h3>
+                  <h3 class="card-title-3">Funding Portfolio</h3>
   
                 </div>
                 <!-- /.card-header -->
@@ -263,10 +265,11 @@
                       <tr>
                         <th>Date</th>
                         <th>Working Days</th>
-                        <th>Work Days Into the Month</th>
+                        <th>Work Days Into Month</th>
                         <th>Units</th>
                         <th>Volume</th>
-                        <th>Average Subs Per Day</th>
+                        <th>Units</th>
+                        <th>Volume</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -274,25 +277,28 @@
                         <td>3-11-2020</td>
                         <td>22</td>
                         <td>8</td>
-                        <td>322</td>
-                        <td>$ 146,463,504.00</td>
-                        <td>40</td>
+                        <td>74</td>
+                        <td>$ 38,131,739.00</td>
+                        <td>99</td>
+                        <td>$ 41,679,500.00</td>
                       </tr>
                       <tr>
                         <td>2-12-2020</td>
                         <td>19</td>
-                        <td>8</td>
-                        <td>269</td>
-                        <td>$ 127,692,100.00</td>
-                        <td>34</td>
+                        <td>5</td>
+                        <td>68</td>
+                        <td>$ 26,161,828.00</td>
+                        <td>78</td>
+                        <td>$ 40,652,850.00</td>
                       </tr>
                       <tr>
-                        <td>1-13-2020</td>
+                        <td>1-10-2020</td>
                         <td>21</td>
-                        <td>8</td>
-                        <td>236</td>
-                        <td>$ 95,626,728.00</td>
-                        <td>30</td>
+                        <td>7</td>
+                        <td>77</td>
+                        <td>$ 30,669,263.00</td>
+                        <td>96</td>
+                        <td>$ 40,652,850.00</td>
                       </tr>
                     </tbody>
                   </table>
@@ -302,10 +308,10 @@
               <!-- /.card -->
             </div>
             
-            <div class="col-12">
+            <div class="col-6">
               <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Submissions</h3>
+                  <h3 class="card-title">Fundings</h3>
   
                 </div>
                 <!-- /.card-header -->
@@ -313,38 +319,80 @@
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th>Date</th>
-                        <th>Working Days</th>
-                        <th>Work Days Into the Month</th>
                         <th>Units</th>
                         <th>Volume</th>
-                        <th>Average Subs Per Day</th>
+                        <th>Funded/Funding Portfolio</th>
                       </tr>
                     </thead>
                     <tbody>
                       <tr>
-                        <td>3-11-2020</td>
-                        <td>22</td>
-                        <td>8</td>
-                        <td>322</td>
-                        <td>$ 146,463,504.00</td>
-                        <td>40</td>
+                        <td>173</td>
+                        <td>$ 79,811,239.00</td>
+                        <td>Current Month</td>
                       </tr>
                       <tr>
-                        <td>2-12-2020</td>
-                        <td>19</td>
-                        <td>8</td>
-                        <td>269</td>
-                        <td>$ 127,692,100.00</td>
-                        <td>34</td>
+                        <td>146</td>
+                        <td>$ 54,867,828.00</td>
+                        <td>Prior</td>
                       </tr>
                       <tr>
-                        <td>1-13-2020</td>
-                        <td>21</td>
-                        <td>8</td>
-                        <td>236</td>
-                        <td>$ 95,626,728.00</td>
-                        <td>30</td>
+                        <td>27</td>
+                        <td>$ 24,943,411.00</td>
+                        <td>Current vs Prior Month</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <!-- /.card-body -->
+              </div>
+              <!-- /.card -->
+            </div>
+            <div class="card card-danger" style="height: 8rem; width: 8rem;">
+              <div class="card-header">
+                <h5 class="card-title ml-4">WAC</h5>
+              </div>
+              <div class="card-body">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <h3>5.716%</h3>
+                  </div>
+                </div>
+              </div>
+
+            <!-- /.col -->
+          </div>
+            
+
+            <div class="col-6">
+              <div class="card card-danger">
+                <div class="card-header">
+                  <h3 class="card-title">Active Pipeline</h3>
+  
+                </div>
+                <!-- /.card-header -->
+                <div class="card-body table-responsive p-0">
+                  <table class="table table-hover text-nowrap">
+
+                    <tbody>
+                      <tr>
+                        <td>Wholesale</td>
+                        <td>$ 436,866,488.00</td>
+                        <td>969</td>
+                      </tr>
+                      <tr>
+                        <td>Retail</td>
+                        <td>$ 17,211,835.00</td>
+                        <td>38</td>
+                      </tr>
+                      <tr>
+                        <td>Correspondent</td>
+                        <td>$ 1,894,970.00</td>
+                        <td>4</td>
+                      </tr>
+                      <tr>
+                        <td></td>
+                        <td><strong>$ 455,973,293.00</strong></td>
+                        <td><strong>1011</strong></td>
                       </tr>
                     </tbody>
                   </table>
@@ -354,101 +402,35 @@
               <!-- /.card -->
             </div>
 
-            <div class="col-12">
+            <div class="col-6">
               <div class="card card-danger">
                 <div class="card-header">
-                  <h3 class="card-title">Submissions</h3>
+                  <h3 class="card-title">Funded Loans</h3>
   
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
                   <table class="table table-hover text-nowrap">
-                    <thead>
-                      <tr>
-                        <th>Date</th>
-                        <th>Working Days</th>
-                        <th>Work Days Into the Month</th>
-                        <th>Units</th>
-                        <th>Volume</th>
-                        <th>Average Subs Per Day</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr>
-                        <td>3-11-2020</td>
-                        <td>22</td>
-                        <td>8</td>
-                        <td>322</td>
-                        <td>$ 146,463,504.00</td>
-                        <td>40</td>
+                        <td>Wholesale</td>
+                        <td>$ 37,073,350.00</td>
+                        <td>70</td>
                       </tr>
                       <tr>
-                        <td>2-12-2020</td>
-                        <td>19</td>
-                        <td>8</td>
-                        <td>269</td>
-                        <td>$ 127,692,100.00</td>
-                        <td>34</td>
+                        <td>Retail</td>
+                        <td>$ 470,00.00</td>
+                        <td>2</td>
                       </tr>
                       <tr>
-                        <td>1-13-2020</td>
-                        <td>21</td>
-                        <td>8</td>
-                        <td>236</td>
-                        <td>$ 95,626,728.00</td>
-                        <td>30</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-                <!-- /.card-body -->
-              </div>
-              <!-- /.card -->
-            </div>
-
-            <div class="col-12">
-              <div class="card card-danger">
-                <div class="card-header">
-                  <h3 class="card-title">Submissions</h3>
-  
-                </div>
-                <!-- /.card-header -->
-                <div class="card-body table-responsive p-0">
-                  <table class="table table-hover text-nowrap">
-                    <thead>
-                      <tr>
-                        <th>Date</th>
-                        <th>Working Days</th>
-                        <th>Work Days Into the Month</th>
-                        <th>Units</th>
-                        <th>Volume</th>
-                        <th>Average Subs Per Day</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>3-11-2020</td>
-                        <td>22</td>
-                        <td>8</td>
-                        <td>322</td>
-                        <td>$ 146,463,504.00</td>
-                        <td>40</td>
+                        <td>Correspondent</td>
+                        <td>$ 587,389.00</td>
+                        <td>2</td>
                       </tr>
                       <tr>
-                        <td>2-12-2020</td>
-                        <td>19</td>
-                        <td>8</td>
-                        <td>269</td>
-                        <td>$ 127,692,100.00</td>
-                        <td>34</td>
-                      </tr>
-                      <tr>
-                        <td>1-13-2020</td>
-                        <td>21</td>
-                        <td>8</td>
-                        <td>236</td>
-                        <td>$ 95,626,728.00</td>
-                        <td>30</td>
+                        <td></td>
+                        <td><strong>$ 38,131,739.00</strong></td>
+                        <td><strong>74</strong></td>
                       </tr>
                     </tbody>
                   </table>
