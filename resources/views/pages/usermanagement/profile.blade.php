@@ -23,9 +23,9 @@
       <!-- Main content -->
       <section class="content">
         <div class="container-fluid">
+          @foreach($profile as $contact)  
           <div class="row">
             <div class="col-md-3">
-  
               <!-- Profile Image -->
               <div class="card card-danger card-outline">
                 <div class="card-body box-profile">
@@ -34,29 +34,29 @@
                          src="{{ asset ('img/avatar1.png') }}"
                          alt="User profile picture">
                   </div>
+                  <h3 class="profile-username text-center">{{$contact->firstname}} {{$contact->lastname}}</h3>
   
-                  <h3 class="profile-username text-center">John Alexander Nguyen</h3>
-  
-                  <p class="text-muted text-center">Digital Marketing Specialist</p>
+                  <p class="text-muted text-center">{{$contact->position}}</p>
   
                   <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
-                      <b>Email</b> <a class="float-right">Johnn@citadelservicing.com</a>
+                      <b>Email</b> <a class="float-right" href="mailto:{{$contact->email}}">{{$contact->email}}</a>
                     </li>
                     <li class="list-group-item">
-                      <b>Direct Phone</b> <a class="float-right">949-900-6630</a>
+                      <b>Direct Phone</b> <a class="float-right">{{$contact->directphone}}</a>
                     </li>
                     <li class="list-group-item">
-                      <b>Ext</b> <a class="float-right">165</a>
+                      <b>Ext</b> <a class="float-right">{{$contact->extension}}</a>
                     </li>
                     <li class="list-group-item">
-                      <b>Department</b> <a class="float-right">Marketing</a>
+                      <b>Department</b> <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->departments)}}</a>
                     </li>
                   </ul>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
+
   
               <!-- About Me Box -->
               <div class="card card-danger">
@@ -65,35 +65,31 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <strong><i class="fas fa-book mr-1"></i> Education</strong>
+                  <strong><i class="fas fa-users mr-1"></i> Team</strong>
   
                   <p class="text-muted">
-                    California State University, Fullerton
+                    {{$contact->team}}
                   </p>
   
                   <hr>
   
-                  <strong><i class="fas fa-map-marker-alt mr-1"></i> Location</strong>
+                  <strong><i class="fas fa-map-marker-alt mr-1"></i> Team Region</strong>
   
-                  <p class="text-muted">Irvine, California</p>
+                  <p class="text-muted">{{$contact->teamregion}}</p>
   
                   <hr>
   
-                  <strong><i class="fas fa-pencil-alt mr-1"></i> Skills</strong>
+                  <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
   
                   <p class="text-muted">
-                    <span class="tag tag-danger">UI Design</span>
-                    <span class="tag tag-success">Branding and Identity</span>
-                    <span class="tag tag-info">Adobe Creative Suite</span>
-                    <span class="tag tag-warning">HTML</span>
-                    <span class="tag tag-primary">CSS</span>
+                    <span class="tag tag-danger">{{ date('F jS, Y', strtotime($contact->registerDate)) }}</span>
                   </p>
   
                   <hr>
   
-                  <strong><i class="far fa-file-alt mr-1"></i> Notes</strong>
+                  <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
   
-                  <p class="text-muted">I am a Digital Marketing Specialist at Citadel Servicing Corp.</p>
+                  <p class="text-muted">{{$contact->cell}}</p>
                 </div>
                 <!-- /.card-body -->
               </div>
@@ -360,6 +356,7 @@
             <!-- /.col -->
           </div>
           <!-- /.row -->
+          @endforeach  
         </div><!-- /.container-fluid -->
       </section>
       <!-- /.content -->

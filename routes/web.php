@@ -33,13 +33,16 @@ Route::get('learning/building', function (){
     return view('pages.learning.building');
 });
 
-Route::get('usermanagement/profile', function () {
-    return view('pages.usermanagement.profile');
-});
+// Route::get('usermanagement/profile', function () {
+//     return view('pages.usermanagement.profile');
+// });
 
-Route::get('directory/directory', function (){
-    return view('pages.directory.directory');
-});
+// Route::get('directory/directory', function (){
+//     return view('pages.directory.directory');
+// });
+
+Route::get('directory/directory', 'DirectoryController@index');
+Route::get('usermanagement/{id}', 'DirectoryController@show');
 
 Route::get('sales/data', function () {
     return view('pages.sales.data');

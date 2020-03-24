@@ -253,17 +253,17 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <a href="/mvp">
+                        <a href="/humanresources/mvp">
                             <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_1.png') }}" alt="First slide">
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <a href="/mvp">
+                        <a href="/humanresources/mvp">
                             <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_2.jpg') }}" alt="Second slide">
                         </a>
                     </div>
                     <div class="carousel-item">
-                        <a href="/mvp">
+                        <a href="/humanresources/mvp">
                             <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_3.jpg') }}" alt="Third slide">
                         </a>
                     </div>
