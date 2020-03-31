@@ -4,6 +4,8 @@
 <script src="{{ asset ('plugins/jquery/jquery.min.js') }}"></script>
 <!-- jQuery UI -->
 <script src="{{ asset ('plugins/jquery-ui/jquery-ui.min.js') }}"></script>
+<!-- BS Custom File Input -->
+<script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
 <!-- Ekko Lightbox -->
 <script src="{{ asset ('plugins/ekko-lightbox/ekko-lightbox.min.js') }}"></script>
 <!-- Bootstrap -->
@@ -115,3 +117,28 @@ var myChart = new Chart(ctx, {
       });
     })
   </script>
+
+<script>
+  //Display Selected Files
+    var selDiv = "";
+
+    document.addEventListener("DOMContentLoaded", init, false);
+
+    function init() {
+        document.querySelector('#inputGroupFile').addEventListener('change', handleFileSelect, false);
+        selDiv = document.querySelector("#selectedFiles");
+    }
+    function handleFileSelect(e) {
+        
+        if(!e.target.files) return;
+
+        selDiv.innerHTML = "";
+            
+        var files = e.target.files;
+        for(var i=0; i < files.length; i++) {
+            var f = files[i];
+
+            selDiv.innerHTML += '<li class="list-group-item">' + f.name + '</li>'
+        }
+    }
+</script>

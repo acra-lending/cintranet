@@ -230,7 +230,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/sales/ratesheets" class="nav-link{{ Request::path() === 'ratesheets' ? 'active': ''}}">
+                        <a href="/sales/ratesheets" class="nav-link {{ Request::path() === 'sales/ratesheets' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Rate Sheets</p>
                         </a>
@@ -277,11 +277,20 @@
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item">
-                <a href="/mediamanager/files" class="nav-link {{ Request::path() === 'mediamanager/files' ? 'active' : ''}}">
+            <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
+                <a href="/mediamanager/files" class="nav-link">
                     <i class="nav-icon fas fa-hdd"></i>
                     <p>File Manager</p>
+                    <i class="right fas fa-angle-left"></i>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/mediamanager/upload" class="nav-link {{ Request::path() === 'mediamanager/upload' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>File Upload</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
         </ul>
         </nav>

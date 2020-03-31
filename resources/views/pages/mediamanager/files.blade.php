@@ -528,15 +528,20 @@
                                   </div>
                                 </div>
                               </div>
-                                <div class="col-md-4 float-right">
+
+                                <div class="col-md-6 float-right">
                                 <div class="input-group">
+                                  <form method="POST" action="/uploads" id="upload" enctype="multipart/form-data" style="width: 100%">
+                                    {{ csrf_field() }}
                                     <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                    <input type="file" class="custom-file-input" id="inputGroupFile" name="file[]" multiple>
+                                    <label class="custom-file-label" for="upload">Choose File</label>
                                     </div>
                                     <div class="input-group-append">
-                                    <span class="input-group-text" id="">Upload</span>
+                                    <button class="btn btn-danger" type="submit">Upload</button>
+
                                     </div>
+                                  </form>
                                 </div>
                                 </div>
                           </div><!-- end form cards -->

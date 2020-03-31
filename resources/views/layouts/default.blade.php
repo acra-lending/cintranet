@@ -12,6 +12,10 @@
         <!-- Sidebar -->
         @include('includes.sidebar')
 
+        <div class="container col-3">    
+            @include('includes.messages')
+        </div>
+
         @yield('content')
 
         <!-- Main Footer -->

@@ -52,9 +52,8 @@ Route::get('sales/forms', function (){
     return view('pages.sales.forms');
 });
 
-Route::get('sales/ratesheets', function (){
-    return view('pages.sales.ratesheets');
-});
+Route::get('sales/ratesheets', 'CategoryController@index');
+
 
 Route::get('sales/flyers', function (){
     return view('pages.sales.flyers');
@@ -80,6 +79,12 @@ Route::get('humanresources/paylocity', function (){
 Route::get('mediamanager/files', function (){
     return view('pages.mediamanager.files');
 });
+
+Route::get('mediamanager/upload', function(){
+    return view('pages.mediamanager.upload');
+});
+
+Route::post('uploads', 'UploadController@upload');
 
 Route::get('infotech/ticket', function(){
     return view('pages.infotech.ticket');
