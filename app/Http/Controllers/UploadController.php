@@ -18,36 +18,36 @@ class UploadController extends Controller
         
         $this->validate($request, [
             'category_id' => 'required',
-            'file' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif|max:8999'
+            'file' => 'required|nullable|max:9999'
         ]);
 
         //Handle File Upload
         if($request->hasFile('file')){
-
-            // Get filename with the extension
-            $filenameWithExt = $request->file('file')->getClientOriginalName();
-            // Get just filename
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
-            // Get Just ext
-            $extension = $request->file('file')->getClientOriginalExtension();
-            // Get filesize
-            $filesize = $request->file('file')->getSize();
-            $filesizeToStore = round($filesize * 0.0009765625, 2);
-            // Filename to store
-            $fileNameToStore = $filename.'_'.time().'.'.$extension;
-            // Upload Image
-            $path = $request->file('file')->storeAs('public/upload', $fileNameToStore);
-
-        } else {
-            $fileNameToStore = 'noimage.jpg';
-        }
         
-        //Create Upload Post
-        $post = new Post;
-        $post->category_id = $request->input('category_id');
-        $post->filename = $fileNameToStore;
-        $post->filesize = $filesizeToStore;
-        $post->save();
+            foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = $filename.'_'.time().'.'.$extension;
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = $request->input('category_id');
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                    
+                }           
 
         return back()->with('success', 'Upload Complete');
         
@@ -65,10 +65,6 @@ class UploadController extends Controller
             
         //     return back();
         // }        
-    }
-
-    public static function bytesToHuman($bytes)
-    {
-
+        }
     }
 }

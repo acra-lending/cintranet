@@ -48,11 +48,9 @@ Route::get('sales/data', function () {
     return view('pages.sales.data');
 });
 
-Route::get('sales/forms', function (){
-    return view('pages.sales.forms');
-});
+Route::get('sales/forms', 'GeneralFormsCategoryController@index');
 
-Route::get('sales/ratesheets', 'CategoryController@index');
+Route::get('sales/ratesheets', 'RatesheetCategoryController@index');
 
 
 Route::get('sales/flyers', function (){
@@ -85,6 +83,9 @@ Route::get('mediamanager/upload', function(){
 });
 
 Route::post('uploads', 'UploadController@upload');
+
+Route::get('download/{file}', 'DownloadController@download')->name('download');
+Route::get('download/{file}', 'DownloadController@show')->name('show');
 
 Route::get('infotech/ticket', function(){
     return view('pages.infotech.ticket');

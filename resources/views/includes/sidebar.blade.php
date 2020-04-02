@@ -20,6 +20,7 @@
                     <p>Dashboard</p>
                 </a>
             </li>
+            <br/>
 
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
@@ -38,6 +39,7 @@
                     </li>
                 </ul>
             </li>
+            <br/>
 
             <li class=" nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::path() === 'directory/directory' ? 'active' : ''}}">
@@ -162,14 +164,6 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="#" class="nav-link">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Resources</p>
-                        </a>
-                    </li>
-                </ul>
             </li>    
 
             <li class="nav-item has-treeview {{ Request::is('operations/*') ? 'menu-open': ''}}">
@@ -277,6 +271,14 @@
                     </li>
                 </ul>
             </li>
+            <li class=" nav-item">
+                <a href="#" class="nav-link {{ Request::path() === '' ? 'active' : ''}}">
+                    <i class="nav-icon fas fa-box-open"></i>
+                    <p>Resources</p>
+                </a>
+            </li>
+            <br/>
+            <br/>
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
                 <a href="/mediamanager/files" class="nav-link">
                     <i class="nav-icon fas fa-hdd"></i>

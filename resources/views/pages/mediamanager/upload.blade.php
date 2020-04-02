@@ -30,34 +30,200 @@
                         <div class="card-header">
                             <h4 class="card-title">Upload File(s)</h4>
                         </div>
+
                         <div class="card-body">
-                            {{ Form::open(['action' => 'UploadController@upload', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
-                                <div class="input-group">
-                                    {{-- <div class="form-group" style="width:50%;">
-                                        {{ Form::label('title', 'Title')}}
-                                        {{ Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'ie. csc-ratematrix-1stTDs-ODF'])}}
-                                    </div> --}}
-                                    <div class="input-group">
-                                        <div class="form-group" style="width:50%;">
-                                            {{ Form::label('category_id', 'Category')}}
-                                            {{ Form::select('category_id', ['OMBS & VOE', 'Non-Prime Wholesale', 'Outside Dodd-Frank', 'Outside Dodd-Frank Plus'])}}
-                                        </div>
-                                    </div>
-                                    <div class="input-group">
-                                        <div class="form-group">
-                                            {{ Form::file('file') }}
-                                        </div>
-                                    </div>
+
+                            <nav>
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Select</a>
+                                {{-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Operations</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Human Resources</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Servicing</a>
+                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Resources</a> --}}
                                 </div>
-                                {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
-                            {{ Form::close() }}
+                            </nav>
+                            <div class="tab-content" id="nav-tabContent">
+                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                    <div class="card-body">
+                                        <!-- /.card-header -->
+                                        <!-- form start -->
+                                            <div class="card-body">
+                                                {{ Form::open(['action' => 'UploadController@upload', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                                <div class="input-group">
+                                                    <div class="input-group">
+                                                        <div class="form-group" style="width:50%;">
+                                                            {{ Form::label('category_id', 'Category')}}
+                                                            {{ Form::select('category_id', [
+                                                                'Operations' => [
+                                                                    'Compliance' => [
+                                                                        'disclosure'        => 'Disclosure',
+                                                                        'important'         => 'Important',
+                                                                        'fundingStates'     => 'Funding States',
+                                                                        'policies'          => 'Policies'
+                                                                    ],
+                                                                    'Doc Drawer' => [
+                                                                        'compliance'            => 'Compliance',
+                                                                        'deptContacts'          => 'Dept Contacts',
+                                                                        'docDrawerForms'        => 'Forms',
+                                                                        'docDrawerProcesses'    => 'Processes',
+                                                                        'tisp'                  => 'Taxes/Insurance/Subject Property',
+                                                                    ]
+                                                                ],
 
+                                                                'Ratesheets' => [
+                                                                    'Wholesale' => [
+                                                                        'wsOmbsvoe'     => 'OMBS & VOE', 
+                                                                        'wsNonprime'    => 'Non-Prime Wholesale', 
+                                                                        'wsOdf'         => 'Outside Dodd-Frank', 
+                                                                        'wsOdfPlus'     => 'Outside Dodd-Frank Plus'
+                                                                    ],
+                                                                    'Correspondent' => [
+                                                                        'PDF' => [
+                                                                            'corrOmbsvoePdf'    => 'OMBS & VOE (PDF)', 
+                                                                            'corrNonprimePdf'   => 'Non-Prime Wholesale (PDF)', 
+                                                                            'corrOdfPdf'        => 'Outside Dodd-Frank (PDF)', 
+                                                                            'corrOdfPlusPdf'    => 'Outside Dodd-Frank Plus (PDF)',
+                                                                        ],
+                                                                        'Excel' => [
+                                                                            'corrOmbsvoeXlsx'   => 'OMBS & VOE (Excel)',
+                                                                            'corrNonprimeXlsx'  => 'Non-Prime Wholesale (Excel)',
+                                                                            'corrOdfXlsx'       => 'Outside Dodd-Frank (Excel)', 
+                                                                            'corrOdfPlusXlsx'   => 'Outside Dodd-Frank Plus (Excel)'
+                                                                        ]
+                                                                    ]                                                
+                                                                ],
 
+                                                                'Sales' => [
+                                                                    'Correspondents' => [
+                                                                        'corrDocs'          => 'Documents',
+                                                                        'flyersForBrokers'  => 'Flyers',
+                                                                        'corrIncentive'     => 'Incentive Program',
+                                                                        'social'            => 'LinkedIn/Social Posting Images',
+                                                                        'corrPrograms'      => 'Programs & Guidelines'
+                                                                    ],
+                                                                
+                                                                    'Flyers & Programs' => [
+                                                                        'aboutCsc'      => 'About CSC',
+                                                                        'cscPrograms'   => 'CSC Programs',
+                                                                        'social'        => 'LinkedIn/Social Posting Images',
+                                                                        'nicheFlyers'   => 'Niche Flyers',
+                                                                        'vertFlyers'    => 'Vertical Integration Flyer'
+                                                                    ],
 
+                                                                    'Retail' => [
+                                                                        'retailDocs'    => 'Documents',
+                                                                        'retailMLO'     => 'MLO Licenses'
+                                                                    ],
 
+                                                                    'Flyers For Brokers' => [
+                                                                        'flyersForBrokers'  => 'Flyers'
+                                                                    ],
 
+                                                                    'General Forms' => [
+                                                                        'generalForms'  => 'Forms'
+                                                                    ],
 
+                                                                    'Training Material' => [
+                                                                        'trainingAe'        => 'Account Executives',
+                                                                        'trainingAuto'      => 'Automation',
+                                                                        'trainingOps'       => 'OPS Meetings',
+                                                                        'trainingSystems'   => 'Systems',
+                                                                        'trainingVetting'   => 'Vetting',
+                                                                        'trainingVideos'    => 'Videos'
+                                                                    ],
 
+                                                                    'Marketing' => [
+                                                                        'marketingRequest'  => 'Marketing Request'
+                                                                    ]
+                                                                ],
+                                                                'Servicing' => [
+                                                                    'callScripts'           => 'Call Scripts',
+                                                                    'watchlist'             => 'CSC Watchlist',
+                                                                    'servicingDocs'         => 'Documents',
+                                                                    'servicingForeclosure'  => 'Foreclosure'
+                                                                ],
+                                                                'Human Resources' => [
+                                                                    'hrPaylocity'           => 'Paylocity',
+                                                                    'hrSchedules'           => 'Schedules',
+                                                                    'hrSuggestions'         => 'Suggestions and Referrals',
+                                                                    'hrNewHire'             => 'New Hire Forms and Notices',
+                                                                    'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
+                                                                    'hrHealthTopics'        => 'Health Topics and Suggestions',
+                                                                    'hrManagerTools'        => 'Manager Tools',
+                                                                    'hrBenefits'            => 'Benefits',
+                                                                    'hrHealthPlanDocs'      => 'Health Plan Documents',
+                                                                    'hr401k'                => '401(k) Summary Booklet',
+                                                                    
+                                                                    'State Workplace Posters' => [
+                                                                        'federal'       => 'Federal',
+                                                                        'alabama'       => 'Alabama',
+                                                                        'arizona'       => 'Arizona',
+                                                                        'california'    => 'California',
+                                                                        'colorado'      => 'Colorado',
+                                                                        'delaware'      => 'Delaware',
+                                                                        'florida'       => 'Florida',
+                                                                        'georgia'       => 'Georgia',
+                                                                        'idaho'         => 'Idaho',
+                                                                        'illinois'      => 'Illinois',
+                                                                        'indiana'       => 'Indiana',
+                                                                        'kentucky'      => 'Kentucky',
+                                                                        'louisiana'     => 'Louisiana',
+                                                                        'maryland'      => 'Maryland',
+                                                                        'massachusetts' => 'Massachusetts',
+                                                                        'minnesota'     => 'Minnesota',
+                                                                        'nevada'        => 'Nevada',
+                                                                        'newJersey'     => 'New Jersey',
+                                                                        'northCarolina' => 'North Carolina',
+                                                                        'oregon'        => 'Oregon',
+                                                                        'pennsylvania'  => 'Pennsylvania',
+                                                                        'southCarolina' => 'South Carolina',
+                                                                        'tennessee'     => 'Tennessee',
+                                                                        'texas'         => 'Texas',
+                                                                        'utah'          => 'Utah',
+                                                                        'virginia'      => 'Virginia',
+                                                                        'washington'    => 'Washington',
+                                                                        'washingtonDc'  => 'Washington D.C.',
+                                                                        'wisconsin'     => 'Wisconsin',
+                                                                    ]
+                                                                ],
+
+                                                                'Learning & Development' => [
+                                                                    'learning' => 'Learning',
+                                                                    'Participant Guides' => [
+                                                                        'operationGuides' => 'Operations',
+                                                                        'servicingGuides' => 'Servicing'
+                                                                    ]
+                                                                ]
+                                                        ], null, ['placeholder' => 'Pick a category']) }}
+                                                        </div>
+                                                    </div>
+                                                    <div class="input-group">
+                                                        <div class="form-group">
+                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'xls,xlsx,pdf,jpeg,bmp,png,gif')) }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                                            {{ Form::close() }}
+                                            </div>
+                                            <!-- /.card-body -->
+                                    </div>
+                                    <!-- /.card -->
+                                </div>
+                            </div>
+                            </div>
+                    
+                        </div>
+                    </div>
+                </div>
+                </div>
+        </section>
+        </div>
+  </div>
+  <!-- /.col -->
+<!-- /.control-sidebar -->
+<!-- ./wrapper -->
+@stop
 
 
 
@@ -87,15 +253,3 @@
                                 </div>
                             </div>
                             </div> --}}
-                        </div>
-                        </div>
-                    </div>
-                </div>
-                </div>
-        </section>
-        </div>
-  </div>
-  <!-- /.col -->
-<!-- /.control-sidebar -->
-<!-- ./wrapper -->
-@stop
