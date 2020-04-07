@@ -65,31 +65,39 @@
         }
     </style>
         <section class="content">
-            <div class="col-md-9">
+            <div class="col-md-10">
   
               <div class="card card-danger card-outline">
                 <div class="card-header">
                   <h3 class="card-title">
                     <i class="fas fa-book-open"></i>
-                    Flyers For Broker Use
+                    Flyers
                   </h3>
                 </div>
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-5 col-sm-3">
+                    <div class="col-3 col-sm-2">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="vert-tabs-flyers-tab" data-toggle="pill" href="#vert-tabs-flyers" role="tab" aria-controls="vert-tabs-flyers" aria-selected="true">Flyers For Brokers</a>
+                        <a class="nav-link active" id="vert-tabs-aboutcsc-tab" data-toggle="pill" href="#vert-tabs-aboutcsc" role="tab" aria-controls="vert-tabs-aboutcsc" aria-selected="true">About CSC</a>
+                        <a class="nav-link" id="vert-tabs-automation-tab" data-toggle="pill" href="#vert-tabs-automation" role="tab" aria-controls="vert-tabs-automation" aria-selected="true">Automation</a>
+                        <a class="nav-link" id="vert-tabs-brokers-tab" data-toggle="pill" href="#vert-tabs-brokers" role="tab" aria-controls="vert-tabs-brokers" aria-selected="true">Brokers</a>
+                        <a class="nav-link" id="vert-tabs-corr-tab" data-toggle="pill" href="#vert-tabs-corr" role="tab" aria-controls="vert-tabs-corr" aria-selected="true">Correspondent</a>
+                        <a class="nav-link" id="vert-tabs-cscprograms-tab" data-toggle="pill" href="#vert-tabs-cscprograms" role="tab" aria-controls="vert-tabs-cscprograms" aria-selected="true">CSC Programs</a>
+                        <a class="nav-link" id="vert-tabs-social-tab" data-toggle="pill" href="#vert-tabs-social" role="tab" aria-controls="vert-tabs-social" aria-selected="true">LinkedIn/Social Images</a>
+                        <a class="nav-link" id="vert-tabs-niche-tab" data-toggle="pill" href="#vert-tabs-niche" role="tab" aria-controls="vert-tabs-niche" aria-selected="true">Niche Flyers</a>
+                        <a class="nav-link" id="vert-tabs-retail-tab" data-toggle="pill" href="#vert-tabs-retail" role="tab" aria-controls="vert-tabs-retail" aria-selected="true">Retail Flyers</a>
+                        <a class="nav-link" id="vert-tabs-vertical-tab" data-toggle="pill" href="#vert-tabs-vertical" role="tab" aria-controls="vert-tabs-vertical" aria-selected="true">Vertical Integration</a>
                       </div>
                     </div>
-                    <div class="col-7 col-sm-9">
+                    <div class="col-7 col-sm-10">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        <div class="tab-pane text-left fade show active" id="vert-tabs-flyers" role="tabpanel" aria-labelledby="vert-tabs-flyers-tab">
+                        <div class="tab-pane text-left fade show active" id="vert-tabs-aboutcsc" role="tabpanel" aria-labelledby="vert-tabs-aboutcsc-tab">
                           
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">Flyers For Brokers</h3>
+                                <h3 class="card-title">About CSC Flyers</h3>
                                 <div class="card-tools">
                                   </a>
                                 </div>
@@ -100,111 +108,34 @@
                                       <tr>
                                       <th>File Name</th>
                                       <th>File Size</th>
-                                      <th></th>
+                                      <th>Created At</th>
                                       </tr>
                                   </thead>
                                       <tbody>
-              
+                                        @foreach($aboutCsc as $category)
                                           <tr>
-                                          <td>Asset Depletion.pdf</td>
-                                          <td>49.8 kb</td>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                           <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
-                                              <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                              <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
                                               </div>
                                           </td>
-                      
+                                        @endforeach
                                       </tbody>
-                                      <tbody>
-              
-                                          <tr>
-                                          <td>ATR in Full.pdf</td>
-                                          <td>66.2 kb</td>
-                                          <td class="text-right py-0 align-middle">
-                                              <div class="btn-group btn-group-sm">
-                                              <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                              <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                              </div>
-                                          </td>
-                      
-                                      </tbody>
-                                      <tbody>
-              
-                                          <tr>
-                                          <td>Bank Statements.pdf</td>
-                                          <td>103.4 kb</td>
-                                          <td class="text-right py-0 align-middle">
-                                              <div class="btn-group btn-group-sm">
-                                              <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                              <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                              </div>
-                                          </td>
-                      
-                                      </tbody>
-                                      <tbody>
-              
-                                        <tr>
-                                        <td>Commercial (ODF+).pdf</td>
-                                        <td>73.4 kb</td>
-                                        <td class="text-right py-0 align-middle">
-                                            <div class="btn-group btn-group-sm">
-                                            <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                            <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                            </div>
-                                        </td>
-                    
-                                    </tbody>
-                                    <tbody>
-              
-                                      <tr>
-                                      <td>DSCR.pdf</td>
-                                      <td>33.4 kb</td>
-                                      <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
-                                          <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                          <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
-                                      </td>
-                  
-                                  </tbody>
-                                  <tbody>
-              
-                                    <tr>
-                                    <td>Fix and Keep.pdf</td>
-                                    <td>323.4 kb</td>
-                                    <td class="text-right py-0 align-middle">
-                                        <div class="btn-group btn-group-sm">
-                                        <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                        <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                        </div>
-                                    </td>
-                
-                                </tbody>
-                                <tbody>
-              
-                                  <tr>
-                                  <td>Foreign National.pdf</td>
-                                  <td>123.4 kb</td>
-                                  <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
-                                      <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                      <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                      </div>
-                                  </td>
-              
-                                </tbody>
                                 </table>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-non-prime-ws" role="tabpanel" aria-labelledby="vert-tabs-non-prime-ws-tab">
+                        <div class="tab-pane fade" id="vert-tabs-automation" role="tabpanel" aria-labelledby="vert-tabs-automation-tab">
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">Non-Prime Wholesale</h3>
+                                <h3 class="card-title">Automation Flyers</h3>
                                 <div class="card-tools">
                                   </a>
                                 </div>
@@ -215,33 +146,34 @@
                                       <tr>
                                       <th>File Name</th>
                                       <th>File Size</th>
-                                      <th></th>
+                                      <th>Created At</th>
                                       </tr>
                                   </thead>
                                   <tbody>
-          
+                                    @foreach($automation as $category)
                                       <tr>
-                                      <td>Non-Prime Wholesale Rate Sheet.pdf</td>
-                                      <td>49.8 kb</td>
+                                        <td>{{$category->filename}}</td>
+                                        <td>{{$category->filesize}} KB</td>
+                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
                                           <div class="btn-group btn-group-sm">
-                                          <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                          <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                            <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
                                           </div>
                                       </td>
-                  
+                                    @endforeach
                                   </tbody>
                                   </table>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-odf" role="tabpanel" aria-labelledby="vert-tabs-odf-tab">
+                        <div class="tab-pane fade" id="vert-tabs-brokers" role="tabpanel" aria-labelledby="vert-tabs-brokers-tab">
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">Outside Dodd-Frank<sup>®</sup></h3>
+                                <h3 class="card-title">Flyers for Brokers</h3>
                                 <div class="card-tools">
                                   </a>
                                 </div>
@@ -252,33 +184,34 @@
                                       <tr>
                                       <th>File Name</th>
                                       <th>File Size</th>
-                                      <th></th>
+                                      <th>Created At</th>
                                       </tr>
                                   </thead>
                                   <tbody>
-          
+                                    @foreach($brokerFlyers as $category)
                                       <tr>
-                                      <td>Outside Dodd-Frank Rate Sheet.pdf</td>
-                                      <td>49.8 kb</td>
+                                        <td>{{$category->filename}}</td>
+                                        <td>{{$category->filesize}} KB</td>
+                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
                                           <div class="btn-group btn-group-sm">
-                                          <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                          <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                            <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
                                           </div>
                                       </td>
-                  
+                                    @endforeach
                                   </tbody>
                                   </table>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-odfplus" role="tabpanel" aria-labelledby="vert-tabs-odfplus-tab">
+                        <div class="tab-pane fade" id="vert-tabs-corr" role="tabpanel" aria-labelledby="vert-tabs-corr-tab">
                             <!-- /.content-header -->        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
-                                  <h3 class="card-title">Outside Dodd-Frank<sup>®</sup>Plus</h3>
+                                  <h3 class="card-title">Flyers For Correspondents</h3>
                                   <div class="card-tools">
                                     </a>
                                   </div>
@@ -289,28 +222,220 @@
                                         <tr>
                                         <th>File Name</th>
                                         <th>File Size</th>
-                                        <th></th>
+                                        <th>Created At</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-            
+                                      @foreach($corrFlyers as $category)
                                         <tr>
-                                        <td>Outside Dodd-Frank Plus Rate Sheet.pdf</td>
-                                        <td>49.8 kb</td>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                         <td class="text-right py-0 align-middle">
                                             <div class="btn-group btn-group-sm">
-                                            <a href="#" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                            <a href="#" class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
                                             </div>
                                         </td>
-                    
+                                      @endforeach
                                     </tbody>
                                     </table>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        
+                          <div class="tab-pane fade" id="vert-tabs-cscprograms" role="tabpanel" aria-labelledby="vert-tabs-cscprograms-tab">
+                            <!-- /.content-header -->        
+                            <div class="col">
+                              <div class="card card-danger">
+                                <div class="card-header border-0">
+                                  <h3 class="card-title">CSC Program Flyers</h3>
+                                  <div class="card-tools">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                  <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($cscPrograms as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                        <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </td>
+                                      @endforeach
+                                    </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="vert-tabs-social" role="tabpanel" aria-labelledby="vert-tabs-social-tab">
+                            <!-- /.content-header -->        
+                            <div class="col">
+                              <div class="card card-danger">
+                                <div class="card-header border-0">
+                                  <h3 class="card-title">LinkedIn and Social Images</h3>
+                                  <div class="card-tools">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                  <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($social as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                        <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </td>
+                                      @endforeach
+                                    </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="vert-tabs-niche" role="tabpanel" aria-labelledby="vert-tabs-niche-tab">
+                            <!-- /.content-header -->        
+                            <div class="col">
+                              <div class="card card-danger">
+                                <div class="card-header border-0">
+                                  <h3 class="card-title">Niche Flyers</h3>
+                                  <div class="card-tools">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                  <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($niche as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                        <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </td>
+                                      @endforeach
+                                    </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="vert-tabs-retail" role="tabpanel" aria-labelledby="vert-tabs-retail-tab">
+                            <!-- /.content-header -->        
+                            <div class="col">
+                              <div class="card card-danger">
+                                <div class="card-header border-0">
+                                  <h3 class="card-title">Retail Flyers</h3>
+                                  <div class="card-tools">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                  <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($retail as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                        <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </td>
+                                      @endforeach
+                                    </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="tab-pane fade" id="vert-tabs-vertical" role="tabpanel" aria-labelledby="vert-tabs-vertical-tab">
+                            <!-- /.content-header -->        
+                            <div class="col">
+                              <div class="card card-danger">
+                                <div class="card-header border-0">
+                                  <h3 class="card-title">Vertical Integration Flyers</h3>
+                                  <div class="card-tools">
+                                    </a>
+                                  </div>
+                                </div>
+                                <div class="card-body table-responsive p-0">
+                                  <table class="table">
+                                    <thead>
+                                        <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($vert as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                        <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                            </div>
+                                        </td>
+                                      @endforeach
+                                    </tbody>
+                                    </table>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+
+                        </div>
                       </div>
                     </div>
                   </div>

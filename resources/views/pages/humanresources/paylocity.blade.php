@@ -37,7 +37,7 @@
             <div class="float-left">
                 <div class="container">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset ('img/paylocity-logo.png') }}" alt="paylocity-logo">
+                        <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo">
                         <div class="card-body">
                             <h5 class="card-title">Paylocity Login Guide</h5>
                             <p class="card-text" style="padding-top: 45px;">Instructions to Log In to Paylocity (www.paylocity.com).</p>
@@ -49,7 +49,7 @@
             <div class="float-left">
                 <div class="container">
                     <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset ('img/webpay.jpg') }}" alt="webpay-logo">
+                        <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="webpay-logo">
                         <div class="card-body">
                             <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5>
                             <p class="card-text" style="padding-top: 45px;">Access Web Pay at (loginpaylocity.com).</p>
@@ -71,7 +71,7 @@
                   </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-thumbnail float-right" src="{{ asset ('img/paylocity-logo.png') }}">
+                    <img class="img-thumbnail float-right" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg">
                     <p>Go to access.paylocity.com (opens in new tab)</p>
                 </div>
                 <div class="modal-footer justify-content-between">

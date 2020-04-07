@@ -53,13 +53,19 @@ Route::get('sales/forms', 'GeneralFormsCategoryController@index');
 Route::get('sales/ratesheets', 'RatesheetCategoryController@index');
 
 
-Route::get('sales/flyers', function (){
-    return view('pages.sales.flyers');
+Route::get('sales/flyers', 'FlyersController@index');
+
+Route::get('sales/documents', function(){
+    return view('pages.sales.documents');
 });
 
 
 Route::get('operations/daily', function (){
     return view('pages.operations.daily');
+});
+
+Route::get('operations/forms', function (){
+    return view('pages.operations.forms');
 });
 
 Route::get('servicing/servicing', function () {
