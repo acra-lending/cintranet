@@ -19,19 +19,19 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('learning/announcements', function () {
     return view('pages.learning.announcements');
-});
+})->middleware('auth');
 
 Route::get('learning/announcements2', function () {
     return view('pages.learning.announcements2');
-});
+})->middleware('auth');
 
 Route::get('learning/announcements3', function () {
     return view('pages.learning.announcements3');
-});
+})->middleware('auth');
 
 Route::get('learning/building', function (){
     return view('pages.learning.building');
-});
+})->middleware('auth');
 
 // Route::get('usermanagement/profile', function () {
 //     return view('pages.usermanagement.profile');
@@ -42,7 +42,8 @@ Route::get('learning/building', function (){
 // });
 
 Route::get('directory/directory', 'DirectoryController@index')->middleware('auth');
-Route::get('usermanagement/{id}', 'DirectoryController@show')->middleware('auth');
+Route::get('usermanagement/profile/{id}', 'DirectoryController@show')->middleware('auth');
+Route::get('directory/user/{id}', 'DirectoryController@show')->middleware('auth');
 
 Route::get('sales/data', function () {
     return view('pages.sales.data');
@@ -105,8 +106,8 @@ Route::get('/', 'HomeController@index')->name('home');
 
 
 
-Route::namespace('Admin')->prefix('admin')->name('admin.')->group(function(){
-    Route::resource('/users', 'UsersController', ['except' => ['show', 'create', 'store']]);
+Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(function(){
+    Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 
     
 });

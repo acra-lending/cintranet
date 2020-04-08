@@ -52,7 +52,7 @@
                 </div>
                 <div class="card-footer">
                   <div class="text-right">
-                    <a href="/usermanagement/{{$contact->id}}" class="btn btn-sm btn-danger">
+                    <a href="/directory/user/{{$contact->id}}" class="btn btn-sm btn-danger">
                       <i class="fas fa-user"></i> View Profile
                     </a>
                   </div>

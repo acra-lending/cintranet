@@ -32,6 +32,6 @@ class DirectoryController extends Controller
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('s2zar_jsn_users.id', $id)
         ->get();
-        return view('pages.usermanagement.profile')->with('profile', $profile);
+        return view('pages.directory.user.profile')->with('profile', $profile);
     }
 }

@@ -29,12 +29,19 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
-
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/usermanagement/profile" class="nav-link {{ Request::path() === 'usermanagement/profile' ? 'active': ''}}">
+                        <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="nav-link {{ Request::is('usermanagement/profile/*') ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>User Profile</p>
+                            <p>Profile</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{ route('admin.user.index') }}" class="nav-link {{ Request::is('usermanagement/user') ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Manage Users</p>
                         </a>
                     </li>
                 </ul>
@@ -42,7 +49,7 @@
             <br/>
 
             <li class=" nav-item">
-                <a href="/directory/directory" class="nav-link {{ Request::path() === 'directory/directory' ? 'active' : ''}}">
+                <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">
                     <i class="nav-icon fas fa-address-book"></i>
                     <p>Directory</p>
                 </a>

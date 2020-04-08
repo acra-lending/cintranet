@@ -3,7 +3,8 @@
 namespace App\Http\Controllers\Admin;
 
 use App\User;
-use DB;
+use App\Role;
+// use DB;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
@@ -23,11 +24,14 @@ class UsersController extends Controller
     public function index()
     {
 
-        $users = DB::table('s2zar_jsn_users')
-        ->orderBy('lastname', 'asc')
-        ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
-        ->get();
-        return view('admin.users.index')->with('users', $users);
+        // $users = DB::table('s2zar_jsn_users')
+        // ->orderBy('firstname', 'asc')
+        // ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
+        // ->paginate(14);
+        $users = User::orderBy('name', 'asc')->paginate(14);
+        return view('pages.usermanagement.index')->with([
+            'users' => $users
+        ]);
     }
 
     /**
@@ -68,9 +72,14 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(User $user)
     {
-        //
+        $roles = Role::all();
+        
+        return view('pages.usermanagement.edit')->with([
+            'user' => $user,
+            'roles' => $roles
+        ]);
     }
 
     /**
@@ -80,9 +89,12 @@ class UsersController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, User $user)
     {
-        //
+        
+        $user->roles()->sync($request->roles);
+        
+        return redirect()->route('admin.user.index');
     }
 
     /**
