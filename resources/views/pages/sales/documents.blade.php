@@ -65,7 +65,7 @@
         }
     </style>
         <section class="content">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-12 col-xl-10">
   
               <div class="card card-danger card-outline">
                 <div class="card-header">
@@ -87,12 +87,12 @@
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-corr" role="tabpanel" aria-labelledby="nav-corr-tab">
                       <div class="row">
-                        <div class="col-3 col-sm-2">
+                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-2">
                           <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="vert-tabs-corr-docs-tab" data-toggle="pill" href="#vert-tabs-corr-docs" role="tab" aria-controls="vert-tabs-corr-docs" aria-selected="true">Documents</a>
                           </div>
                         </div>
-                        <div class="col-7 col-sm-10">
+                        <div class="col-sm-12 col-md-10 col-lg-9">
                           <div class="tab-content" id="vert-tabs-tabContent">
                             <div class="tab-pane text-left fade show active" id="vert-tabs-corr-docs" role="tabpanel" aria-labelledby="vert-tabs-corr-docs-tab">
                               
@@ -138,13 +138,13 @@
                     </div>
                     <div class="tab-pane fade show" id="nav-retail" role="tabpanel" aria-labelledby="nav-retail-tab">
                       <div class="row">
-                        <div class="col-3 col-sm-2">
+                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-2">
                           <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="vert-tabs-retail-docs-tab" data-toggle="pill" href="#vert-tabs-retail-docs" role="tab" aria-controls="vert-tabs-retail-docs" aria-selected="true">Documents</a>
                             <a class="nav-link" id="vert-tabs-retail-mlo-tab" data-toggle="pill" href="#vert-tabs-retail-mlo" role="tab" aria-controls="vert-tabs-retail-mlo" aria-selected="true">MLO Licenses</a>
                           </div>
                         </div>
-                        <div class="col-7 col-sm-10">
+                        <div class="col-sm-12 col-md-10 col-lg-9">
                           <div class="tab-content" id="vert-tabs-tabContent">
                             <div class="tab-pane text-left fade show active" id="vert-tabs-retail-docs" role="tabpanel" aria-labelledby="vert-tabs-retail-docs-tab">
                               

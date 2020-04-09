@@ -22,7 +22,7 @@
         </div>
 
         <section class="content">
-          <div class="col-md-10">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
 
             <div class="card card-danger card-outline">
               <div class="card-header">
@@ -43,7 +43,7 @@
                 <div class="tab-content" id="nav-tabContent">
                   <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
                     <div class="row">
-                      <div class="col-3 col-sm-2">
+                      <div class="col-sm-2">
                         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                           <a class="nav-link active" id="vert-tabs-num-tab" data-toggle="pill" href="#vert-tabs-num" role="tab" aria-controls="vert-tabs-num" aria-selected="true">#</a>
                           <a class="nav-link" id="vert-tabs-a-d-tab" data-toggle="pill" href="#vert-tabs-a-d" role="tab" aria-controls="vert-tabs-a-d" aria-selected="false">A-D</a>
@@ -55,7 +55,7 @@
                           <a class="nav-link" id="vert-tabs-y-z-tab" data-toggle="pill" href="#vert-tabs-y-z" role="tab" aria-controls="vert-tabs-y-z" aria-selected="false">Y-Z</a>
                         </div>
                       </div>
-                      <div class="col-7 col-sm-10">
+                      <div class="col-sm-10">
                         <div class="tab-content" id="vert-tabs-tabContent">
                           <div class="tab-pane text-left fade show active" id="vert-tabs-num" role="tabpanel" aria-labelledby="vert-tabs-num-tab">
                             
@@ -378,7 +378,7 @@
               <!-- /.card -->
               <div class="tab-pane fade show" id="nav-training" role="tabpanel" aria-labelledby="nav-training-tab">
                 <div class="row">
-                  <div class="col-3 col-sm-2">
+                  <div class="col-sm-3">
                     <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                       <a class="nav-link active" id="vert-tabs-ae-tab" data-toggle="pill" href="#vert-tabs-ae" role="tab" aria-controls="vert-tab-ae" aria-selected="true">Account Executive</a>
                       <a class="nav-link" id="vert-tabs-systems-tab" data-toggle="pill" href="#vert-tabs-systems" role="tab" aria-controls="vert-tabs-systems" aria-selected="false">Systems</a>
@@ -392,7 +392,7 @@
               </div>
               <div class="tab-pane fade show" id="nav-marketing" role="tabpanel" aria-labelledby="nav-marketing-tab">
                 <div class="row">
-                  <div class="col-3 col-sm-2">
+                  <div class="col-sm-3">
                     <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                       <a class="nav-link active" id="vert-tabs-requests-tab" data-toggle="pill" href="#vert-tabs-requests" role="tab" aria-controls="vert-tab-requests" aria-selected="true">Request Forms</a>
                       <a class="nav-link" id="vert-tabs-materials-tab" data-toggle="pill" href="#vert-tabs-materials" role="tab" aria-controls="vert-tabs-materials" aria-selected="false">Materials & Reference</a>

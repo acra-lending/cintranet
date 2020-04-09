@@ -51,7 +51,7 @@
                                                 {{ Form::open(['action' => 'UploadController@upload', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                                 <div class="input-group">
                                                     <div class="input-group">
-                                                        <div class="form-group" style="width:50%;">
+                                                        <div class="form-group">
                                                             {{ Form::label('category_id', 'Category')}}
                                                             {{ Form::select('category_id', [
                                                                 'Operations' => [
@@ -274,7 +274,7 @@
                                                                         'servicingGuides' => 'Servicing'
                                                                     ]
                                                                 ]
-                                                        ], null, ['placeholder' => 'Pick a category']) }}
+                                                        ], null, ['placeholder' => 'Pick a category', 'style' => 'width:90%']) }}
                                                         </div>
                                                     </div>
                                                     <div class="input-group">

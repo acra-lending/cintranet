@@ -25,7 +25,7 @@
         <div class="container-fluid">
           @foreach($profile as $contact)  
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4">
               <!-- Profile Image -->
               <div class="card card-danger card-outline">
                 <div class="card-body box-profile">

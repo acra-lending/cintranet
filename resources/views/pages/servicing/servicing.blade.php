@@ -64,7 +64,7 @@
         }
     </style>
         <section class="content">
-          <div class="col-md-9">
+          <div class="col-md-12 col-lg-12 col-xl-9">
 
             <div class="card card-danger card-outline">
               <div class="card-header">
@@ -75,14 +75,14 @@
               </div>
               <div class="card-body">
                 <div class="row">
-                  <div class="col-5 col-sm-3">
+                  <div class="col-sm-3">
                     <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                       <a class="nav-link active" id="vert-tabs-callscripts-tab" data-toggle="pill" href="#vert-tabs-callscripts" role="tab" aria-controls="vert-tabs-callscripts" aria-selected="true">Call Scripts</a>
                       <a class="nav-link" id="vert-tabs-documents-tab" data-toggle="pill" href="#vert-tabs-documents" role="tab" aria-controls="vert-tabs-documents" aria-selected="false">Documents</a>
                       <a class="nav-link" id="vert-tabs-cscwatchlist-tab" data-toggle="pill" href="#vert-tabs-cscwatchlist" role="tab" aria-controls="vert-tabs-cscwatchlist" aria-selected="false">CSC Watchlist</a>
                     </div>
                   </div>
-                  <div class="col-7 col-sm-9">
+                  <div class="col-sm-9">
                     <div class="tab-content" id="vert-tabs-tabContent">
                       <div class="tab-pane text-left fade show active" id="vert-tabs-callscripts" role="tabpanel" aria-labelledby="vert-tabs-callscripts-tab">
                         

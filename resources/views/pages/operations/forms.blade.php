@@ -48,7 +48,7 @@
                       <div class="tab-content" id="nav-tabContent">
                         <div class="tab-pane fade show active" id="nav-corr" role="tabpanel" aria-labelledby="nav-corr-tab">
                           <div class="row">
-                            <div class="col-3 col-sm-2">
+                            <div class="col-sm-4 col-md-3 col-lg-3">
                               <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                                 <a class="nav-link active" id="vert-tabs-disclosure-tab" data-toggle="pill" href="#vert-tabs-disclosure" role="tab" aria-controls="vert-tabs-disclosure" aria-selected="true">Disclosure</a>
                                 <a class="nav-link" id="vert-tabs-funding-states-tab" data-toggle="pill" href="#vert-tabs-funding-states" role="tab" aria-controls="vert-tabs-funding-states" aria-selected="false">Funding States</a>
@@ -57,7 +57,7 @@
                                 <a class="nav-link" id="vert-tabs-policies-tab" data-toggle="pill" href="#vert-tabs-policies" role="tab" aria-controls="vert-tabs-policies" aria-selected="false">Policies</a>
                               </div>
                             </div>
-                            <div class="col-7 col-sm-10">
+                            <div class="col-sm-12 col-md-9 col-lg-9">
                               <div class="tab-content" id="vert-tabs-tabContent">
                                 <div class="tab-pane text-left fade show active" id="vert-tabs-disclosure" role="tabpanel" aria-labelledby="vert-tabs-disclosure-tab">
                                   
@@ -258,7 +258,7 @@
                         
                         <div class="tab-pane fade show" id="nav-funding" role="tabpanel" aria-labelledby="nav-funding-tab">
                           <div class="row">
-                            <div class="col-3 col-sm-2">
+                            <div class="col-sm-4 col-md-3 col-lg-3">
                               <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                                 <a class="nav-link active" id="vert-tabs-doc-drawer-tab" data-toggle="pill" href="#vert-tabs-doc-drawer" role="tab" aria-controls="vert-tabs-doc-drawer" aria-selected="true">Doc Drawer</a>
                                 <a class="nav-link" id="vert-tabs-funder-tab" data-toggle="pill" href="#vert-tabs-funder" role="tab" aria-controls="vert-tabs-funder" aria-selected="false">Funder</a>
@@ -267,7 +267,7 @@
                                 <a class="nav-link" id="vert-tabs-funding-forms-tab" data-toggle="pill" href="#vert-tabs-funding-forms" role="tab" aria-controls="vert-tabs-funding-forms" aria-selected="false">Funding Forms</a>
                               </div>
                             </div>
-                            <div class="col-7 col-sm-10">
+                            <div class="col-sm-12 col-md-9 col-lg-9">
                               <div class="tab-content" id="vert-tabs-tabContent">
                                 <div class="tab-pane text-left fade show active" id="vert-tabs-doc-drawer" role="tabpanel" aria-labelledby="vert-tabs-doc-drawer-tab">
                                   
@@ -463,7 +463,7 @@
                       </div>
                       <div class="tab-pane fade show" id="nav-lsu" role="tabpanel" aria-labelledby="nav-lsu-tab">
                         <div class="row">
-                          <div class="col-3 col-sm-2">
+                          <div class="col-sm-4 col-md-3 col-lg-3">
                             <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                               <a class="nav-link active" id="vert-tabs-attachments-tab" data-toggle="pill" href="#vert-tabs-attachments" role="tab" aria-controls="vert-tabs-attachments" aria-selected="true">Attachments To Send with Welcome Letter</a>
                               <a class="nav-link" id="vert-tabs-dept-tab" data-toggle="pill" href="#vert-tabs-dept" role="tab" aria-controls="vert-tabs-dept" aria-selected="false">Deparment Contacts</a>
@@ -477,7 +477,7 @@
                               <a class="nav-link" id="vert-tabs-vetting-tab" data-toggle="pill" href="#vert-tabs-vetting" role="tab" aria-controls="vert-tabs-vetting" aria-selected="false">Vetting</a>
                             </div>
                           </div>
-                          <div class="col-7 col-sm-10">
+                          <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
                               <div class="tab-pane text-left fade show active" id="vert-tabs-attachments" role="tabpanel" aria-labelledby="vert-tabs-attachments-tab">
                                 
@@ -860,14 +860,14 @@
 
                     <div class="tab-pane fade show" id="nav-tm" role="tabpanel" aria-labelledby="nav-tm-tab">
                         <div class="row">
-                          <div class="col-3 col-sm-2">
+                          <div class="col-sm-4 col-md-3 col-lg-3">
                             <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                               <a class="nav-link active" id="vert-tabs-forms-to-send-tab" data-toggle="pill" href="#vert-tabs-forms-to-send" role="tab" aria-controls="vert-tabs-forms-to-send" aria-selected="true">Forms To Send To Brokers</a>
                               <a class="nav-link" id="vert-tabs-internal-tab" data-toggle="pill" href="#vert-tabs-internal" role="tab" aria-controls="vert-tabs-internal" aria-selected="false">Internal</a>
                               <a class="nav-link" id="vert-tabs-program-guides-tab" data-toggle="pill" href="#vert-tabs-program-guides" role="tab" aria-controls="vert-tabs-program-guides" aria-selected="false">Program Guides</a>
                             </div>
                           </div>
-                          <div class="col-7 col-sm-10">
+                          <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
                               <div class="tab-pane text-left fade show active" id="vert-tabs-forms-to-send" role="tabpanel" aria-labelledby="vert-tabs-forms-to-send-tab">
                                 
@@ -991,14 +991,14 @@
                     
                     <div class="tab-pane fade show" id="nav-uw" role="tabpanel" aria-labelledby="nav-uw-tab">
                         <div class="row">
-                          <div class="col-3 col-sm-2">
+                          <div class="col-sm-4 col-md-3 col-lg-3">
                             <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                               <a class="nav-link active" id="vert-tabs-guidelines-tab" data-toggle="pill" href="#vert-tabs-guidelines" role="tab" aria-controls="vert-tabs-guidelines" aria-selected="true">Guidelines</a>
                               <a class="nav-link" id="vert-tabs-uw-internal-tab" data-toggle="pill" href="#vert-tabs-uw-internal" role="tab" aria-controls="vert-tabs-uw-internal" aria-selected="false">Internal Forms</a>
                               <a class="nav-link" id="vert-tabs-uw-videos-tab" data-toggle="pill" href="#vert-tabs-uw-videos" role="tab" aria-controls="vert-tabs-uw-videos" aria-selected="false">Videos</a>
                             </div>
                           </div>
-                          <div class="col-7 col-sm-10">
+                          <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
                               <div class="tab-pane text-left fade show active" id="vert-tabs-guidelines" role="tabpanel" aria-labelledby="vert-tabs-guidelines-tab">
                                 

@@ -65,7 +65,7 @@
         }
     </style>
         <section class="content">
-            <div class="col-md-10">
+            <div class="col-md-12 col-lg-12 col-xl-10">
   
               <div class="card card-danger card-outline">
                 <div class="card-header">
@@ -76,7 +76,7 @@
                 </div>
                 <div class="card-body">
                   <div class="row">
-                    <div class="col-3 col-sm-2">
+                    <div class="col-sm-4 col-md-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="vert-tabs-aboutcsc-tab" data-toggle="pill" href="#vert-tabs-aboutcsc" role="tab" aria-controls="vert-tabs-aboutcsc" aria-selected="true">About CSC</a>
                         <a class="nav-link" id="vert-tabs-automation-tab" data-toggle="pill" href="#vert-tabs-automation" role="tab" aria-controls="vert-tabs-automation" aria-selected="true">Automation</a>
@@ -89,7 +89,7 @@
                         <a class="nav-link" id="vert-tabs-vertical-tab" data-toggle="pill" href="#vert-tabs-vertical" role="tab" aria-controls="vert-tabs-vertical" aria-selected="true">Vertical Integration</a>
                       </div>
                     </div>
-                    <div class="col-7 col-sm-10">
+                    <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
                         <div class="tab-pane text-left fade show active" id="vert-tabs-aboutcsc" role="tabpanel" aria-labelledby="vert-tabs-aboutcsc-tab">
                           

@@ -23,42 +23,43 @@
             <!-- Main content -->
 
         <section class="content">
-            <div class="float-left">
-                <div class="container">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="{{ asset ('img/login-content.svg') }}" alt="paylocity">
-                        <div class="card-body">
-                        {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                        <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button>
+            <div class="row">
+                <div class="float-left">
+                    <div class="container">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="{{ asset ('img/login-content.svg') }}" alt="paylocity">
+                            <div class="card-body">
+                            {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
+                            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-left">
+                    <div class="container">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo">
+                            <div class="card-body">
+                                <h5 class="card-title">Paylocity Login Guide</h5>
+                                <p class="card-text" style="padding-top: 45px;">Instructions to Log In to Paylocity (www.paylocity.com).</p>
+                                <a href="#" class="btn btn-danger float-right">Open</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="float-left">
+                    <div class="container">
+                        <div class="card" style="width: 18rem;">
+                            <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="webpay-logo">
+                            <div class="card-body">
+                                <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5>
+                                <p class="card-text" style="padding-top: 45px;">Access Web Pay at (loginpaylocity.com).</p>
+                                <a href="#" class="btn btn-danger float-right">Open</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="float-left">
-                <div class="container">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo">
-                        <div class="card-body">
-                            <h5 class="card-title">Paylocity Login Guide</h5>
-                            <p class="card-text" style="padding-top: 45px;">Instructions to Log In to Paylocity (www.paylocity.com).</p>
-                            <a href="#" class="btn btn-danger float-right">Open</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="float-left">
-                <div class="container">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="webpay-logo">
-                        <div class="card-body">
-                            <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5>
-                            <p class="card-text" style="padding-top: 45px;">Access Web Pay at (loginpaylocity.com).</p>
-                            <a href="#" class="btn btn-danger float-right">Open</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
         </section>
         </div>
           <div class="modal fade" id="modal-default">

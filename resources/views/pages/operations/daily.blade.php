@@ -254,8 +254,8 @@
               <div class="card card-danger">
                 <div class="card-header">
                   <h3 class="card-title">Fundings</h3>
-                  <h3 class="card-title-2">Funded Loans</h3>
-                  <h3 class="card-title-3">Funding Portfolio</h3>
+                  {{-- <h3 class="card-title-2">Funded Loans</h3>
+                  <h3 class="card-title-3">Funding Portfolio</h3> --}}
   
                 </div>
                 <!-- /.card-header -->
@@ -308,7 +308,7 @@
               <!-- /.card -->
             </div>
             
-            <div class="col-6">
+            <div class="col-md-10 col-lg-10 col-xl-6">
               <div class="card card-danger">
                 <div class="card-header">
                   <h3 class="card-title">Fundings</h3>
@@ -363,7 +363,7 @@
           </div>
             
 
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card card-danger">
                 <div class="card-header">
                   <h3 class="card-title">Active Pipeline</h3>
@@ -402,7 +402,7 @@
               <!-- /.card -->
             </div>
 
-            <div class="col-6">
+            <div class="col-md-6">
               <div class="card card-danger">
                 <div class="card-header">
                   <h3 class="card-title">Funded Loans</h3>
