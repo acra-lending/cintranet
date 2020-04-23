@@ -9,7 +9,14 @@
     <!-- Sidebar -->
     <div class="sidebar">
         <!-- Sidebar user panel (optional) -->
-
+        <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+            <div class="image">
+            <img src="{{ (Auth::user()->avatar) ? url(Auth::user()->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid">
+            </div>
+            <div class="info">
+            <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="d-block">{{Auth::user()->name}}</a>
+            </div>
+        </div>
 
         <!-- Sidebar Menu -->
         <nav class="mt-2">

@@ -6,10 +6,10 @@
 
 <body class="hold-transition sidebar-mini layout-fixed">
     <div class="wrapper">
-        <!-- Navbar -->
+
         @include('includes.header')
 
-        <!-- Sidebar -->
+
         @include('includes.sidebar')
 
         <div class="container col-3">    
@@ -18,12 +18,12 @@
 
         @yield('content')
 
-        <!-- Main Footer -->
+
         <footer class="main-footer">
             @include('includes.footer')
         </footer>
     </div>
-        <!-- Scripts -->
+
         @include('includes.scripts')
 </body> 
 </html>

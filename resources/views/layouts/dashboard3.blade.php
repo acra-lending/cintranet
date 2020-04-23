@@ -11,7 +11,7 @@
 
         <!-- Sidebar -->
         @include('includes.sidebar')
-        @include('includes.announcements3')
+        {{-- @include('includes.announcements3') --}}
         <div class="container col-3">    
             @include('includes.messages')
         </div>

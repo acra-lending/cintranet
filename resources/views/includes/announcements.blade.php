@@ -5,12 +5,11 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Announcements</h1>
+                <h1 class="m-0 text-dark">Dashboard</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Learning</a></li>
-                <li class="breadcrumb-item active">Announcements</li>
+                <li class="breadcrumb-item active"><a href="/">Dashboard</a></li>
                 </ol>
             </div><!-- /.col -->
             </div><!-- /.row -->
@@ -64,10 +63,389 @@
 
     <!-- Main content -->
     <section class="content">
-    <div class="container-fluid">
-        <div class="row">
 
-        <div class="col-md-6">
+      <div class="container-fluid">
+        <!-- Info boxes -->
+        <div class="row">
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box">
+              <span class="info-box-icon bg-info elevation-1"><i class="fas fa-chart-bar"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Visitors</span>
+                <span class="info-box-number">15</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-eye"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Views</span>
+                <span class="info-box-number">330</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+
+          <!-- fix for small devices only -->
+          <div class="clearfix hidden-md-up"></div>
+
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-success elevation-1"><i class="fas fa-calendar-week"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Events</span>
+                <span class="info-box-number">3</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+          <div class="col-12 col-sm-6 col-md-3">
+            <div class="info-box mb-3">
+              <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+
+              <div class="info-box-content">
+                <span class="info-box-text">Users</span>
+                <span class="info-box-number">200</span>
+              </div>
+              <!-- /.info-box-content -->
+            </div>
+            <!-- /.info-box -->
+          </div>
+          <!-- /.col -->
+        </div>
+        <!-- /.row -->
+        <div class="row">
+          <div class="col-lg-5">
+                   <!-- Map card -->
+        <div class="card bg-gradient-primary">
+          <div class="card-header border-0">
+            <h3 class="card-title">
+              <i class="fas fa-map-marker-alt mr-1"></i>
+              Visitors
+            </h3>
+            <!-- card tools -->
+            <div class="card-tools">
+              <button type="button"
+                      class="btn btn-primary btn-sm daterange"
+                      data-toggle="tooltip"
+                      title="Date range">
+                <i class="far fa-calendar-alt"></i>
+              </button>
+              <button type="button"
+                      class="btn btn-primary btn-sm"
+                      data-card-widget="collapse"
+                      data-toggle="tooltip"
+                      title="Collapse">
+                <i class="fas fa-minus"></i>
+              </button>
+            </div>
+            <!-- /.card-tools -->
+          </div>
+          <div class="card-body">
+            <div id="world-map" style="height: 250px; width: 100%;"></div>
+          </div>
+          <!-- /.card-body-->
+          <div class="card-footer bg-transparent">
+            <div class="row">
+              <div class="col-4 text-center">
+                <div id="sparkline-1"></div>
+                <div class="text-white">Visitors</div>
+              </div>
+              <!-- ./col -->
+              <div class="col-4 text-center">
+                <div id="sparkline-2"></div>
+                <div class="text-white">Online</div>
+              </div>
+              <!-- ./col -->
+              <div class="col-4 text-center">
+                <div id="sparkline-3"></div>
+                <div class="text-white">Sales</div>
+              </div>
+              <!-- ./col -->
+            </div>
+            <!-- /.row -->
+          </div>
+        </div>
+        <!-- /.card -->
+        </div>
+          </div>
+ 
+
+
+
+
+
+
+      {{-- <div class="row">
+
+
+          <div class="col-xl-12">
+            <div class="float-left">
+              <div class="card card-danger mr-2 pb-2" style="width: 15rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      Sales
+                  </h3>
+                  </div>
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body">
+                  <ul class="list-unstyled">
+                    <li><a href="#">Data</a></li>
+                    <li><a href="#">Documents</a></li>
+                    <li><a href="#">Ratesheets</a></li>
+                    <li><a href="#">Forms</a></li>
+                    <li><a href="#">Flyers & Programs</a></li>
+                  </ul> --}}
+                  {{-- <a href="#" class="small-box-footer float-right">View <i class="fas fa-chevron-circle-right"></i></a> --}}
+                {{-- </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div class="card card-danger mr-2 mb-5 pb-5" style="width: 15rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      Ratesheets
+                  </h3>
+                  </div> --}}
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body">
+                    <h5 class="card-title">Current and Past Ratesheets</h5>
+                    <p></p>
+                    <p></p>
+                    <p></p>
+                    <a href="#" class="small-box-footer float-right">View <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div class="card card-danger mr-2 mb-4 pb-5" style="width: 25rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      HR Policies
+                  </h3>
+                </div> --}}
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body d-flex"> --}}
+                    {{-- <h5 class="card-title"></h5> --}}
+                      {{-- <p>Leave Policy</p>
+                      <p>Company Policy</p>
+                      <p>Health Policy</p>
+                      <p>HR Policy</p>
+                </div>
+                <div class="float-right pr-3 pb-3">
+                  <a href="#" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+
+              </div>
+            </div> --}}
+                                  <!--Social Feed -->
+
+                                  {{-- <div class="float-right">
+                                    <div class="card card-danger mr-2" style="width: 30rem;">
+                                      <div class="card-header">
+                                        <h3 class="card-title">
+                                            Calendar Events
+                                        </h3>
+                                      </div> --}}
+                                      {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                                      {{-- <div class="card-body">
+                                          <h5 class="card-title">Upcoming Events</h5>
+                                          <p class="card-text" style="padding-top: 45px;"></p>
+                                          <p class="card-text" style="padding-top: 45px;"></p>
+                                          <p class="card-text" style="padding-top: 45px;"></p>
+                                          <p class="card-text" style="padding-top: 45px;"></p>
+                                          <p class="card-text" style="padding-top: 45px;"></p>
+                                      </div>
+                                    </div>
+                                  </div> --}}
+
+
+{{-- 
+            <div class="float-left">
+              <div class="card card-danger mr-2" style="width: 15rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      News & Events
+                  </h3>
+                  </div> --}}
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body"> --}}
+                    {{-- <h5 class="card-title">News & Events</h5> --}}
+                    {{-- <p>News 1</p>
+                    <p>News 2</p>
+                    <p>News 3</p>
+                    <p>News 4</p>
+                    <p>News 5</p>
+                    <p>News 6</p>
+                    <a href="#" class="small-box-footer float-right">View More <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div class="card card-danger mr-2" style="width: 15rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      Announcements
+                  </h3>
+                  </div> --}}
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body"> --}}
+                    {{-- <h5 class="card-title">Announcements</h5> --}}
+                    {{-- <p>General Announcements Number 01-002</p>
+                    <p>General Announcements Number 01-002</p>
+                    <p>General Announcements Number 01-002</p>
+                    <p>General Announcements Number 01-002</p>
+                    <a href="#" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="float-left">
+              <div class="card card-danger mr-2" style="width: 25rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      Team Members
+                  </h3>
+                  </div> --}}
+                {{-- <img class="card-img-top" src="" alt="img"> --}}
+                {{-- <div class="card-body"> --}}
+                      <!-- /.card-header -->
+                      {{-- <div class="card-body p-0">
+                        <ul class="users-list clearfix">
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Chris</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">John</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Hitz</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">John</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Alex</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Sarah</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Nora</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Nadia</a>
+                            <span class="users-list-date"></span>
+                          </li>
+                        </ul> --}}
+                        <!-- /.users-list -->
+                      {{-- </div> --}}
+                      <!-- /.card-body -->
+                      {{-- <div class="card-footer text-center"> --}}
+                        {{-- <a href="#" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a> --}}
+                      {{-- </div> --}}
+                {{-- </div>
+              </div>
+            </div>
+            <div class="float-right">
+              <div class="card card-danger mr-2" style="width: 30rem;">
+                <div class="card-header">
+                  <h3 class="card-title">
+                      Calendar
+                  </h3>
+                </div> --}}
+                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
+                {{-- <div class="card-body"> --}}
+            <!-- Calendar -->
+            {{-- <div class="card bg-gradient-success">
+              <div class="card-header border-0">
+
+                <h3 class="card-title">
+                  <i class="far fa-calendar-alt"></i>
+                  Calendar
+                </h3> --}}
+                <!-- tools card -->
+                {{-- <div class="card-tools"> --}}
+                  <!-- button with a dropdown -->
+                  {{-- <div class="btn-group">
+                    <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
+                      <i class="fas fa-bars"></i></button>
+                    <div class="dropdown-menu float-right" role="menu">
+                      <a href="#" class="dropdown-item">Add new event</a>
+                      <a href="#" class="dropdown-item">Clear events</a>
+                      <div class="dropdown-divider"></div>
+                      <a href="#" class="dropdown-item">View calendar</a>
+                    </div>
+                  </div>
+                  <button type="button" class="btn btn-success btn-sm" data-card-widget="collapse">
+                    <i class="fas fa-minus"></i>
+                  </button>
+                  <button type="button" class="btn btn-success btn-sm" data-card-widget="remove">
+                    <i class="fas fa-times"></i>
+                  </button>
+                </div> --}}
+                <!-- /. tools -->
+              {{-- </div> --}}
+              <!-- /.card-header -->
+              {{-- <div class="card-body pt-0"> --}}
+                <!--The calendar -->
+                {{-- <div id="calendar" style="width: 100%"></div> --}}
+              {{-- </div> --}}
+              <!-- /.card-body -->
+            {{-- </div> --}}
+            <!-- /.card -->
+                {{-- </div> --}}
+              {{-- </div>
+            </div> --}}
+
+
+
+          {{-- </div> --}}
+
+
+
+
+
+
+      {{-- </div> <!-- row --> --}}
+
+
+
+
+        
+
+
+  
+
+
+
+
+        {{-- <div class="col-md-6">
             <div class="card card-danger">
             <div class="card-header">
                 <h3 class="card-title">
@@ -194,104 +572,116 @@
             </div>
             <!-- /.card -->
         </div>
-        <!-- /.col -->
+        <!-- /.col --> --}}
 
-        <div class="col-md-6">
-            <div class="card card-danger">
-              <div class="card-header">
-                <h3 class="card-title">
-                    <i class="fas fa-award"></i>
-                    MVP Spotlight</h3>
-              </div>
-              <!-- /.card-header -->
-              <div class="card-body">
-                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                  <ol class="carousel-indicators">
-                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                  </ol>
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <a href="/humanresources/mvp">
-                            <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_1.png') }}" alt="First slide">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="/humanresources/mvp">
-                            <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_2.jpg') }}" alt="Second slide">
-                        </a>
-                    </div>
-                    <div class="carousel-item">
-                        <a href="/humanresources/mvp">
-                            <img class="d-block w-100" src="{{ asset ('img/mvp_spotlight_3.jpg') }}" alt="Third slide">
-                        </a>
-                    </div>
-                  </div>
-                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                  </a>
-                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                  </a>
+        {{-- <div class="col-md-6">
+          <div class="card card-widget">
+            <div class="card-header">
+                <div class="user-block">
+                <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">
+                <span class="username"><a href="#">Learing and Development</a></span>
+                <span class="description">Shared publicly - 11:20 AM February 24, 2020</span>
                 </div>
-              </div>
-              <!-- /.card-body -->
+                <!-- /.user-block -->
+            </div>
+            <!-- /.card-header -->
+            <div class="card-body">
+                <!-- Attachment -->
+                <div class="img">
+                    <img class="img-responsive img-thumbnail float-left" src="{{ asset ('img/attach5.jpg') }}" alt="Attachment Image">
+                </div>                    
+                <!-- post text -->
+                <h4>Building Authentic Relationships – Part 10</h4>
+
+                <h5>Creating Mutually-Beneficial Outcomes</h5>
+
+                <p>At the end of the day, mutual benefits are the payoff 
+                for investing time and energy into business relationships. 
+                You will continually learn from each other. 
+                Performance increases the more you learn.</p>
+
+                <p>Think about the aspects of the business relationship you 
+                find valuable and want to retain. What are your contributions? 
+                What are theirs?</p>
+                <p>It is the mutually-beneficial relationships that prove 
+                to be most valuable in the workplace, and in life.</p>
+            </div>
+            <!-- /.card-body -->
             </div>
             <!-- /.card -->
 
             <div class="card card-danger">
                 <div class="card-header">
                 <h3 class="card-title">
-                    <i class="fas fa-hands-helping"></i>
-                    Building Relationships
+                    <i class="fas fa-user-friends"></i>
+                    Team Members
                 </h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                    <h4>Creating mutually-beneficial outcomes</h4>
-                <blockquote>
-
-
-                    <p>
-                        At the end of the day, mutual benefits are the payoff for investing time and energy into business relationships. 
-                        You will continually learn from each other. Performance increases the more you learn.
-                    </p>
-                    <p>
-                        Think about the aspects of the business relationship you find valuable and want to retain. 
-                        What are your contributions? What are theirs? 
-                    </p>
-                    <p>                        
-                        It is the mutually-beneficial relationships that prove to be most 
-                        valuable in the workplace, and in life.
-                    </p>
-                    <small>January 27, 2020 | <cite title="Source Title">Learning and Development</cite></small>
-                </blockquote>
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="float-right">
-                            <a href="/learning/building" class="btn btn-block btn-outline-danger">Read More</a>
-                        </div>
+   
+                      <!-- /.card-header -->
+                      <div class="card-body p-0">
+                        <ul class="users-list clearfix">
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Alexander Pierce</a>
+                            <span class="users-list-date">Today</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Norman</a>
+                            <span class="users-list-date">Yesterday</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Jane</a>
+                            <span class="users-list-date">12 Jan</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">John</a>
+                            <span class="users-list-date">12 Jan</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Alexander</a>
+                            <span class="users-list-date">13 Jan</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Sarah</a>
+                            <span class="users-list-date">14 Jan</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Nora</a>
+                            <span class="users-list-date">15 Jan</span>
+                          </li>
+                          <li>
+                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="#">Nadia</a>
+                            <span class="users-list-date">15 Jan</span>
+                          </li>
+                        </ul>
+                        <!-- /.users-list -->
+                      </div>
+                      <!-- /.card-body -->
+                      <div class="card-footer text-center">
+                        <a href="javascript::">View All Users</a>
+                      </div>
+                      <!-- /.card-footer -->
                     </div>
-                </div>
+                    <!--/.card -->
+                  </div>
 
                 </div>
-                <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
-
-          </div>
-          <!-- /.col -->
+                <!-- /.card-body --> --}}
 
 
 
 
 
-        </div>
-        <!-- /.row -->
-    </div>
     </section>
 </div>
 <!-- /.content-wrapper -->

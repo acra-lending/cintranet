@@ -8,10 +8,12 @@
     <div class="wrapper">
         <!-- Navbar -->
         @include('includes.header')
+        <!-- Scripts -->
+        @include('includes.scripts')
 
         <!-- Sidebar -->
         @include('includes.sidebar')
-        @include('includes.announcements')
+        {{-- @include('includes.announcements') --}}
         <div class="container col-3">    
             @include('includes.messages')
         </div>
@@ -22,7 +24,6 @@
             @include('includes.footer')
         </footer>
     </div>
-        <!-- Scripts -->
-        @include('includes.scripts')
+
 </body> 
 </html>
