@@ -1,6 +1,7 @@
 .jqvmap-label
 {
 	position: absolute;
+	z-index: 9999;
 	display: none;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -9,7 +10,9 @@
 	color: white;
 	font-family: sans-serif, Verdana;
 	font-size: smaller;
-	padding: 3px;
+	padding: 20px;
+	margin-left: 50px;
+	margin-top: -40px;
   pointer-events:none;
 }
 .jqvmap-pin {
@@ -23,7 +26,7 @@
 	-moz-border-radius: 3px;
 	border-radius: 3px;
 	background: #000000;
-	padding: 3px;
+	padding: 0px;
 	color: white;
 	width: 10px;
 	height: 10px;

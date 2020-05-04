@@ -132,29 +132,12 @@
         <div class="row">
           <div class="col-lg-5">
                    <!-- Map card -->
-        <div class="card bg-gradient-primary">
+        <div class="card">
           <div class="card-header border-0">
             <h3 class="card-title">
               <i class="fas fa-map-marker-alt mr-1"></i>
               Map
             </h3>
-            <!-- card tools -->
-            <div class="card-tools">
-              <button type="button"
-                      class="btn btn-primary btn-sm daterange"
-                      data-toggle="tooltip"
-                      title="Date range">
-                <i class="far fa-calendar-alt"></i>
-              </button>
-              <button type="button"
-                      class="btn btn-primary btn-sm"
-                      data-card-widget="collapse"
-                      data-toggle="tooltip"
-                      title="Collapse">
-                <i class="fas fa-minus"></i>
-              </button>
-            </div>
-            <!-- /.card-tools -->
           </div>
           <div class="card-body">
             <div id="world-map" style="height: 250px; width: 100%;"></div>
@@ -163,26 +146,24 @@
           <div class="card-footer bg-transparent">
             <div class="row">
               <div class="col-4 text-center">
-                <div id=""></div> 
-               <div class="text-white">{{ Carbon\Carbon::now()->setTimezone('America/Los_Angeles')->format('h:i A') }}</div>
                <div>Pacific</div>
+               <div id="LosAngeles"></div> 
               </div>
               <!-- ./col -->
               <div class="col-4 text-center">
-                <div id=""></div>
-                <div class="text-white">{{ Carbon\Carbon::now()->setTimezone('America/Denver')->format('h:i A') }}</div>
                 <div>Mountain</div>
+                <div id="Denver"></div>
               </div>
               <!-- ./col -->
               <div class="col-4 text-center">
-                <div id=""></div>
-                <div class="text-white">{{ Carbon\Carbon::now()->setTimezone('America/New_York')->format('h:i A') }}</div>
                 <div>Eastern</div>
+                <div id="NewYork"></div>
               </div>
               <!-- ./col -->
             </div>
             <!-- /.row -->
           </div>
+
         </div>
         <!-- /.card -->
                     <!-- Calendar -->
@@ -254,52 +235,24 @@
                     <!-- /.card-header -->
                     <div class="card-body p-0">
                         <ul class="users-list clearfix">
+                          @if(!empty($teamMembers))
+                          @foreach($teamMembers as $team)
                         <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Chris</a>
-                            <span class="users-list-date"></span>
+                            <img src="{{ ($team->avatar) ? url($team->avatar) : asset('img/avatar1.png') }}" alt="User Image" style="width:50%">
+                            <a class="users-list-name" href="/directory/user/{{$team->id}}">{{ $team->firstname }} {{$team->lastname}}</a>
+                            <span class="users-list-date">{{ Carbon\Carbon::parse($team->lastvisitDate)->diffForHumans() }}</span>
                         </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">John</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Hitz</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">John</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Alex</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Sarah</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Nora</a>
-                            <span class="users-list-date"></span>
-                        </li>
-                        <li>
-                            <img src="{{asset('img/avatar1.png')}}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="#">Nadia</a>
-                            <span class="users-list-date"></span>
-                        </li>
+                        @endforeach
                         </ul>
+
                         <!-- /.users-list -->
                     </div>
                     <!-- /.card-body -->
                     <div class="card-footer text-center">
-                        <a href="#" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                        <a href="{{action ('DirectoryController@index', ['team' => $team->team]) }}" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                        @else
+                        <p>No team members</p>
+                        @endif
                     </div>
                 </div>
             </div>

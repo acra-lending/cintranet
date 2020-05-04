@@ -78,8 +78,8 @@
         </div>
       </div>
       <div class="row justify-content-center">
-        <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4">
-            {{$contacts->links()}}
+        <div class="col-sm-7 col-md-6 col-lg-4 col-xl-3">
+            {{$contacts->onEachSide(2)->links()}}
         </div>
       </div>
       <br/>
