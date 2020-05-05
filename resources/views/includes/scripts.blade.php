@@ -285,7 +285,7 @@ var myChart = new Chart(ctx, {
         <br>
         Minnesota Residential Mortgage Originator License #MN-MO-144549`);
       }
-      if(code== 'mo') {
+      if(code== 'mt') {
         label.append(`
         <br>
         <br>

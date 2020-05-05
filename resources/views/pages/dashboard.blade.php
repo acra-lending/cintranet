@@ -167,7 +167,7 @@
         </div>
         <!-- /.card -->
                     <!-- Calendar -->
-            <div class="card bg-gradient-success">
+            <div class="card">
               <div class="card-header border-0">
 
                 <h3 class="card-title">
@@ -175,7 +175,7 @@
                   Calendar
                 </h3>
                 <!-- tools card -->
-                <div class="card-tools">
+                {{-- <div class="card-tools">
                   <!-- button with a dropdown -->
                   <div class="btn-group">
                     <button type="button" class="btn btn-success btn-sm dropdown-toggle" data-toggle="dropdown">
@@ -193,7 +193,7 @@
                   <button type="button" class="btn btn-success btn-sm" data-card-widget="remove">
                     <i class="fas fa-times"></i>
                   </button>
-                </div>
+                </div> --}}
                 <!-- /. tools -->
               </div>
               <!-- /.card-header -->
@@ -209,6 +209,7 @@
             <div class="card card-danger">
                 <div class="card-header">
                 <h3 class="card-title">
+                  <i class="nav-icon fas fa-file-signature"></i>
                     HR Policies
                 </h3>
                 </div>
@@ -227,6 +228,7 @@
             <div class="card card-danger">
                 <div class="card-header">
                 <h3 class="card-title">
+                  <i class="nav-icon fas fa-users"></i>
                     Team Members
                 </h3>
                 </div>
