@@ -72,7 +72,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
-              <span class="info-box-icon bg-info elevation-1"><i class="fas fa-chart-bar"></i></span>
+              <span class="info-box-icon bg-dark elevation-1"><i class="fas fa-chart-bar"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Visitors</span>
@@ -85,7 +85,7 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-chalkboard"></i></span>
+              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-chalkboard-teacher"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Courses This Month</span>
@@ -102,7 +102,7 @@
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-success elevation-1"><i class="fas fa-calendar-week"></i></span>
+              <span class="info-box-icon bg-dark elevation-1"><i class="fas fa-tools"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">IT Tickets</span>
@@ -115,7 +115,7 @@
           <!-- /.col -->
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">
-              <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+              <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-user-friends"></i></span>
 
               <div class="info-box-content">
                 <span class="info-box-text">Users</span>

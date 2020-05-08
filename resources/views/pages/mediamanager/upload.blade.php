@@ -55,6 +55,14 @@
                                                             {{ Form::label('category_id', 'Category')}}
                                                             {{ Form::select('category_id', [
                                                                 'Operations' => [
+                                                                    'opSystems'     => 'Systems',
+                                                                    'opForms'       => 'Forms',
+                                                                    'opTisp'        => 'Taxes/Insurance/Subject Property',
+                                                                    'opVetting'     => 'Vetting',
+                                                                    'opCompliance'  => 'Compliance',
+                                                                    'opProcesses'   => 'Processes',
+                                                                    'deptContacts'  => 'Dept Contacts',
+
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',
@@ -64,7 +72,7 @@
 
                                                                     'Funding' => [
                                                                         'fundingCompliance' => 'Compliance',
-                                                                        'deptContacts'      => 'Dept Contacts',
+                                                                        'fundingForms'      => 'Forms',
                                                                         'fundingProcesses'  => 'Processes',
                                                                         'fundingSystems'    => 'Systems',
                                                                         'fundingTisp'       => 'Taxes/Insurance/Subject Property',
@@ -88,63 +96,54 @@
                                                                                 'funderVetting'      => 'Vetting',
                                                                             ],
                                                                             'Funding Forms' => [
-                                                                                'fundingCompliance'   => 'Compliance',
-                                                                                'fundingForms'        => 'Forms',
-                                                                                'fundingProcesses'    => 'Processes',
-                                                                                'fundingSystems'      => 'Systems',
-                                                                                'fundingTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'fundingVetting'      => 'Vetting',
+                                                                                'fundingFormsCompliance'   => 'Compliance',
+                                                                                'fundingFormsForms'        => 'Forms',
+                                                                                'fundingFormsProcesses'    => 'Processes',
+                                                                                'fundingFormsSystems'      => 'Systems',
+                                                                                'fundingFormsTisp'         => 'Taxes/Insurance/Subject Property',
+                                                                                'fundingFormsVetting'      => 'Vetting',
                                                                             ],
 
                                                                             'Funding Assistant' => [
-                                                                                'fundingAssitantCompliance'   => 'Compliance',
-                                                                                'fundingAssitantForms'        => 'Forms',
-                                                                                'fundingAssitantProcesses'    => 'Processes',
-                                                                                'fundingAssitantSystems'      => 'Systems',
-                                                                                'fundingAssitantTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'fundingAssitantVetting'      => 'Vetting',
+                                                                                'fundingAssistantCompliance'   => 'Compliance',
+                                                                                'fundingAssistantForms'        => 'Forms',
+                                                                                'fundingAssistantProcesses'    => 'Processes',
+                                                                                'fundingAssistantSystems'      => 'Systems',
+                                                                                'fundingAssistantTisp'         => 'Taxes/Insurance/Subject Property',
+                                                                                'fundingAssistantVetting'      => 'Vetting',
                                                                             ]
                                                                     ],
                                                                     'Loan Set Up' => [
-                                                                        'deptContacts'      => 'Dept Contacts',
-                                                                        'lsuLoanSetUp'      => 'Loan Set Up',
-                                                                        'lsuDocVelocity'    => 'Doc Velocity',
-                                                                        'lsuAttachments'    => 'Attachments to Send with Welcome Letter',
+                                                                        'lsuAttachments'    => 'Attachments to Send with Welcome Letter',    
+                                                                        'lsuCompliance'     => 'Compliance',
+                                                                        'lsuForms'          => 'Forms',
                                                                         'lsuFloodCerts'     => 'Flood Certs',
+                                                                        'lsuProcesses'      => 'Processes',
+                                                                        'lsuSsaAnd4506T'    => 'SSA-89 And 4506T',
+                                                                        'lsuSystems'        => 'Systems',
                                                                         'lsuValuation'      => 'Valuation Delivery',
                                                                         'lsuVetting'        => 'Vetting',
-                                                                        'lsuSsaAnd4506T'    => 'SSA-89 And 4506T',
-                                                                        'lsuTridCalendars'  => 'TRID Calendars',
-                                                                            'Forms' => [
-                                                                                'lsuSystems' => 'Systems'
-                                                                            ]
                                                                     ],
                                                                     'Transaction Manager' => [
-                                                                        'TmFormsForBrokers'     => 'Forms to Send to Brokers',
-                                                                        'TmProgramGuides'       => 'Program Guides',
-                                                                        'Internal' => [
-                                                                            'TmCompliance'      => 'Compliance',
-                                                                            'deptContacts'      => 'Dept Contacts',
-                                                                            'internalForms'     => 'Internal Forms',
-                                                                            'TmProcesses'       => 'Processes',
-                                                                            'TmSystems'         => 'Systems',
-                                                                            'TmTisp'            => 'Taxes/Insurance/Subject Property',
-                                                                            'TmVetting'         => 'Vetting',
-                                                                        ],
+                                                                        'tmCompliance'      => 'Compliance',
+                                                                        'tmFormsForBrokers' => 'Forms to Send to Brokers',
+                                                                        'tmProgramGuides'   => 'Program Guides',
+                                                                        'tmInternalForms'   => 'Internal Forms',
+                                                                        'tmProcesses'       => 'Processes',
+                                                                        'tmSystems'         => 'Systems',
+                                                                        'tmTisp'            => 'Taxes/Insurance/Subject Property',
+                                                                        'tmVetting'         => 'Vetting',
                                                                         
                                                                     ],
                                                                     'Underwriting' => [
-                                                                        'Guidelines' => [
-                                                                            'UwCompliance'      => 'Compliance',
-                                                                            'UwProcesses'       => 'Processes',
-                                                                            'UwSystems'         => 'Systems',
-                                                                            'UwTisp'            => 'Taxes/Insurance/Subject Property',
-                                                                            'UwUnderwriting'    => 'Underwriting',
-                                                                            'UwTools'           => 'UW Tools',
-                                                                            'UwVetting'         => 'Vetting'
-                                                                        ],
-                                                                        'UwVideos'          => 'Videos',
-                                                                        'deptContacts'      => 'Internal Forms'
+                                                                        'uwCompliance'      => 'Compliance',
+                                                                        'uwProcesses'       => 'Processes',
+                                                                        'uwSystems'         => 'Systems',
+                                                                        'uwTisp'            => 'Taxes/Insurance/Subject Property',
+                                                                        'uwGuidelines'      => 'Underwriting Guidelines',
+                                                                        'uwTools'           => 'UW Tools',
+                                                                        'uwVetting'         => 'Vetting',
+                                                                        'uwVideos'          => 'Videos',
                                                                     ]
                                                                 ],
 
@@ -213,7 +212,8 @@
                                                                     ],
 
                                                                     'Marketing' => [
-                                                                        'marketingRequest'  => 'Marketing Request'
+                                                                        'marketingForms'        => 'Marketing Forms',
+                                                                        'marketingMaterials'    => 'Marketing Materials'
                                                                     ]
                                                                 ],
                                                                 'Servicing' => [

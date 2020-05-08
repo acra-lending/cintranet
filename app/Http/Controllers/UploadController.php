@@ -18,6 +18,7 @@ class UploadController extends Controller
         
         $this->validate($request, [
             'category_id' => 'required',
+            'file' => 'required',
             'file.*' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif|max:9999'
         ]);
 
@@ -65,6 +66,8 @@ class UploadController extends Controller
             
         //     return back();
         // }        
+        } else {
+            return 'file not found';
         }
     }
 }

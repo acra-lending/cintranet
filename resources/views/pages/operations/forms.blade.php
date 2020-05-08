@@ -82,19 +82,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                            <tbody>
+                                              @foreach($disclosure as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                            </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -119,19 +121,21 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($fundingStates as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -156,19 +160,21 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($important as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -194,18 +200,33 @@
                                                 </tr>
                                             </thead>
                                                 <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                              @foreach($marketingForms as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                                @foreach($marketingMaterials as $category)
+                                                <tr>
+                                                  <td>{{$category->filename}}</td>
+                                                  <td>{{$category->filesize}} KB</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td class="text-right py-0 align-middle">
+                                                      <div class="btn-group btn-group-sm">
+                                                        <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                        <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      </div>
+                                                  </td>
+                                                </tr>
+                                                  @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -230,19 +251,21 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($policies as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -289,19 +312,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($opSystems as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                              @foreach($fundingSystems as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -326,19 +364,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($opForms as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                              @foreach($fundingForms as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -363,19 +416,34 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($opTisp as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                                @foreach($fundingTisp as $category)
+                                                <tr>
+                                                  <td>{{$category->filename}}</td>
+                                                  <td>{{$category->filesize}} KB</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td class="text-right py-0 align-middle">
+                                                      <div class="btn-group btn-group-sm">
+                                                        <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                        <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      </div>
+                                                  </td>
+                                                </tr>
+                                                  @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -400,19 +468,34 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($opVetting as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                                @foreach($fundingVetting as $category)
+                                                <tr>
+                                                  <td>{{$category->filename}}</td>
+                                                  <td>{{$category->filesize}} KB</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td class="text-right py-0 align-middle">
+                                                      <div class="btn-group btn-group-sm">
+                                                        <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                        <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      </div>
+                                                  </td>
+                                                </tr>
+                                                  @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -437,19 +520,34 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($opCompliance as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                                @foreach($fundingCompliance as $category)
+                                                <tr>
+                                                  <td>{{$category->filename}}</td>
+                                                  <td>{{$category->filesize}} KB</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td class="text-right py-0 align-middle">
+                                                      <div class="btn-group btn-group-sm">
+                                                        <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                        <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      </div>
+                                                  </td>
+                                                </tr>
+                                                  @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -474,19 +572,34 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($opProcesses as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                                @foreach($fundingProcesses as $category)
+                                                <tr>
+                                                  <td>{{$category->filename}}</td>
+                                                  <td>{{$category->filesize}} KB</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td class="text-right py-0 align-middle">
+                                                      <div class="btn-group btn-group-sm">
+                                                        <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                        <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      </div>
+                                                  </td>
+                                                </tr>
+                                                  @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -511,19 +624,21 @@
                                                 <th>Created At</th>
                                                 </tr>
                                             </thead>
-                                                <tbody>
-          
-                                                    <tr>
-                                                    <td>file name</td>
-                                                    <td>file size KB</td>
-                                                    <td>date</td>
-                                                    <td class="text-right py-0 align-middle">
-                                                        <div class="btn-group btn-group-sm">
-                                                          <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                          <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                        </div>
-                                                    </td>
-                                                </tbody>
+                                            <tbody>
+                                              @foreach($deptContacts as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                            </tbody>
                                           </table>
                                         </div>
                                       </div>
@@ -568,19 +683,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                        @foreach($opSystems as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($docDrawerSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -606,19 +736,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                        @foreach($opForms as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($docDrawerForms as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                          </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -643,19 +788,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                          @foreach($opTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($docDrawerTisp as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                            </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -680,19 +840,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($docDrawerVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                            </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -717,19 +892,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($docDrawerCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                            </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -754,19 +944,34 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($docDrawerProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                            </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -791,19 +996,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                          @foreach($deptContacts as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -851,19 +1058,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opSystems as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($funderSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -888,19 +1110,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opForms as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($funderForms as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -925,19 +1162,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($funderTisp as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -962,19 +1214,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($funderVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -999,19 +1266,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($funderCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1036,19 +1318,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($funderProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1073,19 +1370,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($funderEscrow as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1110,19 +1409,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($funderPOA as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1147,19 +1448,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($deptContacts as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1204,19 +1507,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opSystems as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($fundingFormsSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -1242,19 +1560,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opForms as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($fundingFormsForms as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -1279,19 +1612,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingFormsTisp as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1316,19 +1664,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingFormsVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1353,19 +1716,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingFormsCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1390,19 +1768,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingFormsProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1427,19 +1820,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($deptContacts as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1483,19 +1878,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opSystems as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($fundingAssistantSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -1520,19 +1930,34 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
+                                      <tbody>
+                                        @foreach($opTisp as $category)
+                                        <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                              <div class="btn-group btn-group-sm">
+                                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                          @foreach($fundingAssistantTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                     </table>
                                   </div>
                                 </div>
@@ -1557,19 +1982,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingAssistantVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1594,19 +2034,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingAssistantCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1631,19 +2086,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($fundingAssistantProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1668,19 +2138,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($deptContacts as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1709,7 +2181,7 @@
                           </div>
                           <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
-                              <div class="tab-pane text-left fade show" id="vert-tabs-lsu-systems" role="tabpanel" aria-labelledby="vert-tabs-lsu-systems-tab">
+                              <div class="tab-pane text-left fade show active" id="vert-tabs-lsu-systems" role="tabpanel" aria-labelledby="vert-tabs-lsu-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
                                   <div class="card card-danger">
@@ -1728,19 +2200,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($lsuSystems as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1765,19 +2252,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opForms as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($lsuForms as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1802,19 +2304,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($lsuVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1839,20 +2356,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
-                                      </table>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($lsuCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                     </div>
                                   </div>
                                 </div>
@@ -1876,19 +2407,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($lsuProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1913,19 +2459,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($lsuAttachments as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -1950,19 +2498,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                              @foreach($lsuFloodCerts as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -1987,19 +2537,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                              @foreach($lsuValuation as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -2024,25 +2576,27 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                              @foreach($lsuSsaAnd4506T as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
                                   </div>
                                 </div>
-                                <div class="tab-pane text-left fade show active" id="vert-tabs-lsu-dept" role="tabpanel" aria-labelledby="vert-tabs-lsu-dept-tab">
+                                <div class="tab-pane text-left fade show" id="vert-tabs-lsu-dept" role="tabpanel" aria-labelledby="vert-tabs-lsu-dept-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
                                     <div class="card card-danger">
@@ -2061,19 +2615,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                              @foreach($deptContacts as $category)
+                                              <tr>
+                                                <td>{{$category->filename}}</td>
+                                                <td>{{$category->filesize}} KB</td>
+                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td class="text-right py-0 align-middle">
+                                                    <div class="btn-group btn-group-sm">
+                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    </div>
+                                                </td>
+                                              </tr>
+                                                @endforeach
+                                          </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -2103,7 +2659,7 @@
                           </div>
                           <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
-                              <div class="tab-pane text-left fade show" id="vert-tabs-tm-systems" role="tabpanel" aria-labelledby="vert-tabs-tm-systems-tab">
+                              <div class="tab-pane text-left fade show active" id="vert-tabs-tm-systems" role="tabpanel" aria-labelledby="vert-tabs-tm-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
                                   <div class="card card-danger">
@@ -2122,19 +2678,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($tmSystems as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2159,19 +2730,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($tmInternalForms as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2196,19 +2769,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($tmTisp as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2233,19 +2821,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($tmVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2270,19 +2873,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($tmCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2307,25 +2925,40 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($tmProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
                                 </div>
                               </div>
-                              <div class="tab-pane text-left fade show active" id="vert-tabs-tm-forms-to-send" role="tabpanel" aria-labelledby="vert-tabs-tm-forms-to-send-tab">
+                              <div class="tab-pane text-left fade show" id="vert-tabs-tm-forms-to-send" role="tabpanel" aria-labelledby="vert-tabs-tm-forms-to-send-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
                                   <div class="card card-danger">
@@ -2344,19 +2977,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($tmFormsForBrokers as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2381,19 +3016,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($tmProgramGuides as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -2418,19 +3055,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($deptContacts as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -2448,7 +3087,6 @@
                           <div class="col-sm-4 col-md-3 col-lg-3">
                             <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                               <a class="nav-link active" id="vert-tabs-uw-systems-tab" data-toggle="pill" href="#vert-tabs-uw-systems" role="tab" aria-controls="vert-tabs-uw-systems" aria-selected="true">Systems</a>
-                              <a class="nav-link" id="vert-tabs-uw-internal-tab" data-toggle="pill" href="#vert-tabs-uw-internal" role="tab" aria-controls="vert-tabs-uw-internal" aria-selected="false">Internal Forms</a>
                               <a class="nav-link" id="vert-tabs-uw-tisp-tab" data-toggle="pill" href="#vert-tabs-uw-tisp" role="tab" aria-controls="vert-tabs-uw-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
                               <a class="nav-link" id="vert-tabs-uw-vetting-tab" data-toggle="pill" href="#vert-tabs-uw-vetting" role="tab" aria-controls="vert-tabs-uw-vetting" aria-selected="false">Vetting</a>
                               <a class="nav-link" id="vert-tabs-uw-compliance-tab" data-toggle="pill" href="#vert-tabs-uw-compliance" role="tab" aria-controls="vert-tabs-uw-compliance" aria-selected="false">Compliance</a>
@@ -2461,7 +3099,7 @@
                           </div>
                           <div class="col-sm-12 col-md-9 col-lg-9">
                             <div class="tab-content" id="vert-tabs-tabContent">
-                              <div class="tab-pane text-left fade show" id="vert-tabs-uw-systems" role="tabpanel" aria-labelledby="vert-tabs-uw-systems-tab">
+                              <div class="tab-pane text-left fade show active" id="vert-tabs-uw-systems" role="tabpanel" aria-labelledby="vert-tabs-uw-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
                                   <div class="card card-danger">
@@ -2480,56 +3118,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
-                                      </table>
-                                    </div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div class="tab-pane text-left fade show active" id="vert-tabs-uw-internal" role="tabpanel" aria-labelledby="vert-tabs-uw-internal-tab">
-                                <!-- /.content-header -->        
-                                <div class="col">
-                                  <div class="card card-danger">
-                                    <div class="card-header border-0">
-                                      <h3 class="card-title">Internal Forms</h3>
-                                      <div class="card-tools">
-                                        </a>
-                                      </div>
-                                    </div>
-                                    <div class="card-body table-responsive p-0">
-                                      <table class="table">
-                                        <thead>
+                                        <tbody>
+                                          @foreach($opSystems as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($uwSystems as $category)
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
                                             </tr>
-                                        </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2554,19 +3170,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opTisp as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($uwTisp as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2591,19 +3222,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opVetting as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($uwVetting as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2628,19 +3274,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opCompliance as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($uwCompliance as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2665,19 +3326,34 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($opProcesses as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                            @foreach($uwProcesses as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2702,19 +3378,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                            @foreach($uwGuidelines as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2739,19 +3417,21 @@
                                             <th>Created At</th>
                                             </tr>
                                         </thead>
-                                            <tbody>
-      
-                                                <tr>
-                                                <td>file name</td>
-                                                <td>file size KB</td>
-                                                <td>date</td>
-                                                <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    </div>
-                                                </td>
-                                            </tbody>
+                                        <tbody>
+                                          @foreach($uwTools as $category)
+                                          <tr>
+                                            <td>{{$category->filename}}</td>
+                                            <td>{{$category->filesize}} KB</td>
+                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td class="text-right py-0 align-middle">
+                                                <div class="btn-group btn-group-sm">
+                                                  <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                  <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                </div>
+                                            </td>
+                                          </tr>
+                                            @endforeach
+                                      </tbody>
                                       </table>
                                     </div>
                                   </div>
@@ -2776,19 +3456,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($uwVideos as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                         </table>
                                       </div>
                                     </div>
@@ -2813,19 +3495,21 @@
                                               <th>Created At</th>
                                               </tr>
                                           </thead>
-                                              <tbody>
-        
-                                                  <tr>
-                                                  <td>file name</td>
-                                                  <td>file size KB</td>
-                                                  <td>date</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                      <div class="btn-group btn-group-sm">
-                                                        <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                        <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      </div>
-                                                  </td>
-                                              </tbody>
+                                          <tbody>
+                                            @foreach($deptContacts as $category)
+                                            <tr>
+                                              <td>{{$category->filename}}</td>
+                                              <td>{{$category->filesize}} KB</td>
+                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td class="text-right py-0 align-middle">
+                                                  <div class="btn-group btn-group-sm">
+                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  </div>
+                                              </td>
+                                            </tr>
+                                              @endforeach
+                                        </tbody>
                                         </table>
                                       </div>
                                     </div>

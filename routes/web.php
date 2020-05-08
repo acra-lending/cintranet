@@ -39,7 +39,7 @@ Route::get('sales/documents', function(){return view('pages.sales.documents');})
 
 
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth');
-Route::get('operations/forms', function(){return view('pages.operations.forms');})->middleware('auth');
+Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 
 Route::get('servicing/servicing', function(){return view('pages.servicing.servicing');})->middleware('auth');
 

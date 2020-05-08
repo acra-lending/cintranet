@@ -17,13 +17,13 @@
     display: inline-block;
     width: 100%;
     color: rgb(255, 255, 255);
-    background-color: rgb(197, 44, 102);
+    background-color: rgb(200, 16, 46);
     padding: 5px;
     text-align: center;
     text-transform: uppercase;
 }
 .event-list > li:nth-child(even) > time {
-    background-color: rgb(165, 82, 167);
+    background-color: rgb(61, 57, 53);
 }
 .event-list > li > time > span {
     display: none;
