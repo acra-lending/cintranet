@@ -13,11 +13,13 @@ class AddRemembertokenToS2zarUsers extends Migration
      */
     public function up()
     {
-        Schema::table('s2zar_users', function (Blueprint $table) {
-            $table->rememberToken();
-            $table->timestamp('email_verified_at')->nullable();
-            $table->timestamps();
-        });
+        if (!Schema::hasTable('s2zar_users')) {
+            Schema::table('s2zar_users', function (Blueprint $table) {
+                $table->rememberToken();
+                $table->timestamp('email_verified_at')->nullable();
+                $table->timestamps();
+            });
+        }
     }
 
     /**

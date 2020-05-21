@@ -148,7 +148,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/humanresources/benefits" class="nav-link {{ Request::path() === 'humanresources/benefits' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Benefits</p>
                         </a>
@@ -156,9 +156,9 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">
+                        <a href="/humanresources/schedulesforms" class="nav-link {{ Request::path() === 'humanresources/schedulesforms' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Careers</p>
+                            <p>Schedules & Forms</p>
                         </a>
                     </li>
                 </ul>
@@ -172,9 +172,25 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/401k' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>401(k)</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/humanresources/mvp" class="nav-link {{ Request::path() === 'humanresources/mvp' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>MVP Spotlight</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Careers</p>
                         </a>
                     </li>
                 </ul>

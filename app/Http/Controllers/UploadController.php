@@ -4,13 +4,17 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use App\Category;
 
 class UploadController extends Controller
 {
     public function index()
     {   
-        $files = Post::get();
-        return view('pages.sales.ratesheets')->with('files', $files);
+        // $files = Post::get();
+        // return view('pages.sales.ratesheets')->with('files', $files);
+
+        // $categories = Category::get();
+        return view('pages.mediamanager.upload');
     }
     
     public function upload(Request $request)
@@ -21,6 +25,8 @@ class UploadController extends Controller
             'file' => 'required',
             'file.*' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif|max:9999'
         ]);
+
+        
 
         //Handle File Upload
         if($request->hasFile('file')){
@@ -43,7 +49,9 @@ class UploadController extends Controller
 
                     //Create Upload Post
                     $post = new Post;
-                    $post->category_id = $request->input('category_id');
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
                     $post->filename = $fileNameToStore;
                     $post->filesize = $filesizeToStore;
                     $post->save();
@@ -69,5 +77,31 @@ class UploadController extends Controller
         } else {
             return 'file not found';
         }
+    }
+
+    public function update(Request $request, $id)
+    {
+        $this->validate($request, [
+            'filename' => 'required',
+        ]);
+
+        //Create Upload Post
+        $post = Post::find($id);
+        // $post->category_id = implode(',', $request->input('category_id'));
+        // dd($request->input('category_id'));
+        // $post->categories()->attach($request->categories_id);
+        $post->filename = $request->input('filename');
+        // $post->filesize = $filesizeToStore;
+        $post->save();
+
+        return back()->with('success', 'Update Complete');
+    }
+
+    public function destroy($id)
+    {
+        $post = Post::find($id);
+        $post->delete();
+
+        return back()->with('success', 'File Removed');
     }
 }

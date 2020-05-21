@@ -115,10 +115,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                       @endforeach
@@ -157,10 +161,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                   @endforeach
@@ -197,10 +205,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                     @endforeach
@@ -237,10 +249,14 @@
                                         <td>{{($category->filesize)}} KB</td>
                                         <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                         <td class="text-right py-0 align-middle">
-                                            <div class="btn-group btn-group-sm">
+                                          <div class="btn-group btn-group-sm">
                                             <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                            <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                             <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                            </div>
+                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                              {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                            {{ Form::close()}}
+                                          </div>
                                         </td>
                                         </tr>
                                       @endforeach
@@ -309,10 +325,14 @@
                                       <td>{{$category->filesize}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                       @endforeach
@@ -322,10 +342,14 @@
                                       <td>{{$category->filesize}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                       @endforeach
@@ -364,10 +388,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                   @endforeach
@@ -377,10 +405,14 @@
                                   <td>{{$category->filesize}} KB</td>
                                   <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                   <td class="text-right py-0 align-middle">
-                                      <div class="btn-group btn-group-sm">
+                                    <div class="btn-group btn-group-sm">
                                       <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                       <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                      </div>
+                                      {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                        {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                      {{ Form::close()}}
+                                    </div>
                                   </td>
                                   </tr>
                                   @endforeach
@@ -417,10 +449,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                     @endforeach
@@ -430,10 +466,14 @@
                                     <td>{{$category->filesize}} KB</td>
                                     <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                     <td class="text-right py-0 align-middle">
-                                        <div class="btn-group btn-group-sm">
+                                      <div class="btn-group btn-group-sm">
                                         <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                        <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                         <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                        </div>
+                                        {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                          {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                        {{ Form::close()}}
+                                      </div>
                                     </td>
                                     </tr>
                                     @endforeach
@@ -470,10 +510,14 @@
                                         <td>{{($category->filesize)}} KB</td>
                                         <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                         <td class="text-right py-0 align-middle">
-                                            <div class="btn-group btn-group-sm">
+                                          <div class="btn-group btn-group-sm">
                                             <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                            <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                             <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                            </div>
+                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                              {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                            {{ Form::close()}}
+                                          </div>
                                         </td>
                                         </tr>
                                       @endforeach
@@ -483,10 +527,14 @@
                                       <td>{{$category->filesize}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                       @endforeach
@@ -555,10 +603,14 @@
                                       <td>{{$category->filesize}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                       @endforeach
@@ -597,10 +649,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                   @endforeach
@@ -637,10 +693,14 @@
                                       <td>{{($category->filesize)}} KB</td>
                                       <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                       <td class="text-right py-0 align-middle">
-                                          <div class="btn-group btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                           <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                           <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                          </div>
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                        </div>
                                       </td>
                                       </tr>
                                     @endforeach
@@ -677,10 +737,14 @@
                                         <td>{{($category->filesize)}} KB</td>
                                         <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
                                         <td class="text-right py-0 align-middle">
-                                            <div class="btn-group btn-group-sm">
+                                          <div class="btn-group btn-group-sm">
                                             <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                            <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
                                             <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                            </div>
+                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                              {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                            {{ Form::close()}}
+                                          </div>
                                         </td>
                                         </tr>
                                       @endforeach

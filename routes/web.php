@@ -44,15 +44,22 @@ Route::get('operations/forms', 'OperationsFormsController@index')->middleware('a
 Route::get('servicing/servicing', function(){return view('pages.servicing.servicing');})->middleware('auth');
 
 Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
-Route::get('humanresources/paylocity', function (){return view('pages.humanresources.paylocity');})->middleware('auth');
+Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware('auth');
+Route::get('humanresources/401k', 'Principal401kController@index')->middleware('auth');
+Route::get('humanresources/benefits', 'BenefitsController@index')->middleware('auth');
+Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->middleware('auth');
+Route::get('humanresources/careers', 'CareersController@index')->middleware('auth');
 
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');
-Route::get('mediamanager/upload', function(){return view('pages.mediamanager.upload');})->middleware('auth');
+Route::get('mediamanager/upload', 'UploadController@index')->middleware('auth');
 
 Route::post('uploads', 'UploadController@upload')->middleware('auth');
+Route::put('update{id}', 'UploadController@update')->middleware('auth');
+Route::delete('destroy{id}', 'UploadController@destroy')->middleware('auth');
 
 Route::get('download/{file}', 'DownloadController@download')->name('download')->middleware('auth');
 Route::get('download/{file}', 'DownloadController@show')->name('show')->middleware('auth');
+Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 
 Route::get('infotech/ticket', function(){return view('pages.infotech.ticket');})->middleware('auth');
 

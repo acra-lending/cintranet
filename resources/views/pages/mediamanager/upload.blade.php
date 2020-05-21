@@ -52,24 +52,15 @@
                                                 <div class="input-group">
                                                     <div class="input-group">
                                                         <div class="form-group">
-                                                            {{ Form::label('category_id', 'Category')}}
-                                                            {{ Form::select('category_id', [
+                                                            {{ Form::label('category_id[]', 'Category (hold ctrl for multiple)')}}
+                                                            {{ Form::select('category_id[]', [
                                                                 'Operations' => [
-                                                                    'opSystems'     => 'Systems',
-                                                                    'opForms'       => 'Forms',
-                                                                    'opTisp'        => 'Taxes/Insurance/Subject Property',
-                                                                    'opVetting'     => 'Vetting',
-                                                                    'opCompliance'  => 'Compliance',
-                                                                    'opProcesses'   => 'Processes',
-                                                                    'deptContacts'  => 'Dept Contacts',
-
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',
                                                                         'fundingStates'     => 'Funding States',
                                                                         'policies'          => 'Policies'
                                                                     ],
-
                                                                     'Funding' => [
                                                                         'fundingCompliance' => 'Compliance',
                                                                         'fundingForms'      => 'Forms',
@@ -103,7 +94,6 @@
                                                                                 'fundingFormsTisp'         => 'Taxes/Insurance/Subject Property',
                                                                                 'fundingFormsVetting'      => 'Vetting',
                                                                             ],
-
                                                                             'Funding Assistant' => [
                                                                                 'fundingAssistantCompliance'   => 'Compliance',
                                                                                 'fundingAssistantForms'        => 'Forms',
@@ -146,7 +136,6 @@
                                                                         'uwVideos'          => 'Videos',
                                                                     ]
                                                                 ],
-
                                                                 'Ratesheets' => [
                                                                     'Wholesale' => [
                                                                         'wsOmbsvoe'     => 'OMBS & VOE', 
@@ -169,7 +158,6 @@
                                                                         ]
                                                                     ]                                                
                                                                 ],
-
                                                                 'Sales' => [
                                                                     'Correspondents' => [
                                                                         'corrDocs'          => 'Documents',
@@ -178,7 +166,6 @@
                                                                         'social'            => 'LinkedIn/Social Posting Images',
                                                                         'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
-                                                                
                                                                     'Flyers & Programs' => [
                                                                         'aboutCsc'      => 'About CSC',
                                                                         'automation'    => 'Automation',
@@ -187,21 +174,17 @@
                                                                         'nicheFlyers'   => 'Niche Flyers',
                                                                         'vertFlyers'    => 'Vertical Integration Flyer'
                                                                     ],
-
                                                                     'Retail' => [
                                                                         'retailDocs'    => 'Documents',
                                                                         'retailFlyers'  => 'Flyers',
                                                                         'retailMLO'     => 'MLO Licenses'
                                                                     ],
-
                                                                     'Flyers For Brokers' => [
                                                                         'flyersForBrokers'  => 'Flyers'
                                                                     ],
-
                                                                     'General Forms' => [
                                                                         'generalForms'  => 'Forms'
                                                                     ],
-
                                                                     'Training Material' => [
                                                                         'trainingAe'        => 'Account Executives',
                                                                         'trainingAuto'      => 'Automation',
@@ -210,7 +193,6 @@
                                                                         'trainingVetting'   => 'Vetting',
                                                                         'trainingVideos'    => 'Videos'
                                                                     ],
-
                                                                     'Marketing' => [
                                                                         'marketingForms'        => 'Marketing Forms',
                                                                         'marketingMaterials'    => 'Marketing Materials'
@@ -266,7 +248,6 @@
                                                                         'wisconsin'     => 'Wisconsin',
                                                                     ]
                                                                 ],
-
                                                                 'Learning & Development' => [
                                                                     'learning' => 'Learning',
                                                                     'Participant Guides' => [
@@ -274,7 +255,7 @@
                                                                         'servicingGuides' => 'Servicing'
                                                                     ]
                                                                 ]
-                                                        ], null, ['placeholder' => 'Pick a category', 'style' => 'width:90%']) }}
+                                                        ], null, ['multiple' => 'multiple', 'size' => '15', 'placeholder' => 'Pick a category', 'style' => 'width:90%']) }}
                                                         </div>
                                                     </div>
                                                     <div class="input-group">
