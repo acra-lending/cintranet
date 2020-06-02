@@ -14,8 +14,8 @@ class CreateCategoryPostTable extends Migration
     public function up()
     {
         Schema::create('category_post', function (Blueprint $table) {
-            $table->string('category_id')->references('category_id')->on('categories');
-            $table->foreignId('post_id')->constrained();
+            // $table->string('category_id')->references('category_id')->on('categories');
+            // $table->foreignId('post_id')->constrained();
         });
     }
 

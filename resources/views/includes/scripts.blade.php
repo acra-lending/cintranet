@@ -24,6 +24,14 @@
 <script src="{{ asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 <!-- World Clock -->
 <script src="{{ asset('plugins/worldclock/worldclock.js') }}"></script> 
+<!-- CKeditor -->
+<script src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
+<script>
+    window.onload = function() {
+        CKEDITOR.replace( 'editor1' );
+    };
+</script>
+
 
 <!-- OPTIONAL SCRIPTS -->
 <script src="{{ asset ('plugins/chart.js/Chart.min.js') }}"></script>

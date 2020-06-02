@@ -27,10 +27,10 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="{{ asset ('img/login-content.svg') }}" alt="paylocity">
+                            <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="paylocity"></button>
                             <div class="card-body">
                             {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button>
+                            {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}
                             </div>
                         </div>
                     </div>
@@ -38,11 +38,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo">
+                            <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-guide.svg') }}" alt="paylocity-guide"></button>
                             <div class="card-body">
-                                <h5 class="card-title">Paylocity Login Guide</h5>
-                                <p class="card-text" style="padding-top: 45px;">Instructions to Log In to Paylocity (www.paylocity.com).</p>
-                                <a href="#" class="btn btn-danger float-right">Open</a>
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -50,11 +50,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="webpay-logo">
+                            <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-webpay-login-guide.svg') }}" alt="webpay"></button>
                             <div class="card-body">
-                                <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5>
-                                <p class="card-text" style="padding-top: 45px;">Access Web Pay at (loginpaylocity.com).</p>
-                                <a href="#" class="btn btn-danger float-right">Open</a>
+                                {{-- <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5> --}}
+                                {{-- <p class="card-text">Access Web Pay at (loginpaylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>

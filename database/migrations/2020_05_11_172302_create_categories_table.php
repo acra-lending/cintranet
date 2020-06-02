@@ -15,8 +15,8 @@ class CreateCategoriesTable extends Migration
     {
         if (!Schema::hasTable('categories')) {
             Schema::create('categories', function (Blueprint $table) {
-                $table->id();
-                $table->string('category_id');
+                // $table->id();
+                // $table->string('category_id');
             });
         }
 

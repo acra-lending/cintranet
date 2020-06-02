@@ -1,0 +1,53 @@
+@extends('layouts.default')
+
+@section('content')
+<!-- Content Wrapper. Contains page content -->
+<div class="content-wrapper">
+    <!-- Content Header (Page header) -->
+    <div class="content-header">
+    <div class="container-fluid">
+        <div class="row mb-2">
+        <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Building Relationships</h1>
+        </div><!-- /.col -->
+        <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+            <li class="breadcrumb-item active">Learning</li>
+            <li class="breadcrumb-item"><a href="/">Building Relationships</a></li>
+            </ol>
+        </div><!-- /.col -->
+        </div><!-- /.row -->
+    </div><!-- /.container-fluid -->
+    </div>
+    <!-- /.content-header -->
+    
+        <!--POST TEMPLATE -->
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title">Create Post</h4>
+                        </div>
+                        <div class="card-body">
+                            {{ Form::open(['action' => 'LearningPostsController@store', 'method' => 'POST']) }}
+                                <div class="form-group">
+                                    {{ Form::label('title', 'Title')}}
+                                    {{ Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title'])}}
+                                </div>
+                                <div class="form-group">
+                                    {{ Form::label('body', 'Body')}}
+                                    {{ Form::textarea('body', '', ['id' => 'editor1','class' => 'form-control', 'placeholder' => 'Body Text'])}}
+                                </div>
+                                {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!-- /.container -->
+
+</div>
+
+
+@stop

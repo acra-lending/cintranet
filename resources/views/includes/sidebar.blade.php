@@ -32,7 +32,7 @@
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
-                    <p>User Management
+                    <p>Management
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -40,7 +40,7 @@
                     <li class="nav-item">
                         <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="nav-link {{ Request::is('usermanagement/profile/*') ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Profile</p>
+                            <p>My Profile</p>
                         </a>
                     </li>
                 </ul>
@@ -79,9 +79,15 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/learning/building" class="nav-link {{ Request::path() === 'learning/building' ? 'active': ''}}">
+                        <a href="/learning/posts" class="nav-link {{ Request::path() === 'learning/posts' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Building Relationships</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/learning/posts/create" class="nav-link {{ Request::path() === 'learning/posts/create' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Create Post</p>
                         </a>
                     </li>
                     <li class="nav-item has-treeview {{ Request::is('courses/*') ? 'menu-open': ''}}">
