@@ -45,6 +45,7 @@ class LearningPostsController extends Controller
         $post = new LearningPost;
         $post->title = $request->input('title');
         $post->body = $request->input('body');
+        $post->user_id = auth()->user()->id;
         $post->save();
 
         return redirect('/learning/posts')->with('success', 'Post Created');

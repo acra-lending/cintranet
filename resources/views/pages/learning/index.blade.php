@@ -33,7 +33,7 @@
                         <div class="user-block">
                         <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">
                         <span class="username"><a href="/learning/posts/{{$post->id}}">Learing and Development</a></span>
-                        <span class="description">{{$post->created_at}}</span>
+                        <span class="description">{{$post->created_at}} by {{$post->user->name}}</span>
                         </div>
                         <!-- /.user-block -->
                     </div>
