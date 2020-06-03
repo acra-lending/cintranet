@@ -27,7 +27,9 @@ class HomeController extends Controller
     public function index()
     {
         $user = auth()->user()->id;
+        $name = auth()->user()->name;
         $email = auth()->user()->email;
+        $first_name = explode(' ', trim($name))[0];
 
         if (DB::table('s2zar_jsn_users')
         ->orderBy('lastname', 'asc')
@@ -52,7 +54,8 @@ class HomeController extends Controller
             ->take(8)->get();
 
             return view('pages.dashboard')
-            ->with('teamMembers', $teamMembers);
+            ->with('teamMembers', $teamMembers)
+            ->with('first_name', $first_name);
         }
 
         return view('pages.dashboard');

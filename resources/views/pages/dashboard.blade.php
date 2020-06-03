@@ -8,11 +8,8 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-              @if(!empty($teamMembers))
-              @foreach ($teamMembers as $team)
-                <h1 class="m-0 text-dark">Welcome to the new Cintranet, {{$team->firstname}}!</h1>
-              @endforeach
-              @endif
+
+                <h1 class="m-0 text-dark">Welcome to the new Cintranet, {{$first_name}}!</h1>
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
