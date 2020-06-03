@@ -94,7 +94,7 @@
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-circle"></i>
                             <p>
-                            Courses
+                            Courses <p style="font-size: 10pt;">&nbsp;(coming soon)<p>
                             <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
@@ -196,7 +196,7 @@
                     <li class="nav-item">
                         <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Careers</p>
+                            <p>Careers <p style="font-size: 10pt;">&nbsp;(coming soon)<p> </p>
                         </a>
                     </li>
                 </ul>
@@ -221,7 +221,7 @@
                     <li class="nav-item">
                         <a href="/operations/forms" class="nav-link {{ Request::path() === 'operations/forms' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Forms</p>
+                            <p>Documents</p>
                         </a>
                     </li>
                 </ul>
@@ -294,7 +294,7 @@
                     <li class="nav-item">
                         <a href="/infotech/ticket" class="nav-link {{ Request::path() === 'infotech/ticket' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Submit Ticket</p>
+                            <p>Submit Ticket <p style="font-size: 10pt;">&nbsp;(coming soon)<p></p>
                         </a>
                     </li>
                 </ul>
@@ -302,7 +302,7 @@
             <li class=" nav-item">
                 <a href="#" class="nav-link {{ Request::path() === '' ? 'active' : ''}}">
                     <i class="nav-icon fas fa-box-open"></i>
-                    <p>Resources</p>
+                    <p>Resources<p style="font-size: 10pt;">&nbsp;(coming soon)<p></p>
                 </a>
             </li>
             <br/>
