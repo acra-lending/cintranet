@@ -29,8 +29,10 @@
 <script>
     window.onload = function() {
         CKEDITOR.replace( 'editor1' );
+        worldClockZone();
     };
 </script>
+
 
 
 <!-- OPTIONAL SCRIPTS -->

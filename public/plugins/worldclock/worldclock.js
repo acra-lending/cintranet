@@ -360,4 +360,4 @@ document.getElementById("NewYork").innerHTML = worldClock(-5, "NAmerica")
 setTimeout("worldClockZone()", 1000)
 }
 
-window.onload=worldClockZone;
+// window.onload=worldClockZone;

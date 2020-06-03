@@ -27,11 +27,10 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <img class="card-img-top px-3 mb-3" src="https://brightchoices.liazon.com/Home/GetImage?imageID=A6B40BB15F240A55880793E398333409" alt="brightchoices-liazon">
-                            <img class="card-img-top px-4 mb-4" src="https://login.gallaghermarketplace.com/Home/GetImage?imageID=3B43902556438FABF00C3767DB7E29EB" alt="gallagher-marketplace">
+                            <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="login-portal"></button>
                             <div class="card-body">
                             {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button>
+                            {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}
                             </div>
                         </div>
                     </div>
@@ -39,18 +38,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img class="card-img-top" src="{{ asset ('img/csc-logo-small2.png') }}" alt="csc-logo" style="width: 6rem;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-4">Health And Welfare Plan</h5>
-                                        <hr class="mt-5 mb-0">
-                                        <p class="card-text" style="padding-top: 5px;">Citadel Servicing Health And Welfare Plan.</p>
-                                        <a href="#" class="btn btn-danger float-right">Open</a>
-                                    </div>
-                                </div>
+                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare.svg') }}" alt="csc-health-welfare"></a></button>
+                            <div class="card-body">
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -58,19 +50,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img class="card-img-top" src="{{ asset ('img/csc-logo-small2.png') }}" alt="csc-logo" style="width: 6rem;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-4" style="padding-top: 5px;">Health And Welfare Plan Description</h5>
-                                        <br/>
-                                        <hr class="mt-4 mb-0">
-                                        <p class="card-text" style="padding-top: 5px;">Citadel Servicing Health And Welfare Plan Summary Description.</p>
-                                        <a href="#" class="btn btn-danger float-right">Open</a>
-                                    </div>
-                                </div>
+                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare-alt.svg') }}" alt="csc-health-welfare-alt"></a></button>
+                            <div class="card-body">
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -78,19 +62,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img class="card-img-top" src="{{ asset ('img/csc-logo-small2.png') }}" alt="csc-logo" style="width: 6rem;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-4" style="padding-top: 5px;">Premium Only Plan</h5>
-                                        <br/>
-                                        <hr class="mt-4 mb-0">
-                                        <p class="card-text" style="padding-top: 5px;">Citadel Servicing Premium Only Plan (POP).</p>
-                                        <a href="#" class="btn btn-danger float-right">Open</a>
-                                    </div>
-                                </div>
+                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP.svg') }}" alt="csc-pop"></a></button>
+                            <div class="card-body">
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -98,19 +74,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img class="card-img-top" src="{{ asset ('img/csc-logo-small2.png') }}" alt="csc-logo" style="width: 6rem;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-4" style="padding-top: 5px;">Premium Only Plan Summary</h5>
-                                        <br/>
-                                        <hr class="mt-4 mb-0">
-                                        <p class="card-text" style="padding-top: 5px;">Summary Of The Citadel Servicing Premium Only Plan (POP).</p>
-                                        <a href="#" class="btn btn-danger float-right">Open</a>
-                                    </div>
-                                </div>
+                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP-alt.svg') }}" alt="csc-pop-alt"></a></button>
+                            <div class="card-body">
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -118,19 +86,11 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <div class="row no-gutters">
-                                <div class="col-md-4">
-                                    <img class="card-img-top" src="{{ asset ('img/csc-logo-small2.png') }}" alt="csc-logo" style="width: 6rem;">
-                                </div>
-                                <div class="col-md-8">
-                                    <div class="card-body">
-                                        <h5 class="card-title mb-4" style="padding-top: 5px;">QMCSO</h5>
-                                        <br/>
-                                        <hr class="mt-4 mb-0">
-                                        <p class="card-text" style="padding-top: 5px;">Qualified Medical Child Support Order (QMCSO).</p>
-                                        <a href="#" class="btn btn-danger float-right">Open</a>
-                                    </div>
-                                </div>
+                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-QMCSO.svg') }}" alt="csc-qmcso"></a></button>
+                            <div class="card-body">
+                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
+                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
+                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
