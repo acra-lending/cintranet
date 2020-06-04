@@ -36,24 +36,25 @@
                     <table class="table table-hover text-nowrap">
                       <thead>
                         <tr>
-                          <th>Name</th>
-                          <th>Email</th>
-                          <th>Role(s)</th>
-                          <th>Registration Date</th>
-                          <th>Last Login</th>
-                          <th>Action</th>
+                          <th class="w-25">Name</th>
+                          <th class="w-0">Email</th>
+                          <th class="w-0">Role(s)</th>
+                          <th class="w-0">Registration Date</th>
+                          <th class="w-0">Last Login</th>
+                          <th class="w-0">Action</th>
                         </tr>
                       </thead>
                       <tbody>
                           @foreach($users as $user)
                         <tr>
-                          <td><div class="col-1 image float-left"><img src="{{ ($user->avatar) ? url($user->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"></div><p class="pt-2 mb-0">{{$user->name}}</p></td>
+                          <td><div class="col-2 image float-left"><img src="{{ ($user->avatar) ? url($user->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"></div><p class="pt-2 mb-0">{{$user->name}}</p></td>
                           <td>{{$user->email}}</td>
                           <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>
                           <td>{{$user->created_at}}</td>
                           <td>{{$user->lastvisitDate}}</td>
                           <td>
-                            <a href="{{ route('admin.user.edit', $user->id)}}"><button class="btn btn-primary">Edit</button></a>
+                            <a href="{{ route('admin.user.edit', $user->id)}}"><button class="btn btn-outline-dark">Edit</button></a>
+                            <a href="#"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a>
                           </td>
                         </tr>
                         @endforeach
