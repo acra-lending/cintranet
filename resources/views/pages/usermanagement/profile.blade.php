@@ -31,7 +31,7 @@
                 <div class="card-body box-profile">
                   <div class="text-center">
                     <img class="profile-user-img img-fluid img-circle"
-                         src="{{ asset ('img/avatar1.png') }}"
+                         src="{{ ($contact->avatar) ? url($contact->avatar) : asset('img/avatar1.png') }}"
                          alt="User profile picture">
                   </div>
                   <h3 class="profile-username text-center">{{$contact->firstname}} {{$contact->lastname}}</h3>

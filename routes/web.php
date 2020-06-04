@@ -47,7 +47,7 @@ Route::get('servicing/servicing', function(){return view('pages.servicing.servic
 Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
 Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware('auth');
 Route::get('humanresources/401k', 'Principal401kController@index')->middleware('auth');
-Route::get('humanresources/benefits', 'BenefitsController@index')->middleware('auth');
+Route::get('humanresources/health', 'HealthPlansController@index')->middleware('auth');
 Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->middleware('auth');
 Route::get('humanresources/careers', 'CareersController@index')->middleware('auth');
 

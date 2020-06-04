@@ -7,11 +7,14 @@
         <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
-            <div class="col-sm-6">
+            <div class="col-sm-10">
+              <div class="image">
+                <h3 class="pl-2 mt-1 text-light dashboard-h3" style="position: absolute;">Welcome to your new Cintranet, {{$first_name}}!</h3>
+                <img class ="img-fluid" src="{{ asset('img/csc-cintranet-header-bg2.jpg') }}">
+              </div>
 
-                <h1 class="m-0 text-dark">Welcome to the new Cintranet, {{$first_name}}!</h1>
             </div><!-- /.col -->
-            <div class="col-sm-6">
+            <div class="col-sm-2 col-md-2 col-lg-2">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active"><a href="/">Dashboard</a></li>
                 </ol>
@@ -71,6 +74,8 @@
       <div class="container-fluid">
         <!-- Info boxes -->
         <div class="row">
+          <!-- fix for small devices only -->
+          <div class="clearfix hidden-md-up"></div>
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box">
               <span class="info-box-icon bg-dark elevation-1"><i class="fas fa-chart-bar"></i></span>
@@ -89,7 +94,7 @@
               <span class="info-box-icon bg-danger elevation-1"><i class="fas fa-chalkboard-teacher"></i></span>
 
               <div class="info-box-content">
-                <span class="info-box-text">Courses This Month</span>
+                <span class="info-box-text">Courses</span>
                 <span class="info-box-number">3</span>
               </div>
               <!-- /.info-box-content -->
@@ -98,8 +103,7 @@
           </div>
           <!-- /.col -->
 
-          <!-- fix for small devices only -->
-          <div class="clearfix hidden-md-up"></div>
+
 
           <div class="col-12 col-sm-6 col-md-3">
             <div class="info-box mb-3">

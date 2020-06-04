@@ -47,7 +47,7 @@
                       <tbody>
                           @foreach($users as $user)
                         <tr>
-                          <td>{{$user->name}}</td>
+                          <td><div class="col-1 image float-left"><img src="{{ ($user->avatar) ? url($user->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"></div><p class="pt-2 mb-0">{{$user->name}}</p></td>
                           <td>{{$user->email}}</td>
                           <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>
                           <td>{{$user->created_at}}</td>

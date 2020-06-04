@@ -11,7 +11,7 @@
         <!-- Sidebar user panel (optional) -->
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-            <img src="{{ (Auth::user()->avatar) ? url(Auth::user()->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid">
+            <img src="{{ (Auth::user()->avatar) ? url(Auth::user()->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle elevation-1">
             </div>
             <div class="info">
             <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="d-block">{{Auth::user()->name}}</a>
@@ -154,9 +154,9 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/humanresources/benefits" class="nav-link {{ Request::path() === 'humanresources/benefits' ? 'active': ''}}">
+                        <a href="/humanresources/health" class="nav-link {{ Request::path() === 'humanresources/health' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Benefits</p>
+                            <p>Health Plan</p>
                         </a>
                     </li>
                 </ul>
@@ -196,7 +196,7 @@
                     <li class="nav-item">
                         <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Careers <p style="font-size: 10pt;">&nbsp;(coming soon)<p> </p>
+                            <p>Careers</p>
                         </a>
                     </li>
                 </ul>

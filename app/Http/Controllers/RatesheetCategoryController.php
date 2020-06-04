@@ -10,78 +10,78 @@ class RatesheetCategoryController extends Controller
     public function index()
     {
         //Wholesale Current Ratesheets
-        $wsOmbsvoe      = Post::where('category_id', 'wsOmbsvoe')
+        $wsOmbsvoe      = Post::whereRaw("find_in_set('wsOmbsvoe', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
                                 ->get();
 
-        $wsNonprime     = Post::where('category_id', 'wsNonprime')
+        $wsNonprime     = Post::whereRaw("find_in_set('wsNonprime', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
                                 ->get();
-        $wsOdf          = Post::where('category_id', 'wsOdf')
+        $wsOdf          = Post::whereRaw("find_in_set('wsOdf', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
                                 ->get();
-        $wsOdfPlus      = Post::where('category_id', 'wsOdfPlus')
+        $wsOdfPlus      = Post::whereRaw("find_in_set('wsOdfPlus', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
                                 ->get();
 
         //Wholesale Past Ratesheets
-        $wsOmbsvoe_past     = Post::where('category_id', 'wsOmbsvoe')
+        $wsOmbsvoe_past     = Post::whereRaw("find_in_set('wsOmbsvoe', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->skip(1)
                                     ->take(10)
                                     ->get();
-        $wsNonprime_past    = Post::where('category_id', 'wsNonprime')
+        $wsNonprime_past    = Post::whereRaw("find_in_set('wsNonprime', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->skip(1)
                                     ->take(10)
                                     ->get();
-        $wsOdf_past         = Post::where('category_id', 'wsOdf')
+        $wsOdf_past         = Post::whereRaw("find_in_set('wsOdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->skip(1)
                                     ->take(10)
                                     ->get();
-        $wsOdfPlus_past     = Post::where('category_id', 'wsOdfPlus')
+        $wsOdfPlus_past     = Post::whereRaw("find_in_set('wsOdfPlus', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->skip(1)
                                     ->take(10)
                                     ->get();
 
         //Correspondent Current Ratesheets PDF
-        $corrOmbsvoePdf     = Post::where('category_id', 'corrOmbsvoePdf')
+        $corrOmbsvoePdf     = Post::whereRaw("find_in_set('corrOmbsvoePdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrNonprimePdf    = Post::where('category_id', 'corrNonprimePdf')
+        $corrNonprimePdf    = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrOdfPdf         = Post::where('category_id', 'corrOdfPdf')
+        $corrOdfPdf         = Post::whereRaw("find_in_set('corrOdfPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrOdfPlusPdf     = Post::where('category_id', 'corrOdfPlusPdf')
+        $corrOdfPlusPdf     = Post::whereRaw("find_in_set('corrOdfPlusPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
         
         //Correspondent Current Ratesheets Excel
-        $corrOmbsvoeXlsx    = Post::where('category_id', 'corrOmbsvoeXlsx')
+        $corrOmbsvoeXlsx    = Post::whereRaw("find_in_set('corrOmbsvoeXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrNonprimeXlsx   = Post::where('category_id', 'corrNonprimeXlsx')
+        $corrNonprimeXlsx   = Post::whereRaw("find_in_set('corrNonprimeXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrOdfXlsx        = Post::where('category_id', 'corrOdfXlsx')
+        $corrOdfXlsx        = Post::whereRaw("find_in_set('corrOdfXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
-        $corrOdfPlusXlsx    = Post::where('category_id', 'corrOdfPlusXlsx')
+        $corrOdfPlusXlsx    = Post::whereRaw("find_in_set('corrOdfPlusXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();

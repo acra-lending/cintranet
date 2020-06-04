@@ -1,7 +1,5 @@
 @extends('layouts.default')
 
-@extends('layouts.default')
-
 @section('content')
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
@@ -15,7 +13,7 @@
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
             <li class="breadcrumb-item active">Learning</li>
-            <li class="breadcrumb-item"><a href="/">Building Relationships</a></li>
+            <li class="breadcrumb-item"><a href="#">Building Relationships</a></li>
             </ol>
         </div><!-- /.col -->
         </div><!-- /.row -->

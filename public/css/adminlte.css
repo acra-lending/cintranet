@@ -567,9 +567,16 @@ pre code {
   margin-left: auto;
 }
 
+.dashboard-h3 {
+  font-size: 1rem;
+}
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
+  }
+  .dashboard-h3 {
+    font-size: 1rem;
   }
 }
 
@@ -577,17 +584,26 @@ pre code {
   .container {
     max-width: 720px;
   }
+  .dashboard-h3 {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
   }
+  .dashboard-h3 {
+    font-size: 1.75rem;
+  }
 }
 
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
+  }
+  .dashboard-h3 {
+    font-size: 1.75rem;
   }
 }
 
