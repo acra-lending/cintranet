@@ -39,7 +39,7 @@
                     <div class="card-body">
                         <!-- Attachment -->
                         <div class="img">
-                            <img class="img-responsive card-img-top float-left" src="{{ asset ('img/attach5.jpg') }}" alt="Attachment Image">
+                            <img class="img-responsive card-img-top float-left" src="{{ asset ('storage/cover_images/' .$post->cover_image) }}" alt="cover-image">
                         </div>     
                     </div>
                     <div class="card-body">

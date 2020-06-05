@@ -30,7 +30,7 @@
                             <h4 class="card-title">Edit Post</h4>
                         </div>
                         <div class="card-body">
-                            {{ Form::open(['action' => ['LearningPostsController@update', $post->id], 'method' => 'PUT']) }}
+                            {{ Form::open(['action' => ['LearningPostsController@update', $post->id], 'method' => 'PUT', 'enctype' => 'multipart/form-data']) }}
                                 <div class="form-group">
                                     {{ Form::label('title', 'Title')}}
                                     {{ Form::text('title', $post->title, ['class' => 'form-control', 'placeholder' => 'Title'])}}
@@ -38,6 +38,9 @@
                                 <div class="form-group">
                                     {{ Form::label('body', 'Body')}}
                                     {{ Form::textarea('body', $post->body, ['id' => 'editor1','class' => 'form-control', 'placeholder' => 'Body Text'])}}
+                                </div>
+                                <div class="form-group">
+                                    {{ Form::file('cover_image') }}
                                 </div>
                                 {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}

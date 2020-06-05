@@ -31,7 +31,7 @@
                     <div class="card card-widget">
                     <div class="card-header">
                         <div class="user-block">
-                        <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">
+                        {{-- <img class="img-circle" src="" alt="User Image"> --}}
                         <span class="username"><a href="/learning/posts/{{$post->id}}">Learing and Development</a></span>
                         <span class="description">{{$post->created_at}} by {{$post->user->name}}</span>
                         </div>
@@ -42,7 +42,7 @@
                         <!-- Attachment -->
                         <div class="img">
                             <a href="/learning/posts/{{$post->id}}">
-                            <img class="img-responsive img-thumbnail float-left" src="{{ asset ('img/attach5.jpg') }}" alt="Attachment Image"></a>
+                            <img class="img-responsive img-thumbnail float-left" src="{{ asset ('storage/cover_images/' .$post->cover_image) }}" alt="cover-image"></a>
                         </div>                    
                         <!-- post text -->
                         <a href="/learning/posts/{{$post->id}}"><h4>{{$post->title}}</h4></a>
