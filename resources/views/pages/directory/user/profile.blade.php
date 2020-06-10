@@ -31,7 +31,7 @@
                 <div class="card-body box-profile">
                   <div class="text-center">
                     <img class="profile-user-img img-fluid img-circle"
-                         src="{{ ($contact->avatar) ? url($contact->avatar) : asset('img/avatar1.png') }}"
+                         src="{{ ($info->avatar) ? url('storage/avatars/' .$info->avatar) : url('img/avatar1.png') }}"
                          alt="User profile picture">
                   </div>
                   <h3 class="profile-username text-center">{{$contact->firstname}} {{$contact->lastname}}</h3>
@@ -94,6 +94,7 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
+              <a href="{{ route('admin.user.edit', $contact->id)}}"><button class="float-right btn btn-outline-dark">Edit</button></a>
             </div>
             <!-- /.col -->
             {{-- <div class="col-md-9">

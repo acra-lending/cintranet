@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use App\Role;
+use DB;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -39,7 +40,7 @@ class RegisterController extends Controller
      */
     public function __construct()
     {
-        $this->middleware('guest');
+        $this->middleware('auth');
     }
 
     /**
@@ -71,6 +72,14 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
+        ]);
+
+        $firstname = explode(' ', trim($data['name']))[0];
+        $lastname = explode(' ', trim($data['name']))[1];
+
+        $info = DB::table('s2zar_jsn_users')->insert([
+            'firstname' => $firstname,
+            'lastname' => $lastname,
         ]);
         
         $user->assignRole($role);

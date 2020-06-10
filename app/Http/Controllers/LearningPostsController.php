@@ -122,7 +122,7 @@ class LearningPostsController extends Controller
             $path = $request->file('cover_image')->storeAs('public/cover_images', $fileNameToStore);
         }
 
-        // Create Post
+        // Update Post
         $post = LearningPost::find($id);
         $post->title = $request->input('title');
         $post->body = $request->input('body');
