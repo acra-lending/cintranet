@@ -52,8 +52,10 @@
                           <div class="order-4 col-md-6 col-lg-3 col-xl-3 pt-3">
                             {{ Form::select('position', $position, null, ['class' => 'form-control', 'placeholder' => 'Position', 'style' => 'width:100%']) }}
                           </div>
-                          <div class="order-5 col-md-6 col-lg-3 col-xl-3 pt-3">
+                          {{-- <div class="order-5 col-md-6 col-lg-3 col-xl-3 pt-3">
                             {{ Form::select('team', $team, null, ['class' => 'form-control', 'placeholder' => 'Team', 'style' => 'width:100%']) }}
+                          </div> --}}
+                          <div class="order-5 col-md-6 col-lg-3 col-xl-3 pt-3">
                           </div>
                           <div class="order-6 col-md-6 col-lg-3 col-xl-3 pt-3">
                           </div>
