@@ -53,8 +53,11 @@
                           <td>{{$user->created_at}}</td>
                           <td>{{$user->lastvisitDate}}</td>
                           <td>
-                            <a href="{{ route('admin.user.edit', $user->id)}}"><button class="btn btn-outline-dark">Edit</button></a>
-                            <a href="#"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a>
+                            <a href="{{ route('admin.user.edit', $user->id)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
+                            {{ Form::open(['action' => ['Admin\UsersController@destroy', $user], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
+                            {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
+                            {{ Form::close() }}
+                            {{-- <a href="{{ route('admin.user.destroy', $user->id)}}" method="POST"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a> --}}
                           </td>
                         </tr>
                         @endforeach

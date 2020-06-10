@@ -58,7 +58,8 @@ class HomeController extends Controller
             ->with('first_name', $first_name);
         }
 
-        return view('pages.dashboard');
+        return view('pages.dashboard')            
+        ->with('first_name', $first_name);
 
     }
 }

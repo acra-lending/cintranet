@@ -9,7 +9,7 @@
             <div class="row mb-2">
             <div class="col-sm-10">
               <div class="image">
-                <h3 class="pl-2 mt-1 text-light dashboard-h3" style="position: absolute;">Welcome to your new Cintranet, {{$first_name}}!</h3>
+                <h3 class="pl-2 mt-1 text-light dashboard-h3" style="position: absolute;">Welcome to your new Cintranet, {{ $first_name }}!</h3>
                 <img class ="img-fluid" src="{{ asset('img/csc-cintranet-header-bg2.jpg') }}">
               </div>
 
