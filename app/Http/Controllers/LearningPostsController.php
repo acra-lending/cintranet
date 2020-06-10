@@ -142,13 +142,17 @@ class LearningPostsController extends Controller
      */
     public function destroy($id)
     {
+        // Check for correct user
+        if(Gate::denies('delete-posts')){
+            return redirect('/learning/posts')->with('error', 'Unauthorized');
+        }
 
         $post = LearningPost::find($id);
 
-        // Check for correct user
-        if(auth()->user()->id !== $post->user_id){
-            return redirect('/learning/posts')->with('error', 'Unauthorized');
-        }
+        
+        // if(auth()->user()->id !== $post->user_id){
+        //     return redirect('/learning/posts')->with('error', 'Unauthorized');
+        // }
         
         if($post->cover_image !== 'noimage.jpg'){
             // Delete image

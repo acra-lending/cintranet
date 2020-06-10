@@ -63,7 +63,7 @@
             <!-- /.card-body -->
             </div>
             <a href="/learning/announcements" class="btn btn-outline-danger">Back</a>
-            @can('edit-users')
+            @can('edit-posts')
 
             <a href="/learning/announcements/{{$post->id}}/edit" class="btn btn-outline-dark">Edit</a>
             {{ Form::open(['action' => ['AnnouncementPostsController@destroy', $post->id], 'method' => 'DELETE', 'class' => 'float-right']) }}

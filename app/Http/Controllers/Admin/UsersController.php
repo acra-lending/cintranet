@@ -110,7 +110,7 @@ class UsersController extends Controller
      */
     public function destroy($id)
     {
-        if(Gate::denies('edit-users')){
+        if(Gate::denies('delete-users')){
             return redirect(route('admin.user.index'));
         }
 

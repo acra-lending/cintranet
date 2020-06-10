@@ -6,6 +6,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Announcement;
 use App\AnnouncementFile;
+use App\User;
+use App\Role;
+use Gate;
 
 class AnnouncementPostsController extends Controller
 {
@@ -171,14 +174,18 @@ class AnnouncementPostsController extends Controller
      */
     public function destroy($id)
     {
+        // Check for correct user
+        if(Gate::denies('delete-posts')){
+            return redirect('/learning/announcements')->with('error', 'Unauthorized');
+        }
 
         $post = Announcement::find($id);
         $files = AnnouncementFile::orderBy('created_at', 'desc')->get();
 
-        // Check for correct user
-        if(auth()->user()->id !== $post->user_id){
-            return redirect('/learning/announcements')->with('error', 'Unauthorized');
-        }
+
+        // if(auth()->user()->id !== $post->user_id){
+        //     return redirect('/learning/announcements')->with('error', 'Unauthorized');
+        // }
 
         // Check for files
         foreach($files as $file){

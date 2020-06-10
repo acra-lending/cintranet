@@ -9,7 +9,9 @@
         <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark">Building Relationships</h1>
-            <a href="/learning/posts/create" class="mt-3 col-sm-2 btn btn-outline-dark">Create</a> <!-- Need Gate Here -->
+            @can('manage-posts')
+                <a href="/learning/posts/create" class="mt-3 col-sm-2 btn btn-outline-dark">Create</a>
+            @endcan
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">

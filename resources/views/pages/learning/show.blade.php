@@ -54,7 +54,7 @@
                     <!-- /.card-body -->
                     </div>
                     <a href="/learning/posts" class="btn btn-outline-danger">Back</a>
-                    @can('edit-users')
+                    @can('edit-posts')
 
                     <a href="/learning/posts/{{$post->id}}/edit" class="btn btn-outline-dark">Edit</a>
                     {{ Form::open(['action' => ['LearningPostsController@destroy', $post->id], 'method' => 'DELETE', 'class' => 'float-right']) }}
