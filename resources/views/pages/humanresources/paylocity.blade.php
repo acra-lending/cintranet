@@ -38,7 +38,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-guide.svg') }}" alt="paylocity-guide"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$loginGuide->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-guide.svg') }}" alt="paylocity-guide"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
@@ -50,7 +50,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-webpay-login-guide.svg') }}" alt="webpay"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$webPayGuide->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-webpay-login-guide.svg') }}" alt="webpay"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5> --}}
                                 {{-- <p class="card-text">Access Web Pay at (loginpaylocity.com).</p> --}}

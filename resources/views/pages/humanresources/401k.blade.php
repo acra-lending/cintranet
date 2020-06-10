@@ -38,7 +38,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="#" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-401k-summary-booklet.svg') }}" alt="paylocity-logo"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$booklet->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-401k-summary-booklet.svg') }}" alt="paylocity-logo"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">401(k) Summary Booklet</h5> --}}
                                 {{-- <p class="card-text" style="padding-top: 45px;">Principal 401(k) Enrollment Overview.</p> --}}

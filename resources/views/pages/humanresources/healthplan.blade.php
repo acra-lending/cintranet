@@ -38,7 +38,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{url('/storage/upload/CITADEL_SERVICING_CORPORATION_HEALTH AND WELFARE PLAN_1591194543.PDF')}}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare.svg') }}" alt="csc-health-welfare"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$welfare->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare.svg') }}" alt="csc-health-welfare"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
@@ -50,7 +50,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{url('/storage/upload/CITADEL_SERVICING_CORPORATION_Summary Plan Description_1591194543.pdf')}}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare-alt.svg') }}" alt="csc-health-welfare-alt"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$planDescription->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare-alt.svg') }}" alt="csc-health-welfare-alt"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
@@ -62,7 +62,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{url('/storage/upload/CITADEL_SERVICING_CORPORATION_Premium Only Plan_1591194543.pdf')}}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP.svg') }}" alt="csc-pop"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$premium->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP.svg') }}" alt="csc-pop"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
@@ -74,7 +74,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{url('/storage/upload/CITADEL_SERVICING_CORPORATION_POP SUMMARY_1591194543.PDF')}}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP-alt.svg') }}" alt="csc-pop-alt"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$pop->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP-alt.svg') }}" alt="csc-pop-alt"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
@@ -86,7 +86,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{url('/storage/upload/CITADEL_SERVICING_CORPORATION_QMCSO_1591194543.PDF')}}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-QMCSO.svg') }}" alt="csc-qmcso"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$qmcso->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-QMCSO.svg') }}" alt="csc-qmcso"></a></button>
                             <div class="card-body">
                                 {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
                                 {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
