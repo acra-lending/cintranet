@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Storage;
 use App\Post;
 use App\Category;
 
@@ -100,6 +101,10 @@ class UploadController extends Controller
     public function destroy($id)
     {
         $post = Post::find($id);
+
+        // Delete file
+        Storage::delete('public/upload/'.$post->filename);
+
         $post->delete();
 
         return back()->with('success', 'File Removed');
