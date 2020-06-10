@@ -9,6 +9,7 @@
         <div class="row mb-2">
         <div class="col-sm-6">
             <h1 class="m-0 text-dark">Building Relationships</h1>
+            <a href="/learning/posts/create" class="mt-3 col-sm-2 btn btn-outline-dark">Create</a> <!-- Need Gate Here -->
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -32,8 +33,9 @@
                     <div class="card-header">
                         <div class="user-block">
                         {{-- <img class="img-circle" src="" alt="User Image"> --}}
-                        <span class="username"><a href="/learning/posts/{{$post->id}}">Learing and Development</a></span>
+                        <span class="username"><a href="/learning/posts/{{$post->id}}">Learning and Development</a></span>
                         <span class="description">{{$post->created_at}} by {{$post->user->name}}</span>
+
                         </div>
                         <!-- /.user-block -->
                     </div>
@@ -64,9 +66,11 @@
             </div>
         </div>
 
-    @else <p>No Posts Found</p>
+    @else 
+    <div class="container">
+        <p>No Announcements Found</p>
+    </div>
     @endif
-
 </div>
 
 

@@ -15,7 +15,7 @@ class LearningPostsController extends Controller
      */
     public function index()
     {
-        $posts = LearningPost::orderBy('created_at', 'desc')->paginate(1);
+        $posts = LearningPost::orderBy('created_at', 'desc')->paginate(5);
         return view('pages.learning.index')->with('posts', $posts);
     }
 

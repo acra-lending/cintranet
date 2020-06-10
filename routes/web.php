@@ -22,11 +22,9 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
-Route::get('learning/announcements', function(){return view('pages.learning.announcements');})->middleware('auth');
-Route::get('learning/announcements2', function(){return view('pages.learning.announcements2');})->middleware('auth');
-Route::get('learning/announcements3', function(){return view('pages.learning.announcements3');})->middleware('auth');
-Route::get('learning/building', function (){return view('pages.learning.building');})->middleware('auth');
+Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth');
 Route::resource('learning/posts', 'LearningPostsController')->middleware('auth');
+Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
 
 Route::get('directory/directory', 'DirectoryController@index')->middleware('auth');
 Route::get('usermanagement/profile/{id}', 'DirectoryController@show')->middleware('auth');

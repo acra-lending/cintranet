@@ -84,12 +84,6 @@
                             <p>Building Relationships</p>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a href="/learning/posts/create" class="nav-link {{ Request::path() === 'learning/posts/create' ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Create Post</p>
-                        </a>
-                    </li>
                     <li class="nav-item has-treeview {{ Request::is('courses/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-circle"></i>
