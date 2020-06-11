@@ -36,7 +36,7 @@
                     <div class="card-header">
 
                         <div class="user-block">
-                        <img class="img-circle" src="{{ ($post->user->avatar) ? url($post->user->avatar) : asset('img/avatar1.png') }}" alt="User Image">
+                        <img class="img-circle" src="{{ ($post->user->avatar) ? url('/storage/avatars/' .$post->user->avatar) : asset('img/avatar1.png') }}" alt="User Image">
                         <span class="username"><a href="/learning/announcements/{{$post->id}}">Learning and Development</a></span>
                         <span class="description">{{$post->created_at}} by {{$post->user->name}}</span>
 
@@ -51,32 +51,28 @@
                             {{-- <img class="img-responsive img-thumbnail float-left" src="{{ asset ('storage/files/' .$post->file) }}" alt="ga-file"></a> --}}
                         </div>                    
                         <!-- post text -->
-                        <a href="/learning/announcements/{{$post->id}}">
-                            <h4>{{$post->title}}
-                                <!-- Attachment -->
-                                <div class="pl-4 col-sm-10 col-md-3 float-right mr-4">
-                                <h6>Resource Files: </h6>
-                                @foreach($files as $file)
-                                @if($file->announcement_id == $post->id)
-                                <a href="{{ route('view', $file->file) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-file-alt"></i></a>
-                                @endif
-                                @endforeach   
-                                </div>
-                                
-                            </h4>                        
-                        </a>
-                        <div class="col-md-3 float-right mr-4 p-0">
-                            <ul class="list-unstyled">
-                                {{-- @foreach($files as $file)
-                                <a href="{{ route('show', $file->file) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-file-alt"></i></a>
-                                @endforeach --}}
-
-                            </ul>
+                        <div class="col-9">
+                            <a href="/learning/announcements/{{$post->id}}">
+                                <h4>{{$post->title}}</h4></a>
                         </div>
 
+                        <!-- Attachment -->
+                        <div class="pl-4 col-sm-10 col-md-3 float-right mr-4">
+                        <h6>Resource Files: </h6>
+                        @foreach($files as $file)
+                        @if($file->announcement_id == $post->id)
+                        <a href="{{ route('view', $file->file) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-file-alt"></i></a>
+                        @endif
+                        @endforeach   
+                        </div>
+                                
 
-                        <div class="image">
-                            <p>{!!$post->body!!}</p>
+
+                        <div>
+                            <p>{!! Str::limit($post->body, 150) !!}</p>
+                        </div>
+                        <div class="float-left pr-3 pb-3">
+                            <a href="/learning/announcements/{{$post->id}}" class="small-box-footer float-right">Read More <i class="fas fa-chevron-circle-right"></i></a>
                         </div>
 
 

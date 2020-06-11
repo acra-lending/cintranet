@@ -40,6 +40,7 @@
                             {{ Form::textarea('body', '', ['id' => 'editor1','class' => 'form-control', 'placeholder' => 'Body Text']) }}
                         </div>
                         <div class="form-group">
+                            {{ Form::label('Attach Resource Files:') }}
                             {{ Form::file('file[]', array('multiple' => true, 'accept' => 'doc,docx,pdf')) }}
                         </div>
                         {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}

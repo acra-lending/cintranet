@@ -22,9 +22,9 @@
     <!-- /.content-header -->
     
  <!--POST TEMPLATE -->
- <div class="container-fluid">
+ <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-6">
+        <div class="col">
             <!-- Box Comment -->
             <div class="card card-widget">
             {{-- <div class="card-header">
@@ -37,16 +37,10 @@
             </div> --}}
             <!-- /.card-header -->
             <div class="card-body">
-                <!-- Attachment -->
-                {{-- <div class="img">
-                    <img class="img-responsive card-img-top float-left" src="{{ asset ('storage/files/' .$post->cover_image) }}" alt="cover-image">
-                </div>      --}}
-            </div>
-            <div class="card-body">
                 <!-- post text -->
                 <h4>{{$post->title}}</h4>
                 <!-- Attachment -->
-                <div class="col-md-3 float-right mr-4">
+                <div class="col-md-3 float-right pl-3 mr-4 mt-3">
                     <h6>Resource Files: </h6>
                     @foreach($files as $file)
                     @if($file->announcement_id == $post->id)
@@ -58,7 +52,7 @@
                 <p>{!!$post->body!!}</p>
 
 
-                <span class="description">{{$post->created_at}}</span>
+                <span class="description" style="font-size: 10pt"><em>~{{$post->created_at}}</em></span>
             </div>   
             <!-- /.card-body -->
             </div>

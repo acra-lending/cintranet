@@ -104,6 +104,10 @@ class UsersController extends Controller
      */
     public function update(Request $request, User $user)
     {
+        if(Gate::denies('edit-users')){
+            return redirect(route('admin.user.index'));
+        }
+
         $this->validate($request, [
             'email' => 'required',
             'directphone' => 'required',
@@ -114,7 +118,6 @@ class UsersController extends Controller
             'cell' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
-
 
 
         // Handle File Upload
@@ -129,9 +132,10 @@ class UsersController extends Controller
             $fileNameToStore = $filename.'_'.time().'.'.$extension;
             // Upload Image
             $path = $request->file('avatar')->storeAs('public/avatars', $fileNameToStore);
-        } else {
-            $fileNameToStore = 'noimage.jpg';
-        }
+        } 
+        // else {
+        //     $fileNameToStore = '';
+        // }
         $name = auth()->user()->name;
         $firstname = explode(' ', trim($name))[0];
         $lastname = explode(' ', trim($name))[1];
@@ -151,7 +155,9 @@ class UsersController extends Controller
 
         $profile = User::find($user)->first();
         $profile->email = $request->input('email');
-        $profile->avatar = $fileNameToStore;
+        if($request->hasFile('avatar')){
+            $profile->avatar = $fileNameToStore;
+        }
         $profile->save();
         
         $user->roles()->sync($request->roles);

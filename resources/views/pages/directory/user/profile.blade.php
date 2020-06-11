@@ -94,8 +94,13 @@
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-              <a href="{{ route('admin.user.edit', $contact->id)}}"><button class="float-right btn btn-outline-dark">Edit</button></a>
+              
             </div>
+            @can('edit-users')
+            <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4">
+              <a href="{{ route('admin.user.edit', $contact->id)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
+            </div>
+            @endcan
             <!-- /.col -->
             {{-- <div class="col-md-9">
               <div class="card">

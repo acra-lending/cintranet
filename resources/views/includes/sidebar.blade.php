@@ -28,7 +28,7 @@
                 </a>
             </li>
             <br/>
-
+            @can('edit-users')
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
@@ -54,6 +54,7 @@
                 </ul>
             </li>
             <br/>
+            @endcan
 
             <li class=" nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">
@@ -178,14 +179,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/mvp" class="nav-link {{ Request::path() === 'humanresources/mvp' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>MVP Spotlight</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
@@ -203,6 +204,7 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
+                @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/operations/daily" class="nav-link {{ Request::path() === 'operations/daily' ? 'active': ''}}">
@@ -211,6 +213,7 @@
                         </a>
                     </li>
                 </ul>
+                @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/operations/forms" class="nav-link {{ Request::path() === 'operations/forms' ? 'active': ''}}">
@@ -228,6 +231,7 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
+                @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/data" class="nav-link {{ Request::path() === 'sales/data' ? 'active': ''}}">
@@ -236,6 +240,7 @@
                         </a>
                     </li>
                 </ul>
+                @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/documents" class="nav-link {{ Request::path() === 'sales/documents' ? 'active': ''}}">
@@ -301,6 +306,7 @@
             </li>
             <br/>
             <br/>
+            @can('edit-users')
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
                 <a href="/mediamanager/files" class="nav-link">
                     <i class="nav-icon fas fa-hdd"></i>
@@ -316,6 +322,7 @@
                     </li>
                 </ul>
             </li>
+            @endcan
         </ul>
         </nav>
         <!-- /.sidebar-menu -->

@@ -245,7 +245,7 @@
                           @if(!empty($teamMembers))
                           @foreach($teamMembers as $team)
                         <li>
-                            <img src="{{ ($team->avatar) ? url($team->avatar) : asset('img/avatar1.png') }}" alt="User Image" style="width:50%">
+                            <img src="{{ ($team->avatar) ? url('/storage/avatars/' .$team->avatar) : asset('img/avatar1.png') }}" alt="User Image" style="width:50%">
                             <a class="users-list-name" href="/directory/user/{{$team->id}}">{{ $team->firstname }} {{$team->lastname}}</a>
                             <span class="users-list-date">{{ Carbon\Carbon::parse($team->lastvisitDate)->diffForHumans() }}</span>
                         </li>

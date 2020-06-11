@@ -34,7 +34,7 @@
                     <div class="card card-widget">
                     <div class="card-header">
                         <div class="user-block">
-                        {{-- <img class="img-circle" src="" alt="User Image"> --}}
+                        <img class="img-circle" src="{{ ($post->user->avatar) ? url('/storage/avatars/' .$post->user->avatar) : asset('img/avatar1.png') }}" alt="User Image">
                         <span class="username"><a href="/learning/posts/{{$post->id}}">Learning and Development</a></span>
                         <span class="description">{{$post->created_at}} by {{$post->user->name}}</span>
 
@@ -51,7 +51,10 @@
                         <!-- post text -->
                         <a href="/learning/posts/{{$post->id}}"><h4>{{$post->title}}</h4></a>
                         
-                        <p>{!!$post->body!!}</p>
+                        <p>{!! Str::limit($post->body, 150) !!}</p>
+                        <div class="float-right pr-3 pb-3">
+                            <a href="/learning/posts/{{$post->id}}" class="small-box-footer float-right">Read More <i class="fas fa-chevron-circle-right"></i></a>
+                        </div>
 
                     </div>
                     <!-- /.card-body -->

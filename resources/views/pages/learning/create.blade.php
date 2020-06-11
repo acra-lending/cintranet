@@ -40,6 +40,7 @@
                                     {{ Form::textarea('body', '', ['id' => 'editor1','class' => 'form-control', 'placeholder' => 'Body Text']) }}
                                 </div>
                                 <div class="form-group">
+                                    {{ Form::label('Cover Image:') }}
                                     {{ Form::file('cover_image') }}
                                 </div>
                                 {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}

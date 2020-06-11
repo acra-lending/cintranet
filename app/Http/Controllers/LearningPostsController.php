@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\LearningPost;
+use Gate;
 
 class LearningPostsController extends Controller
 {
@@ -149,7 +150,7 @@ class LearningPostsController extends Controller
 
         $post = LearningPost::find($id);
 
-        
+
         // if(auth()->user()->id !== $post->user_id){
         //     return redirect('/learning/posts')->with('error', 'Unauthorized');
         // }

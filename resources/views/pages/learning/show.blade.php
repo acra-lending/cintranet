@@ -39,19 +39,20 @@
                     <div class="card-body">
                         <!-- Attachment -->
                         <div class="img">
-                            <img class="img-responsive card-img-top float-left" src="{{ asset ('storage/cover_images/' .$post->cover_image) }}" alt="cover-image">
-                        </div>     
+                            <img class="img-responsive img-thumbnail card-img-top float-left" src="{{ asset ('storage/cover_images/' .$post->cover_image) }}" alt="cover-image">
+                        </div>
+                        <div class="card-body px-1">
+                            <!-- post text -->
+                            <h4>{{$post->title}}</h4>
+    
+                            <p>{!!$post->body!!}</p>
+    
+    
+                            <span class="description" style="font-size: 10pt"><em>~{{$post->created_at}}</em></span>
+                        </div>   
+                        <!-- /.card-body -->     
                     </div>
-                    <div class="card-body">
-                        <!-- post text -->
-                        <h4>{{$post->title}}</h4>
 
-                        <p>{!!$post->body!!}</p>
-
-
-                        <span class="description">{{$post->created_at}}</span>
-                    </div>   
-                    <!-- /.card-body -->
                     </div>
                     <a href="/learning/posts" class="btn btn-outline-danger">Back</a>
                     @can('edit-posts')

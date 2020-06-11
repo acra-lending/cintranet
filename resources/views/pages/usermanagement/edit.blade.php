@@ -34,7 +34,7 @@
                   <div class="text-center">
                     <div class="form-group">
                       <img class="profile-user-img img-fluid img-circle"
-                      src="{{ asset($contact->avatar) ? url($contact->avatar) : asset('img/avatar1.png') }}"
+                      src="{{ ($contact->avatar) ? url('storage/avatars/' .$contact->avatar) : asset('img/avatar1.png') }}"
                       alt="User profile picture">
                     </div>
 
@@ -126,6 +126,7 @@
                 </div>
               </div>
               <div class="form-group">
+                {{ Form::label('Profile Picture ') }}
                 {{ Form::file('avatar') }}
                 <button type="submit" class="btn btn-primary float-right">Update</button>
             </div>
