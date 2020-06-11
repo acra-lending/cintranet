@@ -569,6 +569,14 @@ pre code {
 
 .dashboard-h3 {
   font-size: 1rem;
+  position: absolute; 
+  left: 5.25rem; 
+  top: 0.35rem;
+}
+
+.dashboard-input {
+  left: 4.5rem; 
+  top: -4.50rem;
 }
 
 @media (min-width: 576px) {
@@ -577,6 +585,12 @@ pre code {
   }
   .dashboard-h3 {
     font-size: 1rem;
+    left: 7.75rem; 
+    top: 1rem;
+  }
+  .dashboard-input {
+    left: 5rem; 
+    top: -5rem;
   }
 }
 
@@ -586,6 +600,12 @@ pre code {
   }
   .dashboard-h3 {
     font-size: 1.5rem;
+    left: 9.5rem; 
+    top: 2rem;
+  }
+  .dashboard-input {
+    left: 7rem; 
+    top: -5rem;
   }
 }
 
@@ -595,6 +615,12 @@ pre code {
   }
   .dashboard-h3 {
     font-size: 1.75rem;
+    left: 13rem; 
+    top: 1rem;
+  }
+  .dashboard-input {
+    left: 8.5rem; 
+    top: -6rem;
   }
 }
 
@@ -604,6 +630,72 @@ pre code {
   }
   .dashboard-h3 {
     font-size: 1.75rem;
+    left: 13rem; 
+    top: 1rem;
+  }
+  .dashboard-input {
+    left: 8rem; 
+    top: -6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1400px;
+  }
+  .dashboard-h3 {
+    font-size: 1.75rem;
+    left: 19rem; 
+    top: 3rem;
+  }
+  .dashboard-input {
+    left: 9.5rem; 
+    top: -7rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1600px;
+  }
+  .dashboard-h3 {
+    font-size: 1.75rem;
+    left: 24rem; 
+    top: 4rem;
+  }
+  .dashboard-input {
+    left: 10rem; 
+    top: -8rem;
+  }
+}
+
+@media (min-width: 1800px) {
+  .container {
+    max-width: 1800px;
+  }
+  .dashboard-h3 {
+    font-size: 1.75rem;
+    left: 29rem; 
+    top: 4rem;
+  }
+  .dashboard-input {
+    left: 12rem; 
+    top: -9rem;
+  }
+}
+
+@media (min-width: 1900px) {
+  .container {
+    max-width: 1900px;
+  }
+  .dashboard-h3 {
+    font-size: 1.75rem;
+    left: 34rem; 
+    top: 4rem;
+  }
+  .dashboard-input {
+    left: 13rem; 
+    top: -9rem;
   }
 }
 

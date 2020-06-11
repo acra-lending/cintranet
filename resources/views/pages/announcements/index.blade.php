@@ -45,12 +45,9 @@
                     </div>
                     <!-- /.card-header -->
                     <div class="card-body">
-                        <!-- Attachment -->
                         <div class="img">
                             <a href="/learning/announcements/{{$post->id}}">
-                            {{-- <img class="img-responsive img-thumbnail float-left" src="{{ asset ('storage/files/' .$post->file) }}" alt="ga-file"></a> --}}
                         </div>                    
-                        <!-- post text -->
                         <div class="col-9">
                             <a href="/learning/announcements/{{$post->id}}">
                                 <h4>{{$post->title}}</h4></a>

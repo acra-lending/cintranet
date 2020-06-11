@@ -108,7 +108,7 @@
                       </ul>
                     </div>
                     <div class="col-5 text-center">
-                      <img src="{{ ($contact->avatar) ? url($contact->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid">
+                      <img src="{{ ($contact->avatar) ? url('/storage/avatars/'. $contact->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid">
                       {{-- <img src="{{ asset($contact->avatar) }}" alt="user-photo" class="img-circle img-fluid"> --}}
                       {{-- <img src="{{ asset ('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"> --}}
                     </div>

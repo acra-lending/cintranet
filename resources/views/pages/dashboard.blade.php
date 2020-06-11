@@ -6,20 +6,15 @@
         <!-- Content Header (Page header) -->
         <div class="content-header">
         <div class="container-fluid">
-            <div class="row mb-2">
-            <div class="col-sm-10">
-              <div class="image">
-                <h3 class="pl-2 mt-1 text-light dashboard-h3" style="position: absolute;">Welcome to your new Cintranet, {{ $first_name }}!</h3>
-                <img class ="img-fluid" src="{{ asset('img/csc-cintranet-header-bg2.jpg') }}">
-              </div>
 
-            </div><!-- /.col -->
-            <div class="col-sm-2 col-md-2 col-lg-2">
+            {{-- <div class="row mb-2"> --}}
+
+            {{-- <div class="col-sm-2 col-md-2 col-lg-2">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active"><a href="/">Dashboard</a></li>
                 </ol>
-            </div><!-- /.col -->
-            </div><!-- /.row -->
+            </div><!-- /.col --> --}}
+            {{-- </div><!-- /.row --> --}}
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
@@ -70,10 +65,31 @@
 
     <!-- Main content -->
     <section class="content">
+      <div class="col-sm-12">
+        <div class="card">
+          <img class ="img-fluid" src="{{ asset('img/dashboard-bg.jpg') }}">
+            <h3 class="text-light dashboard-h3">Welcome to your new Cintranet, {{ $first_name }}!</h3>
+        </div>
+        <div class="container">
+        <!-- SEARCH FORM -->  
+        <form action="/search" method="GET" role="search">
+          {{ csrf_field() }}
+          <div class="input-group input-group dashboard-input" style="width:75%;">
+          <input class="form-control form-control-navbar" type="search" name="q" placeholder="Search" aria-label="Search">
+          <div class="input-group-append">
+              <button class="btn btn-navbar" type="submit" style="right: 40px;">
+              <i class="fas fa-search"></i>
+              </button>
+          </div>
+          </div>
+        </form>
+        </div>
 
+    </div><!-- /.col -->
       <div class="container-fluid">
+
         <!-- Info boxes -->
-        <div class="row">
+        {{-- <div class="row">
           <!-- fix for small devices only -->
           <div class="clearfix hidden-md-up"></div>
           <div class="col-12 col-sm-6 col-md-3">
@@ -133,7 +149,7 @@
           <!-- /.col -->
           
         </div>
-        <!-- /.row -->
+        <!-- /.row --> --}}
         <div class="row">
           <div class="col-lg-5">
                    <!-- Map card -->
@@ -267,47 +283,25 @@
 
 
         <div class="col-lg-3">
-            <div class="card card-danger">
+            <div class="card card-widget card-danger">
             <div class="card-header">
                 <h3 class="card-title">
                 <i class="fas fa-bullhorn"></i>
                 General Announcements
                 </h3>
-            </div>
+            </div>                      
             <!-- /.card-header -->
             <div class="card-body">
-
+              @if(count($posts) > 0)
+              @foreach($posts as $post)
                 <div class="callout callout-danger">
-                    
-                <h5>Injury and Illness Prevention Program – California Management Team</h5>
-
-                <p>01/02/2020</p>
-                <table class="table">
-                    <tbody>
-                    <tr>
-                        <td>
-                          General Announcements Number 01-002
-                        </td>
-                        <td class="text-right py-0 align-middle">
-                            <div class="btn-group btn-group-sm">
-                              <a href="#" class="text-muted"><i class="fas fa-file-alt"></i></a>
-                            </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>
-                          General Announcements Number 01-002
-                        </td>
-                        <td class="text-right py-0 align-middle">
-                            <div class="btn-group btn-group-sm">
-                                <a href="#" class="text-muted"><i class="fas fa-file-alt"></i></a>
-                            </div>
-                        </td>
-                      </tr>
-                    </tbody>
-                </table>                
+                    <a href="/learning/announcements" style="text-decoration: none; color:#AB2328">
+                      <h6>{{$post->title}}</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10pt;"><em>{{$post->created_at}}</em></p>    
                 </div>
-
+              @endforeach
+              @endif
             </div>
             <!-- /.card-body -->
             </div>

@@ -8,18 +8,7 @@
     </ul>
 
 
-    <!-- SEARCH FORM -->
-    <form action="/search" method="GET" role="search" class="form-inline ml-3">
-        {{ csrf_field() }}
-        <div class="input-group input-group-sm">
-        <input class="form-control form-control-navbar" type="search" name="q" placeholder="Search" aria-label="Search">
-        <div class="input-group-append">
-            <button class="btn btn-navbar" type="submit">
-            <i class="fas fa-search"></i>
-            </button>
-        </div>
-        </div>
-    </form>
+
         <!-- Right Side Of Navbar -->
         <ul class="navbar-nav ml-auto">
             <!-- Authentication Links -->
