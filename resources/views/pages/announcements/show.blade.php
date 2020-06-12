@@ -24,7 +24,7 @@
  <!--POST TEMPLATE -->
  <div class="container">
     <div class="row justify-content-center">
-        <div class="col">
+        <div class="col-8">
             <!-- Box Comment -->
             <div class="card card-widget">
             {{-- <div class="card-header">

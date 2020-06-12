@@ -684,9 +684,9 @@ pre code {
   }
 }
 
-@media (min-width: 1900px) {
+@media (min-width: 1846px) {
   .container {
-    max-width: 1900px;
+    max-width: 1836px;
   }
   .dashboard-h3 {
     font-size: 1.75rem;
