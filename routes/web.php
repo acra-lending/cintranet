@@ -22,6 +22,16 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
+Route::get('fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
+Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');
+Route::put('eventupdate', 'EventController@update')->name('routeEventUpdate')->middleware('auth');
+Route::post('eventstore', 'EventController@store')->name('routeEventStore')->middleware('auth');
+Route::delete('eventdelete', 'EventController@destroy')->name('routeEventDelete')->middleware('auth');
+
+Route::put('fasteventupdate', 'FastEventController@update')->name('routeFastEventUpdate')->middleware('auth');
+Route::post('fasteventstore', 'FastEventController@store')->name('routeFastEventStore')->middleware('auth');
+Route::delete('fasteventdelete', 'FastEventController@destroy')->name('routeFastEventDelete')->middleware('auth');
+
 Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth');
 Route::resource('learning/posts', 'LearningPostsController')->middleware('auth');
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');

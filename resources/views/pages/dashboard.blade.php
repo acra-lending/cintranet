@@ -220,7 +220,7 @@
               <!-- /.card-header -->
               <div class="card-body pt-0">
                 <!--The calendar -->
-                <div id="calendar" style="width: 100%"></div>
+                <div id="dashboardCalendar" style="width: 100%"></div>
               </div>
               <!-- /.card-body -->
             </div>

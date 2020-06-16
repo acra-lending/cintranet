@@ -98,7 +98,7 @@ $(function () {
   sparkline3.draw([15, 19, 20, 22, 33, 27, 31, 27, 19, 30, 21]);
 
   // The Calender
-  $('#calendar').datetimepicker({
+  $('#dashboardCalendar').datetimepicker({
     format: 'L',
     inline: true
   })

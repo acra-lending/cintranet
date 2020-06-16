@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   @include('includes.head')
+  @stack('includes.head')
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -25,5 +26,6 @@
     </div>
 
         @include('includes.scripts')
+        @stack('includes.scripts')
 </body> 
 </html>

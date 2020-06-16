@@ -423,7 +423,7 @@ var myChart = new Chart(ctx, {
 </script>
 <script>
     // The Calender
-    $('#calendar').datetimepicker({
+    $('#dashboardCalendar').datetimepicker({
   format: 'L',
   inline: true
 })
