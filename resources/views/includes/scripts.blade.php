@@ -21,19 +21,7 @@
 <script src="{{ asset ('plugins/moment/moment.min.js') }}"></script>
 <script src="{{ asset ('plugins/daterangepicker/daterangepicker.js') }}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="{{ asset('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
-<!-- World Clock -->
-<script src="{{ asset('plugins/worldclock/worldclock.js') }}"></script> 
-<!-- CKeditor -->
-<script src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
-<script>
-    window.onload = function() {
-        CKEDITOR.replace( 'editor1' );
-        worldClockZone();
-    };
-</script>
-
-
+<script src="{{ asset ('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
 <!-- OPTIONAL SCRIPTS -->
 <script src="{{ asset ('plugins/chart.js/Chart.min.js') }}"></script>

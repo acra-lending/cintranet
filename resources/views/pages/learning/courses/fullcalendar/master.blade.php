@@ -35,8 +35,8 @@
     </div><!-- /.content-header -->
     
     <section class="content">
-      @include('pages.fullcalendar.modal-calendar')
-      @include('pages.fullcalendar.modal-fastEvents')
+      @include('pages.learning.courses.fullcalendar.modal-calendar')
+      @include('pages.learning.courses.fullcalendar.modal-fastEvents')
       
       <div class="row">
         <div class="col-md-3">

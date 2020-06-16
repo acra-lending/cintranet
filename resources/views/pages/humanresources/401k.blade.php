@@ -27,7 +27,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><img class="card-img-top p-0" src="{{ asset ('img/hr/cintranet-items_principal-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="principal"></button>
+                            <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="principal"></button>
                             <div class="card-body">
                             {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
                             {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}

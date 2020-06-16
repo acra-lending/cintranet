@@ -11,6 +11,6 @@ class FullCalendarController extends Controller
     {
         $fastEvents = FastEvent::all();
 
-        return view('pages.fullcalendar.master', ['fastEvents' => $fastEvents]);
+        return view('pages.learning.courses.fullcalendar.master', ['fastEvents' => $fastEvents]);
     }
 }

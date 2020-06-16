@@ -271,7 +271,7 @@
                         <!-- /.users-list -->
                     </div>
                     <!-- /.card-body -->
-                    <div class="card-footer text-center">
+                    <div class="float-right pr-3 pb-3">
                         <a href="{{action ('DirectoryController@index', ['team' => $team->team]) }}" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
                         @else
                         <p>No team members</p>
@@ -316,42 +316,31 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
+                  <a href="/fullcalendar" style="color: inherit; text-decoration: none; ">
                     <ul class="event-list">
+                      @foreach($events as $event)
                         <li>
                             <time datetime="2014-07-20">
-                                <span class="day">23</span>
-                                <span class="month">Apr</span>
-                                <span class="year">2020</span>
+                                <span class="day">{{ Carbon\Carbon::parse($event->start)->format('d') }}</span>
+                                <span class="month">{{ Carbon\Carbon::parse($event->start)->format('M') }}</span>
+                                <span class="year">{{ Carbon\Carbon::parse($event->start)->format('Y') }}</span>
                             </time>
+                          
                             <div class="info">
-                                <h2 class="title">Service Skills That Matter - ZOOM</h2>
-                                <span class="desc">09:00AM - 10:00AM</span>
+                                <h2 class="title">{{$event->title}}</h2>
+                                <span class="desc">
+                                  {{ Carbon\Carbon::parse($event->start)->format('H:i') }}
+                                   - 
+                                  {{ Carbon\Carbon::parse($event->end)->format('H:i') }}</span><br/>
+                                <span class="desc">{{$event->description}}</span>
+
                             </div>
                         </li>
-                        <li>
-                            <time datetime="2014-07-20">
-                                <span class="day">23</span>
-                                <span class="month">Apr</span>
-                                <span class="year">2020</span>
-                            </time>
-                            <div class="info">
-                                <h2 class="title">Leading By Example (Team) - ZOOM</h2>
-                                <span class="desc">01:30PM - 02:30PM</span>
-                            </div>
-                        </li>
-                        <li>
-                            <time datetime="2014-07-20">
-                                <span class="day">24</span>
-                                <span class="month">Apr</span>
-                                <span class="year">2020</span>
-                            </time>
-                            <div class="info">
-                                <h2 class="title">Excel I</h2>
-                                <span class="desc">11:00AM - 12:00PM</span>
-                            </div>
-                        </li>
-                    </ul>
-    
+                      @endforeach
+                    </ul></a>
+                    <div class="float-right pr-3 pb-3">
+                      <a href="/learning/courses/fullcalendar" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
+                  </div>
                 </div>
                 <!-- /.card-body -->
                 </div>
@@ -873,4 +862,16 @@
 </aside>
 <!-- /.control-sidebar -->
 <!-- ./wrapper -->
-@stop
+@endsection
+
+@push('includes.scripts')
+<!-- World Clock -->
+<script src="{{ asset('plugins/worldclock/worldclock.js') }}"></script>
+<script>
+  window.onload = function() {
+      worldClockZone();
+  };
+</script>
+<script src="{{ asset ('plugins/chart.js/Chart.min.js') }}"></script>
+     
+@endpush

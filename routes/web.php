@@ -22,7 +22,7 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
-Route::get('fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
+Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
 Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');
 Route::put('eventupdate', 'EventController@update')->name('routeEventUpdate')->middleware('auth');
 Route::post('eventstore', 'EventController@store')->name('routeEventStore')->middleware('auth');

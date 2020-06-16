@@ -52,4 +52,14 @@
 
 </div>
 
-@stop
+@endsection
+
+@push('includes.scripts')
+<!-- CKeditor -->
+<script src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
+<script>
+    window.onload = function() {
+        CKEDITOR.replace( 'editor1' );
+    };
+</script>
+@endpush

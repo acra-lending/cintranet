@@ -85,7 +85,7 @@
                             <p>Building Relationships</p>
                         </a>
                     </li>
-                    <li class="nav-item has-treeview {{ Request::is('courses/*') ? 'menu-open': ''}}">
+                    <li class="nav-item has-treeview {{ Request::is('learning/courses/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-circle"></i>
                             <p>
@@ -101,7 +101,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="/learning/courses/fullcalendar" class="nav-link {{ Request::path() === 'learning/courses/fullcalendar' ? 'active': ''}}">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Calendar</p>
                                 </a>

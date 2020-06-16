@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Directory;
 use App\User;
 use App\Announcement;
+use App\Event;
 use DB;
 
 class HomeController extends Controller
@@ -36,6 +37,9 @@ class HomeController extends Controller
 
         // Announcements
         $posts = Announcement::orderBy('created_at', 'desc')->paginate(2);
+        
+        // Events
+        $events = Event::orderby('created_at', 'desc')->paginate(5);
 
         // Query Database
         if (DB::table('s2zar_jsn_users')
@@ -64,9 +68,10 @@ class HomeController extends Controller
                 'teamMembers' => $teamMembers,
                 'first_name' => $first_name,
                 'posts' => $posts,
+                'events' => $events,
             ]);
         }
-        dd($posts);
+        
         // return view('pages.dashboard')     
         // ->with([
         //     'first_name' => $first_name,
