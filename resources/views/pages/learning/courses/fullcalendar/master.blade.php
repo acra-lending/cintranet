@@ -37,16 +37,17 @@
     <section class="content">
       @include('pages.learning.courses.fullcalendar.modal-calendar')
       @include('pages.learning.courses.fullcalendar.modal-fastEvents')
-      
       <div class="row">
         <div class="col-md-3">
-          <div class="card">
+          <div class="card">          
             <div class="card-header">
               <h4 class="card-title">Quick Events</h4>
             </div>
+
               <div class="card-body">
                 <div id='external-events'>
                   <div id='external-events-list'>
+                    @can('edit-posts')
                     @isset($fastEvents)
                         @forelse($fastEvents as $fastEvent)
                           <div id="boxFastEvent{{ $fastEvent->id}}"
@@ -60,38 +61,42 @@
                                 "end":"{{ $fastEvent->end }}"
                             }'
                                 >{{ $fastEvent->title }}
-                          </div>
+                          </div>                      
                         @empty
                           <p>No Quick Events</p>
                         @endforelse
                       @endisset
+                      @endcan
                   </div>
-            
+                  @can('edit-posts')
                   <p>
                     <input type='checkbox' id='drop-remove' />
                     <label for='drop-remove'>remove after drop</label>
                     <button class='btn btn-sm btn-success float-right' id='newFastEvent'>Create New Event</button>
                   </p>
+                  @endcan
                 </div>
-              </div>
-
+              </div>          
           </div>
-
         </div>
+        
         <div class="col-md-9">
           <div class="card card-primary">
             <div class="card-body p-0">
 
                 <div id='calendar'
-                    
+   
                 data-route-load-events="{{ route('routeLoadEvents') }}"
+                @can('edit-posts') 
                 data-route-event-update="{{ route('routeEventUpdate') }}"
                 data-route-event-store="{{ route('routeEventStore') }}"
                 data-route-event-delete="{{ route('routeEventDelete') }}"
-
+                @endcan
+                @can('edit-posts')
                 data-route-fast-event-update="{{ route('routeFastEventUpdate') }}"
                 data-route-fast-event-store="{{ route('routeFastEventStore') }}"
                 data-route-fast-event-delete="{{ route('routeFastEventDelete') }}"
+                @endcan
                 ></div>
             
                 <div style='clear:both'></div>

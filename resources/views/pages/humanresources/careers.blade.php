@@ -23,7 +23,7 @@
         <section class="content">
           <div class="row">
             <div class="container">
-              <div class="jv-careersite"data-careersite="citadelservicing" data-force-redirect></div>
+              <div class="jv-careersite"data-careersite="citadelservicing"></div>
             </div>
           </div>
 
