@@ -65,7 +65,7 @@
         }
     </style>
         <section class="content">
-            <div class="col-md-12 col-lg-12 col-xl-10">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
   
               <div class="card card-danger card-outline">
                 <div class="card-header">
@@ -83,20 +83,19 @@
                     </div>
                   </nav>
                   <br/>
-
+                  <!-- Correspondent Documents -->
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-corr" role="tabpanel" aria-labelledby="nav-corr-tab">
                       <div class="row">
-                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                        <div class="col-sm-2">
                           <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="vert-tabs-corr-docs-tab" data-toggle="pill" href="#vert-tabs-corr-docs" role="tab" aria-controls="vert-tabs-corr-docs" aria-selected="true">Documents</a>
                           </div>
                         </div>
-                        <div class="col-sm-12 col-md-10 col-lg-9">
+                        <!-- Correspondent Documents Content -->
+                        <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
-                            <div class="tab-pane text-left fade show active" id="vert-tabs-corr-docs" role="tabpanel" aria-labelledby="vert-tabs-corr-docs-tab">
-                              
-                              <!-- /.content-header -->        
+                            <div class="tab-pane text-left fade show active" id="vert-tabs-corr" role="tabpanel" aria-labelledby="vert-tabs-corr-tab">       
                               <div class="col">
                                 <div class="card card-danger">
                                   <div class="card-header border-0">
@@ -114,41 +113,47 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
-                                    </table>
+                                      <tbody>
+                                          @foreach($corrDocs as $category)
+                                          <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                              {{ Form::close()}}
+                                            </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                      </tbody>
+                                      </table>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
-                        </div>
+                        </div><!-- end form cards -->
                       </div>
                     </div>
+                    <!-- Retail Documents -->
                     <div class="tab-pane fade show" id="nav-retail" role="tabpanel" aria-labelledby="nav-retail-tab">
                       <div class="row">
-                        <div class="col-sm-3 col-md-3 col-lg-3 col-xl-2">
+                        <div class="col-sm-2">
                           <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="vert-tabs-retail-docs-tab" data-toggle="pill" href="#vert-tabs-retail-docs" role="tab" aria-controls="vert-tabs-retail-docs" aria-selected="true">Documents</a>
                             <a class="nav-link" id="vert-tabs-retail-mlo-tab" data-toggle="pill" href="#vert-tabs-retail-mlo" role="tab" aria-controls="vert-tabs-retail-mlo" aria-selected="true">MLO Licenses</a>
                           </div>
                         </div>
-                        <div class="col-sm-12 col-md-10 col-lg-9">
+                        <!-- Marketing Request Content -->
+                        <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
-                            <div class="tab-pane text-left fade show active" id="vert-tabs-retail-docs" role="tabpanel" aria-labelledby="vert-tabs-retail-docs-tab">
-                              
-                              <!-- /.content-header -->        
+                            <div class="tab-pane text-left fade show active" id="vert-tabs-retail-docs" role="tabpanel" aria-labelledby="vert-tabs-retail-docs-tab">       
                               <div class="col">
                                 <div class="card card-danger">
                                   <div class="card-header border-0">
@@ -166,26 +171,31 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
-                                    </table>
+                                      <tbody>
+                                          @foreach($retailDocs as $category)
+                                          <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                              {{ Form::close()}}
+                                            </div>
+                                          </td>
+                                        </tr>
+                                          @endforeach
+                                      </tbody>
+                                      </table>
                                   </div>
                                 </div>
                               </div>
                             </div>
-                            <div class="tab-pane text-left fade show" id="vert-tabs-retail-mlo" role="tabpanel" aria-labelledby="vert-tabs-retail-mlo-tab">
-                              
+                            <div class="tab-pane fade" id="vert-tabs-retail-mlo" role="tabpanel" aria-labelledby="vert-tabs-retail-mlo-tab">
                               <!-- /.content-header -->        
                               <div class="col">
                                 <div class="card card-danger">
@@ -204,29 +214,32 @@
                                           <th>Created At</th>
                                           </tr>
                                       </thead>
-                                          <tbody>
-    
-                                              <tr>
-                                              <td>file name</td>
-                                              <td>file size KB</td>
-                                              <td>date</td>
-                                              <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="#" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="#" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                  </div>
-                                              </td>
-                                          </tbody>
-                                    </table>
+                                      <tbody>
+                                          @foreach($retailMLO as $category)
+                                          <tr>
+                                          <td>{{$category->filename}}</td>
+                                          <td>{{$category->filesize}} KB</td>
+                                          <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                          <td class="text-right py-0 align-middle">
+                                            <div class="btn-group btn-group-sm">
+                                              <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                              <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                              <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                              {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                              {{ Form::close()}}
+                                            </div>
+                                          </td>
+                                          </tr>
+                                          @endforeach
+                                      </tbody>
+                                      </table>
                                   </div>
                                 </div>
                               </div>
                             </div>
-
-
-
                           </div>
-                        </div>
+                        </div><!-- end form cards -->
                       </div>
                   </div>
                 </div>

@@ -176,7 +176,6 @@
                                                                     ],
                                                                     'Retail' => [
                                                                         'retailDocs'    => 'Documents',
-                                                                        'retailFlyers'  => 'Flyers',
                                                                         'retailMLO'     => 'MLO Licenses'
                                                                     ],
                                                                     'Flyers For Brokers' => [
@@ -187,7 +186,6 @@
                                                                     ],
                                                                     'Training Material' => [
                                                                         'trainingAe'        => 'Account Executives',
-                                                                        'trainingAuto'      => 'Automation',
                                                                         'trainingOps'       => 'OPS Meetings',
                                                                         'trainingSystems'   => 'Systems',
                                                                         'trainingVetting'   => 'Vetting',

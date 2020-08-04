@@ -44,13 +44,13 @@ Route::get('sales/data', function(){return view('pages.sales.data');})->middlewa
 Route::get('sales/forms', 'GeneralFormsCategoryController@index')->middleware('auth');
 Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
-Route::get('sales/documents', function(){return view('pages.sales.documents');})->middleware('auth');
+Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('auth');
 
 
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth');
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 
-Route::get('servicing/servicing', function(){return view('pages.servicing.servicing');})->middleware('auth');
+Route::get('servicing/servicing', 'ServicingDocsController@index')->middleware('auth');
 
 Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
 Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware('auth');

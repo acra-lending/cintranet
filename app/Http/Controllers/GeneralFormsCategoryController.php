@@ -10,7 +10,6 @@ class GeneralFormsCategoryController extends Controller
     public function index()
     {
         //Sort by Numbers
-
             $numbers = Post::where('category_id', 'generalForms')
             ->where('filename', 'like', "1%")
             ->orWhere('filename', 'like', "2%")
@@ -47,7 +46,6 @@ class GeneralFormsCategoryController extends Controller
             ->where('filename', 'like', "H%")
             ->orderBy('filename', 'asc')
             ->get();
-
 
         //Sort by I-L
             $lettersIL = Post::where('category_id', 'generalForms')
@@ -103,17 +101,61 @@ class GeneralFormsCategoryController extends Controller
             ->orWhere('category_id', 'generalForms')
             ->where('filename', 'like', "Z%")
             ->get();
+        
+        //Training And Materials
+        //Account Executive
+            $trainingAe = Post::where('category_id', 'trainingAe')
+            ->orderBy('filename', 'asc')
+            ->get();
 
-            return view('pages.sales.forms')
-            ->with('numbers', $numbers)
-            ->with('lettersAD', $lettersAD)
-            ->with('lettersEH', $lettersEH)
-            ->with('lettersIL', $lettersIL)
-            ->with('lettersMP', $lettersMP)
-            ->with('lettersQT', $lettersQT)
-            ->with('lettersUX', $lettersUX)
-            ->with('lettersYZ', $lettersYZ)
-            ;
+        //OPS Meetings
+            $trainingOps = Post::where('category_id', 'trainingOps')
+            ->orderBy('filename', 'asc')
+            ->get();
+
+        //Systems
+            $trainingSystems = Post::where('category_id', 'trainingSystems')
+            ->orderBy('filename', 'asc')
+            ->get();
+
+        //Vetting
+            $trainingVetting = Post::where('category_id', 'trainingVetting')
+            ->orderBy('filename', 'asc')
+            ->get();
+
+        //Videos
+            $trainingVideos = Post::where('category_id', 'trainingVideos')
+            ->orderBy('filename', 'asc')
+            ->get();
+
+        //Marketing Materials & Reference
+        //Marketing Requests
+            $marketingForms = Post::where('category_id', 'marketingForms')
+            ->orderBy('filename', 'asc')
+            ->get();
+    
+        //Materials & Reference
+            $marketingMaterials = Post::where('category_id', 'marketingMaterials')
+            ->orderBy('filename', 'asc')
+            ->get();
+
+        return view('pages.sales.forms')
+        ->with('numbers', $numbers)
+        ->with('lettersAD', $lettersAD)
+        ->with('lettersEH', $lettersEH)
+        ->with('lettersIL', $lettersIL)
+        ->with('lettersMP', $lettersMP)
+        ->with('lettersQT', $lettersQT)
+        ->with('lettersUX', $lettersUX)
+        ->with('lettersYZ', $lettersYZ)
+        ->with('trainingAe', $trainingAe)
+        ->with('trainingOps', $trainingOps)
+        ->with('trainingSystems', $trainingSystems)
+        ->with('trainingVetting', $trainingVetting)
+        ->with('trainingVideos', $trainingVideos)
+        ->with('marketingForms', $marketingForms)
+        ->with('marketingMaterials', $marketingMaterials)
+        ;
         }
 
 }

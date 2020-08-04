@@ -24,7 +24,7 @@ class UploadController extends Controller
         $this->validate($request, [
             'category_id' => 'required',
             'file' => 'required',
-            'file.*' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif|max:9999'
+            'file.*' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif,mp4|max:99999999'
         ]);
 
         
