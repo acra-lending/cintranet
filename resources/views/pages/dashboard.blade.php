@@ -316,7 +316,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <a href="/fullcalendar" style="color: inherit; text-decoration: none; ">
+                  <a href="/learning/courses/fullcalendar" style="color: inherit; text-decoration: none; ">
                     <ul class="event-list">
                       @foreach($events as $event)
                         <li>
