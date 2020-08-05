@@ -1,5 +1,6 @@
 <!-- REQUIRED SCRIPTS -->
-
+<!-- Pace Loader -->
+<script src="{{ asset ('plugins/pace/js/pace.js') }}"></script>
 <!-- jQuery -->
 <script src="{{ asset ('plugins/jquery/jquery.min.js') }}"></script>
 <!-- jQuery UI -->
@@ -22,6 +23,7 @@
 <script src="{{ asset ('plugins/daterangepicker/daterangepicker.js') }}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{{ asset ('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+
 
 <!-- OPTIONAL SCRIPTS -->
 <script src="{{ asset ('plugins/chart.js/Chart.min.js') }}"></script>

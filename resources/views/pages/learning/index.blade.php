@@ -15,8 +15,8 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item active">Learning</li>
-            <li class="breadcrumb-item"><a href="/">Building Relationships</a></li>
+            <li class="breadcrumb-item"><a href="/">Learning</a></li>
+            <li class="breadcrumb-item active">Building Relationships</li>
             </ol>
         </div><!-- /.col -->
         </div><!-- /.row -->

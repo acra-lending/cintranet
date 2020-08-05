@@ -27,7 +27,6 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            <br/>
             @can('edit-users')
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
@@ -53,7 +52,6 @@
                     </li>
                 </ul>
             </li>
-            <br/>
             @endcan
 
             <li class=" nav-item">
@@ -107,7 +105,7 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="/learning/courses/industryterms" class="nav-link">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Industry Terms</p>
                                 </a>
@@ -304,8 +302,6 @@
                     <p>Resources<p style="font-size: 10pt;">&nbsp;(coming soon)<p></p>
                 </a>
             </li>
-            <br/>
-            <br/>
             @can('edit-users')
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
                 <a href="/mediamanager/files" class="nav-link">

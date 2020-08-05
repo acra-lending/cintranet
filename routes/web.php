@@ -35,6 +35,7 @@ Route::delete('fasteventdelete', 'FastEventController@destroy')->name('routeFast
 Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth');
 Route::resource('learning/posts', 'LearningPostsController')->middleware('auth');
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
+Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->middleware('auth');
 
 Route::get('directory/directory', 'DirectoryController@index')->middleware('auth');
 Route::get('usermanagement/profile/{id}', 'DirectoryController@show')->middleware('auth');
