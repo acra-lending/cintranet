@@ -93,7 +93,7 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="#" class="nav-link">
+                                <a href="/learning/courses/catalog" class="nav-link">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Catalog</p>
                                 </a>
