@@ -179,7 +179,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/stateposters' ? 'active': ''}}">
+                        <a href="/humanresources/stateposters" class="nav-link {{ Request::path() === 'humanresources/stateposters' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>State Workplace Posters</p>
                         </a>
