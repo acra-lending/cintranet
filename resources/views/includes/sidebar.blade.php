@@ -177,6 +177,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/stateposters' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>State Workplace Posters</p>
+                        </a>
+                    </li>
+                </ul>
                 {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/mvp" class="nav-link {{ Request::path() === 'humanresources/mvp' ? 'active': ''}}">
@@ -203,14 +211,14 @@
                     </p>
                 </a>
                 @can('edit-users')
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/operations/daily" class="nav-link {{ Request::path() === 'operations/daily' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Daily Dashboard</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
@@ -230,14 +238,14 @@
                     </p>
                 </a>
                 @can('edit-users')
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/data" class="nav-link {{ Request::path() === 'sales/data' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Data</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">

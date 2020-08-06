@@ -63,7 +63,7 @@ class FlyersController extends Controller
             'social'        => $social,
             'niche'         => $niche,
             'retail'        => $retail,
-            'vert'          => $ver,
+            'vert'          => $vert,
         ]);
     }
 }
