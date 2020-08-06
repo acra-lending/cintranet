@@ -45,10 +45,10 @@ class AnnouncementPostsController extends Controller
     public function store(Request $request)
     {
         $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required',
-            'file.' => 'nullable',
-            'file.*' => 'nullable|mimes:pdf,doc,docx|max:8999'
+            'title'     => 'required',
+            'body'      => 'required',
+            'file.'     => 'nullable',
+            'file.*'    => 'nullable|mimes:pdf,doc,docx|max:8999'
         ]);
 
         // Create Post
@@ -123,10 +123,10 @@ class AnnouncementPostsController extends Controller
     public function update(Request $request, $id)
     {
         $this->validate($request, [
-            'title' => 'required',
-            'body' => 'required',
-            'file.' => 'nullable',
-            'file.*' => 'nullable|mimes:pdf,doc,docx|max:8999'
+            'title'     => 'required',
+            'body'      => 'required',
+            'file.'     => 'nullable',
+            'file.*'    => 'nullable|mimes:pdf,doc,docx|max:8999'
         ]);
 
         // Create Post

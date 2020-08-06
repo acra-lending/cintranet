@@ -30,10 +30,11 @@ class ServicingDocsController extends Controller
         ->get();
         
         return view('pages.servicing.servicing')
-        ->with('callScripts', $callScripts)
-        ->with('watchlist', $watchlist)
-        ->with('servicingDocs', $servicingDocs)
-        ->with('servicingForeclosure', $servicingForeclosure)
-        ;
+        ->with([
+            'callScripts'           => $callScripts,
+            'watchlist'             => $watchlist,
+            'servicingDocs'         => $servicingDocs,
+            'servicingForeclosure'  => $servicingForeclosure,
+        ]);
     }
 }

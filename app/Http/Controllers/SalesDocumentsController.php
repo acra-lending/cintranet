@@ -25,9 +25,10 @@ class SalesDocumentsController extends Controller
         ->get();
         
         return view('pages.sales.documents')
-        ->with('corrDocs', $corrDocs)
-        ->with('retailDocs', $retailDocs)
-        ->with('retailMLO', $retailMLO)
-        ;
+        ->with([
+            'corrDocs'      => $corrDocs,
+            'retailDocs'    => $retailDocs,
+            'retailMLO'     => $retailMLO,
+        ]);
     }
 }

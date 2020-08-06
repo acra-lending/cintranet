@@ -359,6 +359,5 @@ class OperationsFormsController extends Controller
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos
         ]);
-
     }
 }

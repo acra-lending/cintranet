@@ -87,24 +87,24 @@ class RatesheetCategoryController extends Controller
                                     ->get();
         
         return view('pages.sales.ratesheets')
-                ->with('wsOmbsvoe', $wsOmbsvoe)
-                ->with('wsNonprime', $wsNonprime)
-                ->with('wsOdf', $wsOdf)
-                ->with('wsOdfPlus', $wsOdfPlus)
-                ->with('wsOmbsvoe_past', $wsOmbsvoe_past)
-                ->with('wsNonprime_past', $wsNonprime_past)
-                ->with('wsOdf_past', $wsOdf_past)
-                ->with('wsOdfPlus_past', $wsOdfPlus_past)
-                ->with('corrOmbsvoePdf', $corrOmbsvoePdf)
-                ->with('corrNonprimePdf', $corrNonprimePdf)
-                ->with('corrOdfPdf', $corrOdfPdf)
-                ->with('corrOdfPlusPdf', $corrOdfPlusPdf)
-                ->with('corrOmbsvoeXlsx', $corrOmbsvoeXlsx)
-                ->with('corrNonprimeXlsx', $corrNonprimeXlsx)
-                ->with('corrOdfXlsx', $corrOdfXlsx)
-                ->with('corrOdfPlusXlsx', $corrOdfPlusXlsx)
-                ;
-
+                ->with([
+                    'wsOmbsvoe'         => $wsOmbsvoe,
+                    'wsNonprime'        => $wsNonprime,
+                    'wsOdf'             => $wsOdf,
+                    'wsOdfPlus'         => $wsOdfPlus,
+                    'wsOmbsvoe_past'    => $wsOmbsvoe_past,
+                    'wsNonprime_past'   => $wsNonprime_past,
+                    'wsOdf_past'        => $wsOdf_past,
+                    'wsOdfPlus_past'    => $wsOdfPlus_past,
+                    'corrOmbsvoePdf'    => $corrOmbsvoePdf,
+                    'corrNonprimePdf'   => $corrNonprimePdf,
+                    'corrOdfPdf'        => $corrOdfPdf,
+                    'corrOdfPlusPdf'    => $corrOdfPlusPdf,
+                    'corrOmbsvoeXlsx'   => $corrOmbsvoeXlsx,
+                    'corrNonprimeXlsx'  => $corrNonprimeXlsx,
+                    'corrOdfXlsx'       => $corrOdfXlsx,
+                    'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
+                ]);
     }
     
 

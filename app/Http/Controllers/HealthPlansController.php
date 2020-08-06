@@ -37,11 +37,11 @@ class HealthPlansController extends Controller
 
         return view('pages.humanresources.healthplan')
         ->with([
-            'welfare' => $welfare,
-            'planDescription' => $planDescription,
-            'premium' => $premium,
-            'pop' => $pop,
-            'qmcso' => $qmcso,
+            'welfare'           => $welfare,
+            'planDescription'   => $planDescription,
+            'premium'           => $premium,
+            'pop'               => $pop,
+            'qmcso'             => $qmcso,
         ]);
     }
 }

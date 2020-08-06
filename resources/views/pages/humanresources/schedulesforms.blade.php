@@ -110,7 +110,8 @@
                                       </tr>
                                   </thead>
                                       <tbody>
-                                        {{-- @foreach($aboutCsc as $category)
+                                        @if(count($hrSchedules) > 0 )
+                                        @foreach($hrSchedules as $category)
                                           <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -125,7 +126,12 @@
                                               {{ Form::close()}}
                                             </div>
                                           </td>
-                                        @endforeach --}}
+                                        @endforeach
+                                        @else 
+                                        <tr>
+                                            <td>No Files Found</td>
+                                        </div>
+                                        @endif
                                       </tbody>
                                 </table>
                               </div>
@@ -151,7 +157,8 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    {{-- @foreach($automation as $category)
+                                    @if(count($hrSuggestions) > 0 )
+                                    @foreach($hrSuggestions as $category)
                                       <tr>
                                         <td>{{$category->filename}}</td>
                                         <td>{{$category->filesize}} KB</td>
@@ -167,7 +174,12 @@
                                         </div>
                                       </td>
                                     @endforeach
-                                  </tbody> --}}
+                                    @else 
+                                    <tr>
+                                        <td>No Files Found</td>
+                                    </div>
+                                    @endif
+                                  </tbody>
                                   </table>
                               </div>
                             </div>
@@ -193,7 +205,8 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    {{-- @foreach($brokerFlyers as $category)
+                                    @if(count($hrNewHire) > 0 )
+                                    @foreach($hrNewHire as $category)
                                       <tr>
                                         <td>{{$category->filename}}</td>
                                         <td>{{$category->filesize}} KB</td>
@@ -208,7 +221,12 @@
                                           {{ Form::close()}}
                                         </div>
                                       </td>
-                                    @endforeach --}}
+                                    @endforeach
+                                    @else 
+                                    <tr>
+                                        <td>No Files Found</td>
+                                    </div>
+                                    @endif
                                   </tbody>
                                   </table>
                               </div>
@@ -234,7 +252,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      {{-- @foreach($corrFlyers as $category)
+                                      @if(count($hrStateAndFedTaxForms) > 0 )
+                                      @foreach($hrStateAndFedTaxForms as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -249,7 +268,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
-                                      @endforeach --}}
+                                      @endforeach
+                                      @else 
+                                      <tr>
+                                          <td>No Files Found</td>
+                                      </div>
+                                      @endif
                                     </tbody>
                                     </table>
                                 </div>
@@ -276,7 +300,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      {{-- @foreach($cscPrograms as $category)
+                                      @if(count($hrHealthTopics) > 0 )
+                                      @foreach($hrHealthTopics as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -291,7 +316,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
-                                      @endforeach --}}
+                                      @endforeach
+                                      @else 
+                                      <tr>
+                                          <td>No Files Found</td>
+                                      </div>
+                                      @endif
                                     </tbody>
                                     </table>
                                 </div>
@@ -318,7 +348,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      {{-- @foreach($social as $category)
+                                      @if(count($hrManagerTools) > 0 )
+                                      @foreach($hrManagerTools as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -333,7 +364,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
-                                      @endforeach --}}
+                                      @endforeach
+                                      @else 
+                                      <tr>
+                                          <td>No Files Found</td>
+                                      </div>
+                                      @endif
                                     </tbody>
                                     </table>
                                 </div>
@@ -360,7 +396,8 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      {{-- @foreach($niche as $category)
+                                      @if(count($hrBenefits) > 0 )
+                                      @foreach($hrBenefits as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -375,7 +412,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
-                                      @endforeach --}}
+                                      @endforeach
+                                      @else 
+                                      <tr>
+                                          <td>No Files Found</td>
+                                      </div>
+                                      @endif
                                     </tbody>
                                     </table>
                                 </div>

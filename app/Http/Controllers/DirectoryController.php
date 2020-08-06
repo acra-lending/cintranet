@@ -47,10 +47,10 @@ class DirectoryController extends Controller
                 $contacts = $query->paginate(9);
                 return view('pages.directory.directory')
                 ->with([
-                    'contacts' => $contacts,
-                    'departments' => $departments,
-                    'position' => $position,
-                    'team' => $team,
+                    'contacts'      => $contacts,
+                    'departments'   => $departments,
+                    'position'      => $position,
+                    'team'          => $team,
                 ]);
             }
         }
@@ -61,10 +61,10 @@ class DirectoryController extends Controller
         ->paginate(9);
         return view('pages.directory.directory')
         ->with([
-            'contacts' => $contacts,
-            'departments' => $departments,
-            'position' => $position,
-            'team' => $team,
+            'contacts'      => $contacts,
+            'departments'   => $departments,
+            'position'      => $position,
+            'team'          => $team,
         ]);
     }
 
@@ -80,6 +80,10 @@ class DirectoryController extends Controller
 
         $info = User::find($id);
 
-        return view('pages.directory.user.profile')->with('profile', $profile)->with('info', $info);
+        return view('pages.directory.user.profile')
+        ->with([
+            'profile'   => $profile,
+            'info'      => $info,
+        ]);
     }
 }

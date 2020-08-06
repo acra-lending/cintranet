@@ -140,22 +140,23 @@ class GeneralFormsCategoryController extends Controller
             ->get();
 
         return view('pages.sales.forms')
-        ->with('numbers', $numbers)
-        ->with('lettersAD', $lettersAD)
-        ->with('lettersEH', $lettersEH)
-        ->with('lettersIL', $lettersIL)
-        ->with('lettersMP', $lettersMP)
-        ->with('lettersQT', $lettersQT)
-        ->with('lettersUX', $lettersUX)
-        ->with('lettersYZ', $lettersYZ)
-        ->with('trainingAe', $trainingAe)
-        ->with('trainingOps', $trainingOps)
-        ->with('trainingSystems', $trainingSystems)
-        ->with('trainingVetting', $trainingVetting)
-        ->with('trainingVideos', $trainingVideos)
-        ->with('marketingForms', $marketingForms)
-        ->with('marketingMaterials', $marketingMaterials)
-        ;
-        }
+        ->with([
+            'numbers'               => $numbers,
+            'lettersAD'             => $lettersAD,
+            'lettersEH'             => $lettersEH,
+            'lettersIL'             => $lettersIL,
+            'lettersMP'             => $lettersMP,
+            'lettersQT'             => $lettersQT,
+            'lettersUX'             => $lettersUX,
+            'lettersYZ'             => $lettersYZ,
+            'trainingAe'            => $trainingAe,
+            'trainingOps'           => $trainingOps,
+            'trainingSystems'       => $trainingSystems,
+            'trainingVetting'       => $trainingVetting,
+            'trainingVideos'        => $trainingVideos,
+            'marketingForms'        => $marketingForms,
+            'marketingMaterials'    => $marketingMaterials,
+        ]);
+    }
 
 }

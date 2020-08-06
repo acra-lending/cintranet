@@ -8,6 +8,7 @@ class CourseCatalogController extends Controller
 {
     public function index()
     {
+        //Template Page
         return view('pages.learning.courses.catalog.index');
     }
 }

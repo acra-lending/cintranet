@@ -8,6 +8,7 @@ class IndustryTermsController extends Controller
 {
     public function index()
     {
+        //Template Page
         return view('pages.learning.courses.industryterms.index');
     }
 }

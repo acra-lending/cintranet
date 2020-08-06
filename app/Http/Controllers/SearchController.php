@@ -30,9 +30,10 @@ class SearchController extends Controller
             ->get();
     
             return view('pages.search.results')
-            ->with('users', $users)
-            ->with('posts', $posts)
-            ;
+            ->with([
+                'users' => $users,
+                'posts' => $posts,
+            ]);
         }
 
         return redirect('/');

@@ -8,6 +8,7 @@ class CareersController extends Controller
 {
     public function index()
     {
+        //Template Page
         return view('pages.humanresources.careers');
     }
 }

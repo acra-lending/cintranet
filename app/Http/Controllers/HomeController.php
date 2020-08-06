@@ -74,11 +74,9 @@ class HomeController extends Controller
         
         return view('pages.dashboard')     
         ->with([
-            'first_name' => $first_name,
-            'posts' => $posts,
-            'events' => $events,
+            'first_name'    => $first_name,
+            'posts'         => $posts,
+            'events'        => $events,
         ]);
-
     }
-
 }
