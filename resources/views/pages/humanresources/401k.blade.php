@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="#">Human Resources</a></li>
+                <li class="breadcrumb-item active"><a href="/">Human Resources</a></li>
                 <li class="breadcrumb-item">401(k)</a></li>
                 </ol>
             </div><!-- /.col -->

@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="#">File Manager</a></li>
+                <li class="breadcrumb-item active"><a href="/">File Manager</a></li>
                 <li class="breadcrumb-item">Upload</a></li>
                 </ol>
             </div><!-- /.col -->

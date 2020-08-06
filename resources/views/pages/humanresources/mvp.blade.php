@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Human Resources</a></li>
+                <li class="breadcrumb-item"><a href="/">Human Resources</a></li>
                 <li class="breadcrumb-item active">MVP Spotlight</li>
                 </ol>
             </div><!-- /.col -->
