@@ -153,7 +153,7 @@
         <div class="row">
           <div class="col-lg-5">
                    <!-- Map card -->
-        <div class="card">
+        <div class="card card-danger card-outline">
           <div class="card-header border-0">
             <h3 class="card-title">
               <i class="fas fa-map-marker-alt mr-1"></i>
@@ -187,8 +187,8 @@
 
         </div>
         <!-- /.card -->
-                    <!-- Calendar -->
-            <div class="card">
+          <!-- Calendar -->
+            <div class="card card-danger card-outline">
               <div class="card-header border-0">
 
                 <h3 class="card-title">
@@ -227,26 +227,54 @@
             <!-- /.card -->
         </div>
         <div class="col-lg-4">
-            <div class="card card-danger">
+            <div class="card card-danger card-outline">
                 <div class="card-header">
                 <h3 class="card-title">
                   <i class="nav-icon fas fa-file-signature"></i>
-                    HR Policies
+                    HR Quick Links
                 </h3>
                 </div>
-                {{-- <img class="card-img-top" src="https://cdn.paylocity.com/cdn/branding/paylocity-logo.svg" alt="paylocity-logo"> --}}
-                <div class="card-body d-flex">
-                    <div class="p-2" style="text-align: center;"><p>Leave Policy</p><i class="far fa-file-alt" style="font-size: xx-large;"></i></div>
-                    <div class="p-2" style="text-align: center;"><p>Company Policy</p><i class="fas fa-landmark" style="font-size: xx-large;"></i></div>
-                    <div class="p-2" style="text-align: center;"><p>Health Policy</p><i class="fas fa-file-medical" style="font-size: xx-large;"></i></div>
-                    <div class="p-2" style="text-align: center;"><p>HR Policy</p><i class="far fa-handshake" style="font-size: xx-large;"></i></div>
+                
+                <div class="card-body">
+                  <div class="container d-flex" style="align-items: center; justify-content: space-between;">
+                    <div style="text-align: center;">
+                      <a href="humanresources/schedulesforms">
+                        <p>Policies</p>
+                        <i class="fas fa-landmark" style="font-size: 32pt;"></i>
+                      </a>
+                    </div>
+                    <div style="text-align: center;">
+                      <a href="humanresources/401k">
+                        <p>401(k)</p>
+                        <i class="fas fa-chart-line" style="font-size: 32pt;"></i>
+                      </a>
+                    </div>
+                    <div style="text-align: center;">
+                      <a href="humanresources/health">
+                        <p>Health</p>
+                        <i class="fas fa-file-medical" style="font-size: 32pt;"></i>
+                      </a>
+                    </div>
+                    <div style="text-align: center;">
+                      <a href="humanresources/paylocity">
+                        <p>Paylocity</p>
+                        <i class="fas fa-door-open" style="font-size: 32pt;"></i>
+                      </a>
+                    </div>
+                    <div style="text-align: center;">
+                      <a href="humanresources/careers">
+                        <p>Paylocity</p>
+                        <i class="fas fa-handshake" style="font-size: 32pt;"></i>
+                      </a>
+                    </div>
                 </div>
-                <div class="float-right pr-3 pb-3">
-                <a href="#" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
-                </div>
+              </div>
+                {{-- <div class="float-right pr-3 pb-3">
+                <a href="/humanresources/schedulesforms" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                </div> --}}
             </div>
 
-            <div class="card card-danger">
+            <div class="card card-danger card-outline">
                 <div class="card-header">
                 <h3 class="card-title">
                   <i class="nav-icon fas fa-users"></i>
@@ -283,7 +311,7 @@
 
 
         <div class="col-lg-3">
-            <div class="card card-widget card-danger">
+            <div class="card card-widget card-danger card-outline">
             <div class="card-header">
                 <h3 class="card-title">
                 <i class="fas fa-bullhorn"></i>
@@ -307,7 +335,7 @@
             </div>
             <!-- /.card -->
 
-                <div class="card card-danger">
+                <div class="card card-danger card-outline">
                 <div class="card-header">
                     <h3 class="card-title">
                     <i class="fas fa-university"></i>
