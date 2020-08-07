@@ -34,6 +34,7 @@ Route::resource('learning/posts', 'LearningPostsController')->middleware('auth')
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
 Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->middleware('auth');
 Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middleware('auth');
+Route::get('learning/courses/participantguides', 'ParticipantGuidesController@index')->middleware('auth');
 
 //Calendar Events
 Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');

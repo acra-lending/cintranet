@@ -87,13 +87,13 @@
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-circle"></i>
                             <p>
-                            Courses <p style="font-size: 10pt;">&nbsp;(coming soon)<p>
+                            Courses
                             <i class="right fas fa-angle-left"></i>
                             </p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/learning/courses/catalog" class="nav-link">
+                                <a href="/learning/courses/catalog" class="nav-link {{ Request::path() === 'learning/courses/catalog' ? 'active': ''}}">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Course Catalog</p>
                                 </a>
@@ -105,33 +105,16 @@
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/learning/courses/industryterms" class="nav-link">
+                                <a href="/learning/courses/industryterms" class="nav-link {{ Request::path() === 'learning/courses/industryterms' ? 'active': ''}}">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Industry Terms</p>
                                 </a>
                             </li>
-                            <li class="nav-item has-treeview {{ Request::is('courses/guides/*') ? 'menu-open': ''}}">
-                                <a href="#" class="nav-link">
-                                <i class="fas fa-circle nav-icon"></i>
-                                <p>
-                                    Participant Guides
-                                    <i class="right fas fa-angle-left"></i>
-                                </p>
+                            <li class="nav-item">
+                                <a href="/learning/courses/participantguides" class="nav-link {{ Request::path() === 'learning/courses/participantguides' ? 'active': ''}}">
+                                    <i class="far fa-circle text-danger nav-icon"></i>
+                                    <p>Participant Guides</p>
                                 </a>
-                                <ul class="nav nav-treeview">
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <i class="far fa-dot-circle text-danger nav-icon"></i>
-                                            <p>Operations</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link">
-                                            <i class="far fa-dot-circle text-danger nav-icon"></i>
-                                            <p>Servicing</p>
-                                        </a>
-                                    </li>
-                                </ul>
                             </li>
                         </ul>
                     </li>
