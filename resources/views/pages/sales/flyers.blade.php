@@ -99,7 +99,6 @@
                               <div class="card-header border-0">
                                 <h3 class="card-title">About CSC Flyers</h3>
                                 <div class="card-tools">
-                                  </a>
                                 </div>
                               </div>
                               <div class="card-body table-responsive p-0">
@@ -141,7 +140,6 @@
                               <div class="card-header border-0">
                                 <h3 class="card-title">Automation Flyers</h3>
                                 <div class="card-tools">
-                                  </a>
                                 </div>
                               </div>
                               <div class="card-body table-responsive p-0">
@@ -183,7 +181,6 @@
                               <div class="card-header border-0">
                                 <h3 class="card-title">Flyers for Brokers</h3>
                                 <div class="card-tools">
-                                  </a>
                                 </div>
                               </div>
                               <div class="card-body table-responsive p-0">
@@ -225,7 +222,6 @@
                                 <div class="card-header border-0">
                                   <h3 class="card-title">Flyers For Correspondents</h3>
                                   <div class="card-tools">
-                                    </a>
                                   </div>
                                 </div>
                                 <div class="card-body table-responsive p-0">
@@ -267,7 +263,6 @@
                                 <div class="card-header border-0">
                                   <h3 class="card-title">CSC Program Flyers</h3>
                                   <div class="card-tools">
-                                    </a>
                                   </div>
                                 </div>
                                 <div class="card-body table-responsive p-0">
@@ -351,7 +346,6 @@
                                 <div class="card-header border-0">
                                   <h3 class="card-title">Niche Flyers</h3>
                                   <div class="card-tools">
-                                    </a>
                                   </div>
                                 </div>
                                 <div class="card-body table-responsive p-0">
@@ -393,7 +387,6 @@
                                 <div class="card-header border-0">
                                   <h3 class="card-title">Retail Flyers</h3>
                                   <div class="card-tools">
-                                    </a>
                                   </div>
                                 </div>
                                 <div class="card-body table-responsive p-0">
@@ -435,7 +428,6 @@
                                 <div class="card-header border-0">
                                   <h3 class="card-title">Vertical Integration Flyers</h3>
                                   <div class="card-tools">
-                                    </a>
                                   </div>
                                 </div>
                                 <div class="card-body table-responsive p-0">

@@ -47,9 +47,12 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <div class="card card-danger">
+                    <div class="card card-danger card-outline">
                         <div class="card-header">
-                            <h4 class="card-title">Industry Terms And Glossary</h4>
+                            <h4 class="card-title">
+                                <i class="fas fa-list-ul"></i>
+                                 Industry Terms And Glossary
+                            </h4>
                         </div>
                         <div class="card-body">
                             <nav>

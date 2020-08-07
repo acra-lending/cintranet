@@ -126,11 +126,12 @@
                                               {{ Form::close()}}
                                             </div>
                                           </td>
+                                          </tr>
                                         @endforeach
                                         @else 
                                         <tr>
                                             <td>No Files Found</td>
-                                        </div>
+                                        </tr>
                                         @endif
                                       </tbody>
                                 </table>
@@ -173,11 +174,12 @@
                                           {{ Form::close()}}
                                         </div>
                                       </td>
+                                      </tr>
                                     @endforeach
                                     @else 
                                     <tr>
                                         <td>No Files Found</td>
-                                    </div>
+                                    </tr>
                                     @endif
                                   </tbody>
                                   </table>
@@ -221,11 +223,12 @@
                                           {{ Form::close()}}
                                         </div>
                                       </td>
+                                      </tr>
                                     @endforeach
                                     @else 
                                     <tr>
                                         <td>No Files Found</td>
-                                    </div>
+                                    </tr>
                                     @endif
                                   </tbody>
                                   </table>
@@ -268,11 +271,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
+                                        </tr>
                                       @endforeach
                                       @else 
                                       <tr>
                                           <td>No Files Found</td>
-                                      </div>
+                                      </tr>
                                       @endif
                                     </tbody>
                                     </table>
@@ -316,11 +320,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
+                                        </tr>
                                       @endforeach
                                       @else 
                                       <tr>
                                           <td>No Files Found</td>
-                                      </div>
+                                      </tr>
                                       @endif
                                     </tbody>
                                     </table>
@@ -364,11 +369,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
+                                        </tr>
                                       @endforeach
                                       @else 
                                       <tr>
                                           <td>No Files Found</td>
-                                      </div>
+                                      </tr>
                                       @endif
                                     </tbody>
                                     </table>
@@ -412,11 +418,12 @@
                                             {{ Form::close()}}
                                           </div>
                                         </td>
+                                        </tr>
                                       @endforeach
                                       @else 
                                       <tr>
                                           <td>No Files Found</td>
-                                      </div>
+                                      </tr>
                                       @endif
                                     </tbody>
                                     </table>
