@@ -9,15 +9,11 @@
 <script src="https://cdn.jsdelivr.net/npm/bs-custom-file-input/dist/bs-custom-file-input.min.js"></script>
 <!-- Ekko Lightbox -->
 <script src="{{ asset ('plugins/ekko-lightbox/ekko-lightbox.min.js') }}"></script>
+<script src="{{ asset('js/pages/dashboardlightbox.js') }}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset ('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
 <!-- AdminLTE -->
 <script src="{{ asset ('js/adminlte.min.js') }}"></script>
-<!-- Sparkline -->
-{{-- <script src="{{ asset ('plugins/sparklines/sparkline.js') }}"></script> --}}
-<!-- JQVMap -->
-{{-- <script src="{{ asset ('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
-<script src="{{ asset ('plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script> --}}
 <!-- daterangepicker -->
 <script src="{{ asset ('plugins/moment/moment.min.js') }}"></script>
 <script src="{{ asset ('plugins/daterangepicker/daterangepicker.js') }}"></script>
@@ -25,26 +21,14 @@
 <script src="{{ asset ('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 
 
-<!-- OPTIONAL SCRIPTS -->
+{{-- <!-- OPTIONAL SCRIPTS --> --}}
 {{-- <script src="{{ asset ('plugins/chart.js/Chart.min.js') }}"></script> --}}
 {{-- <script src="{{ asset ('js/pages/dashboard.js') }}"></script> --}}
 {{-- <script src="{{ asset ('js/pages/dashboard3.js') }}"></script> --}}
-<script src="{{ asset ('js/demo.js') }}"></script>
+{{-- <script src="{{ asset ('js/demo.js') }}"></script> --}}
 
 
 
-<script>
-    //-------------
-    //- Lightbox -
-    //-------------
-    $(function () {
-      $(document).on('click', '[data-toggle="lightbox"]', function(event) {
-        event.preventDefault();
-        $(this).ekkoLightbox({
-          alwaysShowClose: true
-        });
-      });
-    })
-  </script>
+
 
 

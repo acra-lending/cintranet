@@ -263,7 +263,12 @@
                     </li>
                 </ul>
             </li>
-
+            <li class=" nav-item">
+                <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
+                    <i class="nav-icon fas fa-rocket"></i>
+                    <p>Marketing</p>
+                </a>
+            </li>
             <li class=" nav-item">
                 <a href="/servicing/servicing" class="nav-link {{ Request::path() === 'servicing/servicing' ? 'active' : ''}}">
                     <i class="nav-icon fas fa-headset"></i>

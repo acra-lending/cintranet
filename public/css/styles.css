@@ -184,4 +184,9 @@
         width: 40px;
         padding: 10px 0px 9px;
     }
+
+    .form-group.required .control-label:after {
+        content: "*";
+        color: red;
+    }
 }

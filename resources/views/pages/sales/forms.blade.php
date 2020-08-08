@@ -36,7 +36,7 @@
                   <div class="nav nav-tabs" id="nav-tab" role="tablist">
                   <a class="nav-item nav-link active" id="nav-general-tab" data-toggle="tab" href="#nav-general" role="tab" aria-controls="nav-general" aria-selected="true">General Forms</a>
                   <a class="nav-item nav-link" id="nav-training-tab" data-toggle="tab" href="#nav-training" role="tab" aria-controls="nav-training" aria-selected="false">Training Material</a>
-                  <a class="nav-item nav-link" id="nav-marketing-tab" data-toggle="tab" href="#nav-marketing" role="tab" aria-controls="nav-marketing" aria-selected="false">Marketing Request</a>
+                  {{-- <a class="nav-item nav-link" id="nav-marketing-tab" data-toggle="tab" href="#nav-marketing" role="tab" aria-controls="nav-marketing" aria-selected="false">Marketing Request</a> --}}
                   </div>
                 </nav>
                 <br/>

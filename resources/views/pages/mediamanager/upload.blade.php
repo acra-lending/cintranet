@@ -193,7 +193,8 @@
                                                                     ],
                                                                     'Marketing' => [
                                                                         'marketingForms'        => 'Marketing Forms',
-                                                                        'marketingMaterials'    => 'Marketing Materials'
+                                                                        'marketingMaterials'    => 'Marketing Materials',
+                                                                        'salesTools'            => 'Sales Tool'
                                                                     ]
                                                                 ],
                                                                 'Servicing' => [

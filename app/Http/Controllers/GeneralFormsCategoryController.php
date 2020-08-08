@@ -128,17 +128,6 @@ class GeneralFormsCategoryController extends Controller
             ->orderBy('filename', 'asc')
             ->get();
 
-        //Marketing Materials & Reference
-        //Marketing Requests
-            $marketingForms = Post::where('category_id', 'marketingForms')
-            ->orderBy('filename', 'asc')
-            ->get();
-    
-        //Materials & Reference
-            $marketingMaterials = Post::where('category_id', 'marketingMaterials')
-            ->orderBy('filename', 'asc')
-            ->get();
-
         return view('pages.sales.forms')
         ->with([
             'numbers'               => $numbers,
@@ -154,8 +143,6 @@ class GeneralFormsCategoryController extends Controller
             'trainingSystems'       => $trainingSystems,
             'trainingVetting'       => $trainingVetting,
             'trainingVideos'        => $trainingVideos,
-            'marketingForms'        => $marketingForms,
-            'marketingMaterials'    => $marketingMaterials,
         ]);
     }
 

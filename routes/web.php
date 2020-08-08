@@ -58,6 +58,10 @@ Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware(
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
 Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('auth');
 
+//Marketing
+Route::get('marketing', 'MarketingController@index')->middleware('auth');
+Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
+
 //Operations
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth');
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
