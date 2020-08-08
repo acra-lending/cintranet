@@ -7,20 +7,22 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class MarketingRequestMail extends Mailable
+class ITSupportMail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data;
+    public $mail;
+    public $itemRequest;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct($data)
+    public function __construct($mail, $itemRequest)
     {
-        $this->data = $data;
+        $this->mail = $mail;
+        $this->itemRequest = $itemRequest;
     }
 
     /**
@@ -30,7 +32,7 @@ class MarketingRequestMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.marketing.marketing-form')
-                    ->subject('Marketing Request');
+        return $this->markdown('emails.infotech.ticket')
+                    ->subject('IT Support Request');
     }
 }

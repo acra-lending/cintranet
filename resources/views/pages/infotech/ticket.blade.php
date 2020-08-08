@@ -1,32 +1,30 @@
 @extends('layouts.default')
 
 @section('content')
-<!-- Content Wrapper. Contains page content -->
+@push('includes.head')
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/css/bootstrap-select.min.css">
+@endpush
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
         <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">IT Department</h1>
-            </div><!-- /.col -->
+            </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active"><a href="#">IT Department</a></li>
                 <li class="breadcrumb-item">Servicing</a></li>
                 </ol>
-            </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+            </div>
+            </div>
         </div>
-        <!-- /.content-header -->
-            <!-- Main content -->
-
+        </div>
+        <!-- Main content -->
         <section class="content">
-            <div class="float-left">
             <div class="container">
                 <div class="row">
-                    <div class="col">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Submit A Ticket</h4>
@@ -35,190 +33,234 @@
 
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Employee Status Change</a>
-                                <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">System or Folder Access</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Phone or Computer Issues</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Report Request</a>
+                                <a class="nav-item nav-link active" id="nav-system-access-tab" data-toggle="tab" href="#nav-system-access" role="tab" aria-controls="nav-system-access" aria-selected="false">System or Folder Access</a>
+                                <a class="nav-item nav-link" id="nav-issues-tab" data-toggle="tab" href="#nav-issues" role="tab" aria-controls="nav-issues" aria-selected="false">Phone or Computer Issues</a>
+                                <a class="nav-item nav-link" id="nav-report-request-tab" data-toggle="tab" href="#nav-report-request" role="tab" aria-controls="nav-report-request" aria-selected="false">Report Request</a>
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                                <div class="tab-pane fade show active" id="nav-system-access" role="tabpanel" aria-labelledby="nav-system-access-tab">
                                     <div class="card-body">
-                                        <!-- /.card-header -->
-                                        <!-- form start -->
-                                        <form role="form">
+                                        {{ Form::open(['action' => 'ITSupportController@submitForm', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                             <div class="card-body">
-                                                <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputPassword1">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputFile">File input</label>
-                                                <div class="input-group">
-                                                    <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                                <hr/>
+                                                <h4>New System or Folder Access Request</h4>
+                                                <hr/>
+                                                <div class="row">
+                                                    <div class="col-lg-6">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="requestDueDate">Effective Date</label>
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                  <span class="input-group-text">
+                                                                    <i class="far fa-calendar-alt"></i>
+                                                                  </span>
+                                                                </div>
+                                                                <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required>
+                                                            </div>
+                                                        </div>
                                                     </div>
-                                                    <div class="input-group-append">
-                                                    <span class="input-group-text" id="">Upload</span>
+                                                </div>
+                                                <hr/>
+                                                <h4>Contact Information</h4>
+                                                <hr/>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="requestorName">Name</label>
+                                                            <input type="text" class="form-control" name="name" id="name" placeholder="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="email">Email</label>
+                                                            <input type="email" class="form-control" name="email" id="email" placeholder="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="position">Current Position</label>
+                                                            <input type="text" class="form-control" name="position" id="position" placeholder="" required>
+                                                        </div>
                                                     </div>
                                                 </div>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="Manager">Manager</label>
+                                                            <input type="text" class="form-control" name="manager" id="manager" placeholder="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="managerEmail">Manager's Email</label>
+                                                            <input type="email" class="form-control" name="managerEmail" id="ManagerEmail" placeholder="" required>
+                                                        </div>
+                                                    </div>
                                                 </div>
-                                                <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                                <hr/>
+                                                <h4>Items Requested</h4>
+                                                <hr/>
+                                                <div class="row">
+                                                    <div class="col">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="itemRequest">Select Item(s)</label>
+                                                            <div>
+                                                                <select class="selectpicker" name="itemRequest[]" multiple required>
+                                                                    <option value="Box">Box</option>
+                                                                    <option value="BytePro">BytePro</option>
+                                                                    <option value="CBC Innovis">CBC Innovis</option>
+                                                                    <option value="Cintranet">Cintranet</option>
+                                                                    <option value="Collateral Analytics">Collateral Analytics</option>
+                                                                    <option value="Computer Profile">Computer Profile</option>
+                                                                    <option value="Consolidated Analytics">Consolidated Analytics</option>
+                                                                    <option value="DataTree">DataTree</option>
+                                                                    <option value="Doc Magic">Doc Magic</option>
+                                                                    <option value="Doc Velocity">Doc Velocity</option>
+                                                                    <option value="D + H">D + H</option>
+                                                                    <option value="Email">Email</option>
+                                                                    <option value="FraudGuard">FraudGuard</option>
+                                                                    <option value="Informative Research">Informative Research</option>
+                                                                    <option value="Linear Title">Linear Title</option>
+                                                                    <option value="ProTeck">ProTeck</option>
+                                                                    <option value="Salesforce">Salesforce</option>
+                                                                    <option value="ServiceLink">ServiceLink</option>
+                                                                    <option value="SiteX">SiteX</option>
+                                                                    <option value="Solidifi">Solidifi</option>
+                                                                    <option value="Velocify">Velocify</option>
+                                                                    <option value="Zoom">Zoom</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="adminAccess">Admin Access</label>
+                                                            <div>
+                                                                <select class="selectpicker" name="adminAccess">
+                                                                    <option value="None">None</option>
+                                                                    <option value="Full">Full</option>
+                                                                    <option value="Partial for Deparment">Partial for Deparment</option>
+
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="bytePro">Byte Pro</label>
+                                                            <div>
+                                                                <select class="selectpicker" name="bytePro">
+                                                                    <option value="None">None</option>
+                                                                    <option value="Sales">Sales</option>
+                                                                    <option value="TM">TM</option>
+                                                                    <option value="OPS">OPS</option>
+                                                                    <option value="Admin">Admin</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="docVelocity">Doc Velocity</label>
+                                                            <div>
+                                                                <select class="selectpicker" name="docVelocity">
+                                                                    <option value="None">None</option>
+                                                                    <option value="Sales">Sales</option>
+                                                                    <option value="TM">TM</option>
+                                                                    <option value="OPS">OPS</option>
+                                                                    <option value="Admin">Admin</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="col-6">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="folderName">Folder Name / Location</label>
+                                                            <input type="text" class="form-control" name="folderName" id="folderName" placeholder="">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col">
+                                                        <div class="form-group">
+                                                            <label class="control-label" for="additionalInfo">Additional Instructions</label>
+                                                            <textarea class="form-control" rows="3" name="additionalInfo" id="additionalInfo" placeholder="e.g., Need VPN access to Byte Pro"></textarea> 
+                                                        </div>
+                                                    </div>
+                                                </div>
                                                 </div>
                                             </div>
-                                            <!-- /.card-body -->
-                            
                                             <div class="card-footer">
-                                                <button type="submit" class="btn btn-outline-danger">Submit</button>
+                                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                             </div>
-                                        </form>
+                                        {{ Form::close() }}
                                     </div>
-                                    <!-- /.card -->
-                                </div>
-                                
-                                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
-                                    <div class="card-body">
-                                        <!-- /.card-header -->
-                                        <!-- form start -->
-                                        <form role="form">
+                                    <div class="tab-pane fade" id="nav-issues" role="tabpanel" aria-labelledby="nav-issues-tab">
+                                        <div class="card-body">
+                                            {{ Form::open(['action' => 'ITSupportController@submitForm', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                             <div class="card-body">
-                                                <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                                <div class="form-group required">
+                                                    <label class="control-label" for="email">Email address</label>
+                                                    <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
                                                 </div>
                                                 <div class="form-group">
-                                                <label for="exampleInputPassword1">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputFile">File input</label>
+                                                <label for="attachFiles">Attach File(s)</label>
                                                 <div class="input-group">
-                                                    <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                                    </div>
-                                                    <div class="input-group-append">
-                                                    <span class="input-group-text" id="">Upload</span>
+                                                    <div class="form-group">
+                                                        {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif')) }}
                                                     </div>
                                                 </div>
-                                                </div>
-                                                <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
                                                 </div>
                                             </div>
-                                            <!-- /.card-body -->
-                            
                                             <div class="card-footer">
-                                                <button type="submit" class="btn btn-outline-danger">Submit</button>
+                                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                             </div>
-                                        </form>
+                                            {{ Form::close() }}
+                                        </div>
                                     </div>
-                                    <!-- /.card -->
-                                </div>
-                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                    <div class="card-body">
-                                        <!-- /.card-header -->
-                                        <!-- form start -->
-                                        <form role="form">
-                                            <div class="card-body">
-                                                <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputPassword1">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputFile">File input</label>
-                                                <div class="input-group">
-                                                    <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
+                                    <div class="tab-pane fade" id="nav-report-request" role="tabpanel" aria-labelledby="nav-report-request-tab">
+                                        <div class="card-body">
+                                            {{ Form::open(['action' => 'ITSupportController@submitForm', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                                <div class="card-body">
+                                                    <div class="form-group required">
+                                                        <label class="control-label" for="email">Email address</label>
+                                                        <input type="email" class="form-control" name="email" id="email" placeholder="Enter email" required>
                                                     </div>
-                                                    <div class="input-group-append">
-                                                    <span class="input-group-text" id="">Upload</span>
+                                                    <div class="form-group">
+                                                    <label for="exampleInputFile">Attach File(s)</label>
+                                                    <div class="input-group">
+                                                        <div class="form-group">
+                                                            {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif')) }}
+                                                        </div>
+                                                    </div>
                                                     </div>
                                                 </div>
+                                                <div class="card-footer">
+                                                    {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                                 </div>
-                                                <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                </div>
-                                            </div>
-                                            <!-- /.card-body -->
-                            
-                                            <div class="card-footer">
-                                                <button type="submit" class="btn btn-outline-danger">Submit</button>
-                                            </div>
-                                        </form>
+                                            {{ Form::close() }}
+                                        </div>
                                     </div>
-                                    <!-- /.card -->
-                                </div>
-                                <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
-                                    <div class="card-body">
-                                        <!-- /.card-header -->
-                                        <!-- form start -->
-                                        <form role="form">
-                                            <div class="card-body">
-                                                <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputPassword1">Password</label>
-                                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                                </div>
-                                                <div class="form-group">
-                                                <label for="exampleInputFile">File input</label>
-                                                <div class="input-group">
-                                                    <div class="custom-file">
-                                                    <input type="file" class="custom-file-input" id="exampleInputFile">
-                                                    <label class="custom-file-label" for="exampleInputFile">Choose file</label>
-                                                    </div>
-                                                    <div class="input-group-append">
-                                                    <span class="input-group-text" id="">Upload</span>
-                                                    </div>
-                                                </div>
-                                                </div>
-                                                <div class="form-check">
-                                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                                <label class="form-check-label" for="exampleCheck1">Check me out</label>
-                                                </div>
-                                            </div>
-                                            <!-- /.card-body -->
-                            
-                                            <div class="card-footer">
-                                                <button type="submit" class="btn btn-outline-danger">Submit</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <!-- /.card -->
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                    </div>
                 </div>
             </div>
         </section>
-        </div>
+    </div>
 
 
 
 
 
   </div>
-  <!-- /.col -->
-<!-- /.control-sidebar -->
-<!-- ./wrapper -->
+@push('includes.scripts')
+<script src="{{ asset('js/pages/datepicker.js') }}"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
+<script>
+    $('select').selectpicker();
+    </script>
+@endpush
 @stop

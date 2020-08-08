@@ -91,5 +91,6 @@ Route::get('download/{file}', 'DownloadController@show')->name('show')->middlewa
 Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 
 //IT Ticket System
-Route::get('infotech/ticket', function(){return view('pages.infotech.ticket');})->middleware('auth');
+Route::get('infotech/ticket', 'ITSupportController@index')->middleware('auth');
+Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('auth');
 

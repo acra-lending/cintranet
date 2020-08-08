@@ -37,6 +37,7 @@ Tel: {{ $data['phone'] }}<br/>
 
 <strong>Date Range for Materials:</strong> {{ $data['dateRange'] }}<br/>
 
+<hr/>
 
 <br/>
 ~<em>{{ 'CSC Webmaster' }}</em>

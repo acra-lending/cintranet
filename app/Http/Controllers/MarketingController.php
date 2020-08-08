@@ -5,9 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\MarketingRequestMail;
 use App\Post;
+use App\User;
 use Mail;
 use Session;
-use App\User;
+
 
 class MarketingController extends Controller
 {

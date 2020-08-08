@@ -19,6 +19,8 @@
 <script src="{{ asset ('plugins/daterangepicker/daterangepicker.js') }}"></script>
 <!-- Tempusdominus Bootstrap 4 -->
 <script src="{{ asset ('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
+<!-- Popper JS -->
+<script src="https://unpkg.com/@popperjs/core@2"></script>
 
 
 {{-- <!-- OPTIONAL SCRIPTS --> --}}

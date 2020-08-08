@@ -287,18 +287,42 @@
                     <li class="nav-item">
                         <a href="/infotech/ticket" class="nav-link {{ Request::path() === 'infotech/ticket' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Submit Ticket <p style="font-size: 10pt;">&nbsp;(coming soon)<p></p>
+                            <p>Submit Ticket</p>
                         </a>
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item">
-                <a href="#" class="nav-link {{ Request::path() === '' ? 'active' : ''}}">
-                    <i class="nav-icon fas fa-box-open"></i>
-                    <p>Resources<p style="font-size: 10pt;">&nbsp;(coming soon)<p></p>
-                </a>
-            </li>
             @can('edit-users')
+            <li class=" nav-item has-treeview {{ Request::is('resources/*') ? 'menu-open': ''}}">
+                <a href="/resources" class="nav-link">
+                    <i class="nav-icon fas fa-box-open"></i>
+                    <p>Resources<i class="right fas fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/resources/newhire" class="nav-link {{ Request::path() === 'resources/newhire' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>New Hire Form</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/resources/statuschange" class="nav-link {{ Request::path() === 'resources/statuschange' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Employee Status Change</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/resources/termination" class="nav-link {{ Request::path() === 'resources/termination' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Employee Termination</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
                 <a href="/mediamanager/files" class="nav-link">
                     <i class="nav-icon fas fa-hdd"></i>

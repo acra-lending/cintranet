@@ -56,10 +56,12 @@
                                         <p>
                                             Please allow for a turnaround time of <strong>10-12 business days</strong> when requesting marketing materials. You may be contacted by a member of the Marketing Department regarding your request.
                                         </p>
+                                        <hr/>
                                         <!-- form start -->
                                         <form role="form" action="{{ url('marketing') }}" method="POST">
                                             @csrf
                                                 <h4>Contact Information</h4>
+                                                <hr/>
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="form-group required">
@@ -90,6 +92,7 @@
                                                 </div>
                                                 <hr/>
                                                 <h4>Project Specifications</h4>
+                                                <hr/>
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="form-group required">
@@ -158,6 +161,7 @@
                                                 </div>
                                                 <hr/>
                                                 <h4>Additional Specifications</h4>
+                                                <hr/>
                                                 <div class="row">
                                                     <div class="col">
                                                         <div class="form-group required">
@@ -200,6 +204,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
+                                                <hr/>
                                             <!-- /.card-body -->
                             
                                             <div class="card-footer">

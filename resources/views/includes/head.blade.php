@@ -5,7 +5,7 @@
 <title>Cintranet | Dashboard</title>
 
 <!-- Pace Loader -->
-<link rel="stylesheet" href="{{ asset('plugins/pace/css/pace.css') }}">
+<link rel="stylesheet" href="{{ asset ('plugins/pace/css/pace.css') }}">
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="{{ asset ('plugins/fontawesome-free/css/all.min.css') }}">
 <!-- IonIcons -->
@@ -20,6 +20,6 @@
 <!-- JQVMap -->
 <link rel="stylesheet" href="{{ asset ('plugins/jqvmap/jqvmap.css') }}">
 <!-- Daterange picker -->
-<link rel="stylesheet" href="{{ asset('plugins/daterangepicker/daterangepicker.css') }}">
+<link rel="stylesheet" href="{{ asset ('plugins/daterangepicker/daterangepicker.css') }}">
 
 
