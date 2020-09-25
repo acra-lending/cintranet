@@ -38,7 +38,7 @@
                 </div>
                 <div class="form-group row">
                     <label for="description" class="col-sm-4 col-form-label">Event Description</label>
-                    <div class="col-sm-8">
+                    <div class="col-sm-12">
                         <textarea name="description" id="description" cols="40" rows="4" style="width: 100%; height: 300px;"></textarea>
                     </div>
                 </div>
