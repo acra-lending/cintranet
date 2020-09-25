@@ -23,7 +23,11 @@
         <section class="content">
           <div class="row">
             <div class="container">
-              <div class="jv-careersite"data-careersite="citadelservicing"></div>
+              <div class="card card-danger card-outline col-sm-12 col-lg-10 col-xl-6">
+                <div class="card-body">
+                    <div class="jv-careersite"data-careersite="citadelservicing"></div>
+                </div>
+              </div>
             </div>
           </div>
 

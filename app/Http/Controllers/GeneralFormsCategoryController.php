@@ -9,123 +9,77 @@ class GeneralFormsCategoryController extends Controller
 {
     public function index()
     {
-        //Sort by Numbers
-            $numbers = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "1%")
-            ->orWhere('filename', 'like', "2%")
-            ->orWhere('filename', 'like', "3%")
-            ->orWhere('filename', 'like', "4%")
-            ->orWhere('filename', 'like', "5%")
-            ->orWhere('filename', 'like', "6%")
-            ->orWhere('filename', 'like', "7%")
-            ->orWhere('filename', 'like', "8%")
-            ->orWhere('filename', 'like', "9%")
-            ->orderBy('filename', 'asc')
+        //Sort by 1-9
+            $numbers = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[0-9].*$')
+            ->sortable('filename')
             ->get();
 
         //Sort by A-D
-            $lettersAD = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "A%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "B%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "C%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "D%")
-            ->orderBy('filename', 'asc')
+            $lettersAD = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[A-Da-d].*$')
+            ->sortable('filename')
             ->get();
 
         //Sort by E-H
-            $lettersEH = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "E%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "F%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "G%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "H%")
-            ->orderBy('filename', 'asc')
+            $lettersEH = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[E-He-h].*$')
+            ->sortable('filename')
             ->get();
 
         //Sort by I-L
-            $lettersIL = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "I%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "J%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "K%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "L%")
-            ->orderBy('filename', 'asc')
+            $lettersIL = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[I-Li-l].*$')
+            ->sortable('filename')
             ->get();
 
         //Sort by M-P
-            $lettersMP = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "M%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "N%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "O%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "P%")
-            ->orderBy('filename', 'asc')
+            $lettersMP = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[M-Pm-p].*$')
+            ->sortable('filename')
             ->get();
 
         //Sort by Q-T
-            $lettersQT = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "Q%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "R%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "S%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "T%")
-            ->orderBy('filename', 'asc')
+            $lettersQT = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[Q-Tq-t].*$')
+            ->sortable('filename')
             ->get();    
 
         //Sort by U-X
-            $lettersUX = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "U%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "V%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "W%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "X%")
-            ->orderBy('filename', 'asc')
+            $lettersUX = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[U-Xu-x].*$')
+            ->sortable('filename')
             ->get();    
         
         //Sort by Y-Z
-            $lettersYZ = Post::where('category_id', 'generalForms')
-            ->where('filename', 'like', "Y%")
-            ->orWhere('category_id', 'generalForms')
-            ->where('filename', 'like', "Z%")
+            $lettersYZ = Post::whereRaw("find_in_set('generalForms', category_id)")
+            ->where('filename', 'REGEXP', '^[Y-Zy-z].*$')
             ->get();
         
         //Training And Materials
         //Account Executive
-            $trainingAe = Post::where('category_id', 'trainingAe')
-            ->orderBy('filename', 'asc')
+            $trainingAe = Post::whereRaw("find_in_set('trainingAE', category_id)")
+            ->sortable('filename')
             ->get();
 
         //OPS Meetings
-            $trainingOps = Post::where('category_id', 'trainingOps')
-            ->orderBy('filename', 'asc')
+            $trainingOps = Post::whereRaw("find_in_set('trainingOps', category_id)")
+            ->sortable('filename')
             ->get();
 
         //Systems
-            $trainingSystems = Post::where('category_id', 'trainingSystems')
-            ->orderBy('filename', 'asc')
+            $trainingSystems = Post::whereRaw("find_in_set('trainingSystems', category_id)")
+            ->sortable('filename')
             ->get();
 
         //Vetting
-            $trainingVetting = Post::where('category_id', 'trainingVetting')
-            ->orderBy('filename', 'asc')
+            $trainingVetting = Post::whereRaw("find_in_set('trainingVetting', category_id)")
+            ->sortable('filename')
             ->get();
 
         //Videos
-            $trainingVideos = Post::where('category_id', 'trainingVideos')
-            ->orderBy('filename', 'asc')
+            $trainingVideos = Post::whereRaw("find_in_set('trainingVideos', category_id)")
+            ->sortable('filename')
             ->get();
 
         return view('pages.sales.forms')

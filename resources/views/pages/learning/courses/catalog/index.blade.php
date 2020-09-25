@@ -12,8 +12,8 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                  <li class="breadcrumb-item"><a href="/">Learning</a></li>
-                  <li class="breadcrumb-item"><a href="/">Courses</a></li>
+                  <li class="breadcrumb-item"><a href="/learning/courses/catalog">Learning</a></li>
+                  <li class="breadcrumb-item active">Courses</li>
                   <li class="breadcrumb-item active">Course Catalog</li>
                 </ol>
             </div><!-- /.col -->
@@ -89,9 +89,9 @@
           <div class="card card-danger card-outline">
             <div class="card-header">
               <h3 class="card-title">
-                <i class="fab fa-wpforms"></i>
+                <i class="fas fa-book-open"></i>
                 Catalog
-              </h3><a href="/storage/file/Course_Catalog_2020_V2.pdf" download class="btn btn-danger float-right">Download <i class="far fa-file-pdf"></i></a>
+              </h3><a href="{{ asset ('storage/upload/' .$courseCatalog->filename) }}" download class="btn btn-danger float-right">Download <i class="far fa-file-pdf"></i></a>
             </div>
             <div class="card-body">
               <!-- Course Catalog Content -->

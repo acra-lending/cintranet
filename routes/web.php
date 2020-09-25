@@ -21,6 +21,7 @@ Route::get('/', 'HomeController@index')->name('home');
 
 //Search Bar
 Route::get('/search', 'SearchController@index')->middleware('auth');
+Route::get('/search/announcements', 'SearchController@show')->middleware('auth');
 
 //User Management
 Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(function(){
@@ -34,7 +35,7 @@ Route::resource('learning/posts', 'LearningPostsController')->middleware('auth')
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
 Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->middleware('auth');
 Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middleware('auth');
-Route::get('learning/courses/participantguides', 'ParticipantGuidesController@index')->middleware('auth');
+Route::get('learning/courses/guides', 'LearningGuidesController@index')->middleware('auth');
 
 //Calendar Events
 Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');
@@ -51,8 +52,9 @@ Route::get('directory/directory', 'DirectoryController@index')->middleware('auth
 Route::get('usermanagement/profile/{id}', 'DirectoryController@show')->middleware('auth');
 Route::get('directory/user/{id}', 'DirectoryController@show')->middleware('auth');
 
+
 //Sales
-Route::get('sales/data', function(){return view('pages.sales.data');})->middleware('auth');
+Route::get('sales/data', function(){return view('pages.sales.data');})->middleware('auth'); // Coming Soon
 Route::get('sales/forms', 'GeneralFormsCategoryController@index')->middleware('auth');
 Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
@@ -63,7 +65,7 @@ Route::get('marketing', 'MarketingController@index')->middleware('auth');
 Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 
 //Operations
-Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth');
+Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 
 //Servicing
@@ -78,16 +80,25 @@ Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->m
 Route::get('humanresources/careers', 'CareersController@index')->middleware('auth');
 Route::get('humanresources/stateposters', 'StatePostersController@index')->middleware('auth');
 
+//Employee Status
+Route::get('employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
+Route::get('employee/statuschange', 'EmployeeStatusChangeController@index')->middleware('auth');
+Route::get('employee/termination', 'EmployeeTerminationController@index')->middleware('auth');
+Route::post('employee/newhire', 'EmployeeNewHireController@submit')->middleware('auth');
+Route::post('employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
+Route::post('employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
+
 //File Upload
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');
 Route::get('mediamanager/upload', 'UploadController@index')->middleware('auth');
 Route::post('uploads', 'UploadController@upload')->middleware('auth');
-Route::put('update{id}', 'UploadController@update')->middleware('auth');
+// Route::put('update{id}', 'UploadController@update')->middleware('auth');
+Route::put('update', 'UploadController@update')->middleware('auth');
 Route::delete('destroy{id}', 'UploadController@destroy')->middleware('auth');
 
 //File download
-Route::get('download/{file}', 'DownloadController@download')->name('download')->middleware('auth');
-Route::get('download/{file}', 'DownloadController@show')->name('show')->middleware('auth');
+Route::get('download/{file}', 'DownloadController@down')->name('download')->middleware('auth');
+Route::get('download/{file}', 'DownloadController@view')->name('show')->middleware('auth');
 Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 
 //IT Ticket System
@@ -95,4 +106,5 @@ Route::get('infotech/ticket', 'ITSupportController@index')->middleware('auth');
 Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('auth');
 Route::post('infotech/issues', 'ITSupportController@submitIssues')->middleware('auth');
 Route::post('infotech/requests', 'ITSupportController@submitRequests')->middleware('auth');
+
 

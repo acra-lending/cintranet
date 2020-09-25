@@ -35,20 +35,19 @@
 
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
-                                <a class="nav-item nav-link active" id="nav-system-access-tab" data-toggle="tab" href="#nav-system-access" role="tab" aria-controls="nav-system-access" aria-selected="false">System or Folder Access</a>
-                                <a class="nav-item nav-link" id="nav-issues-tab" data-toggle="tab" href="#nav-issues" role="tab" aria-controls="nav-issues" aria-selected="false">Phone or Computer Issues</a>
+                                <a class="nav-item nav-link" id="nav-system-access-tab" data-toggle="tab" href="#nav-system-access" role="tab" aria-controls="nav-system-access" aria-selected="false">System or Folder Access</a>
+                                <a class="nav-item nav-link active" id="nav-issues-tab" data-toggle="tab" href="#nav-issues" role="tab" aria-controls="nav-issues" aria-selected="false">Phone or Computer Issues</a>
                                 <a class="nav-item nav-link" id="nav-report-request-tab" data-toggle="tab" href="#nav-report-request" role="tab" aria-controls="nav-report-request" aria-selected="false">Report Request</a>
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-system-access" role="tabpanel" aria-labelledby="nav-system-access-tab">
-                                    <div class="card-body">
+                                <div class="tab-pane fade show" id="nav-system-access" role="tabpanel" aria-labelledby="nav-system-access-tab">
                                         {{ Form::open(['action' => 'ITSupportController@submitForm', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                             <div class="card-body">
                                                 <hr/>
                                                 <h4>New System or Folder Access Request</h4>
                                                 <hr/>
-                                                <div class="row">
+                                                <div class="row card-footer">
                                                     <div class="col-lg-6">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="requestDueDate">Effective Date</label>
@@ -66,7 +65,7 @@
                                                 <hr/>
                                                 <h4>Contact Information</h4>
                                                 <hr/>
-                                                <div class="row">
+                                                <div class="row card-footer">
                                                     <div class="col">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="requestorName">Name</label>
@@ -79,21 +78,21 @@
                                                             <input type="email" class="form-control" name="email" id="email" placeholder="" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col">
+                                                    <div class="col-sm-6 col-md-4">
                                                         <div class="form-group required">
-                                                            <label class="control-label" for="position">Current Position</label>
-                                                            <input type="text" class="form-control" name="position" id="position" placeholder="" required>
+                                                            <label class="control-label" for="position">Position</label>
+                                                            {{ Form::select('position', $position, null, ['class' => 'form-control', 'name' => 'position', 'placeholder' => 'Select', 'required', 'style' => 'width:100%']) }}
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="row">
-                                                    <div class="col">
+                                                <div class="row card-footer">
+                                                    <div class="col-sm-6 col-md-6">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="Manager">Manager</label>
                                                             <input type="text" class="form-control" name="manager" id="manager" placeholder="" required>
                                                         </div>
                                                     </div>
-                                                    <div class="col">
+                                                    <div class="col-sm-6 col-md-6">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="managerEmail">Manager's Email</label>
                                                             <input type="email" class="form-control" name="managerEmail" id="ManagerEmail" placeholder="" required>
@@ -140,7 +139,7 @@
                                                             <label class="control-label" for="adminAccess">Admin Access</label>
                                                             <div>
                                                                 <select class="selectpicker" name="adminAccess">
-                                                                    <option value="None">None</option>
+                                                                    <option value="None"></option>
                                                                     <option value="Full">Full</option>
                                                                     <option value="Partial for Deparment">Partial for Deparment</option>
 
@@ -153,7 +152,7 @@
                                                             <label class="control-label" for="bytePro">Byte Pro</label>
                                                             <div>
                                                                 <select class="selectpicker" name="bytePro">
-                                                                    <option value="None">None</option>
+                                                                    <option value="None"></option>
                                                                     <option value="Sales">Sales</option>
                                                                     <option value="TM">TM</option>
                                                                     <option value="OPS">OPS</option>
@@ -167,7 +166,7 @@
                                                             <label class="control-label" for="docVelocity">Doc Velocity</label>
                                                             <div>
                                                                 <select class="selectpicker" name="docVelocity">
-                                                                    <option value="None">None</option>
+                                                                    <option value="None"></option>
                                                                     <option value="Sales">Sales</option>
                                                                     <option value="TM">TM</option>
                                                                     <option value="OPS">OPS</option>
@@ -178,13 +177,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-6">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <label class="control-label" for="folderName">Folder Name / Location</label>
                                                             <input type="text" class="form-control" name="folderName" id="folderName" placeholder="">
                                                         </div>
                                                     </div>
-                                                    <div class="col">
+                                                    <div class="col-sm-6">
                                                         <div class="form-group">
                                                             <label class="control-label" for="additionalInfo">Additional Instructions</label>
                                                             <textarea class="form-control" rows="3" name="additionalInfo" id="additionalInfo" placeholder="e.g., Need VPN access to Byte Pro"></textarea> 
@@ -192,13 +191,12 @@
                                                     </div>
                                                 </div>
                                                 </div>
-                                            </div>
                                             <div class="card-footer">
                                                 {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                             </div>
                                         {{ Form::close() }}
                                     </div>
-                                    <div class="tab-pane fade" id="nav-issues" role="tabpanel" aria-labelledby="nav-issues-tab">
+                                    <div class="tab-pane fade show active" id="nav-issues" role="tabpanel" aria-labelledby="nav-issues-tab">
                                         <div class="card-body">
                                             <p>
                                                 Include details in ticket:
@@ -210,7 +208,7 @@
                                                     <li>Attach screenshots</li></em>
                                                 </ul>
                                             {{ Form::open(['action' => 'ITSupportController@submitIssues', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
-                                            <div class="card-body">
+
                                                 <hr/>
                                                 <h4>Phone or Computer Issues</h4>
                                                 <hr/>
@@ -239,7 +237,7 @@
                                                         <div class="form-group">
                                                             <label class="control-label" for="priority">Priority</label>
                                                             <div>
-                                                                <select class="selectpicker" name="priority">
+                                                                <select class="form-control" name="priority">
                                                                     <option value="Low">Low</option>
                                                                     <option value="Normal">Normal</option>
                                                                     <option value="High">High</option>
@@ -250,7 +248,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-6">
+                                                    <div class="col-md-12 col-lg-6">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="bodyMessage">Message</label>
                                                             <textarea class="form-control" rows="4" name="bodyMessage" id="bodyMessage" placeholder="e.g., Can't access phone voicemail" required></textarea> 
@@ -265,7 +263,7 @@
                                                     </div>
                                                 </div>
                                                 </div>
-                                            </div>
+
                                             <div class="card-footer">
                                                 {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                             </div>
@@ -276,7 +274,7 @@
                                         <div class="card-body">
                                             <p>Include all that applies:</p>
                                             <div class="row">
-                                                <div class="col-3">
+                                                <div class="col-sm-6 col-lg-3">
                                                     <ul>
                                                         <li>source application</li>
                                                         <li>new or updated report</li>
@@ -285,7 +283,7 @@
                                                         <li>output format(Excel, etc)</li>
                                                     </ul>
                                                 </div>
-                                                <div class="col-3">
+                                                <div class="col-sm-6 col-lg-3">
                                                     <ul>
                                                         <li>frequency</li>
                                                         <li>report title</li>
@@ -295,7 +293,7 @@
                                                 </div>
                                             </div> 
                                             {{ Form::open(['action' => 'ITSupportController@submitRequests', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
-                                            <div class="card-body">
+
                                                 <hr/>
                                                 <h4>Report Request</h4>
                                                 <hr/>
@@ -324,7 +322,7 @@
                                                         <div class="form-group">
                                                             <label class="control-label" for="priority">Priority</label>
                                                             <div>
-                                                                <select class="selectpicker" name="priority">
+                                                                <select class="form-control" name="priority">
                                                                     <option value="Low">Low</option>
                                                                     <option value="Normal">Normal</option>
                                                                     <option value="High">High</option>
@@ -335,7 +333,7 @@
                                                     </div>
                                                 </div>
                                                 <div class="row">
-                                                    <div class="col-6">
+                                                    <div class="col-md-12 col-lg-6">
                                                         <div class="form-group required">
                                                             <label class="control-label" for="bodyMessage">Message</label>
                                                             <textarea class="form-control" rows="4" name="bodyMessage" id="bodyMessage" placeholder="e.g., Can't access phone voicemail" required></textarea> 
@@ -350,7 +348,7 @@
                                                     </div>
                                                 </div>
                                                 </div>
-                                            </div>
+
                                             <div class="card-footer">
                                                 {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
                                             </div>
@@ -375,7 +373,7 @@
 <script src="{{ asset('js/pages/datepicker.js') }}"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.13.1/js/bootstrap-select.min.js"></script>
 <script>
-    $('select').selectpicker();
+    $('.select').selectpicker();
     </script>
 @endpush
 @stop

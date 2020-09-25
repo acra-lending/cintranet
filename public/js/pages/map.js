@@ -314,6 +314,15 @@ $('#world-map').vectorMap({
       <br>
       D.C. Mortgage Lender License #MLB144549 and #MLO273860`);
     }
+    if(code== 'vt') {
+      label.append(`
+      <br>
+      <br>
+      Vermont Lender License #6926
+      <br>
+      <br>
+      Vermont Loan Servicer License #144549-1`);
+    }
     if(code== 'wa') {
       label.append(`
       <br>
@@ -326,6 +335,12 @@ $('#world-map').vectorMap({
       <br>
       <br>
       Wisconsin Mortgage Banker License #144549BA`);
+    }
+    if(code== 'wy') {
+      label.append(`
+      <br>
+      <br>
+      Wyoming Supervised Lender License #3577`);
     }
   },
 

@@ -66,7 +66,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $role = Role::where('name', 'user')->first();
+        $role = Role::where('name', 'admin')->first();
 
         $user = User::create([
             'name' => $data['name'],
@@ -76,10 +76,19 @@ class RegisterController extends Controller
 
         $firstname = explode(' ', trim($data['name']))[0];
         $lastname = explode(' ', trim($data['name']))[1];
+        $directPhone = $data['directPhone'];
+        $ext = $data['ext'];
+        $cellPhone = $data['cellPhone'];
+        $departments = $data['departments'];
+
 
         $info = DB::table('s2zar_jsn_users')->insert([
-            'firstname' => $firstname,
-            'lastname' => $lastname,
+            'firstname'     => $firstname,
+            'lastname'      => $lastname,
+            'directphone'   => $directPhone,
+            'extension'           => $ext,
+            'cell'          => $cellPhone,
+            'departments'   => $departments
         ]);
         
         $user->assignRole($role);

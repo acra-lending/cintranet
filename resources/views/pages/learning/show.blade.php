@@ -12,7 +12,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item active"><a href="/">Learning</a></li>
+            <li class="breadcrumb-item active"><a href="/learning/posts">Learning</a></li>
             <li class="breadcrumb-item">Building Relationships</li>
             </ol>
         </div><!-- /.col -->
@@ -48,7 +48,7 @@
                             <p>{!!$post->body!!}</p>
     
     
-                            <span class="description" style="font-size: 10pt"><em>~{{$post->created_at}}</em></span>
+                            <span class="description" style="font-size: 10pt"><em>~{{Carbon\Carbon::parse($post->created_at)->format('Y-m-d')}}</em></span>
                         </div>   
                         <!-- /.card-body -->     
                     </div>
@@ -56,12 +56,12 @@
                     </div>
                     <a href="/learning/posts" class="btn btn-outline-danger">Back</a>
                     @can('edit-posts')
-
                     <a href="/learning/posts/{{$post->id}}/edit" class="btn btn-outline-dark">Edit</a>
+                    @endcan
+                    @can('delete-posts')
                     {{ Form::open(['action' => ['LearningPostsController@destroy', $post->id], 'method' => 'DELETE', 'class' => 'float-right']) }}
                     {{ Form::submit('Delete', ['class' => 'btn btn-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
                     {{ Form::close() }}
-                    
                     @endcan
                     <!-- /.card -->
                 </div>

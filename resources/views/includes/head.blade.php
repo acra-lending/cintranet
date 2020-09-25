@@ -4,6 +4,8 @@
 
 <title>Cintranet | Dashboard</title>
 
+<!-- Favicon -->
+<link rel="icon" href="{{ asset ('icons/favicon-16x16.png') }}" type="image/x-icon">
 <!-- Pace Loader -->
 <link rel="stylesheet" href="{{ asset ('plugins/pace/css/pace.css') }}">
 <!-- Font Awesome Icons -->
@@ -21,5 +23,9 @@
 <link rel="stylesheet" href="{{ asset ('plugins/jqvmap/jqvmap.css') }}">
 <!-- Daterange picker -->
 <link rel="stylesheet" href="{{ asset ('plugins/daterangepicker/daterangepicker.css') }}">
+<!-- AdminLTE -->
+<script src="{{ asset ('js/adminlte.js') }}" defer></script>
+
+
 
 

@@ -9,120 +9,120 @@ class StatePostersController extends Controller
 {
     public function index()
     {
-        $federal = Post::where('category_id', 'federal')
-        ->orderBy('filename', 'asc')
+        $federal = Post::whereRaw("find_in_set('federal', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $alabama = Post::where('category_id', 'alabama')
-        ->orderBy('filename', 'asc')
+        $alabama = Post::whereRaw("find_in_set('alabama', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $arizona = Post::where('category_id', 'arizona')
-        ->orderBy('filename', 'asc')
+        $arizona = Post::whereRaw("find_in_set('arizona', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $california = Post::where('category_id', 'california')
-        ->orderBy('filename', 'asc')
+        $california = Post::whereRaw("find_in_set('california', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $colorado = Post::where('category_id', 'colorado')
-        ->orderBy('filename', 'asc')
+        $colorado = Post::whereRaw("find_in_set('colorado', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $delaware = Post::where('category_id', 'delaware')
-        ->orderBy('filename', 'asc')
+        $delaware = Post::whereRaw("find_in_set('delaware', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $florida = Post::where('category_id', 'florida')
-        ->orderBy('filename', 'asc')
+        $florida = Post::whereRaw("find_in_set('florida', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $georgia = Post::where('category_id', 'georgia')
-        ->orderBy('filename', 'asc')
+        $georgia = Post::whereRaw("find_in_set('georgia', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $idaho = Post::where('category_id', 'idaho')
-        ->orderBy('filename', 'asc')
+        $idaho = Post::whereRaw("find_in_set('idaho', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $illinois = Post::where('category_id', 'illinois')
-        ->orderBy('filename', 'asc')
+        $illinois = Post::whereRaw("find_in_set('illinois', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $indiana = Post::where('category_id', 'indiana')
-        ->orderBy('filename', 'asc')
+        $indiana = Post::whereRaw("find_in_set('indiana', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $kentucky = Post::where('category_id', 'kentucky')
-        ->orderBy('filename', 'asc')
+        $kentucky = Post::whereRaw("find_in_set('kentucky', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $louisiana = Post::where('category_id', 'louisiana')
-        ->orderBy('filename', 'asc')
+        $louisiana = Post::whereRaw("find_in_set('louisiana', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $maryland = Post::where('category_id', 'maryland')
-        ->orderBy('filename', 'asc')
+        $maryland = Post::whereRaw("find_in_set('maryland', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $massachusetts = Post::where('category_id', 'massachusetts')
-        ->orderBy('filename', 'asc')
+        $massachusetts = Post::whereRaw("find_in_set('massachusetts', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $minnesota = Post::where('category_id', 'minnesota')
-        ->orderBy('filename', 'asc')
+        $minnesota = Post::whereRaw("find_in_set('minnesota', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $nevada = Post::where('category_id', 'nevada')
-        ->orderBy('filename', 'asc')
+        $nevada = Post::whereRaw("find_in_set('nevada', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $newJersey = Post::where('category_id', 'newJersey')
-        ->orderBy('filename', 'asc')
+        $newJersey = Post::whereRaw("find_in_set('newJersey', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $northCarolina = Post::where('category_id', 'northCarolina')
-        ->orderBy('filename', 'asc')
+        $northCarolina = Post::whereRaw("find_in_set('northCarolina', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $oregon = Post::where('category_id', 'oregon')
-        ->orderBy('filename', 'asc')
+        $oregon = Post::whereRaw("find_in_set('oregon', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $pennsylvania = Post::where('category_id', 'pennsylvania')
-        ->orderBy('filename', 'asc')
+        $pennsylvania = Post::whereRaw("find_in_set('pennsylvania', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $southCarolina = Post::where('category_id', 'southCarolina')
-        ->orderBy('filename', 'asc')
+        $southCarolina = Post::whereRaw("find_in_set('southCarolina', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $tennessee = Post::where('category_id', 'tennessee')
-        ->orderBy('filename', 'asc')
+        $tennessee = Post::whereRaw("find_in_set('tennessee', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $texas = Post::where('category_id', 'texas')
-        ->orderBy('filename', 'asc')
+        $texas = Post::whereRaw("find_in_set('texas', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $utah = Post::where('category_id', 'utah')
-        ->orderBy('filename', 'asc')
+        $utah = Post::whereRaw("find_in_set('utah', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $virginia = Post::where('category_id', 'virginia')
-        ->orderBy('filename', 'asc')
+        $virginia = Post::whereRaw("find_in_set('virginia', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $washington = Post::where('category_id', 'washington')
-        ->orderBy('filename', 'asc')
+        $washington = Post::whereRaw("find_in_set('washington', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $washingtonDc = Post::where('category_id', 'washingtonDc')
-        ->orderBy('filename', 'asc')
+        $washingtonDc = Post::whereRaw("find_in_set('washingtonDc', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
 
-        $wisconsin = Post::where('category_id', 'wisconsin')
-        ->orderBy('filename', 'asc')
+        $wisconsin = Post::whereRaw("find_in_set('wisconsin', category_id)")
+        ->sortable('filename', 'asc')
         ->get();
         
         return view('pages.humanresources.stateposters')

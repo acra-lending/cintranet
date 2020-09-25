@@ -7,11 +7,14 @@ use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\CanResetPassword;
 use App\Notifications\MailResetPasswordNotification;
+use Kyslik\ColumnSortable\Sortable;
 
 
 class User extends Authenticatable
 {
-    use Notifiable;
+    use Notifiable, Sortable;
+
+    // public $sortable = [ 'name', 'email', 'created_at', 'lastvisitDate' ];
 
     protected $table ='s2zar_users';
     /**

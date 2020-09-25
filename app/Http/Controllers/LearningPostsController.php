@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\LearningPost;
+use DB;
+use App\User;
 use Gate;
 
 class LearningPostsController extends Controller
@@ -16,8 +18,18 @@ class LearningPostsController extends Controller
      */
     public function index()
     {
-        $posts = LearningPost::orderBy('created_at', 'desc')->paginate(5);
-        return view('pages.learning.index')->with('posts', $posts);
+        $posts = LearningPost::orderBy('created_at', 'desc')->paginate(5)->onEachSide(2);
+
+        $contacts = DB::table('s2zar_jsn_users')
+        ->orderBy('lastname', 'asc')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->get();
+
+        return view('pages.learning.index')
+        ->with([
+            'posts'     => $posts,
+            'contacts'  => $contacts
+        ]);
     }
 
     /**
@@ -27,6 +39,10 @@ class LearningPostsController extends Controller
      */
     public function create()
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         return view('pages.learning.create');
     }
 
@@ -38,6 +54,10 @@ class LearningPostsController extends Controller
      */
     public function store(Request $request)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required',
@@ -91,6 +111,10 @@ class LearningPostsController extends Controller
      */
     public function edit($id)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $post = LearningPost::find($id);
         return view('pages.learning.edit')->with('post', $post);
     }
@@ -104,6 +128,10 @@ class LearningPostsController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $this->validate($request, [
             'title' => 'required',
             'body' => 'required'

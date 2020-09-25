@@ -10,23 +10,23 @@ class ServicingDocsController extends Controller
     public function index()
     {
         //Correspondent Documents
-        $callScripts = Post::where('category_id', 'callScripts')
-        ->orderBy('filename', 'asc')
+        $callScripts = Post::whereRaw("find_in_set('callScripts', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Retail Documents
-        $watchlist = Post::where('category_id', 'watchlist')
-        ->orderBy('filename', 'asc')
+        $watchlist = Post::whereRaw("find_in_set('watchlist', category_id)")
+        ->sortable('filename')
         ->get();
         
         //Retail MLO Licenses
-        $servicingDocs = Post::where('category_id', 'servicingDocs')
-        ->orderBy('filename', 'asc')
+        $servicingDocs = Post::whereRaw("find_in_set('servicingDocs', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Retail MLO Licenses
-        $servicingForeclosure = Post::where('category_id', 'servicingForeclosure')
-        ->orderBy('filename', 'asc')
+        $servicingForeclosure = Post::whereRaw("find_in_set('servicingForeclosure', category_id)")
+        ->sortable('filename')
         ->get();
         
         return view('pages.servicing.servicing')

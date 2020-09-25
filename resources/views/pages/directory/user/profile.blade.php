@@ -12,7 +12,7 @@
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">Directory</a></li>
+                <li class="breadcrumb-item"><a href="/directory/directory">Directory</a></li>
                 <li class="breadcrumb-item active">User Profile</li>
               </ol>
             </div>
@@ -59,7 +59,7 @@
 
   
               <!-- About Me Box -->
-              <div class="card card-danger">
+              <div class="card card-dark card-outline">
                 <div class="card-header">
                   <h3 class="card-title">About Me</h3>
                 </div>
@@ -71,25 +71,18 @@
                     {{$contact->team}}
                   </p>
   
-                  <hr>
-  
-                  <strong><i class="fas fa-map-marker-alt mr-1"></i> Team Region</strong>
-  
-                  <p class="text-muted">{{$contact->teamregion}}</p>
-  
-                  <hr>
-  
-                  <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
+                  {{-- <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
   
                   <p class="text-muted">
                     <span class="tag tag-danger">{{ date('F jS, Y', strtotime($contact->created_at)) }}</span>
-                  </p>
-  
+                  </p> --}}
+                  @can('edit-users')
                   <hr>
   
                   <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
   
                   <p class="text-muted">{{$contact->cell}}</p>
+                  @endcan
                 </div>
                 <!-- /.card-body -->
               </div>

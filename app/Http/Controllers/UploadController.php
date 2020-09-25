@@ -5,7 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
+use Gate;
 use App\Category;
+use Session;
+use URL;
+use Redirect;
 
 class UploadController extends Controller
 {
@@ -20,11 +24,15 @@ class UploadController extends Controller
     
     public function upload(Request $request)
     {
+        if(Gate::denies('manage-posts')){
+            return redirect(route('home'));
+        }
         
         $this->validate($request, [
             'category_id' => 'required',
             'file' => 'required',
-            'file.*' => 'required|mimes:xls,xlsx,pdf,jpeg,bmp,png,gif,mp4|max:99999999'
+            'file.*' => 'required|mimes:doc,docx,ppt,pptx,xls,xlsx,pdf,jpeg,bmp,png,gif,mp4,|max:99999999',
+            'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
         
@@ -80,26 +88,38 @@ class UploadController extends Controller
         }
     }
 
-    public function update(Request $request, $id)
+    public function update(Request $request)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $this->validate($request, [
-            'filename' => 'required',
+            'filename' => 'required|regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
         //Create Upload Post
-        $post = Post::find($id);
-        // $post->category_id = implode(',', $request->input('category_id'));
-        // dd($request->input('category_id'));
-        // $post->categories()->attach($request->categories_id);
-        $post->filename = $request->input('filename');
-        // $post->filesize = $filesizeToStore;
-        $post->save();
+        $post = Post::findOrFail($request->category_id);
+        $oldfilename = $post->filename;
+        $newfilename = $request->input('filename');
 
-        return back()->with('success', 'Update Complete');
+        if ($newfilename != $oldfilename){
+            Storage::move('public/upload/'.$oldfilename, 'public/upload/'.$newfilename);
+            $post->filename = $newfilename;
+            $post->save();
+            
+            return back()->with('success', 'File Updated');
+        } else {
+            return back()->with('error', 'File Name Already Exists');
+        }
     }
 
     public function destroy($id)
     {
+        if(Gate::denies('manage-posts')){
+            return redirect(route('home'));
+        }
+
         $post = Post::find($id);
 
         // Delete file

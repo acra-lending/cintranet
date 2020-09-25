@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Event;
 use App\Http\Requests\EventRequest;
 use Illuminate\Http\Request;
+use Gate;
 
 
 class EventController extends Controller
@@ -23,6 +24,10 @@ class EventController extends Controller
 
     public function store(EventRequest $request)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         Event::create($request->all());
 
         return response()->json(true);
@@ -30,6 +35,10 @@ class EventController extends Controller
 
     public function update(EventRequest $request)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $event = Event::where('id', $request->id)->first();
 
         $event->fill($request->all());
@@ -41,6 +50,10 @@ class EventController extends Controller
 
     public function destroy(Request $request)
     {
+        if(Gate::denies('delete-posts')){
+            return redirect(route('home'));
+        }
+
         Event::where('id', $request->id)->delete();
 
         return response()->json(true);

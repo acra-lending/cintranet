@@ -63,6 +63,10 @@
         display: block;
         z-index: 7;
         }
+        
+        .card-danger:not(.card-outline) .card-header {
+        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 75%);
+        }
     </style>
         <section class="content">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">

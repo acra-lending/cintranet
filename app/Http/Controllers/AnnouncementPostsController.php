@@ -8,6 +8,7 @@ use App\Announcement;
 use App\AnnouncementFile;
 use App\User;
 use App\Role;
+use DB;
 use Gate;
 
 class AnnouncementPostsController extends Controller
@@ -19,11 +20,20 @@ class AnnouncementPostsController extends Controller
      */
     public function index()
     {
-        $posts = Announcement::orderBy('created_at', 'desc')->paginate(5);
+        $posts = Announcement::orderBy('created_at', 'desc')->paginate(5)->onEachSide(2);
         $files = AnnouncementFile::orderBy('created_at', 'desc')->get();
-        // dd($posts);
-
-        return view('pages.announcements.index')->with('posts', $posts)->with('files', $files);
+        
+        $contacts = DB::table('s2zar_jsn_users')
+        ->orderBy('lastname', 'asc')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->get();
+// dd($contacts);
+        return view('pages.announcements.index')
+        ->with([
+            'posts' => $posts,
+            'files' => $files,
+            'contacts' => $contacts,
+        ]);
     }
 
     /**
@@ -33,6 +43,10 @@ class AnnouncementPostsController extends Controller
      */
     public function create()
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         return view('pages.announcements.create');
     }
 
@@ -44,11 +58,15 @@ class AnnouncementPostsController extends Controller
      */
     public function store(Request $request)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $this->validate($request, [
             'title'     => 'required',
             'body'      => 'required',
             'file.'     => 'nullable',
-            'file.*'    => 'nullable|mimes:pdf,doc,docx|max:8999'
+            'file.*'    => 'nullable|mimes:pdf,doc,docx,xls,xlsx,ppt,pptx,png,jpg,jpeg|max:8999'
         ]);
 
         // Create Post
@@ -109,6 +127,10 @@ class AnnouncementPostsController extends Controller
      */
     public function edit($id)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $post = Announcement::find($id);
         return view('pages.announcements.edit')->with('post', $post);
     }
@@ -122,6 +144,10 @@ class AnnouncementPostsController extends Controller
      */
     public function update(Request $request, $id)
     {
+        if(Gate::denies('edit-posts')){
+            return redirect(route('home'));
+        }
+
         $this->validate($request, [
             'title'     => 'required',
             'body'      => 'required',

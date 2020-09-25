@@ -31,7 +31,7 @@ class RatesheetCategoryController extends Controller
         //Wholesale Past Ratesheets
         $wsOmbsvoe_past     = Post::whereRaw("find_in_set('wsOmbsvoe', category_id)")
                                     ->orderBy('created_at', 'desc')
-                                    ->skip(1)
+                                    // ->skip(1)
                                     ->take(10)
                                     ->get();
         $wsNonprime_past    = Post::whereRaw("find_in_set('wsNonprime', category_id)")
@@ -41,12 +41,12 @@ class RatesheetCategoryController extends Controller
                                     ->get();
         $wsOdf_past         = Post::whereRaw("find_in_set('wsOdf', category_id)")
                                     ->orderBy('created_at', 'desc')
-                                    ->skip(1)
+                                    // ->skip(1)
                                     ->take(10)
                                     ->get();
         $wsOdfPlus_past     = Post::whereRaw("find_in_set('wsOdfPlus', category_id)")
                                     ->orderBy('created_at', 'desc')
-                                    ->skip(1)
+                                    // ->skip(1)
                                     ->take(10)
                                     ->get();
 

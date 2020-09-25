@@ -12,13 +12,18 @@
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="#">User Management</a></li>
+                <li class="breadcrumb-item"><a href="/usermanagement/user">User Management</a></li>
                 <li class="breadcrumb-item active">Edit</li>
               </ol>
             </div>
           </div>
         </div><!-- /.container-fluid -->
       </section>
+      <style>
+        .card-danger:not(.card-outline) .card-header {
+        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 85%);
+        }
+      </style>
 
       <!-- Main content -->
       <section class="content">
@@ -37,28 +42,37 @@
                       src="{{ ($contact->avatar) ? url('storage/avatars/' .$contact->avatar) : asset('img/avatar1.png') }}"
                       alt="User profile picture">
                     </div>
-
                   </div>
-                  <h3 class="profile-username text-center">{{$contact->firstname}} {{$contact->lastname}}</h3>
-  
-                  <p class="text-muted text-center">{{$contact->position}}</p>
-  
+
                   <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
+                      <b>First Name</b>
+                      <input type="text" class="form-control float-right" name="firstname" value="{{$contact->firstname}}" style="width:50%; text-align:right;">
+                    </li>
+                    <li class="list-group-item">
+                      <b>Last Name</b>
+                      <input type="text" class="form-control float-right" name="lastname" value="{{$contact->lastname}}" style="width:50%; text-align:right;">
+                    </li>
+                    <li class="list-group-item">
+                      <b>Position</b>
+                      <input type="text" class="form-control float-right" name="position" value="{{$contact->position}}" style="width:50%; text-align:right;">
+                    </li>
+
+                    <li class="list-group-item">
                       <b>Email</b> 
-                        <input type="text" class="float-right" name="email" value="{{$contact->email}}" style="width:50%; text-align:right;">
+                        <input type="text" class="form-control float-right" name="email" value="{{$contact->email}}" style="width:50%; text-align:right;">
                     </li>
                     <li class="list-group-item">
                       <b>Direct Phone</b> 
-                      <input type="text" class="float-right" name="directphone" value="{{$contact->directphone}}" style="width:50%; text-align:right;">
+                      <input type="text" class="form-control float-right" name="directphone" value="{{$contact->directphone}}" style="width:50%; text-align:right;">
                     </li>
                     <li class="list-group-item">
                       <b>Ext</b>
-                      <input type="text" class="float-right" name="extension" value="{{$contact->extension}}" style="width:50%; text-align:right;">
+                      <input type="text" class="form-control float-right" name="extension" value="{{$contact->extension}}" style="width:50%; text-align:right;">
                     </li>
                     <li class="list-group-item">
                       <b>Department</b> 
-                      <input type="text" class="float-right" name="departments" value="{{$contact->departments}}" style="width:50%; text-align:right;">
+                      <input type="text" class="form-control float-right" name="departments" value="{{str_replace(array('[', '"', ']',), '',$contact->departments)}}" style="width:50%; text-align:right;">
                       {{-- <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->departments)}}</a> --}}
                     </li>
                   </ul>
@@ -69,52 +83,40 @@
 
   
               <!-- About Me Box -->
-              <div class="card card-danger">
+              <div class="card card-danger card-outline">
                 <div class="card-header">
                   <h3 class="card-title">About Me</h3>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
                   <strong><i class="fas fa-users mr-1"></i> Team</strong>
-  
-
-                    <input type="text" class="float-right" name="team" value="{{$contact->team}}" style="width:50%; text-align:right;">
-
-  
+                    <input type="text" class="form-control float-right" name="team" value="{{$contact->team}}" style="width:50%; text-align:right;">
                   <hr>
-  
-                  <strong><i class="fas fa-map-marker-alt mr-1"></i> Team Region</strong>
-  
-                  <input type="text" class="float-right" name="teamregion" value="{{$contact->teamregion}}" style="width:50%; text-align:right;">
-  
-                  <hr>
-  
-                  <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
-  
+                  {{-- <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
                   <p class="text-muted">
                     <span class="tag tag-danger">{{ date('F jS, Y', strtotime($contact->created_at)) }}</span>
                   </p>
-  
-                  <hr>
-  
+                  <hr> --}}
                   <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
-  
-                  <input type="text" class="float-right" name="cell" value="{{$contact->cell}}" style="width:50%; text-align:right;">
+                  <input type="text" class="form-control float-right" name="cell" value="{{$contact->cell}}" style="width:50%; text-align:right;">
                 </div>
                 <!-- /.card-body -->
               </div>
             </div>
             <!-- /.col -->
-
             <div class="col-sm-8 col-md-6 col-lg-6 col-xl-4">
               <div class="card card-danger">
                 <div class="card-header">
+                  @can('edit-users')
                   <h3 class="card-title">Edit Roles for {{ $user->name }}</h3>
+                  @endcan
                 </div>
                 <div class="card-body table-responsive p-0">
 
 
+
                     {{ method_field('PUT') }}
+                    @can('edit-users')
                     @foreach($roles as $role)
                       <div class="form-check">
                         <input type="checkbox" name="roles[]" value=" {{ $role->id }}"
@@ -123,8 +125,10 @@
                         <label>{{ $role->name }}</label>
                       </div>
                     @endforeach
+                    @endcan
                 </div>
               </div>
+
               <div class="form-group">
                 {{ Form::label('Profile Picture ') }}
                 {{ Form::file('avatar') }}

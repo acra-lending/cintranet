@@ -20,6 +20,13 @@
     </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
+    <style>
+
+    .card-danger:not(.card-outline) .card-header {
+    background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 45%);
+    }
+    
+    </style>
     
         <!--POST TEMPLATE -->
         <div class="container">

@@ -27,10 +27,10 @@ class AuthServiceProvider extends ServiceProvider
 
         // Gate for editing users
         Gate::define('manage-users', function($user){
-            return $user->hasAnyRoles(['super admin', 'admin', 'author']);
+            return $user->hasRole('super admin');
         });
         Gate::define('edit-users', function($user){
-            return $user->hasRole(['super admin', 'admin', 'author']);
+            return $user->hasAnyRoles(['super admin', 'admin']);
         });
         Gate::define('delete-users', function($user){
             return $user->hasRole('super admin');
@@ -38,14 +38,13 @@ class AuthServiceProvider extends ServiceProvider
 
         // Gate for editing posts
         Gate::define('manage-posts', function($user){
-            return $user->hasAnyRoles(['super admin', 'admin', 'author']);
+            return $user->hasAnyRoles(['super admin', 'author']);
         });
         Gate::define('edit-posts', function($user){
-            return $user->hasRole(['super admin', 'admin', 'author']);
+            return $user->hasAnyRoles(['super admin', 'admin', 'author']);
         });
         Gate::define('delete-posts', function($user){
-            return $user->hasRole('super admin', 'author');
+		return $user->hasAnyRoles(['super admin', 'author']);
         });
-
     }
 }

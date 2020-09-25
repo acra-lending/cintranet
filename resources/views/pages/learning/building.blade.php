@@ -12,7 +12,7 @@
         </div><!-- /.col -->
         <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item active"><a href="/">Learning</a></li>
+            <li class="breadcrumb-item active"><a href="/learning/posts">Learning</a></li>
             <li class="breadcrumb-item">Building Relationships</li>
             </ol>
         </div><!-- /.col -->
@@ -26,7 +26,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <!-- Box Comment -->
-                <div class="card card-widget">
+                <div class="card card-danger card-widget">
                 <div class="card-header">
                     <div class="user-block">
                     <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">

@@ -24,7 +24,7 @@
  <!--POST TEMPLATE -->
  <div class="container">
     <div class="row justify-content-center">
-        <div class="col-8">
+        <div class="col-md-8">
             <!-- Box Comment -->
             <div class="card card-widget">
             {{-- <div class="card-header">
@@ -40,7 +40,7 @@
                 <!-- post text -->
                 <h4>{{$post->title}}</h4>
                 <!-- Attachment -->
-                <div class="col-md-3 float-right pl-3 mr-4 mt-3">
+                <div class="col-md-3">
                     <h6>Resource Files: </h6>
                     @foreach($files as $file)
                     @if($file->announcement_id == $post->id)
@@ -52,18 +52,18 @@
                 <p>{!!$post->body!!}</p>
 
 
-                <span class="description" style="font-size: 10pt"><em>~{{$post->created_at}}</em></span>
+                <span class="description" style="font-size: 10pt"><em>~{{Carbon\Carbon::parse($post->created_at)->format('Y-m-d')}}</em></span>
             </div>   
             <!-- /.card-body -->
             </div>
             <a href="/learning/announcements" class="btn btn-outline-danger">Back</a>
             @can('edit-posts')
-
             <a href="/learning/announcements/{{$post->id}}/edit" class="btn btn-outline-dark">Edit</a>
+            @endcan
+            @can('delete-posts')
             {{ Form::open(['action' => ['AnnouncementPostsController@destroy', $post->id], 'method' => 'DELETE', 'class' => 'float-right']) }}
             {{ Form::submit('Delete', ['class' => 'btn btn-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
             {{ Form::close() }}
-            
             @endcan
             <!-- /.card -->
         </div>

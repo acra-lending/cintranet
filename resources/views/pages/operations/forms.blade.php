@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="#">Operations</a></li>
+                <li class="breadcrumb-item active"><a href="/operations/forms">Operations</a></li>
                 <li class="breadcrumb-item">Forms</a></li>
                 </ol>
             </div><!-- /.col -->
@@ -20,12 +20,22 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
+        <style>
+
+        .card-dark:not(.card-outline) .card-header {
+        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 75%);
+        }
+        
+        </style>
+
             <!-- Main content -->
 
             <section class="content">
+              @include('pages.modals.modal-forms')
+              <div class="container">
                 <div class="col-md-10">
       
-                  <div class="card card-danger card-outline">
+                  <div class="card card-dark card-outline">
                     <div class="card-header">
                       <h3 class="card-title">
                         <i class="fas fa-folder"></i>
@@ -57,7 +67,6 @@
                                 <a class="nav-link active" id="vert-tabs-disclosure-tab" data-toggle="pill" href="#vert-tabs-disclosure" role="tab" aria-controls="vert-tabs-disclosure" aria-selected="true">Disclosure</a>
                                 <a class="nav-link" id="vert-tabs-funding-states-tab" data-toggle="pill" href="#vert-tabs-funding-states" role="tab" aria-controls="vert-tabs-funding-states" aria-selected="false">Funding States</a>
                                 <a class="nav-link" id="vert-tabs-important-tab" data-toggle="pill" href="#vert-tabs-important" role="tab" aria-controls="vert-tabs-important" aria-selected="false">Important Things to Know</a>
-                                <a class="nav-link" id="vert-tabs-marketing-tab" data-toggle="pill" href="#vert-tabs-marketing" role="tab" aria-controls="vert-tabs-marketing" aria-selected="false">Marketing</a>
                                 <a class="nav-link" id="vert-tabs-policies-tab" data-toggle="pill" href="#vert-tabs-policies" role="tab" aria-controls="vert-tabs-policies" aria-selected="false">Policies</a>
                               </div>
                             </div>
@@ -66,7 +75,7 @@
                                 <div class="tab-pane text-left fade show active" id="vert-tabs-disclosure" role="tabpanel" aria-labelledby="vert-tabs-disclosure-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Disclosure</h3>
                                         <div class="card-tools">
@@ -77,9 +86,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                             <tbody>
@@ -87,15 +96,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                               </td>
                                             </tr>
@@ -109,7 +122,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-funding-states" role="tabpanel" aria-labelledby="vert-tabs-funding-states-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Funding States</h3>
                                           <div class="card-tools">
@@ -120,9 +133,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -130,15 +143,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -152,7 +169,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-important" role="tabpanel" aria-labelledby="vert-tabs-important-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Important Things To Know</h3>
                                           <div class="card-tools">
@@ -163,9 +180,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -173,79 +190,23 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
                                                 @endforeach
-                                            </tbody>
-                                          </table>
-                                        </div>
-                                      </div>
-                                    </div>
-                                  </div>
-                                  <div class="tab-pane text-left fade show" id="vert-tabs-marketing" role="tabpanel" aria-labelledby="vert-tabs-marketing-tab">
-                                    <!-- /.content-header -->        
-                                    <div class="col">
-                                      <div class="card card-danger">
-                                        <div class="card-header border-0">
-                                          <h3 class="card-title">Marketing</h3>
-                                          <div class="card-tools">
-                                            </a>
-                                          </div>
-                                        </div>
-                                        <div class="card-body table-responsive p-0">
-                                          <table class="table">
-                                            <thead>
-                                                <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
-                                                </tr>
-                                            </thead>
-                                                <tbody>
-                                              @foreach($marketingForms as $category)
-                                              <tr>
-                                                <td>{{$category->filename}}</td>
-                                                <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
-                                                <td class="text-right py-0 align-middle">
-                                                  <div class="btn-group btn-group-sm">
-                                                    <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
-                                                    <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                    {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
-                                                      {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
-                                                    {{ Form::close()}}
-                                                  </div>
-                                                </td>
-                                              </tr>
-                                                @endforeach
-                                                @foreach($marketingMaterials as $category)
-                                                <tr>
-                                                  <td>{{$category->filename}}</td>
-                                                  <td>{{$category->filesize}} KB</td>
-                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
-                                                  <td class="text-right py-0 align-middle">
-                                                    <div class="btn-group btn-group-sm">
-                                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
-                                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
-                                                      {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
-                                                        {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
-                                                      {{ Form::close()}}
-                                                    </div>
-                                                  </td>
-                                                </tr>
-                                                  @endforeach
                                             </tbody>
                                           </table>
                                         </div>
@@ -255,7 +216,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-policies" role="tabpanel" aria-labelledby="vert-tabs-policies-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Policies</h3>
                                           <div class="card-tools">
@@ -266,9 +227,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -276,15 +237,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -320,7 +285,7 @@
                                 <div class="tab-pane text-left fade show active" id="vert-tabs-funding-systems" role="tabpanel" aria-labelledby="vert-tabs-funding-systems-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Systems</h3>
                                         <div class="card-tools">
@@ -331,9 +296,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -341,15 +306,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -363,7 +332,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Forms</h3>
                                         <div class="card-tools">
@@ -374,9 +343,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -384,15 +353,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -406,7 +379,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-funding-tisp" role="tabpanel" aria-labelledby="vert-tabs-funding-tisp-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                           <div class="card-tools">
@@ -417,9 +390,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -427,15 +400,19 @@
                                                 <tr>
                                                   <td>{{$category->filename}}</td>
                                                   <td>{{$category->filesize}} KB</td>
-                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                   <td class="text-right py-0 align-middle">
                                                     <div class="btn-group btn-group-sm">
                                                       <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                      @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                      @endcan
                                                       <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      @can('delete-users')
                                                       {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                         {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                       {{ Form::close()}}
+                                                      @endcan
                                                     </div>
                                                   </td>
                                                 </tr>
@@ -449,7 +426,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-funding-vetting" role="tabpanel" aria-labelledby="vert-tabs-funding-vetting-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Vetting</h3>
                                           <div class="card-tools">
@@ -460,9 +437,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -470,15 +447,19 @@
                                                 <tr>
                                                   <td>{{$category->filename}}</td>
                                                   <td>{{$category->filesize}} KB</td>
-                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                   <td class="text-right py-0 align-middle">
                                                     <div class="btn-group btn-group-sm">
                                                       <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                      @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                      @endcan
                                                       <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      @can('delete-users')
                                                       {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                         {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                       {{ Form::close()}}
+                                                      @endcan
                                                     </div>
                                                   </td>
                                                 </tr>
@@ -492,7 +473,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-funding-compliance" role="tabpanel" aria-labelledby="vert-tabs-funding-compliance-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Compliance</h3>
                                           <div class="card-tools">
@@ -503,9 +484,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -513,15 +494,19 @@
                                                 <tr>
                                                   <td>{{$category->filename}}</td>
                                                   <td>{{$category->filesize}} KB</td>
-                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                   <td class="text-right py-0 align-middle">
                                                     <div class="btn-group btn-group-sm">
                                                       <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                      @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                      @endcan
                                                       <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      @can('delete-users')
                                                       {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                         {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                       {{ Form::close()}}
+                                                      @endcan
                                                     </div>
                                                   </td>
                                                 </tr>
@@ -535,7 +520,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-funding-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-processes-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Processes</h3>
                                           <div class="card-tools">
@@ -546,9 +531,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -556,15 +541,19 @@
                                                 <tr>
                                                   <td>{{$category->filename}}</td>
                                                   <td>{{$category->filesize}} KB</td>
-                                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                  <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                   <td class="text-right py-0 align-middle">
                                                     <div class="btn-group btn-group-sm">
                                                       <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                      @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                      @endcan
                                                       <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                      @can('delete-users')
                                                       {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                         {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                       {{ Form::close()}}
+                                                      @endcan
                                                     </div>
                                                   </td>
                                                 </tr>
@@ -578,7 +567,7 @@
                                   <div class="tab-pane text-left fade show" id="vert-tabs-funding-dept" role="tabpanel" aria-labelledby="vert-tabs-funding-dept-tab">
                                     <!-- /.content-header -->        
                                     <div class="col">
-                                      <div class="card card-danger">
+                                      <div class="card card-dark">
                                         <div class="card-header border-0">
                                           <h3 class="card-title">Department Contacts</h3>
                                           <div class="card-tools">
@@ -589,9 +578,9 @@
                                           <table class="table">
                                             <thead>
                                                 <tr>
-                                                <th>File Name</th>
-                                                <th>File Size</th>
-                                                <th>Created At</th>
+                                                  <th>@sortablelink('filename', 'File Name')</th>
+                                                  <th>@sortablelink('filesize', 'File Size')</th>
+                                                  <th>@sortablelink('updated_at', 'Updated At')</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
@@ -599,15 +588,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -641,7 +634,7 @@
                               <div class="tab-pane text-left fade show active" id="vert-tabs-doc-systems" role="tabpanel" aria-labelledby="vert-tabs-doc-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Systems</h3>
                                       <div class="card-tools">
@@ -652,9 +645,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -662,15 +655,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -685,7 +682,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-doc-forms" role="tabpanel" aria-labelledby="vert-tabs-doc-forms-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Forms</h3>
                                       <div class="card-tools">
@@ -696,9 +693,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -706,15 +703,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -728,7 +729,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-doc-tisp" role="tabpanel" aria-labelledby="vert-tabs-doc-tisp-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                         <div class="card-tools">
@@ -739,9 +740,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -749,15 +750,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -771,7 +776,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-doc-vetting" role="tabpanel" aria-labelledby="vert-tabs-doc-vetting-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Vetting</h3>
                                         <div class="card-tools">
@@ -782,9 +787,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -792,15 +797,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -814,7 +823,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-doc-compliance" role="tabpanel" aria-labelledby="vert-tabs-doc-compliance-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Compliance</h3>
                                         <div class="card-tools">
@@ -825,9 +834,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -835,15 +844,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -857,7 +870,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-doc-processes" role="tabpanel" aria-labelledby="vert-tabs-doc-processes-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Processes</h3>
                                         <div class="card-tools">
@@ -868,9 +881,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -878,15 +891,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -900,7 +917,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-doc-dept" role="tabpanel" aria-labelledby="vert-tabs-doc-dept-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Department Contacts</h3>
                                         <div class="card-tools">
@@ -911,9 +928,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -921,15 +938,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -966,7 +987,7 @@
                             <div class="tab-pane text-left fade show active" id="vert-tabs-funder-systems" role="tabpanel" aria-labelledby="vert-tabs-funder-systems-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Systems</h3>
                                     <div class="card-tools">
@@ -977,9 +998,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -987,15 +1008,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1009,7 +1034,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funder-forms" role="tabpanel" aria-labelledby="vert-tabs-funder-forms-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Forms</h3>
                                     <div class="card-tools">
@@ -1020,9 +1045,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -1030,15 +1055,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1052,7 +1081,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funder-tisp" role="tabpanel" aria-labelledby="vert-tabs-funder-tisp-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                       <div class="card-tools">
@@ -1063,9 +1092,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1073,15 +1102,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1095,7 +1128,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-vetting" role="tabpanel" aria-labelledby="vert-tabs-funder-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -1106,9 +1139,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1116,15 +1149,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1138,7 +1175,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-compliance" role="tabpanel" aria-labelledby="vert-tabs-funder-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -1149,9 +1186,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1159,15 +1196,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1181,7 +1222,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-processes" role="tabpanel" aria-labelledby="vert-tabs-funder-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -1192,9 +1233,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1202,15 +1243,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1224,7 +1269,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-escrow" role="tabpanel" aria-labelledby="vert-tabs-funder-escrow-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Escrow Holdback</h3>
                                       <div class="card-tools">
@@ -1235,9 +1280,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1245,15 +1290,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1267,7 +1316,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-poa" role="tabpanel" aria-labelledby="vert-tabs-funder-poa-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Power of Attorney</h3>
                                       <div class="card-tools">
@@ -1278,9 +1327,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1288,15 +1337,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1310,7 +1363,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funder-dept" role="tabpanel" aria-labelledby="vert-tabs-funder-dept-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Department Contacts</h3>
                                       <div class="card-tools">
@@ -1321,9 +1374,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1331,15 +1384,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1373,7 +1430,7 @@
                             <div class="tab-pane text-left fade show active" id="vert-tabs-funding-forms-systems" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-systems-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Systems</h3>
                                     <div class="card-tools">
@@ -1384,9 +1441,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -1394,15 +1451,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1417,7 +1478,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-forms" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-forms-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Forms</h3>
                                     <div class="card-tools">
@@ -1428,9 +1489,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -1438,15 +1499,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1460,7 +1525,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-tisp" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-tisp-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                       <div class="card-tools">
@@ -1471,9 +1536,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1481,15 +1546,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1503,7 +1572,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-vetting" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -1514,9 +1583,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1524,15 +1593,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1546,7 +1619,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-compliance" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -1557,9 +1630,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1567,15 +1640,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1589,7 +1666,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -1600,9 +1677,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1610,15 +1687,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1632,7 +1713,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-dept" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-dept-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Department Contacts</h3>
                                       <div class="card-tools">
@@ -1643,9 +1724,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1653,15 +1734,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1694,7 +1779,7 @@
                             <div class="tab-pane text-left fade show active" id="vert-tabs-funding-asst-systems" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-systems-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Systems</h3>
                                     <div class="card-tools">
@@ -1705,9 +1790,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -1715,15 +1800,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1737,7 +1826,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funding-asst-tisp" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-tisp-tab">
                               <!-- /.content-header -->        
                               <div class="col">
-                                <div class="card card-danger">
+                                <div class="card card-dark">
                                   <div class="card-header border-0">
                                     <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                     <div class="card-tools">
@@ -1748,9 +1837,9 @@
                                     <table class="table">
                                       <thead>
                                           <tr>
-                                          <th>File Name</th>
-                                          <th>File Size</th>
-                                          <th>Created At</th>
+                                            <th>@sortablelink('filename', 'File Name')</th>
+                                            <th>@sortablelink('filesize', 'File Size')</th>
+                                            <th>@sortablelink('updated_at', 'Updated At')</th>
                                           </tr>
                                       </thead>
                                       <tbody>
@@ -1758,15 +1847,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -1780,7 +1873,7 @@
                             <div class="tab-pane text-left fade show" id="vert-tabs-funding-asst-vetting" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -1791,9 +1884,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1801,15 +1894,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1823,7 +1920,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-asst-compliance" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -1834,9 +1931,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1844,15 +1941,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1866,7 +1967,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-asst-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -1877,9 +1978,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1887,15 +1988,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1909,7 +2014,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-funding-asst-dept" role="tabpanel" aria-labelledby="vert-tabs-funding-asst-dept-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Department Contacts</h3>
                                       <div class="card-tools">
@@ -1920,9 +2025,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1930,15 +2035,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -1975,7 +2084,7 @@
                               <div class="tab-pane text-left fade show active" id="vert-tabs-lsu-systems" role="tabpanel" aria-labelledby="vert-tabs-lsu-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Systems</h3>
                                       <div class="card-tools">
@@ -1986,9 +2095,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -1996,15 +2105,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2018,7 +2131,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-forms" role="tabpanel" aria-labelledby="vert-tabs-lsu-forms-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Forms</h3>
                                       <div class="card-tools">
@@ -2029,9 +2142,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2039,15 +2152,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2061,7 +2178,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-vetting" role="tabpanel" aria-labelledby="vert-tabs-lsu-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -2072,9 +2189,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2082,15 +2199,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2104,7 +2225,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-compliance" role="tabpanel" aria-labelledby="vert-tabs-lsu-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -2115,9 +2236,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2125,20 +2246,25 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
                                               @endforeach
                                         </tbody>
+                                      </table>
                                     </div>
                                   </div>
                                 </div>
@@ -2146,7 +2272,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-processes" role="tabpanel" aria-labelledby="vert-tabs-lsu-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -2157,9 +2283,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2167,15 +2293,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2189,7 +2319,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-attachments" role="tabpanel" aria-labelledby="vert-tabs-lsu-attachments-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Attachments to Send with Welcome Letter</h3>
                                       <div class="card-tools">
@@ -2200,9 +2330,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2210,15 +2340,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2232,7 +2366,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-lsu-flood" role="tabpanel" aria-labelledby="vert-tabs-lsu-flood-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Flood Certs</h3>
                                         <div class="card-tools">
@@ -2243,9 +2377,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2253,15 +2387,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -2275,7 +2413,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-lsu-valuation" role="tabpanel" aria-labelledby="vert-tabs-lsu-valuation-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Valuation Delivery</h3>
                                         <div class="card-tools">
@@ -2286,9 +2424,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2296,15 +2434,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -2318,7 +2460,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-lsu-ssa" role="tabpanel" aria-labelledby="vert-tabs-lsu-ssa-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">SSA-89 & 4506Ts</h3>
                                         <div class="card-tools">
@@ -2329,9 +2471,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2339,15 +2481,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -2361,7 +2507,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-lsu-dept" role="tabpanel" aria-labelledby="vert-tabs-lsu-dept-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Department Contacts</h3>
                                         <div class="card-tools">
@@ -2372,9 +2518,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2382,15 +2528,19 @@
                                               <tr>
                                                 <td>{{$category->filename}}</td>
                                                 <td>{{$category->filesize}} KB</td>
-                                                <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                                 <td class="text-right py-0 align-middle">
                                                   <div class="btn-group btn-group-sm">
                                                     <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                    <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                    @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                    @endcan
                                                     <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                    @can('delete-users')
                                                     {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                       {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                     {{ Form::close()}}
+                                                    @endcan
                                                   </div>
                                                 </td>
                                               </tr>
@@ -2428,7 +2578,7 @@
                               <div class="tab-pane text-left fade show active" id="vert-tabs-tm-systems" role="tabpanel" aria-labelledby="vert-tabs-tm-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Systems</h3>
                                       <div class="card-tools">
@@ -2439,9 +2589,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2449,15 +2599,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2471,7 +2625,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-internal" role="tabpanel" aria-labelledby="vert-tabs-tm-internal-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Internal Forms</h3>
                                       <div class="card-tools">
@@ -2482,9 +2636,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2492,15 +2646,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2514,7 +2672,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-tisp" role="tabpanel" aria-labelledby="vert-tabs-tm-tisp-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                       <div class="card-tools">
@@ -2525,9 +2683,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2535,15 +2693,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2557,7 +2719,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-vetting" role="tabpanel" aria-labelledby="vert-tabs-tm-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -2568,9 +2730,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                              <th>@sortablelink('filename', 'File Name')</th>
+                                              <th>@sortablelink('filesize', 'File Size')</th>
+                                              <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2578,15 +2740,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2600,7 +2766,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-compliance" role="tabpanel" aria-labelledby="vert-tabs-tm-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -2611,9 +2777,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2621,15 +2787,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2643,7 +2813,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-processes" role="tabpanel" aria-labelledby="vert-tabs-tm-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -2654,9 +2824,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2664,15 +2834,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2686,7 +2860,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-forms-to-send" role="tabpanel" aria-labelledby="vert-tabs-tm-forms-to-send-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Forms To Send To Brokers</h3>
                                       <div class="card-tools">
@@ -2697,9 +2871,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2707,15 +2881,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2729,7 +2907,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-tm-program-guides" role="tabpanel" aria-labelledby="vert-tabs-tm-program-guides-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Program Guides</h3>
                                         <div class="card-tools">
@@ -2740,9 +2918,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2750,15 +2928,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2772,7 +2954,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-tm-dept" role="tabpanel" aria-labelledby="vert-tabs-tm-dept-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Department Contacts</h3>
                                         <div class="card-tools">
@@ -2783,9 +2965,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -2793,15 +2975,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2839,7 +3025,7 @@
                               <div class="tab-pane text-left fade show active" id="vert-tabs-uw-systems" role="tabpanel" aria-labelledby="vert-tabs-uw-systems-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Systems</h3>
                                       <div class="card-tools">
@@ -2850,9 +3036,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2860,15 +3046,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2882,7 +3072,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-tisp" role="tabpanel" aria-labelledby="vert-tabs-uw-tisp-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Taxes/Insurance/Subject Property</h3>
                                       <div class="card-tools">
@@ -2893,9 +3083,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2903,15 +3093,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2925,7 +3119,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-vetting" role="tabpanel" aria-labelledby="vert-tabs-uw-vetting-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Vetting</h3>
                                       <div class="card-tools">
@@ -2936,9 +3130,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2946,15 +3140,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -2968,7 +3166,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-compliance" role="tabpanel" aria-labelledby="vert-tabs-uw-compliance-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Compliance</h3>
                                       <div class="card-tools">
@@ -2979,9 +3177,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -2989,15 +3187,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -3011,7 +3213,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-processes" role="tabpanel" aria-labelledby="vert-tabs-uw-processes-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Processes</h3>
                                       <div class="card-tools">
@@ -3022,9 +3224,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -3032,15 +3234,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -3054,7 +3260,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-guidelines" role="tabpanel" aria-labelledby="vert-tabs-uw-guidelines-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">Guidelines</h3>
                                       <div class="card-tools">
@@ -3065,9 +3271,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -3075,15 +3281,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -3097,7 +3307,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-tools" role="tabpanel" aria-labelledby="vert-tabs-uw-tools-tab">
                                 <!-- /.content-header -->        
                                 <div class="col">
-                                  <div class="card card-danger">
+                                  <div class="card card-dark">
                                     <div class="card-header border-0">
                                       <h3 class="card-title">UW Tools</h3>
                                       <div class="card-tools">
@@ -3108,9 +3318,9 @@
                                       <table class="table">
                                         <thead>
                                             <tr>
-                                            <th>File Name</th>
-                                            <th>File Size</th>
-                                            <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -3118,15 +3328,19 @@
                                           <tr>
                                             <td>{{$category->filename}}</td>
                                             <td>{{$category->filesize}} KB</td>
-                                            <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                             <td class="text-right py-0 align-middle">
                                               <div class="btn-group btn-group-sm">
                                                 <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                @endcan
                                                 <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                @can('delete-users')
                                                 {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                   {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                 {{ Form::close()}}
+                                                @endcan
                                               </div>
                                             </td>
                                           </tr>
@@ -3140,7 +3354,7 @@
                               <div class="tab-pane text-left fade show" id="vert-tabs-uw-videos" role="tabpanel" aria-labelledby="vert-tabs-uw-videos-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Videos</h3>
                                         <div class="card-tools">
@@ -3151,9 +3365,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -3161,15 +3375,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -3183,7 +3401,7 @@
                                 <div class="tab-pane text-left fade show" id="vert-tabs-uw-dept" role="tabpanel" aria-labelledby="vert-tabs-uw-dept-tab">
                                   <!-- /.content-header -->        
                                   <div class="col">
-                                    <div class="card card-danger">
+                                    <div class="card card-dark">
                                       <div class="card-header border-0">
                                         <h3 class="card-title">Department Contacts</h3>
                                         <div class="card-tools">
@@ -3194,9 +3412,9 @@
                                         <table class="table">
                                           <thead>
                                               <tr>
-                                              <th>File Name</th>
-                                              <th>File Size</th>
-                                              <th>Created At</th>
+                                                <th>@sortablelink('filename', 'File Name')</th>
+                                                <th>@sortablelink('filesize', 'File Size')</th>
+                                                <th>@sortablelink('updated_at', 'Updated At')</th>
                                               </tr>
                                           </thead>
                                           <tbody>
@@ -3204,15 +3422,19 @@
                                             <tr>
                                               <td>{{$category->filename}}</td>
                                               <td>{{$category->filesize}} KB</td>
-                                              <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                              <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
                                               <td class="text-right py-0 align-middle">
                                                 <div class="btn-group btn-group-sm">
                                                   <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
-                                                  <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                                  @can('edit-users')
+                                                  <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                  @endcan
                                                   <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                  @can('delete-users')
                                                   {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
                                                     {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                                   {{ Form::close()}}
+                                                  @endcan
                                                 </div>
                                               </td>
                                             </tr>
@@ -3233,7 +3455,7 @@
                     </div>
                   </div>
                 </div>
-                <!-- /.card -->
+              </div>
               </section>
         </div>
 

@@ -20,6 +20,19 @@
       </div><!-- /.container-fluid -->
       </div>
       <!-- /.content-header -->
+      <style>
+        .cell-breakWord{
+          word-wrap: break-word;
+          min-width: 100px;
+          max-width: 100px;
+          white-space: normal;
+        }
+
+        .card-danger:not(.card-outline) .card-header {
+        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 85%);
+        }
+      </style>
+
 
       <section class="content">
         <div class="container-fluid">
@@ -34,47 +47,144 @@
                     <!-- /.card-header -->
                     <div class="card-body table-responsive p-0">
                       <table class="table table-hover text-nowrap">
+                        @if(count($users) > 0)
                         <thead>
                           <tr>
-                            <th></th>
-                            <th></th>
-                            <th></th>
-                            <th></th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role(s)</th>
+                            <th>Created At</th>
+                            <th>Last Visit Date</th>
                             <th></th>
                             <th></th>
                           </tr>
                         </thead>
                         <tbody>
                             @foreach($users as $user)
-                          <tr>
-                            <td>{{$user->name}}</td>
-                            <td>{{$user->email}}</td>
+                            <tr>
+                            <td><a href="/directory/user/{{$user->id}}">{{$user->name}}</a></td>
+                            <td><a href="mailto:{{$user->email}}">{{$user->email}}</a></td>
                             <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>
                             <td>{{$user->created_at}}</td>
                             <td>{{$user->lastvisitDate}}</td>
+                            @can('edit-users')
                             <td>
-                              <a href="{{ route('admin.user.edit', $user->id)}}"><button class="btn btn-primary">Edit</button></a>
+                              <a href="{{ route('admin.user.edit', $user->id)}}"><button class="btn btn-outline-dark">Edit</button></a>
                             </td>
+                            @endcan
                           </tr>
                           @endforeach
-      
- 
+                          @else 
+                            <tr>
+                              {{-- show nothing --}}
+                            </tr>
+                          @endif
                         </tbody>
+                        <thead>
+                          @if(count($posts) > 0)
+                          <tr>
+                            <th>File Name</th>
+                            <th>Created At</th>
+                            <th>Updated At</th>
+                            <th>File Size</th>
+                            <th></th>
+                          </tr>
+                        </thead>
                         <tbody>
                             @foreach($posts as $post)
                           <tr>
-                            <td>{{$post->filename}}</td>
+                            <td class="cell-breakWord">{{$post->filename}}</td>
                             <td>{{$post->created_at}}</td>
                             <td>{{$post->updated_at }}</td>
-                            <td>{{$post->category_id}}</td>
                             <td>{{$post->filesize}} KB</td>
                             <td>
-                              <a href="{{ route('show', $post->filename) }}" target="_blank"><button class="btn btn-primary">Show</button></a>
-                              <a href="/download/{{$post->filename}}" download class="btn btn-info">Download</button></a>
+                              <a href="{{ route('show', $post->filename) }}" target="_blank"><button class="btn btn-outline-dark">Show</button></a>
+                              <a href="/download/{{$post->filename}}" download class="btn btn-danger">Download</button></a>
                             </td>
                           </tr>
                           @endforeach
+                          @else
+                          <tr>
+                            {{-- show nothing --}}
+                          </tr>
+                          @endif
                         </tbody>
+                        <thead>
+                          @if(count($announcements) > 0)
+                          <tr>
+                            <th>Title</th>
+                            <th>Created At</th>
+                            <th>Updated At</th>
+                            <th>Resource Files</th>
+                          </tr>
+                        </thead>                            
+                        <tbody>
+                          @foreach($announcements as $announcement)
+                        <tr>
+                          <td><a href="/learning/announcements/{{$announcement->id}}" class="cell-breakWord">{{$announcement->title}}</a></td>
+                          <td>{{$announcement->created_at}}</td>
+                          <td>{{$announcement->updated_at }}</td>
+                          <td>
+                            @foreach($files as $file)
+                            @if($file->announcement_id == $announcement->id)
+                            <a href="{{ route('view', $file->file) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-file-alt"></i></a>
+                            @endif
+                            @endforeach 
+                          </td>
+                        </tr>
+                        @endforeach
+                        @else
+                        <tr>
+                          {{-- show nothing --}}
+                        </tr>
+                        @endif
+                      </tbody>
+                      <thead>
+                        @if(count($learningPosts) > 0)
+                        <tr>
+                          <th>Title</th>
+                          <th>Created At</th>
+                          <th>Updated At</th>
+                        </tr>
+                      </thead>                            
+                      <tbody>
+                        @foreach($learningPosts as $learningPost)
+                      <tr>
+                        <td><a href="/learning/posts/{{$learningPost->id}}" class="cell-breakWord">{{$learningPost->title}}</a></td>
+                        <td>{{$learningPost->created_at}}</td>
+                        <td>{{$learningPost->updated_at }}</td>
+                      </tr>
+                      @endforeach
+                      @else
+                      <tr>
+                        {{-- show nothing --}}
+                      </tr>
+                      @endif
+                    </tbody>
+                      <thead>
+                        @if(count($events) > 0)
+                        <tr>
+                          <th>Title</th>
+                          <th>Start</th>
+                          <th>End</th>
+                          <th>Description</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        @foreach($events as $event)
+                      <tr>
+                        <td><a href="/learning/courses/fullcalendar" class="cell-breakWord">{{$event->title}}</a></td>
+                        <td>{{$event->start}}</td>
+                        <td>{{$event->end}}</td>
+                        <td>{{$event->description}}</td>
+                      </tr>
+                      @endforeach
+                      @else
+                      <tr>
+                        {{-- show nothing --}}
+                      </tr>
+                      @endif
+                    </tbody>  
                       </table>
                     </div>
                     <!-- /.card-body -->

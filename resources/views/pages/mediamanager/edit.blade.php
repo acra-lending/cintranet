@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="/">File Manager</a></li>
+                <li class="breadcrumb-item active"><a href="/mediamanager/upload">File Manager</a></li>
                 <li class="breadcrumb-item">Edit</a></li>
                 </ol>
             </div><!-- /.col -->
@@ -20,6 +20,13 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
+        <style>
+
+            .card-danger:not(.card-outline) .card-header {
+            background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 45%);
+            }
+    
+        </style>
             <!-- Main content -->
 
         <section class="content">
@@ -44,6 +51,7 @@
                                         <!-- /.card-header -->
                                         <!-- form start -->
                                             <div class="card-body">
+                                                <p><strong>*Note:</strong> A file name <strong>can't</strong> contain the following characters:<br>\ / : * ? " < > | </p>
                                                 {{ Form::open(['action' => ['UploadController@update', $file->id], 'method' => 'PUT']) }}
                                                 <div class="input-group">
                                                     <div class="input-group">
@@ -55,9 +63,7 @@
                                                 </div>
                                                 <div class="container">
                                                     <div class="row">
-                                                        <div class="col-md-3 col-sm-6">
-                                                            {{ link_to(URL::previous(),'Cancel', ['class' => 'btn btn-outline-danger btn-block mb-2'])}}
-                                                        </div>
+
                                                         <div class="col-md-3 col-sm-6">
                                                             {{ Form::submit('Submit', ['class' => 'btn btn-danger btn-block' ]) }}
                                                             {{ Form::close() }}

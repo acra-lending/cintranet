@@ -39,15 +39,17 @@
                 <div class="form-group row">
                     <label for="description" class="col-sm-4 col-form-label">Event Description</label>
                     <div class="col-sm-8">
-                        <textarea name="description" id="description" cols="40" rows="4" style="width: 100%"></textarea>
+                        <textarea name="description" id="description" cols="40" rows="4" style="width: 100%; height: 300px;"></textarea>
                     </div>
                 </div>
             </form>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          @can('edit-posts')
+          @can('delete-posts')
           <button type="button" class="btn btn-danger deleteEvent">Delete</button>
+          @endcan
+          @can('edit-posts')
           <button type="button" class="btn btn-primary saveEvent">Save</button>
           @endcan
         </div>

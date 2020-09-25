@@ -26,8 +26,7 @@
           </div>
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">            
-                <li class="breadcrumb-item active"><a href="/">Dashboard</a></li>
-                <li class="breadcrumb-item">Calendar</li>
+                <li class="breadcrumb-item active"><a href="/learning/courses/fullcalendar" data-turbolinks="false">Event Calendar</a></li>
             </ol>
           </div>
         </div>
@@ -37,9 +36,10 @@
     <section class="content">
       @include('pages.learning.courses.fullcalendar.modal-calendar')
       @include('pages.learning.courses.fullcalendar.modal-fastEvents')
+      <div class="container">
       <div class="row">
         <div class="col-md-3">
-          <div class="card">          
+          <div class="card card-danger card-outline">          
             <div class="card-header">
               <h4 class="card-title">Quick Events</h4>
             </div>
@@ -81,7 +81,7 @@
         </div>
         
         <div class="col-md-9">
-          <div class="card card-primary">
+          <div class="card card-danger card-outline">
             <div class="card-body p-0">
 
                 <div id='calendar'
@@ -101,14 +101,12 @@
             
                 <div style='clear:both'></div>
 
-
-                
-
             </div>
         </div>
         </div>
 
       </div>
+    </div>
     </section>
 </div>
 

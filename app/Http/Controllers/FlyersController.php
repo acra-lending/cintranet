@@ -9,48 +9,48 @@ class FlyersController extends Controller
 {
     public function index(){
         //About CSC Flyers
-        $aboutCsc = Post::where('category_id', 'aboutCsc')
-        ->orderBy('filename', 'asc')
+        $aboutCsc = Post::whereRaw("find_in_set('aboutCsc', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Automation Flyers
-        $automation = Post::where('category_id', 'automation')
-        ->orderBy('filename', 'asc')
+        $automation = Post::whereRaw("find_in_set('automation', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Brokers Flyers
-        $brokerFlyers = Post::where('category_id', 'flyersForBrokers')
-        ->orderBy('filename', 'asc')
+        $brokerFlyers = Post::whereRaw("find_in_set('flyersForBrokers', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Correspondent Flyers
-        $corrFlyers = Post::where('category_id', 'flyersForBrokers')
-        ->orderBy('filename', 'asc')
+        $corrFlyers = Post::whereRaw("find_in_set('flyersForBrokers', category_id)")
+        ->sortable('filename')
         ->get();
 
         //CSC Program Flyers
-        $cscPrograms = Post::where('category_id', 'cscPrograms')
-        ->orderBy('filename', 'asc')
+        $cscPrograms = Post::whereRaw("find_in_set('cscPrograms', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Social Flyers
-        $social = Post::where('category_id', 'social')
-        ->orderBy('filename', 'asc')
+        $social = Post::whereRaw("find_in_set('social', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Niche Flyers
-        $niche = Post::where('category_id', 'nicheFlyers')
-        ->orderBy('filename', 'asc')
+        $niche = Post::whereRaw("find_in_set('nicheFlyers', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Retail Flyers
-        $retail = Post::where('category_id', 'retailFlyers')
-        ->orderBy('filename', 'asc')
+        $retail = Post::whereRaw("find_in_set('retailFlyers', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Vertical Integration Flyers
-        $vert = Post::where('category_id', 'vertFlyers')
-        ->orderBy('filename', 'asc')
+        $vert = Post::whereRaw("find_in_set('vertFlyers', category_id)")
+        ->sortable('filename')
         ->get();
 
         return view('pages.sales.flyers')

@@ -12,8 +12,6 @@
 <script src="{{ asset('js/pages/dashboardlightbox.js') }}"></script>
 <!-- Bootstrap -->
 <script src="{{ asset ('plugins/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
-<!-- AdminLTE -->
-<script src="{{ asset ('js/adminlte.min.js') }}"></script>
 <!-- daterangepicker -->
 <script src="{{ asset ('plugins/moment/moment.min.js') }}"></script>
 <script src="{{ asset ('plugins/daterangepicker/daterangepicker.js') }}"></script>
@@ -21,6 +19,13 @@
 <script src="{{ asset ('plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js') }}"></script>
 <!-- Popper JS -->
 <script src="https://unpkg.com/@popperjs/core@2"></script>
+<!-- Custom JS -->
+<script src="{{ asset ('plugins/alert-timeout/alert-timeout.js') }}"></script>
+<script src="{{ asset ('plugins/link-to-tab/linkTab.js') }}"></script>
+<script src="{{ asset ('plugins/modal-form-edit/modalFormEdit.js') }}"></script>
+
+
+
 
 
 {{-- <!-- OPTIONAL SCRIPTS --> --}}

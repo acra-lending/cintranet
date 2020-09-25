@@ -10,25 +10,37 @@ class SalesDocumentsController extends Controller
     public function index()
     {
         //Correspondent Documents
-        $corrDocs = Post::where('category_id', 'corrDocs')
-        ->orderBy('filename', 'asc')
+        $wholesaleDocs = Post::whereRaw("find_in_set('wholesaleDocs', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //Correspondent Documents
+        $corrDocs = Post::whereRaw("find_in_set('corrDocs', category_id)")
+        ->sortable('filename')
         ->get();
 
         //Retail Documents
-        $retailDocs = Post::where('category_id', 'retailDocs')
-        ->orderBy('filename', 'asc')
+        $retailDocs = Post::whereRaw("find_in_set('retailDocs', category_id)")
+        ->sortable('filename')
         ->get();
         
         //Retail MLO Licenses
-        $retailMLO = Post::where('category_id', 'retailMLO')
-        ->orderBy('filename', 'asc')
+        $retailMLO = Post::whereRaw("find_in_set('retailMLO', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //Sales Tools
+        $salesTools = Post::whereRaw("find_in_set('salesTools',category_id)")
+        ->sortable('filename')
         ->get();
         
         return view('pages.sales.documents')
         ->with([
+            'wholesaleDocs' => $wholesaleDocs,
             'corrDocs'      => $corrDocs,
             'retailDocs'    => $retailDocs,
             'retailMLO'     => $retailMLO,
+            'salesTools'    => $salesTools,
         ]);
     }
 }

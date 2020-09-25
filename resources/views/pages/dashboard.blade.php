@@ -61,13 +61,25 @@
         display: block;
         z-index: 7;
         }
+
+        #quote b {
+          display: none !important;
+        }
+
+        #quote a {
+          font-style: italic !important;
+        }
+
+        #quote a::before {
+          content: "~ ";
+        }
     </style>
 
     <!-- Main content -->
     <section class="content">
       <div class="col-sm-12">
         <div class="card">
-          <img class ="img-fluid" src="{{ asset('img/dashboard-bg.jpg') }}">
+          <img class ="img-fluid rounded" src="{{ asset('img/dashboard-bg.jpg') }}">
             <h3 class="text-light dashboard-h3">Welcome to your new Cintranet, {{ $first_name }}!</h3>
         </div>
         <div class="container">
@@ -75,7 +87,7 @@
         <form action="/search" method="GET" role="search">
           {{ csrf_field() }}
           <div class="input-group input-group dashboard-input" style="width:75%;">
-          <input class="form-control form-control-navbar" type="search" name="q" placeholder="Search" aria-label="Search">
+          <input class="form-control form-control-navbar" type="search" name="q" placeholder="Search Files, Posts, Events, or Users" aria-label="Search">
           <div class="input-group-append">
               <button class="btn btn-navbar" type="submit" style="right: 40px;">
               <i class="fas fa-search"></i>
@@ -152,41 +164,50 @@
         <!-- /.row --> --}}
         <div class="row">
           <div class="col-lg-5">
-                   <!-- Map card -->
-        <div class="card card-danger card-outline">
-          <div class="card-header border-0">
-            <h3 class="card-title">
-              <i class="fas fa-map-marker-alt mr-1"></i>
-              Map
-            </h3>
-          </div>
-          <div class="card-body">
-            <div id="world-map" style="height: 250px; width: 100%;"></div>
-          </div>
-          <!-- /.card-body-->
-          <div class="card-footer bg-transparent">
-            <div class="row">
-              <div class="col-4 text-center">
-               <div>Pacific</div>
-               <div id="LosAngeles"></div> 
+            <div class="card card-danger card-outline">
+              <div class="card-header">
+                <h3 class="card-title">
+                  <i class="far fa-lightbulb"></i>
+                  Quote Of The Day
+                </h3>
               </div>
-              <!-- ./col -->
-              <div class="col-4 text-center">
-                <div>Mountain</div>
-                <div id="Denver"></div>
+              <div class="card-body pt-0" id="quote">
+                <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
               </div>
-              <!-- ./col -->
-              <div class="col-4 text-center">
-                <div>Eastern</div>
-                <div id="NewYork"></div>
-              </div>
-              <!-- ./col -->
             </div>
-            <!-- /.row -->
-          </div>
+            <!-- Map card -->
+            <div class="card card-danger card-outline">
+              <div class="card-header border-0">
+                <h3 class="card-title">
+                  <i class="fas fa-map"></i>
+                  Map
+                </h3>
+              </div>
+              <div class="card-body">
+                <div id="world-map" style="height: 250px; width: 100%;"></div>
+              </div>
+              <div class="card-footer bg-transparent">
+                <div class="row">
+                  <div class="col-3 text-center">
+                  <div>Pacific</div>
+                  <div id="LosAngeles"></div> 
+                  </div>
+                  <div class="col-3 text-center">
+                    <div>Mountain</div>
+                    <div id="Denver"></div>
+                  </div>
+                  <div class="col-3 text-center">
+                    <div>Central</div>
+                    <div id="Chicago"></div>
+                  </div>
+                  <div class="col-3 text-center">
+                    <div>Eastern</div>
+                    <div id="NewYork"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-        </div>
-        <!-- /.card -->
           <!-- Calendar -->
             <div class="card card-danger card-outline">
               <div class="card-header border-0">
@@ -225,8 +246,78 @@
               <!-- /.card-body -->
             </div>
             <!-- /.card -->
+
         </div>
         <div class="col-lg-4">
+          <!-- Office Locations -->
+          <div class="card card-widget card-danger card-outline">
+            <div class="card-header">
+                <h3 class="card-title">
+                <i class="fas fa-map-marker-alt"></i>
+                Office Locations
+                </h3>
+            </div>                      
+            <!-- /.card-header -->
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6">
+                  <div class="callout callout-primary">
+                    <a href="https://goo.gl/maps/8E2WGdW1a7SWEkrE8" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Head Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">15707 Rockfield Blvd.<br>Suite 320<br>Irvine CA 92618</p> 
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="callout callout-primary">
+                    <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Lake Forest Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">25541 Commercentre Dr.<br>Suite 250<br>Lake Forest, CA 92630</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="callout callout-dark">
+                    <a href="https://goo.gl/maps/7ELBCxBLn5DzHrqH7" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Oregon Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">110151 SE Sunnyside Rd<br>Suite 305<br>Clackamas, OR 97015</p> 
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="callout callout-dark">
+                    <a href="https://goo.gl/maps/cxr13wjKWgMoyhKj9" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Utah Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">2972 West Maple Loop Drive<br>Suite 101<br>Lehi, UT 84043</p> 
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-6">
+                  <div class="callout callout-gray">
+                    <a href="https://goo.gl/maps/tJoYBzrEgWpPAt7D9" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Georgia Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">47 Perimeter Center E<br>Suite 630<br>Atlanta, GA 30346</p> 
+                  </div>
+                </div>
+                <div class="col-6">
+                  <div class="callout callout-gray">
+                    <a href="https://goo.gl/maps/4EcSgdCL8upFo9VS7" target="_blank" style="text-decoration: none; color:#AB2328">
+                      <h6>Florida Office</h6>
+                    </a>  
+                    <p class="m-0"style="font-size: 10.5pt;">2605 Enterprise Road<br>Suite 320<br>Clearwater, FL 33759</p> 
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- /.card-body -->
+            </div>
+            <!-- /.card -->
+          <!-- HR Quick Links -->
             <div class="card card-danger card-outline">
                 <div class="card-header">
                 <h3 class="card-title">
@@ -263,7 +354,7 @@
                     </div>
                     <div style="text-align: center;">
                       <a href="humanresources/careers">
-                        <p>Paylocity</p>
+                        <p>Careers</p>
                         <i class="fas fa-handshake" style="font-size: 32pt;"></i>
                       </a>
                     </div>
@@ -274,6 +365,7 @@
                 </div> --}}
             </div>
 
+            <!-- Team Members -->
             <div class="card card-danger card-outline">
                 <div class="card-header">
                 <h3 class="card-title">
@@ -284,27 +376,28 @@
                 {{-- <img class="card-img-top" src="" alt="img"> --}}
                 <div class="card-body">
                     <!-- /.card-header -->
-                    <div class="card-body p-0">
+                    @if(!empty($teamMembers))
                         <ul class="users-list clearfix">
-                          @if(!empty($teamMembers))
                           @foreach($teamMembers as $team)
-                        <li>
-                            <img src="{{ ($team->avatar) ? url('/storage/avatars/' .$team->avatar) : asset('img/avatar1.png') }}" alt="User Image" style="width:50%">
-                            <a class="users-list-name" href="/directory/user/{{$team->id}}">{{ $team->firstname }} {{$team->lastname}}</a>
-                            <span class="users-list-date">{{ Carbon\Carbon::parse($team->lastvisitDate)->diffForHumans() }}</span>
-                        </li>
+                          <li>
+                              <img class="float-right mr-4" src="{{ ($team->avatar) ? url('/storage/avatars/' .$team->avatar) : asset('img/avatar1.png') }}" alt="User Image">
+                              <br>
+                              <br>
+                              <br>
+                              <a class="users-list-name" href="/directory/user/{{$team->id}}">{{ $team->firstname }} {{$team->lastname}}</a>
+                              <span class="users-list-date">{{ Carbon\Carbon::parse($team->lastvisitDate)->diffForHumans() }}</span>
+                          </li>
                         @endforeach
                         </ul>
 
                         <!-- /.users-list -->
-                    </div>
                     <!-- /.card-body -->
                     <div class="float-right pr-3 pb-3">
-                        <a href="{{action ('DirectoryController@index', ['team' => $team->team]) }}" class="small-box-footer float-right">View All <i class="fas fa-chevron-circle-right"></i></a>
+                        <a href="{{action ('DirectoryController@index', ['searchTerm' => $team->team]) }}" class="small-box-footer float-right">View More <i class="fas fa-chevron-circle-right"></i></a>
+                    </div>
                         @else
                         <p>No team members</p>
                         @endif
-                    </div>
                 </div>
             </div>
         </div>
@@ -326,7 +419,7 @@
                     <a href="/learning/announcements" style="text-decoration: none; color:#AB2328">
                       <h6>{{$post->title}}</h6>
                     </a>  
-                    <p class="m-0"style="font-size: 10pt;"><em>{{$post->created_at}}</em></p>    
+                    <p class="m-0"style="font-size: 10pt;"><em>{{Carbon\Carbon::parse($post->created_at)->format('Y-m-d')}}</em></p>    
                 </div>
               @endforeach
               @endif
@@ -344,7 +437,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <a href="/learning/courses/fullcalendar" style="color: inherit; text-decoration: none; ">
+                  <a href="/learning/courses/fullcalendar" data-turbolinks="false" style="color: inherit; text-decoration: none; ">
                     <ul class="event-list">
                       @foreach($events as $event)
                         <li>
@@ -367,7 +460,7 @@
                       @endforeach
                     </ul></a>
                     <div class="float-right pr-3 pb-3">
-                      <a href="/learning/courses/fullcalendar" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
+                      <a href="/learning/courses/fullcalendar" data-turbolinks="false" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
                   </div>
                 </div>
                 <!-- /.card-body -->

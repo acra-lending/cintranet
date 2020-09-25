@@ -46,8 +46,10 @@
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          @can('edit-posts')
+          @can('delete-posts')
           <button type="button" class="btn btn-danger deleteFastEvent">Delete</button>
+          @endcan
+          @can('edit-posts')
           <button type="button" class="btn btn-primary saveFastEvent">Save</button>
           @endcan
         </div>

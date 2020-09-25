@@ -9,32 +9,45 @@ use App\Post;
 use App\User;
 use Mail;
 use Session;
+use DB;
 
 
 class ITSupportController extends Controller
 {
     public function index()
     {
-        return view('pages.infotech.ticket');
+
+        $position = DB::table('s2zar_jsn_users')
+        ->orderBy('position', 'asc')
+        ->groupBy('position')
+        ->where('position', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('position', 'position')
+        ->toArray();
+
+        return view('pages.infotech.ticket')
+            ->with([
+                'position'  => $position
+            ]);
     }
 
     public function submitForm(Request $request)
     {
             $dataValidate = request()->validate([
-                'requestDueDate' => 'required',
-                'name' => 'required|max:100',
-                'email' => 'required|email',
-                'position' => 'required',
-                'manager' => 'required',
-                'managerEmail' => 'required|email',
-                'itemRequest' => 'required',
-                'adminAccess' => 'nullable',
-                'bytePro' => 'nullable',
-                'docVelocity' => 'nullable',
-                'folderName' => 'nullable',
-                'additionalInfo' => 'nullable',
-                'attachment' => 'array',
-                'attachment.*' => 'image|mimes:jpeg,bmp,png',
+                'requestDueDate'    => 'required',
+                'name'              => 'required|max:100',
+                'email'             => 'required|email',
+                'position'          => 'required',
+                'manager'           => 'required',
+                'managerEmail'      => 'required|email',
+                'itemRequest'       => 'required',
+                'adminAccess'       => 'nullable',
+                'bytePro'           => 'nullable',
+                'docVelocity'       => 'nullable',
+                'folderName'        => 'nullable',
+                'additionalInfo'    => 'nullable',
+                'attachment'        => 'array',
+                'attachment.*'      => 'image|mimes:jpeg,bmp,png',
             ]);
 
             $data = $request->except('itemRequest');
@@ -54,28 +67,30 @@ class ITSupportController extends Controller
 
                 foreach ($files as $file){
                     $mail->attach($file->getRealPath(), [
-                        'as' => $file->getClientOriginalName(),
-                        'mime' => $file->getClientMimeType()
+                        'as'    => $file->getClientOriginalName(),
+                        'mime'  => $file->getClientMimeType()
                     ]);          
                 }
             }
 
-            Mail::to('ITsupport@citadelservicing.com')->send($mail);
-
-            return redirect('/infotech/ticket')->with('success', 'Request Form Sent');
+            Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+            ->send($mail);
+            
+            return redirect('/infotech/ticket')
+                ->with('success', 'Request Form Sent');
 
     }
 
     public function submitIssues(Request $request)
     {
         $dataValidate = request()->validate([
-            'name' => 'required|max:100',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'priority' => 'nullable',
-            'bodyMessage' => 'required',
-            'attachment' => 'array',
-            'attachment.*' => 'image|mimes:jpeg,bmp,png',
+            'name'          => 'required|max:100',
+            'email'         => 'required|email',
+            'subject'       => 'required',
+            'priority'      => 'nullable',
+            'bodyMessage'   => 'required',
+            'attachment'    => 'array',
+            'attachment.*'  => 'image|mimes:jpeg,bmp,png',
         ]);
 
         $data = $request->all();
@@ -88,27 +103,29 @@ class ITSupportController extends Controller
 
             foreach ($files as $file){
                 $mail->attach($file->getRealPath(), [
-                    'as' => $file->getClientOriginalName(),
-                    'mime' => $file->getClientMimeType()
+                    'as'    => $file->getClientOriginalName(),
+                    'mime'  => $file->getClientMimeType()
                 ]);          
             }
         }
 
-        Mail::to('ITsupport@citadelservicing.com')->send($mail);
+        Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+        ->send($mail);
 
-        return redirect('/infotech/ticket')->with('success', 'Request Form Sent');
+        return redirect('/infotech/ticket')
+            ->with('success', 'Request Form Sent');
     }
 
     public function submitRequests(Request $request)
     {
         $dataValidate = request()->validate([
-            'name' => 'required|max:100',
-            'email' => 'required|email',
-            'subject' => 'required',
-            'priority' => 'nullable',
-            'bodyMessage' => 'required',
-            'attachment' => 'array',
-            'attachment.*' => 'image|mimes:jpeg,bmp,png',
+            'name'          => 'required|max:100',
+            'email'         => 'required|email',
+            'subject'       => 'required',
+            'priority'      => 'nullable',
+            'bodyMessage'   => 'required',
+            'attachment'    => 'array',
+            'attachment.*'  => 'image|mimes:jpeg,bmp,png',
         ]);
 
         $data = $request->all();
@@ -121,14 +138,16 @@ class ITSupportController extends Controller
 
             foreach ($files as $file){
                 $mail->attach($file->getRealPath(), [
-                    'as' => $file->getClientOriginalName(),
-                    'mime' => $file->getClientMimeType()
+                    'as'    => $file->getClientOriginalName(),
+                    'mime'  => $file->getClientMimeType()
                 ]);          
             }
         }
+        
+        Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+            ->send($mail);
 
-        Mail::to('ITsupport@citadelservicing.com')->send($mail);
-
-        return redirect('/infotech/ticket')->with('success', 'Request Form Sent');
+        return redirect('/infotech/ticket')
+            ->with('success', 'Request Form Sent');
     }
 }

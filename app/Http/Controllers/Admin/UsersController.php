@@ -23,49 +23,41 @@ class UsersController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
 
         // $users = DB::table('s2zar_jsn_users')
         // ->orderBy('firstname', 'asc')
         // ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
         // ->paginate(14);
-        $users = User::orderBy('name', 'asc')->paginate(14);
-        return view('pages.usermanagement.index')->with([
-            'users' => $users
+
+        $users = User::all();
+
+        if(!empty($request->input('q'))){
+            $q = $request->input('q');
+            // $users = DB::table('s2zar_jsn_users')
+            // ->orderBy('lastname', 'asc')
+            // ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
+            // ->where('name', 'LIKE', '%'.$q.'%')
+            // ->orWhere('email', 'LIKE', '%'.$q.'%')
+            // ->get();
+
+            // dd($users);
+
+            $users = User::where('name', 'LIKE', '%'.$q.'%')
+            ->orWhere('email', 'LIKE', '%'.$q.'%')
+            ->paginate();
+
+            return view('pages.usermanagement.index')
+            ->with([
+                'users'         => $users
+            ]);
+        }
+
+        return view('pages.usermanagement.index')
+        ->with([
+            'users'         => $users
         ]);
-    }
-
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
-    public function create()
-    {
-        //
-    }
-
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
     }
 
     /**
@@ -87,11 +79,29 @@ class UsersController extends Controller
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('s2zar_jsn_users.id', $user->id)
         ->get();
+
+        $departments = DB::table('s2zar_jsn_users')
+        ->orderBy('departments', 'asc')
+        ->groupBy('departments')
+        ->where('departments', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('departments', 'departments')
+        ->toArray();
+
+        $position = DB::table('s2zar_jsn_users')
+        ->orderBy('position', 'asc')
+        ->groupBy('position')
+        ->where('position', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('position', 'position')
+        ->toArray();
         
         return view('pages.usermanagement.edit')->with([
-            'user' => $user,
-            'roles' => $roles,
-            'profile' => $profile,
+            'user'          => $user,
+            'roles'         => $roles,
+            'profile'       => $profile,
+            'departments'   => $departments,
+            'position'      => $position
         ]);
     }
 
@@ -109,12 +119,14 @@ class UsersController extends Controller
         }
 
         $this->validate($request, [
+            'firstname' => 'required',
+            'lastname' => 'required',
+            'position' => 'required',
             'email' => 'required',
             'directphone' => 'required',
             'ext' => 'nullable',
             'departments' => 'required',
             'team' => 'nullable',
-            'teamregion' => 'nullable',
             'cell' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
@@ -140,17 +152,26 @@ class UsersController extends Controller
         $firstname = explode(' ', trim($name))[0];
         $lastname = explode(' ', trim($name))[1];
 
-        // dd($user);
+        // dd($request);
 
-        // Update User
+        // Update User in s2zar_jsn_users table
         $info = DB::table('s2zar_jsn_users')->where('id', '=', $user->id)->update([
-            'firstname' => $firstname,
-            'lastname' => $lastname,
+            'firstname' => $request->input('firstname'),
+            'lastname' => $request->input('lastname'),
+            'position' => $request->input('position'),
             'extension' => $request->input('extension'),
             'directphone' => $request->input('directphone'),
+            'departments' => $request->input('departments'),
             'team' => $request->input('team'),
-            'teamregion' => $request->input('teamregion'),
             'cell' => $request->input('cell'),
+        ]);
+
+        // Update User Name in s2zar_users table
+        $array = array($request->input('firstname'), $request->input('lastname'));
+        $fullname = implode(' ', $array);
+
+        $info2 = DB::table('s2zar_users')->where('id', '=', $user->id)->update([
+            'name' => $fullname
         ]);
 
         $profile = User::find($user)->first();
@@ -158,6 +179,7 @@ class UsersController extends Controller
         if($request->hasFile('avatar')){
             $profile->avatar = $fileNameToStore;
         }
+        
         $profile->save();
         
         $user->roles()->sync($request->roles);

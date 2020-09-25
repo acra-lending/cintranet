@@ -101,18 +101,18 @@
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h4 class="modal-title">Gallagher Marketplace Login Portal</h4>
+                  <h4 class="modal-title">Bright Choices Login Portal</h4>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
                 </div>
                 <div class="modal-body">
-                    <img class="img-thumbnail float-right" src="https://login.gallaghermarketplace.com/Home/GetImage?imageID=3B43902556438FABF00C3767DB7E29EB">
-                    <p>Go to Gallagher Marketplace (opens in new tab)</p>
+                    <img class="img-thumbnail float-right" src="https://brightchoices.liazon.com/Home/GetImage?imageID=A6B40BB15F240A55880793E398333409">
+                    <p>Go to Bright Choices (opens in new tab)</p>
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <a href="https://login.gallaghermarketplace.com/" target="_blank" class="btn btn-danger">Go</a>
+                  <a href="https://brightchoices.liazon.com/" target="_blank" class="btn btn-danger">Go</a>
                 </div>
               </div>
               <!-- /.modal-content -->

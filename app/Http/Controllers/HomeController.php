@@ -39,7 +39,9 @@ class HomeController extends Controller
         $posts = Announcement::orderBy('created_at', 'desc')->paginate(2);
         
         // Events
-        $events = Event::orderby('created_at', 'desc')->paginate(5);
+        // $currentMonth = date('m');
+        // $events = Event::whereRaw('MONTH(created_at) = ?', [$currentMonth])->paginate(5);
+        $events = Event::where('start', '>', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);
 
         // Query Database
         if (DB::table('s2zar_jsn_users')
@@ -62,7 +64,7 @@ class HomeController extends Controller
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('team', $team)
             ->orderBy('lastname', 'asc')
-            ->take(8)->get();
+            ->get();
             return view('pages.dashboard')
             ->with([
                 'teamMembers' => $teamMembers,

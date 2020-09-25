@@ -14,283 +14,275 @@ class OperationsFormsController extends Controller
         //Compliance Forms 
         //-----------------       
         $disclosure = Post::whereRaw("find_in_set('disclosure', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $important = Post::whereRaw("find_in_set('important', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
         
         $fundingStates = Post::whereRaw("find_in_set('fundingStates', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $policies = Post::whereRaw("find_in_set('policies', category_id)")
-        ->orderBy('created_at', 'desc')
-        ->get();
-
-        $marketingForms = Post::whereRaw("find_in_set('marketingForms', category_id)")
-        ->orderBy('created_at', 'desc')
-        ->get();
-
-        $marketingMaterials = Post::whereRaw("find_in_set('marketingMaterials', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $deptContacts = Post::whereRaw("find_in_set('deptContacts', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //--------
         //Funding
         // -------
         $fundingCompliance = Post::whereRaw("find_in_set('fundingCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingForms = Post::whereRaw("find_in_set('fundingForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingProcesses = Post::whereRaw("find_in_set('fundingProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingSystems = Post::whereRaw("find_in_set('fundingSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingTisp = Post::whereRaw("find_in_set('fundingTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingVetting = Post::whereRaw("find_in_set('fundingVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //-----------
         //Doc Drawer
         //-----------
         $docDrawerCompliance = Post::whereRaw("find_in_set('docDrawerCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $docDrawerForms = Post::whereRaw("find_in_set('docDrawerForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $docDrawerProcesses = Post::whereRaw("find_in_set('docDrawerProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $docDrawerSystems = Post::whereRaw("find_in_set('docDrawerSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $docDrawerTisp = Post::whereRaw("find_in_set('docDrawerTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $docDrawerVetting = Post::whereRaw("find_in_set('docDrawerVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //-------
         //Funder
         //-------
         $funderCompliance = Post::whereRaw("find_in_set('funderCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderEscrow = Post::whereRaw("find_in_set('funderEscrow', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderForms = Post::whereRaw("find_in_set('funderForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderPOA = Post::whereRaw("find_in_set('funderPOA', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderProcesses = Post::whereRaw("find_in_set('funderProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderSystems = Post::whereRaw("find_in_set('funderSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderTisp = Post::whereRaw("find_in_set('funderTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $funderVetting = Post::whereRaw("find_in_set('funderVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //---------------
         //Funding Forms
         //---------------
         $fundingFormsCompliance = Post::whereRaw("find_in_set('fundingFormsCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingFormsForms = Post::whereRaw("find_in_set('fundingFormsForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingFormsProcesses = Post::whereRaw("find_in_set('fundingFormsProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingFormsSystems = Post::whereRaw("find_in_set('fundingFormsSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingFormsTisp = Post::whereRaw("find_in_set('fundingFormsTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingFormsVetting = Post::whereRaw("find_in_set('fundingFormsVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //-----------------
         //Funding Assitant
         //-----------------
         $fundingAssistantCompliance = Post::whereRaw("find_in_set('fundingAssistantCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingAssistantForms = Post::whereRaw("find_in_set('fundingAssistantForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingAssistantProcesses = Post::whereRaw("find_in_set('fundingAssistantProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingAssistantSystems = Post::whereRaw("find_in_set('fundingAssistantSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingAssistantTisp = Post::whereRaw("find_in_set('fundingAssistantTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $fundingAssistantVetting = Post::whereRaw("find_in_set('fundingAssistantVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //------------
         //Loan Set Up
         //------------
         $lsuAttachments= Post::whereRaw("find_in_set('lsuAttachments', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuCompliance = Post::whereRaw("find_in_set('lsuCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuForms = Post::whereRaw("find_in_set('lsuForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuFloodCerts = Post::whereRaw("find_in_set('lsuFloodCerts', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuProcesses = Post::whereRaw("find_in_set('lsuProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuSsaAnd4506T = Post::whereRaw("find_in_set('lsuSsaAnd4506T', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuSystems = Post::whereRaw("find_in_set('lsuSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuValuation = Post::whereRaw("find_in_set('lsuValuation', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $lsuVetting = Post::whereRaw("find_in_set('lsuVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //--------------------
         //Transaction Manager
         //--------------------
         $tmCompliance = Post::whereRaw("find_in_set('tmCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmFormsForBrokers = Post::whereRaw("find_in_set('tmFormsForBrokers', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmProgramGuides = Post::whereRaw("find_in_set('tmProgramGuides', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmInternalForms = Post::whereRaw("find_in_set('tmInternalForms', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmProcesses = Post::whereRaw("find_in_set('tmProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmSystems = Post::whereRaw("find_in_set('tmSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmTisp = Post::whereRaw("find_in_set('tmTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $tmVetting = Post::whereRaw("find_in_set('tmVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         //-------------
         //Underwriting
         //-------------
         $uwCompliance = Post::whereRaw("find_in_set('uwCompliance', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwProcesses = Post::whereRaw("find_in_set('uwProcesses', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwSystems = Post::whereRaw("find_in_set('uwSystems', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwTisp = Post::whereRaw("find_in_set('uwTisp', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwGuidelines = Post::whereRaw("find_in_set('uwGuidelines', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwTools = Post::whereRaw("find_in_set('uwTools', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwVetting = Post::whereRaw("find_in_set('uwVetting', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         $uwVideos = Post::whereRaw("find_in_set('uwVideos', category_id)")
-        ->orderBy('created_at', 'desc')
+        ->sortable('filename')
         ->get();
 
         return view('pages.operations.forms', [
@@ -298,8 +290,6 @@ class OperationsFormsController extends Controller
             'important'             => $important,
             'fundingStates'         => $fundingStates,
             'policies'              => $policies,
-            'marketingForms'        => $marketingForms,
-            'marketingMaterials'    => $marketingMaterials,
             'deptContacts'          => $deptContacts,
             'fundingCompliance'    => $fundingCompliance,
             'fundingForms'         => $fundingForms,

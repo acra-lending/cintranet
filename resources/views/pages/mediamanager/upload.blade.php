@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="/">File Manager</a></li>
+                <li class="breadcrumb-item active"><a href="/mediamanager/upload">File Manager</a></li>
                 <li class="breadcrumb-item">Upload</a></li>
                 </ol>
             </div><!-- /.col -->
@@ -20,6 +20,13 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
+        <style>
+
+        .card-danger:not(.card-outline) .card-header {
+        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 45%);
+        }
+
+        </style>
             <!-- Main content -->
 
         <section class="content">
@@ -55,6 +62,7 @@
                                                             {{ Form::label('category_id[]', 'Category (hold ctrl for multiple)')}}
                                                             {{ Form::select('category_id[]', [
                                                                 'Operations' => [
+                                                                    'deptContacts' => 'Department Contacts',
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',
@@ -159,12 +167,15 @@
                                                                     ]                                                
                                                                 ],
                                                                 'Sales' => [
+                                                                    'Wholesale' => [
+                                                                        'wholesaleDocs'     => 'Documents',
+                                                                    ],
                                                                     'Correspondents' => [
                                                                         'corrDocs'          => 'Documents',
-                                                                        'flyersForBrokers'  => 'Flyers',
-                                                                        'corrIncentive'     => 'Incentive Program',
-                                                                        'social'            => 'LinkedIn/Social Posting Images',
-                                                                        'corrPrograms'      => 'Programs & Guidelines'
+                                                                        // 'flyersForBrokers'  => 'Flyers',
+                                                                        // 'corrIncentive'     => 'Incentive Program',
+                                                                        // 'social'            => 'LinkedIn/Social Posting Images',
+                                                                        // 'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
                                                                     'Flyers & Programs' => [
                                                                         'aboutCsc'      => 'About CSC',
@@ -249,7 +260,8 @@
                                                                 ],
                                                                 'Learning & Development' => [
                                                                     'learning' => 'Learning',
-                                                                    'Participant Guides' => [
+                                                                    'Guides' => [
+                                                                        'generalGuides'   => 'General',
                                                                         'operationGuides' => 'Operations',
                                                                         'servicingGuides' => 'Servicing'
                                                                     ]
@@ -259,7 +271,7 @@
                                                     </div>
                                                     <div class="input-group">
                                                         <div class="form-group">
-                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'xls,xlsx,pdf,jpeg,bmp,png,gif')) }}
+                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpeg,bmp,png,gif')) }}
                                                         </div>
                                                     </div>
                                                 </div>
