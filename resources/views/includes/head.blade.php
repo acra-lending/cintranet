@@ -26,6 +26,3 @@
 <!-- AdminLTE -->
 <script src="{{ asset ('js/adminlte.js') }}" defer></script>
 
-
-
-
