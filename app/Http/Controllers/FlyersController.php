@@ -39,12 +39,17 @@ class FlyersController extends Controller
         ->get();
 
         //Niche Flyers
-        $niche = Post::whereRaw("find_in_set('nicheFlyers', category_id)")
+        $aeFlyers = Post::whereRaw("find_in_set('AEFlyers', category_id)")
         ->sortable('filename')
         ->get();
 
         //Retail Flyers
         $retail = Post::whereRaw("find_in_set('retailFlyers', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //Retail Flyers
+        $standards = Post::whereRaw("find_in_set('standards', category_id)")
         ->sortable('filename')
         ->get();
 
@@ -61,8 +66,9 @@ class FlyersController extends Controller
             'corrFlyers'    => $corrFlyers,
             'cscPrograms'   => $cscPrograms,
             'social'        => $social,
-            'niche'         => $niche,
+            'aeFlyers'      => $aeFlyers,
             'retail'        => $retail,
+            'standards'     => $standards,
             'vert'          => $vert,
         ]);
     }

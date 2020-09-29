@@ -85,13 +85,14 @@
                     <div class="col-sm-4 col-md-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="vert-tabs-aboutcsc-tab" data-toggle="pill" href="#vert-tabs-aboutcsc" role="tab" aria-controls="vert-tabs-aboutcsc" aria-selected="true">About CSC</a>
+                        <a class="nav-link" id="vert-tabs-aeflyer-tab" data-toggle="pill" href="#vert-tabs-aeflyer" role="tab" aria-controls="vert-tabs-aeflyer" aria-selected="false">AE Flyers</a>
                         <a class="nav-link" id="vert-tabs-automation-tab" data-toggle="pill" href="#vert-tabs-automation" role="tab" aria-controls="vert-tabs-automation" aria-selected="false">Automation</a>
                         <a class="nav-link" id="vert-tabs-brokers-tab" data-toggle="pill" href="#vert-tabs-brokers" role="tab" aria-controls="vert-tabs-brokers" aria-selected="false">Broker Flyers</a>
                         <a class="nav-link" id="vert-tabs-corr-tab" data-toggle="pill" href="#vert-tabs-corr" role="tab" aria-controls="vert-tabs-corr" aria-selected="false">Correspondent</a>
                         <a class="nav-link" id="vert-tabs-cscprograms-tab" data-toggle="pill" href="#vert-tabs-cscprograms" role="tab" aria-controls="vert-tabs-cscprograms" aria-selected="false">CSC Programs</a>
                         <a class="nav-link" id="vert-tabs-social-tab" data-toggle="pill" href="#vert-tabs-social" role="tab" aria-controls="vert-tabs-social" aria-selected="false">LinkedIn/Social Images</a>
-                        <a class="nav-link" id="vert-tabs-niche-tab" data-toggle="pill" href="#vert-tabs-niche" role="tab" aria-controls="vert-tabs-niche" aria-selected="false">Niche Flyers</a>
-                        <a class="nav-link" id="vert-tabs-retail-tab" data-toggle="pill" href="#vert-tabs-retail" role="tab" aria-controls="vert-tabs-retail" aria-selected="false">Retail Flyers</a>
+                        {{-- <a class="nav-link" id="vert-tabs-retail-tab" data-toggle="pill" href="#vert-tabs-retail" role="tab" aria-controls="vert-tabs-retail" aria-selected="false">Retail Flyers</a> --}}
+                        <a class="nav-link" id="vert-tabs-standards-tab" data-toggle="pill" href="#vert-tabs-standards" role="tab" aria-controls="vert-tabs-standards" aria-selected="false">Standard Flyers</a>
                         <a class="nav-link" id="vert-tabs-vertical-tab" data-toggle="pill" href="#vert-tabs-vertical" role="tab" aria-controls="vert-tabs-vertical" aria-selected="false">Vertical Integration</a>
                       </div>
                     </div>
@@ -139,6 +140,51 @@
                                         @endforeach
                                       </tbody>
                                 </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-aeflyer" role="tabpanel" aria-labelledby="vert-tabs-aeflyer-tab">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">AE Flyers</h3>
+                                <div class="card-tools">
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                        <th>@sortablelink('filename', 'File Name')</th>
+                                        <th>@sortablelink('filesize', 'File Size')</th>
+                                        <th>@sortablelink('created_at', 'Created At')</th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    @foreach($aeFlyers as $category)
+                                      <tr>
+                                        <td>{{$category->filename}}</td>
+                                        <td>{{$category->filesize}} KB</td>
+                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                      <td class="text-right py-0 align-middle">
+                                        <div class="btn-group btn-group-sm">
+                                          <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          @can('edit-users')
+                                          <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                          @endcan
+                                          <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                          @can('delete-users')
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                          @endcan
+                                        </div>
+                                      </td>
+                                    @endforeach
+                                  </tbody>
+                                  </table>
                               </div>
                             </div>
                           </div>
@@ -283,7 +329,7 @@
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
-                                  <h3 class="card-title">CSC Program Flyers</h3>
+                                  <h3 class="card-title">CSC Programs</h3>
                                   <div class="card-tools">
                                   </div>
                                 </div>
@@ -369,12 +415,12 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-niche" role="tabpanel" aria-labelledby="vert-tabs-niche-tab">
+                          {{-- <div class="tab-pane fade" id="vert-tabs-retail" role="tabpanel" aria-labelledby="vert-tabs-retail-tab">
                             <!-- /.content-header -->        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
-                                  <h3 class="card-title">Niche Flyers</h3>
+                                  <h3 class="card-title">Retail Flyers</h3>
                                   <div class="card-tools">
                                   </div>
                                 </div>
@@ -388,7 +434,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      @foreach($niche as $category)
+                                      @foreach($retail as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>
@@ -413,13 +459,13 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
-                          <div class="tab-pane fade" id="vert-tabs-retail" role="tabpanel" aria-labelledby="vert-tabs-retail-tab">
+                          </div> --}}
+                          <div class="tab-pane fade" id="vert-tabs-standards" role="tabpanel" aria-labelledby="vert-tabs-standards-tab">
                             <!-- /.content-header -->        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
-                                  <h3 class="card-title">Retail Flyers</h3>
+                                  <h3 class="card-title">Standard Flyers</h3>
                                   <div class="card-tools">
                                   </div>
                                 </div>
@@ -433,7 +479,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      @foreach($retail as $category)
+                                      @foreach($standards as $category)
                                         <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>

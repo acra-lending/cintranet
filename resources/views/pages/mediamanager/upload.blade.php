@@ -179,10 +179,11 @@
                                                                     ],
                                                                     'Flyers & Programs' => [
                                                                         'aboutCsc'      => 'About CSC',
+                                                                        'AEFlyers'      => 'AE Flyers',
                                                                         'automation'    => 'Automation',
                                                                         'cscPrograms'   => 'CSC Programs',
                                                                         'social'        => 'LinkedIn/Social Posting Images',
-                                                                        'nicheFlyers'   => 'Niche Flyers',
+                                                                        'standards'     => 'Standard Flyers',
                                                                         'vertFlyers'    => 'Vertical Integration Flyer'
                                                                     ],
                                                                     'Retail' => [
