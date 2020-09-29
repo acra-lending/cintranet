@@ -3,6 +3,8 @@
 # New Employee Request from Cintranet
 <hr/>
 
+<strong>Start Date:</strong> {{ $data['requestDueDate'] }}
+
 # Employee Info:
 
 {{ $data['name'] }}<br/>
