@@ -249,12 +249,29 @@
                                                     <div class="panel-heading p-0 mb-0" role="tab" id="heading10">
                                                     <h5 class="panel-title">
                                                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse10" aria-expanded="true" aria-controls="collapse10">
-                                                            Assessment
+                                                            AMC (Appraisal Management Company) 
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
                                                     <div id="collapse10" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading10">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            An independent real estate appraisal company hired by a lender to perform valuations on potentially mortgaged properties. AMCs select state-licensed or state-qualified appraisers to valuate properties and deliver appraisal reports to lenders.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading11">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                                            Assessment
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A local tax levied against a property for a specific purpose such as a sewer or
@@ -264,15 +281,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading11">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading12">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse11" aria-expanded="true" aria-controls="collapse11">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                                                            Asset Depletion
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A method for calculating monthly income by dividing a borrower's total assets by a set number of months. The borrower is not required to cash in their assets as they're only used to demonstrate an ability to make the mortgage and housing payments.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading13">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="true" aria-controls="collapse13">
                                                             Assignment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse11" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading11">
+                                                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The transfer of a mortgage from one person to another.
@@ -281,15 +315,42 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading12">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading14">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse12" aria-expanded="true" aria-controls="collapse12">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                                                            ATR in Full
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Part of the 2010 Dodd-Frank Act, the ATR rule was established to set minimum standards that a lender must use to determine that consumers have the ability to repay the mortgages they get. After January 10, 2014, lenders will be required to verify a borrower’s ability to repay a mortgage or risk legal liability if it turns out that a customer is unable to repay. The ATR rule contains eight underwriting factors that lenders will be expected to consider and verify:
+                                                                <ul>
+                                                                    <li>Your current or reasonably expected income or assets that you will rely on to repay the loan</li>
+                                                                    <li>Your employment status, if that income is needed to repay the mortgage</li>
+                                                                    <li>The monthly payment for the loan</li>
+                                                                    <li>Your monthly payment on any simultaneous loans secured by the same property, such as a home equity line of credit</li>
+                                                                    <li>Your monthly payments for property taxes and insurance, and certain other property-related costs, such as homeowners’ association fees</li>
+                                                                    <li>Debts, alimony, and child-support obligations</li>
+                                                                    <li>Credit history</li>
+                                                                    <li>Your monthly debt-to-income ratio or residual income, calculated using the total of all of the mortgage and non-mortgage obligations, as a ratio of gross monthly income</li>
+                                                                </ul>
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading15">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="true" aria-controls="collapse15">
                                                             Balloon Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading12">
+                                                    <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A loan, which is amortized for a longer period than the term of the loan. Usually this
@@ -301,15 +362,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading13">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading16">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse13" aria-expanded="true" aria-controls="collapse13">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="true" aria-controls="collapse16">
                                                             Balloon Payment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading13">
+                                                    <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The final lump sum paid at the maturity date of a balloon mortgage.
@@ -317,15 +378,15 @@
                                                     </div>
                                                     </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading14">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading17">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse14" aria-expanded="true" aria-controls="collapse14">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="true" aria-controls="collapse17">
                                                             Blanket Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading14">
+                                                    <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A mortgage covering at least two pieces of real estate as security for the same
@@ -335,15 +396,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading15">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading18">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse15" aria-expanded="true" aria-controls="collapse15">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="true" aria-controls="collapse18">
                                                             Borrower (Mortgagor)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading15">
+                                                    <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             One who applies for and receives a loan in the form of a mortgage with the intention of
@@ -353,15 +414,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading16">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading19">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse16" aria-expanded="true" aria-controls="collapse16">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                                                            BPO (Broker Price Opinion)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The estimated value of a property as determined by a real estate broker or other qualified individual or firm. A broker price opinion is based on the characteristics of the property being considered.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading20">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="true" aria-controls="collapse20">
                                                             Bridge Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse16" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading16">
+                                                    <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A second trust that is collateralized by the borrower's present home allowing the
@@ -372,15 +450,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading17">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading21">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse17" aria-expanded="true" aria-controls="collapse17">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="true" aria-controls="collapse21">
                                                             Broker
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse17" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading17">
+                                                    <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An individual in the business of assisting in arranging funding or negotiating contracts
@@ -391,15 +469,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading18">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading22">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse18" aria-expanded="true" aria-controls="collapse18">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="true" aria-controls="collapse22">
                                                             Buy Down
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading18">
+                                                    <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             When the lender and/or the homebuilder subsidized the mortgage by lowering the
@@ -410,15 +488,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading19">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading23">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse19" aria-expanded="true" aria-controls="collapse19">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="true" aria-controls="collapse23">
+                                                            California Per Diem
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The per diem statute generally prohibits licensees from requiring borrowers to pay interest for more than one day prior to the disbursement of loan proceeds from an escrow account on a principal obligation under a promissory note secured by a mortgage or deed of trust on real property with up to four residential dwelling units. The per diem statute provides that compliance may be evidenced by a certification executed by the licensee or by evidence in the loan file that is acceptable to the Commissioner.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading24">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="true" aria-controls="collapse24">
                                                             Cash Flow
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading19">
+                                                    <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The amount of cash derived over a certain period of time from an income producing
@@ -429,15 +524,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading20">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading25">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse20" aria-expanded="true" aria-controls="collapse20">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="true" aria-controls="collapse25">
                                                             Caps (interest)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading20">
+                                                    <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Consumer safeguards, which limit the amount of change to the interest rate for an
@@ -447,15 +542,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading21">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading26">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse21" aria-expanded="true" aria-controls="collapse21">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="true" aria-controls="collapse26">
+                                                            CD (Closing Disclosure) 
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A five-page form that provides final details about the mortgage loan you have selected. It includes the loan terms, your projected monthly payments, and how much you will pay in fees and other costs to get your mortgage (closing costs). 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading27">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse27" aria-expanded="true" aria-controls="collapse27">
                                                             Change Frequency
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse21" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading21">
+                                                    <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The frequency (in months) of payment and/or interest rate changes in an adjustable rate
@@ -465,15 +577,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading22">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading28">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse22" aria-expanded="true" aria-controls="collapse22">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse28" aria-expanded="true" aria-controls="collapse28">
                                                             Closing
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading22">
+                                                    <div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The meeting between the buyer seller and lender or their agents where the property and
@@ -486,15 +598,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading23">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading29">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="true" aria-controls="collapse23">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse29" aria-expanded="true" aria-controls="collapse29">
                                                             Closing Costs
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse23" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading23">
+                                                    <div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Expenses over and above the price of the property that are incurred by buyers and
@@ -506,15 +618,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading24">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading30">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse24" aria-expanded="true" aria-controls="collapse24">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse30" aria-expanded="true" aria-controls="collapse30">
+                                                            Closing/Settlement Agent
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A settlement agent is also referred to as a closing agent. The closing agent's role is to make sure all parties involved receive required documents during a mortgage loan closing. They provide escrow instructions to third parties like real estate agents, to receive funds such as fees and commissions.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading31">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse31" aria-expanded="true" aria-controls="collapse31">
                                                             Consumer Reporting Agency (or Bureau)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse24" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading24">
+                                                    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An organization that handles the preparation of reports used by lenders to determine a
@@ -525,15 +654,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading25">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading32">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse25" aria-expanded="true" aria-controls="collapse25">
-                                                            Contract Sale or Deed:
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse32" aria-expanded="true" aria-controls="collapse32">
+                                                            Contract Sale or Deed
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse25" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading25">
+                                                    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A contract between purchaser and a seller of real estate to convey title after certain
@@ -543,15 +672,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading26">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading33">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse26" aria-expanded="true" aria-controls="collapse26">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse33" aria-expanded="true" aria-controls="collapse33">
                                                             Conventional Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse26" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading26">
+                                                    <div id="collapse33" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading33">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A mortgage not insured by FHA or guaranteed by VA.
@@ -560,15 +689,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading27">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading34">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse27" aria-expanded="true" aria-controls="collapse27">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse34" aria-expanded="true" aria-controls="collapse34">
                                                             Conversion Clause
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse27" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading27">
+                                                    <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A provision in an ARM allowing the loan to be converted to a fixed-rate at some point
@@ -579,15 +708,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading28">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading35">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse28" aria-expanded="true" aria-controls="collapse28">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse35" aria-expanded="true" aria-controls="collapse35">
+                                                            CPL (Closing Protection Letter)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse35" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading35">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Sometimes “insured closing letter” or “CPL” forms a contract between a title insurance underwriter and a lender, in which the underwriter agrees to indemnify the lender for actual losses caused by certain kinds of misconduct by the closing agent.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading36">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse36" aria-expanded="true" aria-controls="collapse36">
                                                             Credit Report
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse28" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading28">
+                                                    <div id="collapse36" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading36">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A report documenting the credit history and current status of a borrower's credit
@@ -597,15 +743,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading29">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading37">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse29" aria-expanded="true" aria-controls="collapse29">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse37" aria-expanded="true" aria-controls="collapse37">
                                                             Credit Risk Score
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse29" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading29">
+                                                    <div id="collapse37" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading37">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A credit risk score is a statistical summary of the information contained in a consumer's
@@ -618,15 +764,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading30">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading38">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse30" aria-expanded="true" aria-controls="collapse30">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse38" aria-expanded="true" aria-controls="collapse38">
                                                             Debt-to-Income Ratio
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse30" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading30">
+                                                    <div id="collapse38" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading38">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The ratio expressed as a percentage, which results when a borrower's monthly payment
@@ -637,15 +783,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading31">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading39">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse31" aria-expanded="true" aria-controls="collapse31">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse39" aria-expanded="true" aria-controls="collapse39">
                                                             Deed of Trust
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse31" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading31">
+                                                    <div id="collapse39" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading39">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             In many states, this document is used in place of a mortgage to secure the payment of
@@ -655,15 +801,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading32">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading40">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse32" aria-expanded="true" aria-controls="collapse32">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse40" aria-expanded="true" aria-controls="collapse40">
                                                             Default
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse32" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading32">
+                                                    <div id="collapse40" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading40">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Failure to meet legal obligations in a contract specifically failure to make the monthly
@@ -673,15 +819,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading33">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading41">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse33" aria-expanded="true" aria-controls="collapse33">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse41" aria-expanded="true" aria-controls="collapse41">
                                                             Deferred Interest
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse33" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading33">
+                                                    <div id="collapse41" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading41">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             When a mortgage is written with a monthly payment that is less than required to satisfy
@@ -692,15 +838,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading34">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading42">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse34" aria-expanded="true" aria-controls="collapse34">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse42" aria-expanded="true" aria-controls="collapse42">
                                                             Delinquency
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse34" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading34">
+                                                    <div id="collapse42" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading42">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Failure to make payments on time. This can lead to foreclosure.
@@ -709,15 +855,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading35">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading43">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse35" aria-expanded="true" aria-controls="collapse35">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse43" aria-expanded="true" aria-controls="collapse43">
                                                             Department of Veterans Affairs (VA)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse35" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading35">
+                                                    <div id="collapse43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading43">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An independent agency of the federal government, which guarantees long-term low-orno-down payment, mortgages to eligible veterans.
@@ -726,15 +872,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading36">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading44">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse36" aria-expanded="true" aria-controls="collapse36">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse44" aria-expanded="true" aria-controls="collapse44">
+                                                            Doc Drawer
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse44" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading44">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Prepare Closing Disclosure and Loan Documents within posted Turn Times and Cutoffs - Meet the minimum CD drawer rate metric as posted in the Closing Department Ensure Loans are Compliant. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading45">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse45" aria-expanded="true" aria-controls="collapse45">
                                                             Down Payment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse36" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading36">
+                                                    <div id="collapse45" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading45">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Money paid to make up the difference between the purchase price and the mortgage
@@ -744,15 +907,49 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading37">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading46">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse37" aria-expanded="true" aria-controls="collapse37">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse46" aria-expanded="true" aria-controls="collapse46">
+                                                            DSCR+ (Debt Service Coverage Ratio)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse46" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading46">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A debt service coverage ratio of 1 or above indicates that a company is generating sufficient operating income to cover its annual debt and interest payments. As a general rule of thumb, an ideal ratio is 2 or higher. A ratio that high suggests that the company is capable of taking on more debt.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading47">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse47" aria-expanded="true" aria-controls="collapse47">
+                                                            DTI (Debt to Income Ratio)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse47" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading47">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Your debt-to-income ratio is all your monthly debt payments divided by your gross monthly income. This number is one-way lenders measure your ability to manage the monthly payments to repay the money you plan to borrow.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading48">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse48" aria-expanded="true" aria-controls="collapse48">
                                                             Earnest Money
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse37" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading37">
+                                                    <div id="collapse48" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading48">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Money given by a buyer to a seller as part of the purchase price to bind a transaction or
@@ -762,15 +959,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading38">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading49">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse38" aria-expanded="true" aria-controls="collapse38">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse49" aria-expanded="true" aria-controls="collapse49">
                                                             Entitlement
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse38" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading38">
+                                                    <div id="collapse49" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading49">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The VA home loan benefit is called an entitlement (i.e. entitlement for a VA guaranteed
@@ -780,15 +977,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading39">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading50">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse39" aria-expanded="true" aria-controls="collapse39">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse50" aria-expanded="true" aria-controls="collapse50">
                                                             Equal Credit Opportunity Act (ECOA)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse39" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading39">
+                                                    <div id="collapse50" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading50">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A federal law that requires lenders and other creditors to make credit equally available
@@ -799,15 +996,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading40">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading51">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse40" aria-expanded="true" aria-controls="collapse40">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse51" aria-expanded="true" aria-controls="collapse51">
                                                             Equity
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse40" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading40">
+                                                    <div id="collapse51" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading51">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The difference between the fair market value and current indebtedness also referred to
@@ -818,15 +1015,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading41">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading52">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse41" aria-expanded="true" aria-controls="collapse41">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse52" aria-expanded="true" aria-controls="collapse52">
                                                             Escrow
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse41" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading41">
+                                                    <div id="collapse52" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading52">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An account held by the lender into which the homebuyer pays money for tax or
@@ -836,15 +1033,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading42">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading53">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse42" aria-expanded="true" aria-controls="collapse42">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse53" aria-expanded="true" aria-controls="collapse53">
                                                             Escrow Disbursements
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse42" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading42">
+                                                    <div id="collapse53" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading53">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The use of escrow funds to pay real estate taxes hazard insurance mortgage insurance
@@ -854,15 +1051,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading43">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading54">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse43" aria-expanded="true" aria-controls="collapse43">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse54" aria-expanded="true" aria-controls="collapse54">
                                                             Escrow Payment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse43" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading43">
+                                                    <div id="collapse54" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading54">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The part of a mortgagor hazard insurance mortgage insurance lease payments and
@@ -872,15 +1069,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading44">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading55">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse44" aria-expanded="true" aria-controls="collapse44">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse55" aria-expanded="true" aria-controls="collapse55">
                                                             Federal Home Loan Mortgage Corporation (FHLMC) "Freddie Mac"
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse44" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading44">
+                                                    <div id="collapse55" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading55">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A government sponsored entity that purchases conventional mortgage from insured
@@ -890,15 +1087,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading45">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading56">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse45" aria-expanded="true" aria-controls="collapse45">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse56" aria-expanded="true" aria-controls="collapse56">
                                                             Federal Housing Administration (FHA)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse45" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading45">
+                                                    <div id="collapse56" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading56">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A division of the Department of Housing and Urban Development. Its main activity is the
@@ -909,15 +1106,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading46">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading57">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse46" aria-expanded="true" aria-controls="collapse46">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse57" aria-expanded="true" aria-controls="collapse57">
                                                             Federal National Mortgage Association (FNMA) "Fannie Mae"
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse46" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading46">
+                                                    <div id="collapse57" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading57">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A division of the Department of Housing and Urban Development. Its main activity is the
@@ -928,15 +1125,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading47">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading58">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse47" aria-expanded="true" aria-controls="collapse47">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse58" aria-expanded="true" aria-controls="collapse58">
                                                             FHA Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse47" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading47">
+                                                    <div id="collapse58" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading58">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A loan insured by the Federal Housing Administration open to all qualified home
@@ -947,15 +1144,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading48">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading59">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse48" aria-expanded="true" aria-controls="collapse48">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse59" aria-expanded="true" aria-controls="collapse59">
                                                             FHA Mortgage Insurance
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse48" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading48">
+                                                    <div id="collapse59" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading59">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Requires a fee (up to 2.25 percent of the loan amount) paid at closing to insure the loan
@@ -967,15 +1164,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading49">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading60">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse49" aria-expanded="true" aria-controls="collapse49">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse60" aria-expanded="true" aria-controls="collapse60">
                                                             FHLMC
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse49" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading49">
+                                                    <div id="collapse60" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading60">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The Federal Home Loan Mortgage Corporation provides a secondary market for
@@ -986,16 +1183,16 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading50">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading61">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse50" aria-expanded="true" aria-controls="collapse50">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse61" aria-expanded="true" aria-controls="collapse61">
                                                             First Mortgage
 
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse50" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading50">
+                                                    <div id="collapse61" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading61">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The primary lien against a property.
@@ -1004,15 +1201,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading51">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading62">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse51" aria-expanded="true" aria-controls="collapse51">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse62" aria-expanded="true" aria-controls="collapse62">
                                                             Fixed Installment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse51" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading51">
+                                                    <div id="collapse62" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading62">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The monthly payment due on a mortgage loan including payment of both principal and
@@ -1022,15 +1219,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading52">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading63">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse52" aria-expanded="true" aria-controls="collapse52">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse63" aria-expanded="true" aria-controls="collapse63">
                                                             Fixed Rate Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse52" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading52">
+                                                    <div id="collapse63" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading63">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The mortgage interest rate will remain the same on these mortgages throughout the
@@ -1040,15 +1237,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading53">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading64">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse53" aria-expanded="true" aria-controls="collapse53">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse64" aria-expanded="true" aria-controls="collapse64">
                                                             Fully Amortized ARM
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse53" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading53">
+                                                    <div id="collapse64" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading64">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An adjustable rate mortgage (ARM) with a monthly payment that is sufficient to amortize
@@ -1058,15 +1255,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading54">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading65">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse54" aria-expanded="true" aria-controls="collapse54">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse65" aria-expanded="true" aria-controls="collapse65">
                                                             FNMA
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse54" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading54">
+                                                    <div id="collapse65" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading65">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The Federal National Mortgage Association is a secondary mortgage institution. FNMA
@@ -1077,15 +1274,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading55">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading66">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse55" aria-expanded="true" aria-controls="collapse55">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse66" aria-expanded="true" aria-controls="collapse66">
                                                             Foreclosure
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse55" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading55">
+                                                    <div id="collapse66" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading66">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A legal process by which the lender or the seller forces a sale of a mortgaged property
@@ -1096,15 +1293,100 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading56">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading67">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse56" aria-expanded="true" aria-controls="collapse56">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse67" aria-expanded="true" aria-controls="collapse67">
+                                                            Foreign National
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse67" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading67">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A non-resident of the United States will in many cases seek to own real estate.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading68">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse68" aria-expanded="true" aria-controls="collapse68">
+                                                            Form 216 (Appraisal)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse68" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading68">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The lender uses this form to determine the amount of operating income that can be used in evaluating the applicant's credit on applications for conventional mortgages that are secured by one-family investment properties and all two- to four-family properties (including those in which the applicant occupies one of the units as a principal residence).
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading69">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse69" aria-expanded="true" aria-controls="collapse69">
+                                                            Form 442 (Appraisal)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse69" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading69">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Form 442 is designed to report an update of an appraisal and whether a new appraisal must be obtained.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading70">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse70" aria-expanded="true" aria-controls="collapse70">
+                                                            Form 1007 (Appraisal Rents)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse70" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading70">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The form is prepared by the appraiser as an attachment to the appraisal for a single-family investment property. The form is designed to present the information needed to determine the market rent for a single-family property. It calls for information on the physical structure, location, and lease terms.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading71">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse71" aria-expanded="true" aria-controls="collapse71">
+                                                            Funder/Closer
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse71" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading71">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A person responsible for preparing loan packages for closing as well as funding loans. The position coordinates the closing of mortgage loans with the borrower, Title Company, and other related parties. The Funder/Closer is expected to provide high-quality customer service.  The position is responsible for ensuring timely management of assigned pipeline. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading72">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse72" aria-expanded="true" aria-controls="collapse72">
                                                             Guaranty
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse56" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading56">
+                                                    <div id="collapse72" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading72">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A promise by one party to pay a debt or perform an obligation contracted by another if
@@ -1114,15 +1396,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading57">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading73">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse56" aria-expanded="true" aria-controls="collapse56">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse73" aria-expanded="true" aria-controls="collapse73">
                                                             Guarantee Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse56" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading56">
+                                                    <div id="collapse73" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading73">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A mortgage that is guaranteed by a third party.
@@ -1131,15 +1413,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading58">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading74">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse58" aria-expanded="true" aria-controls="collapse58">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse74" aria-expanded="true" aria-controls="collapse74">
                                                             Hazard Insurance
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse58" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading58">
+                                                    <div id="collapse74" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading74">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A form of insurance in which the insurance company protects the insured from specified
@@ -1149,15 +1431,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading59">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading75">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse59" aria-expanded="true" aria-controls="collapse59">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse75" aria-expanded="true" aria-controls="collapse75">
                                                             Housing Expenses-to-Income Ratio
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse59" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading59">
+                                                    <div id="collapse75" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading75">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The ratio expressed as a percentage which results when a borrower's housing
@@ -1167,15 +1449,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading60">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading76">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse60" aria-expanded="true" aria-controls="collapse60">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse76" aria-expanded="true" aria-controls="collapse76">
                                                             HUD-1 Statement
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse60" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading60">
+                                                    <div id="collapse76" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading76">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A document that provides an itemized listing of the funds that are payable at closing.
@@ -1189,15 +1471,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading61">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading77">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse61" aria-expanded="true" aria-controls="collapse61">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse77" aria-expanded="true" aria-controls="collapse77">
                                                             Impound
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse61" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading61">
+                                                    <div id="collapse77" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading77">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The portion of a borrower's monthly payments held by the lender or servicer to pay for
@@ -1208,15 +1490,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading62">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading78">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse62" aria-expanded="true" aria-controls="collapse62">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse78" aria-expanded="true" aria-controls="collapse78">
                                                             Index
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse62" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading62">
+                                                    <div id="collapse78" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading78">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A published interest rate against which lenders measure the difference between the
@@ -1230,15 +1512,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading63">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading79">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse63" aria-expanded="true" aria-controls="collapse63">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse79" aria-expanded="true" aria-controls="collapse79">
                                                             Indexed Rate
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse63" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading63">
+                                                    <div id="collapse79" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading79">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The sum of the published index plus the margin. For example if the index is 4% and the
@@ -1249,15 +1531,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading64">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading80">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse64" aria-expanded="true" aria-controls="collapse64">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse80" aria-expanded="true" aria-controls="collapse80">
                                                             Initial Interest Rate
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse64" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading64">
+                                                    <div id="collapse80" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading80">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             This refers to the original interest rate of the mortgage at the time of closing. This rate
@@ -1268,15 +1550,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading65">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading81">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse65" aria-expanded="true" aria-controls="collapse65">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse81" aria-expanded="true" aria-controls="collapse81">
                                                             Installment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse65" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading65">
+                                                    <div id="collapse81" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading81">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The regular periodic payment that a borrower agrees to make to a lender.
@@ -1285,15 +1567,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading66">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading82">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse66" aria-expanded="true" aria-controls="collapse66">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse82" aria-expanded="true" aria-controls="collapse82">
                                                             Insured Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse66" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading66">
+                                                    <div id="collapse82" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading82">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A mortgage that is protected by the Federal Housing Administration (FHA) or by private
@@ -1303,15 +1585,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading67">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading83">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse67" aria-expanded="true" aria-controls="collapse67">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse83" aria-expanded="true" aria-controls="collapse83">
+                                                            Intent to Proceed
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse83" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading83">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A critical step in the home buying process after getting pre-approved by a mortgage lender. In simple terms, intending to proceed means that you've finally chosen a lender who you think offers you the most competitive rates.                                                           
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading84">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse84" aria-expanded="true" aria-controls="collapse84">
                                                             Interest
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse67" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading67">
+                                                    <div id="collapse84" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading84">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The fee charged for borrowing money.                                                          
@@ -1320,15 +1619,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading68">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading85">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse68" aria-expanded="true" aria-controls="collapse68">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse85" aria-expanded="true" aria-controls="collapse85">
                                                             Interest Accrual Rate
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse68" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading68">
+                                                    <div id="collapse85" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading85">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The percentage rate at which interest accrues on the mortgage. In most cases it is also,
@@ -1338,15 +1637,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading69">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading86">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse69" aria-expanded="true" aria-controls="collapse69">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse86" aria-expanded="true" aria-controls="collapse86">
                                                             Interest Rate Buy down Plan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse69" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading69">
+                                                    <div id="collapse86" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading86">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An arrangement that allows the property seller to deposit money to an account. That
@@ -1357,15 +1656,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading70">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading87">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse70" aria-expanded="true" aria-controls="collapse70">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse87" aria-expanded="true" aria-controls="collapse87">
                                                             Interest Rate Ceiling
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse70" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading70">
+                                                    <div id="collapse87" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading87">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             For an adjustable rate mortgage, (ARM) the maximum interest rate as specified in
@@ -1375,15 +1674,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading71">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading88">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse71" aria-expanded="true" aria-controls="collapse71">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse88" aria-expanded="true" aria-controls="collapse88">
                                                             Interest Rate Floor
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse71" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading71">
+                                                    <div id="collapse88" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading88">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             For an adjustable rate mortgage, (ARM) the minimum interest rate as specified in the
@@ -1393,15 +1692,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading72">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading89">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse72" aria-expanded="true" aria-controls="collapse72">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse89" aria-expanded="true" aria-controls="collapse89">
                                                             Investor
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse72" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading72">
+                                                    <div id="collapse89" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading89">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A money source for a lender.                                            
@@ -1410,15 +1709,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading73">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading90">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse73" aria-expanded="true" aria-controls="collapse73">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse90" aria-expanded="true" aria-controls="collapse90">
+                                                            ITIN
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse90" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading90">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Individual Taxpayer Identification Number, is a tax processing number only available for certain nonresident and resident aliens, their spouses, and dependents who cannot get a Social Security Number (SSN). It is a 9-digit number, beginning with the number "9", formatted like an SSN (XXX-XX-XXXX).                                           
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading91">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse91" aria-expanded="true" aria-controls="collapse91">
                                                             Jumbo Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse73" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading73">
+                                                    <div id="collapse91" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading91">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A loan, which is larger than the limits, set by the Federal National Mortgage
@@ -1429,15 +1745,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading74">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading92">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse74" aria-expanded="true" aria-controls="collapse74">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse92" aria-expanded="true" aria-controls="collapse92">
                                                             Late Charge
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse74" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading74">
+                                                    <div id="collapse92" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading92">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The penalty a borrower must pay when a payment is made a stated number of days
@@ -1447,15 +1763,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading75">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading93">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse75" aria-expanded="true" aria-controls="collapse75">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse93" aria-expanded="true" aria-controls="collapse93">
+                                                            LE (Loan Estimate)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse93" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading93">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A three-page form that you receive after applying for a mortgage. The Loan Estimate tells you important details about the loan you have requested. ... The form provides you with important information, including the estimated interest rate, monthly payment, and total closing costs for the loan.                                             
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading94">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse94" aria-expanded="true" aria-controls="collapse94">
                                                             Liabilities
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse75" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading75">
+                                                    <div id="collapse94" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading94">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A person's financial obligations. Liabilities include long term and short-term debt.                                            
@@ -1464,15 +1797,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading75">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading95">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse75" aria-expanded="true" aria-controls="collapse75">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse95" aria-expanded="true" aria-controls="collapse95">
                                                             Lien
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse75" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading75">
+                                                    <div id="collapse95" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading95">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A claim upon a piece of property for the payment or satisfaction of a debt or obligation.                                          
@@ -1481,15 +1814,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading76">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading96">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse76" aria-expanded="true" aria-controls="collapse76">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse96" aria-expanded="true" aria-controls="collapse96">
                                                             Lifetime Payment Cap
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse76" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading76">
+                                                    <div id="collapse96" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading96">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             For an adjustable rate mortgage, (ARM) a limit on the amount that payments can
@@ -1499,15 +1832,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading77">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading97">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse77" aria-expanded="true" aria-controls="collapse77">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse97" aria-expanded="true" aria-controls="collapse97">
                                                             Lifetime Rate Cap
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse77" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading77">
+                                                    <div id="collapse97" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading97">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             For an adjustable rate mortgage, (ARM) a limit on the amount that the interest rate can
@@ -1517,15 +1850,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading78">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading98">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse78" aria-expanded="true" aria-controls="collapse78">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse98" aria-expanded="true" aria-controls="collapse98">
+                                                            LO (Loan Originator)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse98" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading98">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A mortgage loan originator helps a borrower choose the correct mortgage product and complete the application process. Mortgage loan origination is the first step in the mortgage process.                                   
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading99">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse99" aria-expanded="true" aria-controls="collapse99">
                                                             Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse78" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading78">
+                                                    <div id="collapse99" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading99">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A sum of borrowed money (principal) that is generally repaid with interest.                                    
@@ -1534,15 +1884,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading79">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading100">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse79" aria-expanded="true" aria-controls="collapse79">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse100" aria-expanded="true" aria-controls="collapse100">
+                                                            Loan Processor
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse100" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading100">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A mortgage <strong>processor</strong>, also sometimes known as a <strong>loan processor</strong>, is the person responsible for preparing your mortgage application and other paperwork for delivery to the mortgage underwriter. The documentation a mortgage processor collects includes employment and income information, bank statements, and monthly bills.                                   
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading101">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse101" aria-expanded="true" aria-controls="collapse101">
                                                             Loan to Value Ratio
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse79" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading79">
+                                                    <div id="collapse101" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading101">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The relationship between the amount of the mortgage loan and the appraised value of
@@ -1552,15 +1919,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading80">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading102">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse80" aria-expanded="true" aria-controls="collapse80">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse102" aria-expanded="true" aria-controls="collapse102">
                                                             Lock
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse80" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading80">
+                                                    <div id="collapse102" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading102">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A lender's guarantee that the mortgage rate quoted will be good for a specific number of
@@ -1570,15 +1937,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading81">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading103">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse81" aria-expanded="true" aria-controls="collapse81">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse103" aria-expanded="true" aria-controls="collapse103">
                                                             Margin
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse81" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading81">
+                                                    <div id="collapse103" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading103">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The amount a lender adds to the index on an adjustable rate mortgage to establish the
@@ -1588,15 +1955,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading82">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading104">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse82" aria-expanded="true" aria-controls="collapse82">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse104" aria-expanded="true" aria-controls="collapse104">
                                                             Market Value
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse82" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading82">
+                                                    <div id="collapse104" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading104">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The highest price that a buyer would pay and the lowest price a seller would accept on
@@ -1607,15 +1974,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading83">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading105">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse83" aria-expanded="true" aria-controls="collapse83">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse105" aria-expanded="true" aria-controls="collapse105">
                                                             Maturity
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse83" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading83">
+                                                    <div id="collapse105" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading105">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The date on which the principal balance of a loan becomes due and payable.
@@ -1624,15 +1991,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading84">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading106">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse84" aria-expanded="true" aria-controls="collapse84">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse106" aria-expanded="true" aria-controls="collapse106">
                                                             Monthly Fixed Installment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse84" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading84">
+                                                    <div id="collapse106" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading106">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The portion of the total monthly payment that is applied toward principal and interest.
@@ -1644,15 +2011,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading85">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading107">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse85" aria-expanded="true" aria-controls="collapse85">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse107" aria-expanded="true" aria-controls="collapse107">
                                                             Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse85" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading85">
+                                                    <div id="collapse107" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading107">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A legal document that pledges a property to the lender as security for payment of a
@@ -1662,15 +2029,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading86">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading108">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse86" aria-expanded="true" aria-controls="collapse86">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse108" aria-expanded="true" aria-controls="collapse108">
                                                             Mortgage Banker
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse86" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading86">
+                                                    <div id="collapse108" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading108">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A company that originates mortgages for resale in the secondary mortgage market.               
@@ -1679,15 +2046,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading87">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading109">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse87" aria-expanded="true" aria-controls="collapse87">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse109" aria-expanded="true" aria-controls="collapse109">
                                                             Mortgage Broker
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse87" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading87">
+                                                    <div id="collapse109" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading109">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An individual or company that charges a service fee to bring borrowers and lenders
@@ -1697,15 +2064,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading88">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading110">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse88" aria-expanded="true" aria-controls="collapse88">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse110" aria-expanded="true" aria-controls="collapse110">
                                                             Mortgagee
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse88" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading88">
+                                                    <div id="collapse110" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading110">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The lender.          
@@ -1714,15 +2081,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading89">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading111">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse89" aria-expanded="true" aria-controls="collapse89">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse111" aria-expanded="true" aria-controls="collapse111">
                                                             Mortgage Insurance
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse89" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading89">
+                                                    <div id="collapse111" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading111">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Money paid to insure the mortgage when the down payment is less than 20 percent.       
@@ -1731,15 +2098,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading90">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading112">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse90" aria-expanded="true" aria-controls="collapse90">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse112" aria-expanded="true" aria-controls="collapse112">
                                                             Negative Amortization
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse90" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading90">
+                                                    <div id="collapse112" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading112">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             When your monthly payments are not large enough to pay all the interest due on the
@@ -1750,15 +2117,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading91">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading113">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse91" aria-expanded="true" aria-controls="collapse91">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse113" aria-expanded="true" aria-controls="collapse113">
+                                                            Notice of Default
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse113" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading113">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A notification given to a borrower stating that he or she has not made their payments by the predetermined deadline, or is otherwise in default on the mortgage contract.  
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading114">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse114" aria-expanded="true" aria-controls="collapse114">
                                                             One Year Adjustable Rate Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse91" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading91">
+                                                    <div id="collapse114" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading114">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Mortgage where the annual rate changes yearly. The rate is usually based on
@@ -1768,15 +2152,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading92">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading115">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse92" aria-expanded="true" aria-controls="collapse92">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse115" aria-expanded="true" aria-controls="collapse115">
                                                             Origination Fee
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse92" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading92">
+                                                    <div id="collapse115" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading115">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The fee charged by a lender to prepare loan documents make credit checks inspect and
@@ -1787,15 +2171,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading93">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading116">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse93" aria-expanded="true" aria-controls="collapse93">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse116" aria-expanded="true" aria-controls="collapse116">
                                                             Payment Change Date
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse93" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading93">
+                                                    <div id="collapse116" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading116">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The date when a new monthly payment amount takes effect on an adjustable rate
@@ -1806,15 +2190,49 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading94">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading117">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse94" aria-expanded="true" aria-controls="collapse94">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse117" aria-expanded="true" aria-controls="collapse117">
+                                                            Payment History
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse117" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading117">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A record of your past debt payments. With the most commonly used scoring model, the FICO Score, it's the most influential factor in how your credit is assessed, making up 35% of your credit score.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading118">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse118" aria-expanded="true" aria-controls="collapse118">
+                                                            Payoff Demand
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse118" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading118">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A written statement that is prepared in response to a written demand made by an entitled person or that person's authorized agent that sets forth the amounts required by the secured lender to fully satisfy all of the obligations secured by the loan that is the subject of the demand.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading119">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse119" aria-expanded="true" aria-controls="collapse119">
                                                             Periodic Payment Cap
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse94" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading94">
+                                                    <div id="collapse119" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading119">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A limit on the amount that payments can increase or decrease during any oneadjustment period.
@@ -1823,15 +2241,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading95">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading120">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse95" aria-expanded="true" aria-controls="collapse95">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse120" aria-expanded="true" aria-controls="collapse120">
                                                             Periodic Rate Cap
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse95" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading95">
+                                                    <div id="collapse120" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading120">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A limit on the amount that the interest rate can increase or decrease during any one
@@ -1841,15 +2259,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading96">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading121">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse96" aria-expanded="true" aria-controls="collapse96">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse121" aria-expanded="true" aria-controls="collapse121">
                                                             PITI
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse96" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading96">
+                                                    <div id="collapse121" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading121">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Principal interest taxes and insurance. Also called monthly housing expense.
@@ -1858,15 +2276,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading97">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading122">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse97" aria-expanded="true" aria-controls="collapse97">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse122" aria-expanded="true" aria-controls="collapse122">
+                                                            Plat Map
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse122" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading122">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A plat map, also known as a "plat," shows you how a tract of land is divided into lots in your county. It is drawn to scale and records the land's size, boundary locations, nearby streets, flood zones, and any easements or rights of way.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading123">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse123" aria-expanded="true" aria-controls="collapse123">
                                                             Points (Loan Discount Points)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse97" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading97">
+                                                    <div id="collapse123" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading123">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Prepaid interest assessed at closing by the lender. Each point is equal to 1 percent of
@@ -1876,15 +2311,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading98">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading124">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse98" aria-expanded="true" aria-controls="collapse98">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse124" aria-expanded="true" aria-controls="collapse124">
                                                             Power of Attorney
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse98" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading98">
+                                                    <div id="collapse124" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading124">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A legal document authorizing one person to act on behalf of another.
@@ -1893,15 +2328,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading99">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading125">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse99" aria-expanded="true" aria-controls="collapse99">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse125" aria-expanded="true" aria-controls="collapse125">
                                                             Preapproval
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse99" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading99">
+                                                    <div id="collapse125" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading125">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The process of determining how much money you will be eligible to borrow before you
@@ -1911,15 +2346,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading100">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1260">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse100" aria-expanded="true" aria-controls="collapse100">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse126" aria-expanded="true" aria-controls="collapse126">
                                                             Prepayment
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse100" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading100">
+                                                    <div id="collapse126" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading126">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A privilege in a mortgage permitting the borrower to make payments in advance of their
@@ -1929,15 +2364,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading101">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1271">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse101" aria-expanded="true" aria-controls="collapse101">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse127" aria-expanded="true" aria-controls="collapse127">
                                                             Prepayment Penalty
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse101" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading101">
+                                                    <div id="collapse127" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading127">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Money charged for an early repayment of debt. Prepayment penalties are allowed in
@@ -1947,15 +2382,49 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading102">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1281">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse102" aria-expanded="true" aria-controls="collapse102">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse128" aria-expanded="true" aria-controls="collapse128">
+                                                            Prior to Doc (PTD)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse128" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading128">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Documents the underwriter requires before the loan documents can be ordered. They will communicate this with your loan officer who will work with you to make sure the documents are all in order for underwriting. Sometimes referred to as "Prior to Documents".
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1291">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse129" aria-expanded="true" aria-controls="collapse129">
+                                                            Prior to Funding (PTF)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse129" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading129">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Typically these are conditions that the underwriter believes will be easy for the borrower to meet, thus they are not required to order the loan documents. They tend to be reserved for procedural matters and are taken care of by the escrow officer and loan funder.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1302">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse130" aria-expanded="true" aria-controls="collapse130">
                                                             Private Mortgage Insurance (PMI)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse102" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading102">
+                                                    <div id="collapse130" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading130">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             In the event that you do not have a 20 percent, down payment lenders will allow a
@@ -1968,15 +2437,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading103">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1313">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse103" aria-expanded="true" aria-controls="collapse103">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse131" aria-expanded="true" aria-controls="collapse131">
                                                             Rate Lock
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse103" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading103">
+                                                    <div id="collapse131" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading131">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A commitment issued by a lender to a borrower or another mortgage originator
@@ -1986,15 +2455,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading104">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1324">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse104" aria-expanded="true" aria-controls="collapse104">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse132" aria-expanded="true" aria-controls="collapse132">
                                                             Realtor®
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse104" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading104">
+                                                    <div id="collapse132" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading132">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A real estate broker or an associate holding active membership in a local real estate
@@ -2004,15 +2473,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading105">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1335">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse105" aria-expanded="true" aria-controls="collapse105">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse133" aria-expanded="true" aria-controls="collapse133">
                                                             Real Estate Agent
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse105" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading105">
+                                                    <div id="collapse133" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading133">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A person licensed to negotiate and transact the sale of real estate on behalf of the
@@ -2022,15 +2491,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading106">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1346">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse106" aria-expanded="true" aria-controls="collapse106">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse134" aria-expanded="true" aria-controls="collapse134">
                                                             Real Estate Settlement Procedures Act (RESPA)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse106" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading106">
+                                                    <div id="collapse134" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading134">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A consumer protection law that requires lenders to give borrowers advance notice of
@@ -2040,15 +2509,68 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading107">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1356">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse107" aria-expanded="true" aria-controls="collapse107">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse135" aria-expanded="true" aria-controls="collapse135">
+                                                            Recertification of Value (Recert - Appraisal)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse135" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading135">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A final inspection or completion certificate. If the client wants a current value, it is an “Update of an Appraisal”. A “Recertification of Value” is often used when an appraisal is done using plans and specs or when the house is partially complete.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1368">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse136" aria-expanded="true" aria-controls="collapse136">
+                                                            Recording Fees
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse136" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading136">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Money paid to the lender for recording a home sale with the local authorities thereby
+                                                            making it part of the public records.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1379">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse137" aria-expanded="true" aria-controls="collapse137">
+                                                            Refinance
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse137" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading137">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Obtaining a new mortgage loan on a property already owned often to replace existing
+                                                            loans on the property.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1387">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse138" aria-expanded="true" aria-controls="collapse138">
                                                             Rescission
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse107" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading107">
+                                                    <div id="collapse138" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading138">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The cancellation of a contract. With respect to mortgage, refinancing the law that gives
@@ -2059,51 +2581,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading108">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1390">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse108" aria-expanded="true" aria-controls="collapse108">
-                                                            Recording Fees
-                                                        </a>
-                                                    </h5>
-                                                    <hr class="p-0"/>
-                                                    </div>
-                                                    <div id="collapse108" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading108">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>
-                                                            Money paid to the lender for recording a home sale with the local authorities thereby
-                                                            making it part of the public records.
-                                                        </p>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading109">
-                                                    <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse109" aria-expanded="true" aria-controls="collapse109">
-                                                            Refinance
-                                                        </a>
-                                                    </h5>
-                                                    <hr class="p-0"/>
-                                                    </div>
-                                                    <div id="collapse109" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading109">
-                                                    <div class="panel-body px-3 mb-4">
-                                                        <p>
-                                                            Obtaining a new mortgage loan on a property already owned often to replace existing
-                                                            loans on the property.
-                                                        </p>
-                                                    </div>
-                                                    </div>
-                                                </div>
-                                                <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading110">
-                                                    <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse110" aria-expanded="true" aria-controls="collapse110">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse139" aria-expanded="true" aria-controls="collapse139">
                                                             RESPA
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse110" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading110">
+                                                    <div id="collapse139" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading139">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Short for the Real Estate Settlement Procedures Act. RESPA is a federal law that
@@ -2115,15 +2601,37 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading111">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1400">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse111" aria-expanded="true" aria-controls="collapse111">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse140" aria-expanded="true" aria-controls="collapse140">
+                                                            RESPA Cure
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse140" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading140">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Curing a tolerance violation involves: 
+                                                            <ul>
+                                                                <li>Reimbursing the borrower</li>
+                                                                <li>Revising the HUD-1</li>
+                                                            </ul>
+                                                            It is the loan originator's responsibility to reimburse the borrower the amount by which the actual settlement charges exceed the permitted tolerances.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1411">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse141" aria-expanded="true" aria-controls="collapse141">
                                                             Revolving Liability
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse111" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading111">
+                                                    <div id="collapse141" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading141">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A credit arrangement such as a credit card that allows a customer to borrow against a
@@ -2133,15 +2641,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading112">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1422">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse112" aria-expanded="true" aria-controls="collapse112">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse142" aria-expanded="true" aria-controls="collapse142">
                                                             Satisfaction of Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse112" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading112">
+                                                    <div id="collapse142" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading142">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The document issued by the mortgagee when the mortgage loan is paid in full. Also
@@ -2151,15 +2659,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading113">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1433">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse113" aria-expanded="true" aria-controls="collapse113">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse143" aria-expanded="true" aria-controls="collapse143">
                                                             Second Mortgage
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse113" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading113">
+                                                    <div id="collapse143" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading143">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A mortgage made subsequent to another mortgage and subordinate to the first one.
@@ -2168,15 +2676,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading114">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1444">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse114" aria-expanded="true" aria-controls="collapse114">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse144" aria-expanded="true" aria-controls="collapse144">
                                                             Secondary Mortgage Market
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse114" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading114">
+                                                    <div id="collapse144" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading144">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The place where primary mortgage lenders sell the mortgages they make to obtain
@@ -2186,15 +2694,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading115">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1455">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse115" aria-expanded="true" aria-controls="collapse115">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse145" aria-expanded="true" aria-controls="collapse145">
                                                             Security
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse115" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading115">
+                                                    <div id="collapse145" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading145">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The property that will be pledged as collateral for a loan.
@@ -2203,15 +2711,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading116">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1466">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse116" aria-expanded="true" aria-controls="collapse116">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse146" aria-expanded="true" aria-controls="collapse146">
                                                             Servicer
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse116" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading116">
+                                                    <div id="collapse146" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading146">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An organization that collects principal and interest payments from borrowers and
@@ -2222,15 +2730,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading117">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1477">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse117" aria-expanded="true" aria-controls="collapse117">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse147" aria-expanded="true" aria-controls="collapse147">
                                                             Servicing
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse117" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading117">
+                                                    <div id="collapse147" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading147">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             All the steps and operations a lender performs to keep a loan in good standing such as
@@ -2240,15 +2748,66 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading118">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1487">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse118" aria-expanded="true" aria-controls="collapse118">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse148" aria-expanded="true" aria-controls="collapse148">
+                                                            Subordinate Financing
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse148" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading148">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Debt financing that is ranked behind those held by secured lenders in terms of the order in which the debt is repaid. "Subordinate" financing implies that the debt ranks behind the first secured lender, and means that the secured lenders will be paid back before subordinate debt holders.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1497">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse149" aria-expanded="true" aria-controls="collapse149">
+                                                            Subordination Agreement
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse149" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading149">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A legal document that establishes one debt as ranking behind another in priority for collecting repayment from a debtor. The priority of debts can become extremely important when a debtor defaults on payments or declares bankruptcy.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1507">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse150" aria-expanded="true" aria-controls="collapse150">
+                                                            Survey
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse150" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading150">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            To examine and record the area and features of (an area of land) so as to construct a map, plan, or description.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1518">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse151" aria-expanded="true" aria-controls="collapse151">
                                                             Sweat Equity
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse118" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading118">
+                                                    <div id="collapse151" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading151">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Equity created by a purchaser performing work on a property being purchased.
@@ -2257,15 +2816,49 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading119">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1528">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse119" aria-expanded="true" aria-controls="collapse119">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse152" aria-expanded="true" aria-controls="collapse152">
+                                                            Tax Bill
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse152" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading152">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A bill based on the assessed value of your property, any exemptions for which you qualify, and a property tax rate. Your property tax assessment is determined on a certain date. The taxes you owe for each item are totaled to determine your final property tax bill. Also known as a property tax bill.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1538">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse153" aria-expanded="true" aria-controls="collapse153">
+                                                            Tax Certificate
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse153" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading153">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A report detailing the individual taxing authorities for a property. This report provides a comprehensive description of the assessed value of the property, taxes imposed on a property, any tax liens place on the property, and any exemptions currently applied.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1549">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse154" aria-expanded="true" aria-controls="collapse154">
                                                             Third Party Origination
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse119" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading119">
+                                                    <div id="collapse154" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading154">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             When a lender uses another party to completely or partially originate process underwrite
@@ -2276,15 +2869,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading120">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1550">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse120" aria-expanded="true" aria-controls="collapse120">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse155" aria-expanded="true" aria-controls="collapse155">
                                                             Title
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse120" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading120">
+                                                    <div id="collapse155" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading155">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A document that gives evidence of an individual's ownership of property.
@@ -2293,15 +2886,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading121">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1561">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse121" aria-expanded="true" aria-controls="collapse121">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse156" aria-expanded="true" aria-controls="collapse156">
                                                             Title Insurance
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse121" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading121">
+                                                    <div id="collapse156" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading156">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A policy usually issued by a title insurance company which insures a home buyer
@@ -2313,15 +2906,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading121">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1571">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse121" aria-expanded="true" aria-controls="collapse121">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse157" aria-expanded="true" aria-controls="collapse157">
                                                             Title Search
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse121" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading121">
+                                                    <div id="collapse157" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading157">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             An examination of municipal records to determine the legal ownership of property.
@@ -2331,15 +2924,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading122">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1582">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse122" aria-expanded="true" aria-controls="collapse122">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse158" aria-expanded="true" aria-controls="collapse158">
                                                             Total Expense Ratio
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse122" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading122">
+                                                    <div id="collapse158" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading158">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Total obligations as a percentage of gross monthly income including monthly housing
@@ -2349,15 +2942,49 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading123">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1592">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse123" aria-expanded="true" aria-controls="collapse123">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse159" aria-expanded="true" aria-controls="collapse159">
+                                                            Transaction Manager
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse159" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading159">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Works as the liaison between the Broker and the Account Executive gathering the conditions and verifying that they meet the Underwriters request. Works to move the loan to the next status, Docs/Funding. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1602">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse160" aria-expanded="true" aria-controls="collapse160">
+                                                            TRID
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse160" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading160">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            An acronym that stands for “TILA-RESPA Integrated Disclosure.” A federal regulation, it was enacted to help protect consumers. Whether consumers are looking to buy their first home in the city or a second home in the mountains, they'll come across a TRID from their lender.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1613">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse161" aria-expanded="true" aria-controls="collapse161">
                                                             Truth in Lending
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse123" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading123">
+                                                    <div id="collapse161" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading161">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A federal law requiring disclosure of the Annual Percentage Rate to homebuyers shortly
@@ -2367,15 +2994,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading124">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1623">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse124" aria-expanded="true" aria-controls="collapse124">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse162" aria-expanded="true" aria-controls="collapse162">
+                                                            Underwriter
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse162" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading162">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            An underwriter is a financial expert who takes a look at finances and assesses how much risk a lender will take on if they decide to give a loan. More specifically, underwriters evaluate credit history, assets, the size of the loan request and how well they anticipate the pay back of a loan.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1634">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse163" aria-expanded="true" aria-controls="collapse163">
                                                             Underwriting
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse124" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading124">
+                                                    <div id="collapse163" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading163">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             The decision whether to make a loan to a potential home buyer based on credit
@@ -2386,15 +3030,15 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading125">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1645">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse125" aria-expanded="true" aria-controls="collapse125">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse164" aria-expanded="true" aria-controls="collapse164">
                                                             VA Loan
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse125" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading125">
+                                                    <div id="collapse164" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading164">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A long-term low-or-no down payment loan guaranteed by the Department of Veterans
@@ -2404,15 +3048,32 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading126">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1655">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse126" aria-expanded="true" aria-controls="collapse126">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse165" aria-expanded="true" aria-controls="collapse165">
+                                                            Valuation Specialist
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse165" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading165">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            An appraisal specialist that works to estimate the value of real estate or other assets. Duties in this career vary depending on the type of asset and the reason for the valuation. A valuation specialist could appraise assets that the owner is using as collateral for credit.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1666">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse166" aria-expanded="true" aria-controls="collapse166">
                                                             Verification of Deposit (VOD)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse126" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading126">
+                                                    <div id="collapse166" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading166">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             A document signed by the borrower's financial institution verifying the status and
@@ -2422,18 +3083,103 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
-                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading127">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1677">
                                                     <h5 class="panel-title">
-                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse127" aria-expanded="true" aria-controls="collapse127">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse167" aria-expanded="true" aria-controls="collapse167">
                                                             Verification of Employment (VOE)
                                                         </a>
                                                     </h5>
                                                     <hr class="p-0"/>
                                                     </div>
-                                                    <div id="collapse127" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading127">
+                                                    <div id="collapse167" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading167">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
-                                                            A document signed by the borrower's employer verifying his/her position and salary.
+                                                            A process used by banks and mortgage lenders in the United States to review the employment history of a borrower, to determine the borrower's job stability and cross-reference income history with that stated on the Uniform Residential Loan Application.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1687">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse168" aria-expanded="true" aria-controls="collapse168">
+                                                            Verification of Mortgage (VOM)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse168" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading168">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Documentation of your mortgage payment history. The verification of mortgage, which is often required when applying for a loan, is used to verify your existing balance and monthly payments, and to check for any late payments on the account.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1697">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse169" aria-expanded="true" aria-controls="collapse169">
+                                                            Verification of Rent (VOR)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse169" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading169">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Proof that a renter has been making timely payments to his or her landlord for the past 12 months. Many renters do not realize the importance of verification of rent until it’s time to purchase a home and qualify for mortgage.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1707">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse170" aria-expanded="true" aria-controls="collapse170">
+                                                            Vetting
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse170" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading170">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The process of performing a background check on someone before offering them employment, conferring an award, or doing fact-checking prior to making any decision. In addition, in intelligence gathering, assets are vetted to determine their usefulness. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1717">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse171" aria-expanded="true" aria-controls="collapse171">
+                                                            WET State
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse171" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading171">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            States that have "Wet Settlement" laws, require lending banks to disburse funds within a period of time. Depending on the states' Wet Settlement laws, some require the disbursement of funds to the sellers and other involved parties on the day of the settlement, others within 2 days of closing. Wet Settlement laws are in place to curb the bank practice of delaying funding after closing documents have been signed by the borrowers. All of the prior to funding conditions must be met in order for the lender to allow doc to go to closing in Wet States.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading1727">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse172" aria-expanded="true" aria-controls="collapse172">
+                                                            Wire Transfer (to Settlement Agent)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse172" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading172">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A method of transmitting money electronically between people or businesses in which no physical money is exchanged. The sender is the one who provides all the instructions for the transfer, which may include the recipient's name, bank, account number and amount. 
                                                         </p>
                                                     </div>
                                                     </div>
@@ -2445,7 +3191,7 @@
                                     <!-- /.card -->
                                 </div>
                                 
-                                <div class="tab-pane fade" id="nav-finance-terms" role="tabpanel" aria-labelledby="nav-finance-terms-tab">
+                                <div class="tab-pane fade" id="nav-finance-terms" role="tabpanel" aria-labelledby="nav-finance-terms-t">
                                     <div class="card-body">
                                         <!-- /.card-header -->
                                         <!-- Mortgage Finance Terms -->
@@ -2454,15 +3200,15 @@
                                         
                                                 <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading128">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1738">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse128" aria-expanded="true" aria-controls="collapse128">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse173" aria-expanded="true" aria-controls="collapse173">
                                                                 20-20 Mortgages
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse128" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading128">
+                                                        <div id="collapse173" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading173">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A variation of a 40-year mortgage, with the loan’s interest rate
@@ -2473,15 +3219,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading129">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1749">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse129" aria-expanded="true" aria-controls="collapse129">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse174" aria-expanded="true" aria-controls="collapse174">
                                                                 40-Year Mortgages
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse129" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading129">
+                                                        <div id="collapse174" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading174">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 These mortgages have payments calculated on a 40-year term,
@@ -2492,15 +3238,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading130">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1750">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse130" aria-expanded="true" aria-controls="collapse130">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse175" aria-expanded="true" aria-controls="collapse175">
                                                                 Agency Market
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse130" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading130">
+                                                        <div id="collapse175" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading175">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Supply and demand of mortgage securitization activity by Fannie
@@ -2510,15 +3256,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading131">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1761">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse131" aria-expanded="true" aria-controls="collapse131">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse176" aria-expanded="true" aria-controls="collapse176">
                                                                 Agency Securities
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse131" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading131">
+                                                        <div id="collapse176" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading176">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Specific securities that are issued by either Ginnie Mae, Fannie
@@ -2532,15 +3278,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading132">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1772">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse132" aria-expanded="true" aria-controls="collapse132">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse177" aria-expanded="true" aria-controls="collapse177">
                                                                 Alt A (Alternative A) Loans
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse132" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading132">
+                                                        <div id="collapse177" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading177">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Loans to prime-credit borrowers that have some
@@ -2553,15 +3299,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading133">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1783">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse133" aria-expanded="true" aria-controls="collapse133">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse178" aria-expanded="true" aria-controls="collapse178">
                                                                 Asset-Backed Securities
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse133" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading133">
+                                                        <div id="collapse178" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading178">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Types of bonds or notes that are based on pools of assets,
@@ -2574,15 +3320,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading134">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1794">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse134" aria-expanded="true" aria-controls="collapse134">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse179" aria-expanded="true" aria-controls="collapse179">
                                                                 Asset-Backed Securities Index 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse134" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading134">
+                                                        <div id="collapse179" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading179">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The ABS index is a key point of reference for
@@ -2594,15 +3340,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading135">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1805">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse135" aria-expanded="true" aria-controls="collapse135">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse180" aria-expanded="true" aria-controls="collapse180">
                                                                 Basis Point (often denoted as bp, bps or ‱) 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse135" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading135">
+                                                        <div id="collapse180" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading180">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A unit that is equal to 1/100th of 1%. It
@@ -2616,15 +3362,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading136">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1816">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse136" aria-expanded="true" aria-controls="collapse136">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse181" aria-expanded="true" aria-controls="collapse181">
                                                                 B&C (subprime) Credit 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse136" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading136">
+                                                        <div id="collapse181" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading181">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Borrower credit that generally does not meet the credit
@@ -2635,15 +3381,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading137">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1827">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse137" aria-expanded="true" aria-controls="collapse137">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse182" aria-expanded="true" aria-controls="collapse182">
                                                                 B&C Loan 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse137" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading137">
+                                                        <div id="collapse182" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading182">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 See <a href="#heading209"><em>Subprime Loan</em></a>
@@ -2652,15 +3398,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading138">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1838">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse138" aria-expanded="true" aria-controls="collapse138">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse183" aria-expanded="true" aria-controls="collapse183">
                                                                 CMBS – Commercial Mortgage-Backed Security 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse138" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading138">
+                                                        <div id="collapse183" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading183">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A type of mortgage-backed
@@ -2672,15 +3418,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading139">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1849">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse139" aria-expanded="true" aria-controls="collapse139">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse184" aria-expanded="true" aria-controls="collapse184">
                                                                 CMO – Collateralized Mortgage Obligation 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse139" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading139">
+                                                        <div id="collapse184" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading184">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 MBS where payments on the underlying
@@ -2690,15 +3436,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading140">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1850">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse140" aria-expanded="true" aria-controls="collapse140">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse185" aria-expanded="true" aria-controls="collapse185">
                                                                 Co-Issuance 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse140" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading140">
+                                                        <div id="collapse185" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading185">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The practice of acquiring the servicing of a mortgage simultaneously
@@ -2711,15 +3457,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading141">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1861">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse141" aria-expanded="true" aria-controls="collapse141">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse186" aria-expanded="true" aria-controls="collapse186">
                                                                 Collateralized Debt Obligations (CDOs)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse141" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading141">
+                                                        <div id="collapse186" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading186">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Types of asset-backed securities and
@@ -2734,15 +3480,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading142">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1872">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse142" aria-expanded="true" aria-controls="collapse142">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse187" aria-expanded="true" aria-controls="collapse187">
                                                                 Collateralized Mortgage Obligation (CMO)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse142" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading142">
+                                                        <div id="collapse187" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading187">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A financial debt vehicle, legally a special
@@ -2758,15 +3504,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading143">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1883">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse143" aria-expanded="true" aria-controls="collapse143">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse188" aria-expanded="true" aria-controls="collapse188">
                                                                 Combined Loan-to-Value (ratio) (CLTV)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse143" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading143">
+                                                        <div id="collapse188" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading188">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The proportion of loans (secured by a
@@ -2778,15 +3524,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading144">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1894">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse144" aria-expanded="true" aria-controls="collapse144">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse189" aria-expanded="true" aria-controls="collapse189">
                                                                 Conduits  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse144" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading144">
+                                                        <div id="collapse189" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading189">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Firms that purchase or package nonconforming mortgages in non-agency
@@ -2796,15 +3542,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading145">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1905">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse145" aria-expanded="true" aria-controls="collapse145">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse190" aria-expanded="true" aria-controls="collapse190">
                                                                 Conforming Loan  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse145" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading145">
+                                                        <div id="collapse190" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading190">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A loan that meets the requirements to be eligible for purchase or
@@ -2815,15 +3561,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading146">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1916">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse146" aria-expanded="true" aria-controls="collapse146">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse191" aria-expanded="true" aria-controls="collapse191">
                                                                 Correspondent Lender  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse146" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading146">
+                                                        <div id="collapse191" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading191">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A lender who delivers loans to a (usually larger) lender
@@ -2834,15 +3580,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading147">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1927">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse147" aria-expanded="true" aria-controls="collapse147">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse192" aria-expanded="true" aria-controls="collapse192">
                                                                 Credit Default Swap (CDS) 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse147" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading147">
+                                                        <div id="collapse192" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading192">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The most widely traded credit derivative product, as a
@@ -2855,15 +3601,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading148">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1938">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse148" aria-expanded="true" aria-controls="collapse148">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse193" aria-expanded="true" aria-controls="collapse193">
                                                                 Credit Derivative
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse148" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading148">
+                                                        <div id="collapse193" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading193">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A financial instrument or derivative whose price and value derives
@@ -2876,15 +3622,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading149">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1949">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse149" aria-expanded="true" aria-controls="collapse149">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse194" aria-expanded="true" aria-controls="collapse194">
                                                                 Credit Enhancement
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse149" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading149">
+                                                        <div id="collapse194" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading194">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A method to reduce credit risk by requiring collateral, letters of
@@ -2896,15 +3642,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading150">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1950">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse150" aria-expanded="true" aria-controls="collapse150">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse195" aria-expanded="true" aria-controls="collapse195">
                                                                 Credit Rating
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse150" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading150">
+                                                        <div id="collapse195" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading195">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Borrowers are rated by lenders according to their credit-worthiness or
@@ -2916,15 +3662,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading151">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1961">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse151" aria-expanded="true" aria-controls="collapse151">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse196" aria-expanded="true" aria-controls="collapse196">
                                                                 Dealer
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse151" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading151">
+                                                        <div id="collapse196" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading196">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 An investment banker or firm in the business of buying and selling MBS not as
@@ -2934,15 +3680,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading152">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1972">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse152" aria-expanded="true" aria-controls="collapse152">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse197" aria-expanded="true" aria-controls="collapse197">
                                                                 Delinquency Ratio (or rates)
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse152" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading152">
+                                                        <div id="collapse197" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading197">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The ratio of the number of past due loans to total
@@ -2952,15 +3698,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading153">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1983">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse153" aria-expanded="true" aria-controls="collapse153">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse198" aria-expanded="true" aria-controls="collapse198">
                                                                 FASB – Financial Accounting Standards Board
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse153" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading153">
+                                                        <div id="collapse198" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading198">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A private entity created by the
@@ -2972,15 +3718,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading154">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1994">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse154" aria-expanded="true" aria-controls="collapse154">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse199" aria-expanded="true" aria-controls="collapse199">
                                                                 FHLB System
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse154" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading154">
+                                                        <div id="collapse199" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading199">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The three basic parts of the FHLBank System are the 12 banks, the
@@ -2992,15 +3738,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading155">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2005">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse155" aria-expanded="true" aria-controls="collapse155">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse200" aria-expanded="true" aria-controls="collapse200">
                                                                 Government Loans
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse155" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading155">
+                                                        <div id="collapse200" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading200">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Loans insured or guaranteed by the government (VA/FHA).
@@ -3009,15 +3755,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading156">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2016">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse156" aria-expanded="true" aria-controls="collapse156">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse201" aria-expanded="true" aria-controls="collapse201">
                                                                 GSEs – Government-Sponsored Enterprises
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse156" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading156">
+                                                        <div id="collapse201" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading201">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Privately owned organizations with
@@ -3028,15 +3774,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading157">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2027">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse157" aria-expanded="true" aria-controls="collapse157">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse202" aria-expanded="true" aria-controls="collapse202">
                                                                 Guarantee Fee
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse157" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading157">
+                                                        <div id="collapse202" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading202">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Compensation paid by a lender to Fannie Mae or Freddie Mac to the
@@ -3047,15 +3793,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading158">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2038">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse158" aria-expanded="true" aria-controls="collapse158">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse203" aria-expanded="true" aria-controls="collapse203">
                                                                 HEL (Home-Equity Loan)
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse158" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading158">
+                                                        <div id="collapse203" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading203">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A loan with a second-priority (2nd Trust) claim against a
@@ -3066,15 +3812,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading159">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2049">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse159" aria-expanded="true" aria-controls="collapse159">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse204" aria-expanded="true" aria-controls="collapse204">
                                                                 HELOC (home-equity line of credit)
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse159" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading159">
+                                                        <div id="collapse204" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading204">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A mortgage loan, usually in second position,
@@ -3085,15 +3831,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading161">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2051">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse161" aria-expanded="true" aria-controls="collapse161">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse205" aria-expanded="true" aria-controls="collapse205">
                                                                 HMDA (Home Mortgage Disclosure Act)
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse161" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading161">
+                                                        <div id="collapse205" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading205">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Federal legislation passed in 1989 that
@@ -3104,15 +3850,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading162">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2062">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse162" aria-expanded="true" aria-controls="collapse162">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse206" aria-expanded="true" aria-controls="collapse206">
                                                                 HUD – Department of Housing and Urban Development
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse162" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading162">
+                                                        <div id="collapse206" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading206">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Government entity
@@ -3123,15 +3869,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading163">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2073">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse163" aria-expanded="true" aria-controls="collapse163">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse207" aria-expanded="true" aria-controls="collapse207">
                                                                 Hybrid ARMs
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse163" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading163">
+                                                        <div id="collapse207" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading207">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Mortgages with an initial fixed rate period of 2 or 3 years (e.g. 2/28s
@@ -3142,15 +3888,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading164">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2084">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse164" aria-expanded="true" aria-controls="collapse164">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse208" aria-expanded="true" aria-controls="collapse208">
                                                                 Interest-Only Mortgages (IOs)
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse164" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading164">
+                                                        <div id="collapse208" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading208">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Mortgages on which for some period the monthly
@@ -3163,15 +3909,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading165">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2095">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse165" aria-expanded="true" aria-controls="collapse165">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse209" aria-expanded="true" aria-controls="collapse209">
                                                                 Issuer
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse165" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading165">
+                                                        <div id="collapse209" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading209">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 One who packages mortgages into securities and sells them to investors.
@@ -3180,15 +3926,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading166">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2106">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse166" aria-expanded="true" aria-controls="collapse166">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse210" aria-expanded="true" aria-controls="collapse210">
                                                                 Loan Origination
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse166" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading166">
+                                                        <div id="collapse210" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading210">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The process by which a borrower applies for a new loan and a
@@ -3199,15 +3945,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading167">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2117">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse167" aria-expanded="true" aria-controls="collapse167">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse211" aria-expanded="true" aria-controls="collapse211">
                                                                 Loan Servicing
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse167" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading167">
+                                                        <div id="collapse211" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading211">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Generally covers everything after disbursing the funds until the loan
@@ -3219,15 +3965,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading168">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2128">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse168" aria-expanded="true" aria-controls="collapse168">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse212" aria-expanded="true" aria-controls="collapse212">
                                                                 Loan Modification
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse168" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading168">
+                                                        <div id="collapse212" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading212">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A modification to an existing loan made by a lender in response to
@@ -3240,15 +3986,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading169">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2139">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse169" aria-expanded="true" aria-controls="collapse169">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse213" aria-expanded="true" aria-controls="collapse213">
                                                                 Loss Mitigation
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse169" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading169">
+                                                        <div id="collapse213" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading213">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Activities designed to reduce the likelihood of a mortgage investor or
@@ -3259,15 +4005,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading170">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2140">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse170" aria-expanded="true" aria-controls="collapse170">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse214" aria-expanded="true" aria-controls="collapse214">
                                                                 Mark to Market
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse170" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading170">
+                                                        <div id="collapse214" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading214">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The act of assigning a value to a position held in a financial
@@ -3280,15 +4026,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading171">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2151">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse171" aria-expanded="true" aria-controls="collapse171">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse215" aria-expanded="true" aria-controls="collapse215">
                                                                 MBS – Mortgage Backed Security 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse171" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading171">
+                                                        <div id="collapse215" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading215">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A security that represents an undivided interest in
@@ -3299,15 +4045,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading172">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2162">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse172" aria-expanded="true" aria-controls="collapse172">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse216" aria-expanded="true" aria-controls="collapse216">
                                                                 Mortgage Pool 
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse172" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading172">
+                                                        <div id="collapse216" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading216">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A group of mortgage loans with similar characteristics that are
@@ -3317,15 +4063,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading173">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2173">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse173" aria-expanded="true" aria-controls="collapse173">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse217" aria-expanded="true" aria-controls="collapse217">
                                                                 Mortgage Servicing Rights (MSR)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse173" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading173">
+                                                        <div id="collapse217" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading217">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The right of a servicer to collect payments from
@@ -3335,15 +4081,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading174">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2184">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse174" aria-expanded="true" aria-controls="collapse174">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse218" aria-expanded="true" aria-controls="collapse218">
                                                                 MRS  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse174" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading174">
+                                                        <div id="collapse218" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading218">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Mortgage-Related Securities.
@@ -3352,15 +4098,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading175">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2195">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse175" aria-expanded="true" aria-controls="collapse175">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse219" aria-expanded="true" aria-controls="collapse219">
                                                                 Non-Agency Market  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse175" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading175">
+                                                        <div id="collapse219" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading219">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Supply and demand of mortgage securities issued by nongovernment-related firms.
@@ -3369,15 +4115,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading176">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2206">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse176" aria-expanded="true" aria-controls="collapse176">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse220" aria-expanded="true" aria-controls="collapse220">
                                                                 Nonconforming Loan  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse176" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading176">
+                                                        <div id="collapse220" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading220">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A mortgage that does not meet the purchase requirements of
@@ -3388,15 +4134,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading177">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2217">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse177" aria-expanded="true" aria-controls="collapse177">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse221" aria-expanded="true" aria-controls="collapse221">
                                                                 Non-Recourse Debt  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse177" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading177">
+                                                        <div id="collapse221" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading221">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A mortgage, often the case with residential mortgages, where
@@ -3406,15 +4152,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading178">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2228">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse178" aria-expanded="true" aria-controls="collapse178">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse222" aria-expanded="true" aria-controls="collapse222">
                                                                 Origination (Loan)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse178" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading178">
+                                                        <div id="collapse222" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading222">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The process of preparing, submitting and evaluating a loan
@@ -3424,15 +4170,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading179">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2239">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse179" aria-expanded="true" aria-controls="collapse179">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse223" aria-expanded="true" aria-controls="collapse223">
                                                                 Originator  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse179" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading179">
+                                                        <div id="collapse223" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading223">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A lender who makes a loan to a borrower.
@@ -3441,15 +4187,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading180">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2240">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse180" aria-expanded="true" aria-controls="collapse180">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse224" aria-expanded="true" aria-controls="collapse224">
                                                                 Outstanding Securities  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse180" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading180">
+                                                        <div id="collapse224" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading224">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The dollar volume of securities, usually MBS that are backed
@@ -3459,15 +4205,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading181">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2251">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse181" aria-expanded="true" aria-controls="collapse181">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse225" aria-expanded="true" aria-controls="collapse225">
                                                                 Payment Option Mortgages   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse181" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading181">
+                                                        <div id="collapse225" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading225">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Adjustable-rate mortgages that allow borrowers to set
@@ -3484,15 +4230,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading182">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2262">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse182" aria-expanded="true" aria-controls="collapse182">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse226" aria-expanded="true" aria-controls="collapse226">
                                                                 PC   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse182" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading182">
+                                                        <div id="collapse226" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading226">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Freddie Mac’s brand for MBS.
@@ -3501,15 +4247,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading183">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2273">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse183" aria-expanded="true" aria-controls="collapse183">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse227" aria-expanded="true" aria-controls="collapse227">
                                                                 Piggyback Loans   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse183" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading183">
+                                                        <div id="collapse227" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading227">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Two loans taken out at one time on a property—the first lien and a
@@ -3519,15 +4265,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading184">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2284">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse184" aria-expanded="true" aria-controls="collapse184">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse228" aria-expanded="true" aria-controls="collapse228">
                                                                 Portfolio Lender   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse184" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading184">
+                                                        <div id="collapse228" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading228">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A lender who makes loans to keep in its portfolio and does not sell
@@ -3537,15 +4283,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading185">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2295">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse185" aria-expanded="true" aria-controls="collapse185">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse229" aria-expanded="true" aria-controls="collapse229">
                                                                 Private Conduit   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse185" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading185">
+                                                        <div id="collapse229" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading229">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A private market entity that purchases mortgages and issues
@@ -3555,15 +4301,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading186">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2306">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse186" aria-expanded="true" aria-controls="collapse186">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse230" aria-expanded="true" aria-controls="collapse230">
                                                                 Private Label Securities   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse186" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading186">
+                                                        <div id="collapse230" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading230">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Another term for “Non-Agency” securities.
@@ -3572,15 +4318,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading187">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2317">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse187" aria-expanded="true" aria-controls="collapse187">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse231" aria-expanded="true" aria-controls="collapse231">
                                                                 Purchase-Money Loan   
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse187" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading187">
+                                                        <div id="collapse231" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading231">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A loan used to purchase a home.
@@ -3589,15 +4335,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading188">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2328">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse188" aria-expanded="true" aria-controls="collapse188">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse232" aria-expanded="true" aria-controls="collapse232">
                                                                 Real Estate Mortgage Investment Conduit (REMIC)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse188" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading188">
+                                                        <div id="collapse232" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading232">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A tax election used to create
@@ -3609,15 +4355,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading189">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2339">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse189" aria-expanded="true" aria-controls="collapse189">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse233" aria-expanded="true" aria-controls="collapse233">
                                                                 Real Estate Owned (REO)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse189" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading189">
+                                                        <div id="collapse233" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading233">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A class of property owned by a lender, typically a bank,
@@ -3629,15 +4375,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading190">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2340">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse190" aria-expanded="true" aria-controls="collapse190">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse234" aria-expanded="true" aria-controls="collapse234">
                                                                 Reg. AB (SEC regulation) MBS or ABS Sponsor  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse190" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading190">
+                                                        <div id="collapse234" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading234">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The party that “organizes and
@@ -3648,15 +4394,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading190">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2350">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse190" aria-expanded="true" aria-controls="collapse190">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse235" aria-expanded="true" aria-controls="collapse235">
                                                                 REIT – Real Estate Investment Trust  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse190" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading190">
+                                                        <div id="collapse235" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading235">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 An investment vehicle where title to real estate
@@ -3667,15 +4413,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading191">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2361">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse191" aria-expanded="true" aria-controls="collapse191">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse236" aria-expanded="true" aria-controls="collapse236">
                                                                 Re-MBS  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse191" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading191">
+                                                        <div id="collapse236" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading236">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Re-securitizations of previously issued MBS.
@@ -3684,15 +4430,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading192">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2372">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse192" aria-expanded="true" aria-controls="collapse192">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse237" aria-expanded="true" aria-controls="collapse237">
                                                                 Re-performing Loans  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse192" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading192">
+                                                        <div id="collapse237" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading237">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Delinquent loans that have been “cured” or made current.
@@ -3701,15 +4447,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading193">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2383">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse193" aria-expanded="true" aria-controls="collapse193">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse238" aria-expanded="true" aria-controls="collapse238">
                                                                 Replenishment Rates  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse193" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading193">
+                                                        <div id="collapse238" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading238">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The pace or rate at which lenders are able to add loans to
@@ -3719,15 +4465,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading194">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2394">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse194" aria-expanded="true" aria-controls="collapse194">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse239" aria-expanded="true" aria-controls="collapse239">
                                                                 Residential Mortgage-Backed Securities (RMBS)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse194" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading194">
+                                                        <div id="collapse239" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading239">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The type of MBS, which are
@@ -3737,15 +4483,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading195">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2405">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse195" aria-expanded="true" aria-controls="collapse195">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse240" aria-expanded="true" aria-controls="collapse240">
                                                                 Retail Lenders  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse195" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading195">
+                                                        <div id="collapse240" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading240">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A lender who offers mortgage loans directly to the public, as distinct
@@ -3755,15 +4501,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading196">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2416">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse196" aria-expanded="true" aria-controls="collapse196">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse241" aria-expanded="true" aria-controls="collapse241">
                                                                 Reverse Mortgage  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse196" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading196">
+                                                        <div id="collapse241" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading241">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A loan available to seniors (62 and over), and is used to release
@@ -3775,15 +4521,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading197">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2427">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse197" aria-expanded="true" aria-controls="collapse197">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse242" aria-expanded="true" aria-controls="collapse242">
                                                                 Risk-Based Pricing  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse197" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading197">
+                                                        <div id="collapse242" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading242">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A methodology where the interest rate on a loan is determined
@@ -3795,15 +4541,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading198">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2438">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse198" aria-expanded="true" aria-controls="collapse198">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse243" aria-expanded="true" aria-controls="collapse243">
                                                                 Scratch & Dent Loans  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse198" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading198">
+                                                        <div id="collapse243" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading243">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Loans that did not meet investor criteria in another MBS
@@ -3814,15 +4560,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading199">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2449">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse199" aria-expanded="true" aria-controls="collapse199">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse244" aria-expanded="true" aria-controls="collapse244">
                                                                 Secondary/Mezzanine Financing  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse199" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading199">
+                                                        <div id="collapse244" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading244">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A funding method using a loan secured by a
@@ -3833,15 +4579,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading200">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2450">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse200" aria-expanded="true" aria-controls="collapse200">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse245" aria-expanded="true" aria-controls="collapse245">
                                                                 Securitization  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse200" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading200">
+                                                        <div id="collapse245" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading245">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The process of pooling loans into mortgage-backed securities for sale
@@ -3851,15 +4597,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading201">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2461">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse201" aria-expanded="true" aria-controls="collapse201">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse246" aria-expanded="true" aria-controls="collapse246">
                                                                 Securitization Rates  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse201" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading201">
+                                                        <div id="collapse246" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading246">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The percentage or share of new mortgage originations that are
@@ -3869,15 +4615,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading202">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2472">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse202" aria-expanded="true" aria-controls="collapse202">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse247" aria-expanded="true" aria-controls="collapse247">
                                                                 Seller-Servicer  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse202" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading202">
+                                                        <div id="collapse247" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading247">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A term used by Fannie Mae and Freddie Mac for a mortgage banker
@@ -3888,15 +4634,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading203">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2483">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse203" aria-expanded="true" aria-controls="collapse203">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse248" aria-expanded="true" aria-controls="collapse248">
                                                                 Servicing Outstanding  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse203" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading203">
+                                                        <div id="collapse248" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading248">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 The unpaid portion (principle) of serviced loans.
@@ -3905,15 +4651,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading204">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2494">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse204" aria-expanded="true" aria-controls="collapse204">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse249" aria-expanded="true" aria-controls="collapse249">
                                                                 Shelf Registration  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse204" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading204">
+                                                        <div id="collapse249" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading249">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Securities and Exchange Commission Rule 415 allowing
@@ -3925,15 +4671,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading205">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2505">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse205" aria-expanded="true" aria-controls="collapse205">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse250" aria-expanded="true" aria-controls="collapse250">
                                                                 Short Sale  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse205" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading205">
+                                                        <div id="collapse250" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading250">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 When a bank or mortgage lender agrees to discount a loan balance due to
@@ -3945,15 +4691,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading206">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2516">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse206" aria-expanded="true" aria-controls="collapse206">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse251" aria-expanded="true" aria-controls="collapse251">
                                                                 Stated Income Loan  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse206" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading206">
+                                                        <div id="collapse251" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading251">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A mortgage where the lender does not verify the borrower's
@@ -3966,15 +4712,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading207">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2527">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse207" aria-expanded="true" aria-controls="collapse207">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse252" aria-expanded="true" aria-controls="collapse252">
                                                                 Stripped Securities (SMBS)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse207" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading207">
+                                                        <div id="collapse252" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading252">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Securities created by “stripping” or separating the
@@ -3986,15 +4732,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading208">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2538">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse208" aria-expanded="true" aria-controls="collapse208">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse253" aria-expanded="true" aria-controls="collapse253">
                                                                 Structured Finance  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse208" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading208">
+                                                        <div id="collapse253" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading253">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A broad term used to describe a sector of finance that was
@@ -4004,15 +4750,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading209">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2549">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse209" aria-expanded="true" aria-controls="collapse209">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse254" aria-expanded="true" aria-controls="collapse254">
                                                                 Subprime Loans  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse209" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading209">
+                                                        <div id="collapse254" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading254">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 Loans made to those who have impaired credit. Generally have
@@ -4023,15 +4769,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading210">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2550">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse210" aria-expanded="true" aria-controls="collapse210">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse255" aria-expanded="true" aria-controls="collapse255">
                                                                 Sub-Servicer (or Primary Servicer)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse210" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading210">
+                                                        <div id="collapse255" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading255">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 In some cases the borrower may deal with a
@@ -4045,15 +4791,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading211">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2561">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse211" aria-expanded="true" aria-controls="collapse211">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse256" aria-expanded="true" aria-controls="collapse256">
                                                                 Tranche  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse211" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading211">
+                                                        <div id="collapse256" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading256">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A level or class of investment interest in a CMO or REMIC security,
@@ -4063,15 +4809,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading212">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2572">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse212" aria-expanded="true" aria-controls="collapse212">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse257" aria-expanded="true" aria-controls="collapse257">
                                                                 Upside-Down Mortgage (also “Underwater”)  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse212" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading212">
+                                                        <div id="collapse257" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading257">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 When the remaining mortgage
@@ -4081,15 +4827,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading213">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2583">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse213" aria-expanded="true" aria-controls="collapse213">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse258" aria-expanded="true" aria-controls="collapse258">
                                                                 VA (Department of Veterans Affairs) Loan  
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse213" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading213">
+                                                        <div id="collapse258" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading258">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A mortgage with no down payment
@@ -4099,15 +4845,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading214">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2594">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse214" aria-expanded="true" aria-controls="collapse214">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse259" aria-expanded="true" aria-controls="collapse259">
                                                                 Warehouse Lender
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse214" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading214">
+                                                        <div id="collapse259" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading259">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A short-term lender for mortgage bankers. Using the note as
@@ -4118,15 +4864,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading215">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2605">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse215" aria-expanded="true" aria-controls="collapse215">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse260" aria-expanded="true" aria-controls="collapse260">
                                                                 Wholesale Lender
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse215" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading215">
+                                                        <div id="collapse260" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading260">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A lender who purchases loans from mortgage brokers or
@@ -4137,15 +4883,15 @@
                                                         </div>
                                                     </div>
                                                     <div class="panel panel-default">
-                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading216">
+                                                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2616">
                                                         <h5 class="panel-title">
-                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse216" aria-expanded="true" aria-controls="collapse216">
+                                                            <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse261" aria-expanded="true" aria-controls="collapse261">
                                                                 Wholesale Origination
                                                             </a>
                                                         </h5>
                                                         <hr class="p-0"/>
                                                         </div>
-                                                        <div id="collapse216" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading216">
+                                                        <div id="collapse261" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading261">
                                                         <div class="panel-body px-3 mb-4">
                                                             <p>
                                                                 A loan origination strategy by which loans are purchased
