@@ -99,8 +99,6 @@
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
                         <div class="tab-pane text-left fade show active" id="vert-tabs-aboutcsc" role="tabpanel" aria-labelledby="vert-tabs-aboutcsc-tab">
-                          
-                          <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
@@ -144,8 +142,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-aeflyer" role="tabpanel" aria-labelledby="vert-tabs-aeflyer-tab">
-                          <!-- /.content-header -->        
+                        <div class="tab-pane fade" id="vert-tabs-aeflyer" role="tabpanel" aria-labelledby="vert-tabs-aeflyer-tab">        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
@@ -189,8 +186,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-automation" role="tabpanel" aria-labelledby="vert-tabs-automation-tab">
-                          <!-- /.content-header -->        
+                        <div class="tab-pane fade" id="vert-tabs-automation" role="tabpanel" aria-labelledby="vert-tabs-automation-tab">        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
@@ -234,8 +230,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-brokers" role="tabpanel" aria-labelledby="vert-tabs-brokers-tab">
-                          <!-- /.content-header -->        
+                        <div class="tab-pane fade" id="vert-tabs-brokers" role="tabpanel" aria-labelledby="vert-tabs-brokers-tab">        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
@@ -279,8 +274,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-corr" role="tabpanel" aria-labelledby="vert-tabs-corr-tab">
-                            <!-- /.content-header -->        
+                        <div class="tab-pane fade" id="vert-tabs-corr" role="tabpanel" aria-labelledby="vert-tabs-corr-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -324,8 +318,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-cscprograms" role="tabpanel" aria-labelledby="vert-tabs-cscprograms-tab">
-                            <!-- /.content-header -->        
+                          <div class="tab-pane fade" id="vert-tabs-cscprograms" role="tabpanel" aria-labelledby="vert-tabs-cscprograms-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -369,8 +362,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-social" role="tabpanel" aria-labelledby="vert-tabs-social-tab">
-                            <!-- /.content-header -->        
+                          <div class="tab-pane fade" id="vert-tabs-social" role="tabpanel" aria-labelledby="vert-tabs-social-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -415,8 +407,7 @@
                               </div>
                             </div>
                           </div>
-                          {{-- <div class="tab-pane fade" id="vert-tabs-retail" role="tabpanel" aria-labelledby="vert-tabs-retail-tab">
-                            <!-- /.content-header -->        
+                          {{-- <div class="tab-pane fade" id="vert-tabs-retail" role="tabpanel" aria-labelledby="vert-tabs-retail-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -460,8 +451,7 @@
                               </div>
                             </div>
                           </div> --}}
-                          <div class="tab-pane fade" id="vert-tabs-standards" role="tabpanel" aria-labelledby="vert-tabs-standards-tab">
-                            <!-- /.content-header -->        
+                          <div class="tab-pane fade" id="vert-tabs-standards" role="tabpanel" aria-labelledby="vert-tabs-standards-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -505,8 +495,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-vertical" role="tabpanel" aria-labelledby="vert-tabs-vertical-tab">
-                            <!-- /.content-header -->        
+                          <div class="tab-pane fade" id="vert-tabs-vertical" role="tabpanel" aria-labelledby="vert-tabs-vertical-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
