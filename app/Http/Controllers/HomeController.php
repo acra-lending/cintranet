@@ -7,6 +7,8 @@ use App\Directory;
 use App\User;
 use App\Announcement;
 use App\Event;
+use App\Post;
+use Illuminate\Support\Facades\Storage;
 use DB;
 
 class HomeController extends Controller
@@ -65,6 +67,7 @@ class HomeController extends Controller
             ->where('team', $team)
             ->orderBy('lastname', 'asc')
             ->get();
+
             return view('pages.dashboard')
             ->with([
                 'teamMembers' => $teamMembers,

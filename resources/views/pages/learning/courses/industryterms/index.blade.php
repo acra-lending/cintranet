@@ -2953,7 +2953,7 @@
                                                     <div id="collapse159" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading159">
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
-                                                            Works as the liaison between the Broker and the Account Executive gathering the conditions and verifying that they meet the Underwriters request. Works to move the loan to the next status, Docs/Funding. 
+                                                            CSC team member, who acts as the liaison between the Broker / Account Executive and our internal OPS teams. Responsible for gathering the conditions and verifying that they meet the Underwriter’s request. Receives the file AFTER it is decisioned by Underwriting and is the primary contact throughout the file flow process. Works pipeline to move files to Docs/Funding.
                                                         </p>
                                                     </div>
                                                     </div>

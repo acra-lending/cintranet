@@ -62,7 +62,7 @@
                                                             {{ Form::label('category_id[]', 'Category (hold ctrl for multiple)')}}
                                                             {{ Form::select('category_id[]', [
                                                                 'Operations' => [
-                                                                    'deptContacts' => 'Department Contacts',
+                                                                    'deptContacts'  => 'Department Contacts',
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',
