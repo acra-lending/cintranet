@@ -164,6 +164,7 @@
         <!-- /.row --> --}}
         <div class="row">
           <div class="col-lg-5">
+            <!-- Quote Of The Day -->
             <div class="card card-danger card-outline">
               <div class="card-header">
                 <h3 class="card-title">
@@ -173,6 +174,38 @@
               </div>
               <div class="card-body pt-0" id="quote">
                 <script type="text/javascript" src="https://www.brainyquote.com/link/quotebr.js"></script>
+              </div>
+            </div>
+            <!-- Production Quick Links -->
+            <div class="card card-danger card-outline">
+              <div class="card-header">
+              <h3 class="card-title">
+                <i class="nav-icon fas fa-business-time"></i>
+                  Production Quick Links
+              </h3>
+              </div>
+              
+              <div class="card-body">
+                <div class="container d-flex" style="align-items: center; justify-content: space-between;">
+                  <div style="text-align: center;">
+                    <a href="sales/ratesheets">
+                      <p>Rate Sheets</p>
+                      <i class="fas fa-table" style="font-size: 32pt;"></i>
+                    </a>
+                  </div>
+                  <div style="text-align: center;">
+                    <a href="https://citadelservicing.com/wp-content/uploads/2020/TurnTimes/csc-production-turntimes.pdf" target="_blank">
+                      <p>Turn Times</p>
+                      <i class="fas fa-history" style="font-size: 32pt;"></i>
+                    </a>
+                  </div>
+                  <div style="text-align: center;">
+                    <a href="https://citadelservicing.com/wp-content/uploads/2020/CutOffDates/csc-production-cutoff.pdf" target="_blank">
+                      <p>Cut Off Dates</p>
+                      <i class="fas fa-calendar-week" style="font-size: 32pt;"></i>
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
             <!-- Map card -->
@@ -241,38 +274,6 @@
               <div class="card-body pt-0">
                 <!--The calendar -->
                 <div id="dashboardCalendar" style="width: 100%"></div>
-              </div>
-            </div>
-            <!-- HR Quick Links -->
-            <div class="card card-danger card-outline">
-              <div class="card-header">
-              <h3 class="card-title">
-                <i class="nav-icon fas fa-business-time"></i>
-                  Production Quick Links
-              </h3>
-              </div>
-              
-              <div class="card-body">
-                <div class="container d-flex" style="align-items: center; justify-content: space-between;">
-                  <div style="text-align: center;">
-                    <a href="sales/ratesheets">
-                      <p>Rate Sheets</p>
-                      <i class="fas fa-table" style="font-size: 32pt;"></i>
-                    </a>
-                  </div>
-                  <div style="text-align: center;">
-                    <a href="https://citadelservicing.com/wp-content/uploads/2020/TurnTimes/csc-production-turntimes.pdf" target="_blank">
-                      <p>Turn Times</p>
-                      <i class="fas fa-history" style="font-size: 32pt;"></i>
-                    </a>
-                  </div>
-                  <div style="text-align: center;">
-                    <a href="https://citadelservicing.com/wp-content/uploads/2020/CutOffDates/csc-production-cutoff.pdf" target="_blank">
-                      <p>Cut Off Dates</p>
-                      <i class="fas fa-calendar-week" style="font-size: 32pt;"></i>
-                    </a>
-                  </div>
-                </div>
               </div>
             </div>
 

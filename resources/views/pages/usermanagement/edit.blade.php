@@ -130,8 +130,10 @@
               </div>
 
               <div class="form-group">
+                @can('manage-users')
                 {{ Form::label('Profile Picture ') }}
                 {{ Form::file('avatar') }}
+                @endcan
                 <button type="submit" class="btn btn-primary float-right">Update</button>
             </div>
 

@@ -115,7 +115,7 @@
                                   </thead>
                                   <tbody>
                                     
-                                    @foreach($wsOmbsvoe as $category)
+                                    @foreach($wsOmbsvoeAE as $category)
                                       <tr>
                                       <td>{{$category->filename}}</td>
                                       <td>{{($category->filesize)}} KB</td>
@@ -163,7 +163,7 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    @foreach($wsNonprime as $category)
+                                    @foreach($wsNonprimeAE as $category)
           
                                       <tr>
                                       <td>{{$category->filename}}</td>
@@ -211,7 +211,7 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    @foreach($wsOdf as $category)
+                                    @foreach($wsOdfAE as $category)
                                       <tr>
                                       <td>{{$category->filename}}</td>
                                       <td>{{($category->filesize)}} KB</td>
@@ -258,7 +258,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      @foreach($wsOdfPlus as $category)
+                                      @foreach($wsOdfPlusAE as $category)
                                         <tr>
                                         <td>{{$category->filename}}</td>
                                         <td>{{($category->filesize)}} KB</td>
@@ -643,7 +643,7 @@
                                   </thead>
                                   <tbody>
                                     
-                                    @foreach($wsOmbsvoe_past as $category)
+                                    @foreach($wsOmbsvoeAE_past as $category)
                                       <tr>
                                       <td>{{$category->filename}}</td>
                                       <td>{{$category->filesize}} KB</td>
@@ -692,7 +692,7 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    @foreach($wsNonprime_past as $category)
+                                    @foreach($wsNonprimeAE_past as $category)
           
                                       <tr>
                                       <td>{{$category->filename}}</td>
@@ -740,7 +740,7 @@
                                       </tr>
                                   </thead>
                                   <tbody>
-                                    @foreach($wsOdf_past as $category)
+                                    @foreach($wsOdfAE_past as $category)
                                       <tr>
                                       <td>{{$category->filename}}</td>
                                       <td>{{($category->filesize)}} KB</td>
@@ -787,7 +787,7 @@
                                         </tr>
                                     </thead>
                                     <tbody>
-                                      @foreach($wsOdfPlus_past as $category)
+                                      @foreach($wsOdfPlusAE_past as $category)
                                         <tr>
                                         <td>{{$category->filename}}</td>
                                         <td>{{($category->filesize)}} KB</td>
@@ -822,6 +822,8 @@
               </div>
               <!-- /.card -->
             </div>
+            <br>
+            <br>
           </div>
           </section>
     </div>

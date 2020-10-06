@@ -144,12 +144,12 @@
                                                                         'uwVideos'          => 'Videos',
                                                                     ]
                                                                 ],
-                                                                'Ratesheets' => [
+                                                                'Ratesheets AE' => [
                                                                     'Wholesale' => [
-                                                                        'wsOmbsvoe'     => 'OMBS & VOE', 
-                                                                        'wsNonprime'    => 'Non-Prime Wholesale', 
-                                                                        'wsOdf'         => 'Outside Dodd-Frank', 
-                                                                        'wsOdfPlus'     => 'Outside Dodd-Frank Plus'
+                                                                        'wsOmbsvoeAE'     => 'OMBS & VOE', 
+                                                                        'wsNonprimeAE'    => 'Non-Prime Wholesale', 
+                                                                        'wsOdfAE'         => 'Outside Dodd-Frank', 
+                                                                        'wsOdfPlusAE'     => 'Outside Dodd-Frank Plus'
                                                                     ],
                                                                     'Correspondent' => [
                                                                         'PDF' => [
