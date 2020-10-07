@@ -377,6 +377,24 @@
                                                         </p>
                                                     </div>
                                                     </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading266">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse266" aria-expanded="true" aria-controls="collapse266">
+                                                            Bankruptcy
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse266" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading266">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A individual or entity who is insolvent; unable to pay outstanding obligations. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading p-0 mb-0" role="tab" id="heading17">
                                                     <h5 class="panel-title">
@@ -488,6 +506,23 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading262">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse262" aria-expanded="true" aria-controls="collapse262">
+                                                            C6 / Appraisal Condition
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse262" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading262">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            The improvements have substantial damage or deferred maintenance with deficiencies or defects that are severe enough to affect the safety, soundness, or structural integrity of the improvements. The improvements are in need of substantial repairs and rehabilitation, including man or most major components.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
                                                     <div class="panel-heading p-0 mb-0" role="tab" id="heading23">
                                                     <h5 class="panel-title">
                                                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse23" aria-expanded="true" aria-controls="collapse23">
@@ -519,6 +554,23 @@
                                                             The amount of cash derived over a certain period of time from an income producing
                                                             property. The cash flow should be large enough to pay the expenses of the income
                                                             producing property (mortgage payment maintenance utilities etc...).
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading269">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse269" aria-expanded="true" aria-controls="collapse269">
+                                                            Cash Out Refi
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse269" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading269">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Refinance of a home with removal of the existing equity. 
                                                         </p>
                                                     </div>
                                                     </div>
@@ -572,6 +624,57 @@
                                                         <p>
                                                             The frequency (in months) of payment and/or interest rate changes in an adjustable rate
                                                             mortgage (ARM).
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading263">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse263" aria-expanded="true" aria-controls="collapse263">
+                                                            Chapter 7 Bankruptcy
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse263" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading263">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Chapter 7 of Title 11 in the U.S. bankruptcy code controls the process of asset liquidation. A bankruptcy trustee is appointed to liquidate nonexempt assets to pay creditors; after the proceeds are exhausted, the remaining debt is discharged. There are eligibility requirements to file Chapter 7, such as the debtor must have had no Chapter 7 bankruptcy discharged in the preceding eight years and the applicant must pass a means test. This process is also known as “straight” or “liquidation” bankruptcy. Chapter 7 is utilized when an individual claims inability repay any outstanding debts. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading264">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse264" aria-expanded="true" aria-controls="collapse264">
+                                                            Chapter 11 Bankruptcy
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse264" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading264">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            This chapter of the Bankruptcy Code generally provides for reorganization, usually involving a corporation or partnership. A Chapter 11 debtor usually proposes a plan of reorganization to keep its business alive and pay creditors over time. People in business or individuals can also seek relief in Chapter 11.This bankruptcy is in which a business declares ability to repay debts at a reduced rate of interest for an extended period of time. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading265">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse265" aria-expanded="true" aria-controls="collapse265">
+                                                            Chapter 13 Bankruptcy
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse265" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading265">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A Chapter 13 bankruptcy is also called a wage earner's plan. It enables individuals with regular income to develop a plan to repay all or part of their debts. Under this chapter, debtors propose a repayment plan to make installments to creditors over three to five years. If the debtor's current monthly income is less than the applicable state median, the plan will be for three years unless the court approves a longer period "for cause." If the debtor's current monthly income is greater than the applicable state median, the plan generally must be for five years. In no case may a plan provide for payments over a period longer than five years. Chapter 13 bankruptcy allows an individual to repay debt at a reduced rate of interest for an extended period of time.
                                                         </p>
                                                     </div>
                                                     </div>
@@ -631,6 +734,22 @@
                                                         <p>
                                                             A settlement agent is also referred to as a closing agent. The closing agent's role is to make sure all parties involved receive required documents during a mortgage loan closing. They provide escrow instructions to third parties like real estate agents, to receive funds such as fees and commissions.
                                                         </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading268">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse268" aria-expanded="true" aria-controls="collapse268">
+                                                            Condotels
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse268" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading268">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A condotel is a condominium project that is operated as a hotel with a registration desk, cleaning service and more. The units are typically individually owned. Unit owners also have the option to place their unit in the hotel's rental program where it is rented out like any other hotel room to paying guests. Usually, a condo space in a resort area. 
                                                     </div>
                                                     </div>
                                                 </div>
@@ -703,6 +822,23 @@
                                                             A provision in an ARM allowing the loan to be converted to a fixed-rate at some point
                                                             during the term. Usually conversion is allowed at the end of the first adjustment period.
                                                             The conversion feature may cost extra.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading267">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse267" aria-expanded="true" aria-controls="collapse267">
+                                                            Co-op
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse267" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading267">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A housing cooperative or "co-op" is a type of residential housing option that is actually a corporation whereby the owners do not own their units outright. Instead, each resident is a shareholder in the corporation based in part on the relative size of the unit that they live in. this type of cooperative requires permission from and Executive Counsel.
                                                         </p>
                                                     </div>
                                                     </div>
@@ -1991,6 +2127,40 @@
                                                     </div>
                                                 </div>
                                                 <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading271">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse271" aria-expanded="true" aria-controls="collapse271">
+                                                            Mello-Roos
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse271" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading271">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A Mello-Roos is an ad hoc California tax district created to finance an infrastructure project. A district may be created only with the approval of two-thirds of voters and permits a special tax to be assessed on its residents. The state law allowing such districts was implemented in 1982 as a way for local governments to bypass the state's 1978 cap on property tax increases. These are infrastructure payments utilized for Schools, roads, utilities, etc. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading270">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse270" aria-expanded="true" aria-controls="collapse270">
+                                                            Module Home
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse270" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading270">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A modular home is simply a home built offsite, in an indoor factory setting, to a local state code. In most cases, states have adopted the International Residential Code, or IRC. These homes are often called “factory-built,” “systems-built” or “prefab homes.” Since they are factory made, there are no wheels. 
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
                                                     <div class="panel-heading p-0 mb-0" role="tab" id="heading106">
                                                     <h5 class="panel-title">
                                                         <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse106" aria-expanded="true" aria-controls="collapse106">
@@ -2112,6 +2282,23 @@
                                                             When your monthly payments are not large enough to pay all the interest due on the
                                                             loan. This unpaid interest is added to the unpaid balance of the loan. The homebuyer
                                                             ends up owing more than the original amount of the loan.     
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading272">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse272" aria-expanded="true" aria-controls="collapse272">
+                                                            NOO
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+                                                    <div id="collapse272" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading272">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            Non Owner Occupied property    
                                                         </p>
                                                     </div>
                                                     </div>
@@ -2271,6 +2458,23 @@
                                                     <div class="panel-body px-3 mb-4">
                                                         <p>
                                                             Principal interest taxes and insurance. Also called monthly housing expense.
+                                                        </p>
+                                                    </div>
+                                                    </div>
+                                                </div>
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading p-0 mb-0" role="tab" id="heading273">
+                                                    <h5 class="panel-title">
+                                                        <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse273" aria-expanded="true" aria-controls="collapse273">
+                                                            Planned Unit Development (PUD)
+                                                        </a>
+                                                    </h5>
+                                                    <hr class="p-0"/>
+                                                    </div>
+{{-- Last Number --}}                               <div id="collapse273" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading273">
+                                                    <div class="panel-body px-3 mb-4">
+                                                        <p>
+                                                            A planned unit development (PUD) is a type of building development and also a regulatory process. As a building development, it is a designed grouping of both varied and compatible land uses, such as housing, recreation, commercial centers, and industrial parks, all within one contained development or subdivision.
                                                         </p>
                                                     </div>
                                                     </div>
