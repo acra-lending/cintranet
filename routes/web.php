@@ -67,6 +67,8 @@ Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 //Operations
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
+Route::get('operations/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
+Route::post('operations/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 
 //Servicing
 Route::get('servicing/servicing', 'ServicingDocsController@index')->middleware('auth');
