@@ -84,7 +84,7 @@
                                                         </div>
                                                     </div>
                                                     <div class="col-sm-12 col-md-6 col-lg-6">
-                                                        <div class="form-group">
+                                                        <div class="form-group required">
                                                             <label class="control-label" for="company">Company</label>
                                                             <input type="text" class="form-control" name="company" id="company" placeholder="" required>
                                                         </div>
@@ -95,6 +95,17 @@
                                                         <div class="form-group required">
                                                             <label class="control-label" for="nmlsid">NMLS ID</label>
                                                             <input type="text" class="form-control" name="nmlsid" id="nmlsid" placeholder="" required>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-12 col-md-6 col-lg-6">
+                                                        <div class="form-group required">
+                                                            <label class="control-label" for="selectType" required>Select Type</label>
+                                                            <div>
+                                                                <select class="form-control" name="selectType">
+                                                                    <option value="Broker">Broker</option>
+                                                                    <option value="Correspondent">Correspondent</option>
+                                                                </select>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>

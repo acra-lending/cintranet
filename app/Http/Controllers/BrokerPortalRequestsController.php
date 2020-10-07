@@ -26,6 +26,7 @@ class BrokerPortalRequestsController extends Controller
             'email'             => 'required|email',
             'company'           => 'required',
             'nmlsid'            => 'required',
+            'selectType'        => 'required',
             'specialInstructions'   => 'nullable|max:500',
             'submittedBy'           => 'required',
             'email2'                => 'required|email',

@@ -12,6 +12,7 @@
 <strong>Email:</strong> {{ $data['email'] }}<br/>
 <strong>Company:</strong> {{ $data['company'] }}<br/>
 <strong>NMLS ID:</strong> {{ $data['nmlsid'] }}<br/>
+<strong>Type:</strong> {{ $data['selectType'] }}<br/>
 
 <hr/>
 
