@@ -251,6 +251,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/operations/usefullinks" class="nav-link {{ Request::path() === 'operations/usefullinks' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Useful Links</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             
             <li class="nav-item has-treeview {{ Request::is('sales/*') ? 'menu-open': ''}}">

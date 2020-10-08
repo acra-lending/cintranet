@@ -69,6 +69,7 @@ Route::get('operations/daily', function(){return view('pages.operations.daily');
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 Route::get('operations/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('operations/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
+Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
 
 //Servicing
 Route::get('servicing/servicing', 'ServicingDocsController@index')->middleware('auth');

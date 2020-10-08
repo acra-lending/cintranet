@@ -205,6 +205,12 @@
                       <i class="fas fa-calendar-week" style="font-size: 32pt;"></i>
                     </a>
                   </div>
+                  <div style="text-align: center;">
+                    <a href="/operations/usefullinks">
+                      <p>Useful Links</p>
+                      <i class="fas fa-link" style="font-size: 32pt;"></i>
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
