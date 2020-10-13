@@ -110,4 +110,9 @@ Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('au
 Route::post('infotech/issues', 'ITSupportController@submitIssues')->middleware('auth');
 Route::post('infotech/requests', 'ITSupportController@submitRequests')->middleware('auth');
 
+//Excel Export
+Route::get('/export', 'DirectoryExportController@export')->middleware('auth');
+Route::get('/usermanagement/exports', 'DirectoryListController@index')->middleware('auth');
+
+
 

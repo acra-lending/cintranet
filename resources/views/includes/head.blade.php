@@ -7,7 +7,7 @@
 <!-- Favicon -->
 <link rel="icon" href="{{ asset ('icons/favicon-16x16.png') }}" type="image/x-icon">
 <!-- Pace Loader -->
-<link rel="stylesheet" href="{{ asset ('plugins/pace/css/pace.css') }}">
+{{-- <link rel="stylesheet" href="{{ asset ('plugins/pace/css/pace.css') }}"> --}}
 <!-- Font Awesome Icons -->
 <link rel="stylesheet" href="{{ asset ('plugins/fontawesome-free/css/all.min.css') }}">
 <!-- IonIcons -->
