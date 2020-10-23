@@ -37,7 +37,7 @@ class EmployeeStatusReportController extends Controller
         $post->body = $request->input('body');
         $post->save();
 
-        return redirect ('/employee/statusreport')
+        return redirect ('/employee/outofoffice')
             ->with('success', 'List Submitted');
     }
 }
