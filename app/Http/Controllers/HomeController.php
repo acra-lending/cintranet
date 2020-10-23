@@ -8,6 +8,7 @@ use App\User;
 use App\Announcement;
 use App\Event;
 use App\Post;
+use App\StatusReport;
 use Illuminate\Support\Facades\Storage;
 use DB;
 
@@ -35,6 +36,11 @@ class HomeController extends Controller
         $name = auth()->user()->name;
         $email = auth()->user()->email;
         $first_name = explode(' ', trim($name))[0];
+
+        //Employee Daily Status Report
+        $dailyStatus = StatusReport::orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
 
 
         // Announcements
@@ -74,6 +80,7 @@ class HomeController extends Controller
                 'first_name' => $first_name,
                 'posts' => $posts,
                 'events' => $events,
+                'dailyStatus' => $dailyStatus,
             ]);
         }
         
@@ -82,6 +89,7 @@ class HomeController extends Controller
             'first_name'    => $first_name,
             'posts'         => $posts,
             'events'        => $events,
+            'dailyStatus'   => $dailyStatus,
         ]);
     }
 }

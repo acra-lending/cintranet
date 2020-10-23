@@ -86,9 +86,11 @@ Route::get('humanresources/stateposters', 'StatePostersController@index')->middl
 //Employee Status
 Route::get('employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
 Route::get('employee/statuschange', 'EmployeeStatusChangeController@index')->middleware('auth');
+Route::get('employee/outofoffice', 'EmployeeStatusReportController@create')->middleware('auth');
 Route::get('employee/termination', 'EmployeeTerminationController@index')->middleware('auth');
 Route::post('employee/newhire', 'EmployeeNewHireController@submit')->middleware('auth');
 Route::post('employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
+Route::post('employee/outofoffice', 'EmployeeStatusReportController@store')->middleware('auth');
 Route::post('employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
 
 //File Upload

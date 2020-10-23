@@ -88,6 +88,11 @@ class User extends Authenticatable
         return $this->hasMany('App\announcementFile');
     }
 
+    public function statusreports()
+    {
+        return $this->hasMany('App\StatusReport');
+    }
+
 
     /**
      * Send the password reset notification.
