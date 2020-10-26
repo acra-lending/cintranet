@@ -201,8 +201,9 @@ class UsersController extends Controller
         }
 
         $user->roles()->detach();
+        DB::table('s2zar_jsn_users')->where('id', '=', $user->id)->delete();
         $user->delete();
 
-        return redirect()->route('admin.user.index');
+        return redirect()->route('admin.user.index')->with('success', 'User Deleted');
     }
 }
