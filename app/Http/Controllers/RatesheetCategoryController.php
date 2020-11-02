@@ -87,6 +87,29 @@ class RatesheetCategoryController extends Controller
                                     ->limit(1)
                                     ->get();
         
+        //Correspondent Past Ratesheets
+        $corrOmbsvoePdf_past   = Post::whereRaw("find_in_set('corrOmbsvoePdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    // ->skip(1)
+                                    ->take(10)
+                                    ->get();
+        $corrNonprimePdf_past  = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->skip(1)
+                                    ->take(10)
+                                    ->get();
+        $corrOdfPdf_past       = Post::whereRaw("find_in_set('corrOdfPdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    // ->skip(1)
+                                    ->take(10)
+                                    ->get();
+        $corrOdfPlusPdf_past   = Post::whereRaw("find_in_set('corrOdfPlusPdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    // ->skip(1)
+                                    ->take(10)
+                                    ->get();
+        
+        
         return view('pages.sales.ratesheets')
                 ->with([
                     'wsOmbsvoeAE'         => $wsOmbsvoeAE,
@@ -105,6 +128,10 @@ class RatesheetCategoryController extends Controller
                     'corrNonprimeXlsx'  => $corrNonprimeXlsx,
                     'corrOdfXlsx'       => $corrOdfXlsx,
                     'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
+                    'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,
+                    'corrNonprimePdf_past'  => $corrNonprimePdf_past,
+                    'corrOdfPdf_past'       => $corrOdfPdf_past,
+                    'corrOdfPlusPdf_past'   => $corrOdfPlusPdf_past,
                 ]);
     }
     

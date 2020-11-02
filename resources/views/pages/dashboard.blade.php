@@ -323,16 +323,8 @@
               <div class="row">
                 <div class="col-6">
                   <div class="callout callout-primary">
-                    <a href="https://goo.gl/maps/8E2WGdW1a7SWEkrE8" target="_blank" style="text-decoration: none; color:#AB2328">
-                      <h6>Head Office</h6>
-                    </a>  
-                    <p class="m-0"style="font-size: 10.5pt;">15707 Rockfield Blvd.<br>Suite 320<br>Irvine CA 92618</p> 
-                  </div>
-                </div>
-                <div class="col-6">
-                  <div class="callout callout-primary">
                     <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none; color:#AB2328">
-                      <h6>Lake Forest Office</h6>
+                      <h6>Head Office</h6>
                     </a>  
                     <p class="m-0"style="font-size: 10.5pt;">25541 Commercentre Dr.<br>Suite 250<br>Lake Forest, CA 92630</p> 
                   </div>
