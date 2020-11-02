@@ -326,7 +326,7 @@
                     <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none; color:#AB2328">
                       <h6>Head Office</h6>
                     </a>  
-                    <p class="m-0"style="font-size: 10.5pt;">25541 Commercentre Dr.<br>Suite 250<br>Lake Forest, CA 92630</p> 
+                    <p class="m-0"style="font-size: 10.5pt;">25531 Commercentre Dr.<br>Suite 160<br>Lake Forest, CA 92630</p> 
                   </div>
                 </div>
               </div>
