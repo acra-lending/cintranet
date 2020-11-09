@@ -86,6 +86,7 @@
                     <div class="col-sm-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         {{-- <a class="nav-link active" id="vert-tabs-ombs-tab" data-toggle="pill" href="#vert-tabs-ombs" role="tab" aria-controls="vert-tabs-ombs" aria-selected="true">OMBS & VOE</a> --}}
+                        <a class="nav-link" id="vert-tabs-3mbs-tab" data-toggle="pill" href="#vert-tabs-3mbs" role="tab" aria-controls="vert-tabs-3mbs" aria-selected="false">3MBS</a>
                         <a class="nav-link active" id="vert-tabs-non-prime-ws-tab" data-toggle="pill" href="#vert-tabs-non-prime-ws" role="tab" aria-controls="vert-tabs-non-prime-ws" aria-selected="false">Non-Prime Wholesale</a>
                         {{-- <a class="nav-link" id="vert-tabs-odf-tab" data-toggle="pill" href="#vert-tabs-odf" role="tab" aria-controls="vert-tabs-odf" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-tab" data-toggle="pill" href="#vert-tabs-odfplus" role="tab" aria-controls="vert-tabs-odfplus" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a> --}}
@@ -137,6 +138,54 @@
                                       </tr>
                                       @endforeach
                                                                            
+                                  </tbody>
+                                  </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-3mbs" role="tabpanel" aria-labelledby="vert-tabs-3mbs-tab">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">3-Month Bank Statement</h3>
+                                <div class="card-tools">
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                      <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    @foreach($ws3mbsAE as $category)
+          
+                                      <tr>
+                                      <td>{{$category->filename}}</td>
+                                      <td>{{($category->filesize)}} KB</td>
+                                      <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                      <td class="text-right py-0 align-middle">
+                                        <div class="btn-group btn-group-sm">
+                                          <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          @can('edit-users')
+                                          <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                          @endcan
+                                          <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                          @can('delete-users')
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                          @endcan
+                                        </div>
+                                      </td>
+                                      </tr>
+                                  @endforeach
                                   </tbody>
                                   </table>
                               </div>
@@ -308,6 +357,7 @@
                     <div class="col-sm-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         {{-- <a class="nav-link active" id="vert-tabs-ombs-corr-tab" data-toggle="pill" href="#vert-tabs-ombs-corr" role="tab" aria-controls="vert-tabs-ombs_corr" aria-selected="true">OMBS & VOE</a> --}}
+                        <a class="nav-link" id="vert-tabs-3mbs-corr-tab" data-toggle="pill" href="#vert-tabs-3mbs-corr" role="tab" aria-controls="vert-tabs-3mbs-corr" aria-selected="false">3MBS</a>
                         <a class="nav-link active" id="vert-tabs-non-prime-corr-tab" data-toggle="pill" href="#vert-tabs-non-prime-corr" role="tab" aria-controls="vert-tabs-non-prime-corr" aria-selected="false">Non-Prime Wholesale</a>
                         {{-- <a class="nav-link" id="vert-tabs-odf-corr-tab" data-toggle="pill" href="#vert-tabs-odf-corr" role="tab" aria-controls="vert-tabs-odf-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-corr-tab" data-toggle="pill" href="#vert-tabs-odfplus-corr" role="tab" aria-controls="vert-tabs-odfplus-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a> --}}
@@ -380,6 +430,75 @@
                                       </tr>
                                       @endforeach
                                      
+                                  </tbody>
+                                  </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-3mbs-corr" role="tabpanel" aria-labelledby="vert-tabs-3mbs-corr-tab">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">3-Month Bank Statement</h3>
+                                <div class="card-tools">
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                      <th>File Name</th>
+                                      <th>File Size</th>
+                                      <th>Created At</th>
+                                      <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    @foreach($corr3mbsPdf as $category)
+          
+                                      <tr>
+                                      <td>{{$category->filename}}</td>
+                                      <td>{{($category->filesize)}} KB</td>
+                                      <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                      <td class="text-right py-0 align-middle">
+                                        <div class="btn-group btn-group-sm">
+                                          <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          @can('edit-users')
+                                          <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                          @endcan
+                                          <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                          @can('delete-users')
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                          @endcan
+                                        </div>
+                                      </td>
+                                      </tr>
+                                  @endforeach
+                                  @foreach($corr3mbsXlsx as $category)
+                                  <tr>
+                                  <td>{{$category->filename}}</td>
+                                  <td>{{$category->filesize}} KB</td>
+                                  <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                  <td class="text-right py-0 align-middle">
+                                    <div class="btn-group btn-group-sm">
+                                      <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                      @can('edit-users')
+                                      <a href="/download/{{$category->id}}/edit" class="btn btn-warning"><i class="fas fa-edit"></i></a>
+                                      @endcan
+                                      <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                      @can('delete-users')
+                                      {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                        {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                      {{ Form::close()}}
+                                      @endcan
+                                    </div>
+                                  </td>
+                                  </tr>
+                                  @endforeach
                                   </tbody>
                                   </table>
                               </div>
@@ -614,6 +733,7 @@
                     <div class="col-sm-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="vert-tabs-ombs-tab_past" data-toggle="pill" href="#vert-tabs-ombs_past" role="tab" aria-controls="vert-tabs-ombs_past" aria-selected="true">OMBS & VOE</a>
+                        <a class="nav-link" id="vert-tabs-3mbs-tab_past" data-toggle="pill" href="#vert-tabs-3mbs_past" role="tab" aria-controls="vert-tabs-3mbs_past" aria-selected="false">3MBS</a>
                         <a class="nav-link" id="vert-tabs-non-prime-ws-tab_past" data-toggle="pill" href="#vert-tabs-non-prime-ws_past" role="tab" aria-controls="vert-tabs-non-prime-ws_past" aria-selected="false">Non-Prime Wholesale</a>
                         <a class="nav-link" id="vert-tabs-odf-tab_past" data-toggle="pill" href="#vert-tabs-odf_past" role="tab" aria-controls="vert-tabs-odf_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-tab_past" data-toggle="pill" href="#vert-tabs-odfplus_past" role="tab" aria-controls="vert-tabs-odfplus_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a>
@@ -665,6 +785,55 @@
                                       </tr>
                                       @endforeach
                                      
+                                  </tbody>
+                                  </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-3mbs_past" role="tabpanel" aria-labelledby="vert-tabs-3mbs-tab_past">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">3-Month Bank Statement</h3>
+                                <div class="card-tools">
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                      <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    @foreach($ws3mbsAE_past as $category)
+          
+                                      <tr>
+                                      <td>{{$category->filename}}</td>
+                                      <td>{{($category->filesize)}} KB</td>
+                                      <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                      <td class="text-right py-0 align-middle">
+                                        <div class="btn-group btn-group-sm">
+                                          <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          @can('edit-users')
+                                          <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                          @endcan
+                                          <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                          @can('delete-users')
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                          @endcan
+                                        </div>
+                                      </td>
+                                      </tr>
+                                  @endforeach
                                   </tbody>
                                   </table>
                               </div>
@@ -836,6 +1005,7 @@
                     <div class="col-sm-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="vert-tabs-ombs-corr-tab_past" data-toggle="pill" href="#vert-tabs-ombs-corr_past" role="tab" aria-controls="vert-tabs-ombs-corr_past" aria-selected="true">OMBS & VOE</a>
+                        <a class="nav-link" id="vert-tabs-3mbs-corr-tab_past" data-toggle="pill" href="#vert-tabs-3mbs-corr_past" role="tab" aria-controls="vert-tabs-3mbs-corr_past" aria-selected="false">3MBS</a>
                         <a class="nav-link" id="vert-tabs-non-prime-corr-tab_past" data-toggle="pill" href="#vert-tabs-non-prime-corr_past" role="tab" aria-controls="vert-tabs-non-prime-corr_past" aria-selected="false">Non-Prime Wholesale</a>
                         <a class="nav-link" id="vert-tabs-odf-corr-tab_past" data-toggle="pill" href="#vert-tabs-odf-corr_past" role="tab" aria-controls="vert-tabs-odf-corr_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-corr-tab_past" data-toggle="pill" href="#vert-tabs-odfplus-corr_past" role="tab" aria-controls="vert-tabs-odfplus-corr_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a>
@@ -887,6 +1057,55 @@
                                       </tr>
                                       @endforeach
                                      
+                                  </tbody>
+                                  </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-3mbs-corr_past" role="tabpanel" aria-labelledby="vert-tabs-3mbs-corr-tab_past">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">3-Month Bank Statement</h3>
+                                <div class="card-tools">
+                                  </a>
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      <tr>
+                                        <th>File Name</th>
+                                        <th>File Size</th>
+                                        <th>Created At</th>
+                                      <th></th>
+                                      </tr>
+                                  </thead>
+                                  <tbody>
+                                    @foreach($corr3mbsPdf_past as $category)
+          
+                                      <tr>
+                                      <td>{{$category->filename}}</td>
+                                      <td>{{($category->filesize)}} KB</td>
+                                      <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                      <td class="text-right py-0 align-middle">
+                                        <div class="btn-group btn-group-sm">
+                                          <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                          @can('edit-users')
+                                          <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                          @endcan
+                                          <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                          @can('delete-users')
+                                          {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                          {{ Form::close()}}
+                                          @endcan
+                                        </div>
+                                      </td>
+                                      </tr>
+                                  @endforeach
                                   </tbody>
                                   </table>
                               </div>

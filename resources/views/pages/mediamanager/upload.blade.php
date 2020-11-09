@@ -147,6 +147,7 @@
                                                                 'Ratesheets AE' => [
                                                                     'Wholesale' => [
                                                                         'wsOmbsvoeAE'     => 'OMBS & VOE', 
+                                                                        'ws3mbsAE'        => '3-Month Bank Statement', 
                                                                         'wsNonprimeAE'    => 'Non-Prime Wholesale', 
                                                                         'wsOdfAE'         => 'Outside Dodd-Frank', 
                                                                         'wsOdfPlusAE'     => 'Outside Dodd-Frank Plus'
@@ -154,12 +155,14 @@
                                                                     'Correspondent' => [
                                                                         'PDF' => [
                                                                             'corrOmbsvoePdf'    => 'OMBS & VOE (PDF)', 
+                                                                            'corr3mbsPdf'       => '3-Month Bank Statement (PDF)', 
                                                                             'corrNonprimePdf'   => 'Non-Prime Wholesale (PDF)', 
                                                                             'corrOdfPdf'        => 'Outside Dodd-Frank (PDF)', 
                                                                             'corrOdfPlusPdf'    => 'Outside Dodd-Frank Plus (PDF)',
                                                                         ],
                                                                         'Excel' => [
                                                                             'corrOmbsvoeXlsx'   => 'OMBS & VOE (Excel)',
+                                                                            'corr3mbsXlsx'      => '3-Month Bank Statement (Excel)',
                                                                             'corrNonprimeXlsx'  => 'Non-Prime Wholesale (Excel)',
                                                                             'corrOdfXlsx'       => 'Outside Dodd-Frank (Excel)', 
                                                                             'corrOdfPlusXlsx'   => 'Outside Dodd-Frank Plus (Excel)'
