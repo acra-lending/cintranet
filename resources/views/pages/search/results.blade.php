@@ -96,6 +96,9 @@
                             <td class="cell-breakWord">{{$post->filename}}</td>
                             <td>{{$post->created_at}}</td>
                             <td>{{$post->updated_at }}</td>
+                            @can('manage-users')
+                            <td>{{$post->category_id }}</td>
+                            @endcan
                             <td>{{$post->filesize}} KB</td>
                             <td>
                               <a href="{{ route('show', $post->filename) }}" target="_blank"><button class="btn btn-outline-dark">Show</button></a>
