@@ -28,7 +28,7 @@ class DirectoryListController extends Controller
 
         $financialPlanning = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'LIKE',  '%Financial Planning%')
+        ->where('departments', 'LIKE',  '%Financial Planning & Analysis%')
         ->get();
 
         $learning = DB::table('s2zar_jsn_users')
@@ -91,9 +91,9 @@ class DirectoryListController extends Controller
         ->where('departments', 'LIKE',  '%Investor Reporting%')
         ->get();
 
-        $servicing = DB::table('s2zar_jsn_users')
+        $lossMitigation = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'LIKE',  '%Servicing Loss Mitigation%')
+        ->where('departments', 'LIKE',  '%Loss Mitigation%')
         ->get();
 
         $customerService = DB::table('s2zar_jsn_users')
@@ -121,14 +121,14 @@ class DirectoryListController extends Controller
         ->where('departments', 'LIKE',  '%Marketing%')
         ->get();
 
-        $salesWest = DB::table('s2zar_jsn_users')
+        $aeWest = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'LIKE',  '%Sales - West%')
+        ->where('departments', 'LIKE',  '%Account Executive - West%')
         ->get();
 
-        $salesEast = DB::table('s2zar_jsn_users')
+        $aeEast = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'LIKE',  '%Sales - East%')
+        ->where('departments', 'LIKE',  '%Account Executive - East%')
         ->get();
 
         $retail = DB::table('s2zar_jsn_users')
@@ -138,7 +138,7 @@ class DirectoryListController extends Controller
 
         $correspondent = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'LIKE',  '%Correspondent Conduit%')
+        ->where('departments', 'LIKE',  '%Correspondent%')
         ->get();
         
         return view('pages.usermanagement.exports')
@@ -156,17 +156,17 @@ class DirectoryListController extends Controller
             'transactionManagers'       => $transactionManagers,
             'loanSetUp'                 => $loanSetUp,
             'underwriters'              => $underwriters,
-            'valucationSpecialists'     => $valuationSpecialists,
+            'valuationSpecialists'      => $valuationSpecialists,
             'funders'                   => $funders,
             'investorReporting'         => $investorReporting,
-            'servicing'                 => $servicing,
+            'lossMitigation'            => $lossMitigation,
             'customerService'           => $customerService,
             'tax'                       => $tax,
             'servicingQA'               => $servicingQA,
             'shipping'                  => $shipping,
             'marketing'                 => $marketing,
-            'salesWest'                 => $salesWest,
-            'salesEast'                 => $salesEast,
+            'aeWest'                    => $aeWest,
+            'aeEast'                    => $aeEast,
             'retail'                    => $retail,
             'correspondent'             => $correspondent,
         ]);

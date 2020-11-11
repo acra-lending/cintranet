@@ -510,7 +510,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($valucationSpecialists as $department)
+              @foreach($valuationSpecialists as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
                 <td>{{$department->name}}</td>
@@ -603,7 +603,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($servicing as $department)
+              @foreach($lossMitigation as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
                 <td>{{$department->name}}</td>
@@ -789,7 +789,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($salesWest as $department)
+              @foreach($aeWest as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
                 <td>{{$department->name}}</td>
@@ -820,7 +820,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($salesEast as $department)
+              @foreach($aeEast as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
                 <td>{{$department->name}}</td>
