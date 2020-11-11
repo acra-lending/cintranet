@@ -33,7 +33,7 @@
                             <a href="/directory/directory" class="btn btn-dark mr-3">Reset</a>
                         </div>
                     </div>
-                    @can('edit-posts')
+                    @can('edit-users')
                     <div class="row float-right">
                         <div class="pt-3 mr-3">
                             <a href="/usermanagement/exports" class="btn btn-outline-danger mr-3">Directory List</a>

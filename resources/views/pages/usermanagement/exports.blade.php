@@ -89,7 +89,11 @@
               </tr>
             </tbody>
           </table>
-
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            Total results: {{$totalCount}} 
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center"><!-- loop through departments -->
                 <h3>Executives</h3>
@@ -121,6 +125,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$executivesCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Office Management</h3>
@@ -152,6 +161,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$officeManagementCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Accounting</h3>
@@ -183,6 +197,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$accountingCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Financial Planning & Analysis</h3>
@@ -214,6 +233,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$financialPlanningCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Learning & Development</h3>
@@ -245,6 +269,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$learningCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Compliance QC</h3>
@@ -276,6 +305,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$complianceQCCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Legal</h3>
@@ -307,6 +341,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$legalCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Capital Markets</h3>
@@ -338,6 +377,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$capitalMarketsCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Technology</h3>
@@ -369,6 +413,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$technologyCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Disclosures</h3>
@@ -400,6 +449,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$disclosuresCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Transaction Managers</h3>
@@ -431,6 +485,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$transactionManagersCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Loan Set Up</h3>
@@ -462,6 +521,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$loanSetUpCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Underwriters</h3>
@@ -493,6 +557,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$underwritersCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Valuation Specialists</h3>
@@ -524,6 +593,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$valuationSpecialistsCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Funders</h3>
@@ -555,6 +629,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$fundersCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Investor Reporting</h3>
@@ -586,6 +665,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$investorReportingCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Servicing / Loss Mitigation</h3>
@@ -617,6 +701,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$lossMitigationCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Customer Service</h3>
@@ -648,6 +737,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$customerServiceCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Tax & Insurance Department</h3>
@@ -679,6 +773,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$taxCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Servicing Quality Assurance</h3>
@@ -710,6 +809,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$servicingQACount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Shipping</h3>
@@ -741,6 +845,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$shippingCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Sales / Marketing</h3>
@@ -772,6 +881,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$marketingCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Account Executives - West Coast</h3>
@@ -803,6 +917,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$aeWestCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Account Executives - East Coast</h3>
@@ -834,6 +953,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$aeEastCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Retail</h3>
@@ -865,6 +989,11 @@
               @endforeach
             </tbody>
           </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$retailCount}} results
+            </div>
+          </div>
           <table class="table table-bordered">
             <div class="center">
                 <h3>Conduit / Correspondent</h3>
@@ -896,7 +1025,11 @@
               @endforeach
             </tbody>
           </table>
-
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$correspondentCount}} results
+            </div>
+          </div>
         </section>
       </div> <!-- end content-wrapper -->
 
