@@ -5,12 +5,17 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Directory;
 use App\User;
+use Gate;
 use DB;
 
 class DirectoryListController extends Controller
 {
     public function index()
     {
+        if(Gate::denies('edit-users')){
+            return redirect(route('home'));
+        }
+
         $executives = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('departments', 'Executives')
@@ -193,7 +198,7 @@ class DirectoryListController extends Controller
         ->get();
         $correspondentCount = $correspondent->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount;
+        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount;
     
         return view('pages.usermanagement.exports')
         ->with([

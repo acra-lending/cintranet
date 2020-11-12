@@ -58,7 +58,7 @@
             <tbody>
 
               <tr>
-                <td>{{Carbon\Carbon::now()->toFormattedDateString()}}</td>
+                <td>{{Carbon\Carbon::now('PST')->toFormattedDateString()}}</td>
                 <td> </td>
                 <td> </td>
                 <td>LossDraft@citadelservicing.com</td>
