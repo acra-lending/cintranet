@@ -197,7 +197,13 @@ class NumberOfEmployees extends Command
         ->get();
         $correspondentCount = $correspondent->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount;
+        $loanServicing = DB::table('s2zar_jsn_users')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->where('departments', 'Loan Servicing')
+        ->get();
+        $loanServicingCount = $loanServicing->count();
+
+        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
 
         $post = new NumberOfEmployee;
         $post->totalCount = $totalCount;
@@ -227,6 +233,7 @@ class NumberOfEmployees extends Command
         $post->aeEastCount = $aeEastCount;
         $post->retailCount = $retailCount;
         $post->correspondentCount = $correspondentCount;
+        $post->loanServicingCount = $loanServicingCount;
         $post->save();
     }
 }

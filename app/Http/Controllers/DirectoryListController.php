@@ -198,7 +198,14 @@ class DirectoryListController extends Controller
         ->get();
         $correspondentCount = $correspondent->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount;
+        $loanServicing = DB::table('s2zar_jsn_users')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->where('departments', 'Loan Servicing')
+        ->orderby('lastname', 'asc')
+        ->get();
+        $loanServicingCount = $loanServicing->count();
+
+        $totalCount = $executivesCount + $officeManagementCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
     
         return view('pages.usermanagement.exports')
         ->with([
@@ -254,6 +261,8 @@ class DirectoryListController extends Controller
             'retailCount'               => $retailCount,
             'correspondent'             => $correspondent,
             'correspondentCount'        => $correspondentCount,
+            'loanServicing'             => $loanServicing,
+            'loanServicingCount'        => $loanServicingCount,
             'totalCount'                => $totalCount,
 
         ]);

@@ -708,6 +708,42 @@
           </div>
           <table class="table table-bordered">
             <div class="center">
+                <h3>Loan Servicing</h3>
+            </div>
+
+            <thead>
+              <tr>
+                <th scope="col">Name</th>
+                <th scope="col">Position</th>
+                <th scope="col">Ext</th>
+                <th scope="col">Direct Number</th>
+                <th scope="col">Cell Number</th>
+                <th scope="col">Fax Number</th>
+                <th scope="col">Email</th>
+              </tr>
+            </thead>
+            <tbody>
+              @foreach($loanServicing as $department)
+              <tr><!-- if user->department equals departments -->
+                <!-- loop through users -->
+                <td>{{$department->name}}</td>
+                <td>{{$department->position}}</td>
+                <td>{{$department->extension}}</td>
+                <td>{{$department->directphone}}</td>
+                <td>{{$department->cell}}</td>
+                <td>{{$department->fax}}</td>
+                <td>{{$department->email}}</td>
+              </tr>
+              @endforeach
+            </tbody>
+          </table>
+          <div class="row">
+            <div class="col text-right text-muted pb-3">
+            {{$loanServicingCount}} results
+            </div>
+          </div>
+          <table class="table table-bordered">
+            <div class="center">
                 <h3>Customer Service</h3>
             </div>
 
