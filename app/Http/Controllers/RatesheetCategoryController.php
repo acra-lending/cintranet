@@ -113,7 +113,7 @@ class RatesheetCategoryController extends Controller
                                     ->get();
         $corr3mbsPdf_past      = Post::whereRaw("find_in_set('corr3mbsPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
-                                    // ->skip(1)
+                                    ->skip(1)
                                     ->take(10)
                                     ->get();
         $corrNonprimePdf_past  = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")

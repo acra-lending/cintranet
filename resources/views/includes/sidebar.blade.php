@@ -130,17 +130,33 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/humanresources/health" class="nav-link {{ Request::path() === 'humanresources/health' ? 'active': ''}}">
+                        <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/401k' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Health Plan</p>
+                            <p>401(k)</p>
                         </a>
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/humanresources/schedulesforms" class="nav-link {{ Request::path() === 'humanresources/schedulesforms' ? 'active': ''}}">
+                        <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Schedules & Forms</p>
+                            <p>Careers</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/humanresources/expensereport" class="nav-link {{ Request::path() === 'humanresources/expensereport' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Expense Reporting</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/humanresources/health" class="nav-link {{ Request::path() === 'humanresources/health' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Health Plan</p>
                         </a>
                     </li>
                 </ul>
@@ -154,9 +170,9 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/401k' ? 'active': ''}}">
+                        <a href="/humanresources/schedulesforms" class="nav-link {{ Request::path() === 'humanresources/schedulesforms' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>401(k)</p>
+                            <p>Schedules & Forms</p>
                         </a>
                     </li>
                 </ul>
@@ -176,14 +192,7 @@
                         </a>
                     </li>
                 </ul> --}}
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Careers</p>
-                        </a>
-                    </li>
-                </ul>
+
             </li>    
 
             @can('edit-posts')

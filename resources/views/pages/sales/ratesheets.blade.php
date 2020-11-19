@@ -358,7 +358,7 @@
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         {{-- <a class="nav-link active" id="vert-tabs-ombs-corr-tab" data-toggle="pill" href="#vert-tabs-ombs-corr" role="tab" aria-controls="vert-tabs-ombs_corr" aria-selected="true">OMBS & VOE</a> --}}
                         <a class="nav-link" id="vert-tabs-3mbs-corr-tab" data-toggle="pill" href="#vert-tabs-3mbs-corr" role="tab" aria-controls="vert-tabs-3mbs-corr" aria-selected="false">3MBS</a>
-                        <a class="nav-link active" id="vert-tabs-non-prime-corr-tab" data-toggle="pill" href="#vert-tabs-non-prime-corr" role="tab" aria-controls="vert-tabs-non-prime-corr" aria-selected="false">Non-Prime Wholesale</a>
+                        <a class="nav-link active" id="vert-tabs-non-prime-corr-tab" data-toggle="pill" href="#vert-tabs-non-prime-corr" role="tab" aria-controls="vert-tabs-non-prime-corr" aria-selected="false">Non-Prime Correspondent</a>
                         {{-- <a class="nav-link" id="vert-tabs-odf-corr-tab" data-toggle="pill" href="#vert-tabs-odf-corr" role="tab" aria-controls="vert-tabs-odf-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-corr-tab" data-toggle="pill" href="#vert-tabs-odfplus-corr" role="tab" aria-controls="vert-tabs-odfplus-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a> --}}
                       </div>
@@ -510,7 +510,7 @@
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">Non-Prime Wholesale</h3>
+                                <h3 class="card-title">Non-Prime Correspondent</h3>
                                 <div class="card-tools">
                                 </div>
                               </div>
@@ -1006,7 +1006,7 @@
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
                         <a class="nav-link active" id="vert-tabs-ombs-corr-tab_past" data-toggle="pill" href="#vert-tabs-ombs-corr_past" role="tab" aria-controls="vert-tabs-ombs-corr_past" aria-selected="true">OMBS & VOE</a>
                         <a class="nav-link" id="vert-tabs-3mbs-corr-tab_past" data-toggle="pill" href="#vert-tabs-3mbs-corr_past" role="tab" aria-controls="vert-tabs-3mbs-corr_past" aria-selected="false">3MBS</a>
-                        <a class="nav-link" id="vert-tabs-non-prime-corr-tab_past" data-toggle="pill" href="#vert-tabs-non-prime-corr_past" role="tab" aria-controls="vert-tabs-non-prime-corr_past" aria-selected="false">Non-Prime Wholesale</a>
+                        <a class="nav-link" id="vert-tabs-non-prime-corr-tab_past" data-toggle="pill" href="#vert-tabs-non-prime-corr_past" role="tab" aria-controls="vert-tabs-non-prime-corr_past" aria-selected="false">Non-Prime Correspondent</a>
                         <a class="nav-link" id="vert-tabs-odf-corr-tab_past" data-toggle="pill" href="#vert-tabs-odf-corr_past" role="tab" aria-controls="vert-tabs-odf-corr_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
                         <a class="nav-link" id="vert-tabs-odfplus-corr-tab_past" data-toggle="pill" href="#vert-tabs-odfplus-corr_past" role="tab" aria-controls="vert-tabs-odfplus-corr_past" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a>
                       </div>
@@ -1117,7 +1117,7 @@
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">Non-Prime Wholesale</h3>
+                                <h3 class="card-title">Non-Prime Correspondent</h3>
                                 <div class="card-tools">
                                   </a>
                                 </div>

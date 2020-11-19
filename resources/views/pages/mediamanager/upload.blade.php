@@ -219,17 +219,17 @@
                                                                     'servicingForeclosure'  => 'Foreclosure'
                                                                 ],
                                                                 'Human Resources' => [
-                                                                    'hrPaylocity'           => 'Paylocity',
-                                                                    'hrSchedules'           => 'Schedules',
-                                                                    'hrSuggestions'         => 'Suggestions and Referrals',
-                                                                    'hrNewHire'             => 'New Hire Forms and Notices',
-                                                                    'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
+                                                                    'hr401k'                => '401(k) Summary Booklet',
+                                                                    'hrBenefits'            => 'Benefits',
+                                                                    'hrExpenseReporting'    => 'Concur Expense Report Training',
+                                                                    'hrHealthPlanDocs'      => 'Health Plan Documents',
                                                                     'hrHealthTopics'        => 'Health Topics and Suggestions',
                                                                     'hrManagerTools'        => 'Manager Tools',
-                                                                    'hrBenefits'            => 'Benefits',
-                                                                    'hrHealthPlanDocs'      => 'Health Plan Documents',
-                                                                    'hr401k'                => '401(k) Summary Booklet',
-                                                                    
+                                                                    'hrNewHire'             => 'New Hire Forms and Notices',
+                                                                    'hrPaylocity'           => 'Paylocity',
+                                                                    'hrSchedules'           => 'Schedules',
+                                                                    'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
+                                                                    'hrSuggestions'         => 'Suggestions and Referrals',
                                                                     'State Workplace Posters' => [
                                                                         'federal'       => 'Federal',
                                                                         'alabama'       => 'Alabama',
