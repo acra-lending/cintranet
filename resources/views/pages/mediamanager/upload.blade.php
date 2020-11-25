@@ -142,6 +142,9 @@
                                                                         'uwTools'           => 'UW Tools',
                                                                         'uwVetting'         => 'Vetting',
                                                                         'uwVideos'          => 'Videos',
+                                                                    ],
+                                                                    'NDA' => [
+                                                                        'nda'      => 'NDA',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [

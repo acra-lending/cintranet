@@ -114,13 +114,13 @@
               @foreach($executives as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -150,13 +150,13 @@
               @foreach($officeManagement as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -186,13 +186,13 @@
               @foreach($humanResources as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -222,13 +222,13 @@
               @foreach($accounting as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -258,13 +258,13 @@
               @foreach($financialPlanning as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -294,13 +294,13 @@
               @foreach($learning as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -330,13 +330,13 @@
               @foreach($complianceQC as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -366,13 +366,13 @@
               @foreach($legal as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -402,13 +402,13 @@
               @foreach($capitalMarkets as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -438,13 +438,13 @@
               @foreach($technology as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -474,13 +474,13 @@
               @foreach($disclosures as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -510,13 +510,13 @@
               @foreach($transactionManagers as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -546,13 +546,13 @@
               @foreach($loanSetUp as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -582,13 +582,13 @@
               @foreach($underwriters as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -618,13 +618,13 @@
               @foreach($valuationSpecialists as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -654,13 +654,13 @@
               @foreach($funders as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -690,13 +690,13 @@
               @foreach($investorReporting as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -726,13 +726,13 @@
               @foreach($lossMitigation as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -762,13 +762,13 @@
               @foreach($loanServicing as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -798,13 +798,13 @@
               @foreach($customerService as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -834,13 +834,13 @@
               @foreach($tax as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -870,13 +870,13 @@
               @foreach($servicingQA as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -906,13 +906,13 @@
               @foreach($shipping as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -942,13 +942,13 @@
               @foreach($marketing as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -978,13 +978,13 @@
               @foreach($aeWest as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -1014,13 +1014,13 @@
               @foreach($aeEast as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -1050,13 +1050,13 @@
               @foreach($retail as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>
@@ -1086,13 +1086,13 @@
               @foreach($correspondent as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
-                <td>{{$department->name}}</td>
+                <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
                 <td>{{$department->position}}</td>
                 <td>{{$department->extension}}</td>
                 <td>{{$department->directphone}}</td>
                 <td>{{$department->cell}}</td>
                 <td>{{$department->fax}}</td>
-                <td>{{$department->email}}</td>
+                <td><a href="mailto:{{$department->email}}">{{$department->email}}</a></td>
               </tr>
               @endforeach
             </tbody>

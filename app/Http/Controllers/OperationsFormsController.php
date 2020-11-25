@@ -285,6 +285,13 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        //-------------
+        //Underwriting
+        //-------------
+        $nda = Post::whereRaw("find_in_set('nda', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.operations.forms', [
             'disclosure'            => $disclosure,
             'important'             => $important,
@@ -347,7 +354,8 @@ class OperationsFormsController extends Controller
             'uwGuidelines'      => $uwGuidelines,
             'uwTools'           => $uwTools,
             'uwVetting'         => $uwVetting,
-            'uwVideos'          => $uwVideos
+            'uwVideos'          => $uwVideos,
+            'nda'   => $nda,
         ]);
     }
 }
