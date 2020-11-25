@@ -55,7 +55,7 @@
                         <a class="nav-item nav-link" id="nav-lsu-tab" data-toggle="tab" href="#nav-lsu" role="tab" aria-controls="nav-lsu" aria-selected="false">Loan Set Up</a>
                         <a class="nav-item nav-link" id="nav-tm-tab" data-toggle="tab" href="#nav-tm" role="tab" aria-controls="nav-tm" aria-selected="false">Transaction Manager</a>
                         <a class="nav-item nav-link" id="nav-uw-tab" data-toggle="tab" href="#nav-uw" role="tab" aria-controls="nav-uw" aria-selected="false">Underwriting</a>
-                        <a class="nav-item nav-link" id="nav-nda-tab" data-toggle="tab" href="#nav-nda" role="tab" aria-controls="nav-nda" aria-selected="false">NDAs</a>
+                        <a class="nav-item nav-link" id="nav-nda-tab" data-toggle="tab" href="#nav-nda" role="tab" aria-controls="nav-nda" aria-selected="false">NDA</a>
                         </div>
                       </nav>
                       <br/>
