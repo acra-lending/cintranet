@@ -28,6 +28,12 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 
+//Videos
+Route::get('/videos/webinars', 'VideosController@webinars')->middleware('auth');
+Route::get('/videos/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
+Route::get('/videos/operations', 'VideosController@operations')->middleware('auth');
+Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
+
 //Learning And Development
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
 Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth');

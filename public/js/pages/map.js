@@ -15,7 +15,6 @@ var highlighted_states = {
   de  : '#C8102E',
   fl  : '#C8102E',
   ga  : '#C8102E',
-  id  : '#C8102E',
   il  : '#C8102E',
   in  : '#C8102E',
   ks  : '#C8102E',

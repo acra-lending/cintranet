@@ -27,6 +27,46 @@
                     <p>Dashboard</p>
                 </a>
             </li>
+            <li class="nav-item has-treeview {{ Request::is('videos/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-video"></i>
+                    <p>Videos
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/webinars" class="nav-link {{ Request::path() === 'videos/webinars' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Webinars</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/monthlymeetings" class="nav-link {{ Request::path() === 'videos/monthlymeetings' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Monthly Meetings</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/operations" class="nav-link {{ Request::path() === 'videos/operations' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Operations</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/sales" class="nav-link {{ Request::path() === 'videos/sales' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Sales</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
             @can('edit-users')
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
