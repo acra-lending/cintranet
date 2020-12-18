@@ -27,6 +27,32 @@
                     <p>Dashboard</p>
                 </a>
             </li>
+            @can('edit-users')
+            <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user"></i>
+                    <p>Management
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="nav-link {{ Request::is('usermanagement/profile/*') ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>My Profile</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="{{ route('admin.user.index') }}" class="nav-link {{ Request::is('usermanagement/user') ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Manage Users</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            @endcan
             <li class="nav-item has-treeview {{ Request::is('videos/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-video"></i>
@@ -34,14 +60,6 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
-                {{-- <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/webinars" class="nav-link {{ Request::path() === 'videos/webinars' ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Webinars</p>
-                        </a>
-                    </li>
-                </ul> --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/videos/monthlymeetings" class="nav-link {{ Request::path() === 'videos/monthlymeetings' ? 'active': ''}}">
@@ -78,33 +96,6 @@
                     </li>
                 </ul>
             </li>
-            @can('edit-users')
-            <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-user"></i>
-                    <p>Management
-                        <i class="right fas fa-angle-left"></i>
-                    </p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="nav-link {{ Request::is('usermanagement/profile/*') ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>My Profile</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="{{ route('admin.user.index') }}" class="nav-link {{ Request::is('usermanagement/user') ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Manage Users</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            @endcan
-
             <li class=" nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">
                     <i class="nav-icon fas fa-address-book"></i>
