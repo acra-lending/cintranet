@@ -35,15 +35,6 @@ class VideosController extends Controller
 
         return view('pages.videos.operations', compact('webinarResults'));
     }
-    public function sales()
-    {
-        $url = Vimeo::request("/users/124219438/projects/3216027/videos", ['per_page' => 99], 'GET');
-        $url = $url['body'];
-        $data = $url['data'];
-        $webinarResults = $data;
-
-        return view('pages.videos.sales', compact('webinarResults'));
-    }
 
 
 
