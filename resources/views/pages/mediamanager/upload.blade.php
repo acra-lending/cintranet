@@ -152,6 +152,7 @@
                                                                         'wsOmbsvoeAE'     => 'OMBS & VOE', 
                                                                         'ws3mbsAE'        => '3-Month Bank Statement', 
                                                                         'wsNonprimeAE'    => 'Non-Prime Wholesale', 
+                                                                        'wsJumboPrimeAE'    => 'Jumbo Prime Wholesale', 
                                                                         'wsOdfAE'         => 'Outside Dodd-Frank', 
                                                                         'wsOdfPlusAE'     => 'Outside Dodd-Frank Plus'
                                                                     ],
@@ -159,14 +160,16 @@
                                                                         'PDF' => [
                                                                             'corrOmbsvoePdf'    => 'OMBS & VOE (PDF)', 
                                                                             'corr3mbsPdf'       => '3-Month Bank Statement (PDF)', 
-                                                                            'corrNonprimePdf'   => 'Non-Prime Wholesale (PDF)', 
+                                                                            'corrNonprimePdf'   => 'Non-Prime Correspondent (PDF)', 
+                                                                            'corrJumboPrimePdf'   => 'Jumbo Prime Correspondent(PDF)', 
                                                                             'corrOdfPdf'        => 'Outside Dodd-Frank (PDF)', 
                                                                             'corrOdfPlusPdf'    => 'Outside Dodd-Frank Plus (PDF)',
                                                                         ],
                                                                         'Excel' => [
                                                                             'corrOmbsvoeXlsx'   => 'OMBS & VOE (Excel)',
                                                                             'corr3mbsXlsx'      => '3-Month Bank Statement (Excel)',
-                                                                            'corrNonprimeXlsx'  => 'Non-Prime Wholesale (Excel)',
+                                                                            'corrNonprimeXlsx'  => 'Non-Prime Correspondent (Excel)',
+                                                                            'corrJumboPrimeXlsx'  => 'Jumbo Prime Correspondent (Excel)',
                                                                             'corrOdfXlsx'       => 'Outside Dodd-Frank (Excel)', 
                                                                             'corrOdfPlusXlsx'   => 'Outside Dodd-Frank Plus (Excel)'
                                                                         ]
@@ -278,7 +281,7 @@
                                                     </div>
                                                     <div class="input-group">
                                                         <div class="form-group">
-                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpeg,bmp,png,gif')) }}
+                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpg,jpeg,bmp,png,gif')) }}
                                                         </div>
                                                     </div>
                                                 </div>

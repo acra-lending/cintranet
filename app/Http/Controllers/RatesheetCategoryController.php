@@ -24,6 +24,10 @@ class RatesheetCategoryController extends Controller
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
                                 ->get();
+        $wsJumboPrimeAE   = Post::whereRaw("find_in_set('wsJumboPrimeAE', category_id)")
+                                ->orderBy('created_at', 'desc')
+                                ->limit(1)
+                                ->get();
         $wsOdfAE        = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
@@ -45,6 +49,11 @@ class RatesheetCategoryController extends Controller
                                 ->take(10)
                                 ->get();
         $wsNonprimeAE_past  = Post::whereRaw("find_in_set('wsNonprimeAE', category_id)")
+                                ->orderBy('created_at', 'desc')
+                                ->skip(1)
+                                ->take(10)
+                                ->get();
+        $wsJumboPrimeAE_past   = Post::whereRaw("find_in_set('wsJumboPrimeAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
                                 ->take(10)
@@ -74,6 +83,10 @@ class RatesheetCategoryController extends Controller
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
+        $corrJumboPrimePdf    = Post::whereRaw("find_in_set('corrJumboPrimePdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->limit(1)
+                                    ->get();
         $corrOdfPdf         = Post::whereRaw("find_in_set('corrOdfPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
@@ -93,6 +106,10 @@ class RatesheetCategoryController extends Controller
                                     ->limit(1)
                                     ->get();
         $corrNonprimeXlsx   = Post::whereRaw("find_in_set('corrNonprimeXlsx', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->limit(1)
+                                    ->get();
+        $corrJumboPrimeXlsx   = Post::whereRaw("find_in_set('corrJumboPrimeXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
@@ -121,6 +138,11 @@ class RatesheetCategoryController extends Controller
                                     ->skip(1)
                                     ->take(10)
                                     ->get();
+        $corrJumboPrimePdf_past  = Post::whereRaw("find_in_set('corrJumboPrimePdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->skip(1)
+                                    ->take(10)
+                                    ->get();
         $corrOdfPdf_past       = Post::whereRaw("find_in_set('corrOdfPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
                                     // ->skip(1)
@@ -137,26 +159,31 @@ class RatesheetCategoryController extends Controller
                 ->with([
                     'wsOmbsvoeAE'         => $wsOmbsvoeAE,
                     'wsNonprimeAE'        => $wsNonprimeAE,
+                    'wsJumboPrimeAE'        => $wsJumboPrimeAE,
                     'ws3mbsAE'            => $ws3mbsAE,
                     'wsOdfAE'             => $wsOdfAE,
                     'wsOdfPlusAE'         => $wsOdfPlusAE,
                     'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
                     'wsNonprimeAE_past'   => $wsNonprimeAE_past,
+                    'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
                     'ws3mbsAE_past'       => $ws3mbsAE_past,
                     'wsOdfAE_past'        => $wsOdfAE_past,
                     'wsOdfPlusAE_past'    => $wsOdfPlusAE_past,
                     'corrOmbsvoePdf'    => $corrOmbsvoePdf,
                     'corrNonprimePdf'   => $corrNonprimePdf,
+                    'corrJumboPrimePdf'   => $corrJumboPrimePdf,
                     'corr3mbsPdf'       => $corr3mbsPdf,
                     'corrOdfPdf'        => $corrOdfPdf,
                     'corrOdfPlusPdf'    => $corrOdfPlusPdf,
                     'corrOmbsvoeXlsx'   => $corrOmbsvoeXlsx,
                     'corrNonprimeXlsx'  => $corrNonprimeXlsx,
+                    'corrJumboPrimeXlsx'  => $corrJumboPrimeXlsx,
                     'corr3mbsXlsx'      => $corr3mbsXlsx,
                     'corrOdfXlsx'       => $corrOdfXlsx,
                     'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
                     'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,
                     'corrNonprimePdf_past'  => $corrNonprimePdf_past,
+                    'corrJumboPrimePdf_past'  => $corrJumboPrimePdf_past,
                     'corr3mbsPdf_past'      => $corr3mbsPdf_past,
                     'corrOdfPdf_past'       => $corrOdfPdf_past,
                     'corrOdfPlusPdf_past'   => $corrOdfPlusPdf_past,

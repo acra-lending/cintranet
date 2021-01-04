@@ -31,7 +31,7 @@ class UploadController extends Controller
         $this->validate($request, [
             'category_id' => 'required',
             'file' => 'required',
-            'file.*' => 'required|mimes:doc,docx,ppt,pptx,xls,xlsx,pdf,jpeg,bmp,png,gif,mp4,|max:99999999',
+            'file.*' => 'required|mimes:doc,docx,ppt,pptx,xls,xlsx,pdf,jpg,jpeg,bmp,png,gif,mp4,|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
