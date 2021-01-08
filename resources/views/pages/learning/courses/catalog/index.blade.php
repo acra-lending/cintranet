@@ -96,7 +96,7 @@
             <div class="card-body">
               <!-- Course Catalog Content -->
                 <div class='embed-container' data-page-width='494' data-page-height='640' id='ypembedcontainer' >
-                  <iframe src="https://www.yumpu.com/en/embed/view/mwxRMCvD6TrdIW3z" frameborder="0" allowfullscreen="true"  allowtransparency="true">
+                  <iframe src="https://www.yumpu.com/en/embed/view/1FICVUYuyW8G25BD" frameborder="0" allowfullscreen="true"  allowtransparency="true">
                   </iframe>
                 </div>
                 
