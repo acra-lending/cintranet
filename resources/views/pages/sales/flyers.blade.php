@@ -84,12 +84,12 @@
                   <div class="row">
                     <div class="col-sm-4 col-md-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="vert-tabs-aboutcsc-tab" data-toggle="pill" href="#vert-tabs-aboutcsc" role="tab" aria-controls="vert-tabs-aboutcsc" aria-selected="true">About CSC</a>
+                        <a class="nav-link active" id="vert-tabs-aboutacra-tab" data-toggle="pill" href="#vert-tabs-aboutacra" role="tab" aria-controls="vert-tabs-aboutacra" aria-selected="true">About Acra</a>
                         <a class="nav-link" id="vert-tabs-aeflyer-tab" data-toggle="pill" href="#vert-tabs-aeflyer" role="tab" aria-controls="vert-tabs-aeflyer" aria-selected="false">AE Flyers</a>
                         <a class="nav-link" id="vert-tabs-automation-tab" data-toggle="pill" href="#vert-tabs-automation" role="tab" aria-controls="vert-tabs-automation" aria-selected="false">Automation</a>
                         <a class="nav-link" id="vert-tabs-brokers-tab" data-toggle="pill" href="#vert-tabs-brokers" role="tab" aria-controls="vert-tabs-brokers" aria-selected="false">Broker Flyers</a>
                         <a class="nav-link" id="vert-tabs-corr-tab" data-toggle="pill" href="#vert-tabs-corr" role="tab" aria-controls="vert-tabs-corr" aria-selected="false">Correspondent</a>
-                        <a class="nav-link" id="vert-tabs-cscprograms-tab" data-toggle="pill" href="#vert-tabs-cscprograms" role="tab" aria-controls="vert-tabs-cscprograms" aria-selected="false">CSC Programs</a>
+                        <a class="nav-link" id="vert-tabs-acraprograms-tab" data-toggle="pill" href="#vert-tabs-acraprograms" role="tab" aria-controls="vert-tabs-acraprograms" aria-selected="false">Acra Programs</a>
                         <a class="nav-link" id="vert-tabs-social-tab" data-toggle="pill" href="#vert-tabs-social" role="tab" aria-controls="vert-tabs-social" aria-selected="false">LinkedIn/Social Images</a>
                         {{-- <a class="nav-link" id="vert-tabs-retail-tab" data-toggle="pill" href="#vert-tabs-retail" role="tab" aria-controls="vert-tabs-retail" aria-selected="false">Retail Flyers</a> --}}
                         <a class="nav-link" id="vert-tabs-standards-tab" data-toggle="pill" href="#vert-tabs-standards" role="tab" aria-controls="vert-tabs-standards" aria-selected="false">Standard Flyers</a>
@@ -98,11 +98,11 @@
                     </div>
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        <div class="tab-pane text-left fade show active" id="vert-tabs-aboutcsc" role="tabpanel" aria-labelledby="vert-tabs-aboutcsc-tab">
+                        <div class="tab-pane text-left fade show active" id="vert-tabs-aboutacra" role="tabpanel" aria-labelledby="vert-tabs-aboutacra-tab">
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
-                                <h3 class="card-title">About CSC Flyers</h3>
+                                <h3 class="card-title">About Acra</h3>
                                 <div class="card-tools">
                                 </div>
                               </div>
@@ -318,11 +318,11 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-cscprograms" role="tabpanel" aria-labelledby="vert-tabs-cscprograms-tab">        
+                          <div class="tab-pane fade" id="vert-tabs-acraprograms" role="tabpanel" aria-labelledby="vert-tabs-acraprograms-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
-                                  <h3 class="card-title">CSC Programs</h3>
+                                  <h3 class="card-title">Acra Programs</h3>
                                   <div class="card-tools">
                                   </div>
                                 </div>

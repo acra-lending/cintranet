@@ -46,7 +46,7 @@ class DirectoryExport implements FromView
     // }
 
     public function view(): View
-    {
+    {  
         $executives = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('departments', 'Executives')
@@ -244,8 +244,65 @@ class DirectoryExport implements FromView
         $loanServicingCount = $loanServicing->count();
 
         $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
-        
+
         return view('pages.usermanagement.exports', [
+            'executives'                => $executives,
+            'executivesCount'           => $executivesCount,
+            'officeManagement'          => $officeManagement,
+            'officeManagementCount'     => $officeManagementCount,
+            'humanResources'            => $humanResources,
+            'humanResourcesCount'       => $humanResourcesCount,
+            'accounting'                => $accounting,
+            'accountingCount'           => $accountingCount,
+            'financialPlanning'         => $financialPlanning,
+            'financialPlanningCount'    => $financialPlanningCount,
+            'learning'                  => $learning,
+            'learningCount'             => $learningCount,
+            'complianceQC'              => $complianceQC,
+            'complianceQCCount'         => $complianceQCCount,
+            'legal'                     => $legal,
+            'legalCount'                => $legalCount,
+            'capitalMarkets'            => $capitalMarkets,
+            'capitalMarketsCount'       => $capitalMarketsCount,
+            'technology'                => $technology,
+            'technologyCount'           => $technologyCount,
+            'disclosures'               => $disclosures,
+            'disclosuresCount'          => $disclosuresCount,
+            'transactionManagers'       => $transactionManagers,
+            'transactionManagersCount'  => $transactionManagersCount,
+            'loanSetUp'                 => $loanSetUp,
+            'loanSetUpCount'            => $loanSetUpCount,
+            'underwriters'              => $underwriters,
+            'underwritersCount'         => $underwritersCount,
+            'valuationSpecialists'      => $valuationSpecialists,
+            'valuationSpecialistsCount' => $valuationSpecialistsCount,
+            'funders'                   => $funders,
+            'fundersCount'              => $fundersCount,
+            'investorReporting'         => $investorReporting,
+            'investorReportingCount'    => $investorReportingCount,
+            'lossMitigation'            => $lossMitigation,
+            'lossMitigationCount'       => $lossMitigationCount,
+            'customerService'           => $customerService,
+            'customerServiceCount'      => $customerServiceCount,
+            'tax'                       => $tax,
+            'taxCount'                  => $taxCount,
+            'servicingQA'               => $servicingQA,
+            'servicingQACount'          => $servicingQACount,
+            'shipping'                  => $shipping,
+            'shippingCount'             => $shippingCount,
+            'marketing'                 => $marketing,
+            'marketingCount'            => $marketingCount,
+            'aeWest'                    => $aeWest,
+            'aeWestCount'               => $aeWestCount,
+            'aeEast'                    => $aeEast,
+            'aeEastCount'               => $aeEastCount,
+            'retail'                    => $retail,
+            'retailCount'               => $retailCount,
+            'correspondent'             => $correspondent,
+            'correspondentCount'        => $correspondentCount,
+            'loanServicing'             => $loanServicing,
+            'loanServicingCount'        => $loanServicingCount,
+            'totalCount'                => $totalCount,
             'directory' => Directory::all() 
         ]);
     }
