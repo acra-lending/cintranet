@@ -1068,7 +1068,7 @@
           </div>
           <table class="table table-bordered">
             <div class="center">
-                <h3>Conduit / Correspondent</h3>
+                <h3>Correspondent</h3>
             </div>
 
             <thead>
