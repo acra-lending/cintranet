@@ -88,15 +88,16 @@
                   <div class="row">
                     <div class="col-sm-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="vert-tabs-non-prime-ws-tab" data-toggle="pill" href="#vert-tabs-non-prime-ws" role="tab" aria-controls="vert-tabs-non-prime-ws" aria-selected="false">Loan Set Up</a>
-                        <a class="nav-link" id="vert-tabs-3mbs-tab" data-toggle="pill" href="#vert-tabs-3mbs" role="tab" aria-controls="vert-tabs-3mbs" aria-selected="false">Transaction Management / Retail Loan Processing</a>
-                        <a class="nav-link" id="vert-tabs-jumbo-prime-ws-tab" data-toggle="pill" href="#vert-tabs-jumbo-prime-ws" role="tab" aria-controls="vert-tabs-jumbo-prime-ws" aria-selected="false">Underwriting</a>
-                        <a class="nav-link" id="vert-tabs-odf-tab" data-toggle="pill" href="#vert-tabs-odf" role="tab" aria-controls="vert-tabs-odf" aria-selected="false">Closing</sup></a>
+                        <a class="nav-link active" id="vert-tabs-loan-set-up-tab" data-toggle="pill" href="#vert-tabs-loan-set-up" role="tab" aria-controls="vert-tabs-loan-set-up" aria-selected="false">Loan Set Up</a>
+                        <a class="nav-link" id="vert-tabs-tm-retail-tab" data-toggle="pill" href="#vert-tabs-tm-retail" role="tab" aria-controls="vert-tabs-tm-retail" aria-selected="false">Transaction Management / Retail Loan Processing</a>
+                        <a class="nav-link" id="vert-tabs-underwriting-tab" data-toggle="pill" href="#vert-tabs-underwriting" role="tab" aria-controls="vert-tabs-underwriting" aria-selected="false">Underwriting</a>
+                        <a class="nav-link" id="vert-tabs-closing-tab" data-toggle="pill" href="#vert-tabs-closing" role="tab" aria-controls="vert-tabs-closing" aria-selected="false">Closing</sup></a>
+                        <a class="nav-link" id="vert-tabs-funding-tab" data-toggle="pill" href="#vert-tabs-funding" role="tab" aria-controls="vert-tabs-funding" aria-selected="false">Funding</sup></a>
                       </div>
                     </div>
                     <div class="col-sm-12 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        <div class="tab-pane fade show active" id="vert-tabs-non-prime-ws" role="tabpanel" aria-labelledby="vert-tabs-non-prime-ws-tab">
+                        <div class="tab-pane fade show active" id="vert-tabs-loan-set-up" role="tabpanel" aria-labelledby="vert-tabs-loan-set-up-tab">
                             <!-- /.content-header -->        
                             <div class="col">
                               <div class="card card-danger">
@@ -109,7 +110,7 @@
                                   <table class="table">
                                     <thead>
                                         <tr>
-                                          <th>Link Title</th>
+                                          <th>@sortablelink('title', 'Link Title')</th>
                                         <th></th>
                                         </tr>
                                     </thead>
@@ -133,8 +134,6 @@
                                                 data-target="#editLinks">
                                                 <i class="fas fa-edit"></i>
                                             </a>
-                                            @endcan
-                                            @can('manage-users')
                                             {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
                                               {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                             {{ Form::close()}}
@@ -149,7 +148,7 @@
                               </div>
                             </div>
                           </div>                        
-                        <div class="tab-pane fade" id="vert-tabs-3mbs" role="tabpanel" aria-labelledby="vert-tabs-3mbs-tab">
+                        <div class="tab-pane fade" id="vert-tabs-tm-retail" role="tabpanel" aria-labelledby="vert-tabs-tm-retail-tab">
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
@@ -162,7 +161,7 @@
                                 <table class="table">
                                   <thead>
                                       <tr>
-                                        <th>Link Title</th>
+                                        <th>@sortablelink('title', 'Link Title')</th>
                                       <th></th>
                                       </tr>
                                   </thead>
@@ -186,8 +185,6 @@
                                               data-target="#editLinks">
                                               <i class="fas fa-edit"></i>
                                           </a>
-                                          @endcan
-                                          @can('manage-users')
                                           {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
                                             {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                           {{ Form::close()}}
@@ -202,7 +199,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-jumbo-prime-ws" role="tabpanel" aria-labelledby="vert-tabs-jumbo-prime-ws-tab">
+                        <div class="tab-pane fade" id="vert-tabs-underwriting" role="tabpanel" aria-labelledby="vert-tabs-underwriting-tab">
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
@@ -215,7 +212,7 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                          <th>Link Title</th>
+                                          <th>@sortablelink('title', 'Link Title')</th>
                                         <th></th>
                                         </tr>
                                     </thead>
@@ -239,8 +236,6 @@
                                                 data-target="#editLinks">
                                                 <i class="fas fa-edit"></i>
                                             </a>
-                                            @endcan
-                                            @can('manage-users')
                                             {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
                                               {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                             {{ Form::close()}}
@@ -255,7 +250,7 @@
                             </div>
                           </div>
                         </div>
-                        <div class="tab-pane fade" id="vert-tabs-odf" role="tabpanel" aria-labelledby="vert-tabs-odf-tab">
+                        <div class="tab-pane fade" id="vert-tabs-closing" role="tabpanel" aria-labelledby="vert-tabs-closing-tab">
                           <!-- /.content-header -->        
                           <div class="col">
                             <div class="card card-danger">
@@ -268,7 +263,7 @@
                                 <table class="table">
                                     <thead>
                                         <tr>
-                                          <th>Link Title</th>
+                                          <th>@sortablelink('title', 'Link Title')</th>
                                         <th></th>
                                         </tr>
                                     </thead>
@@ -292,8 +287,57 @@
                                                 data-target="#editLinks">
                                                 <i class="fas fa-edit"></i>
                                             </a>
+                                            {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                              {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                            {{ Form::close()}}
                                             @endcan
+                                          </div>
+                                        </td>
+                                        </tr>
+                                    @endforeach
+                                    </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-funding" role="tabpanel" aria-labelledby="vert-tabs-funding-tab">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">Funding</h3>
+                                <div class="card-tools">
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                          <th>@sortablelink('title', 'Link Title')</th>
+                                        <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($funding as $category)
+            
+                                        <tr>
+                                        <td><a href="{{ $category->url }}" target="_blank">{{$category->title}}</a></td>
+
+                                        <td class="text-right py-0 align-middle">
+                                          <div class="btn-group btn-group-sm">
                                             @can('manage-users')
+                                            <a 
+                                                href="#" 
+                                                class="btn btn-warning" 
+                                                data-link_title="{{ $category->title }}" 
+                                                data-link_url="{{ $category->url }}" 
+                                                data-link_category="{{ $category->category }}" 
+                                                data-link_id="{{ $category->id }}" 
+                                                data-toggle="modal" 
+                                                data-target="#editLinks">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
                                             {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
                                               {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
                                             {{ Form::close()}}

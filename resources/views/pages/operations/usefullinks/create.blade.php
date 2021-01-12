@@ -39,20 +39,21 @@
                 <div class="card-body">
                     {{ Form::open(['action' => 'UsefulLinksController@store', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                         <div class="form-group">
-                            {{ Form::label('title', 'Title') }}
-                            {{ Form::text('title', '', ['class' => 'form-control', 'placeholder' => 'Title']) }}
+                            {{ Form::label('link_title', 'Link Title') }}
+                            {{ Form::text('link_title', '', ['class' => 'form-control', 'placeholder' => 'Link title']) }}
                         </div>
                         <div class="form-group">
-                            {{ Form::label('url', 'url') }}
-                            {{ Form::text('url', '', ['class' => 'form-control', 'placeholder' => 'URL']) }}
+                            {{ Form::label('link_url', 'URL') }}
+                            {{ Form::text('link_url', '', ['class' => 'form-control', 'placeholder' => 'https://...']) }}
                         </div>
                         <div class="form-group">
                             {{ Form::label('department', 'Department') }}
-                            {{ Form::select('category', array(
+                            {{ Form::select('link_category', array(
                                 'loan_set_up' => 'Loan Set Up',
                                 'tm_retail_processing' => 'Transaction Management / Retail Loan Processing',
                                 'underwriting' => 'Underwriting',
-                                'closing' => 'Closing'
+                                'closing' => 'Closing',
+                                'funding' => 'Funding'
                         ), null, ['class' => 'form-control']) }}
                         </div>
                         {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}

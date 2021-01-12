@@ -30,6 +30,7 @@
                           <option value="tm_retail_processing">Transaction Management / Retail Loan Processing</option>
                           <option value="underwriting">Underwriting</option>
                           <option value="closing">Closing</option>
+                          <option value="funding">Funding</option>
                         </select>
                     </div>
                 </div>

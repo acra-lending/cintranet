@@ -13,15 +13,23 @@ class UsefulLinksController extends Controller
     public function index()
     {
         $loanSetUp = UsefulLinks::whereRaw("find_in_set('loan_set_up', category)")
+        ->sortable('title')
         ->get();
 
         $TmRetailProcessing = UsefulLinks::whereRaw("find_in_set('tm_retail_processing', category)")
+        ->sortable('title')
         ->get();
         
         $underWriting = UsefulLinks::whereRaw("find_in_set('underwriting', category)")
+        ->sortable('title')
         ->get();
 
         $closing = UsefulLinks::whereRaw("find_in_set('closing', category)")
+        ->sortable('title')
+        ->get();
+
+        $funding = UsefulLinks::whereRaw("find_in_set('funding', category)")
+        ->sortable('title')
         ->get();
 
         return view('pages.operations.usefullinks.index')
@@ -29,7 +37,8 @@ class UsefulLinksController extends Controller
             'loanSetUp'             => $loanSetUp,
             'TmRetailProcessing'    => $TmRetailProcessing,
             'underWriting'          => $underWriting,
-            'closing'               => $closing
+            'closing'               => $closing,
+            'funding'               => $funding
         ]);
     }
     
@@ -62,7 +71,7 @@ class UsefulLinksController extends Controller
 
         $post->save();
 
-        return redirect('/operations/usefullinks')->with('Success', 'Link Created');
+        return redirect('/operations/usefullinks')->with('success', 'Link Created');
     }
 
     public function update(Request $request) {
