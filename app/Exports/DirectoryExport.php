@@ -89,7 +89,4 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         ];
     }
 
-
-
-
 }
