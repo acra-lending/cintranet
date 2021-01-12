@@ -75,6 +75,10 @@ Route::get('operations/forms', 'OperationsFormsController@index')->middleware('a
 Route::get('operations/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('operations/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
+Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->middleware('auth');
+Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');
+Route::put('operations/usefullinks', 'UsefulLinksController@update')->middleware('auth');
+Route::delete('operations/usefullinks/{id}', 'UsefulLinksController@destroy')->middleware('auth');
 
 //Servicing
 Route::get('servicing/servicing', 'ServicingDocsController@index')->middleware('auth');

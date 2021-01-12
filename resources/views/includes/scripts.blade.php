@@ -23,6 +23,7 @@
 <script src="{{ asset ('plugins/alert-timeout/alert-timeout.js') }}"></script>
 <script src="{{ asset ('plugins/link-to-tab/linkTab.js') }}"></script>
 <script src="{{ asset ('plugins/modal-form-edit/modalFormEdit.js') }}"></script>
+<script src="{{ asset ('plugins/modal-form-edit/modalLinksEdit.js') }}"></script>
 
 
 
