@@ -9,6 +9,7 @@ use Maatwebsite\Excel\Concerns\FromCollection;
 use Maatwebsite\Excel\Concerns\WithMapping;
 use Maatwebsite\Excel\Concerns\WithHeadings;
 use Maatwebsite\Excel\Concerns\Exportable;
+use Maatwebsite\Excel\Concerns\WithColumnWidths;
 // use Maatwebsite\Excel\Concerns\WithMultipleSheets;
 // use App\Exports\Sheets\DirectoryPerDept;
 // use Maatwebsite\Excel\Concerns\FromQuery;
@@ -19,7 +20,7 @@ use Maatwebsite\Excel\Concerns\Exportable;
 // use Illuminate\Contracts\View\View;
 // use Maatwebsite\Excel\Concerns\FromView;
 
-class DirectoryExport implements FromCollection, WithMapping, WithHeadings
+class DirectoryExport implements FromCollection, WithMapping, WithHeadings, WithColumnWidths
 {
     // use Exportable;
 
@@ -72,6 +73,19 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings
             'Cell Number',
             'Email',
             'Department'
+        ];
+    }
+
+    public function columnWidths(): array
+    {
+        return [
+            'A' => 26.86,
+            'B' => 45.29,
+            'C' => 4,
+            'D' => 13.43,
+            'E' => 13.71,
+            'F' => 44,
+            'G' => 26.43,
         ];
     }
 
