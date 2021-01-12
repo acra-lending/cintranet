@@ -9,7 +9,8 @@
           <div class="container-fluid">
             <div class="row mb-2">
               <div class="col p-0">
-                <button class="btn btn-outline-danger" onclick="window.print()">Print</button>
+                <button class="btn btn-outline-danger" onclick="window.print()">Print This Page</button>
+                <a class="btn btn-outline-success" href="/export">Excel Export</a>
               </div>
             </div>
   
