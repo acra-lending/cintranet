@@ -143,6 +143,12 @@
                                                                         'uwVetting'         => 'Vetting',
                                                                         'uwVideos'          => 'Videos',
                                                                     ],
+                                                                    'Jr Processor' => [
+                                                                        'jrProcessorForms'      => 'Internal Forms',
+                                                                    ],
+                                                                    'Processor' => [
+                                                                        'processorForms'      => 'Internal Forms',
+                                                                    ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
                                                                     ]

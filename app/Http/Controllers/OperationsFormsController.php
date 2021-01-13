@@ -286,7 +286,21 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-------------
-        //Underwriting
+        //Jr Processor
+        //-------------
+        $jrProcessorForms = Post::whereRaw("find_in_set('jrProcessorForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //-------------
+        //Processor
+        //-------------
+        $processorForms = Post::whereRaw("find_in_set('processorForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //-------------
+        //NDA
         //-------------
         $nda = Post::whereRaw("find_in_set('nda', category_id)")
         ->sortable('filename')
@@ -355,7 +369,9 @@ class OperationsFormsController extends Controller
             'uwTools'           => $uwTools,
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos,
-            'nda'   => $nda,
+            'jrProcessorForms'  => $jrProcessorForms,
+            'processorForms'    => $processorForms,
+            'nda'           => $nda,
         ]);
     }
 }
