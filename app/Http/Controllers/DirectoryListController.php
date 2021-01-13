@@ -107,12 +107,12 @@ class DirectoryListController extends Controller
         ->get();
         $loanSetUpCount = $loanSetUp->count();
 
-        $underwriters = DB::table('s2zar_jsn_users')
+        $underwriting = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'Underwriters')
+        ->where('departments', 'Underwriting')
         ->orderby('lastname', 'asc')
         ->get();
-        $underwritersCount = $underwriters->count();
+        $underwritingCount = $underwriting->count();
 
         $valuationSpecialists = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
@@ -212,7 +212,7 @@ class DirectoryListController extends Controller
         ->get();
         $loanServicingCount = $loanServicing->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
+        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritingCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
     
         return view('pages.usermanagement.exports')
         ->with([
@@ -242,8 +242,8 @@ class DirectoryListController extends Controller
             'transactionManagersCount'  => $transactionManagersCount,
             'loanSetUp'                 => $loanSetUp,
             'loanSetUpCount'            => $loanSetUpCount,
-            'underwriters'              => $underwriters,
-            'underwritersCount'         => $underwritersCount,
+            'underwriting'              => $underwriting,
+            'underwritingCount'         => $underwritingCount,
             'valuationSpecialists'      => $valuationSpecialists,
             'valuationSpecialistsCount' => $valuationSpecialistsCount,
             'funders'                   => $funders,

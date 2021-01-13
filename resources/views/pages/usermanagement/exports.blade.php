@@ -580,7 +580,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($underwriters as $department)
+              @foreach($underwriting as $department)
               <tr><!-- if user->department equals departments -->
                 <!-- loop through users -->
                 <td><a href="/directory/user/{{$department->id}}">{{$department->name}}</a></td>
@@ -596,7 +596,7 @@
           </table>
           <div class="row">
             <div class="col text-right text-muted pb-3">
-            {{$underwritersCount}} results
+            {{$underwritingCount}} results
             </div>
           </div>
           <table class="table table-bordered">

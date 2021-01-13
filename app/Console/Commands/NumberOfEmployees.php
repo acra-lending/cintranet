@@ -120,11 +120,11 @@ class NumberOfEmployees extends Command
         ->get();
         $loanSetUpCount = $loanSetUp->count();
 
-        $underwriters = DB::table('s2zar_jsn_users')
+        $underwriting = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'Underwriters')
+        ->where('departments', 'Underwriting')
         ->get();
-        $underwritersCount = $underwriters->count();
+        $underwritingCount = $underwriting->count();
 
         $valuationSpecialists = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
@@ -210,7 +210,7 @@ class NumberOfEmployees extends Command
         ->get();
         $loanServicingCount = $loanServicing->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritersCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
+        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritingCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
 
         $post = new NumberOfEmployee;
         $post->totalCount = $totalCount;
@@ -227,7 +227,7 @@ class NumberOfEmployees extends Command
         $post->disclosuresCount = $disclosuresCount;
         $post->transactionManagersCount = $transactionManagersCount;
         $post->loanSetUpCount = $loanSetUpCount;
-        $post->underwritersCount = $underwritersCount;
+        $post->underwritingCount = $underwritingCount;
         $post->valuationSpecialistsCount = $valuationSpecialistsCount;
         $post->fundersCount = $fundersCount;
         $post->investorReportingCount = $investorReportingCount;
