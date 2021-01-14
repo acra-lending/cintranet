@@ -218,6 +218,9 @@
                                                                         'trainingVetting'   => 'Vetting',
                                                                         'trainingVideos'    => 'Videos'
                                                                     ],
+                                                                    'Admin' => [
+                                                                        'adminForms'  => 'Forms'
+                                                                    ],
                                                                     'Marketing' => [
                                                                         'marketingForms'        => 'Marketing Forms',
                                                                         'marketingMaterials'    => 'Marketing Materials',

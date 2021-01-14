@@ -82,6 +82,12 @@ class GeneralFormsCategoryController extends Controller
             ->sortable('filename')
             ->get();
 
+        //Admin Forms and Materials
+        //Forms
+            $adminForms = Post::whereRaw("find_in_set('adminForms', category_id)")
+            ->sortable('filename')
+            ->get();
+
         return view('pages.sales.forms')
         ->with([
             'numbers'               => $numbers,
@@ -97,6 +103,7 @@ class GeneralFormsCategoryController extends Controller
             'trainingSystems'       => $trainingSystems,
             'trainingVetting'       => $trainingVetting,
             'trainingVideos'        => $trainingVideos,
+            'adminForms'            => $adminForms,
         ]);
     }
 
