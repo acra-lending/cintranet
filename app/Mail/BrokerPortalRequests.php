@@ -32,6 +32,6 @@ class BrokerPortalRequests extends Mailable
     {
         return $this->markdown('emails.operations.brokerportalrequests')
                     ->from('webupdates@acralending.com', 'Web Updates')
-                    ->subject('Broker Portal Requests');
+                    ->subject('Broker Portal Registration');
     }
 }

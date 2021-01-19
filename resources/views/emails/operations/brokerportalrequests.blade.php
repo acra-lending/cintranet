@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# New Broker Portal Request from Cintranet
+# New Broker Portal Registration
 <hr/>
 
 # Broker Portal Request Details:
