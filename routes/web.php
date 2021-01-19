@@ -27,6 +27,9 @@ Route::get('/search/announcements', 'SearchController@show')->middleware('auth')
 Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(function(){
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
+Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
+Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
+Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 
 //Videos
 Route::get('/videos/sales/webinars', 'VideosController@webinars')->middleware('auth');
@@ -72,8 +75,6 @@ Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 //Operations
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
-Route::get('operations/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
-Route::post('operations/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
 Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->middleware('auth');
 Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');
@@ -125,6 +126,7 @@ Route::post('infotech/requests', 'ITSupportController@submitRequests')->middlewa
 //Excel Export
 Route::get('/export', 'DirectoryExportController@export')->middleware('auth');
 Route::get('/usermanagement/exports', 'DirectoryListController@index')->middleware('auth');
+
 
 
 

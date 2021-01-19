@@ -40,5 +40,5 @@ Tel: {{ $data['phone'] }}<br/>
 <hr/>
 
 <br/>
-~<em>{{ 'CSC Webmaster' }}</em>
+~<em>{{ 'Acra Webmaster' }}</em>
 @endcomponent

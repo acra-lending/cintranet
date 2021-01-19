@@ -51,6 +51,24 @@
                         </a>
                     </li>
                 </ul>
+                @can('edit-users')
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/usermanagement/wp-users" class="nav-link {{ Request::path() === 'usermanagement/wp-users' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>WP Users</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/usermanagement/brokerportalrequests" class="nav-link {{ Request::path() === 'usermanagement/brokerportalrequests' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Create WP User</p>
+                        </a>
+                    </li>
+                </ul>
+                @endcan
             </li>
             @endcan
             <li class="nav-item has-treeview {{ Request::is('videos/*') ? 'menu-open': ''}}">
@@ -299,14 +317,6 @@
                         <a href="/operations/forms" class="nav-link {{ Request::path() === 'operations/forms' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Documents</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/operations/brokerportalrequests" class="nav-link {{ Request::path() === 'operations/brokerportalrequests' ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Broker Portal Requests</p>
                         </a>
                     </li>
                 </ul>

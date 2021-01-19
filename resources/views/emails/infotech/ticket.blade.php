@@ -42,5 +42,5 @@
 <hr/>
 
 <br/>
-~<em>{{ 'CSC Webmaster' }}</em>
+~<em>{{ 'Acra Webmaster' }}</em>
 @endcomponent

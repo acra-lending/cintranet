@@ -7,7 +7,7 @@ use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
 
-class BrokerPortalRequests extends Mailable
+class BrokerPortalRequestsClient extends Mailable
 {
     use Queueable, SerializesModels;
 
@@ -30,8 +30,8 @@ class BrokerPortalRequests extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.operations.brokerportalrequests')
-                    ->from('webupdates@acralending.com', 'Web Updates')
-                    ->subject('Broker Portal Requests');
+        return $this->markdown('emails.operations.brokerportalrequestsclient')
+        ->from('webupdates@acralending.com', 'Acra Lending')
+        ->subject('Acra Lending Portal Login Credentials');
     }
 }
