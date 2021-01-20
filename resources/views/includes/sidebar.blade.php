@@ -60,14 +60,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/usermanagement/brokerportalrequests" class="nav-link {{ Request::path() === 'usermanagement/brokerportalrequests' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Create WP User</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 @endcan
             </li>
             @endcan

@@ -214,12 +214,12 @@ class AnnouncementPostsController extends Controller
         // }
 
         // Check for files
-        foreach($files as $file){
-            if($post->id == $file->announcement_id){
-                // Delete file
-                Storage::delete('public/files/'.$file->file);
-            }
-        }
+        // foreach($files as $file){
+        //     if($post->id == $file->announcement_id){
+        //         // Delete file
+        //         Storage::delete('public/files/'.$file->file);
+        //     }
+        // }
 
         $post->delete();
         return redirect('/learning/announcements')->with('success', 'Post Removed');

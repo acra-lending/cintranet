@@ -28,7 +28,7 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']]);
 });
 Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
-Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
+// Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 
 //Videos

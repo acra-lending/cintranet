@@ -9,17 +9,18 @@
           <div class="row mb-2">
             <div class="col-sm-6">
               <h1>Wordpress Users</h1>
-              @can('manage-posts')
+              {{-- @can('manage-posts')
                 <a href="/usermanagement/brokerportalrequests" class="mt-3 col-sm-3 btn btn-outline-dark">Create User</a>
-              @endcan
+              @endcan --}}
             </div>
             <div class="col-sm-6">
               <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item"><a href="/usermanagement/user">User Management</a></li>
-                <li class="breadcrumb-item active">Manage Users</li>
+                <li class="breadcrumb-item active">Manage WP Users</li>
               </ol>
             </div>
           </div>
+        </div>
 
       </section>
       <style>
@@ -31,6 +32,89 @@
       <!-- Main content -->
       <section class="content">
         <livewire:usermanagement.w-p-users />
+        <div class="container">
+          <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
+              <div class="card card-danger card-outline">
+                  <div class="card-header">
+                      <h4 class="card-title">
+                      <i class="fas fa-user-plus"></i>
+                          Broker Portal Request</h4>
+                  </div>
+                  <div class="card-body">
+
+                      <nav>
+                          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                          <a class="nav-item nav-link active" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab" aria-controls="nav-request" aria-selected="true">Add User</a>
+                          </div>
+                      </nav>
+                      <div class="tab-content" id="nav-tabContent">
+                          <div class="tab-pane fade show active" id="nav-request" role="tabpanel" aria-labelledby="nav-request-tab">
+                              <div class="card-body">
+                                  <hr/>
+                                  <!-- form start -->
+                                  {{ Form::open(['action' => 'BrokerPortalRequestsController@submit', 'method' => 'POST']) }}
+                                          <h4>Broker Portal Requests Details</h4>
+                                          <hr/>
+                                          <div class="row card-footer">
+                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                                  <div class="form-group required">
+                                                      <label class="control-label" for="email">Email</label>
+                                                      <input required type="email" class="form-control" name="email" id="email" placeholder="" value={{ old('email') }} >
+                                                  </div>
+                                              </div>
+
+                                          </div>
+                                          <div class="row card-footer">
+                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                                  <div class="form-group required">
+                                                      <label class="control-label" for="firstname">First Name</label>
+                                                      <input required type="text" class="form-control" name="firstname" id="firstname" placeholder="" 
+                                                      value={{ old('firstname') }} >
+                                                  </div>
+                                              </div>
+                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                                  <div class="form-group required">
+                                                      <label class="control-label" for="lastname">Last Name</label>
+                                                      <input requiredtype="text" class="form-control" name="lastname" id="lastname" placeholder="" 
+                                                      value={{ old('lastname') }} >
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="row card-footer">
+                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                                  <div class="form-group required">
+                                                      <label class="control-label" for="username">Username</label>
+                                                      <input required type="text" class="form-control" name="username" id="username" placeholder="" 
+                                                      value={{ old('username') }} >
+                                                  </div>
+                                              </div>
+                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                                  <div class="form-group required">
+                                                      <label class="control-label" for="selectType" required>Select Type</label>
+                                                      <div>
+                                                          <select class="form-control" name="selectType" >
+                                                              <option value="um_broker" @if(old('selectType') == 'um_broker')selected @endif>Broker</option>
+                                                              <option value="um_correspondent" @if(old('selectType') == 'um_correspondent') selected @endif>Correspondent</option>
+                                                          </select>
+                                                      </div>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <hr/>
+                      
+                                      <div class="card-footer">
+                                          {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
+                                      </div>
+                                  {{ Form::close() }}
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div><!-- /.card -->
+          </div> <!-- /.col -->
+      </div><!-- /.row -->
+      </div><!-- Container -->
       </section>
     </div> <!-- end content-wrapper -->
 

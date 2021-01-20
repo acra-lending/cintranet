@@ -13,10 +13,10 @@ use DB;
 
 class BrokerPortalRequestsController extends Controller
 {
-    public function index()
-    {
-        return view('pages.operations.brokerportalrequests');
-    }
+    // public function index()
+    // {
+    //     return view('pages.operations.brokerportalrequests');
+    // }
 
     public function submit(Request $request)
     {
@@ -37,6 +37,7 @@ class BrokerPortalRequestsController extends Controller
 
         // $username = strtolower(str_replace($remove, "", $request->input('username'))).strtolower(substr($request->input('firstname'), 0, 1));
         $username = strtolower(str_replace($remove, "", $request->input('username')));
+        $email = strtolower($request->input('email'));
         $tempPassword = $username.'1';
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
         // dd($data);
@@ -51,7 +52,7 @@ class BrokerPortalRequestsController extends Controller
         $response = Http::withToken($token)
         ->post('https://acralending.com/wp-json/wp/v2/users', [
                 'username' => $username,
-                'email' => $request->input('email'),
+                'email' => $email,
                 'first_name' => $request->input('firstname'),
                 'last_name' => $request->input('lastname'),
                 'roles' => $request->input('selectType'),
@@ -68,7 +69,7 @@ class BrokerPortalRequestsController extends Controller
             $request->input('email')
         ])->send(new BrokerPortalRequestsClient($data));
 
-        return redirect ('/usermanagement/brokerportalrequests')->with ('success', 'Credentials created');
+        return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
     }
     else 
     $message = $response->json()['message'];

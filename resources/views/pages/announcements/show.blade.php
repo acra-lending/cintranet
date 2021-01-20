@@ -60,7 +60,7 @@
             @can('edit-posts')
             <a href="/learning/announcements/{{$post->id}}/edit" class="btn btn-outline-dark">Edit</a>
             @endcan
-            @can('delete-posts')
+            @can('manage-users')
             {{ Form::open(['action' => ['AnnouncementPostsController@destroy', $post->id], 'method' => 'DELETE', 'class' => 'float-right']) }}
             {{ Form::submit('Delete', ['class' => 'btn btn-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
             {{ Form::close() }}

@@ -108,7 +108,4 @@
             </div><!-- Container -->
         </section>
     </div>
-@push('includes.scripts')
-<script src="{{ asset('js/pages/datepicker.js') }}"></script>
-@endpush
 @stop
