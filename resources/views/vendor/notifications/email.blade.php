@@ -44,7 +44,7 @@
 {{ $salutation }}
 @else
 @lang('Regards'),<br>
-{{ 'CSC Webmaster' }}
+{{ 'Acra Webmaster' }}
 @endif
 
 {{-- Subcopy --}}
