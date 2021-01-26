@@ -151,7 +151,7 @@
               </div>
               <div class="card-body">
                 <div class="row">
-                    @foreach($webinarResults as $data)
+                    @foreach($monthlyMeetings as $data)
                         <div class="col-sm-2">
                             <a href="{{ URL::to('https://player.vimeo.com' .str_replace("s", "", $data['uri'])) }}" data-toggle="lightbox" data-title="{{ $data['name'] }}" data-gallery="gallery">
                                 <img src="{{ ($data['pictures']['sizes'][4]['link_with_play_button']) }}" class="img-fluid mb-2" alt="{{ $data['name'] }}" /></a>

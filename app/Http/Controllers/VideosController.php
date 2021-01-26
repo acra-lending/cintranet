@@ -8,23 +8,32 @@ use Carbon\Carbon;
 
 class VideosController extends Controller
 {
-    public function webinars()
+    public function sales()
     {
         $url = Vimeo::request("/users/124219438/projects/3216024/videos", ['per_page' => 99], 'GET');
         $url = $url['body'];
         $data = $url['data'];
         $webinarResults = $data;
 
-        return view('pages.videos.webinars', compact('webinarResults'));
+        $url = Vimeo::request("/users/124219438/projects/3513662/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $panelResults = $data;
+
+        return view('pages.videos.sales', 
+            compact([
+                'webinarResults',
+                'panelResults'
+            ]));
     }
     public function monthlymeetings()
     {
         $url = Vimeo::request("/users/124219438/projects/3216025/videos", ['per_page' => 99], 'GET');
         $url = $url['body'];
         $data = $url['data'];
-        $webinarResults = $data;
+        $monthlyMeetings = $data;
 
-        return view('pages.videos.monthlymeetings', compact('webinarResults'));
+        return view('pages.videos.monthlymeetings', compact('monthlyMeetings'));
     }
     public function operations()
     {

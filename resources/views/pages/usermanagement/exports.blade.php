@@ -51,7 +51,7 @@
         <section class="content">
           <div class="row pt-4">
             <div class="container center">
-            <img src="{{ asset ('/img/csc-logo-highres.png') }}" class="img-logo" id="img-logo">
+            <img src="{{ asset ('/img/acra-logo-horizontal-highres.png') }}" class="img-logo" id="img-logo">
             </div>
           </div>
 

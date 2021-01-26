@@ -95,22 +95,11 @@
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
-                    <li class="nav-item has-treeview {{ Request::is('videos/sales/*') ? 'menu-open': ''}}">
-                        <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-circle"></i>
-                            <p>
-                            Sales
-                            <i class="right fas fa-angle-left"></i>
-                            </p>
+                    <li class="nav-item">
+                        <a href="/videos/sales" class="nav-link {{ Request::path() === 'videos/sales' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Sales</p>
                         </a>
-                        <ul class="nav nav-treeview">
-                            <li class="nav-item">
-                                <a href="/videos/sales/webinars" class="nav-link {{ Request::path() === 'videos/sales/webinars' ? 'active': ''}}">
-                                    <i class="far fa-circle text-danger nav-icon"></i>
-                                    <p>Webinars</p>
-                                </a>
-                            </li>
-                        </ul>
                     </li>
                 </ul>
             </li>

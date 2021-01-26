@@ -32,7 +32,7 @@ Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('au
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
 
 //Videos
-Route::get('/videos/sales/webinars', 'VideosController@webinars')->middleware('auth');
+Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
 Route::get('/videos/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
 Route::get('/videos/operations', 'VideosController@operations')->middleware('auth');
 
