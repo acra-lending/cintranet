@@ -21,7 +21,7 @@
       </section>
       <style>
         .card-danger:not(.card-outline) .card-header {
-        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 85%);
+        background: var(--linear-gradient);
         }
       </style>
 
@@ -134,7 +134,7 @@
                 {{ Form::label('Profile Picture ') }}
                 {{ Form::file('avatar') }}
                 @endcan
-                <button type="submit" class="btn btn-primary float-right">Update</button>
+                <button type="submit" class="btn btn-danger float-right">Update</button>
             </div>
 
             </form>

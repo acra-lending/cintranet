@@ -65,7 +65,7 @@
         }
 
         .card-dark:not(.card-outline) .card-header {
-        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 75%);
+        background: var(--linear-gradient);
         }
     </style>
         <section class="content">

@@ -23,18 +23,22 @@
                 @endif
             @else
                 <li class="nav-item dropdown">
+                    Theme:&nbsp; 
+                   <label class="theme-switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label>&nbsp;&nbsp;&nbsp;&nbsp;
+                    
                     <a id="navbarDropdown" class="" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
                         Logout&nbsp;&nbsp;<i class="fas fa-sign-out-alt pr-3"></i><span class="caret"></span>
                     </a>
-    
+
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" href="{{ route('logout') }}"
                            onclick="event.preventDefault();
                                          document.getElementById('logout-form').submit();">
                             {{ __('Logout') }}
                         </a>
-
-    
                         <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                             @csrf
                         </form>

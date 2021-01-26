@@ -11,6 +11,7 @@
   gtag('config', 'UA-159340296-2');
 </script>
     @include('includes.head')
+    @stack('includes.head')
 </head>
 <style>
     .shadow-lg {
@@ -38,6 +39,11 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+                        Theme:&nbsp; 
+                        <label class="theme-switch">
+                         <input type="checkbox">
+                         <span class="slider round"></span>
+                       </label>
                         @guest
                             {{-- <li class="nav-item">
                                 <a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a>
@@ -76,5 +82,7 @@
             @yield('content')
         </main>
     </div>
+    @include('includes.scripts')
+    @stack('includes.scripts')
 </body>
 </html>

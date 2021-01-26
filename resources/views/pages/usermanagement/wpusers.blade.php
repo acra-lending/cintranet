@@ -25,7 +25,7 @@
       </section>
       <style>
         .card-danger:not(.card-outline) .card-header {
-        background: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 85%);
+        background: var(--linear-gradient);
         }
       </style>
   

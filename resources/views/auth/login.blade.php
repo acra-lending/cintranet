@@ -18,7 +18,7 @@
     <div class="row justify-content-center">
         <div class="col-sm-12 col-md-8 col-lg-6 col-xl-4 mt-5 pt-5">
             <div class="card">
-                <div class="card-header">{{ __('CSC Employee Login') }}</div>
+                <div class="card-header">{{ __('Acra/CSC Employee Login') }}</div>
 
                 <div class="card-body">
                     <form method="POST" action="{{ route('login') }}">

@@ -23,7 +23,7 @@
             text-align: center;
           }
           .center h3 {
-            background-color: #AB2328;
+            background-color: var(--primary-color);
             color: #fff;
             padding: 0 0 3px 0;
           }
