@@ -130,7 +130,7 @@ class UsersController extends Controller
             'cell' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
-
+dd($request);
 
         // Handle File Upload
         if($request->hasFile('avatar')){
