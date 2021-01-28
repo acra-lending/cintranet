@@ -194,13 +194,13 @@
                     </a>
                   </div>
                   <div style="text-align: center;">
-                    <a href="https://acralending.com/wp-content/uploads/2020/TurnTimes/csc-production-turntimes.pdf" target="_blank">
+                    <a href="https://acralending.com/wp-content/uploads/2020/TurnTimes/acra-production-turntimes.pdf" target="_blank">
                       <p>Turn Times</p>
                       <i class="fas fa-history" style="font-size: 32pt;"></i>
                     </a>
                   </div>
                   <div style="text-align: center;">
-                    <a href="https://acralending.com/wp-content/uploads/2020/CutOffDates/csc-production-cutoff.pdf" target="_blank">
+                    <a href="https://acralending.com/wp-content/uploads/2020/CutOffDates/acra-production-cutoff.pdf" target="_blank">
                       <p>Cut Off Dates</p>
                       <i class="fas fa-calendar-week" style="font-size: 32pt;"></i>
                     </a>
