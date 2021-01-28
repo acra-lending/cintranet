@@ -493,7 +493,7 @@
                 <div class="card-header">
                     <h3 class="card-title">
                     <i class="fas fa-university"></i>
-                    CSCU Sessions
+                    ALU Sessions
                     </h3>
                 </div>
                 <!-- /.card-header -->
