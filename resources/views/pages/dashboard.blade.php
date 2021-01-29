@@ -1048,6 +1048,6 @@
 <!-- JQVMap -->
 <script src="{{ asset ('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
 <script src="{{ asset ('plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
-<script src="{{ asset ('js/pages/map.js') }}"></script>
+<script src="{{ asset ('js/pages/map.js?version=1') }}"></script>
 <script src="{{ asset ('js/pages/dashboardcalendar.js') }}"></script>
 @endpush
