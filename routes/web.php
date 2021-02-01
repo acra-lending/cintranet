@@ -30,6 +30,9 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
 Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
 // Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
+Route::get('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@edit')->middleware('auth');
+Route::put('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@update')->middleware('auth');
+Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@destroy')->middleware('auth');
 
 //Videos
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
