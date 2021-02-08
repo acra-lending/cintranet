@@ -22,5 +22,5 @@
 <hr/>
 
 <br/>
-~<em>The <a href="https://acralending.com">Acra Lending</a> Team</em>
+~<em>The <a href="https://acracorrespondent.com">Acra Lending Correspondent</a> Team</em>
 @endcomponent
