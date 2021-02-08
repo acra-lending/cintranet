@@ -35,7 +35,7 @@ class BrokerPortalRequestsController extends Controller
         $tempPassword = $username.'1';
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
         $selectType = $request->input('selectType');
-        // dd($data);
+        // dd($selectType);
 
         $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
             'username' => env('WP_USERNAME'),
@@ -55,7 +55,7 @@ class BrokerPortalRequestsController extends Controller
         ]);
 
         // dd($response->json());
-    if ($selectType != 'um_correspondent') {
+    if ($selectType != 'um_broker') {
         if ($response->successful()) {
             Mail::to([
                 'webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'
@@ -70,6 +70,7 @@ class BrokerPortalRequestsController extends Controller
         $message = $response->json()['message'];
     
         return back()->withInput($request->all())->with('error', $message);
+        
     } else {
         if ($response->successful()) {
             Mail::to([
