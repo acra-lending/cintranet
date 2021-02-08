@@ -54,7 +54,7 @@
                             Last Login 
                             @include('includes._sort-icon', ['field' => 'lastvisitDate'])
                         </a></th> --}}
-                        {{-- <th class="w-0">Action</th> --}}
+                        <th class="w-0">Action</th>
                       </tr>
                     </thead>
                     <tbody>
@@ -68,13 +68,11 @@
                         <td>{{ Carbon\Carbon::parse($user->user_registered)->format('Y-m-d') }}</td>
                         {{-- <td>{{ Carbon\Carbon::parse($user->lastvisitDate)->format('Y-m-d') }}</td> --}}
                         <td>
-                          @can('edit-users')
-                          {{-- <a href="{{ route('admin.user.edit', $user->ID)}}"><button class="float-left btn btn-outline-dark">Edit</button></a> --}}
-                          @endcan
                           @can('manage-users')
-                          {{-- {{ Form::open(['action' => ['Admin\UsersController@destroy', $user], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
+                          <a href="{{ url('usermanagement/wpusers/edit', $user->ID)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
+                          {{ Form::open(['action' => ['BrokerPortalRequestsController@destroy', $user->ID], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
                           {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
-                          {{ Form::close() }} --}}
+                          {{ Form::close() }}
                           @endcan
                           {{-- <a href="{{ route('admin.user.destroy', $user->id)}}" method="POST"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a> --}}
                         </td>

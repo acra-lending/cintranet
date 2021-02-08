@@ -47,6 +47,14 @@
   --danger: #dc3545;
   --light: #f8f9fa;
   --dark: #343a40;
+  --primary-color: #C8102E;
+  --secondary-color: #AB2328;
+  --danger-color: #C8102E;
+  --gray-color: #3D3935;
+  --light-gray-color: #B1B3B3;
+  --linear-gradient: linear-gradient(138deg, rgba(171,35,40,1) 0%, rgba(52,58,64,1) 85%);
+  --footer-gradient: linear-gradient(148deg, rgba(52,58,64,1) 30%, rgba(171,35,40,1) 100%);
+  --sidebar-gradient: linear-gradient(148deg, rgba(52,58,64,1) 20%, rgba(171,35,40,1) 100%);
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;

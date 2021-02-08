@@ -30,6 +30,9 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
 Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
 // Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
+Route::get('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@edit')->middleware('auth');
+Route::put('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@update')->middleware('auth');
+Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@destroy')->middleware('auth');
 
 //Videos
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
@@ -38,8 +41,8 @@ Route::get('/videos/operations', 'VideosController@operations')->middleware('aut
 
 //Learning And Development
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
-Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth');
-Route::resource('learning/posts', 'LearningPostsController')->middleware('auth');
+Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth', \Spatie\HttpLogger\Middlewares\HttpLogger::class);
+Route::resource('learning/posts', 'LearningPostsController')->middleware('auth', \Spatie\HttpLogger\Middlewares\HttpLogger::class);
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
 Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->middleware('auth');
 Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middleware('auth');

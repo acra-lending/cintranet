@@ -86,7 +86,7 @@ class RegisterController extends Controller
             'firstname'     => $firstname,
             'lastname'      => $lastname,
             'directphone'   => $directPhone,
-            'extension'           => $ext,
+            'extension'     => $ext,
             'cell'          => $cellPhone,
             'departments'   => $departments
         ]);

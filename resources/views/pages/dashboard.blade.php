@@ -194,13 +194,13 @@
                     </a>
                   </div>
                   <div style="text-align: center;">
-                    <a href="https://citadelservicing.com/wp-content/uploads/2020/TurnTimes/csc-production-turntimes.pdf" target="_blank">
+                    <a href="https://acralending.com/wp-content/uploads/2020/TurnTimes/acra-production-turntimes.pdf" target="_blank">
                       <p>Turn Times</p>
                       <i class="fas fa-history" style="font-size: 32pt;"></i>
                     </a>
                   </div>
                   <div style="text-align: center;">
-                    <a href="https://citadelservicing.com/wp-content/uploads/2020/CutOffDates/csc-production-cutoff.pdf" target="_blank">
+                    <a href="https://acralending.com/wp-content/uploads/2020/CutOffDates/acra-production-cutoff.pdf" target="_blank">
                       <p>Cut Off Dates</p>
                       <i class="fas fa-calendar-week" style="font-size: 32pt;"></i>
                     </a>
@@ -493,7 +493,7 @@
                 <div class="card-header">
                     <h3 class="card-title">
                     <i class="fas fa-university"></i>
-                    CSCU Sessions
+                    ALU Sessions
                     </h3>
                 </div>
                 <!-- /.card-header -->
@@ -1048,6 +1048,6 @@
 <!-- JQVMap -->
 <script src="{{ asset ('plugins/jqvmap/jquery.vmap.min.js') }}"></script>
 <script src="{{ asset ('plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
-<script src="{{ asset ('js/pages/map.js') }}"></script>
+<script src="{{ asset ('js/pages/map.js?version=1') }}"></script>
 <script src="{{ asset ('js/pages/dashboardcalendar.js') }}"></script>
 @endpush

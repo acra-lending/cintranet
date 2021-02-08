@@ -24,7 +24,7 @@
 <script src="{{ asset ('plugins/link-to-tab/linkTab.js') }}"></script>
 <script src="{{ asset ('plugins/modal-form-edit/modalFormEdit.js') }}"></script>
 <script src="{{ asset ('plugins/modal-form-edit/modalLinksEdit.js') }}"></script>
-<script src="{{ asset ('plugins/toggle/script.js') }}"></script>
+<script src="{{ asset ('plugins/toggle/script.js?version=1') }}"></script>
 
 
 
