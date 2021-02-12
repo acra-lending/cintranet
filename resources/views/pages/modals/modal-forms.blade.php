@@ -16,10 +16,13 @@
             <div class="input-group">
                 <div class="input-group">
                     <div class="form-group col-sm-12">
-                        {{ Form::label('filename', 'Filename')}}
-                        {{-- {{ Form::text('filename', $file->filename, ['class' => 'form-control', 'placeholder' => 'Filename']) }} --}}
-                    <input type="hidden" name="category_id" id="category_id" value="">
-                        <input type="text" class="form-control" name="filename" id="filename">
+                      {{ Form::label('filename', 'Filename')}}
+                      <input type="hidden" name="file_id" id="file_id" value="">
+                      <input type="text" class="form-control" name="filename" id="filename">
+                    </div>
+                    <div class="form-group col-sm-12">
+                      {{ Form::label('category_id', 'Category Id')}}<br>
+                      <textarea rows="3" cols="60" name="category_id" id="category_id"></textarea>
                     </div>
                 </div>
             </div>

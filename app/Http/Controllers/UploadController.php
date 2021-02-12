@@ -95,20 +95,30 @@ class UploadController extends Controller
         }
 
         $this->validate($request, [
-            'filename' => 'required|regex:/^[0-9a-zA-Z_\-. ()&]*$/'
+            'filename' => 'required|regex:/^[0-9a-zA-Z_\-. ()&]*$/',
+            'category_id' => 'required'
         ]);
 
         //Create Upload Post
-        $post = Post::findOrFail($request->category_id);
+        $post = Post::findOrFail($request->file_id);
         $oldfilename = $post->filename;
         $newfilename = $request->input('filename');
+        $oldcategory = $post->category_id;
+        $newcategory = $request->input('category_id');
 
         if ($newfilename != $oldfilename){
             Storage::move('public/upload/'.$oldfilename, 'public/upload/'.$newfilename);
+            $post->category_id = ($request->input('category_id'));
             $post->filename = $newfilename;
             $post->save();
             
             return back()->with('success', 'File Updated');
+        } else if ($newfilename == $oldfilename && $newcategory != $oldcategory) {
+            $post->category_id = ($request->input('category_id'));
+            $post->save();
+
+            return back()->with('success', 'File Updated');
+
         } else {
             return back()->with('error', 'File Name Already Exists');
         }

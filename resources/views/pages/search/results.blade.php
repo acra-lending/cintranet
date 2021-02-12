@@ -35,6 +35,7 @@
 
 
       <section class="content">
+        @include('pages.modals.modal-forms')
         <div class="container-fluid">
             <div class="row">
   
@@ -86,8 +87,8 @@
                             <th>File Name</th>
                             <th>Created At</th>
                             <th>Updated At</th>
+                            <th>Category Id</th>
                             <th>File Size</th>
-                            <th></th>
                           </tr>
                         </thead>
                         <tbody>
@@ -101,8 +102,11 @@
                             @endcan
                             <td>{{$post->filesize}} KB</td>
                             <td>
-                              <a href="{{ route('show', $post->filename) }}" target="_blank"><button class="btn btn-outline-dark">Show</button></a>
-                              <a href="/download/{{$post->filename}}" download class="btn btn-danger">Download</button></a>
+                              <a href="{{ route('show', $post->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                              @can('edit-users')
+                              <a href="#" class="btn btn-warning" data-filename="{{ $post->filename}}" data-category_id="{{ $post->category_id }}" data-file_id="{{ $post->id }}"  data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                              @endcan
+                              <a href="/download/{{$post->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
                             </td>
                           </tr>
                           @endforeach
