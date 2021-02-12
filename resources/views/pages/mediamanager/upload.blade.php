@@ -139,6 +139,7 @@
                                                                         'uwSystems'         => 'Systems',
                                                                         'uwTisp'            => 'Taxes/Insurance/Subject Property',
                                                                         'uwGuidelines'      => 'Underwriting Guidelines',
+                                                                        'uwGuidelinesPast'  => 'Old Underwriting Guidelines',
                                                                         'uwTools'           => 'UW Tools',
                                                                         'uwVetting'         => 'Vetting',
                                                                         'uwVideos'          => 'Videos',

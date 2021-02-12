@@ -273,6 +273,10 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $uwGuidelines_past = Post::whereRaw("find_in_set('uwGuidelinesPast', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $uwTools = Post::whereRaw("find_in_set('uwTools', category_id)")
         ->sortable('filename')
         ->get();
@@ -366,6 +370,7 @@ class OperationsFormsController extends Controller
             'uwSystems'         => $uwSystems,
             'uwTisp'            => $uwTisp,
             'uwGuidelines'      => $uwGuidelines,
+            'uwGuidelines_past' => $uwGuidelines_past,
             'uwTools'           => $uwTools,
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos,

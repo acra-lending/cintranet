@@ -53,7 +53,8 @@
                                 'tm_retail_processing' => 'Transaction Management / Retail Loan Processing',
                                 'underwriting' => 'Underwriting',
                                 'closing' => 'Closing',
-                                'funding' => 'Funding'
+                                'funding' => 'Funding',
+                                'file_flow' => 'File Flow'
                         ), null, ['class' => 'form-control']) }}
                         </div>
                         {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}

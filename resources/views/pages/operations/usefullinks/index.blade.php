@@ -91,8 +91,9 @@
                         <a class="nav-link active" id="vert-tabs-loan-set-up-tab" data-toggle="pill" href="#vert-tabs-loan-set-up" role="tab" aria-controls="vert-tabs-loan-set-up" aria-selected="false">Loan Set Up</a>
                         <a class="nav-link" id="vert-tabs-tm-retail-tab" data-toggle="pill" href="#vert-tabs-tm-retail" role="tab" aria-controls="vert-tabs-tm-retail" aria-selected="false">Transaction Management / Retail Loan Processing</a>
                         <a class="nav-link" id="vert-tabs-underwriting-tab" data-toggle="pill" href="#vert-tabs-underwriting" role="tab" aria-controls="vert-tabs-underwriting" aria-selected="false">Underwriting</a>
-                        <a class="nav-link" id="vert-tabs-closing-tab" data-toggle="pill" href="#vert-tabs-closing" role="tab" aria-controls="vert-tabs-closing" aria-selected="false">Closing</sup></a>
-                        <a class="nav-link" id="vert-tabs-funding-tab" data-toggle="pill" href="#vert-tabs-funding" role="tab" aria-controls="vert-tabs-funding" aria-selected="false">Funding</sup></a>
+                        <a class="nav-link" id="vert-tabs-closing-tab" data-toggle="pill" href="#vert-tabs-closing" role="tab" aria-controls="vert-tabs-closing" aria-selected="false">Closing</a>
+                        <a class="nav-link" id="vert-tabs-funding-tab" data-toggle="pill" href="#vert-tabs-funding" role="tab" aria-controls="vert-tabs-funding" aria-selected="false">Funding</a>
+                        <a class="nav-link" id="vert-tabs-file-flow-tab" data-toggle="pill" href="#vert-tabs-file-flow" role="tab" aria-controls="vert-tabs-file-flow" aria-selected="false">File Flow - GA Updates</a>
                       </div>
                     </div>
                     <div class="col-sm-12 col-md-9">
@@ -323,6 +324,57 @@
             
                                         <tr>
                                         <td><a href="{{ $category->url }}" target="_blank">{{$category->title}}</a></td>
+
+                                        <td class="text-right py-0 align-middle">
+                                          <div class="btn-group btn-group-sm">
+                                            @can('manage-users')
+                                            <a 
+                                                href="#" 
+                                                class="btn btn-warning" 
+                                                data-link_title="{{ $category->title }}" 
+                                                data-link_url="{{ $category->url }}" 
+                                                data-link_category="{{ $category->category }}" 
+                                                data-link_id="{{ $category->id }}" 
+                                                data-toggle="modal" 
+                                                data-target="#editLinks">
+                                                <i class="fas fa-edit"></i>
+                                            </a>
+                                            {{ Form::open(['action' => ['UsefulLinksController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                              {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                            {{ Form::close()}}
+                                            @endcan
+                                          </div>
+                                        </td>
+                                        </tr>
+                                    @endforeach
+                                    </tbody>
+                                </table>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="vert-tabs-file-flow" role="tabpanel" aria-labelledby="vert-tabs-file-flow-tab">
+                          <!-- /.content-header -->        
+                          <div class="col">
+                            <div class="card card-danger">
+                              <div class="card-header border-0">
+                                <h3 class="card-title">File Flow - GA Updates</h3>
+                                <div class="card-tools">
+                                </div>
+                              </div>
+                              <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                    <thead>
+                                        <tr>
+                                          <th>@sortablelink('title', 'Link Title')</th>
+                                        <th></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                      @foreach($fileFlow as $category)
+            
+                                        <tr>
+                                        <td><a href="{{ $category->url }}">{{$category->title}}</a></td>
 
                                         <td class="text-right py-0 align-middle">
                                           <div class="btn-group btn-group-sm">

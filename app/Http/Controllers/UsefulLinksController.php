@@ -32,13 +32,18 @@ class UsefulLinksController extends Controller
         ->sortable('title')
         ->get();
 
+        $fileFlow = UsefulLinks::whereRaw("find_in_set('file_flow', category)")
+        ->sortable('title')
+        ->get();
+
         return view('pages.operations.usefullinks.index')
         ->with([
             'loanSetUp'             => $loanSetUp,
             'TmRetailProcessing'    => $TmRetailProcessing,
             'underWriting'          => $underWriting,
             'closing'               => $closing,
-            'funding'               => $funding
+            'funding'               => $funding,
+            'fileFlow'              => $fileFlow
         ]);
     }
     
