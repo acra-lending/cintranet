@@ -41,33 +41,27 @@ class RatesheetCategoryController extends Controller
         $wsOmbsvoeAE_past   = Post::whereRaw("find_in_set('wsOmbsvoeAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 // ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
         $ws3mbsAE_past      = Post::whereRaw("find_in_set('ws3mbsAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
         $wsNonprimeAE_past  = Post::whereRaw("find_in_set('wsNonprimeAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
         $wsJumboPrimeAE_past   = Post::whereRaw("find_in_set('wsJumboPrimeAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
         $wsOdfAE_past       = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 // ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
         $wsOdfPlusAE_past   = Post::whereRaw("find_in_set('wsOdfPlusAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 // ->skip(1)
-                                ->take(10)
-                                ->get();
+                                ->paginate(3);
 
 
         //Correspondent Current Ratesheets PDF

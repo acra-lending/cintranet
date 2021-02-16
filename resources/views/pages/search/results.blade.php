@@ -98,7 +98,7 @@
                             <td>{{$post->created_at}}</td>
                             <td>{{$post->updated_at }}</td>
                             @can('manage-users')
-                            <td>{{$post->category_id }}</td>
+                            <td class="cell-breakWord">{{$post->category_id }}</td>
                             @endcan
                             <td>{{$post->filesize}} KB</td>
                             <td>
