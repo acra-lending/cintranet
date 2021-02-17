@@ -10,6 +10,8 @@ class WPUsers extends Component
 {
     use WithPagination;
 
+    protected $paginationTheme = 'bootstrap';
+
     public $perPage = 10;
     public $searchTerm = '';
     public $sortField = 'user_registered';

@@ -13,6 +13,8 @@ class Search extends Component
 {
     use WithPagination;
 
+    protected $paginationTheme = 'bootstrap';
+
     public $perPage = 10;
     public $searchTerm = '';
     public $sortField = 'name';
