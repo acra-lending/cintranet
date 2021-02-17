@@ -19,7 +19,8 @@ class Search extends Component
     public $files;
     public $contacts;
 
-    protected $updatesQueryString = ['searchTerm'];
+    protected $queryString = ['searchTerm'];
+    protected $paginationTheme = 'bootstrap';
 
     public function mount()
     {

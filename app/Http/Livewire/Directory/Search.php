@@ -17,7 +17,8 @@ class Search extends Component
     public $position;
     public $department;
 
-    protected $updatesQueryString = ['searchTerm'];
+    protected $queryString = ['searchTerm'];
+    protected $paginationTheme = 'bootstrap';
 
     public function mount()
     {

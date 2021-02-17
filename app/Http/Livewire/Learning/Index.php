@@ -12,6 +12,8 @@ use Gate;
 class Index extends Component
 {
     use WithPagination;
+
+    protected $paginationTheme = 'bootstrap';
     
     public $contacts;
 
