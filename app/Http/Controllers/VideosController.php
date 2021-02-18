@@ -57,12 +57,18 @@ class VideosController extends Controller
         $data = $url['data'];
         $operationsFunding = $data;
 
+        $url = Vimeo::request("/users/124219438/projects/3708205/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $uwRoundtable = $data;
+
         return view('pages.videos.operations', 
             compact([
                 'operationsAll',
                 'operationsNewHire',
                 'operationsTM',
                 'operationsFunding',
+                'uwRoundtable',
             ]));
     }
 
