@@ -20,8 +20,7 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-            <!-- Main content -->
-
+        <!-- Main content -->
         <section class="content">
             <div class="row">
                 <div class="float-left">
@@ -30,8 +29,6 @@
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$expenseTraining->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/concur.png') }}" alt="concur"></a></button>
                             <div class="card-body">
                                 <h5 class="card-title">Concur Expense Report Training</h5>
-                                {{-- <p class="card-text" style="padding-top: 45px;">Principal 401(k) Enrollment Overview.</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -41,6 +38,5 @@
     </div>
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

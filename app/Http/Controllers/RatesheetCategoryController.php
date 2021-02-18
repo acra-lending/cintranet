@@ -6,8 +6,10 @@ use Illuminate\Http\Request;
 use App\Post;
 
 class RatesheetCategoryController extends Controller
+
+//Handled by Livewire
 {
-    public function index()
+    public function index() //Ignore these
     {
         //AE Wholesale Current Ratesheets
         $wsOmbsvoeAE    = Post::whereRaw("find_in_set('wsOmbsvoeAE', category_id)")

@@ -64,7 +64,7 @@
 
 @push('includes.scripts')
 <!-- CKeditor -->
-<script data-turbolinks-eval="false" src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
+<script src="{{ asset('plugins/ckeditor/ckeditor.js') }}"></script>
 <script>
     window.onload = function() {
         CKEDITOR.replace( 'editor1' );

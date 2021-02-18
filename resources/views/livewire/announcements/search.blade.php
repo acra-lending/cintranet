@@ -59,8 +59,6 @@
                         @endforeach   
                         </div>
                                 
-
-
                         <div class="col-9">
                             <p>{!! Str::limit($post->body, 255) !!}</p>
                         </div>

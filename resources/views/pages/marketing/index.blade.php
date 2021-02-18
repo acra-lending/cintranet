@@ -20,7 +20,7 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-            <!-- Main content -->
+        
         <style>
 
         .card-danger:not(.card-outline) .card-header {
@@ -28,7 +28,7 @@
         }
         
         </style>
-
+        <!-- Main content -->
         <section class="content">
             @include('pages.modals.modal-forms')
             <div class="container">

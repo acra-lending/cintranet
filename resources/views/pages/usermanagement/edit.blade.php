@@ -94,11 +94,6 @@
                   <strong><i class="fas fa-users mr-1"></i> Team</strong>
                     <input type="text" class="form-control float-right" name="team" value="{{$contact->team}}" style="width:50%; text-align:right;">
                   <hr>
-                  {{-- <strong><i class="fas fa-clock mr-1"></i> Member Since</strong>
-                  <p class="text-muted">
-                    <span class="tag tag-danger">{{ date('F jS, Y', strtotime($contact->created_at)) }}</span>
-                  </p>
-                  <hr> --}}
                   <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
                   <input type="text" class="form-control float-right" name="cell" value="{{$contact->cell}}" style="width:50%; text-align:right;">
                 </div>

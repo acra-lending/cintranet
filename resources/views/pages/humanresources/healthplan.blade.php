@@ -20,8 +20,7 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-            <!-- Main content -->
-
+        <!-- Main content -->
         <section class="content">
             <div class="row">
                 <div class="float-left">
@@ -29,8 +28,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="login-portal"></button>
                             <div class="card-body">
-                            {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                            {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}
                             </div>
                         </div>
                     </div>
@@ -40,9 +37,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$welfare->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare.svg') }}" alt="csc-health-welfare"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -52,9 +46,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$planDescription->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-health-welfare-alt.svg') }}" alt="csc-health-welfare-alt"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -64,9 +55,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$premium->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP.svg') }}" alt="csc-pop"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -76,9 +64,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$pop->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-POP-alt.svg') }}" alt="csc-pop-alt"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -88,9 +73,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$qmcso->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_benefits-QMCSO.svg') }}" alt="csc-qmcso"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -123,6 +105,5 @@
 
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

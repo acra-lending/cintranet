@@ -1,7 +1,4 @@
 @extends('layouts.default')
-{{-- @foreach($webinarResults as $data)
-    <embed src="{{ URL::to('https://player.vimeo.com' .$data['uri']) }}" width="100%" height="100%">
-@endforeach --}}
 
 @section('content')
     <!-- Content Wrapper. Contains page content -->
@@ -256,11 +253,5 @@
     </div>
     </section>
     </div>
-
-<!-- Control Sidebar -->
-<aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-</aside>
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

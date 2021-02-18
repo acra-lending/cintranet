@@ -105,16 +105,7 @@
         </div>
       </section>
     </div>
-          <!-- /.card -->
-        <!-- /.card -->
-
 <!-- /.col -->
-
-<!-- Control Sidebar -->
-<aside class="control-sidebar control-sidebar-dark">
-    <!-- Control sidebar content goes here -->
-</aside>
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 <script src='https://players.yumpu.com/modules/embed/yp_r_iframe.js' ></script>
 @stop

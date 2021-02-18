@@ -27,14 +27,6 @@
         <div class="col-md-8">
             <!-- Box Comment -->
             <div class="card card-widget">
-            {{-- <div class="card-header">
-                <div class="user-block">
-                <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">
-                <span class="username">Learing and Development</span>
-                <span class="description">{{$post->created_at}}</span>
-                </div>
-                <!-- /.user-block -->
-            </div> --}}
             <!-- /.card-header -->
             <div class="card-body">
                 <!-- post text -->
@@ -48,10 +40,7 @@
                     @endif
                     @endforeach 
                 </div>
-
                 <p>{!!$post->body!!}</p>
-
-
                 <span class="description" style="font-size: 10pt"><em>~{{Carbon\Carbon::parse($post->created_at)->format('Y-m-d')}}</em></span>
             </div>   
             <!-- /.card-body -->

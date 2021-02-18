@@ -19,12 +19,6 @@ class SearchController extends Controller
     {
         if(!empty($request->input('q'))){
             $q = $request->input('q');
-            // $users = DB::table('s2zar_jsn_users')
-            // ->orderBy('lastname', 'asc')
-            // ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
-            // ->where('name', 'LIKE', '%'.$q.'%')
-            // ->orWhere('email', 'LIKE', '%'.$q.'%')
-            // ->get();
 
             $users = User::where('name', 'LIKE', '%'.$q.'%')
             ->orWhere('email', 'LIKE', '%'.$q.'%')

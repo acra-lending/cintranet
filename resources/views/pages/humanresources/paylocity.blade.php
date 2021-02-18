@@ -20,8 +20,7 @@
         </div><!-- /.container-fluid -->
         </div>
         <!-- /.content-header -->
-            <!-- Main content -->
-
+        <!-- Main content -->
         <section class="content">
             <div class="row">
                 <div class="float-left">
@@ -29,8 +28,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="paylocity"></button>
                             <div class="card-body">
-                            {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                            {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}
                             </div>
                         </div>
                     </div>
@@ -40,9 +37,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$loginGuide->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-guide.svg') }}" alt="paylocity-guide"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">Paylocity Login Guide</h5> --}}
-                                {{-- <p class="card-text">Instructions to Log In to Paylocity (www.paylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -52,9 +46,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$webPayGuide->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-webpay-login-guide.svg') }}" alt="webpay"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title" style="padding-top: 5px;">Web Pay Login Guide</h5> --}}
-                                {{-- <p class="card-text">Access Web Pay at (loginpaylocity.com).</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -88,6 +79,5 @@
 
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

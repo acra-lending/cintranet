@@ -27,8 +27,7 @@
         }
 
         </style>
-            <!-- Main content -->
-
+        <!-- Main content -->
         <section class="content">
             <div class="container">
                 <div class="row">
@@ -43,10 +42,6 @@
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">Select</a>
-                                {{-- <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">Operations</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Human Resources</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Servicing</a>
-                                <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">Resources</a> --}}
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
@@ -313,35 +308,5 @@
         </div>
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop
-
-
-
-
-
-                            {{-- <div class="input-group">
-                            <form method="POST" action="/uploads" id="upload" enctype="multipart/form-data">
-                                {{ csrf_field() }}
-                                <div class="form-group">
-                                    <label for="exampleInputEmail1">File Name</label>
-                                    <input type="text" class="form-control" id="title" placeholder="ie. csc-ratematrix-1stTDs-ODF">
-                                    </div>
-                                <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="inputGroupFile" name="file[]" multiple>
-                                    <label class="custom-file-label" for="upload">Choose File</label>
-                                </div> 
-                                <div class="input-group-append pt-2">
-                                    <button class="btn btn-danger" type="submit">Upload</button>
-                                </div>                               
-                            </form>
-                            <div class="float-left">
-                                <div class="container pl-5">
-                                    <div>
-                                        <ul id="selectedFiles" class="list-group">
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            </div> --}}

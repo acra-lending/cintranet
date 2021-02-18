@@ -27,9 +27,7 @@
         }
         
         </style>
-
             <!-- Main content -->
-
             <section class="content">
               @include('pages.modals.modal-forms')
               <div class="container">
@@ -3623,7 +3621,6 @@
                       </div>
                     </div>
                 </div>
-
                     <div class="tab-pane fade show" id="nav-nda" role="tabpanel" aria-labelledby="nav-nda-tab">
                       <div class="row">
                         <div class="col-sm-4 col-md-3 col-lg-3">
@@ -3684,21 +3681,13 @@
                         </div>
                       </div>
                     </div>
-
-
                     </div>
                   </div>
                 </div>
               </div>
               </section>
         </div>
-
-
-
-
-
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

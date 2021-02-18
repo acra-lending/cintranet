@@ -29,8 +29,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="principal"></button>
                             <div class="card-body">
-                            {{-- <h5 class="card-title">Paylocity Portal</h5> --}}
-                            {{-- <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#modal-default">Login Portal</button> --}}
                             </div>
                         </div>
                     </div>
@@ -40,9 +38,6 @@
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$booklet->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-401k-summary-booklet.svg') }}" alt="paylocity-logo"></a></button>
                             <div class="card-body">
-                                {{-- <h5 class="card-title">401(k) Summary Booklet</h5> --}}
-                                {{-- <p class="card-text" style="padding-top: 45px;">Principal 401(k) Enrollment Overview.</p> --}}
-                                {{-- <a href="#" class="btn btn-danger float-right">Open</a> --}}
                             </div>
                         </div>
                     </div>
@@ -76,6 +71,5 @@
 
   </div>
   <!-- /.col -->
-<!-- /.control-sidebar -->
 <!-- ./wrapper -->
 @stop

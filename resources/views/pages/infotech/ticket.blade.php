@@ -363,11 +363,6 @@
             </div>
         </section>
     </div>
-
-
-
-
-
   </div>
 @push('includes.scripts')
 <script src="{{ asset('js/pages/datepicker.js') }}"></script>

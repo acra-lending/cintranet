@@ -27,14 +27,6 @@
                 <div class="col-md-6">
                     <!-- Box Comment -->
                     <div class="card card-widget">
-                    {{-- <div class="card-header">
-                        <div class="user-block">
-                        <img class="img-circle" src="{{ asset ('img/avatar1.png') }}" alt="User Image">
-                        <span class="username">Learing and Development</span>
-                        <span class="description">{{$post->created_at}}</span>
-                        </div>
-                        <!-- /.user-block -->
-                    </div> --}}
                     <!-- /.card-header -->
                     <div class="card-body">
                         <!-- Attachment -->
