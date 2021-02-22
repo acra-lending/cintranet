@@ -97,7 +97,7 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="departments" class="col-md-6 col-form-label">{{ __('Department') }}</label>
+                            <label for="departments" class="col-md-6 col-form-label">{{ __('Department*') }}</label>
                             
                             <div class="col-md-12">
                                 <input id="departments" type="text" class="form-control" name="departments">
@@ -107,7 +107,9 @@
 
                         <div class="form-group row mb-0 justify-content-center">
                             <div class="col-md-12">
-                                <p><strong>**Set user permissions and profile picture after registration**</strong></p>
+                                <p><strong>*Must be an existing department. If not sure, select from dropdown menu after registration*<br>    
+                                **Set user permissions after registration**
+                                </strong></p>
                                 {{-- <input type="reset" class="btn btn-outline-dark mr-3" value="Clear" /> --}}
                                 <button type="submit" class="btn btn-danger" style="width: 100%;">
                                     {{ __('Register') }}

@@ -71,11 +71,10 @@
                       <input type="text" class="form-control float-right" name="extension" value="{{$contact->extension}}" style="width:50%; text-align:right;">
                     </li>
                     <li class="list-group-item">
-                      <b>Department</b> 
-                      <input type="text" class="form-control float-right" name="departments" value="{{str_replace(array('[', '"', ']',), '',$contact->departments)}}" style="width:50%; text-align:right;">
+                      {{-- <b>Department</b> 
+                      <input type="text" class="form-control float-right" name="departments" value="{{str_replace(array('[', '"', ']',), '',$contact->departments)}}" style="width:50%; text-align:right;"> --}}
                       <label class="control-label" for="department">Department</label>
-                      {{ Form::select('departments', str_replace(array('[', '"', ']'), '', $departments), null, ['class' => 'form-control', 'name' => 'department', 'placeholder' => $contact->departments, 'style' => 'width:100%'])  }}
-                      {{-- <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->departments)}}</a> --}}
+                      {{ Form::select('departments', str_replace(array('[', '"', ']'), '', $departments), $contact->departments, ['class' => 'form-control float-right', 'name' => 'departments', 'style' => 'width:65%'])  }}
                     </li>
                   </ul>
                 </div>
