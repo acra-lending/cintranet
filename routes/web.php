@@ -70,6 +70,7 @@ Route::get('sales/forms', 'GeneralFormsCategoryController@index')->middleware('a
 Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
 Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('auth');
+Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->middleware('auth');
 
 //Marketing
 Route::get('marketing', 'MarketingController@index')->middleware('auth');
