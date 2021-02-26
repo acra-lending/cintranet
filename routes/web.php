@@ -33,6 +33,7 @@ Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsControll
 Route::get('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@edit')->middleware('auth');
 Route::put('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@update')->middleware('auth');
 Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@destroy')->middleware('auth');
+Route::get('reports', 'ReportsController@index')->middleware('auth');
 
 //Videos
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
