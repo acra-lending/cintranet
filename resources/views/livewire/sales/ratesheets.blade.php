@@ -322,7 +322,7 @@
         @can('manage-users')
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
         {{ Form::open(['action' => 'JumboPrimeRatesheetUpdateController@submit', 'method' => 'POST']) }}
-            {{ Form::submit('Send Update', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Send Jumbo Prime email update to all users? (Will take few minutes.   DO NOT refresh or navigate away)')"]) }}
+            {{ Form::submit('Send Update', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Send Jumbo Prime email update to all users?')"]) }}
         {{ Form::close() }}
         </div>
         </br>

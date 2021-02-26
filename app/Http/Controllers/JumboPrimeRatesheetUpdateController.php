@@ -17,7 +17,7 @@ class JumboPrimeRatesheetUpdateController extends Controller
         // dd($recipients);
         foreach ($recipients as $recipient) {
             Mail::to($recipient)
-            ->send(new JumboPrimeRatesheetUpdate());
+            ->queue(new JumboPrimeRatesheetUpdate());
         }
 
         return redirect ('/sales/ratesheets')->with ('success', 'Notification sent');
