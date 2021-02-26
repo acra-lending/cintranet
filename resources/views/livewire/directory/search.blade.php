@@ -9,10 +9,10 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
-                            <input class="form-control" wire:model="searchTerm" value="" type="text" placeholder="Search Name or Email">
+                            <input class="form-control" wire:model="search" value="" type="text" placeholder="Search Name or Email">
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
-                            <select wire:model="searchTerm" class="form-control" placeholder="Department">
+                            <select wire:model="search" class="form-control" placeholder="Department">
                                 <option value="" disabled selected>Department</option>
                                 @foreach($departments as $department)
                                     <option value="{{ $department }}">{{ str_replace(array('[', '"', ']'), '', $department) }}</option>
@@ -20,7 +20,7 @@
                             </select>
                         </div>
                         <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
-                            <select wire:model="searchTerm" class="form-control" placeholder="Position">
+                            <select wire:model="search" class="form-control" placeholder="Position">
                                 <option value="" disabled selected>Position</option>
                                 @foreach($positions as $position)
                                 <option value="{{ $position }}">{{ $position }}</option>
@@ -44,7 +44,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    {{$contacts->links()}}
+                    {{$contacts->links('livewire.directory.livewire-paginator')}}
                 </div>
                 <div class="col text-right text-muted">
                     Showing {{$contacts->firstItem()}} to {{$contacts->lastItem()}} out of {{$contacts->total()}} results
@@ -96,8 +96,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    {{$contacts->links()}}
+                <div class="col livewire-pagination">
+                    {{$contacts->links('livewire.directory.livewire-paginator')}}
                 </div>
                 <div class="col text-right text-muted">
                     Showing {{$contacts->firstItem()}} to {{$contacts->lastItem()}} out of {{$contacts->total()}} results

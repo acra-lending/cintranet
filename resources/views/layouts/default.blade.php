@@ -12,7 +12,7 @@
 </script>
   @include('includes.head')
   @stack('includes.head')
-  <livewire:styles />
+  @livewireStyles
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -37,7 +37,7 @@
 
         @include('includes.scripts')
         @stack('includes.scripts')
-        <livewire:scripts />
+        @livewireScripts
 
 </body> 
 </html>

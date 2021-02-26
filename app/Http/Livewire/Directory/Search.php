@@ -13,21 +13,21 @@ class Search extends Component
 {
     use WithPagination;
 
-    public $searchTerm = '';
+    public $search = '';
     public $position;
     public $department;
 
-    protected $queryString = ['searchTerm'];
+    protected $queryString = ['search'];
     protected $paginationTheme = 'bootstrap';
 
-    public function mount()
+    public function updatingSearch()
     {
-        $this->searchTerm = request()->query('searchTerm', $this->searchTerm);
+        $this->resetPage();
     }
 
     public function render()
     {
-        $searchTerm = '%'.$this->searchTerm.'%';
+        // $search = '%'.$this->search.'%';
 
         $positions = DB::table('s2zar_jsn_users')
         ->orderBy('position', 'asc')
@@ -49,11 +49,11 @@ class Search extends Component
             'contacts' => DB::table('s2zar_jsn_users')
             ->orderBy('lastname', 'asc')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-            ->where('name', 'LIKE', $searchTerm)
-            ->orWhere('email', 'LIKE', $searchTerm)
-            ->orWhere('departments', 'LIKE', $searchTerm)
-            ->orWhere('position', 'LIKE', $searchTerm)
-            ->orWhere('team', 'LIKE', $searchTerm)
+            ->where('name', 'like', '%'.$this->search.'%')
+            ->orWhere('email', 'like', '%'.$this->search.'%')
+            ->orWhere('departments', $this->search)
+            ->orWhere('position', $this->search)
+            // ->orWhere('team', 'like', '%'.$this->search.'%')
             ->paginate(9)
         ])            
         ->with([
