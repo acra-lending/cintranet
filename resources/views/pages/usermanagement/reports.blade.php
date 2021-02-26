@@ -63,24 +63,6 @@
       display: block;
       z-index: 7;
       }
-
-      embed-container { 
-      /* position: relative; 
-      padding-bottom:56.25%; 
-      height:0;  */
-      overflow: hidden; 
-      max-width: 100%; 
-      } 
-        
-      .embed-container iframe, 
-      .embed-container object, 
-      .embed-container embed { 
-      position: relative; 
-      top: 0; 
-      left: 0; 
-      width: 100%; 
-      height: 700px;
-      }
       </style>
 
       <section class="content">
@@ -90,6 +72,4 @@
       </section>
     </div>
 <!-- /.col -->
-<!-- ./wrapper -->
-<script src='https://players.yumpu.com/modules/embed/yp_r_iframe.js' ></script>
 @stop
