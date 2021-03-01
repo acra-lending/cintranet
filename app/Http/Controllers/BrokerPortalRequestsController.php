@@ -59,10 +59,10 @@ class BrokerPortalRequestsController extends Controller
         if ($response->successful()) {
             Mail::to([
                 'webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'
-            ])->send(new CorrespondentPortalRequests($data));
+            ])->queue(new CorrespondentPortalRequests($data));
             Mail::to([
                 $request->input('email')
-            ])->send(new CorrespondentPortalRequestsClient($data));
+            ])->queue(new CorrespondentPortalRequestsClient($data));
     
             return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
         }
@@ -75,10 +75,10 @@ class BrokerPortalRequestsController extends Controller
         if ($response->successful()) {
             Mail::to([
                 'webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'
-            ])->send(new BrokerPortalRequests($data));
+            ])->queue(new BrokerPortalRequests($data));
             Mail::to([
                 $request->input('email')
-            ])->send(new BrokerPortalRequestsClient($data));
+            ])->queue(new BrokerPortalRequestsClient($data));
     
             return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
         }
