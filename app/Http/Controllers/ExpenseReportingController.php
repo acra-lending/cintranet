@@ -15,9 +15,27 @@ class ExpenseReportingController extends Controller
         ->orderBy('created_at', 'desc')
         ->first();
 
+        $expenseGuide = Post::where('category_id', 'hrExpenseGuide')
+        ->where('filename', 'like', '%Paylocity Expense Guide%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
+        $expenseGuideMobile = Post::where('category_id', 'hrExpenseGuideMobile')
+        ->where('filename', 'like', '%Paylocity Expense Guide Mobile%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
+        $expenseGuideCellInternet = Post::where('category_id', 'hrExpenseCellInternet')
+        ->where('filename', 'like', '%Paylocity Cell Phone and Internet Reimbursement%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
         return view('pages.humanresources.expensereport')
         ->with([
-            'expenseTraining' => $expenseTraining,
+            'expenseTraining'           => $expenseTraining,
+            'expenseGuide'              => $expenseGuide,
+            'expenseGuideMobile'        => $expenseGuideMobile,
+            'expenseGuideCellInternet'  => $expenseGuideCellInternet,
         ]);
     }
 }

@@ -13,6 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/testpage', 'PublicController@jumboRateSheets');
+
 //Authentication
 Auth::routes();
 
