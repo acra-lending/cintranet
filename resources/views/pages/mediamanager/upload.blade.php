@@ -299,6 +299,7 @@
                                                     <div class="bar"></div>
                                                     <div class="percent">0%</div>
                                                 </div>
+                                                <div class="complete"></div>
                                             {{ Form::close() }}
                                             </div>
                                             <!-- /.card-body -->
@@ -334,10 +335,11 @@
                     var percentVal = percentComplete + '%';
                     bar.width(percentVal)
                     percent.html(percentVal);
+                    $('.complete').html('Uploading');
                 },
                 complete: function(data) {
-                    $('#messages').html('<div class="alert alert-success bg-teal">' + data.responseJSON.success + '</div>');
-                    $('#messages').delay(5000).fadeOut('slow'); 
+                    $('.complete').html(data.responseJSON.success);
+                    
                 }
               });
         }); 
