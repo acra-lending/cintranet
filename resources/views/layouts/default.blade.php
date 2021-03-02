@@ -23,7 +23,7 @@
 
         @include('includes.sidebar')
 
-        <div class="container col-3">    
+        <div class="container col-3" id="messages">    
             @include('includes.messages')
         </div>
 

@@ -61,7 +61,8 @@ class UploadController extends Controller
                     
             }           
 
-        return back()->with('success', 'Upload Complete');
+        // return back()->with('success', 'Upload Complete');
+        return response()->json(['success' => 'Uploaded Successfully']);
       
         } else {
             return 'file not found';

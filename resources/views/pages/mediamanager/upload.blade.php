@@ -26,6 +26,10 @@
         background: var(--linear-gradient);
         }
 
+        .progress { position:relative; width:100%; background-color: var(--gray-color); height: 20px; }
+        .bar { background-color: var(--primary-color); width:0%; height:40px; }
+        .percent { position:absolute; display:inline-block; left:50%; color: #fff;}
+
         </style>
         <!-- Main content -->
         <section class="content">
@@ -291,6 +295,10 @@
                                                     </div>
                                                 </div>
                                                 {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                                                <div class="progress mt-3">
+                                                    <div class="bar"></div>
+                                                    <div class="percent">0%</div>
+                                                </div>
                                             {{ Form::close() }}
                                             </div>
                                             <!-- /.card-body -->
@@ -307,6 +315,33 @@
         </section>
         </div>
   </div>
-  <!-- /.col -->
-<!-- ./wrapper -->
+  @push('includes.scripts')
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+  <script type="text/javascript">
+    var SITEURL = "{{URL('/mediamanager')}}";
+    $(function() {
+        $(document).ready(function()
+        {
+            var bar = $('.bar');
+            var percent = $('.percent');
+              $('form').ajaxForm({
+                beforeSend: function() {
+                    var percentVal = '0%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                },
+                uploadProgress: function(event, position, total, percentComplete) {
+                    var percentVal = percentComplete + '%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                },
+                complete: function(data) {
+                    $('#messages').html('<div class="alert alert-success bg-teal">' + data.responseJSON.success + '</div>');
+                    $('#messages').delay(5000).fadeOut('slow'); 
+                }
+              });
+        }); 
+     });
+    </script>
+    @endpush
 @stop
