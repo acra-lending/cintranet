@@ -73,6 +73,22 @@ return [
             'bucket' => env('DO_SPACES_BUCKET'),
         ],
 
+        'sftp' => [
+            'driver' => 'sftp',
+            'host' => env('SFTP_HOST'),
+            'username' => env('SFTP_USERNAME'),
+            'password' => env('SFTP_PASSWORD'),
+        
+            // Settings for SSH key based authentication...
+            // 'privateKey' => '/path/to/privateKey',
+            // 'password' => 'encryption-password',
+        
+            // Optional SFTP Settings...
+            'port' => 22,
+            'root' => '/var/www',
+            'timeout' => 30,
+        ],
+
     ],
 
     /*

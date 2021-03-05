@@ -1,5 +1,5 @@
 $("document").ready(function(){
     setTimeout(function(){
-       $("div.alert").remove();
-    }, 5000 ); // 5 secs
+       $("div.alert").fadeOut();
+    }, 3000 ); // 3 secs
 });

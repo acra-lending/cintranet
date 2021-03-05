@@ -413,6 +413,16 @@
                         </a>
                     </li>
                 </ul>
+                @can('edit-users')
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/mediamanager/uploadjumbo" class="nav-link {{ Request::path() === 'mediamanager/uploadjumbo' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Jumbo Prime Upload</p>
+                        </a>
+                    </li>
+                </ul>
+                @endcan
             </li>
             @endcan
         </ul>

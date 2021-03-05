@@ -131,7 +131,8 @@ class BrokerPortalRequestsController extends Controller
         $username = strtolower(str_replace($remove, "", $request->input('username')));
         $email = strtolower($request->input('email'));
         $data = [$request->all(), 'username' => $username];
-        // dd($data);
+        $displayName = $request->input('firstname'). ' ' .$request->input('lastname');
+        // dd($displayName);
 
         $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
             'username' => env('WP_USERNAME'),
@@ -146,6 +147,7 @@ class BrokerPortalRequestsController extends Controller
                 'email' => $email,
                 'first_name' => $request->input('firstname'),
                 'last_name' => $request->input('lastname'),
+                'name' => $displayName,
                 'roles' => $request->input('selectType'),
         ]);
 
