@@ -215,7 +215,7 @@
                 <div class="col-12">
                   @foreach ($dailyStatus as $status)
                   <div class="callout callout-primary">
-                    <h6>Today's List {{ Carbon\Carbon::parse($status->created_at)->format('m-d-Y') }}</h6>
+                    <h6>Today's List {{ Carbon\Carbon::parse($status->requestDate)->format('m-d-Y') }}</h6>
                     <p class="m-0"style="font-size: 10.5pt;">{!!nl2br(e($status->body))!!}</p> 
                   </div>
                   @endforeach

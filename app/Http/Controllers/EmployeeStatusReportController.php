@@ -29,12 +29,17 @@ class EmployeeStatusReportController extends Controller
         }
 
         $this->validate($request, [
-            'body'      => 'required'
+            'body'          => 'required',
+            'requestDate'   => 'required'
         ]);
+
+        $date = $request->input('requestDate');
+        $timestamp = date('Y-m-d', strtotime($date));
         // Create Post
         $post = StatusReport::create($request->all());
         $post->user_id = Auth::user()->id;
         $post->body = $request->input('body');
+        $post->requestDate = $timestamp;
         $post->save();
 
         return redirect ('/employee/outofoffice')
