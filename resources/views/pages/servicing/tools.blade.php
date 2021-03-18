@@ -71,22 +71,22 @@
         <section class="content">
           <!--This the div tag to render functionality to.Note the id of the tag. -->
           <div class="row">
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                 <h3 class="p-0">Payment</h3>
                     <div id="servicemac-payment-widget" class="p-3"></div>
               </div>
               <!--This the div tag to render functionality to.Note the id of the tag. -->
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                 <h3 class="p-0">Payoff</h3>
                     <div id="servicemac-payoff-widget" class="p-3"></div>
               </div>
               <!--This the div tag to render functionality to.Note the id of the tag. -->
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                 <h3 class="p-0">Find My Loan</h3>
                     <div id="servicemac-findmyloan-widget" class="p-3"></div>
               </div>
               <!-- This the div tag to render functionality to. Note the id of the tag. -->
-              <div class="col">
+              <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
                 <h3 class="p-0">Net Payoff</h3>
                     <div id="servicemac-netpayoff-widget" class="p-3"></div>
               </div>
