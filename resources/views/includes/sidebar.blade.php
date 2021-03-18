@@ -369,17 +369,35 @@
                     </li>
                 </ul>
             </li>
-            <li class=" nav-item">
+            <li class="nav-item">
                 <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
                     <i class="nav-icon fas fa-rocket"></i>
                     <p>Marketing</p>
                 </a>
             </li>
-            <li class=" nav-item">
-                <a href="/servicing/servicing" class="nav-link {{ Request::path() === 'servicing/servicing' ? 'active' : ''}}">
+            <li class="nav-item has-treeview {{ Request::is ('servicing/*') ? 'menu-open' : ''}}">
+                <a href="#" class="nav-link">  
                     <i class="nav-icon fas fa-headset"></i>
-                    <p>Servicing</p>
+                    <p>Servicing
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/servicing/documents" class="nav-link {{ Request::path() === 'servicing/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/servicing/tools" class="nav-link {{ Request::path() === 'servicing/tools' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Tools</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
 
             <li class="nav-item has-treeview {{ Request::is('infotech/*') ? 'menu-open': ''}}">

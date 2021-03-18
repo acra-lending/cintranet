@@ -37,7 +37,7 @@
                 Theme:&nbsp; 
             <label class="theme-switch">
                 <input type="checkbox">
-                <span class="slider round"></span>
+                <span class="acraslider round"></span>
             </label>&nbsp;&nbsp;&nbsp;&nbsp;
             </li>
                 <li class="nav-item dropdown">

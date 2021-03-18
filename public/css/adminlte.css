@@ -30278,7 +30278,7 @@ a.text-muted:hover {
 }
 
 /* The slider */
-.slider {
+.acraslider {
   position: absolute;
   cursor: pointer;
   top: 0;
@@ -30290,7 +30290,7 @@ a.text-muted:hover {
   transition: .2s;
 }
 
-.slider:before {
+.acraslider:before {
   position: absolute;
   content: "";
   height: 16px;
@@ -30302,30 +30302,30 @@ a.text-muted:hover {
   transition: .2s;
 }
 
-input:checked + .slider {
+input:checked + .acraslider {
   background-color: #0033A1;
 }
 
-input:focus + .slider {
+input:focus + .acraslider {
   box-shadow: 0 0 1px #0033A1;
 }
 
-input:checked + .slider:before {
+input:checked + .acraslider:before {
   -webkit-transform: translateX(46px);
   -ms-transform: translateX(46px);
   transform: translateX(46px);
 }
 
-/* Rounded sliders */
-.slider.round {
+/* Rounded acrasliders */
+.acraslider.round {
   border-radius: 34px;
 }
 
-.slider.round:before {
+.acraslider.round:before {
   border-radius: 50%;
 }
 
-.slider:after
+.acraslider:after
 {
  content:'CSC';
  color: white;
@@ -30338,7 +30338,7 @@ input:checked + .slider:before {
  font-family: Verdana, sans-serif;
 }
 
-input:checked + .slider:after
+input:checked + .acraslider:after
 {  
   content:'Acra';
 }

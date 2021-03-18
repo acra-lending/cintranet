@@ -89,7 +89,8 @@ Route::put('operations/usefullinks', 'UsefulLinksController@update')->middleware
 Route::delete('operations/usefullinks/{id}', 'UsefulLinksController@destroy')->middleware('auth');
 
 //Servicing
-Route::get('servicing/servicing', 'ServicingDocsController@index')->middleware('auth');
+Route::get('servicing/documents', 'ServicingDocsController@index')->middleware('auth');
+Route::get('servicing/tools', 'ServicingToolsController@index')->middleware('auth');
 
 //Human Resources
 Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
