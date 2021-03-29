@@ -212,7 +212,14 @@ class DirectoryListController extends Controller
         ->get();
         $loanServicingCount = $loanServicing->count();
 
-        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritingCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount;
+        $fixAndFlip = DB::table('s2zar_jsn_users')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->where('departments', 'Fix And Flip')
+        ->orderby('lastname', 'asc')
+        ->get();
+        $fixAndFlipCount = $fixAndFlip->count();
+
+        $totalCount = $executivesCount + $officeManagementCount + $humanResourcesCount + $accountingCount + $financialPlanningCount + $learningCount + $complianceQCCount + $legalCount + $capitalMarketsCount + $technologyCount + $disclosuresCount + $transactionManagersCount + $loanSetUpCount + $underwritingCount + $valuationSpecialistsCount + $fundersCount + $investorReportingCount + $lossMitigationCount + $customerServiceCount + $taxCount + $servicingQACount + $shippingCount + $marketingCount + $aeWestCount + $aeEastCount + $retailCount + $correspondentCount + $loanServicingCount + $fixAndFlipCount;
     
         return view('pages.usermanagement.exports')
         ->with([
@@ -272,6 +279,8 @@ class DirectoryListController extends Controller
             'correspondentCount'        => $correspondentCount,
             'loanServicing'             => $loanServicing,
             'loanServicingCount'        => $loanServicingCount,
+            'fixAndFlip'                => $fixAndFlip,
+            'fixAndFlipCount'           => $fixAndFlipCount,
             'totalCount'                => $totalCount,
 
         ]);

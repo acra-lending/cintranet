@@ -21,53 +21,6 @@
         </div>
         <!-- /.content-header -->
 
-    <style>
-        .color-palette {
-        height: 35px;
-        line-height: 35px;
-        text-align: right;
-        padding-right: .75rem;
-        }
-        
-        .color-palette.disabled {
-        text-align: center;
-        padding-right: 0;
-        display: block;
-        }
-        
-        .color-palette-set {
-        margin-bottom: 15px;
-        }
-
-        .color-palette span {
-        display: none;
-        font-size: 12px;
-        }
-
-        .color-palette:hover span {
-        display: block;
-        }
-
-        .color-palette.disabled span {
-        display: block;
-        text-align: left;
-        padding-left: .75rem;
-        }
-
-        .color-palette-box h4 {
-        position: absolute;
-        left: 1.25rem;
-        margin-top: .75rem;
-        color: rgba(255, 255, 255, 0.8);
-        font-size: 12px;
-        display: block;
-        z-index: 7;
-        }
-
-        .card-danger:not(.card-outline) .card-header {
-        background: var(--linear-gradient);
-        }
-    </style>
         <section class="content">
           <!--This the div tag to render functionality to.Note the id of the tag. -->
           <div class="row">
@@ -93,7 +46,7 @@
           </div>
         </section>
 </div>
-@stop
+@endsection
 
 @push('includes.scripts')
 <!-- You will need to have a reference to ServiceMacs Widget Render -->
@@ -128,5 +81,18 @@ if(validKey)
 };
 
 });
+
+</script>
+<script>
+setTimeout(function() {
+    // let filter = document.getElementsByClassName('alert alert-danger').removeAttribute('style');
+    let filter = document.getElementsByClassName('alert alert-danger');
+
+    Array.prototype.forEach.call(filter, function(element) {
+        element.removeAttribute('style');
+    })
+}, 3500);
+
+
 </script>
 @endpush
