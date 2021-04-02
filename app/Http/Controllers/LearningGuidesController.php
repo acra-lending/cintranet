@@ -10,17 +10,17 @@ class LearningGuidesController extends Controller
     public function index()
     {
         //General Guides
-        $generalGuides = Post::where('category_id', 'generalGuides')
+        $generalGuides = Post::whereRaw("find_in_set('generalGuides', category_id)")
         ->sortable('filename')
         ->get();
 
         //Operation Guides
-        $operationGuides = Post::where('category_id', 'operationGuides')
+        $operationGuides = Post::whereRaw("find_in_set('operationGuides', category_id)")
         ->sortable('filename')
         ->get();
 
         //Servicing Guides
-        $servicingGuides = Post::where('category_id', 'servicingGuides')
+        $servicingGuides = Post::whereRaw("find_in_set('servicingGuides', category_id)")
         ->sortable('filename')
         ->get();
 
