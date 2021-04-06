@@ -151,6 +151,12 @@
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
+                                                                    ],
+                                                                    'Fix N Flip' => [
+                                                                        'fixAndFlipIntake'      => 'Intake',
+                                                                        'fixAndFlipProcessing'  => 'Processing',
+                                                                        'fixAndFlipUw'          => 'Underwriting',
+                                                                        'fixAndFlipFunding'     => 'Funding',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [

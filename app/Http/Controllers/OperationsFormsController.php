@@ -310,6 +310,25 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        //-------------
+        //Fix And Flip
+        //-------------
+        $fixAndFlipIntake = Post::whereRaw("find_in_set('fixAndFlipIntake', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $fixAndFlipProcessing = Post::whereRaw("find_in_set('fixAndFlipProcessing', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $fixAndFlipUw = Post::whereRaw("find_in_set('fixAndFlipUw', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $fixAndFlipFunding = Post::whereRaw("find_in_set('fixAndFlipFunding', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.operations.forms', [
             'disclosure'            => $disclosure,
             'important'             => $important,
@@ -377,6 +396,10 @@ class OperationsFormsController extends Controller
             'jrProcessorForms'  => $jrProcessorForms,
             'processorForms'    => $processorForms,
             'nda'           => $nda,
+            'fixAndFlipIntake'      => $fixAndFlipIntake,
+            'fixAndFlipProcessing'  => $fixAndFlipProcessing,
+            'fixAndFlipUw'          => $fixAndFlipUw,
+            'fixAndFlipFunding'     => $fixAndFlipFunding,
         ]);
     }
 }
