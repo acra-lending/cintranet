@@ -24,11 +24,16 @@ class LearningGuidesController extends Controller
         ->sortable('filename')
         ->get();
 
+        $jumboPrimeGuides = Post::whereRaw("find_in_set('jumboPrimeGuides', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.learning.guides.guides')
         ->with([
-            'generalGuides' => $generalGuides,
-            'operationGuides' => $operationGuides,
-            'servicingGuides' => $servicingGuides,
+            'generalGuides'     => $generalGuides,
+            'operationGuides'   => $operationGuides,
+            'servicingGuides'   => $servicingGuides,
+            'jumboPrimeGuides'  => $jumboPrimeGuides,
         ]);
     }
 }

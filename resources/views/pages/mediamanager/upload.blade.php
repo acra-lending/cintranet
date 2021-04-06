@@ -283,9 +283,10 @@
                                                                 'Learning & Development' => [
                                                                     'learning' => 'Learning',
                                                                     'Guides' => [
-                                                                        'generalGuides'   => 'General',
-                                                                        'operationGuides' => 'Operations',
-                                                                        'servicingGuides' => 'Servicing'
+                                                                        'generalGuides'     => 'General',
+                                                                        'operationGuides'   => 'Operations',
+                                                                        'servicingGuides'   => 'Servicing',
+                                                                        'jumboPrimeGuides'  => 'Jumbo Prime',
                                                                     ]
                                                                 ]
                                                         ], null, ['multiple' => 'multiple', 'size' => '15', 'placeholder' => 'Pick a category', 'style' => 'width:90%']) }}
