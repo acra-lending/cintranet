@@ -16,7 +16,7 @@ var highlighted_states = {
   fl  : '#0033A1',
   ga  : '#0033A1',
   il  : '#0033A1',
-  // id  : '#0033A1',
+  id  : '#0033A1',
   in  : '#0033A1',
   ks  : '#0033A1',
   ky  : '#0033A1',
@@ -154,9 +154,9 @@ $('#world-map').vectorMap({
       <br>
       Tel: (844) 768-1713`);
     }
-    // if(code== 'id') {
-    //   label.append(`<br><br>`);
-    // }
+    if(code== 'id') {
+      label.append(``);
+    }
     if(code== 'in') {
       label.append(`
       <br>
