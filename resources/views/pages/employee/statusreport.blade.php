@@ -9,18 +9,16 @@
             <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Resources</h1>
-            </div><!-- /.col -->
+            </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active"><a href="/">Resources</a></li>
                 <li class="breadcrumb-item">Status Report</a></li>
                 </ol>
-            </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+            </div>
+            </div>
         </div>
-        <!-- /.content-header -->
-        <!-- Main content -->
+        </div>
         <section class="content">
             <div class="container">
                 <div class="row">
@@ -32,7 +30,6 @@
                                 Out Of Office Form</h4>
                         </div>
                         <div class="card-body">
-
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <a class="nav-item nav-link active" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab" aria-controls="nav-request" aria-selected="true">Status Report</a>
@@ -42,40 +39,7 @@
                                 <div class="tab-pane fade show active" id="nav-request" role="tabpanel" aria-labelledby="nav-request-tab">
                                     <div class="card-body">
                                         <hr/>
-                                        <!-- form start -->
-                                        {{ Form::open(['action' => 'EmployeeStatusReportController@store', 'method' => 'POST']) }}
-                                                <h4>Out Of Office Form</h4>
-                                                <hr/>
-                                                <div class="row">
-                                                    <div class="col-md-12 col-lg-6">
-                                                        <div class="form-group required">
-                                                            <label class="control-label" for="requestDate">Date</label>
-                                                            <div class="input-group">
-                                                                <div class="input-group-prepend">
-                                                                  <span class="input-group-text">
-                                                                    <i class="far fa-calendar-alt"></i>
-                                                                  </span>
-                                                                </div>
-                                                                <input type="text" class="form-control float-right" name="requestDate" id="requestDate" required>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="row">
-                                                    <div class="col-md-12 col-lg-6">
-                                                        <div class="form-group">
-                                                            <label for="status">Today's List:</label>
-                                                            <textarea class="form-control" rows="10" name="body" id="body" placeholder=""></textarea> 
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <hr/>
-                                            <!-- /.card-body -->
-                            
-                                            <div class="card-footer">
-                                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
-                                            </div>
-                                        {{ Form::close() }}
+                                        @include('pages.employee.partials.statusreportform')
                                     </div>
                                 </div>
                             </div>
