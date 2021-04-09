@@ -25,6 +25,7 @@ var highlighted_states = {
   me  : '#0033A1',
   mi  : '#0033A1',
   mn  : '#0033A1',
+  mo  : '#0033A1',
   mt  : '#0033A1',
   ne  : '#0033A1',
   nh  : '#0033A1',
@@ -204,6 +205,12 @@ $('#world-map').vectorMap({
       <br>
       <br>
       Minnesota Residential Mortgage Originator License #MN-MO-144549`);
+    }
+    if(code== 'mo') {
+      label.append(`
+      <br>
+      <br>
+      Missouri - Mortgage Company License - #21-2557-S`);
     }
     if(code== 'mt') {
       label.append(`

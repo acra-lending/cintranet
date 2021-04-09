@@ -62,14 +62,43 @@ class EmployeeStatusChangeController extends Controller
         ]);
         $data = $request->all();
 
-        // dd($request)->all();
+        $additionalRecipient1 = $request->email3;
+        $additionalRecipient2 = $request->email4;
 
-        Mail::to([
-            'itsupport@citadelservicing.com', 
-            'staffchanges@citadelservicing.com', 
-            'human_resources@citadelservicing.com', 
-            'hitzm@citadelservicing.com'
-        ])->send(new EmployeeStatusChange($data));
+        if ($request->filled(['email4', 'email3'])) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient1,
+                $additionalRecipient2,
+            ])->queue(new EmployeeStatusChange($data));
+
+        } elseif ($request->filled('email3')) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient1,
+            ])->queue(new EmployeeStatusChange($data));
+        } elseif ($request->filled('email4')) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient2,
+            ])->queue(new EmployeeStatusChange($data));
+        } else {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+            ])->queue(new EmployeeStatusChange($data));
+        }
 
         return redirect('/employee/statuschange')
             ->with('success', 'Request Form Sent');

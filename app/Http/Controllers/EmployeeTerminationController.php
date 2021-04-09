@@ -48,22 +48,51 @@ class EmployeeTerminationController extends Controller
             'emailForward'          => 'nullable',
             'specialInstructions'   => 'nullable|max:500',
             'submittedBy'           => 'required',
-            'email2'                => 'required|email',
+            'email2'                => 'nullable|email',
             'email3'                => 'nullable|email',
             'email4'                => 'nullable|email',
             'email5'                => 'nullable|email',
         ]);
         $data = $request->all();
 
-        // dd($request)->all();
- 
-        Mail::to([
-            'itsupport@citadelservicing.com', 
-            'staffchanges@citadelservicing.com', 
-            'human_resources@citadelservicing.com', 
-            'hitzm@citadelservicing.com'
-        ])->send(new EmployeeTermination($data));
-        
+
+        $additionalRecipient1 = $request->email4;
+        $additionalRecipient2 = $request->email5;
+
+        if ($request->filled(['email5', 'email4'])) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient1,
+                $additionalRecipient2,
+            ])->queue(new EmployeeTermination($data));
+
+        } elseif ($request->filled('email4')) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient1,
+            ])->queue(new EmployeeTermination($data));
+        } elseif ($request->filled('email5')) {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+                $additionalRecipient2,
+            ])->queue(new EmployeeTermination($data));
+        } else {
+            Mail::to([
+                'itsupport@citadelservicing.com', 
+                'staffchanges@citadelservicing.com', 
+                'human_resources@citadelservicing.com', 
+                'hitzm@citadelservicing.com',
+            ])->queue(new EmployeeTermination($data));
+        }
 
         return redirect('/employee/termination')
             ->with('success', 'Request Form Sent');

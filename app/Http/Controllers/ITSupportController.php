@@ -47,7 +47,7 @@ class ITSupportController extends Controller
                 'folderName'        => 'nullable',
                 'additionalInfo'    => 'nullable',
                 'attachment'        => 'array',
-                'attachment.*'      => 'image|mimes:jpeg,bmp,png',
+                'attachment.*'      => 'image|mimes:jpg,jpeg,bmp,png',
             ]);
 
             $data = $request->except('itemRequest');
@@ -90,7 +90,7 @@ class ITSupportController extends Controller
             'priority'      => 'nullable',
             'bodyMessage'   => 'required',
             'attachment'    => 'array',
-            'attachment.*'  => 'image|mimes:jpeg,bmp,png',
+            'attachment.*'  => 'image|mimes:jpg,jpeg,bmp,png',
         ]);
 
         $data = $request->all();
@@ -125,7 +125,7 @@ class ITSupportController extends Controller
             'priority'      => 'nullable',
             'bodyMessage'   => 'required',
             'attachment'    => 'array',
-            'attachment.*'  => 'image|mimes:jpeg,bmp,png',
+            'attachment.*'  => 'image|mimes:jpg,jpeg,bmp,png',
         ]);
 
         $data = $request->all();
