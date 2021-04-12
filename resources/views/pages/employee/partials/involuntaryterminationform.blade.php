@@ -26,8 +26,7 @@
                     <div class="">
                         <select class="form-control" name="status">
                             <option value="None"></option>
-                            <option value="Terminated">Terminated</option>
-                            <option value="Resigned">Resigned</option>
+                            <option value="Involuntary Termination">Involuntary Termination</option>
                         </select>
                     </div>
                 </div>
