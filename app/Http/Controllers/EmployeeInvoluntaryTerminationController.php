@@ -3,40 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Mail\EmployeeTermination;
+use App\Mail\EmployeeInvoluntaryTermination;
 use App\Post;
 use App\User;
 use Mail;
 use Session;
 use DB;
 
-class EmployeeTerminationController extends Controller
+class EmployeeInvoluntaryTerminationController extends Controller
 {
-    public function index()
-    {
-        $departments = DB::table('s2zar_jsn_users')
-        ->orderBy('departments', 'asc')
-        ->groupBy('departments')
-        ->where('departments', '<>', '')
-        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->pluck('departments', 'departments')
-        ->toArray();
-
-        $position = DB::table('s2zar_jsn_users')
-        ->orderBy('position', 'asc')
-        ->groupBy('position')
-        ->where('position', '<>', '')
-        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->pluck('position', 'position')
-        ->toArray();
-
-        return view('pages.employee.termination')
-            ->with([
-                'departments'   => $departments,
-                'position'      => $position
-            ]);
-    }
-
     public function submit(Request $request)
     {
         $dataValidate = request()->validate([
@@ -63,37 +38,37 @@ class EmployeeTerminationController extends Controller
 
         if ($request->filled(['email5', 'email4'])) {
             Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
+                'james.kiyohara@acralending.com',
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'webupdates@acralending.com',
                 $additionalRecipient1,
                 $additionalRecipient2,
-            ])->queue(new EmployeeTermination($data));
+            ])->queue(new EmployeeInvoluntaryTermination($data));
 
         } elseif ($request->filled('email4')) {
             Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
+                'james.kiyohara@acralending.com',
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'webupdates@acralending.com',
                 $additionalRecipient1,
-            ])->queue(new EmployeeTermination($data));
+            ])->queue(new EmployeeInvoluntaryTermination($data));
         } elseif ($request->filled('email5')) {
             Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
+                'james.kiyohara@acralending.com',
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'webupdates@acralending.com',
                 $additionalRecipient2,
-            ])->queue(new EmployeeTermination($data));
+            ])->queue(new EmployeeInvoluntaryTermination($data));
         } else {
             Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
+                'james.kiyohara@acralending.com', 
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
-            ])->queue(new EmployeeTermination($data));
+                'webupdates@acralending.com',
+            ])->queue(new EmployeeInvoluntaryTermination($data));
         }
 
         return redirect('/employee/termination')

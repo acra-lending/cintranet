@@ -59,7 +59,7 @@ class EmployeeNewHireController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient1,
                 $additionalRecipient2,
             ])->queue(new NewHireForm($data));
@@ -69,7 +69,7 @@ class EmployeeNewHireController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient1,
             ])->queue(new NewHireForm($data));
         } elseif ($request->filled('email4')) {
@@ -77,7 +77,7 @@ class EmployeeNewHireController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient2,
             ])->queue(new NewHireForm($data));
         } else {
@@ -85,7 +85,7 @@ class EmployeeNewHireController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
             ])->queue(new NewHireForm($data));
         }
 

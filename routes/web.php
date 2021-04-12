@@ -112,6 +112,7 @@ Route::post('employee/newhire', 'EmployeeNewHireController@submit')->middleware(
 Route::post('employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
 Route::post('employee/outofoffice', 'EmployeeStatusReportController@store')->middleware('auth');
 Route::post('employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
+Route::post('employee/involuntarytermination', 'EmployeeInvoluntaryTerminationController@submit')->middleware('auth');
 
 //File Upload
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');

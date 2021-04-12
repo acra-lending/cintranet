@@ -73,7 +73,7 @@ class ITSupportController extends Controller
                 }
             }
 
-            Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+            Mail::to(['itsupport@citadelservicing.com', 'michael.petersen@acralending.com'])
             ->send($mail);
             
             return redirect('/infotech/ticket')
@@ -109,7 +109,7 @@ class ITSupportController extends Controller
             }
         }
 
-        Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+        Mail::to(['itsupport@citadelservicing.com', 'michael.petersen@acralending.com'])
         ->send($mail);
 
         return redirect('/infotech/ticket')
@@ -144,7 +144,7 @@ class ITSupportController extends Controller
             }
         }
         
-        Mail::to(['itsupport@citadelservicing.com', 'mpetersen@citadelservicing.com'])
+        Mail::to(['itsupport@citadelservicing.com', 'michael.petersen@acralending.com'])
             ->send($mail);
 
         return redirect('/infotech/ticket')

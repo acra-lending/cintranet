@@ -1,6 +1,6 @@
 @component('mail::message')
 
-# Employee Termination Request from Cintranet
+# Employee Involuntary Termination Request from Cintranet
 <hr/>
 
 <strong>Effective Date:</strong> {{ $data['requestDueDate'] }}

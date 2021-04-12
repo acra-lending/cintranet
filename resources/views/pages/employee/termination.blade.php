@@ -36,15 +36,12 @@
                             <nav>
                                 <div class="nav nav-tabs" id="nav-tab" role="tablist">
                                 <a class="nav-item nav-link active" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab" aria-controls="nav-request" aria-selected="true">Termination Form</a>
+                                <a class="nav-item nav-link" id="nav-involuntary-tab" data-toggle="tab" href="#nav-involuntary" role="tab" aria-controls="nav-involuntary" aria-selected="true">Involuntary Termination Form</a>
                                 </div>
                             </nav>
                             <div class="tab-content" id="nav-tabContent">
-                                <div class="tab-pane fade show active" id="nav-request" role="tabpanel" aria-labelledby="nav-request-tab">
-                                    <div class="card-body">
-                                        <hr/>
-                                        @include('pages.employee.partials.terminationform')
-                                    </div>
-                                </div>
+                                @include('pages.employee.partials.terminationform')
+                                @include('pages.employee.partials.involuntaryterminationform')
                             </div>
                         </div>
                     </div><!-- /.card -->

@@ -1,8 +1,8 @@
-<div class="tab-pane fade show active" id="nav-request" role="tabpanel" aria-labelledby="nav-request-tab">
+<div class="tab-pane fade show" id="nav-involuntary" role="tabpanel" aria-labelledby="nav-involuntary-tab">
     <div class="card-body">
         <hr/>
-        {{ Form::open(['action' => 'EmployeeTerminationController@submit', 'method' => 'POST']) }}
-        <h4>Employee Termination</h4>
+        {{ Form::open(['action' => 'EmployeeInvoluntaryTerminationController@submit', 'method' => 'POST']) }}
+        <h4>Involuntary Employee Termination</h4>
         <hr/>
         <div class="row card-footer">
             <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
@@ -14,7 +14,7 @@
                             <i class="far fa-calendar-alt"></i>
                             </span>
                         </div>
-                        <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required>
+                        <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate2" required>
                     </div>
                 </div>
             </div>
@@ -101,6 +101,7 @@
                 </div>
             </div>
         </div>
+        <hr/>
         <h4>Additional Info</h4>
         <hr/>
         <div class="row card-footer">

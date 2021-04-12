@@ -70,7 +70,7 @@ class EmployeeStatusChangeController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient1,
                 $additionalRecipient2,
             ])->queue(new EmployeeStatusChange($data));
@@ -80,7 +80,7 @@ class EmployeeStatusChangeController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient1,
             ])->queue(new EmployeeStatusChange($data));
         } elseif ($request->filled('email4')) {
@@ -88,7 +88,7 @@ class EmployeeStatusChangeController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
                 $additionalRecipient2,
             ])->queue(new EmployeeStatusChange($data));
         } else {
@@ -96,7 +96,7 @@ class EmployeeStatusChangeController extends Controller
                 'itsupport@citadelservicing.com', 
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
-                'hitzm@citadelservicing.com',
+                'hitz.mistry@acralending.com',
             ])->queue(new EmployeeStatusChange($data));
         }
 
