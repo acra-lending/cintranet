@@ -67,6 +67,7 @@ class EmployeeTerminationController extends Controller
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'payroll@acralending.com',
                 $additionalRecipient1,
                 $additionalRecipient2,
             ])->queue(new EmployeeTermination($data));
@@ -77,6 +78,7 @@ class EmployeeTerminationController extends Controller
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'payroll@acralending.com',
                 $additionalRecipient1,
             ])->queue(new EmployeeTermination($data));
         } elseif ($request->filled('email5')) {
@@ -85,6 +87,7 @@ class EmployeeTerminationController extends Controller
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'payroll@acralending.com',
                 $additionalRecipient2,
             ])->queue(new EmployeeTermination($data));
         } else {
@@ -93,6 +96,7 @@ class EmployeeTerminationController extends Controller
                 'staffchanges@citadelservicing.com', 
                 'human_resources@citadelservicing.com', 
                 'hitz.mistry@acralending.com',
+                'payroll@acralending.com',
             ])->queue(new EmployeeTermination($data));
         }
 
