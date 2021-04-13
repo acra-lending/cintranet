@@ -15,4 +15,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reports2');
     }
+
+    public function index3()
+    {
+        return view('pages.usermanagement.reports3');
+    }
 }
