@@ -117,7 +117,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        {{-- <div class="row">
             <div class="col">
                 <div class="form-group">
                     <label class="control-label" for="email4">Additional Recipient Email:</label>
@@ -130,7 +130,7 @@
                     <input type="email" class="form-control" name="email5" id="email5" placeholder="">
                 </div>
             </div>
-        </div>
+        </div> --}}
         <hr/>
         <!-- /.card-body -->
 

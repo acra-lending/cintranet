@@ -57,48 +57,62 @@ class EmployeeStatusChangeController extends Controller
             'specialInstructions'   => 'nullable|max:500',
             'submittedBy'           => 'required',
             'email2'                => 'required|email',
-            'email3'                => 'nullable|email',
-            'email4'                => 'nullable|email',
+            // 'email3'                => 'nullable|email',
+            // 'email4'                => 'nullable|email',
         ]);
         $data = $request->all();
 
         $additionalRecipient1 = $request->email3;
         $additionalRecipient2 = $request->email4;
+        $emails = [
+            'keith.lind@acralending.com',
+            'kyle.gunderlock@acralending.com',
+            'trudy.barton@acralending.com',
+            'tim.doyle@acralending.com',
+            'alice.boutwell@acralending.com',
+            'chetna.vora@acralending.com',
+            'robert.diaz@acralending.com',
+            'jeffrey.lemieux@acralending.com',
+            'brian.robinett@acralending.com',
+            'robert.jennings@acralending.com',
+            'grace.francuz@acralending.com',
+            'kim.nguyen@acralending.com',
+            'caitlin.poncedeleon@acralending.com',
+            'barbara.rieber@acralending.com',
+            'james.kiyohara@acralending.com',
+            'erik.johnson@acralending.com',
+            'jordan.faust@acralending.com',
+            'vincent.sanchez@acralending.com',
+            'abdul.qatamish@acralending.com',
+            'hitz.mistry@acralending.com',
+            'webupdates@acralending.com'
+        ];
 
-        if ($request->filled(['email4', 'email3'])) {
-            Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
-                'human_resources@citadelservicing.com', 
-                'hitz.mistry@acralending.com',
-                $additionalRecipient1,
-                $additionalRecipient2,
-            ])->queue(new EmployeeStatusChange($data));
-
-        } elseif ($request->filled('email3')) {
-            Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
-                'human_resources@citadelservicing.com', 
-                'hitz.mistry@acralending.com',
-                $additionalRecipient1,
-            ])->queue(new EmployeeStatusChange($data));
-        } elseif ($request->filled('email4')) {
-            Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
-                'human_resources@citadelservicing.com', 
-                'hitz.mistry@acralending.com',
-                $additionalRecipient2,
-            ])->queue(new EmployeeStatusChange($data));
-        } else {
-            Mail::to([
-                'itsupport@citadelservicing.com', 
-                'staffchanges@citadelservicing.com', 
-                'human_resources@citadelservicing.com', 
-                'hitz.mistry@acralending.com',
-            ])->queue(new EmployeeStatusChange($data));
+        foreach($emails as $recipient) {
+            Mail::to($recipient)
+            ->queue(new EmployeeInvoluntaryTermination($data));
         }
+
+        // if ($request->filled(['email4', 'email3'])) {
+        //     Mail::bcc($emails, [
+        //         $additionalRecipient1,
+        //         $additionalRecipient2,
+        //     ])->queue(new EmployeeStatusChange($data));
+
+
+        // } elseif ($request->filled('email3')) {
+        //     Mail::bcc($emails, [
+        //         $additionalRecipient1,
+        //     ])->queue(new EmployeeStatusChange($data));
+
+        // } elseif ($request->filled('email4')) {
+        //     Mail::bcc($emails, [
+        //         $additionalRecipient2,
+        //     ])->queue(new EmployeeStatusChange($data));
+
+        // } else {
+        //     Mail::bcc($emails)->queue(new EmployeeStatusChange($data));
+        // }
 
         return redirect('/employee/statuschange')
             ->with('success', 'Request Form Sent');
