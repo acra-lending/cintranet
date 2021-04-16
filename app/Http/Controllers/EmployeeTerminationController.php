@@ -52,14 +52,11 @@ class EmployeeTerminationController extends Controller
             'submittedBy'           => 'required',
             'email2'                => 'nullable|email',
             'email3'                => 'nullable|email',
-            // 'email4'                => 'nullable|email',
-            // 'email5'                => 'nullable|email',
+            'email4'                => 'nullable|email',
+            'email5'                => 'nullable|email',
         ]);
         $data = $request->all();
 
-
-        $additionalRecipient1 = $request->email4;
-        $additionalRecipient2 = $request->email5;
         $emails = [
             'keith.lind@acralending.com',
             'kyle.gunderlock@acralending.com',
@@ -81,12 +78,20 @@ class EmployeeTerminationController extends Controller
             'vincent.sanchez@acralending.com',
             'abdul.qatamish@acralending.com',
             'hitz.mistry@acralending.com',
-            'webupdates@acralending.com'
+            'webupdates@acralending.com',
+            'payroll@acralending.com',
         ];
+
+        if($request->filled('email4')){
+            array_push($emails, $request->email4);
+        }
+        if($request->filled('email5')) {
+            array_push($emails, $request->email5);
+        }
 
         foreach($emails as $recipient) {
             Mail::to($recipient)
-            ->queue(new EmployeeInvoluntaryTermination($data));
+            ->queue(new EmployeeTermination($data));
         }
 
         // if ($request->filled(['email5', 'email4'])) {

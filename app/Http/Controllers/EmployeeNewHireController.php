@@ -46,13 +46,11 @@ class EmployeeNewHireController extends Controller
             'requestDueDate'        => 'required',
             'submittedBy'           => 'required',
             'email2'                => 'required|email',
-            // 'email3'                => 'nullable|email',
-            // 'email4'                => 'nullable|email'
+            'email3'                => 'nullable|email',
+            'email4'                => 'nullable|email'
         ]);
         $data = $request->all();
 
-        $additionalRecipient1 = $request->email3;
-        $additionalRecipient2 = $request->email4;
         $emails = [
             'keith.lind@acralending.com',
             'kyle.gunderlock@acralending.com',
@@ -77,9 +75,16 @@ class EmployeeNewHireController extends Controller
             'webupdates@acralending.com'
         ];
 
+        if($request->filled('email3')){
+            array_push($emails, $request->email3);
+        }
+        if($request->filled('email4')) {
+            array_push($emails, $request->email4);
+        }
+
         foreach($emails as $recipient) {
             Mail::to($recipient)
-            ->queue(new EmployeeInvoluntaryTermination($data));
+            ->queue(new NewHireForm($data));
         }
 
         // if ($request->filled(['email4', 'email3'])) {
