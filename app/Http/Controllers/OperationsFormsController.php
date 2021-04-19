@@ -313,6 +313,14 @@ class OperationsFormsController extends Controller
         //-------------
         //Fix And Flip
         //-------------
+        $fixAndFlipSystems = Post::whereRaw("find_in_set('fixAndFlipSystems', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $fixAndFlipInternalForms = Post::whereRaw("find_in_set('fixAndFlipInternalForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $fixAndFlipIntake = Post::whereRaw("find_in_set('fixAndFlipIntake', category_id)")
         ->sortable('filename')
         ->get();
@@ -326,6 +334,10 @@ class OperationsFormsController extends Controller
         ->get();
 
         $fixAndFlipFunding = Post::whereRaw("find_in_set('fixAndFlipFunding', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $fixAndFlipWelcomeForms = Post::whereRaw("find_in_set('fixAndFlipWelcomeForms', category_id)")
         ->sortable('filename')
         ->get();
 
@@ -396,10 +408,13 @@ class OperationsFormsController extends Controller
             'jrProcessorForms'  => $jrProcessorForms,
             'processorForms'    => $processorForms,
             'nda'           => $nda,
-            'fixAndFlipIntake'      => $fixAndFlipIntake,
-            'fixAndFlipProcessing'  => $fixAndFlipProcessing,
-            'fixAndFlipUw'          => $fixAndFlipUw,
-            'fixAndFlipFunding'     => $fixAndFlipFunding,
+            'fixAndFlipSystems'         => $fixAndFlipSystems,
+            'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
+            'fixAndFlipIntake'          => $fixAndFlipIntake,
+            'fixAndFlipProcessing'      => $fixAndFlipProcessing,
+            'fixAndFlipUw'              => $fixAndFlipUw,
+            'fixAndFlipFunding'         => $fixAndFlipFunding,
+            'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
         ]);
     }
 }
