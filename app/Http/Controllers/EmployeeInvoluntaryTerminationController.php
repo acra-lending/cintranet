@@ -56,8 +56,8 @@ class EmployeeInvoluntaryTerminationController extends Controller
             'vincent.sanchez@acralending.com',
             'abdul.qatamish@acralending.com',
             'hitz.mistry@acralending.com',
-            'webupdates@acralending.com',
             'payroll@acralending.com',
+            'webupdates@acralending.com',
         ];
 
         if($request->filled('email4')){
