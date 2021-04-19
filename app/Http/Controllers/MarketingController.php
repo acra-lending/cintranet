@@ -16,19 +16,26 @@ class MarketingController extends Controller
     {
         //Marketing Materials & Reference
         //Marketing Requests
-        $marketingForms = Post::where('category_id', 'marketingForms')
+        $marketingForms = Post::whereRaw("find_in_set('marketingForms', category_id)")
         ->orderBy('filename', 'asc')
         ->get();
 
         //Materials & Reference
-        $marketingMaterials = Post::where('category_id', 'marketingMaterials')
+        $marketingMaterials = Post::whereRaw("find_in_set('marketingMaterials', category_id)")
         ->orderBy('filename', 'asc')
         ->get();
 
+        //Email Signature & Resources whereRaw("find_in_set('servicingGuides', category_id)")
+        $marketingEmailSignaturesAndResources = Post::whereRaw("find_in_set('marketingEmailSignaturesAndResources', category_id)")
+        ->orderBy('filename', 'asc')
+        ->get();
+        
+
         return view('pages.marketing.index')
         ->with([
-            'marketingForms'        => $marketingForms,
-            'marketingMaterials'    => $marketingMaterials,
+            'marketingForms'                            => $marketingForms,
+            'marketingMaterials'                        => $marketingMaterials,
+            'marketingEmailSignaturesAndResources'      => $marketingEmailSignaturesAndResources,
         ]);
     }
 

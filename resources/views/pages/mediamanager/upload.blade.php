@@ -198,6 +198,9 @@
                                                                         // 'social'            => 'LinkedIn/Social Posting Images',
                                                                         // 'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
+                                                                    'Sales Tool Kit' => [
+                                                                        'salesTools'        => 'Sales Tool Kit',
+                                                                    ],
                                                                     'Flyers & Programs' => [
                                                                         'aboutCsc'      => 'About CSC',
                                                                         'AEFlyers'      => 'AE Flyers',
@@ -230,7 +233,7 @@
                                                                     'Marketing' => [
                                                                         'marketingForms'        => 'Marketing Forms',
                                                                         'marketingMaterials'    => 'Marketing Materials',
-                                                                        'salesTools'            => 'Sales Tool'
+                                                                        'marketingEmailSignaturesAndResources'    => 'Email Signatures And Resources',
                                                                     ]
                                                                 ],
                                                                 'Servicing' => [
