@@ -38,6 +38,7 @@ Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsControlle
 Route::get('reports', 'ReportsController@index')->middleware('auth');
 Route::get('reports2', 'ReportsController@index2')->middleware('auth');
 Route::get('reports3', 'ReportsController@index3')->middleware('auth');
+Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 
 //Videos
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');

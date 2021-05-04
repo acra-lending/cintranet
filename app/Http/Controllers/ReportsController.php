@@ -20,4 +20,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reports3');
     }
+
+    public function index4()
+    {
+        return view('pages.usermanagement.reports4');
+    }
 }
