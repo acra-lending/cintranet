@@ -59,6 +59,7 @@ class EmployeeInvoluntaryTerminationController extends Controller
             'sergio.loza@acralending.com',
             'terrence.taylor@acralending.com',
             'anthony.miller@acralending.com',
+            'tom.verdone@acralending.com',
             'payroll@acralending.com',
             'webupdates@acralending.com',
         ];

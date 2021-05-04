@@ -32,6 +32,7 @@ var highlighted_states = {
   nv  : '#0033A1',
   nj  : '#0033A1',
   nc  : '#0033A1',
+  oh  : '#0033A1',
   ok  : '#0033A1',
   or  : '#0033A1',
   pa  : '#0033A1',
@@ -250,6 +251,12 @@ $('#world-map').vectorMap({
       <br>
       <br>
       Montana Mortgage Lender License #144549`);
+    }
+    if(code== 'oh') {
+      label.append(`
+      <br>
+      <br>
+      Ohio Residential Mortgage Lending Act (RMLA) – License# RM.804651.000`);
     }
     if(code== 'ok') {
       label.append(`
