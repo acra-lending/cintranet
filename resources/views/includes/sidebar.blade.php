@@ -102,6 +102,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/humanresources" class="nav-link {{ Request::path() === 'videos/humanresources' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Human Resources</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class=" nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">

@@ -44,6 +44,7 @@ Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
 Route::get('/videos/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
 Route::get('/videos/operations', 'VideosController@operations')->middleware('auth');
+Route::get('/videos/humanresources', 'VideosController@humanresources')->middleware('auth');
 
 //Learning And Development
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');

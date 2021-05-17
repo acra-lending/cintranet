@@ -26,6 +26,7 @@ class VideosController extends Controller
                 'panelResults'
             ]));
     }
+
     public function monthlymeetings()
     {
         $url = Vimeo::request("/users/124219438/projects/3216025/videos", ['per_page' => 99], 'GET');
@@ -35,6 +36,7 @@ class VideosController extends Controller
 
         return view('pages.videos.monthlymeetings', compact('monthlyMeetings'));
     }
+
     public function operations()
     {
         $url = Vimeo::request("/users/124219438/projects/3384652/videos", ['per_page' => 99], 'GET');
@@ -70,6 +72,16 @@ class VideosController extends Controller
                 'operationsFunding',
                 'uwRoundtable',
             ]));
+    }
+
+    public function humanresources()
+    {
+        $url = Vimeo::request("/users/124219438/projects/4461110/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresources = $data;
+
+        return view('pages.videos.humanresources', compact('humanresources'));
     }
 
 

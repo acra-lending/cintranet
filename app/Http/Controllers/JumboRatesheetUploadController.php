@@ -67,19 +67,19 @@ class JumboRatesheetUploadController extends Controller
             }
 
             
-            $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
-                'username' => env('WP_USERNAME'),
-                'password' => env('WP_PASSWORD'),
-            ]);
+            // $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
+            //     'username' => env('WP_USERNAME'),
+            //     'password' => env('WP_PASSWORD'),
+            // ]);
         
-            $token = $token->json()['token'];
+            // $token = $token->json()['token'];
 
-            //Trigger Custom Post Update
-            $response = Http::withToken($token)
-            ->post('https://acralending.com/wp-json/wp/v2/jumboprimeratesheet', [
-                    'title' => 'Jumbo Prime Ratesheet Update',
-                    'status' => 'publish',
-            ]);
+            // //Trigger Custom Post Update
+            // $response = Http::withToken($token)
+            // ->post('https://acralending.com/wp-json/wp/v2/jumboprimeratesheet', [
+            //         'title' => 'Jumbo Prime Ratesheet Update',
+            //         'status' => 'publish',
+            // ]);
     
             return response()->json(['success' => 'Processed Successfully']);
         
