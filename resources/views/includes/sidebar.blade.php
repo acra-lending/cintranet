@@ -80,6 +80,14 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/videos/humanresources" class="nav-link {{ Request::path() === 'videos/humanresources' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Human Resources</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/videos/monthlymeetings" class="nav-link {{ Request::path() === 'videos/monthlymeetings' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Monthly Meetings</p>
@@ -99,14 +107,6 @@
                         <a href="/videos/sales" class="nav-link {{ Request::path() === 'videos/sales' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Sales</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/humanresources" class="nav-link {{ Request::path() === 'videos/humanresources' ? 'active': ''}}">
-                            <i class="far fa-circle text-danger nav-icon"></i>
-                            <p>Human Resources</p>
                         </a>
                     </li>
                 </ul>
