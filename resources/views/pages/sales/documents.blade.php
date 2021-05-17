@@ -92,7 +92,6 @@
                   <br/>
                   
                   <div class="tab-content" id="nav-tabContent">
-                    <!-- Correspondent Documents -->
                     <div class="tab-pane fade show active" id="nav-wholesale" role="tabpanel" aria-labelledby="nav-wholesale-tab">
                       <div class="row">
                         <div class="col-sm-2">
@@ -100,7 +99,6 @@
                             <a class="nav-link active" id="vert-tabs-wholesale-docs-tab" data-toggle="pill" href="#vert-tabs-wholesale-docs" role="tab" aria-controls="vert-tabs-wholesale-docs" aria-selected="true">Documents</a>
                           </div>
                         </div>
-                        <!-- Correspondent Documents Content -->
                         <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
                             <div class="tab-pane text-left fade show active" id="vert-tabs-wholesale" role="tabpanel" aria-labelledby="vert-tabs-wholesale-tab">       
@@ -150,10 +148,9 @@
                               </div>
                             </div>
                           </div>
-                        </div><!-- end form cards -->
+                        </div>
                       </div>
                     </div>
-                    <!-- Correspondent Documents -->
                     <div class="tab-pane fade show" id="nav-corr" role="tabpanel" aria-labelledby="nav-corr-tab">
                       <div class="row">
                         <div class="col-sm-2">
@@ -161,7 +158,6 @@
                             <a class="nav-link active" id="vert-tabs-corr-docs-tab" data-toggle="pill" href="#vert-tabs-corr-docs" role="tab" aria-controls="vert-tabs-corr-docs" aria-selected="true">Documents</a>
                           </div>
                         </div>
-                        <!-- Correspondent Documents Content -->
                         <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
                             <div class="tab-pane text-left fade show active" id="vert-tabs-corr" role="tabpanel" aria-labelledby="vert-tabs-corr-tab">       
@@ -211,10 +207,9 @@
                               </div>
                             </div>
                           </div>
-                        </div><!-- end form cards -->
+                        </div>
                       </div>
                     </div>
-                    <!-- Retail Documents -->
                     <div class="tab-pane fade show" id="nav-retail" role="tabpanel" aria-labelledby="nav-retail-tab">
                       <div class="row">
                         <div class="col-sm-2">
@@ -223,7 +218,6 @@
                             <a class="nav-link" id="vert-tabs-retail-mlo-tab" data-toggle="pill" href="#vert-tabs-retail-mlo" role="tab" aria-controls="vert-tabs-retail-mlo" aria-selected="true">MLO Licenses</a>
                           </div>
                         </div>
-                        <!-- Retail Content -->
                         <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
                             <div class="tab-pane text-left fade show active" id="vert-tabs-retail-docs" role="tabpanel" aria-labelledby="vert-tabs-retail-docs-tab">       
@@ -321,7 +315,7 @@
                             </div>
                             
                           </div>
-                        </div><!-- end form cards -->
+                        </div>
                       </div>
                   </div>
                   <div class="tab-pane fade" id="nav-sales-tools" role="tabpanel" aria-labelledby="nav-sales-tools-tab">
@@ -331,7 +325,6 @@
                           <a class="nav-link active" id="vert-tabs-sales-tools-tab" data-toggle="pill" href="#vert-tabs-sales-tools" role="tab" aria-controls="vert-tabs-retail-docs" aria-selected="true">Documents</a>
                         </div>
                       </div>
-                      <!-- Materials And Reference -->        
                       <div class="col">
                           <div class="card card-dark">
                           <div class="card-header border-0">
@@ -390,6 +383,4 @@
           </div>
           </section>
     </div>
-    <!-- /.col -->
-<!-- ./wrapper -->
 @stop

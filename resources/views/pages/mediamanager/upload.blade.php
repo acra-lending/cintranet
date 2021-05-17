@@ -292,6 +292,9 @@
                                                                         'wisconsin'     => 'Wisconsin',
                                                                     ]
                                                                 ],
+                                                                'Legal' => [
+                                                                    'legalDocs' => 'Documents',
+                                                                ],
                                                                 'Learning & Development' => [
                                                                     'learning' => 'Learning',
                                                                     'Guides' => [

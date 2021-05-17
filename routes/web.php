@@ -55,6 +55,9 @@ Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->m
 Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middleware('auth');
 Route::get('learning/courses/guides', 'LearningGuidesController@index')->middleware('auth');
 
+//Legal
+Route::get('legal/documents', 'LegalController@index')->middleware('auth');
+
 //Calendar Events
 Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');
 Route::put('eventupdate', 'EventController@update')->name('routeEventUpdate')->middleware('auth');

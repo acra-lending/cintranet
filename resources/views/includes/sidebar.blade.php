@@ -177,6 +177,22 @@
                     </li>
                 </ul>
             </li>
+            <li class="nav-item has-treeview {{ Request::is ('legal/*') ? 'menu-open' : ''}}">
+                <a href="#" class="nav-link">  
+                    <i class="nav-icon fas fa-gavel"></i>
+                    <p>Legal
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/legal/documents" class="nav-link {{ Request::path() === 'legal/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
             
             <li class="nav-item has-treeview {{ Request::is('humanresources/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
