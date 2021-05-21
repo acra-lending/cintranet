@@ -88,6 +88,7 @@ class EmployeeStatusChangeController extends Controller
             'anthony.miller@acralending.com',
             'tom.verdone@acralending.com',
             'morelia.ruiz@acralending.com',
+            'shabbie.hutton@acralending.com',
             'webupdates@acralending.com',
         ];
 
