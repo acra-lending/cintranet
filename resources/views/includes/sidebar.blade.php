@@ -439,7 +439,7 @@
                         </a>
                     </li>
                 </ul>
-                @can('edit-users')
+                @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/infotech/documents" class="nav-link {{ Request::path() === 'infotech/documents' ? 'active': ''}}">
