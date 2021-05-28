@@ -12,7 +12,7 @@
             </div><!-- /.col -->
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="/legal/documents">Legal</a></li>
+                <li class="breadcrumb-item active"><a href="/infoteck/documents">IT Department</a></li>
                 <li class="breadcrumb-item">Documents</a></li>
                 </ol>
             </div><!-- /.col -->
@@ -92,20 +92,20 @@
                   <br/>
                   
                   <div class="tab-content" id="nav-tabContent">
-                    <div class="tab-pane fade show active" id="nav-legal" role="tabpanel" aria-labelledby="nav-legal-tab">
+                    <div class="tab-pane fade show active" id="nav-itDocs" role="tabpanel" aria-labelledby="nav-itDocs-tab">
                       <div class="row">
                         <div class="col-sm-2">
                           <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-                            <a class="nav-link active" id="vert-tabs-legal-docs-tab" data-toggle="pill" href="#vert-tabs-legal-docs" role="tab" aria-controls="vert-tabs-legal-docs" aria-selected="true">Documents</a>
+                            <a class="nav-link active" id="vert-tabs-it-docs-tab" data-toggle="pill" href="#vert-tabs-it-docs" role="tab" aria-controls="vert-tabs-it-docs" aria-selected="true">Documents</a>
                           </div>
                         </div>
                         <div class="col-sm-10">
                           <div class="tab-content" id="vert-tabs-tabContent">
-                            <div class="tab-pane text-left fade show active" id="vert-tabs-legal" role="tabpanel" aria-labelledby="vert-tabs-legal-tab">       
+                            <div class="tab-pane text-left fade show active" id="vert-tabs-it" role="tabpanel" aria-labelledby="vert-tabs-it-tab">       
                               <div class="col">
                                 <div class="card card-dark ">
                                   <div class="card-header border-0">
-                                    <h3 class="card-title">Legal Documents</h3>
+                                    <h3 class="card-title">IT Documents</h3>
                                     <div class="card-tools">
                                       </a>
                                     </div>
@@ -120,7 +120,7 @@
                                           </tr>
                                       </thead>
                                       <tbody>
-                                          @foreach($legalDocs as $category)
+                                          @foreach($itDocs as $category)
                                           <tr>
                                           <td>{{$category->filename}}</td>
                                           <td>{{$category->filesize}} KB</td>

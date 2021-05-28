@@ -136,11 +136,12 @@ Route::get('download/{file}', 'DownloadController@down')->name('download')->midd
 Route::get('download/{file}', 'DownloadController@view')->name('show')->middleware('auth');
 Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 
-//IT Ticket System
+//IT
 Route::get('infotech/ticket', 'ITSupportController@index')->middleware('auth');
 Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('auth');
 Route::post('infotech/issues', 'ITSupportController@submitIssues')->middleware('auth');
 Route::post('infotech/requests', 'ITSupportController@submitRequests')->middleware('auth');
+Route::get('infotech/documents', 'ITSupportController@getDocuments')->middleware('auth');
 
 //Excel Export
 Route::get('/export', 'DirectoryExportController@export')->middleware('auth');

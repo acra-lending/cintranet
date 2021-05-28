@@ -439,6 +439,16 @@
                         </a>
                     </li>
                 </ul>
+                @can('edit-users')
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/infotech/documents" class="nav-link {{ Request::path() === 'infotech/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                @endcan
             </li>
             @can('edit-users')
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">

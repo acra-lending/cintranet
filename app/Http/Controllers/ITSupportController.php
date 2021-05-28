@@ -150,4 +150,16 @@ class ITSupportController extends Controller
         return redirect('/infotech/ticket')
             ->with('success', 'Request Form Sent');
     }
+
+    public function getDocuments() 
+    {
+        $itDocs = Post::whereRaw("find_in_set('itDocs', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        return view('pages.infotech.documents')
+        ->with([
+            'itDocs' => $itDocs,
+        ]);
+    }
 }

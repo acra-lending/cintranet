@@ -292,6 +292,9 @@
                                                                         'wisconsin'     => 'Wisconsin',
                                                                     ]
                                                                 ],
+                                                                'IT Dept' => [
+                                                                    'itDocs' => 'Documents',
+                                                                ],
                                                                 'Legal' => [
                                                                     'legalDocs' => 'Documents',
                                                                 ],
