@@ -81,7 +81,16 @@ class VideosController extends Controller
         $data = $url['data'];
         $humanresources = $data;
 
-        return view('pages.videos.humanresources', compact('humanresources'));
+        $url = Vimeo::request("/users/124219438/projects/4606611/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresourcesBenefits = $data;
+
+        return view('pages.videos.humanresources', 
+            compact([
+            'humanresources',
+            'humanresourcesBenefits'
+            ]));
     }
 
 
