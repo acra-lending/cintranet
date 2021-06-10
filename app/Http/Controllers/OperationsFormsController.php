@@ -321,6 +321,10 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $fixAndFlipVetting = Post::whereRaw("find_in_set('fixAndFlipVetting', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $fixAndFlipIntake = Post::whereRaw("find_in_set('fixAndFlipIntake', category_id)")
         ->sortable('filename')
         ->get();
@@ -410,6 +414,7 @@ class OperationsFormsController extends Controller
             'nda'           => $nda,
             'fixAndFlipSystems'         => $fixAndFlipSystems,
             'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
+            'fixAndFlipVetting'         => $fixAndFlipVetting,           
             'fixAndFlipIntake'          => $fixAndFlipIntake,
             'fixAndFlipProcessing'      => $fixAndFlipProcessing,
             'fixAndFlipUw'              => $fixAndFlipUw,

@@ -154,7 +154,8 @@
                                                                     ],
                                                                     'Fix N Flip' => [
                                                                         'fixAndFlipSystems'         => 'Systems',
-                                                                        'fixAndFlipInternalFOrms'   => 'Internal Forms',
+                                                                        'fixAndFlipInternalForms'   => 'Internal Forms',
+                                                                        'fixAndFlipVetting'         => 'Vetting',
                                                                         'fixAndFlipIntake'          => 'Intake',
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',
