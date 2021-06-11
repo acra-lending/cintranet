@@ -16,7 +16,10 @@
 
 <strong>Territory:</strong> {{ $data['territory'] }}<br/>
 <strong>Position:</strong> {{ $data['position'] }}<br/> 
-<strong>Manager:</strong> {{ $data['manager'] }}<br/>  
+<strong>Manager:</strong> {{ $data['manager'] }}<br/>
+
+<strong>Industry Experience:</strong> {{ $data['experience'] }}<br/>
+<strong>Sales Training Enrollment:</strong> {{ $data['training'] }}<br/> 
 
 <hr/>
 

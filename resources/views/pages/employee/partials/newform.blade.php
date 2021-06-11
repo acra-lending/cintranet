@@ -76,6 +76,32 @@
         </div>
     </div>
 </div>
+<div class="row card-footer">
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label class="control-label" for="experience">Industry Experience:</label>
+            <div class="">
+                <select class="form-control" name="experience">
+                    <option value="Not Needed">Not Needed</option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6">
+        <div class="form-group">
+            <label class="control-label" for="training">Requires Sales Training Enrollment:</label>
+            <div class="">
+                <select class="form-control" name="training">
+                    <option value="No">No</option>
+                    <option value="Yes: 4-Day">Yes: 4-Day</option>
+                    <option value="Yes: 5-Day">Yes: 5-Day</option>
+                </select>
+            </div>
+        </div>
+    </div>
+</div>
 <hr/>
 <h4>Access</h4>
 <hr/>
