@@ -258,6 +258,8 @@
                                                                     'hrManagerTools'        => 'Manager Tools',
                                                                     'hrNewHire'             => 'New Hire Forms and Notices',
                                                                     'hrPaylocity'           => 'Paylocity',
+                                                                    'hrRecruitment'         => 'Recruitment',
+                                                                    'hrFlyers'              => 'Flyers',
                                                                     'hrSchedules'           => 'Schedules',
                                                                     'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
                                                                     'hrSuggestions'         => 'Suggestions and Referrals',

@@ -54,5 +54,26 @@ class SchedulesFormsController extends Controller
             'hrManagerTools'        => $hrManagerTools,
             'hrBenefits'            => $hrBenefits,
         ]);
-    } 
+    }
+    
+    public function recruitment()
+    {
+
+        //Recruitment
+        $hrRecruitment = Post::whereRaw("find_in_set('hrRecruitment', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+        //Collateral
+        $hrFlyers = Post::whereRaw("find_in_set('hrFlyers', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+
+        return view('pages.humanresources.recruitment')
+        ->with([
+            'hrRecruitment'     => $hrRecruitment,
+            'hrFlyers'          => $hrFlyers,
+        ]);
+    }
 }

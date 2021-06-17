@@ -108,6 +108,7 @@ Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->m
 Route::get('humanresources/careers', 'CareersController@index')->middleware('auth');
 Route::get('humanresources/stateposters', 'StatePostersController@index')->middleware('auth');
 Route::get('humanresources/expensereport', 'ExpenseReportingController@index')->middleware('auth');
+Route::get('humanresources/recruitment', 'SchedulesFormsController@recruitment')->middleware('auth');
 
 //Employee Status
 Route::get('employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
