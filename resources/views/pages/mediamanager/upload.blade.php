@@ -204,6 +204,7 @@
                                                                     ],
                                                                     'Sales Tool Kit' => [
                                                                         'salesTools'        => 'Sales Tool Kit',
+                                                                        'salesVideos'       => 'Sales Videos',
                                                                     ],
                                                                     'Flyers & Programs' => [
                                                                         'aboutCsc'      => 'About CSC',

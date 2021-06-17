@@ -74,7 +74,7 @@
               <div class="card card-danger card-outline">
                 <div class="card-header">
                   <h3 class="card-title">
-                    <i class="fab fa-wpforms"></i>
+                    <i class="fas fa-user-plus"></i>
                     Recruitment & Flyers
                   </h3>
                 </div>
