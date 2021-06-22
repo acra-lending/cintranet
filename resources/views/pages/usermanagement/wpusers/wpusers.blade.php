@@ -29,6 +29,7 @@
       <!-- Main content -->
       <section class="content">
         <livewire:usermanagement.w-p-users />
+        @can('edit-users')
         <div class="container">
           <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
@@ -112,6 +113,7 @@
           </div> <!-- /.col -->
       </div><!-- /.row -->
       </div><!-- Container -->
+      @endcan
       </section>
     </div> <!-- end content-wrapper -->
 

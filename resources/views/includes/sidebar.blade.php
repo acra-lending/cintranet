@@ -27,7 +27,7 @@
                     <p>Dashboard</p>
                 </a>
             </li>
-            @can('edit-users')
+            @can('view-wp-users')
             <li class="nav-item has-treeview {{ Request::is('usermanagement/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-user"></i>
@@ -35,6 +35,7 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
+                @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/usermanagement/profile/{{ Auth::user()->id}}" class="nav-link {{ Request::is('usermanagement/profile/*') ? 'active': ''}}">
@@ -51,7 +52,8 @@
                         </a>
                     </li>
                 </ul>
-                @can('edit-users')
+                @endcan
+                @can('view-wp-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/usermanagement/wp-users" class="nav-link {{ Request::path() === 'usermanagement/wp-users' ? 'active': ''}}">

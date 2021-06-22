@@ -32,6 +32,9 @@ class AuthServiceProvider extends ServiceProvider
         Gate::define('edit-users', function($user){
             return $user->hasAnyRoles(['super admin', 'admin']);
         });
+        Gate::define('view-wp-users', function($user){
+            return $user->hasAnyRoles(['super admin', 'admin', 'loan setup']);
+        });
         Gate::define('delete-users', function($user){
             return $user->hasRole('super admin');
         });
