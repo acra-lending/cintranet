@@ -1,8 +1,8 @@
-<div class="tab-pane text-left fade show active" id="vert-tabs-recruitment" role="tabpanel" aria-labelledby="vert-tabs-recruitment-tab">
+<div class="tab-pane text-left fade show" id="vert-tabs-videos" role="tabpanel" aria-labelledby="vert-tabs-videos-tab">
     <div class="col">
       <div class="card card-dark">
         <div class="card-header border-0">
-          <h3 class="card-title">Recruitment</h3>
+          <h3 class="card-title">Videos</h3>
         </div>
         <div class="card-body table-responsive p-0">
           <table class="table">
@@ -14,8 +14,8 @@
                 </tr>
             </thead>
             <tbody>
-                @if(count($hrRecruitment) > 0 )
-                @foreach($hrRecruitment as $category)
+                @if(count($hrVideos) > 0 )
+                @foreach($hrVideos as $category)
                 <tr>
                 <td>{{$category->filename}}</td>
                 <td>{{$category->filesize}} KB</td>

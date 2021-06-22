@@ -85,8 +85,9 @@
                     </div>
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        @include('pages.humanresources.recruitment.recruitment')
+                        @include('pages.humanresources.recruitment.socialmedia')
                         @include('pages.humanresources.recruitment.flyers')
+                        @include('pages.humanresources.recruitment.videos')
                       </div>
                     </div>
                   </div>

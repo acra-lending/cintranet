@@ -59,8 +59,8 @@ class SchedulesFormsController extends Controller
     public function recruitment()
     {
 
-        //Recruitment
-        $hrRecruitment = Post::whereRaw("find_in_set('hrRecruitment', category_id)")
+        //Social Media Images
+        $hrSocialMedia = Post::whereRaw("find_in_set('hrSocialMedia', category_id)")
         ->sortable('filename', 'asc')
         ->get();
 
@@ -69,11 +69,17 @@ class SchedulesFormsController extends Controller
         ->sortable('filename', 'asc')
         ->get();
 
+        //Videos
+        $hrVideos = Post::whereRaw("find_in_set('hrVideos', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
 
         return view('pages.humanresources.recruitment')
         ->with([
-            'hrRecruitment'     => $hrRecruitment,
+            'hrSocialMedia'     => $hrSocialMedia,
             'hrFlyers'          => $hrFlyers,
+            'hrVideos'          => $hrVideos,
         ]);
     }
 }
