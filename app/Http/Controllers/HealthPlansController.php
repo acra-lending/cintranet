@@ -5,43 +5,34 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Post;
 use Illuminate\Support\Facades\Storage;
+use Vimeo\Laravel\Facades\Vimeo;
+use Carbon\Carbon;
 
 class HealthPlansController extends Controller
 {
     public function index()
     {
-        $welfare = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%health and welfare%')
+        $benefitsCA = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%benefits guide ca only%')
         ->orderBy('created_at', 'desc')
         ->first();
         
-        $planDescription = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%plan description%')
+        $benefitsNonCA = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%benefits guide non ca%')
         ->orderBy('created_at', 'desc')
         ->first();
 
-        $premium = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%premium only plan%')
-        ->orderBy('created_at', 'desc')
-        ->first();
+        $url = Vimeo::request("/users/124219438/projects/4606611/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresourcesBenefits = $data;
 
-        $pop = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%pop summary%')
-        ->orderBy('created_at', 'desc')
-        ->first();
-
-        $qmcso = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%qmcso%')
-        ->orderBy('created_at', 'desc')
-        ->first();
-
-        return view('pages.humanresources.healthplan')
+        return view('pages.humanresources.healthplan', compact([
+            'humanresourcesBenefits'
+            ]))
         ->with([
-            'welfare'           => $welfare,
-            'planDescription'   => $planDescription,
-            'premium'           => $premium,
-            'pop'               => $pop,
-            'qmcso'             => $qmcso,
+            'benefitsCA'        => $benefitsCA,
+            'benefitsNonCA'     => $benefitsNonCA,
         ]);
     }
 }
