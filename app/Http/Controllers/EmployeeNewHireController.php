@@ -40,7 +40,7 @@ class EmployeeNewHireController extends Controller
             'department'            => 'required',
             'position'              => 'required',
             'manager'               => 'required|max:100',
-            'experience'            => 'nullable',
+            'mortgage101'           => 'nullable',
             'trainig'               => 'nullable',
             'selectAccess'          => 'nullable',
             'fob'                   => 'nullable',

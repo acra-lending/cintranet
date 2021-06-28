@@ -18,7 +18,7 @@
 <strong>Position:</strong> {{ $data['position'] }}<br/> 
 <strong>Manager:</strong> {{ $data['manager'] }}<br/>
 
-<strong>Industry Experience:</strong> {{ $data['experience'] }}<br/>
+<strong>Mortgage 101:</strong> {{ $data['mortgage101'] }}<br/>
 <strong>Sales Training Enrollment:</strong> {{ $data['training'] }}<br/> 
 
 <hr/>
