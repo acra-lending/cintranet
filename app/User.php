@@ -93,6 +93,11 @@ class User extends Authenticatable
         return $this->hasMany('App\StatusReport');
     }
 
+    public function submissions()
+    {
+        return $this->hasMany('App\Submissions');
+    }
+
 
     /**
      * Send the password reset notification.

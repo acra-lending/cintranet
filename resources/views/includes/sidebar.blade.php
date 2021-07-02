@@ -402,6 +402,16 @@
                         </a>
                     </li>
                 </ul>
+                @can('edit-users')
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/sales/submissions" class="nav-link {{ Request::path() === 'sales/submissions' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Submissions</p>
+                        </a>
+                    </li>
+                </ul>
+                @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/videos" class="nav-link {{ Request::path() === 'sales/videos' ? 'active': ''}}">

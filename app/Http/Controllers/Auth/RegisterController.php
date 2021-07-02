@@ -7,6 +7,7 @@ use App\Providers\RouteServiceProvider;
 use App\User;
 use App\Role;
 use DB;
+use App\Submissions;
 use Illuminate\Foundation\Auth\RegistersUsers;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
@@ -90,6 +91,14 @@ class RegisterController extends Controller
             'cell'          => $cellPhone,
             'departments'   => $departments
         ]);
+
+        
+
+        $info2 = DB::table('submissions')->insert([
+            'ae_name'   =>$data['name'],
+            'user_id'   =>$user->id
+        ]);
+        // dd($info2);
         
         $user->assignRole($role);
 
