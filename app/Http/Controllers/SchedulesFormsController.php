@@ -24,6 +24,16 @@ class SchedulesFormsController extends Controller
         ->sortable('filename', 'asc')
         ->get();
 
+        //Performance
+        $hrPerformance = Post::where('category_id', 'hrPerformance')
+        ->sortable('filename', 'asc')
+        ->get();
+
+        //Hiring Process
+        $hrHiringProcess = Post::where('category_id', 'hrHiringProcess')
+        ->sortable('filename', 'asc')
+        ->get();
+
         //State and Federal Tax Forms
         $hrStateAndFedTaxForms = Post::where('category_id', 'hrStateAndFedTaxForms')
         ->sortable('filename', 'asc')
@@ -49,6 +59,8 @@ class SchedulesFormsController extends Controller
             'hrSchedules'           => $hrSchedules,
             'hrSuggestions'         => $hrSuggestions,
             'hrNewHire'             => $hrNewHire,
+            'hrPerformance'         => $hrPerformance,
+            'hrHiringProcess'       => $hrHiringProcess,
             'hrStateAndFedTaxForms' => $hrStateAndFedTaxForms,
             'hrHealthTopics'        => $hrHealthTopics,
             'hrManagerTools'        => $hrManagerTools,

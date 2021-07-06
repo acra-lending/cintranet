@@ -88,6 +88,8 @@
                         @include('pages.humanresources.scheduleforms.schedules')
                         @include('pages.humanresources.scheduleforms.suggestions')
                         @include('pages.humanresources.scheduleforms.newhireforms')
+                        @include('pages.humanresources.scheduleforms.performance')
+                        @include('pages.humanresources.scheduleforms.hiringprocess')
                         @include('pages.humanresources.scheduleforms.statefederaltaxforms')
                         @include('pages.humanresources.scheduleforms.healthtopics')
                         @include('pages.humanresources.scheduleforms.managertools')

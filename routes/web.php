@@ -81,8 +81,8 @@ Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware(
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
 Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('auth');
 Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->middleware('auth');
-Route::get('sales/submissions', 'SubmissionsController@index')->middleware('auth');
-Route::post('sales/submissions', 'SubmissionsController@update')->middleware('auth');
+// Route::get('sales/submissions', 'SubmissionsController@index')->middleware('auth');
+// Route::post('sales/submissions', 'SubmissionsController@update')->middleware('auth');
 Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
 
 //Marketing

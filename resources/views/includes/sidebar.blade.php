@@ -402,7 +402,7 @@
                         </a>
                     </li>
                 </ul>
-                @can('edit-users')
+                {{-- @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/submissions" class="nav-link {{ Request::path() === 'sales/submissions' ? 'active': ''}}">
@@ -411,7 +411,7 @@
                         </a>
                     </li>
                 </ul>
-                @endcan
+                @endcan --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/videos" class="nav-link {{ Request::path() === 'sales/videos' ? 'active': ''}}">
