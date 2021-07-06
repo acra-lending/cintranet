@@ -258,6 +258,8 @@
                                                                     'hrHealthTopics'        => 'Health Topics and Suggestions',
                                                                     'hrManagerTools'        => 'Manager Tools',
                                                                     'hrNewHire'             => 'New Hire Forms and Notices',
+                                                                    'hrPerformance'         => 'Performance',
+                                                                    'hrHiringProcess'       => 'Hiring Process',
                                                                     'hrPaylocity'           => 'Paylocity',
                                                                     'hrSocialMedia'         => 'Social Media',
                                                                     'hrFlyers'              => 'Flyers',
