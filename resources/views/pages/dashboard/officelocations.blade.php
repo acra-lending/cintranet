@@ -61,5 +61,15 @@
                 </div>
             </div>
         </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="callout callout-primary">
+                <a href="https://goo.gl/maps/WTQYSNUJKdw2Aozy7" target="_blank" style="text-decoration: none;">
+                    <h6>Las Vegas Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">8345 West Sunset Road<br>Suite 350<br>Las Vegas, NV 89113</p> 
+                </div>
+            </div>
+        </div>
     </div>
 </div>

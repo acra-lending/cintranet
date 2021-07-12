@@ -62,6 +62,7 @@
                                                             {{ Form::select('category_id[]', [
                                                                 'Operations' => [
                                                                     'deptContacts'  => 'Department Contacts',
+                                                                    'salesDeptContacts'  => 'Sales Department Contacts',
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',

@@ -13,6 +13,10 @@ class SalesDocumentsController extends Controller
         $wholesaleDocs = Post::whereRaw("find_in_set('wholesaleDocs', category_id)")
         ->sortable('filename')
         ->get();
+        
+        $salesDeptContacts = Post::whereRaw("find_in_set('salesDeptContacts', category_id)")
+        ->sortable('filename')
+        ->get();
 
         //Correspondent Documents
         $corrDocs = Post::whereRaw("find_in_set('corrDocs', category_id)")
@@ -36,11 +40,12 @@ class SalesDocumentsController extends Controller
         
         return view('pages.sales.documents')
         ->with([
-            'wholesaleDocs' => $wholesaleDocs,
-            'corrDocs'      => $corrDocs,
-            'retailDocs'    => $retailDocs,
-            'retailMLO'     => $retailMLO,
-            'salesTools'    => $salesTools,
+            'wholesaleDocs'     => $wholesaleDocs,
+            'salesDeptContacts' => $salesDeptContacts,
+            'corrDocs'          => $corrDocs,
+            'retailDocs'        => $retailDocs,
+            'retailMLO'         => $retailMLO,
+            'salesTools'        => $salesTools,
         ]);
     }
 
