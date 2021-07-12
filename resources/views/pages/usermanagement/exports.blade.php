@@ -961,7 +961,7 @@
           </div>
           <table class="table table-bordered">
             <div class="center">
-                <h3>Sales / Marketing</h3>
+                <h3>Marketing</h3>
             </div>
 
             <thead>
