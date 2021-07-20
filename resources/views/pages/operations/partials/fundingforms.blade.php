@@ -7,7 +7,7 @@
           <a class="nav-link" id="vert-tabs-funding-forms-tisp-tab" data-toggle="pill" href="#vert-tabs-funding-forms-tisp" role="tab" aria-controls="vert-tabs-funding-forms-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-funding-forms-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-forms-vetting" role="tab" aria-controls="vert-tabs-funding-forms-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-funding-forms-compliance-tab" data-toggle="pill" href="#vert-tabs-funding-forms-compliance" role="tab" aria-controls="vert-tabs-funding-forms-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-funding-forms-processes-tab" data-toggle="pill" href="#vert-tabs-funding-forms-processes" role="tab" aria-controls="vert-tabs-funding-forms-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-funding-forms-processes-tab" data-toggle="pill" href="#vert-tabs-funding-forms-processes" role="tab" aria-controls="vert-tabs-funding-forms-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funding-forms-dept-tab" data-toggle="pill" href="#vert-tabs-funding-forms-dept" role="tab" aria-controls="vert-tabs-funding-forms-dept" aria-selected="false">Department Contacts</a>
         </div>
       </div>
@@ -249,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-processes-tab">
+            {{-- <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-processes-tab">
               <!-- /.content-header -->        
               <div class="col">
                 <div class="card card-dark">
@@ -295,7 +295,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
             <div class="tab-pane text-left fade show" id="vert-tabs-funding-forms-dept" role="tabpanel" aria-labelledby="vert-tabs-funding-forms-dept-tab">
               <!-- /.content-header -->        
               <div class="col">

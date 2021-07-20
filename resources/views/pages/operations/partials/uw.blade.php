@@ -6,7 +6,7 @@
           <a class="nav-link" id="vert-tabs-uw-tisp-tab" data-toggle="pill" href="#vert-tabs-uw-tisp" role="tab" aria-controls="vert-tabs-uw-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-uw-vetting-tab" data-toggle="pill" href="#vert-tabs-uw-vetting" role="tab" aria-controls="vert-tabs-uw-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-uw-compliance-tab" data-toggle="pill" href="#vert-tabs-uw-compliance" role="tab" aria-controls="vert-tabs-uw-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-uw-processes-tab" data-toggle="pill" href="#vert-tabs-uw-processes" role="tab" aria-controls="vert-tabs-uw-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-uw-processes-tab" data-toggle="pill" href="#vert-tabs-uw-processes" role="tab" aria-controls="vert-tabs-uw-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-uw-guidelines-tab" data-toggle="pill" href="#vert-tabs-uw-guidelines" role="tab" aria-controls="vert-tabs-uw-guidelines" aria-selected="false">Underwriting Guidelines</a>
           <a class="nav-link" id="vert-tabs-uw-tools-tab" data-toggle="pill" href="#vert-tabs-uw-tools" role="tab" aria-controls="vert-tabs-uw-tools" aria-selected="false">UW Tools</a>
           <a class="nav-link" id="vert-tabs-uw-videos-tab" data-toggle="pill" href="#vert-tabs-uw-videos" role="tab" aria-controls="vert-tabs-uw-videos" aria-selected="false">Training Videos</a>
@@ -204,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane text-left fade show" id="vert-tabs-uw-processes" role="tabpanel" aria-labelledby="vert-tabs-uw-processes-tab">
+          {{-- <div class="tab-pane text-left fade show" id="vert-tabs-uw-processes" role="tabpanel" aria-labelledby="vert-tabs-uw-processes-tab">
             <!-- /.content-header -->        
             <div class="col">
               <div class="card card-dark">
@@ -250,7 +250,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
           <div class="tab-pane text-left fade show" id="vert-tabs-uw-guidelines" role="tabpanel" aria-labelledby="vert-tabs-uw-guidelines-tab">
             <!-- /.content-header -->        
             <div class="col">

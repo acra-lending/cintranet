@@ -6,7 +6,7 @@
           <a class="nav-link" id="vert-tabs-lsu-forms-tab" data-toggle="pill" href="#vert-tabs-lsu-forms" role="tab" aria-controls="vert-tabs-lsu-forms" aria-selected="false">Forms</a>
           <a class="nav-link" id="vert-tabs-lsu-vetting-tab" data-toggle="pill" href="#vert-tabs-lsu-vetting" role="tab" aria-controls="vert-tabs-lsu-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-lsu-compliance-tab" data-toggle="pill" href="#vert-tabs-lsu-compliance" role="tab" aria-controls="vert-tabs-lsu-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-lsu-processes-tab" data-toggle="pill" href="#vert-tabs-lsu-processes" role="tab" aria-controls="vert-tabs-lsu-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-lsu-processes-tab" data-toggle="pill" href="#vert-tabs-lsu-processes" role="tab" aria-controls="vert-tabs-lsu-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-lsu-attachments-tab" data-toggle="pill" href="#vert-tabs-lsu-attachments" role="tab" aria-controls="vert-tabs-lsu-attachments" aria-selected="false">Attachments To Send with Welcome Letter</a>
           <a class="nav-link" id="vert-tabs-lsu-flood-tab" data-toggle="pill" href="#vert-tabs-lsu-flood" role="tab" aria-controls="vert-tabs-lsu-flood" aria-selected="false">Flood Certs</a>
           <a class="nav-link" id="vert-tabs-lsu-valuation-tab" data-toggle="pill" href="#vert-tabs-lsu-valuation" role="tab" aria-controls="vert-tabs-lsu-valuation" aria-selected="false">Valuation Delivery</a>
@@ -204,7 +204,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane text-left fade show" id="vert-tabs-lsu-processes" role="tabpanel" aria-labelledby="vert-tabs-lsu-processes-tab">
+          {{-- <div class="tab-pane text-left fade show" id="vert-tabs-lsu-processes" role="tabpanel" aria-labelledby="vert-tabs-lsu-processes-tab">
             <!-- /.content-header -->        
             <div class="col">
               <div class="card card-dark">
@@ -250,7 +250,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
           <div class="tab-pane text-left fade show" id="vert-tabs-lsu-attachments" role="tabpanel" aria-labelledby="vert-tabs-lsu-attachments-tab">
             <!-- /.content-header -->        
             <div class="col">

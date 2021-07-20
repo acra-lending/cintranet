@@ -44,9 +44,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $fundingProcesses = Post::whereRaw("find_in_set('fundingProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $fundingProcesses = Post::whereRaw("find_in_set('fundingProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $fundingSystems = Post::whereRaw("find_in_set('fundingSystems', category_id)")
         ->sortable('filename')
@@ -71,9 +71,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $docDrawerProcesses = Post::whereRaw("find_in_set('docDrawerProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $docDrawerProcesses = Post::whereRaw("find_in_set('docDrawerProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $docDrawerSystems = Post::whereRaw("find_in_set('docDrawerSystems', category_id)")
         ->sortable('filename')
@@ -106,9 +106,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $funderProcesses = Post::whereRaw("find_in_set('funderProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $funderProcesses = Post::whereRaw("find_in_set('funderProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $funderSystems = Post::whereRaw("find_in_set('funderSystems', category_id)")
         ->sortable('filename')
@@ -133,9 +133,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $fundingFormsProcesses = Post::whereRaw("find_in_set('fundingFormsProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $fundingFormsProcesses = Post::whereRaw("find_in_set('fundingFormsProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $fundingFormsSystems = Post::whereRaw("find_in_set('fundingFormsSystems', category_id)")
         ->sortable('filename')
@@ -160,9 +160,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $fundingAssistantProcesses = Post::whereRaw("find_in_set('fundingAssistantProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $fundingAssistantProcesses = Post::whereRaw("find_in_set('fundingAssistantProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $fundingAssistantSystems = Post::whereRaw("find_in_set('fundingAssistantSystems', category_id)")
         ->sortable('filename')
@@ -195,9 +195,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $lsuProcesses = Post::whereRaw("find_in_set('lsuProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $lsuProcesses = Post::whereRaw("find_in_set('lsuProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $lsuSsaAnd4506T = Post::whereRaw("find_in_set('lsuSsaAnd4506T', category_id)")
         ->sortable('filename')
@@ -234,9 +234,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $tmProcesses = Post::whereRaw("find_in_set('tmProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $tmProcesses = Post::whereRaw("find_in_set('tmProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $tmSystems = Post::whereRaw("find_in_set('tmSystems', category_id)")
         ->sortable('filename')
@@ -257,9 +257,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $uwProcesses = Post::whereRaw("find_in_set('uwProcesses', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $uwProcesses = Post::whereRaw("find_in_set('uwProcesses', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $uwSystems = Post::whereRaw("find_in_set('uwSystems', category_id)")
         ->sortable('filename')
@@ -329,9 +329,9 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $fixAndFlipProcessing = Post::whereRaw("find_in_set('fixAndFlipProcessing', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $fixAndFlipProcessing = Post::whereRaw("find_in_set('fixAndFlipProcessing', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         $fixAndFlipUw = Post::whereRaw("find_in_set('fixAndFlipUw', category_id)")
         ->sortable('filename')
@@ -384,13 +384,13 @@ class OperationsFormsController extends Controller
             'deptContacts'          => $deptContacts,
             'fundingCompliance'    => $fundingCompliance,
             'fundingForms'         => $fundingForms,
-            'fundingProcesses'     => $fundingProcesses,
+            // 'fundingProcesses'     => $fundingProcesses,
             'fundingSystems'       => $fundingSystems,
             'fundingTisp'          => $fundingTisp,
             'fundingVetting'       => $fundingVetting,
             'docDrawerCompliance'     => $docDrawerCompliance,
             'docDrawerForms'          => $docDrawerForms,
-            'docDrawerProcesses'      => $docDrawerProcesses,
+            // 'docDrawerProcesses'      => $docDrawerProcesses,
             'docDrawerSystems'        => $docDrawerSystems,
             'docDrawerTisp'           => $docDrawerTisp,
             'docDrawerVetting'        => $docDrawerVetting,
@@ -398,19 +398,19 @@ class OperationsFormsController extends Controller
             'funderEscrow'         => $funderEscrow,
             'funderForms'          => $funderForms,
             'funderPOA'            => $funderPOA,
-            'funderProcesses'      => $funderProcesses,
+            // 'funderProcesses'      => $funderProcesses,
             'funderSystems'        => $funderSystems,
             'funderTisp'           => $funderTisp,
             'funderVetting'        => $funderVetting,
             'fundingFormsCompliance'     => $fundingFormsCompliance,
             'fundingFormsForms'          => $fundingFormsForms,
-            'fundingFormsProcesses'      => $fundingFormsProcesses,
+            // 'fundingFormsProcesses'      => $fundingFormsProcesses,
             'fundingFormsSystems'        => $fundingFormsSystems,
             'fundingFormsTisp'           => $fundingFormsTisp,
             'fundingFormsVetting'        => $fundingFormsVetting,
             'fundingAssistantCompliance'     => $fundingAssistantCompliance,
             'fundingAssistantForms'          => $fundingAssistantForms,
-            'fundingAssistantProcesses'      => $fundingAssistantProcesses,
+            // 'fundingAssistantProcesses'      => $fundingAssistantProcesses,
             'fundingAssistantSystems'        => $fundingAssistantSystems,
             'fundingAssistantTisp'           => $fundingAssistantTisp,
             'fundingAssistantVetting'        => $fundingAssistantVetting,
@@ -418,7 +418,7 @@ class OperationsFormsController extends Controller
             'lsuCompliance'             => $lsuCompliance,
             'lsuForms'                  => $lsuForms,
             'lsuFloodCerts'             => $lsuFloodCerts,
-            'lsuProcesses'              => $lsuProcesses,
+            // 'lsuProcesses'              => $lsuProcesses,
             'lsuSsaAnd4506T'            => $lsuSsaAnd4506T,
             'lsuSystems'                => $lsuSystems,
             'lsuValuation'              => $lsuValuation,
@@ -427,12 +427,12 @@ class OperationsFormsController extends Controller
             'tmFormsForBrokers'     => $tmFormsForBrokers,
             'tmProgramGuides'       => $tmProgramGuides,
             'tmInternalForms'       => $tmInternalForms,
-            'tmProcesses'           => $tmProcesses,
+            // 'tmProcesses'           => $tmProcesses,
             'tmSystems'             => $tmSystems,
             'tmTisp'                => $tmTisp,
             'tmVetting'             => $tmVetting,
             'uwCompliance'      => $uwCompliance,
-            'uwProcesses'       => $uwProcesses,
+            // 'uwProcesses'       => $uwProcesses,
             'uwSystems'         => $uwSystems,
             'uwTisp'            => $uwTisp,
             'uwGuidelines'      => $uwGuidelines,
@@ -447,7 +447,7 @@ class OperationsFormsController extends Controller
             'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
             'fixAndFlipVetting'         => $fixAndFlipVetting,           
             'fixAndFlipIntake'          => $fixAndFlipIntake,
-            'fixAndFlipProcessing'      => $fixAndFlipProcessing,
+            // 'fixAndFlipProcessing'      => $fixAndFlipProcessing,
             'fixAndFlipUw'              => $fixAndFlipUw,
             'fixAndFlipFunding'         => $fixAndFlipFunding,
             'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,

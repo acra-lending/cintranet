@@ -7,7 +7,7 @@
           <a class="nav-link" id="vert-tabs-funder-tisp-tab" data-toggle="pill" href="#vert-tabs-funder-tisp" role="tab" aria-controls="vert-tabs-funder-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-funder-vetting-tab" data-toggle="pill" href="#vert-tabs-funder-vetting" role="tab" aria-controls="vert-tabs-funder-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-funder-compliance-tab" data-toggle="pill" href="#vert-tabs-funder-compliance" role="tab" aria-controls="vert-tabs-funder-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-funder-processes-tab" data-toggle="pill" href="#vert-tabs-funder-processes" role="tab" aria-controls="vert-tabs-funder-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-funder-processes-tab" data-toggle="pill" href="#vert-tabs-funder-processes" role="tab" aria-controls="vert-tabs-funder-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funder-escrow-tab" data-toggle="pill" href="#vert-tabs-funder-escrow" role="tab" aria-controls="vert-tabs-funder-escrow" aria-selected="false">Escrow Holdback</a>
           <a class="nav-link" id="vert-tabs-funder-poa-tab" data-toggle="pill" href="#vert-tabs-funder-poa" role="tab" aria-controls="vert-tabs-funder-poa" aria-selected="false">Power of Attorney</a>
           <a class="nav-link" id="vert-tabs-funder-dept-tab" data-toggle="pill" href="#vert-tabs-funder-dept" role="tab" aria-controls="vert-tabs-funder-dept" aria-selected="false">Department Contacts</a>
@@ -250,7 +250,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane text-left fade show" id="vert-tabs-funder-processes" role="tabpanel" aria-labelledby="vert-tabs-funder-processes-tab">
+            {{-- <div class="tab-pane text-left fade show" id="vert-tabs-funder-processes" role="tabpanel" aria-labelledby="vert-tabs-funder-processes-tab">
               <!-- /.content-header -->        
               <div class="col">
                 <div class="card card-dark">
@@ -296,7 +296,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
             <div class="tab-pane text-left fade show" id="vert-tabs-funder-escrow" role="tabpanel" aria-labelledby="vert-tabs-funder-escrow-tab">
               <!-- /.content-header -->        
               <div class="col">

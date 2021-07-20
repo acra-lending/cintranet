@@ -7,7 +7,7 @@
           <a class="nav-link" id="vert-tabs-funding-tisp-tab" data-toggle="pill" href="#vert-tabs-funding-tisp" role="tab" aria-controls="vert-tabs-funding-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-funding-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-vetting" role="tab" aria-controls="vert-tabs-funding-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-funding-compliance-tab" data-toggle="pill" href="#vert-tabs-funding-compliance" role="tab" aria-controls="vert-tabs-funding-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-funding-processes-tab" data-toggle="pill" href="#vert-tabs-funding-processes" role="tab" aria-controls="vert-tabs-funding-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-funding-processes-tab" data-toggle="pill" href="#vert-tabs-funding-processes" role="tab" aria-controls="vert-tabs-funding-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funding-dept-tab" data-toggle="pill" href="#vert-tabs-funding-dept" role="tab" aria-controls="vert-tabs-funding-dept" aria-selected="false">Department Contacts</a>
         </div>
       </div>
@@ -248,7 +248,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane text-left fade show" id="vert-tabs-funding-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-processes-tab">
+            {{-- <div class="tab-pane text-left fade show" id="vert-tabs-funding-processes" role="tabpanel" aria-labelledby="vert-tabs-funding-processes-tab">
               <!-- /.content-header -->        
               <div class="col">
                 <div class="card card-dark">
@@ -294,7 +294,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
             <div class="tab-pane text-left fade show" id="vert-tabs-funding-dept" role="tabpanel" aria-labelledby="vert-tabs-funding-dept-tab">
               <!-- /.content-header -->        
               <div class="col">

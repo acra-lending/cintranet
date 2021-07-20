@@ -7,7 +7,7 @@
           <a class="nav-link" id="vert-tabs-tm-tisp-tab" data-toggle="pill" href="#vert-tabs-tm-tisp" role="tab" aria-controls="vert-tabs-tm-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-tm-vetting-tab" data-toggle="pill" href="#vert-tabs-tm-vetting" role="tab" aria-controls="vert-tabs-tm-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-tm-compliance-tab" data-toggle="pill" href="#vert-tabs-tm-compliance" role="tab" aria-controls="vert-tabs-tm-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-tm-processes-tab" data-toggle="pill" href="#vert-tabs-tm-processes" role="tab" aria-controls="vert-tabs-tm-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-tm-processes-tab" data-toggle="pill" href="#vert-tabs-tm-processes" role="tab" aria-controls="vert-tabs-tm-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-tm-forms-to-send-tab" data-toggle="pill" href="#vert-tabs-tm-forms-to-send" role="tab" aria-controls="vert-tabs-tm-forms-to-send" aria-selected="false">Forms To Send To Brokers</a>
           <a class="nav-link" id="vert-tabs-tm-program-guides-tab" data-toggle="pill" href="#vert-tabs-tm-program-guides" role="tab" aria-controls="vert-tabs-tm-program-guides" aria-selected="false">Program Guides</a>
           <a class="nav-link" id="vert-tabs-tm-dept-tab" data-toggle="pill" href="#vert-tabs-tm-dept" role="tab" aria-controls="vert-tabs-tm-dept" aria-selected="false">Department Contacts</a>
@@ -250,7 +250,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane text-left fade show" id="vert-tabs-tm-processes" role="tabpanel" aria-labelledby="vert-tabs-tm-processes-tab">
+          {{-- <div class="tab-pane text-left fade show" id="vert-tabs-tm-processes" role="tabpanel" aria-labelledby="vert-tabs-tm-processes-tab">
             <!-- /.content-header -->        
             <div class="col">
               <div class="card card-dark">
@@ -296,7 +296,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
           <div class="tab-pane text-left fade show" id="vert-tabs-tm-forms-to-send" role="tabpanel" aria-labelledby="vert-tabs-tm-forms-to-send-tab">
             <!-- /.content-header -->        
             <div class="col">

@@ -7,7 +7,7 @@
           <a class="nav-link" id="vert-tabs-doc-tisp-tab" data-toggle="pill" href="#vert-tabs-doc-tisp" role="tab" aria-controls="vert-tabs-doc-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-doc-vetting-tab" data-toggle="pill" href="#vert-tabs-doc-vetting" role="tab" aria-controls="vert-tabs-doc-vetting" aria-selected="false">Vetting</a>
           <a class="nav-link" id="vert-tabs-doc-compliance-tab" data-toggle="pill" href="#vert-tabs-doc-compliance" role="tab" aria-controls="vert-tabs-doc-compliance" aria-selected="false">Compliance</a>
-          <a class="nav-link" id="vert-tabs-doc-processes-tab" data-toggle="pill" href="#vert-tabs-doc-processes" role="tab" aria-controls="vert-tabs-doc-processes" aria-selected="false">Processes</a>
+          {{-- <a class="nav-link" id="vert-tabs-doc-processes-tab" data-toggle="pill" href="#vert-tabs-doc-processes" role="tab" aria-controls="vert-tabs-doc-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-doc-dept-tab" data-toggle="pill" href="#vert-tabs-doc-dept" role="tab" aria-controls="vert-tabs-doc-dept" aria-selected="false">Department Contacts</a>
         </div>
       </div>
@@ -249,7 +249,7 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane text-left fade show" id="vert-tabs-doc-processes" role="tabpanel" aria-labelledby="vert-tabs-doc-processes-tab">
+            {{-- <div class="tab-pane text-left fade show" id="vert-tabs-doc-processes" role="tabpanel" aria-labelledby="vert-tabs-doc-processes-tab">
               <!-- /.content-header -->        
               <div class="col">
                 <div class="card card-dark">
@@ -295,7 +295,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> --}}
             <div class="tab-pane text-left fade show" id="vert-tabs-doc-dept" role="tabpanel" aria-labelledby="vert-tabs-doc-dept-tab">
               <!-- /.content-header -->        
               <div class="col">
