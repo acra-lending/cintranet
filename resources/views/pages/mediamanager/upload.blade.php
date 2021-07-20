@@ -262,6 +262,7 @@
                                                                     'hrPerformance'         => 'Performance',
                                                                     'hrHiringProcess'       => 'Hiring Process',
                                                                     'hrPaylocity'           => 'Paylocity',
+                                                                    'hrHowTo'               => 'How To\'s',
                                                                     'hrSocialMedia'         => 'Social Media',
                                                                     'hrFlyers'              => 'Flyers',
                                                                     'hrVideos'              => 'Videos',

@@ -18,11 +18,16 @@ class PaylocityController extends Controller
         ->where('filename', 'like', '%web_pay_employee_login%')
         ->orderBy('created_at', 'desc')
         ->first();
+
+        $hrHowTo = Post::where('category_id', 'hrHowTo')
+        ->sortable('filename', 'asc')
+        ->get();
      
         return view('pages.humanresources.paylocity')
         ->with([
-            'loginGuide' => $loginGuide,
-            'webPayGuide' => $webPayGuide,
+            'loginGuide'    => $loginGuide,
+            'webPayGuide'   => $webPayGuide,
+            'hrHowTo'       => $hrHowTo,
         ]);
     }
 }
