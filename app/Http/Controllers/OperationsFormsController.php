@@ -61,7 +61,7 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-----------
-        //Doc Drawer
+        //CD Doc Drawer
         //-----------
         $docDrawerCompliance = Post::whereRaw("find_in_set('docDrawerCompliance', category_id)")
         ->sortable('filename')
@@ -88,7 +88,7 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-------
-        //Funder
+        //Funder-Closer
         //-------
         $funderCompliance = Post::whereRaw("find_in_set('funderCompliance', category_id)")
         ->sortable('filename')
@@ -345,6 +345,37 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        //-------------
+        //Jr Underwriter
+        //-------------
+        $jrUW = Post::whereRaw("find_in_set('jrUW', category_id)")
+        ->sortable('filename')
+        ->get();
+        //-------------
+        //Pre-Screen
+        //-------------
+        $prescreen = Post::whereRaw("find_in_set('prescreen', category_id)")
+        ->sortable('filename')
+        ->get();
+        //-------------
+        //Vetting Clerk
+        //-------------
+        $vettingClerk = Post::whereRaw("find_in_set('vettingClerk', category_id)")
+        ->sortable('filename')
+        ->get();
+        //-------------
+        //Post Close-Funding
+        //-------------
+        $postCloseFunding = Post::whereRaw("find_in_set('postCloseFunding', category_id)")
+        ->sortable('filename')
+        ->get();
+        //-------------
+        //Post Close-Shipping
+        //-------------
+        $postCloseShipping = Post::whereRaw("find_in_set('postCloseShipping', category_id)")
+        ->sortable('filename')
+        ->get();
+        
         return view('pages.operations.forms', [
             'disclosure'            => $disclosure,
             'important'             => $important,
@@ -420,6 +451,11 @@ class OperationsFormsController extends Controller
             'fixAndFlipUw'              => $fixAndFlipUw,
             'fixAndFlipFunding'         => $fixAndFlipFunding,
             'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
+            'jrUW'                  => $jrUW,
+            'prescreen'             => $prescreen,
+            'vettingClerk'          => $vettingClerk,
+            'postCloseFunding'      => $postCloseFunding,
+            'postCloseShipping'     => $postCloseShipping,
         ]);
     }
 }

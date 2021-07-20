@@ -92,6 +92,7 @@ Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 //Operations
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
+Route::get('operations/processes', 'OperationsProcessesController@index')->middleware('auth');
 Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
 Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->middleware('auth');
 Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');
