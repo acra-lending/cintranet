@@ -81,6 +81,7 @@ class EmployeeNewHireController extends Controller
             'morelia.ruiz@acralending.com',
             'shabbie.hutton@acralending.com',
             'barbara.rieber@acralending.com',
+            'amanda.ponce@acralending.com',
             'webupdates@acralending.com',
         ];
 

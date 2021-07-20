@@ -85,6 +85,7 @@ class EmployeeTerminationController extends Controller
             'shabbie.hutton@acralending.com',
             'barbara.rieber@acralending.com',
             'payroll@acralending.com',
+            'amanda.ponce@acralending.com',
             'webupdates@acralending.com',
         ];
 
