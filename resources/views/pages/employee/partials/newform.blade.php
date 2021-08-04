@@ -77,7 +77,7 @@
     </div>
 </div>
 <div class="row card-footer">
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <div class="form-group">
             <label class="control-label" for="mortgage101">Mortgage 101:</label>
             <div class="">
@@ -88,7 +88,7 @@
             </div>
         </div>
     </div>
-    <div class="col-sm-6">
+    <div class="col-sm-4">
         <div class="form-group">
             <label class="control-label" for="training">Requires Sales Training Enrollment:</label>
             <div class="">
@@ -98,6 +98,12 @@
                     <option value="Yes: 5-Day">Yes: 5-Day</option>
                 </select>
             </div>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="form-group">
+            <label class="control-label" for="nmls">NMLS:</label>
+            <input type="text" class="form-control" name="nmls" id="nmls" placeholder="" required>
         </div>
     </div>
 </div>

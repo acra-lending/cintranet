@@ -20,6 +20,7 @@
 
 <strong>Mortgage 101:</strong> {{ $data['mortgage101'] }}<br/>
 <strong>Sales Training Enrollment:</strong> {{ $data['training'] }}<br/> 
+<strong>NMLS:</strong> {{ $data['nmls'] }}<br/> 
 
 <hr/>
 
