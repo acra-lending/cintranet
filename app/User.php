@@ -98,6 +98,11 @@ class User extends Authenticatable
         return $this->hasMany('App\Submissions');
     }
 
+    public function reminders()
+    {
+        return $this->hasMany('App\Reminder');
+    }
+
 
     /**
      * Send the password reset notification.

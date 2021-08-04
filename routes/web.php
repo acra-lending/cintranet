@@ -40,6 +40,7 @@ Route::get('reports2', 'ReportsController@index2')->middleware('auth');
 Route::get('reports3', 'ReportsController@index3')->middleware('auth');
 Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 
+
 //Videos
 Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
 Route::get('/videos/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
@@ -122,6 +123,8 @@ Route::get('employee/termination', 'EmployeeTerminationController@index')->middl
 Route::post('employee/newhire', 'EmployeeNewHireController@submit')->middleware('auth');
 Route::post('employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
 Route::post('employee/outofoffice', 'EmployeeStatusReportController@store')->middleware('auth');
+Route::get('employee/reminders', 'ReminderController@create')->middleware('auth');
+Route::post('employee/reminders', 'ReminderController@store')->middleware('auth');
 Route::post('employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
 Route::post('employee/involuntarytermination', 'EmployeeInvoluntaryTerminationController@submit')->middleware('auth');
 

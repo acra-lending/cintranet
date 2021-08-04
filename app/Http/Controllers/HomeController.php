@@ -9,6 +9,7 @@ use App\Announcement;
 use App\Event;
 use App\Post;
 use App\StatusReport;
+use App\Reminder;
 use Illuminate\Support\Facades\Storage;
 use DB;
 
@@ -37,11 +38,16 @@ class HomeController extends Controller
         $email = auth()->user()->email;
         $first_name = explode(' ', trim($name))[0];
 
-        //Employee Daily Status Report
+        // Employee Daily Status Report
         $dailyStatus = StatusReport::orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
 
+        // Reminders
+        $reminders = Reminder::orderby('created_at', 'desc')
+        ->limit(1)
+        ->get();
+        // dd($reminders);
 
         // Announcements
         $posts = Announcement::orderBy('created_at', 'desc')->paginate(2);
@@ -76,11 +82,12 @@ class HomeController extends Controller
 
             return view('pages.dashboard')
             ->with([
-                'teamMembers' => $teamMembers,
-                'first_name' => $first_name,
-                'posts' => $posts,
-                'events' => $events,
-                'dailyStatus' => $dailyStatus,
+                'teamMembers'   => $teamMembers,
+                'first_name'    => $first_name,
+                'posts'         => $posts,
+                'events'        => $events,
+                'dailyStatus'   => $dailyStatus,
+                'reminders'     => $reminders,
             ]);
         }
         
@@ -90,6 +97,7 @@ class HomeController extends Controller
             'posts'         => $posts,
             'events'        => $events,
             'dailyStatus'   => $dailyStatus,
+            'reminders'     => $reminders,
         ]);
     }
 }

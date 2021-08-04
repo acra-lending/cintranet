@@ -1,6 +1,9 @@
 @extends('layouts.default')
 
 @section('content')
+@push('includes.head')
+<link rel="stylesheet" href="{{ asset ('plugins/marquee/marquee.css') }}">
+@endpush
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
         <!-- Content Header (Page header) -->
@@ -71,7 +74,9 @@
       <div class="col-sm-12">
         @include('pages.dashboard.welcome')
       </div>
+
       <div class="container-fluid">
+        @include('pages.reminder.partials.reminder')
         <div class="row">
           <div class="col-lg-5">
             @include('pages.dashboard.quote')
@@ -106,4 +111,28 @@
 <script src="{{ asset ('plugins/jqvmap/maps/jquery.vmap.usa.js') }}"></script>
 <script src="{{ asset ('js/pages/map.js?version=4') }}"></script>
 <script src="{{ asset ('js/pages/dashboardcalendar.js') }}"></script>
+<!-- Marquee -->
+<script src="{{ asset ('plugins/marquee/marquee.js') }}"></script>
+<script>
+  $(function (){
+
+      let options = {
+        autostart: true,
+        property: 'value',
+        onComplete: null,
+        duration: 20000,
+        padding: 700,
+        marquee_class: '.marquee',
+        container_class: '.simple-marquee-container',
+        sibling_class: 0,
+        hover: true,
+        velocity: 0.1,
+        direction: 'left'
+      }
+
+      $('.simple-marquee-container').SimpleMarquee(options);
+
+    // $('.simple-marquee-container').SimpleMarquee(); 
+  });
+</script>
 @endpush
