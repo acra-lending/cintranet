@@ -94,10 +94,10 @@ class RegisterController extends Controller
 
         
 
-        $info2 = DB::table('submissions')->insert([
-            'ae_name'   =>$data['name'],
-            'user_id'   =>$user->id
-        ]);
+        // $info2 = DB::table('submissions')->insert([
+        //     'ae_name'   =>$data['name'],
+        //     'user_id'   =>$user->id
+        // ]);
         // dd($info2);
         
         $user->assignRole($role);
