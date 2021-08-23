@@ -135,6 +135,7 @@
                                                                     ],
                                                                     'Underwriting' => [
                                                                         'uwCompliance'          => 'Compliance',
+                                                                        'uwProcesses'           => 'Processes'
                                                                         'uwProcessesNew'        => 'New Submission Review Process',
                                                                         'uwProcessesCondition'  => 'Condition Review Process',
                                                                         'uwSystems'             => 'Systems',
