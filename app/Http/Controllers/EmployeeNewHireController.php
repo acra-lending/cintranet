@@ -63,7 +63,6 @@ class EmployeeNewHireController extends Controller
             'chetna.vora@acralending.com',
             'robert.diaz@acralending.com',
             'jeffrey.lemieux@acralending.com',
-            'brian.robinett@acralending.com',
             'robert.jennings@acralending.com',
             'grace.francuz@acralending.com',
             'kim.nguyen@acralending.com',
