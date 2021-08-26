@@ -218,10 +218,6 @@
                                                                         'standards'     => 'Standard Flyers',
                                                                         'vertFlyers'    => 'Vertical Integration Flyer'
                                                                     ],
-                                                                    'Retail' => [
-                                                                        'retailDocs'    => 'Documents',
-                                                                        'retailMLO'     => 'MLO Licenses'
-                                                                    ],
                                                                     'Flyers For Brokers' => [
                                                                         'flyersForBrokers'  => 'Flyers'
                                                                     ],
@@ -243,6 +239,11 @@
                                                                         'marketingMaterials'    => 'Marketing Materials',
                                                                         'marketingEmailSignaturesAndResources'    => 'Email Signatures And Resources',
                                                                     ]
+                                                                ],
+                                                                'Direct-To-Consumer' => [
+                                                                    'retailDocs'            => 'Documents',
+                                                                    'retailMLO'             => 'MLO Licenses',
+                                                                    'retailEmailTemplates'  => 'Email Templates'
                                                                 ],
                                                                 'Servicing' => [
                                                                     'callScripts'           => 'Call Scripts',
@@ -323,7 +324,7 @@
                                                     </div>
                                                     <div class="input-group">
                                                         <div class="form-group">
-                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpg,jpeg,bmp,png,gif,eml')) }}
+                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'msg,doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpg,jpeg,bmp,png,gif,eml')) }}
                                                         </div>
                                                     </div>
                                                 </div>

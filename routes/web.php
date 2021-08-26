@@ -86,6 +86,10 @@ Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->m
 // Route::post('sales/submissions', 'SubmissionsController@update')->middleware('auth');
 Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
 
+//Direct-To-Consumer
+Route::get('dtc', 'DirectToConsumerController@index')->middleware('auth');
+
+
 //Marketing
 Route::get('marketing', 'MarketingController@index')->middleware('auth');
 Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');

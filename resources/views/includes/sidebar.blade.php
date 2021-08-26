@@ -437,6 +437,14 @@
                     </li>
                 </ul>
             </li>
+
+            <li class="nav-item">
+                <a href="/dtc" class="nav-link {{ Request::path() === 'dtc' ? 'active' : ''}}">
+                    <i class="nav-icon fas fa-sign"></i>
+                    <p>Direct-To-Consumer</p>
+                </a>
+            </li>
+
             <li class="nav-item">
                 <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
                     <i class="nav-icon fas fa-rocket"></i>

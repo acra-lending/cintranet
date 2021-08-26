@@ -23,16 +23,6 @@ class SalesDocumentsController extends Controller
         ->sortable('filename')
         ->get();
 
-        //Retail Documents
-        $retailDocs = Post::whereRaw("find_in_set('retailDocs', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        //Retail MLO Licenses
-        $retailMLO = Post::whereRaw("find_in_set('retailMLO', category_id)")
-        ->sortable('filename')
-        ->get();
-
         //Sales Tools
         $salesTools = Post::whereRaw("find_in_set('salesTools',category_id)")
         ->sortable('filename')
@@ -43,8 +33,6 @@ class SalesDocumentsController extends Controller
             'wholesaleDocs'     => $wholesaleDocs,
             'salesDeptContacts' => $salesDeptContacts,
             'corrDocs'          => $corrDocs,
-            'retailDocs'        => $retailDocs,
-            'retailMLO'         => $retailMLO,
             'salesTools'        => $salesTools,
         ]);
     }
