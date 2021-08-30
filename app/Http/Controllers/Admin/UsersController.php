@@ -130,7 +130,7 @@ class UsersController extends Controller
             'cell' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
-// dd($request);
+// dd($user);
 
         // Handle File Upload
         if($request->hasFile('avatar')){
@@ -155,7 +155,7 @@ class UsersController extends Controller
         // dd($request);
 
         // Update User in s2zar_jsn_users table
-        $info = DB::table('s2zar_jsn_users')->where('id', '=', $user->id)->update([
+        $info = DB::table('s2zar_jsn_users')->where('id', $user->id)->update([
             'firstname' => $request->input('firstname'),
             'lastname' => $request->input('lastname'),
             'position' => $request->input('position'),
@@ -166,16 +166,20 @@ class UsersController extends Controller
             'cell' => $request->input('cell'),
         ]);
 
+
         // Update User Name in s2zar_users table
         $array = array($request->input('firstname'), $request->input('lastname'));
         $fullname = implode(' ', $array);
 
-        $info2 = DB::table('s2zar_users')->where('id', '=', $user->id)->update([
+        $info2 = DB::table('s2zar_users')->where('id', $user->id)->update([
             'name' => $fullname
         ]);
 
-        $profile = User::find($user)->first();
+        // dd($user->name);
+
+        $profile = User::where('id', $user->id)->first();
         $profile->email = $request->input('email');
+
         if($request->hasFile('avatar')){
             $profile->avatar = $fileNameToStore;
         }

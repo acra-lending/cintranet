@@ -130,7 +130,7 @@
                                                 data-link_title="{{ $category->title }}" 
                                                 data-link_url="{{ $category->url }}" 
                                                 data-link_category="{{ $category->category }}" 
-                                                data-name="{{ $category->id }}" 
+                                                data-link_id="{{ $category->id }}" 
                                                 data-toggle="modal" 
                                                 data-target="#editLinks">
                                                 <i class="fas fa-edit"></i>

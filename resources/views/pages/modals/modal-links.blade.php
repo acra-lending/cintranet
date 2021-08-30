@@ -18,7 +18,7 @@
                     <div class="form-group col-sm-12">
                         {{ Form::label('link-title', 'Link Title')}}
                         {{-- {{ Form::text('filename', $file->filename, ['class' => 'form-control', 'placeholder' => 'Filename']) }} --}}
-                    <input type="hidden" name="link_id" id="link_id" value="">
+                    <input type="hidden" name="link_id" id="link_id">
                         <input type="text" class="form-control" name="link_title" id="link_title">
                         <br>
                         {{ Form::label('link-title', 'Link URL')}}
