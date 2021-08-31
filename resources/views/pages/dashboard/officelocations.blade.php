@@ -70,6 +70,14 @@
                 <p class="m-0"style="font-size: 10.5pt;">8345 West Sunset Road<br>Suite 350<br>Las Vegas, NV 89113</p> 
                 </div>
             </div>
+            <div class="col-6">
+                <div class="callout callout-primary">
+                <a href="https://goo.gl/maps/p845CvyyMcBtTFwj8" target="_blank" style="text-decoration: none;">
+                    <h6>Connecticut Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">76 LaSalle Road<br>Suite 405<br>West Hartford, CT 06107</p> 
+                </div>
+            </div>
         </div>
     </div>
 </div>
