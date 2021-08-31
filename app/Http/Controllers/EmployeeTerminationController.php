@@ -74,6 +74,7 @@ class EmployeeTerminationController extends Controller
             'james.kiyohara@acralending.com',
             'erik.johnson@acralending.com',
             'jordan.faust@acralending.com',
+            'rashad.robinson@acralending.com',
             'vincent.sanchez@acralending.com',
             'abdul.qatamish@acralending.com',
             'hitz.mistry@acralending.com',
