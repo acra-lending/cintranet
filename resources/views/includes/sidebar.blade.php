@@ -112,6 +112,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/videos/infotech" class="nav-link {{ Request::path() === 'videos/infotech' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>IT</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class=" nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">

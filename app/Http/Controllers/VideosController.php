@@ -99,6 +99,19 @@ class VideosController extends Controller
             ]));
     }
 
+    public function infotech()
+    {
+        $url = Vimeo::request("/users/124219438/projects/5425086/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $infotech = $data;
+
+        return view('pages.videos.infotech', 
+            compact([
+            'infotech',
+            ]));
+    }
+
 
 
 
