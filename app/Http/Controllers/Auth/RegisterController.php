@@ -81,9 +81,11 @@ class RegisterController extends Controller
         $ext = $data['ext'];
         $cellPhone = $data['cellPhone'];
         $departments = $data['departments'];
+        $id = $user->id;
 
 
         $info = DB::table('s2zar_jsn_users')->insert([
+            'id'            => $id,
             'firstname'     => $firstname,
             'lastname'      => $lastname,
             'directphone'   => $directPhone,
