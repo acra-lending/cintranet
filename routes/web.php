@@ -35,6 +35,9 @@ Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsControll
 Route::get('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@edit')->middleware('auth');
 Route::put('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@update')->middleware('auth');
 Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsController@destroy')->middleware('auth');
+Route::get('usermanagement/register', 'RegisterUsersController@index')->middleware('auth');
+Route::post('usermanagement/register', 'RegisterUsersController@create')->middleware('auth');
+
 Route::get('reports', 'ReportsController@index')->middleware('auth');
 Route::get('reports2', 'ReportsController@index2')->middleware('auth');
 Route::get('reports3', 'ReportsController@index3')->middleware('auth');

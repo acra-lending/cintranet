@@ -10,7 +10,7 @@
             <div class="col-sm-6">
               <h1>Manage Users</h1>
               @can('manage-posts')
-                <a href="{{ route('register') }}" class="mt-3 col-sm-3 btn btn-outline-dark">Create User</a>
+                <a href="/usermanagement/register" class="mt-3 col-sm-3 btn btn-outline-dark">Create User</a>
               @endcan
             </div>
             <div class="col-sm-6">
