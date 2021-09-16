@@ -103,7 +103,7 @@
     <div class="col-sm-4">
         <div class="form-group">
             <label class="control-label" for="nmls">NMLS:</label>
-            <input type="text" class="form-control" name="nmls" id="nmls" placeholder="" required>
+            <input type="text" class="form-control" name="nmls" id="nmls" placeholder="">
         </div>
     </div>
 </div>
