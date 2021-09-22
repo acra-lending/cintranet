@@ -32,82 +32,24 @@ class EmployeeInvoluntaryTerminationController extends Controller
         ]);
         $data = $request->all();
 
+        $userRoles = DB::table('role_user')->where('role_id', 6)->get();
+        $emailArray = array('webupdates@acralending.com', 'payroll@acralending.com');      
 
-        // $additionalRecipient1 = $request->email4;
-        // $additionalRecipient2 = $request->email5;
-        $emails = [
-            'keith.lind@acralending.com',
-            'kyle.gunderlock@acralending.com',
-            'trudy.barton@acralending.com',
-            'tim.doyle@acralending.com',
-            'alice.boutwell@acralending.com',
-            'chetna.vora@acralending.com',
-            'robert.diaz@acralending.com',
-            'jeffrey.lemieux@acralending.com',
-            'robert.jennings@acralending.com',
-            'grace.francuz@acralending.com',
-            'kim.nguyen@acralending.com',
-            'caitlin.poncedeleon@acralending.com',
-            'barbara.rieber@acralending.com',
-            'james.kiyohara@acralending.com',
-            'erik.johnson@acralending.com',
-            'jordan.faust@acralending.com',
-            'rashad.robinson@acralending.com',
-            'vincent.sanchez@acralending.com',
-            'abdul.qatamish@acralending.com',
-            'hitz.mistry@acralending.com',
-            'sergio.loza@acralending.com',
-            'terrence.taylor@acralending.com',
-            'anthony.miller@acralending.com',
-            'tom.verdone@acralending.com',
-            'shabbie.hutton@acralending.com',
-            'barbara.rieber@acralending.com',
-            'amanda.ponce@acralending.com',
-            'tom.chan@acralending.com',
-            'payroll@acralending.com',
-            'amanda.nguyen@acralending.com',
-            'annalita.navarro@acralending.com',
-            'jake.brady@acralending.com',
-            'cassandra.cooney@acralending.com',
-            'webupdates@acralending.com',
-        ];
+        foreach($userRoles as $user) {
+            $emailArray[] = User::where('id', $user->user_id)->value('email');
+        }
 
         if($request->filled('email4')){
-            array_push($emails, $request->email4);
+            array_push($emailArray, $request->email4);
         }
         if($request->filled('email5')) {
-            array_push($emails, $request->email5);
+            array_push($emailArray, $request->email5);
         }
 
-        foreach($emails as $recipient) {
+        foreach($emailArray as $recipient) {
             Mail::to($recipient)
             ->queue(new EmployeeInvoluntaryTermination($data));
         }
-
-        // if ($request->filled(['email5', 'email4'])) {
-        //     foreach($emails as $recipient) {
-        //         Mail::to($recipient)
-        //         ->queue(new EmployeeInvoluntaryTermination($data));
-        //     }
-
-        // } elseif ($request->filled('email4')) {
-        //     foreach($emails as $recipient) {
-        //         Mail::to($recipient)
-        //         ->queue(new EmployeeInvoluntaryTermination($data));
-        //     }
-
-        // } elseif ($request->filled('email5')) {
-        //     foreach($emails as $recipient) {
-        //         Mail::to($recipient)
-        //         ->queue(new EmployeeInvoluntaryTermination($data));
-        //     }
-
-        // } else {
-        //     foreach($emails as $recipient) {
-        //         Mail::to($recipient)
-        //         ->queue(new EmployeeInvoluntaryTermination($data));
-        //     }
-        // }
 
         return redirect('/employee/termination')
             ->with('success', 'Request Form Sent');

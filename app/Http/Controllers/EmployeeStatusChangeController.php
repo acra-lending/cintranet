@@ -62,75 +62,24 @@ class EmployeeStatusChangeController extends Controller
         ]);
         $data = $request->all();
 
-        $emails = [
-            'keith.lind@acralending.com',
-            'kyle.gunderlock@acralending.com',
-            'trudy.barton@acralending.com',
-            'tim.doyle@acralending.com',
-            'alice.boutwell@acralending.com',
-            'chetna.vora@acralending.com',
-            'robert.diaz@acralending.com',
-            'jeffrey.lemieux@acralending.com',
-            'robert.jennings@acralending.com',
-            'grace.francuz@acralending.com',
-            'kim.nguyen@acralending.com',
-            'caitlin.poncedeleon@acralending.com',
-            'barbara.rieber@acralending.com',
-            'james.kiyohara@acralending.com',
-            'erik.johnson@acralending.com',
-            'jordan.faust@acralending.com',
-            'rashad.robinson@acralending.com',
-            'vincent.sanchez@acralending.com',
-            'abdul.qatamish@acralending.com',
-            'hitz.mistry@acralending.com',
-            'sergio.loza@acralending.com',
-            'terrence.taylor@acralending.com',
-            'anthony.miller@acralending.com',
-            'tom.verdone@acralending.com',
-            'morelia.ruiz@acralending.com',
-            'shabbie.hutton@acralending.com',
-            'barbara.rieber@acralending.com',
-            'amanda.ponce@acralending.com',
-            'tom.chan@acralending.com',
-            'amanda.nguyen@acralending.com',
-            'annalita.navarro@acralending.com',
-            'jake.brady@acralending.com',
-            'cassandra.cooney@acralending.com',
-            'webupdates@acralending.com',
-        ];
+        $userRoles = DB::table('role_user')->where('role_id', 6)->get();
+        $emailArray = array('webupdates@acralending.com');      
+
+        foreach($userRoles as $user) {
+            $emailArray[] = User::where('id', $user->user_id)->value('email');
+        }
 
         if($request->filled('email3')){
-            array_push($emails, $request->email3);
+            array_push($emailArray, $request->email3);
         }
         if($request->filled('email4')) {
-            array_push($emails, $request->email4);
+            array_push($emailArray, $request->email4);
         }
 
-        foreach($emails as $recipient) {
+        foreach($emailArray as $recipient) {
             Mail::to($recipient)
             ->queue(new EmployeeStatusChange($data));
         }
-
-        // if ($request->filled(['email4', 'email3'])) {
-        //     Mail::bcc($emails, [
-        //         $additionalRecipient1,
-        //         $additionalRecipient2,
-        //     ])->queue(new EmployeeStatusChange($data));
-
-
-        // } elseif ($request->filled('email3')) {
-        //     Mail::bcc($emails, [
-        //         $additionalRecipient1,
-        //     ])->queue(new EmployeeStatusChange($data));
-
-        // } elseif ($request->filled('email4')) {
-        //     Mail::bcc($emails, [
-        //         $additionalRecipient2,
-        //     ])->queue(new EmployeeStatusChange($data));
-
-        // } else {
-        //     Mail::bcc($emails)->queue(new EmployeeStatusChange($data));
-        // }
 
         return redirect('/employee/statuschange')
             ->with('success', 'Request Form Sent');
