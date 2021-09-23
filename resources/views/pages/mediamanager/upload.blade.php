@@ -252,26 +252,41 @@
                                                                     'servicingForeclosure'  => 'Foreclosure'
                                                                 ],
                                                                 'Human Resources' => [
-                                                                    'hr401k'                => '401(k) Summary Booklet',
-                                                                    'hrBenefits'            => 'Benefits',
-                                                                    'hrExpenseReporting'    => 'Concur Expense Report Training',
-                                                                    'hrExpenseGuide'        => 'Paylocity Expense Report',
-                                                                    'hrExpenseGuideMobile'  => 'Paylocity Expense Report Mobile',
-                                                                    'hrExpenseCellInternet' => 'Paylocity Cell Phone and Internet Reimbursement',
-                                                                    'hrHealthPlanDocs'      => 'Health Plan Documents',
-                                                                    'hrHealthTopics'        => 'Health Topics and Suggestions',
-                                                                    'hrManagerTools'        => 'Manager Tools',
-                                                                    'hrNewHire'             => 'New Hire Forms and Notices',
-                                                                    'hrPerformance'         => 'Performance',
-                                                                    'hrHiringProcess'       => 'Hiring Process',
-                                                                    'hrPaylocity'           => 'Paylocity',
-                                                                    'hrHowTo'               => 'How To\'s',
-                                                                    'hrSocialMedia'         => 'Social Media',
-                                                                    'hrFlyers'              => 'Flyers',
-                                                                    'hrVideos'              => 'Videos',
-                                                                    'hrSchedules'           => 'Schedules',
-                                                                    'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
-                                                                    'hrSuggestions'         => 'Suggestions and Referrals',
+                                                                    '401k' => [
+                                                                        'hr401k'    => '401(k) Summary Booklet',
+                                                                    ],
+                                                                    'Documents' => [
+                                                                        'hrPolicies'     => 'Company Policies',
+                                                                    ],
+                                                                    'Schedules & Forms' => [
+                                                                        'hrSchedules'           => 'Schedules',
+                                                                        'hrSuggestions'         => 'Suggestions and Referrals',
+                                                                        'hrNewHire'             => 'New Hire Forms and Notices',
+                                                                        'hrPerformance'         => 'Performance',
+                                                                        'hrHiringProcess'       => 'Hiring Process',
+                                                                        'hrStateAndFedTaxForms' => 'State and Federal Tax Forms',
+                                                                        'hrHealthTopics'        => 'Health Topics and Suggestions',
+                                                                        'hrManagerTools'        => 'Manager Tools',
+                                                                        'hrBenefits'            => 'Benefits',
+                                                                    ],
+                                                                    'Expense Reporting' => [
+                                                                        'hrExpenseReporting'    => 'Concur Expense Report Training',
+                                                                        'hrExpenseGuide'        => 'Paylocity Expense Report',
+                                                                        'hrExpenseGuideMobile'  => 'Paylocity Expense Report Mobile',
+                                                                        'hrExpenseCellInternet' => 'Paylocity Cell Phone and Internet Reimbursement',
+                                                                    ],
+                                                                    'Health Plan' => [
+                                                                        'hrHealthPlanDocs'      => 'Health Plan Documents',
+                                                                    ],
+                                                                    'Paylocity' => [
+                                                                        'hrPaylocity'           => 'Paylocity',
+                                                                        'hrHowTo'               => 'How To\'s',
+                                                                    ],
+                                                                    'Recruitment' => [
+                                                                        'hrSocialMedia'         => 'Social Media',
+                                                                        'hrFlyers'              => 'Flyers',
+                                                                        'hrVideos'              => 'Videos',
+                                                                    ],
                                                                     'State Workplace Posters' => [
                                                                         'federal'       => 'Federal',
                                                                         'alabama'       => 'Alabama',
@@ -353,33 +368,33 @@
   @push('includes.scripts')
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
   <script type="text/javascript">
-    // var SITEURL = "{{URL('/mediamanager')}}";
-    // $(function() {
-    //     $(document).ready(function()
-    //     {
-    //         // $('.progress').hide();
-    //         var bar = $('.bar');
-    //         var percent = $('.percent');
-    //           $('form').ajaxForm({
-    //             beforeSend: function() {
-    //                 var percentVal = '0%';
-    //                 bar.width(percentVal)
-    //                 percent.html(percentVal);
-    //             },
-    //             uploadProgress: function(event, position, total, percentComplete) {
-    //                 $('.progress').removeAttr('hidden');
-    //                 var percentVal = percentComplete + '%';
-    //                 bar.width(percentVal)
-    //                 percent.html(percentVal);
-    //                 $('.complete').html('Uploading');
-    //             },
-    //             complete: function(data) {
-    //                 $('.complete').html(data.responseJSON.success);
+    var SITEURL = "{{URL('/mediamanager')}}";
+    $(function() {
+        $(document).ready(function()
+        {
+            // $('.progress').hide();
+            var bar = $('.bar');
+            var percent = $('.percent');
+              $('form').ajaxForm({
+                beforeSend: function() {
+                    var percentVal = '0%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                },
+                uploadProgress: function(event, position, total, percentComplete) {
+                    $('.progress').removeAttr('hidden');
+                    var percentVal = percentComplete + '%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                    $('.complete').html('Uploading');
+                },
+                complete: function(data) {
+                    $('.complete').html(data.responseJSON.success);
                     
-    //             }
-    //           });
-    //     }); 
-    //  });
+                }
+              });
+        }); 
+     });
     </script>
     @endpush
 @stop

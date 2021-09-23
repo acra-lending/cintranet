@@ -122,6 +122,7 @@ Route::get('humanresources/careers', 'CareersController@index')->middleware('aut
 Route::get('humanresources/stateposters', 'StatePostersController@index')->middleware('auth');
 Route::get('humanresources/expensereport', 'ExpenseReportingController@index')->middleware('auth');
 Route::get('humanresources/recruitment', 'SchedulesFormsController@recruitment')->middleware('auth');
+Route::get('humanresources/documents', 'HRDocumentsController@index')->middleware('auth');
 
 //Employee Status
 Route::get('employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');

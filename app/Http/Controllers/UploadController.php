@@ -73,8 +73,8 @@ class UploadController extends Controller
                 }     
                 
 
-            return back()->with('success', 'Upload Complete');
-            // return response()->json(['success' => 'Uploaded Successfully']);
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
         
             }
         }
@@ -117,8 +117,8 @@ class UploadController extends Controller
                 }     
                 
 
-            return back()->with('success', 'Upload Complete');
-            // return response()->json(['success' => 'Uploaded Successfully']);
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
         
             }
         }
@@ -161,8 +161,8 @@ class UploadController extends Controller
                 }     
                 
 
-            return back()->with('success', 'Upload Complete');
-            // return response()->json(['success' => 'Uploaded Successfully']);
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
         
             }
         }
