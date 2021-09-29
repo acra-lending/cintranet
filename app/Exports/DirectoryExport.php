@@ -60,6 +60,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             $user->cell,
             $user->email,
             $user->departments,
+            $user->team,
             date('Y-n-j', strtotime($user->created_at))
         ];
     }
@@ -74,6 +75,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'Cell Number',
             'Email',
             'Department',
+            'Team',
             'Register Date'
         ];
     }
@@ -88,7 +90,8 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'E' => 13.71,
             'F' => 44,
             'G' => 26.43,
-            'H' => 15,
+            'H' => 19,
+            'I' => 15,
         ];
     }
 
