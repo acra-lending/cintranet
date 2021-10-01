@@ -195,7 +195,7 @@
                 <div class="card card-dark card-outline">
                     <div class="card-header">
                       <div class="card-title">
-                        Benefits Effective Date Calculator
+                        Benefits Effective Date
                       </div>
                     </div>
                     <div class="card-body">
@@ -215,7 +215,7 @@
                       <hr>
                       <div class="row">
                         <div class="form-group">
-                            <label class="control-label" for="effectiveDate">Calculated Effective Date</label>
+                            <label class="control-label" for="effectiveDate">Benefit Effective Date</label>
                             <div class="input-group">
                                 <input type="text" class="form-control float-right" name="calculatedDate" id="calculatedDate">
                             </div>

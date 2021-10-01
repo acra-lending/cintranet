@@ -6,8 +6,9 @@ $(function() {
 
 const calcDate = () => {
     const date = new Date(document.getElementById('effectiveDate').value);
-    date.setDate(date.getDate()+60);
-    document.getElementById('calculatedDate').value = date.toLocaleDateString('en-US');
+    const effectiveMonth = new Date(date.setDate(date.getDate()+ 60));
+    const firstOfMonth = new Date(effectiveMonth.setMonth(date.getMonth()+1,1));
+    document.getElementById('calculatedDate').value = firstOfMonth.toLocaleDateString();
 };
 
 $("document").ready(function(){
