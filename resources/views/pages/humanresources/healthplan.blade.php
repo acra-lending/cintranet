@@ -1,25 +1,22 @@
 @extends('layouts.default')
 
 @section('content')
-<!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
-        <!-- Content Header (Page header) -->
         <div class="content-header">
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Health Plan</h1>
-            </div><!-- /.col -->
+            </div>
             <div class="col-sm-6">
                 <ol class="breadcrumb float-sm-right">
                 <li class="breadcrumb-item active"><a href="/">Human Resources</a></li>
                 <li class="breadcrumb-item">Health Plan</a></li>
                 </ol>
-            </div><!-- /.col -->
-            </div><!-- /.row -->
-        </div><!-- /.container-fluid -->
+            </div>
+            </div>
         </div>
-        <!-- /.content-header -->
+        </div>
 
         <style>
             .color-palette {
@@ -133,7 +130,6 @@
             }
         </style>
 
-        <!-- Main content -->
         <section class="content">
             <div class="col-12">
                 <div class="card card-danger card-outline">
@@ -194,6 +190,40 @@
                   </div>
                 </div>
               </div>
+
+            <div class="col-12 mb-5">
+                <div class="card card-dark card-outline">
+                    <div class="card-header">
+                      <div class="card-title">
+                        Benefits Effective Date Calculator
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <div class="row">
+                        <div class="form-group">
+                            <label class="control-label" for="effectiveDate">Date of Hire</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text">
+                                    <i class="far fa-calendar-alt"></i>
+                                    </span>
+                                </div>
+                                <input type="text" class="form-control float-right" name="effectiveDate" id="effectiveDate" onchange="calcDate()">
+                            </div>
+                        </div>
+                      </div>
+                      <hr>
+                      <div class="row">
+                        <div class="form-group">
+                            <label class="control-label" for="effectiveDate">Calculated Effective Date</label>
+                            <div class="input-group">
+                                <input type="text" class="form-control float-right" name="calculatedDate" id="calculatedDate">
+                            </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </section>
         </div>
           <div class="modal fade" id="modal-default">
@@ -214,13 +244,11 @@
                   <a href="https://www.employeenavigator.com/identity/Account/Login" target="_blank" class="btn btn-danger">Go</a>
                 </div>
               </div>
-              <!-- /.modal-content -->
             </div>
-            <!-- /.modal-dialog -->
           </div>
-          <!-- /.modal -->
 
   </div>
-  <!-- /.col -->
-<!-- ./wrapper -->
+@push('includes.scripts')
+<script src="{{ asset('js/pages/benefitdatecalculator.js') }}"></script>
+@endpush
 @stop
