@@ -364,8 +364,8 @@ class UploadController extends Controller
             }     
                 
 
-        // return back()->with('success', 'Credentials created successfully');
-        return response()->json(['success' => 'Credentials created successfully']);
+        return back()->with('success', 'Credentials created successfully');
+        // return response()->json(['success' => 'Credentials created successfully']);
         
         } else {
             return 'file not found';
@@ -509,15 +509,16 @@ class UploadController extends Controller
                 
                     // return back()->withInput($request->all())->with('error', $message);
                 }
-                if (isset($firstName2)){
-                    $firstName = $firstName2;
+                
+                if (isset($emailAddress2)){
+                    $emailAddress2 = $emailAddress2;
                 }
                 if (isset($lastName2)){
                     $lastName2 = $lastName2;
                 }
-                if (isset($emailAddress2)){
+                if (isset($firstName2)){
+                    $firstName = $firstName2;
                     $userName2 = strtolower($lastName2 .$firstName2[0] .time());
-                    $emailAddress2 = $emailAddress2;
                     $tempPassword2 = $lastName2.'$1!';
 
                     $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
@@ -565,8 +566,8 @@ class UploadController extends Controller
                 
             }
                 
-        // return back()->with('success', 'Upload Complete');
-        return response()->json(['success' => 'Credentials created successfully']);
+        return back()->with('success', 'Credentials created successfully');
+        // return response()->json(['success' => 'Credentials created successfully']);
         
         } else {
             return 'file not found';
