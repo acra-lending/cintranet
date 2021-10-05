@@ -141,6 +141,8 @@ Route::post('employee/involuntarytermination', 'EmployeeInvoluntaryTerminationCo
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');
 Route::get('mediamanager/upload', 'UploadController@index')->middleware('auth');
 Route::post('uploads', 'UploadController@upload')->middleware('auth');
+Route::post('brokerloginrequest', 'UploadController@broker_login_request_parser')->middleware('auth');
+Route::post('priorityloginrequest', 'UploadController@priority_login_request_parser')->middleware('auth');
 // Route::put('update{id}', 'UploadController@update')->middleware('auth');
 Route::put('update', 'UploadController@update')->middleware('auth');
 Route::delete('destroy{id}', 'UploadController@destroy')->middleware('auth');

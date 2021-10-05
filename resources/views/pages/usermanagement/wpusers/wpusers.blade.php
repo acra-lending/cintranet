@@ -24,6 +24,11 @@
         .card-danger:not(.card-outline) .card-header {
         background: var(--linear-gradient);
         }
+
+        .progress { position:relative; width:100%; background-color: var(--gray-color); height: 20px; }
+        .bar { background-color: var(--primary-color); width:0%; height:40px; }
+        .percent { position:absolute; display:inline-block; left:50%; color: #fff;}
+
       </style>
   
       <!-- Main content -->
@@ -44,6 +49,8 @@
                       <nav>
                           <div class="nav nav-tabs" id="nav-tab" role="tablist">
                           <a class="nav-item nav-link active" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab" aria-controls="nav-request" aria-selected="true">Add User</a>
+                          <a class="nav-item nav-link" id="nav-broker-login-request-tab" data-toggle="tab" href="#nav-broker-login-request" role="tab" aria-controls="nav-broker-login-request" aria-selected="true">Broker Portal Login Email Parser</a>
+                          <a class="nav-item nav-link" id="nav-priority-request-tab" data-toggle="tab" href="#nav-priority-request" role="tab" aria-controls="nav-priority-request" aria-selected="true">Priority Request Email Parser</a>
                           </div>
                       </nav>
                       <div class="tab-content" id="nav-tabContent">
@@ -107,14 +114,92 @@
                                   {{ Form::close() }}
                               </div>
                           </div>
+
+                          <div class="tab-pane fade" id="nav-broker-login-request" role="tabpanel" aria-labelledby="nav-broker-login-request-tab">
+                            {{ Form::open(['action' => 'UploadController@broker_login_request_parser', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                            <div class="form-group">
+                                <p class="mt-3">This is for emails with subject line: <strong>Broker Portal Login Request</strong></p>
+                                <p class="py-2"><strong>Upload only .eml files</strong></p>
+                                <label for="attachFiles">Attach Email(s)</label>
+                                <div class="input-group">
+                                    <div class="form-group">
+                                        {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'eml')) }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
+                                <div class="progress mt-3" hidden>
+                                    <div class="bar"></div>
+                                    <div class="percent">0%</div>
+                                </div>
+                                <div class="complete"></div>
+                            </div>
+                            {{ Form::close() }}
+                          </div>
+                          <div class="tab-pane fade" id="nav-priority-request" role="tabpanel" aria-labelledby="nav-priority-request-tab">
+                            {{ Form::open(['action' => 'UploadController@priority_login_request_parser', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                            <div class="form-group">
+                                <p class="mt-3 py-2">This is for emails with subject line: <strong>Priority Request - New Submission</strong></p>
+                                <p class="py-2"><strong>Upload only .eml files</strong></p>
+                                <label for="attachFiles">Attach Email(s)</label>
+                                <div class="input-group">
+                                    <div class="form-group">
+                                        {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'eml')) }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
+                                <div class="progress mt-3" hidden>
+                                    <div class="bar"></div>
+                                    <div class="percent">0%</div>
+                                </div>
+                                <div class="complete"></div>
+                            </div>
+                            {{ Form::close() }}
+                          </div>
+
                       </div>
                   </div>
-              </div><!-- /.card -->
-          </div> <!-- /.col -->
-      </div><!-- /.row -->
-      </div><!-- Container -->
+              </div>
+          </div> 
+      </div>
+      </div>
       @endcan
       </section>
-    </div> <!-- end content-wrapper -->
+    </div>
 
+@push('includes.scripts')
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+<script type="text/javascript">
+    var SITEURL = "{{URL('/mediamanager')}}";
+    $(function() {
+        $(document).ready(function()
+        {
+            // $('.progress').hide();
+            var bar = $('.bar');
+            var percent = $('.percent');
+            $('form').ajaxForm({
+                beforeSend: function() {
+                    var percentVal = '0%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                },
+                uploadProgress: function(event, position, total, percentComplete) {
+                    $('.progress').removeAttr('hidden');
+                    var percentVal = percentComplete + '%';
+                    bar.width(percentVal)
+                    percent.html(percentVal);
+                    $('.complete').html('Processing, please wait...');
+                },
+                complete: function(data) {
+                    $('.complete').html(data.responseJSON.success);
+                    
+                }
+            });
+        }); 
+    });
+    </script>
+    @endpush
 @stop
