@@ -316,7 +316,7 @@ class UploadController extends Controller
                 }
                 if (isset($emailAddress)) {
                     $userName = strtolower($lastName .$firstName[0] .time());
-                    $emailAddress = $emailAddress;
+                    $emailAddress = strtolower($emailAddress);
                 }
                 $tempPassword = $lastName.'$1!';
 
@@ -464,7 +464,7 @@ class UploadController extends Controller
                 }
                 if (isset($emailAddress)) {
                     $userName = strtolower($lastName .$firstName[0] .time());
-                    $emailAddress = $emailAddress;
+                    $emailAddress = strtolower($emailAddress);
                     $tempPassword = $lastName.'$1!';
 
                     $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
@@ -511,7 +511,7 @@ class UploadController extends Controller
                 }
                 
                 if (isset($emailAddress2)){
-                    $emailAddress2 = $emailAddress2;
+                    $emailAddress2 = strtolower($emailAddress2);
                 }
                 if (isset($lastName2)){
                     $lastName2 = $lastName2;

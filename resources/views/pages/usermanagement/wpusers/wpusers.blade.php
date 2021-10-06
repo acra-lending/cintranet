@@ -87,13 +87,13 @@
                                               </div>
                                           </div>
                                           <div class="row card-footer">
-                                              <div class="col-sm-12 col-md-6 col-lg-6">
+                                              {{-- <div class="col-sm-12 col-md-6 col-lg-6">
                                                   <div class="form-group required">
                                                       <label class="control-label" for="username">Username</label>
                                                       <input required type="text" class="form-control" name="username" id="username" placeholder="" 
                                                       value={{ old('username') }} >
                                                   </div>
-                                              </div>
+                                              </div> --}}
                                               <div class="col-sm-12 col-md-6 col-lg-6">
                                                   <div class="form-group required">
                                                       <label class="control-label" for="selectType" required>Select Type</label>

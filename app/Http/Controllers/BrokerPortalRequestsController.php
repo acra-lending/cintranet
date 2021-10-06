@@ -18,7 +18,7 @@ class BrokerPortalRequestsController extends Controller
     public function submit(Request $request)
     {
         $dataValidate = request()->validate([
-            'username'          => 'required|max:100',
+            // 'username'          => 'required|max:100',
             'firstname'         => 'required|max:100',
             'lastname'          => 'required|max:100',
             'email'             => 'required|email',
@@ -29,10 +29,19 @@ class BrokerPortalRequestsController extends Controller
         $remove[] = " ";
         $remove[] = "-";
 
+        // $userName = strtolower($lastName .$firstName[0] .time());
+        // $emailAddress = $emailAddress;
+        // $tempPassword = $lastName.'$1!';
+
         // $username = strtolower(str_replace($remove, "", $request->input('username'))).strtolower(substr($request->input('firstname'), 0, 1));
-        $username = strtolower(str_replace($remove, "", $request->input('username')));
+        // $username = strtolower(str_replace($remove, "", $request->input('username')));
+        $lastName = $request->input('lastname');
+        $firstName = $request->input('firstname');
+        $lastNameWithNoSpace = str_replace($remove, "", $lastName);
+        $username = strtolower($lastNameWithNoSpace .$firstName[0] .time());
         $email = strtolower($request->input('email'));
-        $tempPassword = $username.'1';
+        // $tempPassword = $username.'1';
+        $tempPassword = $lastNameWithNoSpace.'$1!';
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
         $selectType = $request->input('selectType');
         // dd($selectType);
@@ -99,7 +108,7 @@ class BrokerPortalRequestsController extends Controller
             ->get();
             // dd($wp_users);
 
-            $fullname = $wp_users[0]->display_name;;
+            $fullname = $wp_users[0]->display_name;
             $fullname = trim($fullname); // remove double space
             $first_name = substr($fullname, 0, strpos($fullname, ' '));
             $last_name = ltrim(substr($fullname, strpos($fullname, ' '), strlen($fullname)));
@@ -115,7 +124,7 @@ class BrokerPortalRequestsController extends Controller
     public function update(Request $request, $wp_users)
     {
         $dataValidate = request()->validate([
-            'username'          => 'required|max:100',
+            // 'username'          => 'required|max:100',
             'firstname'         => 'required|max:100',
             'lastname'          => 'required|max:100',
             'email'             => 'required|email',
@@ -128,9 +137,10 @@ class BrokerPortalRequestsController extends Controller
         $remove[] = "-";
 
         // $username = strtolower(str_replace($remove, "", $request->input('username'))).strtolower(substr($request->input('firstname'), 0, 1));
-        $username = strtolower(str_replace($remove, "", $request->input('username')));
+        // $username = strtolower(str_replace($remove, "", $request->input('username')));
         $email = strtolower($request->input('email'));
-        $data = [$request->all(), 'username' => $username];
+        // $data = [$request->all(), 'username' => $username];
+        $data = [$request->all()];
         $displayName = $request->input('firstname'). ' ' .$request->input('lastname');
         // dd($displayName);
 
@@ -143,7 +153,7 @@ class BrokerPortalRequestsController extends Controller
 
         $response = Http::withToken($token)
         ->post('https://acralending.com/wp-json/wp/v2/users/' . $wp_users, [
-                'username' => $username,
+                // 'username' => $username,
                 'email' => $email,
                 'first_name' => $request->input('firstname'),
                 'last_name' => $request->input('lastname'),
