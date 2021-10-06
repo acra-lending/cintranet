@@ -363,8 +363,14 @@ class UploadController extends Controller
                 // return back()->withInput($request->all())->with('error', $message);
             }     
                 
+            if ($response->successful()) {
+                return back()->with('success', 'Credentials created successfully');
+            } else {
+                $message = $response->json()['message'];
+                return back()->with('error', $message);
 
-        return back()->with('success', 'Credentials created successfully');
+            }
+        // return back()->with('success', 'Credentials created successfully');
         // return response()->json(['success' => 'Credentials created successfully']);
         
         } else {
@@ -565,8 +571,15 @@ class UploadController extends Controller
                 }
                 
             }
-                
-        return back()->with('success', 'Credentials created successfully');
+            
+            if ($response->successful()) {
+                return back()->with('success', 'Credentials created successfully');
+            } else {
+                $message = $response->json()['message'];
+                return back()->with('error', $message);
+            }
+        // return back()->with('success', 'Credentials created successfully');
+        
         // return response()->json(['success' => 'Credentials created successfully']);
         
         } else {
