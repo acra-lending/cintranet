@@ -286,6 +286,7 @@ class UploadController extends Controller
 
                 $subject = $parser->getHeader('subject');
                 $string = $parser->getMessageBody('text');
+                $string = preg_replace('/<mailto:[\s\S]+?>/', '', $string);
 
                 // Set the regex.
                 if (strpos($subject, "Broker Portal Login Request") !== false) {
@@ -416,7 +417,8 @@ class UploadController extends Controller
 
                 $subject = $parser->getHeader('subject');
                 $string = $parser->getMessageBody('text');
-
+                $string = preg_replace('/<mailto:[\s\S]+?>/', '', $string);
+                // dd($string);
                             // Set the regex.
                 if (strpos($subject, "Priority Request - New Submission - Broker Portal Log In") !== false) {
                     $fName = '/(?<=\bFirst Name:\s)(?:[\w-]+)/is';
@@ -447,7 +449,7 @@ class UploadController extends Controller
                     }
                 
                     preg_match_all($email, $string, $matches);
-                    // print_r($matches);
+                    dd($matches);
                     if (isset($matches)) {
                         if (isset($matches[0][0])) {
                             $emailAddress = $matches[0][0];
