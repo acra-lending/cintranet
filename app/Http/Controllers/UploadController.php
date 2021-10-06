@@ -356,7 +356,7 @@ class UploadController extends Controller
                         $emailAddress
                     ])->queue(new BrokerPortalRequestsClient($data));
             
-                    return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
+                    // return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
                 }
                 else 
                 $message = $response->json()['message'];
