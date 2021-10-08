@@ -23,6 +23,7 @@ class BrokerPortalRequestsController extends Controller
             'lastname'          => 'required|max:100',
             'email'             => 'required|email',
             'selectType'        => 'nullable',
+            'email2'            => 'nullable|email',
         ]);
 
         $remove[] = "'";
@@ -63,12 +64,17 @@ class BrokerPortalRequestsController extends Controller
                 'password' => $tempPassword,
         ]);
 
+        $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com');
+        
+        if($request->filled('email2')){
+            array_push($emailArray, $request->email2);
+        } 
+
         // dd($response->json());
     if ($selectType != 'um_broker') {
         if ($response->successful()) {
-            Mail::to([
-                'webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'
-            ])->queue(new CorrespondentPortalRequests($data));
+            Mail::to($emailArray)
+            ->queue(new CorrespondentPortalRequests($data));
             Mail::to([
                 $request->input('email')
             ])->queue(new CorrespondentPortalRequestsClient($data));
@@ -82,9 +88,8 @@ class BrokerPortalRequestsController extends Controller
         
     } else {
         if ($response->successful()) {
-            Mail::to([
-                'webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'
-            ])->queue(new BrokerPortalRequests($data));
+            Mail::to($emailArray)
+            ->queue(new BrokerPortalRequests($data));
             Mail::to([
                 $request->input('email')
             ])->queue(new BrokerPortalRequestsClient($data));

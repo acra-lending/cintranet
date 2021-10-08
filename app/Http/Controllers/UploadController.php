@@ -256,6 +256,7 @@ class UploadController extends Controller
         }
 
         $this->validate($request, [
+            'email2' => 'nullable|email',
             'file' => 'required',
             'file.*' => 'required|mimes:eml|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
@@ -348,10 +349,11 @@ class UploadController extends Controller
                     'tempPassword'  => $tempPassword,
                 ];
 
+                $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'); 
+
                 if ($response->successful()) {
-                    Mail::to([
-                        'webupdates@acralending.com',
-                    ])->queue(new BrokerPortalRequests($data));
+                    Mail::to($emailArray)
+                    ->queue(new BrokerPortalRequests($data));
                     Mail::to([
                         $emailAddress
                     ])->queue(new BrokerPortalRequestsClient($data));
@@ -501,11 +503,12 @@ class UploadController extends Controller
                         'username'      => $userName,
                         'tempPassword'  => $tempPassword,
                     ];
+
+                    $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'); 
     
                     if ($response->successful()) {
-                        Mail::to([
-                            'webupdates@acralending.com', 
-                        ])->queue(new BrokerPortalRequests($data));
+                        Mail::to($emailArray)
+                        ->queue(new BrokerPortalRequests($data));
                         Mail::to([
                             $emailAddress
                         ])->queue(new BrokerPortalRequestsClient($data));
@@ -555,11 +558,12 @@ class UploadController extends Controller
                         'username'      => $userName2,
                         'tempPassword'  => $tempPassword2,
                     ];
+
+                    $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'); 
     
                     if ($response->successful()) {
-                        Mail::to([
-                            'webupdates@acralending.com',
-                        ])->queue(new BrokerPortalRequests($data));
+                        Mail::to($emailArray)
+                        ->queue(new BrokerPortalRequests($data));
                         Mail::to([
                             $emailAddress2
                         ])->queue(new BrokerPortalRequestsClient($data));
