@@ -357,8 +357,10 @@ class UploadController extends Controller
                     Mail::to([
                         $emailAddress
                     ])->queue(new BrokerPortalRequestsClient($data));
-            
+
+                    Storage::delete('public/upload/emails/brokers/'.$fileNameToStore);
                     // return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
+
                 }
                 else 
                 $message = $response->json()['message'];
@@ -568,6 +570,7 @@ class UploadController extends Controller
                             $emailAddress2
                         ])->queue(new BrokerPortalRequestsClient($data));
                 
+                        Storage::delete('public/upload/emails/brokers/'.$fileNameToStore);
                         // return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
                     }
                     else 
