@@ -171,8 +171,8 @@
                           <div class="tab-pane fade" id="nav-broker-login-request-excel" role="tabpanel" aria-labelledby="nav-broker-login-request-excel-tab">
                             {{ Form::open(['action' => 'UploadController@broker_portal_login_excel', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                             <div class="form-group">
-                                <p class="mt-3 py-2">This is for emails with subject line: <strong>Priority Request - New Submission</strong></p>
-                                <p class="py-2"><strong>Upload only .eml files</strong></p>
+                                <p class="mt-3 py-2">This is for <strong>Excel Upload </strong> with filename: <strong>login_credentials.xlsx</strong></p>
+                                <p class="py-2"><strong>Upload .xlsx file ONLY</strong></p>
                                 <p class="py-2"><strong>For Broker Credentials ONLY</strong></p>
                                 <label for="attachFiles">Attach Email(s)</label>
                                 <div class="input-group">
