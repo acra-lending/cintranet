@@ -51,6 +51,7 @@
                           <a class="nav-item nav-link active" id="nav-request-tab" data-toggle="tab" href="#nav-request" role="tab" aria-controls="nav-request" aria-selected="true">Add User</a>
                           <a class="nav-item nav-link" id="nav-broker-login-request-tab" data-toggle="tab" href="#nav-broker-login-request" role="tab" aria-controls="nav-broker-login-request" aria-selected="true">Broker Portal Login Email Parser</a>
                           <a class="nav-item nav-link" id="nav-priority-request-tab" data-toggle="tab" href="#nav-priority-request" role="tab" aria-controls="nav-priority-request" aria-selected="true">Priority Request Email Parser</a>
+                          <a class="nav-item nav-link" id="nav-broker-login-request-excel-tab" data-toggle="tab" href="#nav-broker-login-request-excel" role="tab" aria-controls="nav-broker-login-request-excel" aria-selected="true">Broker Portal Login Credentials Excel Upload</a>
                           </div>
                       </nav>
                       <div class="tab-content" id="nav-tabContent">
@@ -154,6 +155,29 @@
                                 <div class="input-group">
                                     <div class="form-group">
                                         {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'eml')) }}
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                {{ Form::submit('Submit', ['class' => 'btn btn-outline-danger ']) }}
+                                {{-- <div class="progress mt-3" hidden>
+                                    <div class="bar"></div>
+                                    <div class="percent">0%</div>
+                                </div>
+                                <div class="complete"></div> --}}
+                            </div>
+                            {{ Form::close() }}
+                          </div>
+                          <div class="tab-pane fade" id="nav-broker-login-request-excel" role="tabpanel" aria-labelledby="nav-broker-login-request-excel-tab">
+                            {{ Form::open(['action' => 'UploadController@broker_portal_login_excel', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                            <div class="form-group">
+                                <p class="mt-3 py-2">This is for emails with subject line: <strong>Priority Request - New Submission</strong></p>
+                                <p class="py-2"><strong>Upload only .eml files</strong></p>
+                                <p class="py-2"><strong>For Broker Credentials ONLY</strong></p>
+                                <label for="attachFiles">Attach Email(s)</label>
+                                <div class="input-group">
+                                    <div class="form-group">
+                                        {{ Form::file('file', array('multiple' => false, 'accept'=> 'xlsx')) }}
                                     </div>
                                 </div>
                             </div>

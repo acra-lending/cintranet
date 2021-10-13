@@ -7,6 +7,8 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Http;
 use App\Mail\BrokerPortalRequests;
 use App\Mail\BrokerPortalRequestsClient;
+use Maatwebsite\Excel\Facades\Excel;
+use App\Imports\WPUsersImport;
 use App\Post;
 use App\Category;
 use Gate;
@@ -594,6 +596,13 @@ class UploadController extends Controller
         } else {
             return 'file not found';
         }
+    }
+
+    public function broker_portal_login_excel(Request $request)
+    {
+        Excel::import(new WPUsersImport, request()->file('file'));
+
+        return back()->with('success', 'Credentials created successfully');
     }
 
     public function destroy($id)
