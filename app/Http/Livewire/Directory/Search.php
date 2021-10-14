@@ -47,7 +47,7 @@ class Search extends Component
         ->toArray();
 
         $teams = DB::table('s2zar_jsn_users')
-        ->orderBy('lastname', 'asc')
+        ->orderBy('team', 'asc')
         ->groupBy('team')
         ->where('team', '<>', '')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
