@@ -16,6 +16,7 @@ class Search extends Component
     public $search = '';
     public $position;
     public $department;
+    public $team;
 
     protected $queryString = ['search'];
     protected $paginationTheme = 'bootstrap';
@@ -44,6 +45,14 @@ class Search extends Component
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->pluck('departments', 'departments')
         ->toArray();
+
+        $teams = DB::table('s2zar_jsn_users')
+        ->orderBy('lastname', 'asc')
+        ->groupBy('team')
+        ->where('team', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('team')
+        ->toArray();
         
         return view('livewire.directory.search', [
             'contacts' => DB::table('s2zar_jsn_users')
@@ -53,12 +62,14 @@ class Search extends Component
             ->orWhere('email', 'like', '%'.$this->search.'%')
             ->orWhere('departments', $this->search)
             ->orWhere('position', $this->search)
+            ->orWhere('team', $this->search)
             // ->orWhere('team', 'like', '%'.$this->search.'%')
             ->paginate(9)
         ])            
         ->with([
             'positions' => $positions,
-            'departments' => $departments
+            'departments' => $departments,
+            'teams' => $teams
         ]);
     }
 }

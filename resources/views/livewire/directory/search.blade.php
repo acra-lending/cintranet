@@ -8,10 +8,10 @@
                 </div>
                 <div class="card-body">
                     <div class="row">
-                        <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
+                        <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
                             <input class="form-control" wire:model="search" value="" type="text" placeholder="Search Name or Email">
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
+                        <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
                             <select wire:model="search" class="form-control" placeholder="Department">
                                 <option value="" disabled selected>Department</option>
                                 @foreach($departments as $department)
@@ -19,11 +19,19 @@
                                 @endforeach
                             </select>
                         </div>
-                        <div class="col-md-6 col-lg-4 col-xl-4 pt-3" >
+                        <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
                             <select wire:model="search" class="form-control" placeholder="Position">
                                 <option value="" disabled selected>Position</option>
                                 @foreach($positions as $position)
                                 <option value="{{ $position }}">{{ $position }}</option>
+                                @endforeach
+                            </select>
+                        </div>
+                        <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
+                            <select wire:model="search" class="form-control" placeholder="Position">
+                                <option value="" disabled selected>Team</option>
+                                @foreach($teams as $team)
+                                <option value="{{ $team }}">{{ $team }}</option>
                                 @endforeach
                             </select>
                         </div>
