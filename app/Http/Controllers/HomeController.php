@@ -77,8 +77,17 @@ class HomeController extends Controller
             $teamMembers = DB::table('s2zar_jsn_users')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('team', $team)
+            // ->orWhere('s2zar_users.name', $team)
             ->orderBy('lastname', 'asc')
             ->get();
+
+
+            /* 
+            
+            // Team members should be all users in same team
+            // Reporting Team members is all members reporting to team lead
+
+            */
 
             return view('pages.dashboard')
             ->with([

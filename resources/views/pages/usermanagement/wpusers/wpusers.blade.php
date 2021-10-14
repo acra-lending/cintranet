@@ -109,7 +109,7 @@
                                                 <div class="col-sm-12 col-md-6 col-lg-6">
                                                     <div class="form-group">
                                                         <label class="control-label" for="email3">Additional Recipient Email (Internal Only):</label>
-                                                        <input type="email" class="form-control" name="email2" id="email2"> 
+                                                        <input type="email" class="form-control" name="email2" id="email2" multiple> 
                                                     </div>
                                                 </div>
                                           </div>

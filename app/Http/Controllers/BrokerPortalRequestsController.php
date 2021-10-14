@@ -23,7 +23,8 @@ class BrokerPortalRequestsController extends Controller
             'lastname'          => 'required|max:100',
             'email'             => 'required|email',
             'selectType'        => 'nullable',
-            'email2'            => 'nullable|email',
+            'email2.*'            => 'nullable|email',
+            // 'email2.*'          => 'nullable|email'
         ]);
 
         $remove[] = "'";
@@ -67,8 +68,12 @@ class BrokerPortalRequestsController extends Controller
         $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com');
         
         if($request->filled('email2')){
-            array_push($emailArray, $request->email2);
-        } 
+            $emails = explode(',', $request->input('email2'));
+            foreach($emails as $email)
+            {
+                array_push($emailArray, $email);
+            }
+        }  
 
         // dd($response->json());
     if ($selectType != 'um_broker') {
