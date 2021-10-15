@@ -20,6 +20,10 @@ class WPUsersImport implements ToCollection
     {
         foreach ($rows as $row)
         {
+            $remove[] = "'";
+            $remove[] = " ";
+            $remove[] = "-";
+            
             $firstName = $row[0];
             $lastName = $row[1];
             $emailAddress = strtolower($row[2]);
