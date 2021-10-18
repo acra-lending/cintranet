@@ -12,7 +12,7 @@
     <a class="nav-item nav-link" id="nav-jr-processor-tab" data-toggle="tab" href="#nav-jr-processor" role="tab" aria-controls="nav-jr-processor" aria-selected="false">Jr Processor</a>
     <a class="nav-item nav-link" id="nav-processor-tab" data-toggle="tab" href="#nav-processor" role="tab" aria-controls="nav-processor" aria-selected="false">Processor</a>
     <a class="nav-item nav-link" id="nav-nda-tab" data-toggle="tab" href="#nav-nda" role="tab" aria-controls="nav-nda" aria-selected="false">NDA</a>
-    <a class="nav-item nav-link" id="nav-fix-and-flip-tab" data-toggle="tab" href="#nav-fix-and-flip" role="tab" aria-controls="nav-fix-and-flip" aria-selected="false">Fix N Flip</a>
+    <a class="nav-item nav-link" id="nav-fix-and-flip-tab" data-toggle="tab" href="#nav-fix-and-flip" role="tab" aria-controls="nav-fix-and-flip" aria-selected="false">Fix & Flip</a>
     <a class="nav-item nav-link" id="nav-jr-uw-tab" data-toggle="tab" href="#nav-jr-uw" role="tab" aria-controls="nav-jr-uw" aria-selected="false">Jr Underwriter</a>
     <a class="nav-item nav-link" id="nav-prescreen-tab" data-toggle="tab" href="#nav-prescreen" role="tab" aria-controls="nav-prescreen" aria-selected="false">Pre-Screen</a>
     <a class="nav-item nav-link" id="nav-vetting-clerk-tab" data-toggle="tab" href="#nav-vetting-clerk" role="tab" aria-controls="nav-vetting-clerk" aria-selected="false">Vetting Clerk</a>
