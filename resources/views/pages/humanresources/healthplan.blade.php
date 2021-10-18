@@ -241,7 +241,7 @@
                 </div>
                 <div class="modal-footer justify-content-between">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                  <a href="https://www.employeenavigator.com/identity/Account/Login" target="_blank" class="btn btn-danger">Go</a>
+                  <a href="https://www.employeenavigator.com/benefits/Account/Login" target="_blank" class="btn btn-danger">Go</a>
                 </div>
               </div>
             </div>
