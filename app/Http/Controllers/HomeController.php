@@ -77,9 +77,15 @@ class HomeController extends Controller
             $teamMembers = DB::table('s2zar_jsn_users')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('team', $team)
-            // ->orWhere('s2zar_users.name', $team)
+            ->orWhere('s2zar_users.name', $team)
             ->orderBy('lastname', 'asc')
             ->get();
+
+            $teamLead = DB::table('s2zar_jsn_users')
+            ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+            ->where('s2zar_users.name', $team)
+            ->orderBy('lastname', 'asc')
+            ->first();
 
 
             /* 
@@ -92,6 +98,7 @@ class HomeController extends Controller
             return view('pages.dashboard')
             ->with([
                 'teamMembers'   => $teamMembers,
+                'teamLead'      => $teamLead,
                 'first_name'    => $first_name,
                 'posts'         => $posts,
                 'events'        => $events,
