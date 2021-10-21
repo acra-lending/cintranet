@@ -15,7 +15,7 @@
                     <br>
                     <br>
                     <br>
-                    @if($team->name == $teamLead->name)
+                    @if(!empty($teamLead) && $team->name == $teamLead->name)
                     <strong>Team Lead</strong>
                     @endif
                     <a class="users-list-name" href="/directory/user/{{$team->id}}">{{ $team->firstname }} {{$team->lastname}}</a>
