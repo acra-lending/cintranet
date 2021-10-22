@@ -264,6 +264,10 @@ class UploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $remove[] = "'";
+        $remove[] = " ";
+        $remove[] = "-";
+
         //Handle File Upload
         if($request->hasFile('file')){
 
@@ -317,9 +321,10 @@ class UploadController extends Controller
                 }
                 if (isset($lastName)) {
                     $lastName = $lastName;
+                    $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
-                    $userName = strtolower($lastName .$firstName[0] .time());
+                    $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
                     $emailAddress = strtolower($emailAddress);
                 }
                 $tempPassword = $lastName.'$1!';
@@ -398,6 +403,10 @@ class UploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $remove[] = "'";
+        $remove[] = " ";
+        $remove[] = "-";
+
         //Handle File Upload
         if($request->hasFile('file')){
 
@@ -475,11 +484,12 @@ class UploadController extends Controller
                 }
                 if (isset($lastName)) {
                     $lastName = $lastName;
+                    $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
-                    $userName = strtolower($lastName .$firstName[0] .time());
+                    $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
                     $emailAddress = strtolower($emailAddress);
-                    $tempPassword = $lastName.'$1!';
+                    $tempPassword = $lastNameWithNoSpace.'$1!';
 
                     $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
                         'username' => env('WP_USERNAME'),
@@ -530,11 +540,12 @@ class UploadController extends Controller
                 }
                 if (isset($lastName2)){
                     $lastName2 = $lastName2;
+                    $lastNameWithNoSpace2 = str_replace($remove, "", $lastName2);
                 }
                 if (isset($firstName2)){
                     $firstName = $firstName2;
-                    $userName2 = strtolower($lastName2 .$firstName2[0] .time());
-                    $tempPassword2 = $lastName2.'$1!';
+                    $userName2 = strtolower($lastNameWithNoSpace2 .$firstName2[0] .time());
+                    $tempPassword2 = $lastNameWithNoSpace2.'$1!';
 
                     $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
                         'username' => env('WP_USERNAME'),
