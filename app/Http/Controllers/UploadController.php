@@ -317,10 +317,10 @@ class UploadController extends Controller
                 $emailAddress = $matches[0][0];
 
                 if (isset($firstName)) {
-                    $firstName = $firstName;
+                    $firstName = ucwords(strtolower($firstName));
                 }
                 if (isset($lastName)) {
-                    $lastName = $lastName;
+                    $lastName = ucwords(strtolower($lastName));
                     $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
@@ -480,10 +480,10 @@ class UploadController extends Controller
                 }
 
                 if (isset($firstName)) {
-                    $firstName = $firstName;
+                    $firstName = ucwords(strtolower($firstName));
                 }
                 if (isset($lastName)) {
-                    $lastName = $lastName;
+                    $lastName = ucwords(strtolower($lastName));
                     $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
@@ -539,11 +539,11 @@ class UploadController extends Controller
                     $emailAddress2 = strtolower($emailAddress2);
                 }
                 if (isset($lastName2)){
-                    $lastName2 = $lastName2;
+                    $lastName2 = ucwords(strtolower($lastName2));
                     $lastNameWithNoSpace2 = str_replace($remove, "", $lastName2);
                 }
                 if (isset($firstName2)){
-                    $firstName = $firstName2;
+                    $firstName2 = ucwords(strtolower($firstName2));
                     $userName2 = strtolower($lastNameWithNoSpace2 .$firstName2[0] .time());
                     $tempPassword2 = $lastNameWithNoSpace2.'$1!';
 

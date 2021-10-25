@@ -37,8 +37,8 @@ class BrokerPortalRequestsController extends Controller
 
         // $username = strtolower(str_replace($remove, "", $request->input('username'))).strtolower(substr($request->input('firstname'), 0, 1));
         // $username = strtolower(str_replace($remove, "", $request->input('username')));
-        $lastName = $request->input('lastname');
-        $firstName = $request->input('firstname');
+        $lastName = ucwords(strtolower($request->input('lastname')));
+        $firstName = ucwords(strtolower($request->input('firstname')));
         $lastNameWithNoSpace = str_replace($remove, "", $lastName);
         $username = strtolower($lastNameWithNoSpace .$firstName[0] .time());
         $email = strtolower($request->input('email'));
