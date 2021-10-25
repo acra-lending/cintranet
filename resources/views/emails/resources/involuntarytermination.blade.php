@@ -3,29 +3,29 @@
 # Employee Involuntary Termination Request from Cintranet
 <hr/>
 
-<strong>Effective Date:</strong> {{ $data['requestDueDate'] }}
+<strong>Effective Date:</strong> {{ $data[0]['requestDueDate'] }}
 
 # Employee Info:
 
-{{ $data['name'] }}<br/>
-{{ $data['email'] }}<br/> 
-{{ $data['position'] }}<br/>
+{{ $data[0]['name'] }}<br/>
+{{ $data[0]['email'] }}<br/> 
+{{ $data[0]['position'] }}<br/>
 
-<strong>Status:</strong> {{ $data['status'] }}<br/>
+<strong>Status:</strong> {{ $data[0]['status'] }}<br/>
 
-<strong>Email Forwarding:</strong> {{ $data['emailForward'] }}<br/>
+<strong>Email Forwarding:</strong> {{ $data[0]['emailForward'] }}<br/>
 
-<strong>Forwarding Email:</strong> {{ $data['email2'] }} <br/>
+<strong>Forwarding Email:</strong> {{ $data[0]['email2'] }} <br/>
 
-<strong>Duration:</strong> {{ $data['duration'] }} <br/>
+<strong>Duration:</strong> {{ $data[0]['duration'] }} <br/>
 
 <hr/>
 
 # Special Instructions:
 
-<strong>Designate Access:</strong> {{ $data['designateAccess'] }} <br/>
+<strong>Designate Access:</strong> {{ $data[0]['designateAccess'] }} <br/>
 
-{{ $data['specialInstructions'] }}<br/>
+{{ $data[0]['specialInstructions'] }}<br/>
 
 <hr/>
 
@@ -35,9 +35,7 @@
 
 <strong>Submitter's Email:</strong> {{ $data['email3'] }} <br/>
 
-<strong>Additional Recipient Email:</strong> {{ $data['email4'] }} <br/>
-
-<strong>Additional Recipient Email (2):</strong> {{ $data['email5'] }} <br/>
+<strong>Additional Recipient Email(s):</strong> {{ $data[0]['email4'] }} <br/>
 
 <hr/>
 

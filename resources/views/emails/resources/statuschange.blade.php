@@ -3,42 +3,42 @@
 # Employee Status Change Request from Cintranet
 <hr/>
 
-<strong>Effective Date:</strong> {{ $data['requestDueDate'] }}
+<strong>Effective Date:</strong> {{ $data[0]['requestDueDate'] }}
 
 # Employee Info:
 
-{{ $data['name'] }}<br/>
-{{ $data['position'] }}<br/>
+{{ $data[0]['name'] }}<br/>
+{{ $data[0]['position'] }}<br/>
 
-<strong>Promoted:</strong> {{ $data['selectPromotion'] }}<br/>
+<strong>Promoted:</strong> {{ $data[0]['selectPromotion'] }}<br/>
 
 <hr/>
 
 # Status Change:
 
-<strong>New Position:</strong> {{ $data['newPosition'] }}<br/>
+<strong>New Position:</strong> {{ $data[0]['newPosition'] }}<br/>
 
-<strong>New Email:</strong> {{ $data['newEmail'] }}<br/> 
+<strong>New Email:</strong> {{ $data[0]['newEmail'] }}<br/> 
 
-<strong>New Tel:</strong> {{ $data['phone'] }}<br/> 
-<strong>New Ext:</strong> {{ $data['extension'] }}<br/>
-<strong>New Cel:</strong> {{ $data['cellPhone'] }}<br/> 
+<strong>New Tel:</strong> {{ $data[0]['phone'] }}<br/> 
+<strong>New Ext:</strong> {{ $data[0]['extension'] }}<br/>
+<strong>New Cel:</strong> {{ $data[0]['cellPhone'] }}<br/> 
 
-<strong>New Territory:</strong> {{ $data['territory'] }}<br/>
+<strong>New Territory:</strong> {{ $data[0]['territory'] }}<br/>
 
-<strong>New Department:</strong> {{ str_replace(array('[', '"', ']',), '',$data['department']) }}<br/>
+<strong>New Department:</strong> {{ str_replace(array('[', '"', ']',), '',$data[0]['department']) }}<br/>
 
-<strong>New Manager:</strong> {{ $data['manager'] }}<br/>  
+<strong>New Manager:</strong> {{ $data[0]['manager'] }}<br/>  
 
 <hr/>
 
 # Access Changes:
 
-<strong>New Access Type:</strong> {{ $data['selectAccess'] }}<br/>
+<strong>New Access Type:</strong> {{ $data[0]['selectAccess'] }}<br/>
 
-<strong>New FOB #:</strong> {{ $data['fob'] }}<br/>
+<strong>New FOB #:</strong> {{ $data[0]['fob'] }}<br/>
 
-<strong>Special Instructions:</strong> {{ $data['specialInstructions'] }}<br/>
+<strong>Special Instructions:</strong> {{ $data[0]['specialInstructions'] }}<br/>
 
 <hr/>
 
@@ -48,9 +48,7 @@
 
 <strong>Submitter's Email:</strong> {{ $data['email2'] }} <br/>
 
-<strong>Additional Recipient Email:</strong> {{ $data['email3'] }} <br/>
-
-<strong>Additional Recipient Email (2):</strong> {{ $data['email4'] }} <br/>
+<strong>Additional Recipient Email(s):</strong> {{ $data[0]['email3'] }} <br/>
 
 <hr/>
 

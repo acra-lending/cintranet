@@ -49,13 +49,13 @@ class EmployeeTerminationController extends Controller
             'duration'              => 'nullable',
             'designateAccess'       => 'required|max:100',
             'specialInstructions'   => 'nullable|max:500',
-            'submittedBy'           => 'required',
+            // 'submittedBy'           => 'required',
             'email2'                => 'nullable|email',
-            'email3'                => 'nullable|email',
-            'email4'                => 'nullable|email',
-            'email5'                => 'nullable|email',
+            // 'email3'                => 'nullable|email',
+            'email4.*'                => 'nullable|email',
+            // 'email5'                => 'nullable|email',
         ]);
-        $data = $request->all();
+        $data = [$request->all(), 'submittedBy' => auth()->user()->name, 'email3' => auth()->user()->email];
 
         $userRoles = DB::table('role_user')->where('role_id', 6)->get();
         $emailArray = array('webupdates@acralending.com', 'payroll@acralending.com');      
@@ -65,11 +65,19 @@ class EmployeeTerminationController extends Controller
         }
 
         if($request->filled('email4')){
-            array_push($emailArray, $request->email4);
-        }
-        if($request->filled('email5')) {
-            array_push($emailArray, $request->email5);
-        }
+            $emails = explode(',', $request->input('email4'));
+            foreach($emails as $email)
+            {
+                array_push($emailArray, $email);
+            }
+        } 
+
+        // if($request->filled('email4')){
+        //     array_push($emailArray, $request->email4);
+        // }
+        // if($request->filled('email5')) {
+        //     array_push($emailArray, $request->email5);
+        // }
 
         foreach($emailArray as $recipient) {
             Mail::to($recipient)

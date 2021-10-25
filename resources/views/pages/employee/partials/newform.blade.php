@@ -141,7 +141,7 @@
 <hr/>
 <h4>Additional Info</h4>
 <hr/>
-<div class="row card-footer">
+{{-- <div class="row card-footer">
     <div class="col">
         <div class="form-group required">
             <label class="control-label" for="submittedBy">Submitted By:</label>
@@ -154,20 +154,20 @@
             <input type="email" class="form-control" name="email2" id="email2" placeholder="" required>
         </div>
     </div>
-</div>
-<div class="row">
+</div> --}}
+<div class="row card-footer">
     <div class="col">
         <div class="form-group">
-            <label class="control-label" for="email3">Additional Recipient Email:</label>
-            <input type="email" class="form-control" name="email3" id="email3"> 
+            <label class="control-label" for="email3">Additional Recipients Email(s) (separate by comma):</label>
+            <input type="email" class="form-control" name="email3" id="email3" multiple>   
         </div>
     </div>
-    <div class="col">
+    {{-- <div class="col">
         <div class="form-group">
             <label class="control-label" for="email4">Additional Recipient Email (2):</label>
             <input type="email" class="form-control" name="email4" id="email4" placeholder="">
         </div>
-    </div>
+    </div> --}}
 </div>
 <hr/>
 <!-- /.card-body -->

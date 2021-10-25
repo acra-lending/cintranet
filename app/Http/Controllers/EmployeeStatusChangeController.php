@@ -55,26 +55,34 @@ class EmployeeStatusChangeController extends Controller
             'selectAccess'          => 'nullable',
             'fob'                   => 'nullable',
             'specialInstructions'   => 'nullable|max:500',
-            'submittedBy'           => 'required',
-            'email2'                => 'required|email',
-            'email3'                => 'nullable|email',
-            'email4'                => 'nullable|email',
+            // 'submittedBy'           => 'required',
+            // 'email2'                => 'nullable|email',
+            'email3.*'                => 'nullable|email',
+            // 'email4'                => 'nullable|email',
         ]);
-        $data = $request->all();
+        $data = [$request->all(), 'submittedBy' => auth()->user()->name, 'email2' => auth()->user()->email];
 
         $userRoles = DB::table('role_user')->where('role_id', 6)->get();
-        $emailArray = array('webupdates@acralending.com');      
+        $emailArray = array('webupdates@acralending.com');
+
+        if($request->filled('email3')){
+            $emails = explode(',', $request->input('email3'));
+            foreach($emails as $email)
+            {
+                array_push($emailArray, $email);
+            }
+        }        
 
         foreach($userRoles as $user) {
             $emailArray[] = User::where('id', $user->user_id)->value('email');
         }
 
-        if($request->filled('email3')){
-            array_push($emailArray, $request->email3);
-        }
-        if($request->filled('email4')) {
-            array_push($emailArray, $request->email4);
-        }
+        // if($request->filled('email3')){
+        //     array_push($emailArray, $request->email3);
+        // }
+        // if($request->filled('email4')) {
+        //     array_push($emailArray, $request->email4);
+        // }
 
         foreach($emailArray as $recipient) {
             Mail::to($recipient)
