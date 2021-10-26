@@ -194,7 +194,7 @@ class Ratesheets extends Component
             'corrNonprimeXlsx'  => $corrNonprimeXlsx,
             'corrJumboPrimeXlsx'  => $corrJumboPrimeXlsx,
             'corr3mbsXlsx'      => $corr3mbsXlsx,
-            'corrDscrXlsx'      => $corr3mbsXlsx,
+            'corrDscrXlsx'      => $corrDscrXlsx,
             'corrOdfXlsx'       => $corrOdfXlsx,
             'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
             'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,
