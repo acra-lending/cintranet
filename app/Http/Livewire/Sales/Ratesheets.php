@@ -27,7 +27,10 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
-
+        $wsDscrAE = Post::whereRaw("find_in_set('wsDscrAE', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
         $wsNonprimeAE = Post::whereRaw("find_in_set('wsNonprimeAE', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
@@ -51,6 +54,10 @@ class Ratesheets extends Component
         // ->skip(1)
         ->simplePaginate(5);
         $ws3mbsAE_past = Post::whereRaw("find_in_set('ws3mbsAE', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $wsDscrAE_past = Post::whereRaw("find_in_set('wsDscrAE', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
@@ -81,6 +88,10 @@ class Ratesheets extends Component
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
                 ->get();
+        $corrDscrPdf = Post::whereRaw("find_in_set('corrDscrPdf', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->limit(1)
+                ->get();
         $corrNonprimePdf = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
@@ -104,6 +115,10 @@ class Ratesheets extends Component
                 ->limit(1)
                 ->get();
         $corr3mbsXlsx = Post::whereRaw("find_in_set('corr3mbsXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->limit(1)
+                ->get();
+        $corrDscrXlsx = Post::whereRaw("find_in_set('corrDscrXlsx', category_id)")
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
                 ->get();
@@ -133,6 +148,9 @@ class Ratesheets extends Component
                 ->orderBy('created_at', 'desc')
                 // ->skip(1)
                 ->simplePaginate(5);
+        $corrDscrPdf_past      = Post::whereRaw("find_in_set('corrDscrPdf', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->simplePaginate(5);
         $corrNonprimePdf_past = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 // ->skip(1)
@@ -155,30 +173,35 @@ class Ratesheets extends Component
             'wsNonprimeAE'        => $wsNonprimeAE,
             'wsJumboPrimeAE'        => $wsJumboPrimeAE,
             'ws3mbsAE'            => $ws3mbsAE,
+            'wsDscrAE'            => $wsDscrAE,
             'wsOdfAE'             => $wsOdfAE,
             'wsOdfPlusAE'         => $wsOdfPlusAE,
             'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
             'wsNonprimeAE_past'   => $wsNonprimeAE_past,
             'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
             'ws3mbsAE_past'       => $ws3mbsAE_past,
+            'wsDscrAE_past'       => $wsDscrAE_past,
             'wsOdfAE_past'        => $wsOdfAE_past,
             'wsOdfPlusAE_past'    => $wsOdfPlusAE_past,
             'corrOmbsvoePdf'    => $corrOmbsvoePdf,
             'corrNonprimePdf'   => $corrNonprimePdf,
             'corrJumboPrimePdf'   => $corrJumboPrimePdf,
             'corr3mbsPdf'       => $corr3mbsPdf,
+            'corrDscrPdf'       => $corrDscrPdf,
             'corrOdfPdf'        => $corrOdfPdf,
             'corrOdfPlusPdf'    => $corrOdfPlusPdf,
             'corrOmbsvoeXlsx'   => $corrOmbsvoeXlsx,
             'corrNonprimeXlsx'  => $corrNonprimeXlsx,
             'corrJumboPrimeXlsx'  => $corrJumboPrimeXlsx,
             'corr3mbsXlsx'      => $corr3mbsXlsx,
+            'corrDscrXlsx'      => $corr3mbsXlsx,
             'corrOdfXlsx'       => $corrOdfXlsx,
             'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
             'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,
             'corrNonprimePdf_past'  => $corrNonprimePdf_past,
             'corrJumboPrimePdf_past'  => $corrJumboPrimePdf_past,
             'corr3mbsPdf_past'      => $corr3mbsPdf_past,
+            'corrDscrPdf_past'      => $corrDscrPdf_past,
             'corrOdfPdf_past'       => $corrOdfPdf_past,
             'corrOdfPlusPdf_past'   => $corrOdfPlusPdf_past,
         ]);
