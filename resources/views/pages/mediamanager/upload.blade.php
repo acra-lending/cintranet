@@ -170,6 +170,7 @@
                                                                     'Wholesale' => [
                                                                         'wsOmbsvoeAE'     => 'OMBS & VOE', 
                                                                         'ws3mbsAE'        => '3-Month Bank Statement', 
+                                                                        'wsDscrAE'        => 'Business Purpose / DSCR', 
                                                                         'wsNonprimeAE'    => 'Non-Prime Wholesale', 
                                                                         'wsJumboPrimeAE'    => 'Jumbo Prime Wholesale', 
                                                                         'wsOdfAE'         => 'Outside Dodd-Frank', 
@@ -179,6 +180,7 @@
                                                                         'PDF' => [
                                                                             'corrOmbsvoePdf'    => 'OMBS & VOE (PDF)', 
                                                                             'corr3mbsPdf'       => '3-Month Bank Statement (PDF)', 
+                                                                            'corrDscrPdf'       => 'Business Purpose / DSCR (PDF)', 
                                                                             'corrNonprimePdf'   => 'Non-Prime Correspondent (PDF)', 
                                                                             'corrJumboPrimePdf'   => 'Jumbo Prime Correspondent(PDF)', 
                                                                             'corrOdfPdf'        => 'Outside Dodd-Frank (PDF)', 
@@ -187,6 +189,7 @@
                                                                         'Excel' => [
                                                                             'corrOmbsvoeXlsx'   => 'OMBS & VOE (Excel)',
                                                                             'corr3mbsXlsx'      => '3-Month Bank Statement (Excel)',
+                                                                            'corrDscrXlsx'      => 'Business Purpose / DSCR (Excel)',
                                                                             'corrNonprimeXlsx'  => 'Non-Prime Correspondent (Excel)',
                                                                             'corrJumboPrimeXlsx'  => 'Jumbo Prime Correspondent (Excel)',
                                                                             'corrOdfXlsx'       => 'Outside Dodd-Frank (Excel)', 
