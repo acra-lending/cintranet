@@ -12,7 +12,8 @@ class DownloadController extends Controller
     {
 
         // $filepath = Storage::disk('spaces')->get('/public/upload/'.$filename);
-        $filepath = public_path().'/storage/upload/'.$filename;
+        $filepath = Storage::disk('public')->download('upload/'.$filename);
+        // $filepath = public_path().'/storage/upload/'.$filename;
         $headers = [
             'Content-Type' => 'application/zip',
         ];
@@ -23,7 +24,8 @@ class DownloadController extends Controller
     {
 
         // $filepath = Storage::disk('spaces')->get('/public/upload/'.$filename);
-        $filepath = public_path().'/storage/upload/'.$filename;
+        $filepath = Storage::disk('public')->path('upload/'.$filename);
+        // $filepath = public_path().'/storage/upload/'.$filename;
         // $headers = [
         //     'Content-Type' => 'application/pdf',
         // ];

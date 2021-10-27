@@ -145,6 +145,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/learning/guides" class="nav-link {{ Request::path() === 'learning/guides' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Guides</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/learning/posts" class="nav-link {{ Request::path() === 'learning/posts' ? 'active': ''}}">
                             <i class="far fa-circle text-danger nav-icon"></i>
                             <p>Building Relationships</p>
@@ -175,12 +183,6 @@
                                 <a href="/learning/courses/industryterms" class="nav-link {{ Request::path() === 'learning/courses/industryterms' ? 'active': ''}}">
                                     <i class="far fa-circle text-danger nav-icon"></i>
                                     <p>Industry Terms</p>
-                                </a>
-                            </li>
-                            <li class="nav-item">
-                                <a href="/learning/courses/guides" class="nav-link {{ Request::path() === 'learning/courses/guides' ? 'active': ''}}">
-                                    <i class="far fa-circle text-danger nav-icon"></i>
-                                    <p>Guides</p>
                                 </a>
                             </li>
                         </ul>

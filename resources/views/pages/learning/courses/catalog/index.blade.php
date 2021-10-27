@@ -94,8 +94,9 @@
                   Catalog
                 </h3><a href="{{ asset ('storage/upload/' .$courseCatalog->filename) }}" download class="btn btn-danger float-right">Download <i class="far fa-file-pdf"></i></a>
               </div>
-              <div class="card-body">
+              <div class="card-body text-center">
                 <!-- Course Catalog Content -->
+                <img src="{{ asset('storage/upload/course-catalog-cover.jpg') }}" class="img-thumbnail">
                   {{-- <div class='embed-container' data-page-width='494' data-page-height='640' id='ypembedcontainer' >
                     <iframe src="https://www.yumpu.com/en/embed/view/1FICVUYuyW8G25BD" frameborder="0" allowfullscreen="true"  allowtransparency="true">
                     </iframe>

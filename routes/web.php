@@ -55,10 +55,10 @@ Route::get('/videos/infotech', 'VideosController@infotech')->middleware('auth');
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
 Route::resource('learning/announcements', 'AnnouncementPostsController')->middleware('auth', \Spatie\HttpLogger\Middlewares\HttpLogger::class);
 Route::resource('learning/posts', 'LearningPostsController')->middleware('auth', \Spatie\HttpLogger\Middlewares\HttpLogger::class);
+Route::get('learning/guides', 'LearningGuidesController@index')->middleware('auth');
 Route::get('learning/{file}', 'AnnouncementPostsController@view')->name('view')->middleware('auth');
 Route::get('learning/courses/industryterms', 'IndustryTermsController@index')->middleware('auth');
 Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middleware('auth');
-Route::get('learning/courses/guides', 'LearningGuidesController@index')->middleware('auth');
 
 //Legal
 Route::get('legal/documents', 'LegalController@index')->middleware('auth');
