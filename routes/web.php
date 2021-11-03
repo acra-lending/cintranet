@@ -91,7 +91,8 @@ Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->m
 Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
 
 //Direct-To-Consumer
-Route::get('dtc', 'DirectToConsumerController@index')->middleware('auth');
+Route::get('consumerdirect/documents', 'DirectToConsumerController@index')->middleware('auth');
+Route::get('consumerdirect/videos', 'VideosController@consumerDirect')->middleware('auth');
 
 
 //Marketing

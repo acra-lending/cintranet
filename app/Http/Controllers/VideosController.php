@@ -112,6 +112,19 @@ class VideosController extends Controller
             ]));
     }
 
+    public function consumerDirect()
+    {
+        $url = Vimeo::request("/users/124219438/projects/6225207/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $trainingResults = $data;
+
+        return view('pages.direct.videos', 
+            compact([
+                'trainingResults'
+            ]));
+    }
+
 
 
 

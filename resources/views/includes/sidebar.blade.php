@@ -455,12 +455,28 @@
                     </li>
                 </ul>
             </li>
-
-            <li class="nav-item">
-                <a href="/dtc" class="nav-link {{ Request::path() === 'dtc' ? 'active' : ''}}">
+            <li class="nav-item has-treeview {{ Request::is('consumerdirect/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-sign"></i>
-                    <p>Direct-To-Consumer</p>
+                        <p>Consumer Direct</p>
+                    <i class="right fas fa-angle-left"></i>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/consumerdirect/documents" class="nav-link {{ Request::path() === 'consumerdirect/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/consumerdirect/videos" class="nav-link {{ Request::path() === 'consumerdirect/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-danger nav-icon"></i>
+                            <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
 
             <li class="nav-item">
@@ -469,7 +485,7 @@
                     <p>Marketing</p>
                 </a>
             </li>
-            <li class="nav-item has-treeview {{ Request::is ('servicing/*') ? 'menu-open' : ''}}">
+            <li class="nav-item has-treeview {{ Request::is('servicing/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  
                     <i class="nav-icon fas fa-headset"></i>
                     <p>Servicing
