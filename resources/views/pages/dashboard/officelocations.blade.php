@@ -31,7 +31,7 @@
                 <a href="https://goo.gl/maps/7ELBCxBLn5DzHrqH7" target="_blank" style="text-decoration: none;">
                     <h6>Oregon Office</h6>
                 </a>  
-                <p class="m-0"style="font-size: 10.5pt;">110151 SE Sunnyside Rd<br>Suite 305<br>Clackamas, OR 97015</p> 
+                <p class="m-0"style="font-size: 10.5pt;">10151 SE Sunnyside Rd<br>Suite 305<br>Clackamas, OR 97015</p> 
                 </div>
             </div>
             <div class="col-6">
