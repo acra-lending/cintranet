@@ -166,6 +166,39 @@
                   </div>
                 </div>
               </div>
+            <div class="col-12">
+                <div class="card card-danger card-outline">
+                    <div class="card-header">
+                        <div class="card-title">
+                            FSA
+                        </div>
+                    </div>
+                  <div class="card-body">
+                    <div class="row">
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 18rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$fsaExpenseList->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/fsa-expense-list.png') }}" alt="fsa-expense-list"></a></button>
+                                    <div class="card-body">
+                                        <h5 class="card-title">FSA Eligible Expense List</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 18rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$fsaEnrollment->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/fsa-enrollment.png') }}" alt="fsa-enrollment"></a></button>
+                                    <div class="card-body">
+                                        <h5 class="card-title">FSA Open Enrollment 2022</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
 
             <div class="col-12">
