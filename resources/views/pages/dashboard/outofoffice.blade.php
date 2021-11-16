@@ -1,4 +1,3 @@
-@can('edit-posts')
 <!-- Employee Daily Status Report -->
 <div class="card card-widget card-danger card-outline">
   <div class="card-header">
@@ -19,5 +18,4 @@
       </div>
     </div>
   </div>
-</div>  
-@endcan
+</div>
