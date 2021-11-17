@@ -63,19 +63,29 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body">
-                  <strong><i class="fas fa-users mr-1"></i> Team</strong>
+                  <ul class="list-group list-group-unbordered mb-3">
+                    <li class="list-group-item">
+                      <b><i class="fas fa-users mr-1"></i> Team</b><a class="float-right">{{$contact->team}}</a>
+                    </li>
+                    @can('edit-users')
+                    <li class="list-group-item">
+                      <b><i class="fas fa-phone mr-1"></i> Cell Phone</b><a class="float-right">{{$contact->cell}}</a>
+                    </li>
+                    @endcan
+
+                  {{-- <strong><i class="fas fa-users mr-1"></i> Team</strong>
   
                   <p class="text-muted">
                     {{$contact->team}}
                   </p>
-                  <hr>
-                  @can('edit-users')
+                  <hr> --}}
+                  {{-- @can('edit-users')
                   <hr>
   
                   <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
   
                   <p class="text-muted">{{$contact->cell}}</p>
-                  @endcan
+                  @endcan --}}
                 </div>
                 <!-- /.card-body -->
               </div>

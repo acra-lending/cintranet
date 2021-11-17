@@ -128,6 +128,7 @@ class UsersController extends Controller
             'departments' => 'required',
             'team' => 'nullable',
             'cell' => 'nullable',
+            'folderID' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
 // dd($user);
@@ -170,12 +171,12 @@ class UsersController extends Controller
         // Update User Name in s2zar_users table
         $array = array($request->input('firstname'), $request->input('lastname'));
         $fullname = implode(' ', $array);
+        $folderID = $request->input('folderID');
 
         $info2 = DB::table('s2zar_users')->where('id', $user->id)->update([
-            'name' => $fullname
+            'name' => $fullname,
+            'folderID' => $folderID
         ]);
-
-        // dd($user->name);
 
         $profile = User::where('id', $user->id)->first();
         $profile->email = $request->input('email');

@@ -88,15 +88,23 @@
                 <div class="card-header">
                   <h3 class="card-title">About Me</h3>
                 </div>
-                <!-- /.card-header -->
                 <div class="card-body">
-                  <strong><i class="fas fa-users mr-1"></i> Team</strong>
-                    <input type="text" class="form-control float-right" name="team" value="{{$contact->team}}" style="width:50%; text-align:right;">
-                  <hr>
-                  <strong><i class="fas fa-phone mr-1"></i> Cell Phone</strong>
-                  <input type="text" class="form-control float-right" name="cell" value="{{$contact->cell}}" style="width:50%; text-align:right;">
+                  <ul class="list-group list-group-unbordered mb-3">
+                    <li class="list-group-item">
+                      <b><i class="fas fa-users mr-1"></i> Team</b>
+                      <input type="text" class="form-control float-right" name="team" value="{{$contact->team}}" style="width:50%; text-align:right;">
+                    </li>
+                    <li class="list-group-item">
+                      <b><i class="fas fa-phone mr-1"></i> Cell Phone</b>
+                      <input type="text" class="form-control float-right" name="cell" value="{{$contact->cell}}" style="width:50%; text-align:right;">
+                    </li>
+                    @can('edit-users')
+                    <li class="list-group-item">
+                      <b><i class="fas fa-box mr-1"></i> Box Folder ID</b>
+                      <input type="text" class="form-control float-right" name="folderID" value="{{$contact->folderID}}" style="width:50%; text-align:right;">
+                    </li>
+                    @endcan
                 </div>
-                <!-- /.card-body -->
               </div>
             </div>
             <!-- /.col -->
