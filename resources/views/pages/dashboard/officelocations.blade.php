@@ -28,6 +28,24 @@
         <div class="row">
             <div class="col-6">
                 <div class="callout callout-dark">
+                <a href="https://goo.gl/maps/DAEZH83F54YvQdM37" target="_blank" style="text-decoration: none;">
+                    <h6>Sales/Marketing Rockfield Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">15707 Rockfield Blvd<br>Suite 225<br>Irvine, CA 92618</p> 
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="callout callout-dark">
+                <a href="https://goo.gl/maps/9ahjtvWkK3CTgbgz9" target="_blank" style="text-decoration: none;">
+                    <h6>California Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">36 Technology Drive<br>Suite 250<br>Irvine, CA 92618</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/7ELBCxBLn5DzHrqH7" target="_blank" style="text-decoration: none;">
                     <h6>Oregon Office</h6>
                 </a>  
@@ -35,7 +53,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-dark">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/cxr13wjKWgMoyhKj9" target="_blank" style="text-decoration: none;">
                     <h6>Utah Office</h6>
                 </a>  
@@ -45,7 +63,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="callout callout-gray">
+                <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/tJoYBzrEgWpPAt7D9" target="_blank" style="text-decoration: none;">
                     <h6>Georgia Office</h6>
                 </a>  
@@ -53,7 +71,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-gray">
+                <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/4EcSgdCL8upFo9VS7" target="_blank" style="text-decoration: none;">
                     <h6>Florida Office</h6>
                 </a>  
@@ -63,7 +81,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="callout callout-primary">
+                <div class="callout callout-dark">
                 <a href="https://goo.gl/maps/WTQYSNUJKdw2Aozy7" target="_blank" style="text-decoration: none;">
                     <h6>Nevada Office</h6>
                 </a>  
@@ -71,11 +89,29 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-primary">
+                <div class="callout callout-dark">
                 <a href="https://goo.gl/maps/p845CvyyMcBtTFwj8" target="_blank" style="text-decoration: none;">
                     <h6>Connecticut Office</h6>
                 </a>  
                 <p class="m-0"style="font-size: 10.5pt;">76 LaSalle Road<br>Suite 405<br>West Hartford, CT 06107</p> 
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <div class="callout callout-gray">
+                <a href="https://goo.gl/maps/g9t7mRv2f9zpHbt67" target="_blank" style="text-decoration: none;">
+                    <h6>Arizona Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">8777 E. Viade Ventura<br>Suite 385<br>Scottsdale, AZ 85258</p> 
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="callout callout-gray">
+                <a href="https://goo.gl/maps/gyjbPY52dD3Lk2M69" target="_blank" style="text-decoration: none;">
+                    <h6>Missouri Office</h6>
+                </a>  
+                <p class="m-0"style="font-size: 10.5pt;">2405 Grand Blvd<br>Suite 1030<br>Kansas City, MO 64108</p> 
                 </div>
             </div>
         </div>
