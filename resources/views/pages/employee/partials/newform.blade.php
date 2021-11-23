@@ -94,7 +94,6 @@
             <div class="">
                 <select class="form-control" name="training">
                     <option value="No">No</option>
-                    <option value="Yes: 4-Day">Yes: 4-Day</option>
                     <option value="Yes: 5-Day">Yes: 5-Day</option>
                 </select>
             </div>
