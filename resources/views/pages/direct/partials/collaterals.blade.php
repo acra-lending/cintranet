@@ -3,7 +3,7 @@
       <div class="col-sm-2">
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-email-templates-tab" data-toggle="pill" href="#vert-tabs-email-templates" role="tab" aria-controls="vert-tabs-email-templates" aria-selected="true">Email Templates</a>
-          {{-- <a class="nav-link" id="vert-tabs-collateral-docs-tab" data-toggle="pill" href="#vert-tabs-collateral-docs" role="tab" aria-controls="vert-tabs-collateral-docs" aria-selected="true">Documents</a> --}}
+          <a class="nav-link" id="vert-tabs-social-media-tab" data-toggle="pill" href="#vert-tabs-social-media" role="tab" aria-controls="vert-tabs-social-media" aria-selected="true">Social Media</a>
         </div>
       </div>
       <div class="col-sm-10">
@@ -56,11 +56,11 @@
             </div>
           </div>
 
-          {{-- <div class="tab-pane text-left fade" id="vert-tabs-collateral" role="tabpanel" aria-labelledby="vert-tabs-collateral-tab">       
+          <div class="tab-pane text-left fade" id="vert-tabs-social-media" role="tabpanel" aria-labelledby="vert-tabs-social-media-tab">       
             <div class="col">
               <div class="card card-dark ">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Collateral</h3>
+                  <h3 class="card-title">Social Media</h3>
                   <div class="card-tools">
                     </a>
                   </div>
@@ -75,7 +75,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($retailCollateral as $category)
+                        @foreach($retailSocialMedia as $category)
                         <tr>
                         <td>{{$category->filename}}</td>
                         <td>{{$category->filesize}} KB</td>
@@ -101,7 +101,7 @@
                 </div>
               </div>
             </div>
-          </div> --}}
+          </div>
 
         </div>
       </div>

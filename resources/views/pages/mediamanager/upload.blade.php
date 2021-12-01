@@ -243,10 +243,11 @@
                                                                         'marketingEmailSignaturesAndResources'    => 'Email Signatures And Resources',
                                                                     ]
                                                                 ],
-                                                                'Direct-To-Consumer' => [
+                                                                'Consumer Direct' => [
                                                                     'retailDocs'            => 'Documents',
                                                                     'retailMLO'             => 'MLO Licenses',
                                                                     'retailEmailTemplates'  => 'Email Templates'
+                                                                    'retailESocialMedia'    => 'Social Media'
                                                                 ],
                                                                 'Servicing' => [
                                                                     'callScripts'           => 'Call Scripts',

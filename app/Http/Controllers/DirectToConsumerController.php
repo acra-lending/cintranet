@@ -27,12 +27,17 @@ class DirectToConsumerController extends Controller
         ->sortable('filename')
         ->get();
 
+        $retailSocialMedia = Post::whereRaw("find_in_set('retailSocialMedia', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.direct.documents')
         ->with([
             'retailDocs'            => $retailDocs,
             'retailMLO'             => $retailMLO,
             // 'retailCollateral'      => $retailCollateral,
             'retailEmailTemplates'  => $retailEmailTemplates,
+            'retailSocialMedia'     => $retailSocialMedia,
         ]);
     }
 
