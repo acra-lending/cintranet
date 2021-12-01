@@ -247,7 +247,7 @@
                                                                     'retailDocs'            => 'Documents',
                                                                     'retailMLO'             => 'MLO Licenses',
                                                                     'retailEmailTemplates'  => 'Email Templates',
-                                                                    'retailESocialMedia'    => 'Social Media'
+                                                                    'retailSocialMedia'    => 'Social Media'
                                                                 ],
                                                                 'Servicing' => [
                                                                     'callScripts'           => 'Call Scripts',
