@@ -246,7 +246,7 @@
                                                                 'Consumer Direct' => [
                                                                     'retailDocs'            => 'Documents',
                                                                     'retailMLO'             => 'MLO Licenses',
-                                                                    'retailEmailTemplates'  => 'Email Templates'
+                                                                    'retailEmailTemplates'  => 'Email Templates',
                                                                     'retailESocialMedia'    => 'Social Media'
                                                                 ],
                                                                 'Servicing' => [
