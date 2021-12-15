@@ -193,7 +193,7 @@ class DirectoryListController extends Controller
 
         $retail = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'Retail')
+        ->where('departments', 'Consumer Direct Lending')
         ->orderby('lastname', 'asc')
         ->get();
         $retailCount = $retail->count();
