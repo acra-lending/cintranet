@@ -10138,6 +10138,10 @@ a.text-warning:hover, a.text-warning:focus {
   /* color: #C8102E !important; */
   color: var(--primary-color) !important;
 }
+.text-circle {
+  /* color: #C8102E !important; */
+  color: var(--secondary-color) !important;
+}
 
 a.text-danger:hover, a.text-danger:focus {
   color: #a71d2a !important;
