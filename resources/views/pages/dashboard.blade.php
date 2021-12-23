@@ -81,12 +81,12 @@
           <div class="col-lg-5">
             @include('pages.dashboard.quote')
             @include('pages.dashboard.productionlinks')
+            @include('pages.dashboard.hrlinks')
             @include('pages.dashboard.map')
             @include('pages.dashboard.officelocations')
           </div>
           <div class="col-lg-4">
             @include('pages.dashboard.outofoffice')
-            @include('pages.dashboard.hrlinks')
             @include('pages.dashboard.team')
             @include('pages.dashboard.calendar')
 
