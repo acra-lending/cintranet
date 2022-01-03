@@ -5,7 +5,7 @@
           <a class="nav-link active" id="vert-tabs-funding-forms-systems-tab" data-toggle="pill" href="#vert-tabs-funding-forms-systems" role="tab" aria-controls="vert-tabs-funding-forms-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-funding-forms-forms-tab" data-toggle="pill" href="#vert-tabs-funding-forms-forms" role="tab" aria-controls="vert-tabs-funding-forms-forms" aria-selected="false">Forms</a>
           <a class="nav-link" id="vert-tabs-funding-forms-tisp-tab" data-toggle="pill" href="#vert-tabs-funding-forms-tisp" role="tab" aria-controls="vert-tabs-funding-forms-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
-          <a class="nav-link" id="vert-tabs-funding-forms-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-forms-vetting" role="tab" aria-controls="vert-tabs-funding-forms-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-funding-forms-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-forms-vetting" role="tab" aria-controls="vert-tabs-funding-forms-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-funding-forms-compliance-tab" data-toggle="pill" href="#vert-tabs-funding-forms-compliance" role="tab" aria-controls="vert-tabs-funding-forms-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-funding-forms-processes-tab" data-toggle="pill" href="#vert-tabs-funding-forms-processes" role="tab" aria-controls="vert-tabs-funding-forms-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funding-forms-dept-tab" data-toggle="pill" href="#vert-tabs-funding-forms-dept" role="tab" aria-controls="vert-tabs-funding-forms-dept" aria-selected="false">Department Contacts</a>
@@ -160,7 +160,7 @@
               <div class="col">
                 <div class="card card-dark">
                   <div class="card-header border-0">
-                    <h3 class="card-title">Vetting</h3>
+                    <h3 class="card-title">Agent Verification</h3>
                     <div class="card-tools">
                       </a>
                     </div>

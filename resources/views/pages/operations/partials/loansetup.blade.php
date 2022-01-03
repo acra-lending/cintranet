@@ -4,7 +4,7 @@
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-lsu-systems-tab" data-toggle="pill" href="#vert-tabs-lsu-systems" role="tab" aria-controls="vert-tabs-lsu-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-lsu-forms-tab" data-toggle="pill" href="#vert-tabs-lsu-forms" role="tab" aria-controls="vert-tabs-lsu-forms" aria-selected="false">Forms</a>
-          <a class="nav-link" id="vert-tabs-lsu-vetting-tab" data-toggle="pill" href="#vert-tabs-lsu-vetting" role="tab" aria-controls="vert-tabs-lsu-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-lsu-vetting-tab" data-toggle="pill" href="#vert-tabs-lsu-vetting" role="tab" aria-controls="vert-tabs-lsu-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-lsu-compliance-tab" data-toggle="pill" href="#vert-tabs-lsu-compliance" role="tab" aria-controls="vert-tabs-lsu-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-lsu-processes-tab" data-toggle="pill" href="#vert-tabs-lsu-processes" role="tab" aria-controls="vert-tabs-lsu-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-lsu-attachments-tab" data-toggle="pill" href="#vert-tabs-lsu-attachments" role="tab" aria-controls="vert-tabs-lsu-attachments" aria-selected="false">Attachments To Send with Welcome Letter</a>
@@ -115,7 +115,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Vetting</h3>
+                  <h3 class="card-title">Agent Verification</h3>
                   <div class="card-tools">
                     </a>
                   </div>

@@ -5,7 +5,7 @@
           <a class="nav-link active" id="vert-tabs-tm-systems-tab" data-toggle="pill" href="#vert-tabs-tm-systems" role="tab" aria-controls="vert-tabs-tm-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-tm-internal-tab" data-toggle="pill" href="#vert-tabs-tm-internal" role="tab" aria-controls="vert-tabs-tm-internal" aria-selected="false">Internal Forms</a>
           <a class="nav-link" id="vert-tabs-tm-tisp-tab" data-toggle="pill" href="#vert-tabs-tm-tisp" role="tab" aria-controls="vert-tabs-tm-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
-          <a class="nav-link" id="vert-tabs-tm-vetting-tab" data-toggle="pill" href="#vert-tabs-tm-vetting" role="tab" aria-controls="vert-tabs-tm-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-tm-vetting-tab" data-toggle="pill" href="#vert-tabs-tm-vetting" role="tab" aria-controls="vert-tabs-tm-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-tm-compliance-tab" data-toggle="pill" href="#vert-tabs-tm-compliance" role="tab" aria-controls="vert-tabs-tm-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-tm-processes-tab" data-toggle="pill" href="#vert-tabs-tm-processes" role="tab" aria-controls="vert-tabs-tm-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-tm-forms-to-send-tab" data-toggle="pill" href="#vert-tabs-tm-forms-to-send" role="tab" aria-controls="vert-tabs-tm-forms-to-send" aria-selected="false">Forms To Send To Brokers</a>
@@ -161,7 +161,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Vetting</h3>
+                  <h3 class="card-title">Agent Verification</h3>
                   <div class="card-tools">
                     </a>
                   </div>

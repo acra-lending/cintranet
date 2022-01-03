@@ -5,7 +5,7 @@
           <a class="nav-link active" id="vert-tabs-funding-systems-tab" data-toggle="pill" href="#vert-tabs-funding-systems" role="tab" aria-controls="vert-tabs-funding-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-funding-forms-tab" data-toggle="pill" href="#vert-tabs-funding-forms" role="tab" aria-controls="vert-tabs-funding-forms" aria-selected="false">Forms</a>
           <a class="nav-link" id="vert-tabs-funding-tisp-tab" data-toggle="pill" href="#vert-tabs-funding-tisp" role="tab" aria-controls="vert-tabs-funding-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
-          <a class="nav-link" id="vert-tabs-funding-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-vetting" role="tab" aria-controls="vert-tabs-funding-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-funding-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-vetting" role="tab" aria-controls="vert-tabs-funding-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-funding-compliance-tab" data-toggle="pill" href="#vert-tabs-funding-compliance" role="tab" aria-controls="vert-tabs-funding-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-funding-processes-tab" data-toggle="pill" href="#vert-tabs-funding-processes" role="tab" aria-controls="vert-tabs-funding-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funding-dept-tab" data-toggle="pill" href="#vert-tabs-funding-dept" role="tab" aria-controls="vert-tabs-funding-dept" aria-selected="false">Department Contacts</a>
@@ -159,7 +159,7 @@
               <div class="col">
                 <div class="card card-dark">
                   <div class="card-header border-0">
-                    <h3 class="card-title">Vetting</h3>
+                    <h3 class="card-title">Agent Verification</h3>
                     <div class="card-tools">
                       </a>
                     </div>

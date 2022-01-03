@@ -75,14 +75,14 @@
                                                                         'fundingProcesses'  => 'Processes',
                                                                         'fundingSystems'    => 'Systems',
                                                                         'fundingTisp'       => 'Taxes/Insurance/Subject Property',
-                                                                        'fundingVetting'    => 'Vetting',
+                                                                        'fundingVetting'    => 'Agent Verification',
                                                                             'Doc Drawer' => [
                                                                                 'docDrawerCompliance'   => 'Compliance',
                                                                                 'docDrawerForms'        => 'Forms',
                                                                                 'docDrawerProcesses'    => 'Processes',
                                                                                 'docDrawerSystems'      => 'Systems',
                                                                                 'docDrawerTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'docDrawerVetting'      => 'Vetting',
+                                                                                'docDrawerVetting'      => 'Agent Verification',
                                                                             ],
                                                                             'Funder' => [
                                                                                 'funderCompliance'   => 'Compliance',
@@ -92,7 +92,7 @@
                                                                                 'funderProcesses'    => 'Processes',
                                                                                 'funderSystems'      => 'Systems',
                                                                                 'funderTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'funderVetting'      => 'Vetting',
+                                                                                'funderVetting'      => 'Agent Verification',
                                                                             ],
                                                                             'Funding Forms' => [
                                                                                 'fundingFormsCompliance'   => 'Compliance',
@@ -100,7 +100,7 @@
                                                                                 'fundingFormsProcesses'    => 'Processes',
                                                                                 'fundingFormsSystems'      => 'Systems',
                                                                                 'fundingFormsTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'fundingFormsVetting'      => 'Vetting',
+                                                                                'fundingFormsVetting'      => 'Agent Verification',
                                                                             ],
                                                                             'Funding Assistant' => [
                                                                                 'fundingAssistantCompliance'   => 'Compliance',
@@ -108,7 +108,7 @@
                                                                                 'fundingAssistantProcesses'    => 'Processes',
                                                                                 'fundingAssistantSystems'      => 'Systems',
                                                                                 'fundingAssistantTisp'         => 'Taxes/Insurance/Subject Property',
-                                                                                'fundingAssistantVetting'      => 'Vetting',
+                                                                                'fundingAssistantVetting'      => 'Agent Verification',
                                                                             ]
                                                                     ],
                                                                     'Loan Set Up' => [
@@ -120,7 +120,7 @@
                                                                         'lsuSsaAnd4506T'    => 'SSA-89 And 4506T',
                                                                         'lsuSystems'        => 'Systems',
                                                                         'lsuValuation'      => 'Valuation Delivery',
-                                                                        'lsuVetting'        => 'Vetting',
+                                                                        'lsuVetting'        => 'Agent Verification',
                                                                     ],
                                                                     'Transaction Manager' => [
                                                                         'tmCompliance'      => 'Compliance',
@@ -130,7 +130,7 @@
                                                                         'tmProcesses'       => 'Processes',
                                                                         'tmSystems'         => 'Systems',
                                                                         'tmTisp'            => 'Taxes/Insurance/Subject Property',
-                                                                        'tmVetting'         => 'Vetting',
+                                                                        'tmVetting'         => 'Agent Verification',
                                                                         
                                                                     ],
                                                                     'Underwriting' => [
@@ -143,7 +143,7 @@
                                                                         'uwGuidelines'          => 'Underwriting Guidelines',
                                                                         'uwGuidelinesPast'      => 'Old Underwriting Guidelines',
                                                                         'uwTools'               => 'UW Tools',
-                                                                        'uwVetting'             => 'Vetting',
+                                                                        'uwVetting'             => 'Agent Verification',
                                                                         'uwVideos'              => 'Videos',
                                                                     ],
                                                                     'Jr Processor' => [
@@ -158,7 +158,7 @@
                                                                     'Fix N Flip' => [
                                                                         'fixAndFlipSystems'         => 'Systems',
                                                                         'fixAndFlipInternalForms'   => 'Internal Forms',
-                                                                        'fixAndFlipVetting'         => 'Vetting',
+                                                                        'fixAndFlipVetting'         => 'Agent Verification',
                                                                         'fixAndFlipIntake'          => 'Intake',
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',

@@ -4,7 +4,7 @@
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-uw-systems-tab" data-toggle="pill" href="#vert-tabs-uw-systems" role="tab" aria-controls="vert-tabs-uw-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-uw-tisp-tab" data-toggle="pill" href="#vert-tabs-uw-tisp" role="tab" aria-controls="vert-tabs-uw-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
-          <a class="nav-link" id="vert-tabs-uw-vetting-tab" data-toggle="pill" href="#vert-tabs-uw-vetting" role="tab" aria-controls="vert-tabs-uw-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-uw-vetting-tab" data-toggle="pill" href="#vert-tabs-uw-vetting" role="tab" aria-controls="vert-tabs-uw-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-uw-compliance-tab" data-toggle="pill" href="#vert-tabs-uw-compliance" role="tab" aria-controls="vert-tabs-uw-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-uw-processes-tab" data-toggle="pill" href="#vert-tabs-uw-processes" role="tab" aria-controls="vert-tabs-uw-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-uw-guidelines-tab" data-toggle="pill" href="#vert-tabs-uw-guidelines" role="tab" aria-controls="vert-tabs-uw-guidelines" aria-selected="false">Underwriting Guidelines</a>
@@ -115,7 +115,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Vetting</h3>
+                  <h3 class="card-title">Agent Verification</h3>
                   <div class="card-tools">
                     </a>
                   </div>

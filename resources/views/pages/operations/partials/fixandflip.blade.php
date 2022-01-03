@@ -4,7 +4,7 @@
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-fix-and-flip-systems-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-systems" role="tab" aria-controls="vert-tabs-fix-and-flip-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-fix-and-flip-internal-forms-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-internal-forms" role="tab" aria-controls="vert-tabs-fix-and-flip-internal-forms" aria-selected="true">Internal Forms</a>
-          <a class="nav-link" id="vert-tabs-fix-and-flip-vetting-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-vetting" role="tab" aria-controls="vert-tabs-fix-and-flip-vetting" aria-selected="true">Vetting</a>
+          <a class="nav-link" id="vert-tabs-fix-and-flip-vetting-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-vetting" role="tab" aria-controls="vert-tabs-fix-and-flip-vetting" aria-selected="true">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-fix-and-flip-intake-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-intake" role="tab" aria-controls="vert-tabs-fix-and-flip-intake" aria-selected="true">Intake</a>
           {{-- <a class="nav-link" id="vert-tabs-fix-and-flip-processing-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-processing" role="tab" aria-controls="vert-tabs-fix-and-flip-processing" aria-selected="true">Processing</a> --}}
           <a class="nav-link" id="vert-tabs-fix-and-flip-uw-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-uw" role="tab" aria-controls="vert-tabs-fix-and-flip-uw" aria-selected="true">Fix & Flip UW</a>
@@ -113,7 +113,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Vetting</h3>
+                  <h3 class="card-title">Agent Verification</h3>
                   <div class="card-tools">
                     </a>
                   </div>

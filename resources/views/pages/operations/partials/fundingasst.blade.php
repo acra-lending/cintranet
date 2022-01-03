@@ -4,7 +4,7 @@
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-funding-asst-systems-tab" data-toggle="pill" href="#vert-tabs-funding-asst-systems" role="tab" aria-controls="vert-tabs-funding-asst-systems" aria-selected="true">Systems</a>
           <a class="nav-link" id="vert-tabs-funding-asst-tisp-tab" data-toggle="pill" href="#vert-tabs-funding-asst-tisp" role="tab" aria-controls="vert-tabs-funding-asst-tisp" aria-selected="false">Taxes/Insurance/Subject Property</a>
-          <a class="nav-link" id="vert-tabs-funding-asst-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-asst-vetting" role="tab" aria-controls="vert-tabs-funding-asst-vetting" aria-selected="false">Vetting</a>
+          <a class="nav-link" id="vert-tabs-funding-asst-vetting-tab" data-toggle="pill" href="#vert-tabs-funding-asst-vetting" role="tab" aria-controls="vert-tabs-funding-asst-vetting" aria-selected="false">Agent Verification</a>
           <a class="nav-link" id="vert-tabs-funding-asst-compliance-tab" data-toggle="pill" href="#vert-tabs-funding-asst-compliance" role="tab" aria-controls="vert-tabs-funding-asst-compliance" aria-selected="false">Compliance</a>
           {{-- <a class="nav-link" id="vert-tabs-funding-asst-processes-tab" data-toggle="pill" href="#vert-tabs-funding-asst-processes" role="tab" aria-controls="vert-tabs-funding-asst-processes" aria-selected="false">Processes</a> --}}
           <a class="nav-link" id="vert-tabs-funding-asst-dept-tab" data-toggle="pill" href="#vert-tabs-funding-asst-dept" role="tab" aria-controls="vert-tabs-funding-asst-dept" aria-selected="false">Department Contacts</a>
@@ -111,7 +111,7 @@
               <div class="col">
                 <div class="card card-dark">
                   <div class="card-header border-0">
-                    <h3 class="card-title">Vetting</h3>
+                    <h3 class="card-title">Agent Verification</h3>
                     <div class="card-tools">
                       </a>
                     </div>
