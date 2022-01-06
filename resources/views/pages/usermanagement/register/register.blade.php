@@ -100,14 +100,15 @@
                             <label for="departments" class="col-md-6 col-form-label">{{ __('Department*') }}</label>
                             
                             <div class="col-md-12">
-                                <input id="departments" type="text" class="form-control" name="departments">
+                                {{-- <input id="departments" type="text" class="form-control" name="departments"> --}}
+                                {{ Form::select('departments', str_replace(array('[', '"', ']'), '', $departments), null, ['class' => 'form-control float-right', 'name' => 'departments'])  }}
                             </div>
                         </div>
                         <hr/>
 
                         <div class="form-group row mb-0 justify-content-center">
                             <div class="col-md-12">
-                                <p><strong>*Must be an existing department. If not sure, select from dropdown menu after registration*<br>    
+                                <p><strong>*Must be an existing department. If new department, select one as temporary and contact webupdates to add new department*<br>    
                                 **Set user permissions after registration**
                                 </strong></p>
                                 {{-- <input type="reset" class="btn btn-outline-dark mr-3" value="Clear" /> --}}

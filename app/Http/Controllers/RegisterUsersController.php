@@ -13,7 +13,17 @@ class RegisterUsersController extends Controller
 {
     public function index()
     {
-        return view('pages.usermanagement.register.register');
+        $departments = DB::table('s2zar_jsn_users')
+        ->orderBy('departments', 'asc')
+        ->groupBy('departments')
+        ->where('departments', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('departments', 'departments')
+        ->toArray();
+
+        return view('pages.usermanagement.register.register')->with([
+            'departments'   => $departments
+        ]);
     }
 
     public function create(Request $request) {
