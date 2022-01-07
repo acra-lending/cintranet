@@ -100,9 +100,6 @@
         <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
-                    <div class="ribbon-wrapper">
-                        <div class="ribbon" style="background-color: var(--primary-color); color: #fff;">Pending</div>
-                    </div>
                 <a href="https://goo.gl/maps/g9t7mRv2f9zpHbt67" target="_blank" style="text-decoration: none;">
                     <h6>Arizona Office</h6>
                 </a>  

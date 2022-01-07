@@ -50,7 +50,6 @@ class RegisterUsersController extends Controller
         $departments = $request['departments'];
         $id = $user->id;
 
-
         $info = DB::table('s2zar_jsn_users')->insert([
             'id'            => $id,
             'firstname'     => $firstname,
