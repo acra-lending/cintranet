@@ -39,6 +39,10 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
+        $smallBalanceMultifamily = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
         $wsOdfAE = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
@@ -66,6 +70,10 @@ class Ratesheets extends Component
         // ->skip(1)
         ->simplePaginate(5);
         $wsJumboPrimeAE_past = Post::whereRaw("find_in_set('wsJumboPrimeAE', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily_past', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
@@ -172,6 +180,7 @@ class Ratesheets extends Component
             'wsOmbsvoeAE'         => $wsOmbsvoeAE,
             'wsNonprimeAE'        => $wsNonprimeAE,
             'wsJumboPrimeAE'        => $wsJumboPrimeAE,
+            'smallBalanceMultifamily' => $smallBalanceMultifamily,
             'ws3mbsAE'            => $ws3mbsAE,
             'wsDscrAE'            => $wsDscrAE,
             'wsOdfAE'             => $wsOdfAE,
@@ -179,6 +188,7 @@ class Ratesheets extends Component
             'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
             'wsNonprimeAE_past'   => $wsNonprimeAE_past,
             'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
+            'smallBalanceMultifamily_past'   => $smallBalanceMultifamily_past,
             'ws3mbsAE_past'       => $ws3mbsAE_past,
             'wsDscrAE_past'       => $wsDscrAE_past,
             'wsOdfAE_past'        => $wsOdfAE_past,

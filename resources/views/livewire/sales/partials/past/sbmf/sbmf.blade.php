@@ -18,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-              @foreach($wsJumboPrimeAE_past as $category)
+              @foreach($smallBalanceMultifamily_past as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>
@@ -44,6 +44,6 @@
             </table>
         </div>
       </div>
-      {{ $wsJumboPrimeAE_past->links() }}
+      {{ $smallBalanceMultifamily_past->links() }}
     </div>
   </div>
