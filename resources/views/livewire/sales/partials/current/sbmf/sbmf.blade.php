@@ -17,7 +17,7 @@
                 </tr>
             </thead>
             <tbody>
-              @foreach($smallBalanceMultifamily as $category)
+              @foreach($wsJumboPrimeAE as $category) 
                 <tr>
                 <td>{{$category->filename}}</td>
                 <td>{{($category->filesize)}} KB</td>

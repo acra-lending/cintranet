@@ -18,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-              @foreach($smallBalanceMultifamily_past as $category)
+              @foreach($wsJumboPrimeAE_past as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>
