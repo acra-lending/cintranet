@@ -164,12 +164,12 @@
                                                                         'fixAndFlipUw'              => 'Underwriting',
                                                                         'fixAndFlipFunding'         => 'Funding',
                                                                         'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
-                                                                    ]
+                                                                    ],
                                                                     'Small Balance Multifamily' => [
                                                                         'sbmfSystems'         => 'Systems',
                                                                         'sbmfInternalForms'   => 'Internal Forms',
                                                                         'sbmfGuidelines'      => 'Guidelines',
-                                                                    ],
+                                                                    ]
                                                                 ],
                                                                 'Ratesheets AE' => [
                                                                     'Wholesale' => [
