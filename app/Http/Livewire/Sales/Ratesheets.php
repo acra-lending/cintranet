@@ -73,7 +73,7 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
-        $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily_past', category_id)")
+        $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
