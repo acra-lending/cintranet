@@ -19,6 +19,7 @@
               @include('livewire.sales.partials.current.dscr.dscr')
               @include('livewire.sales.partials.current.nonprime.nonprime')
               @include('livewire.sales.partials.current.jumboprime.jumboprime')
+              @include('livewire.sales.partials.current.sbmf.sbmf')
               @include('livewire.sales.partials.current.odd.odd')
               @include('livewire.sales.partials.current.oddplus.oddplus')
             </div>
