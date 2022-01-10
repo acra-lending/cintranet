@@ -24,12 +24,24 @@ class VideosController extends Controller
         $url = $url['body'];
         $data = $url['data'];
         $trainingResults = $data;
+        
+        $url = Vimeo::request("/users/124219438/projects/7601708/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $nonQEmmysResults = $data;
+
+        $url = Vimeo::request("/users/124219438/projects/7601613/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $newAEWeeklyReviewResults = $data;
 
         return view('pages.videos.sales', 
             compact([
                 'webinarResults',
                 'panelResults',
-                'trainingResults'
+                'trainingResults',
+                'nonQEmmysResults',
+                'newAEWeeklyReviewResults'
             ]));
     }
 
