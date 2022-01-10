@@ -169,7 +169,7 @@
                                                                         'sbmfSystems'         => 'Systems',
                                                                         'sbmfInternalForms'   => 'Internal Forms',
                                                                         'sbmfGuidelines'      => 'Guidelines',
-                                                                    ]
+                                                                    ],
                                                                 ],
                                                                 'Ratesheets AE' => [
                                                                     'Wholesale' => [
