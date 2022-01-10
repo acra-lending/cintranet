@@ -222,7 +222,8 @@
                                                                         'cscPrograms'   => 'CSC Programs',
                                                                         'social'        => 'LinkedIn/Social Posting Images',
                                                                         'standards'     => 'Standard Flyers',
-                                                                        'vertFlyers'    => 'Vertical Integration Flyer'
+                                                                        'vertFlyers'    => 'Vertical Integration Flyers',
+                                                                        'sbmfFlyers' => 'Small Balance Multifamily Flyers'
                                                                     ],
                                                                     'Flyers For Brokers' => [
                                                                         'flyersForBrokers'  => 'Flyers'

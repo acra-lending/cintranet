@@ -346,6 +346,21 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-------------
+        //Small Balance Multifamily
+        //-------------
+        $sbmfSystems = Post::whereRaw("find_in_set('sbmfSystems', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $sbmfInternalForms = Post::whereRaw("find_in_set('sbmfInternalForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $sbmfGuidelines = Post::whereRaw("find_in_set('sbmfGuidelines', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //-------------
         //Jr Underwriter
         //-------------
         $jrUW = Post::whereRaw("find_in_set('jrUW', category_id)")
@@ -451,6 +466,9 @@ class OperationsFormsController extends Controller
             'fixAndFlipUw'              => $fixAndFlipUw,
             'fixAndFlipFunding'         => $fixAndFlipFunding,
             'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
+            'sbmfSystems'           => $sbmfSystems,
+            'sbmfInternalForms'     => $sbmfInternalForms,
+            'sbmfGuidelines'        => $sbmfGuidelines,
             'jrUW'                  => $jrUW,
             'prescreen'             => $prescreen,
             'vettingClerk'          => $vettingClerk,

@@ -57,6 +57,7 @@
                         @include('pages.operations.partials.processor')
                         @include('pages.operations.partials.nda')
                         @include('pages.operations.partials.fixandflip')
+                        @include('pages.operations.partials.sbmf')
                         @include('pages.operations.partials.jruw')
                         @include('pages.operations.partials.prescreen')
                         @include('pages.operations.partials.vettingclerk')
