@@ -165,6 +165,11 @@
                                                                         'fixAndFlipFunding'         => 'Funding',
                                                                         'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ]
+                                                                    'Small Balance Multifamily' => [
+                                                                        'sbmfSystems'         => 'Systems',
+                                                                        'sbmfInternalForms'   => 'Internal Forms',
+                                                                        'sbmfGuidelines'      => 'Guidelines',
+                                                                    ]
                                                                 ],
                                                                 'Ratesheets AE' => [
                                                                     'Wholesale' => [
@@ -223,7 +228,7 @@
                                                                         'social'        => 'LinkedIn/Social Posting Images',
                                                                         'standards'     => 'Standard Flyers',
                                                                         'vertFlyers'    => 'Vertical Integration Flyers',
-                                                                        'sbmfFlyers' => 'Small Balance Multifamily Flyers'
+                                                                        'sbmfFlyers'    => 'Small Balance Multifamily Flyers'
                                                                     ],
                                                                     'Flyers For Brokers' => [
                                                                         'flyersForBrokers'  => 'Flyers'
