@@ -155,7 +155,7 @@
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
                                                                     ],
-                                                                    'Fix N Flip' => [
+                                                                    'Fix & Flip' => [
                                                                         'fixAndFlipSystems'         => 'Systems',
                                                                         'fixAndFlipInternalForms'   => 'Internal Forms',
                                                                         'fixAndFlipVetting'         => 'Agent Verification',
@@ -175,6 +175,9 @@
                                                                         'wsJumboPrimeAE'    => 'Jumbo Prime Wholesale', 
                                                                         'wsOdfAE'         => 'Outside Dodd-Frank', 
                                                                         'wsOdfPlusAE'     => 'Outside Dodd-Frank Plus'
+                                                                    ],
+                                                                    'Fix & Flip' => [
+                                                                        'smallBalanceMultifamily'    => 'Small Balance Multifamily', 
                                                                     ],
                                                                     'Correspondent' => [
                                                                         'PDF' => [

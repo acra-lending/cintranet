@@ -37,6 +37,11 @@ class RatesheetCategoryController extends Controller
                                 ->limit(1)
                                 ->get();
 
+        $smallBalanceMultifamily   = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
+                                ->orderBy('created_at', 'desc')
+                                ->limit(1)
+                                ->get();
+
         $wsOdfAE        = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
@@ -69,6 +74,11 @@ class RatesheetCategoryController extends Controller
                                 ->paginate(3);
 
         $wsJumboPrimeAE_past   = Post::whereRaw("find_in_set('wsJumboPrimeAE', category_id)")
+                                ->orderBy('created_at', 'desc')
+                                ->skip(1)
+                                ->paginate(3);
+
+        $smallBalanceMultifamily_past   = Post::whereRaw("find_in_set('smallBalanceMultifamily_past', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
                                 ->paginate(3);
@@ -204,7 +214,8 @@ class RatesheetCategoryController extends Controller
                 ->with([
                     'wsOmbsvoeAE'         => $wsOmbsvoeAE,
                     'wsNonprimeAE'        => $wsNonprimeAE,
-                    'wsJumboPrimeAE'        => $wsJumboPrimeAE,
+                    'wsJumboPrimeAE'      => $wsJumboPrimeAE,
+                    'smallBalanceMultifamily' => $smallBalanceMultifamily,
                     'ws3mbsAE'            => $ws3mbsAE,
                     'wsDscrAE'            => $wsDscrAE,
                     'wsOdfAE'             => $wsOdfAE,
@@ -212,6 +223,7 @@ class RatesheetCategoryController extends Controller
                     'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
                     'wsNonprimeAE_past'   => $wsNonprimeAE_past,
                     'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
+                    'smallBalanceMultifamily_past'   => $smallBalanceMultifamily_past,
                     'ws3mbsAE_past'       => $ws3mbsAE_past,
                     'wsDscrAE_past'       => $wsDscrAE_past,
                     'wsOdfAE_past'        => $wsOdfAE_past,

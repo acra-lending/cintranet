@@ -4,6 +4,7 @@
     <a class="nav-link" id="vert-tabs-dscr-tab" data-toggle="pill" href="#vert-tabs-dscr" role="tab" aria-controls="vert-tabs-dscr" aria-selected="false">Business Purpose / DSCR</a>
     <a class="nav-link active" id="vert-tabs-non-prime-ws-tab" data-toggle="pill" href="#vert-tabs-non-prime-ws" role="tab" aria-controls="vert-tabs-non-prime-ws" aria-selected="false">Non-Prime Wholesale</a>
     <a class="nav-link" id="vert-tabs-jumbo-prime-ws-tab" data-toggle="pill" href="#vert-tabs-jumbo-prime-ws" role="tab" aria-controls="vert-tabs-jumbo-prime-ws" aria-selected="false">Jumbo Prime</a>
+    <a class="nav-link" id="vert-tabs-small-balance-multifamily-tab" data-toggle="pill" href="#vert-tabs-small-balance-multifamily" role="tab" aria-controls="vert-tabs-small-balance-multifamily" aria-selected="false">Small Balance Multifamily</a>
     {{-- <a class="nav-link" id="vert-tabs-odf-tab" data-toggle="pill" href="#vert-tabs-odf" role="tab" aria-controls="vert-tabs-odf" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
     <a class="nav-link" id="vert-tabs-odfplus-tab" data-toggle="pill" href="#vert-tabs-odfplus" role="tab" aria-controls="vert-tabs-odfplus" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a> --}}
 </div>
