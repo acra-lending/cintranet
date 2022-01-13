@@ -59,9 +59,9 @@ class FlyersController extends Controller
         ->get();
 
         //Small Balance Multifamily
-        $sbmfFlyers = Post::whereRaw("find_in_set('sbmfFlyers', category_id)")
-        ->sortable('filename')
-        ->get();
+        // $sbmfFlyers = Post::whereRaw("find_in_set('sbmfFlyers', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         return view('pages.sales.flyers')
         ->with([
@@ -75,7 +75,7 @@ class FlyersController extends Controller
             'retail'        => $retail,
             'standards'     => $standards,
             'vert'          => $vert,
-            'sbmfFlyers'    => $sbmfFlyers,
+            // 'sbmfFlyers'    => $sbmfFlyers,
         ]);
     }
 }

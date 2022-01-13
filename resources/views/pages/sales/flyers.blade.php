@@ -92,7 +92,7 @@
                         <a class="nav-link" id="vert-tabs-acraprograms-tab" data-toggle="pill" href="#vert-tabs-acraprograms" role="tab" aria-controls="vert-tabs-acraprograms" aria-selected="false">Acra Programs</a>
                         <a class="nav-link" id="vert-tabs-social-tab" data-toggle="pill" href="#vert-tabs-social" role="tab" aria-controls="vert-tabs-social" aria-selected="false">LinkedIn/Social Images</a>
                         {{-- <a class="nav-link" id="vert-tabs-retail-tab" data-toggle="pill" href="#vert-tabs-retail" role="tab" aria-controls="vert-tabs-retail" aria-selected="false">Retail Flyers</a> --}}
-                        <a class="nav-link" id="vert-tabs-small-balance-multifamily-tab" data-toggle="pill" href="#vert-tabs-small-balance-multifamily" role="tab" aria-controls="vert-tabs-small-balance-multifamily" aria-selected="false">Small Balance Multifamily</a>
+                        {{-- <a class="nav-link" id="vert-tabs-small-balance-multifamily-tab" data-toggle="pill" href="#vert-tabs-small-balance-multifamily" role="tab" aria-controls="vert-tabs-small-balance-multifamily" aria-selected="false">Small Balance Multifamily</a> --}}
                         <a class="nav-link" id="vert-tabs-standards-tab" data-toggle="pill" href="#vert-tabs-standards" role="tab" aria-controls="vert-tabs-standards" aria-selected="false">Standard Flyers</a>
                         <a class="nav-link" id="vert-tabs-vertical-tab" data-toggle="pill" href="#vert-tabs-vertical" role="tab" aria-controls="vert-tabs-vertical" aria-selected="false">Vertical Integration</a>
 
@@ -409,7 +409,7 @@
                               </div>
                             </div>
                           </div>
-                          <div class="tab-pane fade" id="vert-tabs-small-balance-multifamily" role="tabpanel" aria-labelledby="vert-tabs-small-balance-multifamily-tab">        
+                          {{-- <div class="tab-pane fade" id="vert-tabs-small-balance-multifamily" role="tabpanel" aria-labelledby="vert-tabs-small-balance-multifamily-tab">        
                             <div class="col">
                               <div class="card card-danger">
                                 <div class="card-header border-0">
@@ -452,7 +452,7 @@
                                 </div>
                               </div>
                             </div>
-                          </div>
+                          </div> --}}
                           <div class="tab-pane fade" id="vert-tabs-standards" role="tabpanel" aria-labelledby="vert-tabs-standards-tab">        
                             <div class="col">
                               <div class="card card-danger">
