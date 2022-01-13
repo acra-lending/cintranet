@@ -216,6 +216,9 @@
                                                                         // 'social'            => 'LinkedIn/Social Posting Images',
                                                                         // 'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
+                                                                    'Fix & Flip' => [
+                                                                        'fixAndFlipDocs'          => 'Documents',
+                                                                    ],
                                                                     'Sales Tool Kit' => [
                                                                         'salesTools'        => 'Sales Tool Kit',
                                                                         'salesVideos'       => 'Sales Videos',

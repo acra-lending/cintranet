@@ -23,6 +23,11 @@ class SalesDocumentsController extends Controller
         ->sortable('filename')
         ->get();
 
+        //Fix & Flip Documents
+        $fixAndFlipDocs = Post::whereRaw("find_in_set('fixAndFlipDocs', category_id)")
+        ->sortable('filename')
+        ->get();
+
         //Sales Tools
         $salesTools = Post::whereRaw("find_in_set('salesTools',category_id)")
         ->sortable('filename')
@@ -33,6 +38,7 @@ class SalesDocumentsController extends Controller
             'wholesaleDocs'     => $wholesaleDocs,
             'salesDeptContacts' => $salesDeptContacts,
             'corrDocs'          => $corrDocs,
+            'fixAndFlipDocs'    => $fixAndFlipDocs,
             'salesTools'        => $salesTools,
         ]);
     }
