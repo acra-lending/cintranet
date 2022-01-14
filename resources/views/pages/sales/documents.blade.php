@@ -85,10 +85,10 @@
                   <br/>
                   
                   <div class="tab-content" id="nav-tabContent">
-                    @include('pages.sales.partials.wholesale')
-                    @include('pages.sales.partials.correspondent')
-                    @include('pages.sales.partials.fixandflip')
-                    @include('pages.sales.partials.salestools')
+                    @include('pages.sales.partials.documents.wholesale')
+                    @include('pages.sales.partials.documents.correspondent')
+                    @include('pages.sales.partials.documents.fixandflip')
+                    @include('pages.sales.partials.documents.salestools')
                 </div>
               </div>
             </div>

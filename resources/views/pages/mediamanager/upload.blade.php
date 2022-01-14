@@ -239,6 +239,9 @@
                                                                     'General Forms' => [
                                                                         'generalForms'  => 'Forms'
                                                                     ],
+                                                                    'Small Balance Multifamily' => [
+                                                                        'sbmfForms'  => 'Forms'
+                                                                    ],
                                                                     'Training Material' => [
                                                                         'trainingAe'        => 'Account Executives',
                                                                         'trainingOps'       => 'OPS Meetings',

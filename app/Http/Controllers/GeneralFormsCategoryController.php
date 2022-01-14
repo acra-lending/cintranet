@@ -56,6 +56,13 @@ class GeneralFormsCategoryController extends Controller
             ->where('filename', 'REGEXP', '^[Y-Zy-z].*$')
             ->get();
         
+
+        //Admin Forms and Materials
+        //Forms
+            $sbmfForms = Post::whereRaw("find_in_set('sbmfForms', category_id)")
+            ->sortable('filename')
+            ->get();
+
         //Training And Materials
         //Account Executive
             $trainingAe = Post::whereRaw("find_in_set('trainingAE', category_id)")
@@ -98,6 +105,7 @@ class GeneralFormsCategoryController extends Controller
             'lettersQT'             => $lettersQT,
             'lettersUX'             => $lettersUX,
             'lettersYZ'             => $lettersYZ,
+            'sbmfForms'             => $sbmfForms,
             'trainingAe'            => $trainingAe,
             'trainingOps'           => $trainingOps,
             'trainingSystems'       => $trainingSystems,
