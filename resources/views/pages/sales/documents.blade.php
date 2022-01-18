@@ -81,7 +81,7 @@
                 </div>
                 <div class="card-body">
 
-                  @include('pages.sales.partials.navtabs')
+                  @include('pages.sales.partials.documents.navtabs')
                   <br/>
                   
                   <div class="tab-content" id="nav-tabContent">
