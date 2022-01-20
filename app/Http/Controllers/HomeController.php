@@ -66,14 +66,18 @@ class HomeController extends Controller
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->pluck('team')->isNotEmpty())
         {
+            // $team = DB::table('s2zar_jsn_users')
+            // ->orderBy('lastname', 'asc')
+            // ->groupBy('team')
+            // ->where('s2zar_jsn_users.id', '=', $user)
+            // ->where('team', '<>', '')
+            // ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+            // ->pluck('team');
+            
             $team = DB::table('s2zar_jsn_users')
-            ->orderBy('lastname', 'asc')
-            ->groupBy('team')
-            ->where('s2zar_jsn_users.id', '=', $user)
-            ->where('team', '<>', '')
-            ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-            ->pluck('team');
-    
+            ->where('s2zar_jsn_users.id', $user)
+            ->value('team');  
+
             $teamMembers = DB::table('s2zar_jsn_users')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('team', $team)
@@ -98,6 +102,7 @@ class HomeController extends Controller
             return view('pages.dashboard')
             ->with([
                 'teamMembers'   => $teamMembers,
+                'team'          => $team,
                 'teamLead'      => $teamLead,
                 'first_name'    => $first_name,
                 'posts'         => $posts,
