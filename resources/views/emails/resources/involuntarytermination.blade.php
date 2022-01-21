@@ -25,6 +25,7 @@
 
 <strong>Designate Access:</strong> {{ $data[0]['designateAccess'] }} <br/>
 
+Please disable access immediately.<br/>
 {{ $data[0]['specialInstructions'] }}<br/>
 
 <hr/>
