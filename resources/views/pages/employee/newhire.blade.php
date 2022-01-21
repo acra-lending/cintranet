@@ -10,12 +10,6 @@
                 <div class="col-sm-6">
                     <h1 class="m-0 text-dark">Resources</h1>
                 </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item active"><a href="/">Resources</a></li>
-                    <li class="breadcrumb-item">New Employee Form</a></li>
-                    </ol>
-                </div>
                 </div>
             </div>
         </div>

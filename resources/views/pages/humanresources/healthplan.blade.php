@@ -8,12 +8,6 @@
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Health Plan</h1>
             </div>
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="/">Human Resources</a></li>
-                <li class="breadcrumb-item">Health Plan</a></li>
-                </ol>
-            </div>
             </div>
         </div>
         </div>
@@ -199,31 +193,6 @@
                   </div>
                 </div>
               </div>
-
-
-            <div class="col-12">
-                <div class="card card-danger card-outline">
-                  <div class="card-header">
-                    <div class="card-title">
-                      Benefits Videos
-                    </div>
-                  </div>
-                  <div class="card-body">
-                    <div class="row">
-                        @foreach($humanresourcesBenefits as $data)
-                            <div class="col-sm-2">
-                                <a href="{{ URL::to('https://player.vimeo.com' .str_replace("s", "", $data['uri'])) }}" data-toggle="lightbox" data-title="{{ $data['name'] }}" data-gallery="gallery">
-                                    <img src="{{ ($data['pictures']['sizes'][4]['link_with_play_button']) }}" class="img-fluid mb-2" alt="{{ $data['name'] }}" /></a>
-                                </a>
-                                <h6>{{ $data['name'] }}</h6>
-                                <p>{{ Carbon\Carbon::parse($data['created_time'])->format('F d, Y') }}</p>
-                            </div>
-                        @endforeach
-                    </div>
-                  </div>
-                </div>
-              </div>
-
             <div class="col-12 mb-5">
                 <div class="card card-dark card-outline">
                     <div class="card-header">

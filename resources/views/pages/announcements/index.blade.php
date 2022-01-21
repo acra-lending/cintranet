@@ -14,12 +14,6 @@
             @endcan
         </div><!-- /.col -->
 
-        <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item active"><a href="/">Learning</a></li>
-            <li class="breadcrumb-item">Announcements</li>
-            </ol>
-        </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
     </div>

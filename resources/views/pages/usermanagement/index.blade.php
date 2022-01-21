@@ -13,12 +13,6 @@
                 <a href="/usermanagement/register" class="mt-3 col-sm-3 btn btn-outline-dark">Create User</a>
               @endcan
             </div>
-            <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="/usermanagement/user">User Management</a></li>
-                <li class="breadcrumb-item active">Manage Users</li>
-              </ol>
-            </div>
           </div>
 
       </section>

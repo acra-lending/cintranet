@@ -13,12 +13,6 @@
                 <a href="/learning/posts/create" class="mt-3 col-sm-6 col-md-4 col-lg-3 col-xl-2 btn btn-outline-dark">Create</a>
             @endcan
         </div><!-- /.col -->
-        <div class="col-sm-6">
-            <ol class="breadcrumb float-sm-right">
-            <li class="breadcrumb-item"><a href="/learning/posts">Learning</a></li>
-            <li class="breadcrumb-item active">Building Relationships</li>
-            </ol>
-        </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
     </div>

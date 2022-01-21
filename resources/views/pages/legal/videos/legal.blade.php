@@ -10,12 +10,6 @@
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Videos</h1>
             </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="/">Videos</a></li>
-                <li class="breadcrumb-item active">Monthly Meetings</li>
-                </ol>
-            </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
         </div>
@@ -136,19 +130,18 @@
     <!-- Main content -->
     <section class="content">
     <div class="container-fluid">
+
         <div class="row justify-content-center">
-
-
           <div class="col-12">
             <div class="card card-danger">
               <div class="card-header">
                 <div class="card-title">
-                  Monthly Meetings
+                  Legal
                 </div>
               </div>
               <div class="card-body">
                 <div class="row">
-                    @foreach($monthlyMeetings as $data)
+                    @foreach($legalResults as $data)
                         <div class="col-sm-2">
                             <a href="{{ URL::to('https://player.vimeo.com' .str_replace("s", "", $data['uri'])) }}" data-toggle="lightbox" data-title="{{ $data['name'] }}" data-gallery="gallery">
                                 <img src="{{ ($data['pictures']['sizes'][4]['link_with_play_button']) }}" class="img-fluid mb-2" alt="{{ $data['name'] }}" /></a>
@@ -162,6 +155,7 @@
             </div>
           </div>
         </div>
+
     </div>
     </section>
     </div>

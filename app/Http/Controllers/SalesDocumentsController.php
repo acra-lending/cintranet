@@ -43,16 +43,16 @@ class SalesDocumentsController extends Controller
         ]);
     }
 
-    public function videos()
-    {
-        //Sales Tools
-        $salesVideos = Post::whereRaw("find_in_set('salesVideos',category_id)")
-        ->sortable('filename')
-        ->get();
+    // public function videos()
+    // {
+    //     //Sales Tools
+    //     $salesVideos = Post::whereRaw("find_in_set('salesVideos',category_id)")
+    //     ->sortable('filename')
+    //     ->get();
 
-        return view ('pages.sales.videos')
-        ->with([
-            'salesVideos'   => $salesVideos,
-        ]);
-    }
+    //     return view ('pages.sales.videos')
+    //     ->with([
+    //         'salesVideos'   => $salesVideos,
+    //     ]);
+    // }
 }

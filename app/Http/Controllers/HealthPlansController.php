@@ -32,14 +32,7 @@ class HealthPlansController extends Controller
         ->orderBy('created_at', 'desc')
         ->first();
 
-        $url = Vimeo::request("/users/124219438/projects/4606611/videos", ['per_page' => 99], 'GET');
-        $url = $url['body'];
-        $data = $url['data'];
-        $humanresourcesBenefits = $data;
-
-        return view('pages.humanresources.healthplan', compact([
-            'humanresourcesBenefits'
-            ]))
+        return view('pages.humanresources.healthplan')
         ->with([
             'benefitsCA'        => $benefitsCA,
             'benefitsNonCA'     => $benefitsNonCA,

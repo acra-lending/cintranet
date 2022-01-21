@@ -10,12 +10,6 @@
             <div class="col-sm-6">
               <h1>Wordpress Users</h1>
             </div>
-            <div class="col-sm-6">
-              <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item"><a href="/usermanagement/user">User Management</a></li>
-                <li class="breadcrumb-item active">Manage WP Users</li>
-              </ol>
-            </div>
           </div>
         </div>
 

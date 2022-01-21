@@ -8,12 +8,6 @@
                 <div class="col-sm-6">
                     <h1 class="m-0 text-dark">Paylocity</h1>
                 </div>
-                <div class="col-sm-6">
-                    <ol class="breadcrumb float-sm-right">
-                    <li class="breadcrumb-item active"><a href="/">Human Resources</a></li>
-                    <li class="breadcrumb-item">Paylocity</a></li>
-                    </ol>
-                </div>
                 </div>
             </div>
         </div>
@@ -53,30 +47,30 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                    <div class="col-md-12 col-lg-12 col-xl-10">
-                      <div class="card card-danger card-outline">
-                        <div class="card-header">
-                          <h3 class="card-title">
-                            <i class="fas fa-user-plus"></i>
-                            How To's
-                          </h3>
-                        </div>
-                        <div class="card-body">
-                          <div class="row">
-                            <div class="col-sm-4 col-md-3">
-                              @include('pages.humanresources.howtos.navtabs')
-                            </div>
-                            <div class="col-sm-10 col-md-9">
-                              <div class="tab-content" id="vert-tabs-tabContent">
-                                @include('pages.humanresources.howtos.howto')
-                              </div>
-                            </div>
-                          </div>
+            {{-- <div class="row">
+              <div class="col-md-12 col-lg-12 col-xl-10">
+                <div class="card card-danger card-outline">
+                  <div class="card-header">
+                    <h3 class="card-title">
+                      <i class="fas fa-user-plus"></i>
+                      How To's
+                    </h3>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="col-sm-4 col-md-3">
+                        @include('pages.humanresources.howtos.navtabs')
+                      </div>
+                      <div class="col-sm-10 col-md-9">
+                        <div class="tab-content" id="vert-tabs-tabContent">
+                          @include('pages.humanresources.howtos.howto')
                         </div>
                       </div>
                     </div>
-            </div>
+                  </div>
+                </div>
+              </div>
+            </div> --}}
         </section>
         </div>
           <div class="modal fade" id="modal-default">

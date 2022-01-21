@@ -10,12 +10,6 @@
             <div class="col-sm-6">
                 <h1 class="m-0 text-dark">Flyers & Programs</h1>
             </div><!-- /.col -->
-            <div class="col-sm-6">
-                <ol class="breadcrumb float-sm-right">
-                <li class="breadcrumb-item active"><a href="/sales/flyers">Sales</a></li>
-                <li class="breadcrumb-item">Flyers</a></li>
-                </ol>
-            </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
         </div>
@@ -84,8 +78,8 @@
                   <div class="row">
                     <div class="col-sm-4 col-md-3">
                       <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-                        <a class="nav-link active" id="vert-tabs-aboutacra-tab" data-toggle="pill" href="#vert-tabs-aboutacra" role="tab" aria-controls="vert-tabs-aboutacra" aria-selected="true">About Acra</a>
-                        <a class="nav-link" id="vert-tabs-aeflyer-tab" data-toggle="pill" href="#vert-tabs-aeflyer" role="tab" aria-controls="vert-tabs-aeflyer" aria-selected="false">AE Flyers</a>
+                        {{-- <a class="nav-link active" id="vert-tabs-aboutacra-tab" data-toggle="pill" href="#vert-tabs-aboutacra" role="tab" aria-controls="vert-tabs-aboutacra" aria-selected="true">About Acra</a> --}}
+                        <a class="nav-link active" id="vert-tabs-aeflyer-tab" data-toggle="pill" href="#vert-tabs-aeflyer" role="tab" aria-controls="vert-tabs-aeflyer" aria-selected="false">AE Flyers</a>
                         <a class="nav-link" id="vert-tabs-automation-tab" data-toggle="pill" href="#vert-tabs-automation" role="tab" aria-controls="vert-tabs-automation" aria-selected="false">Automation</a>
                         <a class="nav-link" id="vert-tabs-brokers-tab" data-toggle="pill" href="#vert-tabs-brokers" role="tab" aria-controls="vert-tabs-brokers" aria-selected="false">Broker Flyers</a>
                         <a class="nav-link" id="vert-tabs-corr-tab" data-toggle="pill" href="#vert-tabs-corr" role="tab" aria-controls="vert-tabs-corr" aria-selected="false">Correspondent</a>
@@ -100,7 +94,7 @@
                     </div>
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        <div class="tab-pane text-left fade show active" id="vert-tabs-aboutacra" role="tabpanel" aria-labelledby="vert-tabs-aboutacra-tab">
+                        {{-- <div class="tab-pane text-left fade show active" id="vert-tabs-aboutacra" role="tabpanel" aria-labelledby="vert-tabs-aboutacra-tab">
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">
@@ -143,8 +137,8 @@
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="tab-pane fade" id="vert-tabs-aeflyer" role="tabpanel" aria-labelledby="vert-tabs-aeflyer-tab">        
+                        </div> --}}
+                        <div class="tab-pane fade show active" id="vert-tabs-aeflyer" role="tabpanel" aria-labelledby="vert-tabs-aeflyer-tab">        
                           <div class="col">
                             <div class="card card-danger">
                               <div class="card-header border-0">

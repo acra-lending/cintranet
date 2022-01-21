@@ -73,55 +73,14 @@
                 @endcan
             </li>
             @endcan
-            <li class="nav-item has-treeview {{ Request::is('videos/*') ? 'menu-open': ''}}">
-                <a href="#" class="nav-link">
+            
+            <li class="nav-item">
+                <a href="/monthlymeetings" class="nav-link {{ Request::path() === 'monthlymeetings' ? 'active': ''}}">
                     <i class="nav-icon fas fa-video"></i>
-                    <p>Videos
-                        <i class="right fas fa-angle-left"></i>
-                    </p>
+                    <p>Monthly Meetings</p>
                 </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/humanresources" class="nav-link {{ Request::path() === 'videos/humanresources' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Human Resources</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/monthlymeetings" class="nav-link {{ Request::path() === 'videos/monthlymeetings' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Monthly Meetings</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/operations" class="nav-link {{ Request::path() === 'videos/operations' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Operations</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/sales" class="nav-link {{ Request::path() === 'videos/sales' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Sales</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/videos/infotech" class="nav-link {{ Request::path() === 'videos/infotech' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>IT</p>
-                        </a>
-                    </li>
-                </ul>
             </li>
-            <li class=" nav-item">
+            <li class="nav-item">
                 <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">
                     <i class="nav-icon fas fa-address-book"></i>
                     <p>Directory</p>
@@ -201,6 +160,14 @@
                         <a href="/legal/documents" class="nav-link {{ Request::path() === 'legal/documents' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/legal/videos" class="nav-link {{ Request::path() === 'legal/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Videos</p>
                         </a>
                     </li>
                 </ul>
@@ -339,6 +306,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/humanresources/videos" class="nav-link {{ Request::path() === 'humanresources/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
                 {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/mvp" class="nav-link {{ Request::path() === 'humanresources/mvp' ? 'active': ''}}">
@@ -389,6 +364,14 @@
                         <a href="/operations/usefullinks" class="nav-link {{ Request::path() === 'operations/usefullinks' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Useful Links</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/operations/videos" class="nav-link {{ Request::path() === 'operations/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Videos</p>
                         </a>
                     </li>
                 </ul>
@@ -542,6 +525,14 @@
                     </li>
                 </ul>
                 @endcan
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/infotech/videos" class="nav-link {{ Request::path() === 'infotech/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             @can('edit-users')
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">

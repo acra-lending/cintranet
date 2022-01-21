@@ -45,11 +45,12 @@ Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 
 
 //Videos
-Route::get('/videos/sales', 'VideosController@sales')->middleware('auth');
-Route::get('/videos/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
-Route::get('/videos/operations', 'VideosController@operations')->middleware('auth');
-Route::get('/videos/humanresources', 'VideosController@humanresources')->middleware('auth');
-Route::get('/videos/infotech', 'VideosController@infotech')->middleware('auth');
+Route::get('/sales/videos', 'VideosController@sales')->middleware('auth');
+Route::get('/monthlymeetings', 'VideosController@monthlymeetings')->middleware('auth');
+Route::get('/operations/videos', 'VideosController@operations')->middleware('auth');
+Route::get('/humanresources/videos', 'VideosController@humanresources')->middleware('auth');
+Route::get('/infotech/videos', 'VideosController@infotech')->middleware('auth');
+Route::get('/legal/videos', 'VideosController@legal')->middleware('auth');
 
 //Learning And Development
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
@@ -88,7 +89,7 @@ Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('aut
 Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->middleware('auth');
 // Route::get('sales/submissions', 'SubmissionsController@index')->middleware('auth');
 // Route::post('sales/submissions', 'SubmissionsController@update')->middleware('auth');
-Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
+// Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
 
 //Direct-To-Consumer
 Route::get('consumerdirect/documents', 'DirectToConsumerController@index')->middleware('auth');
