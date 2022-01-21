@@ -11,7 +11,7 @@
                     <i class="far fa-calendar-alt"></i>
                     </span>
                 </div>
-                <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required>
+                <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required onchange="notes()">
             </div>
         </div>
     </div>
@@ -130,6 +130,59 @@
     </div>
 </div>
 <div class="row">
+    <div class="col">
+        <div class="form-group required">
+            <label class="control-label" for="location">Location</label>
+            <div class="">
+                <select class="form-control" name="location" required>
+                    <option selected disabled>Please select</option> 
+                    <option value="CA - Corporate">CA - Corporate</option>
+                    <option value="CA - Lake Forest Operations Office">CA - Lake Forest Operations Office</option>
+                    <option value="CA - Rockfield">CA - Rockfield</option>
+                    <option value="CA - Technology">CA - Technology</option>
+                    <option value="Oregon">Oregon</option>
+                    <option value="Nevada">Nevada</option>
+                    <option value="Utah">Utah</option>
+                    <option value="Georgia">Georgia</option>
+                    <option value="Florida">Florida</option>
+                    <option value="Arizona">Arizona</option>
+                    <option value="Connecticut">Connecticut</option>
+                    <option value="Missouri">Missouri</option>
+                    <option value="Remote">Remote</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="form-group">
+            <label class="control-label" for="remoteLocation">If remote, please enter state:</label>
+            <input type="text" class="form-control" name="remoteLocation" id="remoteLocation" placeholder="">   
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-12 col-lg-6">
+        <div class="form-group">
+            <label for="specialInstructions">Note <em>(this will be auto-generated)</em>:</label>
+            <p class="" rows="4" name="note" id="note" placeholder=""></p> 
+        </div>
+        <script>
+            function notes() {
+                const note = document.getElementById('note')
+                const date = document.getElementById('requestDate').value
+                let options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
+                let effectiveDate  = new Date(date)
+                const text = document.createTextNode(effectiveDate.toLocaleDateString('en-US', options))
+                console.log(text)
+                note.innerHTML = ""
+                let str1 = "New hire effective"
+                let str2 = text
+                
+                note.innerHTML = "New hire effective "
+                note.appendChild(text)
+            }
+        </script>
+    </div>
     <div class="col-md-12 col-lg-6">
         <div class="form-group">
             <label for="specialInstructions">Special Instructions</label>

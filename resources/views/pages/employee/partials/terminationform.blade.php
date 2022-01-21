@@ -88,18 +88,25 @@
         <h4>Please Indicate Any System Access to be Retained or Reassigned</h4>
         <hr/>
         <div class="row">
-            <div class="col-md-12 col-lg-4">
+            <div class="col-md-12 col-lg-6">
                 <div class="form-group required">
                     <label class="control-label" for="designateAccess">Designate Access</label>
                     <input type="text" class="form-control" name="designateAccess" id="designateAccess" required>
                 </div>
             </div>
-            <div class="col-md-12 col-lg-8">
+            <div class="col-md-12 col-lg-6">
+                <div class="form-group">
+                    <label class="control-label" for="designateAccess">Note <em>(this will be auto-generated)</em>:</label>
+                    <p>Please disable access immediately</p>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
                 <div class="form-group">
                     <label for="specialInstructions">Special Instructions</label>
                     <textarea class="form-control" rows="4" name="specialInstructions" id="specialInstructions" placeholder=""></textarea> 
                 </div>
             </div>
+
         </div>
         <h4>Additional Info</h4>
         <hr/>

@@ -11,7 +11,7 @@
             <div class="col-6">
                 <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none;">
-                    <h6>California Office 1</h6>
+                    <h6>California - Corporate</h6>
                 </a>  
                 <p class="m-0"style="font-size: 10.5pt;">25531 Commercentre Dr.<br>Suite 160<br>Lake Forest, CA 92630</p> 
                 </div>
@@ -19,7 +19,7 @@
             <div class="col-6">
                 <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/RsmakTTcLCEXMeQq6" target="_blank" style="text-decoration: none;">
-                    <h6>California Office 2</h6>
+                    <h6>California - Lake Forest Operations</h6>
                 </a>  
                 <p class="m-0"style="font-size: 10.5pt;">25541 Commercentre Dr.<br>Suite 250<br>Lake Forest, CA 92630</p> 
                 </div>
@@ -29,7 +29,7 @@
             <div class="col-6">
                 <div class="callout callout-dark">
                 <a href="https://goo.gl/maps/DAEZH83F54YvQdM37" target="_blank" style="text-decoration: none;">
-                    <h6>California Office 3</h6>
+                    <h6>California - Rockfield</h6>
                 </a>  
                 <p class="m-0"style="font-size: 10.5pt;">15707 Rockfield Blvd<br>Suite 225<br>Irvine, CA 92618</p> 
                 </div>
@@ -37,7 +37,7 @@
             <div class="col-6">
                 <div class="callout callout-dark">
                 <a href="https://goo.gl/maps/9ahjtvWkK3CTgbgz9" target="_blank" style="text-decoration: none;">
-                    <h6>California Office 4</h6>
+                    <h6>California - Technology</h6>
                 </a>  
                 <p class="m-0"style="font-size: 10.5pt;">36 Technology Drive<br>Suite 250<br>Irvine, CA 92618</p> 
                 </div>

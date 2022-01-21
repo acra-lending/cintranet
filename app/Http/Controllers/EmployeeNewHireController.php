@@ -45,6 +45,8 @@ class EmployeeNewHireController extends Controller
             'nmls'                  => 'nullable',
             'selectAccess'          => 'nullable',
             'fob'                   => 'nullable',
+            'location'              => 'required',
+            'remoteLocation'        => 'nullable|max:100',
             'specialInstructions'   => 'nullable|max:500',
             'requestDueDate'        => 'required',
             // 'submittedBy'           => 'required',
