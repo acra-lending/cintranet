@@ -126,17 +126,17 @@ Route::get('humanresources/recruitment', 'SchedulesFormsController@recruitment')
 Route::get('humanresources/documents', 'HRDocumentsController@index')->middleware('auth');
 
 //Employee Status
-Route::get('employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
-Route::get('employee/statuschange', 'EmployeeStatusChangeController@index')->middleware('auth');
-Route::get('employee/outofoffice', 'EmployeeStatusReportController@create')->middleware('auth');
-Route::get('employee/termination', 'EmployeeTerminationController@index')->middleware('auth');
-Route::post('employee/newhire', 'EmployeeNewHireController@submit')->middleware('auth');
-Route::post('employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
-Route::post('employee/outofoffice', 'EmployeeStatusReportController@store')->middleware('auth');
-Route::get('employee/reminders', 'ReminderController@create')->middleware('auth');
-Route::post('employee/reminders', 'ReminderController@store')->middleware('auth');
-Route::post('employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
-Route::post('employee/involuntarytermination', 'EmployeeInvoluntaryTerminationController@submit')->middleware('auth');
+Route::get('humanresources/employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
+Route::get('humanresources/employee/statuschange', 'EmployeeStatusChangeController@index')->middleware('auth');
+Route::get('humanresources/employee/outofoffice', 'EmployeeStatusReportController@create')->middleware('auth');
+Route::get('humanresources/employee/termination', 'EmployeeTerminationController@index')->middleware('auth');
+Route::post('humanresources/employee/newhire', 'EmployeeNewHireController@submit')->middleware('auth');
+Route::post('humanresources/employee/statuschange', 'EmployeeStatusChangeController@submit')->middleware('auth');
+Route::post('humanresources/employee/outofoffice', 'EmployeeStatusReportController@store')->middleware('auth');
+Route::get('humanresources/employee/reminders', 'ReminderController@create')->middleware('auth');
+Route::post('humanresources/employee/reminders', 'ReminderController@store')->middleware('auth');
+Route::post('humanresources/employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
+Route::post('humanresources/employee/involuntarytermination', 'EmployeeInvoluntaryTerminationController@submit')->middleware('auth');
 
 //File Upload
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');

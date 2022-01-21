@@ -208,7 +208,7 @@
             
             <li class="nav-item has-treeview {{ 
                     (Request::is('humanresources/*') ? 'menu-open'
-                    : Request::is('employee/*')) ? 'menu-open'
+                    : Request::is('humanresources/employee/*')) ? 'menu-open'
                     : ''
                 }}">
                 <a href="#" class="nav-link">
@@ -219,14 +219,14 @@
                 </a>
                 <ul class="nav nav-treeview">
                     @can('edit-posts')
-                    <li class=" nav-item has-treeview {{ Request::is('employee/*') ? 'menu-open': ''}}">
-                        <a href="#" class="nav-link" style="{{ Request::is('employee/*') ? 'background-color: var(--primary-color); color: #FFF': '' }}">
+                    <li class=" nav-item has-treeview {{ Request::is('humanresources/employee/*') ? 'menu-open': ''}}">
+                        <a href="#" class="nav-link" style="{{ Request::is('humanresources/employee/*') ? 'background-color: var(--primary-color); color: #FFF': '' }}">
                             <i class="nav-icon fas fa-user-tag"></i>
                             <p>Employee Status<i class="right fas fa-angle-left"></i></p>
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/employee/newhire" class="nav-link {{ Request::path() === 'employee/newhire' ? 'active': ''}}">
+                                <a href="/humanresources/employee/newhire" class="nav-link {{ Request::path() === 'humanresources/employee/newhire' ? 'active': ''}}">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>New Hire Form</p>
                                 </a>
@@ -234,7 +234,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/employee/outofoffice" class="nav-link {{ Request::path() === 'employee/outofoffice' ? 'active': ''}}">
+                                <a href="/humanresources/employee/outofoffice" class="nav-link {{ Request::path() === 'humanresources/employee/outofoffice' ? 'active': ''}}">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Out Of Office Form</p>
                                 </a>
@@ -242,7 +242,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/employee/reminders" class="nav-link {{ Request::path() === 'employee/reminders' ? 'active': ''}}">
+                                <a href="/humanresources/employee/reminders" class="nav-link {{ Request::path() === 'humanresources/employee/reminders' ? 'active': ''}}">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Reminders</p>
                                 </a>
@@ -250,7 +250,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/employee/statuschange" class="nav-link {{ Request::path() === 'employee/statuschange' ? 'active': ''}}">
+                                <a href="/humanresources/employee/statuschange" class="nav-link {{ Request::path() === 'humanresources/employee/statuschange' ? 'active': ''}}">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Status Change Form</p>
                                 </a>
@@ -258,7 +258,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/employee/termination" class="nav-link {{ Request::path() === 'employee/termination' ? 'active': ''}}">
+                                <a href="/humanresources/employee/termination" class="nav-link {{ Request::path() === 'humanresources/employee/termination' ? 'active': ''}}">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Termination Form</p>
                                 </a>
