@@ -33,16 +33,20 @@ class EmployeeStatusReportController extends Controller
             'requestDate'   => 'required'
         ]);
 
+        $input = explode(PHP_EOL, $request->input('body'));
+        sort($input);
+        $sortedInput = implode(PHP_EOL, $input);
+
         $date = $request->input('requestDate');
         $timestamp = date('Y-m-d', strtotime($date));
         // Create Post
         $post = StatusReport::create($request->all());
         $post->user_id = Auth::user()->id;
-        $post->body = $request->input('body');
+        $post->body = $sortedInput;
         $post->requestDate = $timestamp;
         $post->save();
 
-        return redirect ('/employee/outofoffice')
+        return redirect ('humanresources/employee/outofoffice')
             ->with('success', 'List Submitted');
     }
 }
