@@ -213,54 +213,6 @@
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
-                @can('edit-posts')
-            <li class=" nav-item has-treeview {{ Request::is('employee/*') ? 'menu-open': ''}}">
-                <a href="#" class="nav-link">
-                    <i class="nav-icon fas fa-user-tag"></i>
-                    <p>Employee Status<i class="right fas fa-angle-left"></i></p>
-                </a>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/employee/newhire" class="nav-link {{ Request::path() === 'employee/newhire' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>New Hire Form</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/employee/outofoffice" class="nav-link {{ Request::path() === 'employee/outofoffice' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Out Of Office Form</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/employee/reminders" class="nav-link {{ Request::path() === 'employee/reminders' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Reminders</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/employee/statuschange" class="nav-link {{ Request::path() === 'employee/statuschange' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Status Change Form</p>
-                        </a>
-                    </li>
-                </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/employee/termination" class="nav-link {{ Request::path() === 'employee/termination' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Termination Form</p>
-                        </a>
-                    </li>
-                </ul>
-            </li>
-            @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/401k' ? 'active': ''}}">
@@ -344,7 +296,54 @@
 
             </li>    
 
-            
+            @can('edit-posts')
+            <li class=" nav-item has-treeview {{ Request::is('employee/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user-tag"></i>
+                    <p>Employee Status<i class="right fas fa-angle-left"></i></p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/employee/newhire" class="nav-link {{ Request::path() === 'employee/newhire' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>New Hire Form</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/employee/outofoffice" class="nav-link {{ Request::path() === 'employee/outofoffice' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Out Of Office Form</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/employee/reminders" class="nav-link {{ Request::path() === 'employee/reminders' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Reminders</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/employee/statuschange" class="nav-link {{ Request::path() === 'employee/statuschange' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Status Change Form</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/employee/termination" class="nav-link {{ Request::path() === 'employee/termination' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Termination Form</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            @endcan
             <li class="nav-item has-treeview {{ Request::is('operations/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-briefcase"></i>
