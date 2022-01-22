@@ -4,7 +4,6 @@
 <hr/>
 
 <strong>Start Date:</strong> {{ $data[0]['requestDueDate'] }}
-{{-- echo date("l, F jS Y") --}}
 
 # Employee Info:
 
