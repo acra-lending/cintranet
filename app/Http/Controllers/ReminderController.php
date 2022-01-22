@@ -37,7 +37,7 @@ class ReminderController extends Controller
         $post->body = $request->input('body');
         $post->save();
 
-        return redirect ('/employee/reminders')
+        return redirect ('/humanresources/employee/reminders')
             ->with('success', 'Reminders Updated');
     }
 }
