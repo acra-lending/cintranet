@@ -27,7 +27,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="callout callout-dark">
+                <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/DAEZH83F54YvQdM37" target="_blank" style="text-decoration: none;">
                     <h6>California - Rockfield</h6>
                 </a>  
@@ -35,7 +35,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-dark">
+                <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/9ahjtvWkK3CTgbgz9" target="_blank" style="text-decoration: none;">
                     <h6>California - Technology</h6>
                 </a>  
@@ -63,7 +63,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="callout callout-primary">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/tJoYBzrEgWpPAt7D9" target="_blank" style="text-decoration: none;">
                     <h6>Georgia Office</h6>
                 </a>  
@@ -71,7 +71,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-primary">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/4EcSgdCL8upFo9VS7" target="_blank" style="text-decoration: none;">
                     <h6>Florida Office</h6>
                 </a>  
@@ -81,7 +81,7 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="callout callout-dark">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/WTQYSNUJKdw2Aozy7" target="_blank" style="text-decoration: none;">
                     <h6>Nevada Office</h6>
                 </a>  
@@ -89,7 +89,7 @@
                 </div>
             </div>
             <div class="col-6">
-                <div class="callout callout-dark">
+                <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/p845CvyyMcBtTFwj8" target="_blank" style="text-decoration: none;">
                     <h6>Connecticut Office</h6>
                 </a>  
