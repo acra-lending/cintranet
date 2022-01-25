@@ -1,6 +1,6 @@
 <div>
   <h3 class="text-black mb-3" style="justify-content: center">Welcome to Cintranet, {{ $first_name }}!</h3>
-    <img class ="img-fluid rounded" src="{{ asset('img/dashboard-bg.jpg') }}">
+    <img class ="img-fluid rounded" src="{{ asset('img/dashboard-bg-3.jpg') }}">
   </div>
   <div class="container">
   <!-- SEARCH FORM -->  
