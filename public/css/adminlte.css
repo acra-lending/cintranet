@@ -624,7 +624,7 @@ pre code {
 
 .dashboard-input {
   left: 4.5rem; 
-  top: -4.1rem;
+  top: -3.1rem;
 }
 
 @media (min-width: 576px) {
@@ -638,7 +638,7 @@ pre code {
   }
   .dashboard-input {
     left: 5rem; 
-    top: -4.3rem;
+    top: -3.5rem;
   }
 }
 
@@ -653,7 +653,7 @@ pre code {
   }
   .dashboard-input {
     left: 7rem; 
-    top: -5rem;
+    top: -4.4rem;
   }
 }
 
@@ -668,7 +668,7 @@ pre code {
   }
   .dashboard-input {
     left: 8.5rem; 
-    top: -6rem;
+    top: -5rem;
   }
 }
 
@@ -683,7 +683,7 @@ pre code {
   }
   .dashboard-input {
     left: 8rem; 
-    top: -6rem;
+    top: -5.5rem;
   }
 }
 
@@ -698,7 +698,7 @@ pre code {
   }
   .dashboard-input {
     left: 9.5rem; 
-    top: -7rem;
+    top: -6.5rem;
   }
 }
 
@@ -713,7 +713,7 @@ pre code {
   }
   .dashboard-input {
     left: 10rem; 
-    top: -8rem;
+    top: -7rem;
   }
 }
 
@@ -728,7 +728,7 @@ pre code {
   }
   .dashboard-input {
     left: 12rem; 
-    top: -8rem;
+    top: -7rem;
   }
 }
 
@@ -743,7 +743,7 @@ pre code {
   }
   .dashboard-input {
     left: 13rem; 
-    top: -9rem;
+    top: -7rem;
   }
 }
 
