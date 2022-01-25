@@ -624,7 +624,7 @@ pre code {
 
 .dashboard-input {
   left: 4.5rem; 
-  top: -4.50rem;
+  top: -4.1rem;
 }
 
 @media (min-width: 576px) {
@@ -638,7 +638,7 @@ pre code {
   }
   .dashboard-input {
     left: 5rem; 
-    top: -5rem;
+    top: -4.3rem;
   }
 }
 
@@ -728,7 +728,7 @@ pre code {
   }
   .dashboard-input {
     left: 12rem; 
-    top: -9rem;
+    top: -8rem;
   }
 }
 
