@@ -54,6 +54,13 @@
             <img src="{{ asset ('/img/acra-logo-horizontal-highres.png') }}" class="img-logo" id="img-logo">
             <h1>Underwriting Teams</h1>
             <h5>{{Carbon\Carbon::now('PST')->toFormattedDateString()}}</h5>
+            <br>
+            <p><strong>
+              If the TM's have a problem or a question with a file, they should first seek the guidance of the Underwriter for that particular loan.<br>
+              If the UW is not able to address the issue, then that specific Underwriter's Team Lead should be contacted.<br>
+              The Team Leads can then escalate the files to the (AVP) Jared Sherman and then to Jason James, Rodney Hixon and Craig Timmins as needed. 
+            </strong>
+            </p>
             </div>
           </div>
 
@@ -65,6 +72,18 @@
           @foreach($underwriting as $teams => $teamMembers)
           <table class="table table-bordered">
             <div class="center"><!-- loop through teamMembers -->
+              @if($teams == DB::table('s2zar_jsn_users')
+              ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+              ->where('position', 'Director, Credit Management and Underwriting')
+              ->value('name'))
+              @continue
+              @endif
+              @if($teams == DB::table('s2zar_jsn_users')
+              ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+              ->where('position', 'Managing Director, Operations')
+              ->value('name'))
+              @continue
+              @endif
                 <h3>Team {{$teams}} - Ext {{DB::table('s2zar_jsn_users')
                   ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
                   ->where('name', $teams)

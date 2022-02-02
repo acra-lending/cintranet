@@ -94,7 +94,6 @@
               @if($teams == DB::table('s2zar_jsn_users')
               ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
               ->where('position', 'Director of Operations')
-              // ->where('name', $teams)
               ->value('name'))
               @continue
               @endif
