@@ -80,6 +80,12 @@
               @endif
               @if($teams == DB::table('s2zar_jsn_users')
               ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+              ->where('position', 'Executive Chairman / President')
+              ->value('name'))
+              @continue
+              @endif
+              @if($teams == DB::table('s2zar_jsn_users')
+              ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
               ->where('position', 'Managing Director, Operations')
               ->value('name'))
               @continue
