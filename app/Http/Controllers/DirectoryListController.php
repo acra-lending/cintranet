@@ -12,7 +12,7 @@ class DirectoryListController extends Controller
 {
     public function index()
     {
-        if(Gate::denies('edit-users')){
+        if(Gate::denies('edit-posts')){
             return redirect(route('home'));
         }
 
