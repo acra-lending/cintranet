@@ -75,9 +75,12 @@ Route::post('fasteventstore', 'FastEventController@store')->name('routeFastEvent
 Route::delete('fasteventdelete', 'FastEventController@destroy')->name('routeFastEventDelete')->middleware('auth');
 
 //Directory
-Route::get('directory/directory', 'DirectoryController@index')->middleware('auth');
+Route::get('directory/search', 'DirectoryController@index')->middleware('auth');
 Route::get('usermanagement/profile/{id}', 'DirectoryController@show')->middleware('auth');
 Route::get('directory/user/{id}', 'DirectoryController@show')->middleware('auth');
+Route::get('directory/uwteams', 'DepartmentContactsController@uwteams')->middleware('auth');
+Route::get('directory/tmteams', 'DepartmentContactsController@tmteams')->middleware('auth');
+Route::get('directory/cdlteams', 'DepartmentContactsController@cdlteams')->middleware('auth');
 
 
 //Sales
@@ -109,6 +112,7 @@ Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->mid
 Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');
 Route::put('operations/usefullinks', 'UsefulLinksController@update')->middleware('auth');
 Route::delete('operations/usefullinks/{id}', 'UsefulLinksController@destroy')->middleware('auth');
+
 
 //Servicing
 Route::get('servicing/documents', 'ServicingDocsController@index')->middleware('auth');
@@ -167,6 +171,9 @@ Route::get('infotech/documents', 'ITSupportController@getDocuments')->middleware
 
 //Excel Export
 Route::get('/export', 'DirectoryExportController@export')->middleware('auth');
+Route::get('/exportUW', 'DirectoryExportController@exportUW')->middleware('auth');
+Route::get('/exportTM', 'DirectoryExportController@exportTM')->middleware('auth');
+Route::get('/exportCDL', 'DirectoryExportController@exportCDL')->middleware('auth');
 Route::get('/usermanagement/exports', 'DirectoryListController@index')->middleware('auth');
 
 

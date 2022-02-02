@@ -80,11 +80,45 @@
                     <p>Monthly Meetings</p>
                 </a>
             </li>
-            <li class="nav-item">
-                <a href="/directory/directory" class="nav-link {{ Request::is('directory/*') ? 'active' : ''}}">
+            <li class="nav-item has-treeview {{ Request::is('directory/*') ? 'menu-open' : ''}}">
+                <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-address-book"></i>
-                    <p>Directory</p>
+                    <p>Directory
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
                 </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/directory/search" class="nav-link {{ Request::path() === 'directory/search' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Search</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/directory/tmteams" class="nav-link {{ Request::path() === 'directory/tmteams' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>TM Teams</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/directory/uwteams" class="nav-link {{ Request::path() === 'directory/uwteams' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>UW Teams</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/directory/cdlteams" class="nav-link {{ Request::path() === 'directory/cdlteams' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>CDL Teams</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
 
             <li class="nav-item has-treeview {{ Request::is('learning/*') ? 'menu-open': ''}}">
