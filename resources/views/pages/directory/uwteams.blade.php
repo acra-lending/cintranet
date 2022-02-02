@@ -106,7 +106,7 @@
               </tr>
             </thead>
             <tbody>
-              @foreach($teamMembers as $teamMember)
+              @foreach($teamMembers->sortBy('name') as $teamMember)
               <tr><!-- if user->teamMember equals teamMembers -->
                 <!-- loop through users -->
                 <td><a href="/directory/user/{{$teamMember->id}}">{{$teamMember->name}}</a></td>
