@@ -38,10 +38,10 @@ Route::delete('usermanagement/wpusers/edit/{id}', 'BrokerPortalRequestsControlle
 Route::get('usermanagement/register', 'RegisterUsersController@index')->middleware('auth');
 Route::post('usermanagement/register', 'RegisterUsersController@create')->middleware('auth');
 
-Route::get('reports', 'ReportsController@index')->middleware('auth');
-Route::get('reports2', 'ReportsController@index2')->middleware('auth');
-Route::get('reports3', 'ReportsController@index3')->middleware('auth');
-Route::get('reports4', 'ReportsController@index4')->middleware('auth');
+// Route::get('reports', 'ReportsController@index')->middleware('auth');
+// Route::get('reports2', 'ReportsController@index2')->middleware('auth');
+// Route::get('reports3', 'ReportsController@index3')->middleware('auth');
+// Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 Route::get('reports5', 'ReportsController@index5')->middleware('auth');
 
 
