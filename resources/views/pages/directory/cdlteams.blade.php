@@ -60,6 +60,12 @@
           @foreach($consumerDirectTeams as $teams => $teamMembers)
           <table class="table table-bordered">
             <div class="center"><!-- loop through teamMembers -->
+              @if($teams == DB::table('s2zar_jsn_users')
+              ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+              ->where('position', 'Vice President, Retail')
+              ->value('name'))
+              @continue
+              @endif
                 <h3>Team {{$teams}} - Ext {{DB::table('s2zar_jsn_users')
                   ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
                   ->where('name', $teams)
