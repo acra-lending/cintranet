@@ -22,13 +22,6 @@ class DepartmentContactsController extends Controller
 
         $underwriting = collect($underwriting)->groupBy('team');
 
-        foreach($underwriting as $teamLeads => $teamLead) {
-            $ext[] = DB::table('s2zar_jsn_users')
-            ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-            ->where('name', $teamLeads)
-            ->get('extension');
-        }
-
         return view('pages.directory.uwteams')
         ->with([
             'underwriting'                => $underwriting,
@@ -61,7 +54,7 @@ class DepartmentContactsController extends Controller
     {
         $consumerDirectTeams = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('departments', 'Consumer Direct Lending')
+        ->where('departments', 'Retail')
         ->orderby('team', 'asc')
         ->get();
 
