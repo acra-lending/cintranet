@@ -191,7 +191,7 @@ class UploadController extends Controller
                     $filesize = $file->getSize();
                     $filesizeToStore = round($filesize * 0.0009765625, 2);
                     // Filename to store
-                    $fileNameToStore = 'Small Balance Multifamily Rate Sheet'.date('m-d-Y').'.'.$extension;
+                    $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').'.'.$extension;
                     
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
