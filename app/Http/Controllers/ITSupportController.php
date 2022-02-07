@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Mail\ITSupportMail;
 use App\Mail\ITSupportIssues;
+use App\Mail\ITSupportRequests;
 use App\Post;
 use App\User;
 use Mail;
@@ -130,7 +131,7 @@ class ITSupportController extends Controller
 
         $data = $request->all();
 
-        $mail = new ITSupportIssues($data);
+        $mail = new ITSupportRequests($data);
 
         $files = $request->file('attachment');
     

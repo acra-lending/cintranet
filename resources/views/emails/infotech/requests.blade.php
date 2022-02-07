@@ -1,5 +1,5 @@
 @component('mail::message')
-# Phone or Computer Issues Request from Cintranet
+# Report Request
 <hr/>
 
 <strong>Subject:</strong>
