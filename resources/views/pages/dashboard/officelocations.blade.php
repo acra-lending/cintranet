@@ -108,9 +108,9 @@
             </div>
             <div class="col-6">
                 <div class="callout callout-gray">
-                    <div class="ribbon-wrapper">
+                    {{-- <div class="ribbon-wrapper">
                         <div class="ribbon" style="background-color: var(--primary-color); color: #fff;">Pending</div>
-                    </div>
+                    </div> --}}
                 <a href="https://goo.gl/maps/gyjbPY52dD3Lk2M69" target="_blank" style="text-decoration: none;">
                     <h6>Missouri Office</h6>
                 </a>  
