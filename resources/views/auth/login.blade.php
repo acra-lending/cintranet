@@ -68,9 +68,9 @@
 
                         <div class="form-group row mb-0">
                             <div class="col-md-12 ">
-                                <button type="submit" class="btn btn-danger" style="width: 100%;">
-                                    {{ __('Login') }}
-                                </button>
+                                <a href="https://acralending.oktapreview.com/home/acralending_cintranet_1/0oa2j72gsjpS3Ae5B1d7/aln2j75vk2hDoKvg51d7" type="submit" class="btn btn-danger" style="width: 100%;">
+                                    {{ __('Login (Okta SSO)') }}
+                                </a>
                                 <br/>
                                 <br/>
                                 @if (Route::has('password.request'))
