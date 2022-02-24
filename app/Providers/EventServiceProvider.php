@@ -8,6 +8,8 @@ use Illuminate\Foundation\Support\Providers\EventServiceProvider as ServiceProvi
 use Illuminate\Support\Facades\Event;
 Use Aacotroneo\Saml2\Events\Saml2LoginEvent;
 use App\User;
+use App\Role;
+use DB;
 use Auth;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
@@ -52,16 +54,49 @@ class EventServiceProvider extends ServiceProvider
                 'assertion' => $user->getRawSamlAssertion()
             ];
 
-            // dd($userData);
+                //find user by ID or attribute
+                $laravelUser = User::where('email', $userData['id'])->first();
 
-                $laravelUser = User::where('email', $userData['id'])->first();//find user by ID or attribute
-                //if it does not exist create it and go on  or show an error message
-                // dd($laravelUser);
                 if ($laravelUser) {
-                    // dd($event);
+                    // login user
+                    // dd($userData);
                     Auth::login($laravelUser, true);
-                } else {
-                    dd('no user found');
+                } else { //if it does not exist create it and go on or show an error message
+                    // create user
+                    $firstname = $userData['attributes']['First Name'][0];
+                    $lastname = $userData['attributes']['Last Name'][0];
+                    $email = $userData['attributes']['Email'][0];
+                    $position = $userData['attributes']['Position'][0];
+                    $departments = $userData['attributes']['Department'][0];
+                    $directPhone = $userData['attributes']['Phone Number'][0];
+                    $ext = $userData['attributes']['Extension'][0];
+
+                    $role = Role::where('name', 'user')->first();
+
+                    $nameArray = array($firstname, $lastname);
+                    $name = implode(' ', $nameArray);
+
+                    $user = User::create([
+                        'name' => $name,
+                        'email' => $email,
+                    ]);
+
+                    $id = $user->id;
+
+                    $info = DB::table('s2zar_jsn_users')->insert([
+                        'id'            => $id,
+                        'firstname'     => $firstname,
+                        'lastname'      => $lastname,
+                        'directphone'   => $directPhone,
+                        'extension'     => $ext,
+                        // 'cell'          => $cellPhone,
+                        'departments'   => $departments
+                    ]);
+
+                    $user->assignRole($role);
+
+                    Auth::login($user, true);
+
                 }
         });
 

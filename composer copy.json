@@ -26,6 +26,7 @@
         "league/flysystem-sftp": "~1.0",
         "livewire/livewire": "^2.0",
         "maatwebsite/excel": "^3.1",
+        "php-mime-mail-parser/php-mime-mail-parser": "^7.0",
         "phpoffice/phpspreadsheet": "^1.14",
         "spatie/laravel-http-logger": "^1.7",
         "vimeo/laravel": "^5.6"
