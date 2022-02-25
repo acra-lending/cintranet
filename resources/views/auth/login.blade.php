@@ -24,7 +24,7 @@
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
 
-                        <div class="form-group row">
+                        {{-- <div class="form-group row">
                             <label for="email" class="col-md-6 col-form-label">{{ __('E-Mail Address') }}</label>
                         </div>
                             <div class="form-group row">
@@ -64,20 +64,23 @@
                                     </label>
                                 </div>
                             </div>
-                        </div>
+                        </div> --}}
 
                         <div class="form-group row mb-0">
                             <div class="col-md-12 ">
+                                <div class="text-center mb-3">
+                                    <img src="https://op3static.oktacdn.com/assets/img/logos/okta-logo.47066819ac7db5c13f4c431b2687cef6.png"> 
+                                </div>
                                 <a href="https://acralending.oktapreview.com/home/acralending_cintranet_1/0oa2j72gsjpS3Ae5B1d7/aln2j75vk2hDoKvg51d7" type="submit" class="btn btn-danger" style="width: 100%;">
-                                    {{ __('Login (Okta SSO)') }}
+                                    {{ __('Login') }}
                                 </a>
                                 <br/>
                                 <br/>
-                                @if (Route::has('password.request'))
+                                {{-- @if (Route::has('password.request'))
                                     <a class="p-0" href="{{ route('password.request') }}">
                                         {{ __('Forgot Your Password?') }}
                                     </a>
-                                @endif
+                                @endif --}}
                             </div>
                         </div>
                     </form>

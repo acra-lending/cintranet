@@ -63,39 +63,40 @@ class EventServiceProvider extends ServiceProvider
                     Auth::login($laravelUser, true);
                 } else { //if it does not exist create it and go on or show an error message
                     // create user
-                    $firstname = $userData['attributes']['First Name'][0];
-                    $lastname = $userData['attributes']['Last Name'][0];
-                    $email = $userData['attributes']['Email'][0];
-                    $position = $userData['attributes']['Position'][0];
-                    $departments = $userData['attributes']['Department'][0];
-                    $directPhone = $userData['attributes']['Phone Number'][0];
-                    $ext = $userData['attributes']['Extension'][0];
+                    return 'Login credentials not found';
+                    // $firstname = $userData['attributes']['First Name'][0];
+                    // $lastname = $userData['attributes']['Last Name'][0];
+                    // $email = $userData['attributes']['Email'][0];
+                    // $position = $userData['attributes']['Position'][0];
+                    // $departments = $userData['attributes']['Department'][0];
+                    // $directPhone = $userData['attributes']['Phone Number'][0];
+                    // $ext = $userData['attributes']['Extension'][0];
 
-                    $role = Role::where('name', 'user')->first();
+                    // $role = Role::where('name', 'user')->first();
 
-                    $nameArray = array($firstname, $lastname);
-                    $name = implode(' ', $nameArray);
+                    // $nameArray = array($firstname, $lastname);
+                    // $name = implode(' ', $nameArray);
 
-                    $user = User::create([
-                        'name' => $name,
-                        'email' => $email,
-                    ]);
+                    // $user = User::create([
+                    //     'name' => $name,
+                    //     'email' => $email,
+                    // ]);
 
-                    $id = $user->id;
+                    // $id = $user->id;
 
-                    $info = DB::table('s2zar_jsn_users')->insert([
-                        'id'            => $id,
-                        'firstname'     => $firstname,
-                        'lastname'      => $lastname,
-                        'directphone'   => $directPhone,
-                        'extension'     => $ext,
-                        // 'cell'          => $cellPhone,
-                        'departments'   => $departments
-                    ]);
+                    // $info = DB::table('s2zar_jsn_users')->insert([
+                    //     'id'            => $id,
+                    //     'firstname'     => $firstname,
+                    //     'lastname'      => $lastname,
+                    //     'directphone'   => $directPhone,
+                    //     'extension'     => $ext,
+                    //     // 'cell'          => $cellPhone,
+                    //     'departments'   => $departments
+                    // ]);
 
-                    $user->assignRole($role);
+                    // $user->assignRole($role);
 
-                    Auth::login($user, true);
+                    // Auth::login($user, true);
 
                 }
         });

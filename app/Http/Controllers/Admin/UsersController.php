@@ -189,7 +189,6 @@ class UsersController extends Controller
         
         $user->roles()->sync($request->roles);
 
-        
         return redirect('/usermanagement/profile/'.$user->id)->with('success', 'User Updated');
     }
 

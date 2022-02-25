@@ -8,11 +8,12 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Contracts\Auth\CanResetPassword;
 use App\Notifications\MailResetPasswordNotification;
 use Kyslik\ColumnSortable\Sortable;
+use Laravel\Passport\HasApiTokens;
 
 
 class User extends Authenticatable
 {
-    use Notifiable, Sortable;
+    use HasApiTokens, Notifiable, Sortable;
 
     // public $sortable = [ 'name', 'email', 'created_at', 'lastvisitDate' ];
 
