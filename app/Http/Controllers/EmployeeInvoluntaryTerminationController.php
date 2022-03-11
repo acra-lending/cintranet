@@ -59,7 +59,7 @@ class EmployeeInvoluntaryTerminationController extends Controller
             ->queue(new EmployeeInvoluntaryTermination($data));
         }
 
-        return redirect('/employee/termination')
+        return redirect('/humanresources/employee/termination')
             ->with('success', 'Request Form Sent');
     }
 }

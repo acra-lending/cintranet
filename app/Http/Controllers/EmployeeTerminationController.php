@@ -84,7 +84,7 @@ class EmployeeTerminationController extends Controller
             ->queue(new EmployeeTermination($data));
         }
 
-        return redirect('/employee/termination')
+        return redirect('/humanresources/employee/termination')
             ->with('success', 'Request Form Sent');
     }
 }

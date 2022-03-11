@@ -89,7 +89,7 @@ class EmployeeStatusChangeController extends Controller
             ->queue(new EmployeeStatusChange($data));
         }
 
-        return redirect('/employee/statuschange')
+        return redirect('/humanresources/employee/statuschange')
             ->with('success', 'Request Form Sent');
     }
 }

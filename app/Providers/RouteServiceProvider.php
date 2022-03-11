@@ -46,7 +46,8 @@ class RouteServiceProvider extends ServiceProvider
 
         $this->mapWebRoutes();
 
-        //
+        $this->mapScimRoutes();
+
     }
 
     /**
@@ -76,5 +77,19 @@ class RouteServiceProvider extends ServiceProvider
              ->middleware('api')
              ->namespace($this->namespace)
              ->group(base_path('routes/api.php'));
+    }
+    /**
+     * Define the "scim" routes for the application.
+     *
+     * These routes are typically stateless.
+     *
+     * @return void
+     */
+    protected function mapScimRoutes()
+    {
+        Route::prefix('scim')
+             ->middleware('api')
+             ->namespace($this->namespace)
+             ->group(base_path('routes/scim.php'));
     }
 }

@@ -83,7 +83,7 @@ class EmployeeNewHireController extends Controller
             ->queue(new NewHireForm($data));
         }
 
-        return redirect('/employee/newhire')
+        return redirect('/humanresources/employee/newhire')
             ->with('success', 'Request Form Sent');
     }
 

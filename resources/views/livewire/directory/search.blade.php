@@ -38,7 +38,7 @@
                     </div>
                     <div class="row float-right">
                         <div class="pt-3">
-                            <a href="/directory/directory" class="btn btn-dark mr-3">Reset</a>
+                            <a href="/directory/search" class="btn btn-dark mr-3">Reset</a>
                         </div>
                     </div>
                     @can('edit-posts')
