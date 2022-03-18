@@ -45,7 +45,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -67,7 +67,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -89,7 +89,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -133,7 +133,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
