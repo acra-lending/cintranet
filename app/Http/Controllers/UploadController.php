@@ -43,6 +43,138 @@ class UploadController extends Controller
         $categoryId = $request->input('category_id');
         $categoryIdSingle = reset($categoryId);
 
+        if($categoryIdSingle == 'ws3mbsAE') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = '3MBS Wholesale Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = '3MBS Wholesale Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'wsDscrAE') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Business Purpose Wholesale Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Business Purpose Wholesale Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'wsNonprimeAE') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Non-Prime Wholesale Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Non-Prime Wholesale Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
         if($categoryIdSingle == 'wsJumboPrimeAE') {
             //Handle File Upload
             if($request->hasFile('file')){
@@ -64,6 +196,182 @@ class UploadController extends Controller
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
                         $fileNameToStore = 'Jumbo Prime Wholesale Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'smallBalanceMultifamily') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'corr3mbsPdf') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = '3MBS Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = '3MBS Correspondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'corrDscrPdf') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Business Purpose Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Business Purpose Correspondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'corrNonprimePdf') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Non-Prime Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Non-Prime Correspondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                         $num++;
                     }
                     // Upload
@@ -131,7 +439,7 @@ class UploadController extends Controller
             }
         }
 
-        if($categoryIdSingle == 'corrJumboPrimeXlsx') {
+        if($categoryIdSingle == 'corr3mbsXlsx') {
             //Handle File Upload
             if($request->hasFile('file')){
             
@@ -147,11 +455,11 @@ class UploadController extends Controller
                     $filesize = $file->getSize();
                     $filesizeToStore = round($filesize * 0.0009765625, 2);
                     // Filename to store
-                    $fileNameToStore = 'Jumbo Prime Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    $fileNameToStore = '3MBS Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
                     
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                        $fileNameToStore = 'Jumbo Prime Corresondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $fileNameToStore = '3MBS Corresondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                         $num++;
                     }
                     // Upload
@@ -175,7 +483,7 @@ class UploadController extends Controller
             }
         }
 
-        if($categoryIdSingle == 'smallBalanceMultifamily') {
+        if($categoryIdSingle == 'corrDscrXlsx') {
             //Handle File Upload
             if($request->hasFile('file')){
             
@@ -191,11 +499,99 @@ class UploadController extends Controller
                     $filesize = $file->getSize();
                     $filesizeToStore = round($filesize * 0.0009765625, 2);
                     // Filename to store
-                    $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    $fileNameToStore = 'Business Purpose Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
                     
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                        $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $fileNameToStore = 'Business Purpose Corresondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'corrNonprimeXlsx') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Non-Prime Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Non-Prime Corresondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $num++;
+                    }
+                    // Upload
+                    $path = $file->storeAs('public/upload', $fileNameToStore);
+
+                    //Create Upload Post
+                    $post = new Post;
+                    $post->category_id = implode(',', $request->input('category_id'));
+                    // dd($request->input('category_id'));
+                    // $post->categories()->attach($request->categories_id);
+                    $post->filename = $fileNameToStore;
+                    $post->filesize = $filesizeToStore;
+                    $post->save();
+                        
+                }     
+                
+
+            // return back()->with('success', 'Upload Complete');
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+            }
+        }
+
+        if($categoryIdSingle == 'corrJumboPrimeXlsx') {
+            //Handle File Upload
+            if($request->hasFile('file')){
+            
+                foreach ($request->file('file') as $file){
+
+                    // Get filename with the extension
+                    $filenameWithExt = $file->getClientOriginalName();
+                    // Get just filename
+                    $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+                    // Get Just ext
+                    $extension = $file->getClientOriginalExtension();
+                    // Get filesize
+                    $filesize = $file->getSize();
+                    $filesizeToStore = round($filesize * 0.0009765625, 2);
+                    // Filename to store
+                    $fileNameToStore = 'Jumbo Prime Correspondent Rate Sheet '.date('m-d-Y').'.'.$extension;
+                    
+                    //Check if Filename exists
+                    while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                        $fileNameToStore = 'Jumbo Prime Corresondent Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                         $num++;
                     }
                     // Upload
