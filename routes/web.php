@@ -156,6 +156,10 @@ Route::put('update', 'UploadController@update')->middleware('auth');
 Route::delete('destroy{id}', 'UploadController@destroy')->middleware('auth');
 Route::get('mediamanager/uploadjumbo', 'JumboRatesheetUploadController@index')->middleware('auth');
 Route::post('mediamanager/uploadjumbo', 'JumboRatesheetUploadController@store')->middleware('auth');
+Route::get('mediamanager/uploadratesheets', 'WebRatesheetUploadController@index')->middleware('auth');
+Route::post('mediamanager/uploadnonprime', 'WebRatesheetUploadController@store_nonprime')->middleware('auth');
+Route::post('mediamanager/uploaddscr', 'WebRatesheetUploadController@store_dscr')->middleware('auth');
+Route::post('mediamanager/upload3mbs', 'WebRatesheetUploadController@store_3mbs')->middleware('auth');
 
 
 //File download
