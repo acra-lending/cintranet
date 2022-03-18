@@ -160,6 +160,8 @@ Route::get('mediamanager/uploadratesheets', 'WebRatesheetUploadController@index'
 Route::post('mediamanager/uploadnonprime', 'WebRatesheetUploadController@store_nonprime')->middleware('auth');
 Route::post('mediamanager/uploaddscr', 'WebRatesheetUploadController@store_dscr')->middleware('auth');
 Route::post('mediamanager/upload3mbs', 'WebRatesheetUploadController@store_3mbs')->middleware('auth');
+Route::post('mediamanager/uploadjumboprime', 'WebRatesheetUploadController@store_jumboprime')->middleware('auth');
+Route::post('mediamanager/uploadsbmf', 'WebRatesheetUploadController@store_sbmf')->middleware('auth');
 
 
 //File download

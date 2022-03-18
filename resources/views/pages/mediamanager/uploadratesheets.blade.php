@@ -8,7 +8,8 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">File Manager</h1>
+                <h1 class="m-0 text-dark">Ratesheets Web Upload</h1>
+                <p class=mt-2>This will update the ratesheets on the website</p>
             </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -29,7 +30,7 @@
         <section class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6" style="display:inline-block;">
+                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Non-Prime</b> Ratesheet Upload</h4>
@@ -51,7 +52,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6" style="display:inline-block;">
+                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Business Purpose / DSCR</b> Ratesheet Upload</h4>
@@ -73,7 +74,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6" style="display:inline-block;">
+                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>3-Month Bank Statement</b> Ratesheet Upload</h4>
@@ -95,7 +96,51 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-6">
+                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title">Wholesale <b>Jumbo Prime</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_jumboprime', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>Small Balance Multifamily</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_sbmf', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12 col-lg-6">
                         <div class="progress mt-3" hidden>
                             <div class="bar"></div>
                             <div class="percent">0%</div>
