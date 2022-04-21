@@ -275,6 +275,7 @@
                                                                     'Loan Officer' => [
                                                                         'retailLoanOfficerForms'    => 'Forms',
                                                                         'retailLoanOfficerChecklists'    => 'Checklists',
+                                                                        'retailLoanOfficerTraining'    => 'Training',
                                                                     ]
                                                                 ],
                                                                 'Servicing' => [

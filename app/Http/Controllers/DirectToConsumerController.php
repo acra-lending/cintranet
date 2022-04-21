@@ -55,6 +55,10 @@ class DirectToConsumerController extends Controller
         ->sortable('filename')
         ->get();
 
+        $retailLoanOfficerTraining = Post::whereRaw("find_in_set('retailLoanOfficerTraining', category_id)")
+        ->sortable('filename')
+        ->get();
+
 
         return view('pages.direct.documents')
         ->with([
@@ -70,6 +74,7 @@ class DirectToConsumerController extends Controller
             'retailProcessorChecklists'     => $retailProcessorChecklists,
             'retailLoanOfficerForms'        => $retailLoanOfficerForms,
             'retailLoanOfficerChecklists'   => $retailLoanOfficerChecklists,
+            'retailLoanOfficerTraining'   => $retailLoanOfficerTraining,
         ]);
     }
 
