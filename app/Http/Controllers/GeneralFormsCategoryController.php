@@ -59,9 +59,6 @@ class GeneralFormsCategoryController extends Controller
 
         //Admin Forms and Materials
         //Forms
-            $sbmfForms = Post::whereRaw("find_in_set('sbmfForms', category_id)")
-            ->sortable('filename')
-            ->get();
 
         //Training And Materials
         //Account Executive
@@ -105,7 +102,6 @@ class GeneralFormsCategoryController extends Controller
             'lettersQT'             => $lettersQT,
             'lettersUX'             => $lettersUX,
             'lettersYZ'             => $lettersYZ,
-            'sbmfForms'             => $sbmfForms,
             'trainingAe'            => $trainingAe,
             'trainingOps'           => $trainingOps,
             'trainingSystems'       => $trainingSystems,

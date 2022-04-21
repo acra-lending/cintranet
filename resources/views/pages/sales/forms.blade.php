@@ -57,18 +57,6 @@
                       </div>
                     </div>
                   </div>
-                  <!-- Small Balance Multifamily -->
-                  <div class="tab-pane fade show" id="nav-sbmf" role="tabpanel" aria-labelledby="nav-sbmf-tab">
-                    <div class="row">
-                      @include('pages.sales.partials.forms.sbmf.sbmftabs')
-                      <!-- Small Balance Multifamily Content -->
-                      <div class="col-sm-10">
-                        <div class="tab-content" id="vert-tabs-tabContent">
-                          @include('pages.sales.partials.forms.sbmf.sbmfforms')
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                   <!-- Training Materials -->
                   <div class="tab-pane fade show" id="nav-training" role="tabpanel" aria-labelledby="nav-training-tab">
                     <div class="row">
