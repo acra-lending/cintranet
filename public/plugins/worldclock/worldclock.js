@@ -63,9 +63,9 @@ if(day > monthDays[month]){
 if (region == "NAmerica"){
 	var startDST = new Date()
 	var endDST = new Date()
-	startDST.setMonth(3)
-	startDST.setHours(2)
-	startDST.setDate(1)
+	startDST.setMonth(2)
+	startDST.setHours(1)
+	startDST.setDate(12)
 	var dayDST = startDST.getDay()
 	if (dayDST != 0){
 		startDST.setDate(8-dayDST)
@@ -73,9 +73,9 @@ if (region == "NAmerica"){
 		else{
 		startDST.setDate(1)
 		}
-	endDST.setMonth(9)
+	endDST.setMonth(10)
 	endDST.setHours(1)
-	endDST.setDate(31)
+	endDST.setDate(5)
 	dayDST = endDST.getDay()
 	endDST.setDate(31-dayDST)
 	var currentTime = new Date()

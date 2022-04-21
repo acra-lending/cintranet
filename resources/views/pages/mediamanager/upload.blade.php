@@ -57,6 +57,16 @@
                                                                 'Operations' => [
                                                                     'deptContacts'  => 'Department Contacts',
                                                                     'salesDeptContacts'  => 'Sales Department Contacts',
+                                                                    'Empower' => [
+                                                                        'empowerLoanSetUp'              => 'Loan Set Up',
+                                                                        'empowerDisclosures'            => 'Disclosures',
+                                                                        'empowerAccountManagement'      => 'Account Management',
+                                                                        'empowerUnderwriting'           => 'Underwriting',
+                                                                        'empowerValuationSpecialist'    => 'Valuation Specialist',
+                                                                        'empowerClosingFunding'         => 'Closing/Funding',
+                                                                        'empowerPostClosing'            => 'Post Closing',
+                                                                        'empowerShipping'               => 'Shipping',
+                                                                    ],
                                                                     'Compliance' => [
                                                                         'disclosure'        => 'Disclosure',
                                                                         'important'         => 'Important',
@@ -148,21 +158,6 @@
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
-                                                                    ],
-                                                                    'Fix & Flip' => [
-                                                                        'fixAndFlipSystems'         => 'Systems',
-                                                                        'fixAndFlipInternalForms'   => 'Internal Forms',
-                                                                        'fixAndFlipVetting'         => 'Agent Verification',
-                                                                        'fixAndFlipIntake'          => 'Intake',
-                                                                        'fixAndFlipProcessing'      => 'Processing',
-                                                                        'fixAndFlipUw'              => 'Underwriting',
-                                                                        'fixAndFlipFunding'         => 'Funding',
-                                                                        'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
-                                                                    ],
-                                                                    'Small Balance Multifamily' => [
-                                                                        'sbmfSystems'         => 'Systems',
-                                                                        'sbmfInternalForms'   => 'Internal Forms',
-                                                                        'sbmfGuidelines'      => 'Guidelines',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [
@@ -203,15 +198,23 @@
                                                                     'Wholesale' => [
                                                                         'wholesaleDocs'     => 'Documents',
                                                                     ],
-                                                                    'Correspondents' => [
-                                                                        'corrDocs'          => 'Documents',
+                                                                    'Correspondent' => [
+                                                                        'corrDocs'              => 'Documents',
+                                                                        'corrForms'             => 'Forms',
+                                                                        'corrJobaides'          => 'Job Aides',
                                                                         // 'flyersForBrokers'  => 'Flyers',
                                                                         // 'corrIncentive'     => 'Incentive Program',
                                                                         // 'social'            => 'LinkedIn/Social Posting Images',
                                                                         // 'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
                                                                     'Fix & Flip' => [
-                                                                        'fixAndFlipDocs'          => 'Documents',
+                                                                        'fixAndFlipSystems'         => 'Systems',
+                                                                        'fixAndFlipDocs'            => 'References',
+                                                                        'fixAndFlipInternalForms'   => 'Internal Forms',
+                                                                        'fixAndFlipProcessing'      => 'Processing',
+                                                                        'fixAndFlipUw'              => 'Underwriting',
+                                                                        'fixAndFlipFunding'         => 'Funding',
+                                                                        'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ],
                                                                     'Sales Tool Kit' => [
                                                                         'salesTools'        => 'Sales Tool Kit',
@@ -253,10 +256,26 @@
                                                                     ]
                                                                 ],
                                                                 'Consumer Direct' => [
-                                                                    'retailDocs'            => 'Documents',
-                                                                    'retailMLO'             => 'MLO Licenses',
-                                                                    'retailEmailTemplates'  => 'Email Templates',
-                                                                    'retailSocialMedia'    => 'Social Media'
+                                                                    'References' => [
+                                                                        'retailDocs'            => 'Documents',
+                                                                        'retailMLO'             => 'MLO Licenses',
+                                                                    ],
+                                                                    'Marketing' => [
+                                                                        'retailEmailTemplates'  => 'Email Templates',
+                                                                        'retailSocialMedia'    => 'Social Media',
+                                                                    ],
+                                                                    'Jr Processor' => [
+                                                                        'retailJrProcessorForms'    => 'Forms',
+                                                                        'retailJrProcessorChecklists'    => 'Checklists',
+                                                                    ],
+                                                                    'Processor' => [
+                                                                        'retailProcessorForms'    => 'Forms',
+                                                                        'retailProcessorChecklists'    => 'Checklists',
+                                                                    ],
+                                                                    'Loan Officer' => [
+                                                                        'retailLoanOfficerForms'    => 'Forms',
+                                                                        'retailLoanOfficerChecklists'    => 'Checklists',
+                                                                    ]
                                                                 ],
                                                                 'Servicing' => [
                                                                     'callScripts'           => 'Call Scripts',

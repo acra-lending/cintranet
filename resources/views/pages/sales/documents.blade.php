@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Documents</h1>
+                <h1 class="m-0 text-dark">Wholesale</h1>
             </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -80,8 +80,8 @@
                   
                   <div class="tab-content" id="nav-tabContent">
                     @include('pages.sales.partials.documents.wholesale')
-                    @include('pages.sales.partials.documents.correspondent')
-                    @include('pages.sales.partials.documents.fixandflip')
+                    {{-- @include('pages.sales.partials.documents.correspondent')
+                    @include('pages.sales.partials.documents.fixandflip') --}}
                     @include('pages.sales.partials.documents.salestools')
                 </div>
               </div>

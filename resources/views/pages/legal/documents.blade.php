@@ -74,6 +74,7 @@
                   </h3>
                 </div>
                 <div class="card-body">
+                  <p>All Documents, Videos & Information provided by Legal are for <strong>Acra Internal Use Only</strong> and <u>Should Not and May Not Be Distributed to External Parties</u> without the express written consent and approval of the Legal Department.</p>
 
                   {{-- <nav>
                     <div class="nav nav-tabs" id="nav-tab" role="tablist">

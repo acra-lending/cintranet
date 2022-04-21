@@ -61,10 +61,10 @@ class JumboRatesheetUploadController extends Controller
             $post->save();
 
             //Send mail to all company users
-            foreach ($users as $recipient) {
-                Mail::to($recipient)
-                ->queue(new JumboPrimeRatesheetUpdate());
-            }
+            // foreach ($users as $recipient) {
+            //     Mail::to($recipient)
+            //     ->queue(new JumboPrimeRatesheetUpdate());
+            // }
 
             
             // $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [

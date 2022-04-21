@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Videos</h1>
+                <h1 class="m-0 text-dark">Consumer Direct Lending</h1>
             </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -135,7 +135,7 @@
                 <div class="card card-danger">
                 <div class="card-header">
                     <div class="card-title">
-                    Training
+                    Training Videos
                     </div>
                 </div>
                 <div class="card-body">

@@ -95,7 +95,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/directory/tmteams" class="nav-link {{ Request::path() === 'directory/tmteams' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
@@ -118,7 +118,7 @@
                             <p>CDL Teams</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
             </li>
 
             <li class="nav-item has-treeview {{ Request::is('learning/*') ? 'menu-open': ''}}">
@@ -395,6 +395,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/operations/empower" class="nav-link {{ Request::path() === 'operations/empower' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Empower - Wholesale</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/operations/usefullinks" class="nav-link {{ Request::path() === 'operations/usefullinks' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Useful Links</p>
@@ -410,11 +418,16 @@
                     </li>
                 </ul>
             </li>
-            
+            <li class="nav-item">
+                <a href="/ratesheets" class="nav-link {{ Request::path() === 'ratesheets' ? 'active': ''}}">
+                    <i class="nav-icon fas fa-table"></i>
+                    <p>Rate Sheets</p>
+                </a>
+            </li>            
             <li class="nav-item has-treeview {{ Request::is('sales/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-hand-holding-usd"></i>
-                    <p>Sales
+                    <p>Wholesale
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -430,9 +443,9 @@
                 @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/sales/ratesheets" class="nav-link {{ Request::path() === 'sales/ratesheets' ? 'active': ''}}">
+                        <a href="/sales/documents" class="nav-link {{ Request::path() === 'sales/documents' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Rate Sheets</p>
+                            <p>Documents</p>
                         </a>
                     </li>
                 </ul>
@@ -452,14 +465,6 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item">
-                        <a href="/sales/documents" class="nav-link {{ Request::path() === 'sales/documents' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Documents</p>
-                        </a>
-                    </li>
-                </ul>
                 {{-- @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
@@ -475,6 +480,38 @@
                         <a href="/sales/videos" class="nav-link {{ Request::path() === 'sales/videos' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item has-treeview {{ Request::is('correspondent/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-user-tie"></i>
+                    <p>Correspondent
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/documents" class="nav-link {{ Request::path() === 'correspondent/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Forms</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/jobaides" class="nav-link {{ Request::path() === 'correspondent/jobaides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Job Aides</p>
                         </a>
                     </li>
                 </ul>
@@ -502,7 +539,30 @@
                     </li>
                 </ul>
             </li>
-
+            <li class="nav-item has-treeview {{ Request::is('fixandflip/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-tools"></i>
+                    <p>Fix & Flip
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/fixandflip/documents" class="nav-link {{ Request::path() === 'fixandflip/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/fixandflip/forms" class="nav-link {{ Request::path() === 'fixandflip/forms' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Forms</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
             <li class="nav-item">
                 <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
                     <i class="nav-icon fas fa-rocket"></i>
@@ -583,14 +643,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/mediamanager/uploadjumbo" class="nav-link {{ Request::path() === 'mediamanager/uploadjumbo' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Jumbo Prime Upload</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/mediamanager/uploadratesheets" class="nav-link {{ Request::path() === 'mediamanager/uploadratesheets' ? 'active': ''}}">

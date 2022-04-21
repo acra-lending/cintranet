@@ -311,56 +311,6 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-------------
-        //Fix And Flip
-        //-------------
-        $fixAndFlipSystems = Post::whereRaw("find_in_set('fixAndFlipSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipInternalForms = Post::whereRaw("find_in_set('fixAndFlipInternalForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipVetting = Post::whereRaw("find_in_set('fixAndFlipVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipIntake = Post::whereRaw("find_in_set('fixAndFlipIntake', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $fixAndFlipProcessing = Post::whereRaw("find_in_set('fixAndFlipProcessing', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $fixAndFlipUw = Post::whereRaw("find_in_set('fixAndFlipUw', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipFunding = Post::whereRaw("find_in_set('fixAndFlipFunding', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipWelcomeForms = Post::whereRaw("find_in_set('fixAndFlipWelcomeForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Small Balance Multifamily
-        //-------------
-        $sbmfSystems = Post::whereRaw("find_in_set('sbmfSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $sbmfInternalForms = Post::whereRaw("find_in_set('sbmfInternalForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $sbmfGuidelines = Post::whereRaw("find_in_set('sbmfGuidelines', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
         //Jr Underwriter
         //-------------
         $jrUW = Post::whereRaw("find_in_set('jrUW', category_id)")
@@ -458,17 +408,6 @@ class OperationsFormsController extends Controller
             'jrProcessorForms'  => $jrProcessorForms,
             'processorForms'    => $processorForms,
             'nda'           => $nda,
-            'fixAndFlipSystems'         => $fixAndFlipSystems,
-            'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
-            'fixAndFlipVetting'         => $fixAndFlipVetting,           
-            'fixAndFlipIntake'          => $fixAndFlipIntake,
-            // 'fixAndFlipProcessing'      => $fixAndFlipProcessing,
-            'fixAndFlipUw'              => $fixAndFlipUw,
-            'fixAndFlipFunding'         => $fixAndFlipFunding,
-            'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
-            'sbmfSystems'           => $sbmfSystems,
-            'sbmfInternalForms'     => $sbmfInternalForms,
-            'sbmfGuidelines'        => $sbmfGuidelines,
             'jrUW'                  => $jrUW,
             'prescreen'             => $prescreen,
             'vettingClerk'          => $vettingClerk,

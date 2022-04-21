@@ -1,18 +1,18 @@
-<div class="tab-pane fade show active" id="nav-wholesale" role="tabpanel" aria-labelledby="nav-wholesale-tab">
+<div class="tab-pane fade show active" id="nav-references" role="tabpanel" aria-labelledby="nav-references-tab">
     <div class="row">
       <div class="col-sm-2">
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="vert-tabs-wholesale-docs-tab" data-toggle="pill" href="#vert-tabs-wholesale-docs" role="tab" aria-controls="vert-tabs-wholesale-docs" aria-selected="true">Documents</a>
+          <a class="nav-link active" id="vert-tabs-reference-docs-tab" data-toggle="pill" href="#vert-tabs-reference-docs" role="tab" aria-controls="vert-tabs-reference-docs" aria-selected="true">Documents</a>
           <a class="nav-link" id="vert-tabs-dept-contacts-tab" data-toggle="pill" href="#vert-tabs-dept-contacts" role="tab" aria-controls="vert-tabs-dept-contacts" aria-selected="true">Department Contacts</a>
         </div>
       </div>
       <div class="col-sm-10">
         <div class="tab-content" id="vert-tabs-tabContent">
-          <div class="tab-pane text-left fade show active" id="vert-tabs-wholesale-docs" role="tabpanel" aria-labelledby="vert-tabs-wholesale-docs-tab">       
+          <div class="tab-pane text-left fade show active" id="vert-tabs-reference-docs" role="tabpanel" aria-labelledby="vert-tabs-reference-docs-tab">       
             <div class="col">
               <div class="card card-dark ">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Wholesale Documents</h3>
+                  <h3 class="card-title">Documents</h3>
                   <div class="card-tools">
                     </a>
                   </div>

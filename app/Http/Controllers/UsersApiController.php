@@ -76,6 +76,7 @@ class UsersApiController extends Controller
 
         if (User::where('email', $data['emails'][0]['value'])->exists()) {
             return $this->scimError('User already exists', Response::HTTP_CONFLICT);
+            // return response()->setStatusCode(Response::HTTP_OK);
         } else {
     
             $firstname = $data['name']['givenName'];
@@ -140,6 +141,8 @@ class UsersApiController extends Controller
             $user = User::where('email', $id)->firstOrFail();
         } catch (\Exception $exception) {
             return $this->scimError('User does not exist', Response::HTTP_NOT_FOUND);
+            // return response()->setStatusCode(Response::HTTP_OK);
+
         }
         return UserResource::make($user)
             ->response()
@@ -159,6 +162,8 @@ class UsersApiController extends Controller
 
         if (!User::where('email', $id)->first()) {
             return $this->scimError('User does not exist', Response::HTTP_NOT_FOUND);
+            // return response()->setStatusCode(Response::HTTP_OK);
+
         } else {
 
             $firstname = $data['name']['givenName'];

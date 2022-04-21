@@ -107,7 +107,7 @@
 
 @push('includes.scripts')
 <!-- World Clock -->
-<script src="{{ asset('plugins/worldclock/worldclock.js') }}"></script>
+<script src="{{ asset('plugins/worldclock/worldclock.js?version=1') }}"></script>
 <script src="{{ asset ('js/pages/worldclockzone.js') }}"></script>
 <!-- JQVMap -->
 <script src="{{ asset ('plugins/jqvmap/jquery.vmap.min.js') }}"></script>

@@ -83,11 +83,12 @@ Route::get('directory/uwteams', 'DepartmentContactsController@uwteams')->middlew
 Route::get('directory/tmteams', 'DepartmentContactsController@tmteams')->middleware('auth');
 Route::get('directory/cdlteams', 'DepartmentContactsController@cdlteams')->middleware('auth');
 
+//Ratesheets
+Route::get('ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
 
-//Sales
+//Wholesale
 Route::get('sales/data', function(){return view('pages.sales.data');})->middleware('auth'); // Coming Soon
 Route::get('sales/forms', 'GeneralFormsCategoryController@index')->middleware('auth');
-Route::get('sales/ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
 Route::get('sales/flyers', 'FlyersController@index')->middleware('auth');
 Route::get('sales/documents', 'SalesDocumentsController@index')->middleware('auth');
 Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->middleware('auth');
@@ -95,10 +96,19 @@ Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->m
 // Route::post('sales/submissions', 'SubmissionsController@update')->middleware('auth');
 // Route::get('sales/videos', 'SalesDocumentsController@videos')->middleware('auth');
 
-//Direct-To-Consumer
+//Correspondent
+Route::get('correspondent/documents', 'CorrespondentDocumentsController@index')->middleware('auth');
+Route::get('correspondent/forms', 'CorrespondentFormsController@index')->middleware('auth');
+Route::get('correspondent/jobaides', 'CorrespondentJobaidesController@index')->middleware('auth');
+
+
+//Consumer Direct
 Route::get('consumerdirect/documents', 'DirectToConsumerController@index')->middleware('auth');
 Route::get('consumerdirect/videos', 'VideosController@consumerDirect')->middleware('auth');
 
+//Fix and Flip
+Route::get('fixandflip/documents', 'FixandFlipDocumentsController@index')->middleware('auth');
+Route::get('fixandflip/forms', 'FixandFlipFormsController@index')->middleware('auth');
 
 //Marketing
 Route::get('marketing', 'MarketingController@index')->middleware('auth');
@@ -108,6 +118,7 @@ Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 Route::get('operations/processes', 'OperationsProcessesController@index')->middleware('auth');
+Route::get('operations/empower', 'OperationsEmpowerController@index')->middleware('auth');
 Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
 Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->middleware('auth');
 Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');

@@ -200,7 +200,7 @@ class RatesheetCategoryController extends Controller
                                     ->get();
         
         
-        return view('pages.sales.ratesheets')
+        return view('pages.ratesheets.ratesheets')
                 ->with([
                     'wsOmbsvoeAE'         => $wsOmbsvoeAE,
                     'wsNonprimeAE'        => $wsNonprimeAE,

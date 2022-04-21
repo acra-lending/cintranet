@@ -26,7 +26,7 @@ Route::middleware('client_credentials', 'request.logging')->prefix('v2')->group(
 
     Route::get('Users/{id}', 'UsersApiController@show')->name('api.user.get');
 
-    Route::post('Users', 'UsersApiController@store')->name('api.user.create');
+    Route::post('Users', 'UsersApiController@replace')->name('api.user.create');
 
     Route::put('Users/{id}', 'UsersApiController@replace')->name('api.user.replace');
 

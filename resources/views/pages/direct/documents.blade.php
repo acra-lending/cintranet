@@ -8,7 +8,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Documents</h1>
+                <h1 class="m-0 text-dark">Consumer Direct Lending</h1>
             </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -81,7 +81,9 @@
 
                     @include('pages.direct.partials.documents')
                     @include('pages.direct.partials.collaterals')
-
+                    @include('pages.direct.partials.jrprocessor')
+                    @include('pages.direct.partials.processor')
+                    @include('pages.direct.partials.loanofficer')
                 </div>
               </div>
             </div>
