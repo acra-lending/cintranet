@@ -10,7 +10,7 @@
     <div class="card-body">
         <div class="container d-flex" style="align-items: center; justify-content: space-between;">
         <div style="text-align: center;">
-            <a href="sales/ratesheets">
+            <a href="/ratesheets">
             <p>Rate Sheets</p>
             <i class="fas fa-table" style="font-size: 32pt;"></i>
             </a>
