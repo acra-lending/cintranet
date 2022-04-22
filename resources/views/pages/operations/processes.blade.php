@@ -45,6 +45,7 @@
                         @include('pages.operations.partials.processes.loansetup')
                         @include('pages.operations.partials.processes.tm')
                         @include('pages.operations.partials.processes.uw')
+                        @include('pages.operations.partials.processes.fixandflip')
                       </div>
                     </div>
                   </div>

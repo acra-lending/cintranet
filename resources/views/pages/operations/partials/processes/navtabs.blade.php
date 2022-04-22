@@ -7,4 +7,5 @@
     <a class="nav-item nav-link" id="vert-tabs-lsu-tab" data-toggle="tab" href="#vert-tabs-lsu" role="tab" aria-controls="vert-tabs-lsu" aria-selected="false">Loan Set Up</a>
     <a class="nav-item nav-link" id="vert-tabs-tm-tab" data-toggle="tab" href="#vert-tabs-tm" role="tab" aria-controls="vert-tabs-tm" aria-selected="false">Transaction Manager</a>
     <a class="nav-item nav-link" id="vert-tabs-uw-tab" data-toggle="tab" href="#vert-tabs-uw" role="tab" aria-controls="vert-tabs-uw" aria-selected="false">Underwriting</a>
+    <a class="nav-item nav-link" id="vert-tabs-fix-and-flip-tab" data-toggle="tab" href="#vert-tabs-fix-and-flip" role="tab" aria-controls="vert-tabs-fix-and-flip" aria-selected="false">Fix & Flip</a>
   </div>
