@@ -10,6 +10,10 @@ class OperationsEmpowerController extends Controller
     public function index()
     {
    
+        $empowerBrokerPortal = Post::whereRaw("find_in_set('empowerBrokerPortal', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $empowerLoanSetUp = Post::whereRaw("find_in_set('empowerLoanSetUp', category_id)")
         ->sortable('filename')
         ->get();
@@ -44,6 +48,7 @@ class OperationsEmpowerController extends Controller
 
 
         return view('pages.operations.empower', [
+            'empowerBrokerPortal'         => $empowerBrokerPortal,
             'empowerLoanSetUp'            => $empowerLoanSetUp,
             'empowerDisclosures'          => $empowerDisclosures,
             'empowerAccountManagement'    => $empowerAccountManagement,

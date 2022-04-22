@@ -37,6 +37,7 @@
                     </div>
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
+                        @include('pages.operations.partials.empower.brokerportal')
                         @include('pages.operations.partials.empower.loansetup')
                         @include('pages.operations.partials.empower.disclosures')  
                         @include('pages.operations.partials.empower.accountmanagement')

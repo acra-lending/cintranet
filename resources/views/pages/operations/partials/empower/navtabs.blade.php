@@ -1,5 +1,6 @@
   <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-    <a class="nav-item nav-link active" id="vert-tabs-loan-set-up-tab" data-toggle="tab" href="#vert-tabs-loan-set-up" role="tab" aria-controls="vert-tabs-loan-set-up" aria-selected="false">Loan Set Up</a>
+    <a class="nav-item nav-link active" id="vert-tabs-broker-portal-tab" data-toggle="tab" href="#vert-tabs-broker-portal" role="tab" aria-controls="vert-tabs-broker-portal" aria-selected="false">Broker Portal</a>
+    <a class="nav-item nav-link" id="vert-tabs-loan-set-up-tab" data-toggle="tab" href="#vert-tabs-loan-set-up" role="tab" aria-controls="vert-tabs-loan-set-up" aria-selected="false">Loan Set Up</a>
     <a class="nav-item nav-link" id="vert-tabs-disclosures-tab" data-toggle="tab" href="#vert-tabs-disclosures" role="tab" aria-controls="vert-tabs-disclosures" aria-selected="false">Disclosures</a>
     <a class="nav-item nav-link" id="vert-tabs-account-management-tab" data-toggle="tab" href="#vert-tabs-account-management" role="tab" aria-controls="vert-tabs-account-management" aria-selected="false">Account Management</a>
     <a class="nav-item nav-link" id="vert-tabs-underwriting-tab" data-toggle="tab" href="#vert-tabs-underwriting" role="tab" aria-controls="vert-tabs-underwriting" aria-selected="false">Underwriting</a>

@@ -58,6 +58,7 @@
                                                                     'deptContacts'  => 'Department Contacts',
                                                                     'salesDeptContacts'  => 'Sales Department Contacts',
                                                                     'Empower' => [
+                                                                        'empowerBrokerPortal'           => 'Broker Portal',
                                                                         'empowerLoanSetUp'              => 'Loan Set Up',
                                                                         'empowerDisclosures'            => 'Disclosures',
                                                                         'empowerAccountManagement'      => 'Account Management',
