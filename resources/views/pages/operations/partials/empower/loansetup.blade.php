@@ -2,7 +2,7 @@
   <div class="col">
     <div class="card card-dark">
       <div class="card-header border-0">
-        <h3 class="card-title">Broker Portal</h3>
+        <h3 class="card-title">Loan Set Up</h3>
       </div>
       <div class="card-body table-responsive p-0">
         <table class="table">
