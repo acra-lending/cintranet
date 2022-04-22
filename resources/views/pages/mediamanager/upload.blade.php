@@ -159,6 +159,21 @@
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
+                                                                    ],
+                                                                    'Fix & Flip' => [
+                                                                        'fixAndFlipSystems'         => 'Systems',
+                                                                        'fixAndFlipInternalForms'   => 'Internal Forms',
+                                                                        'fixAndFlipVetting'         => 'Agent Verification',
+                                                                        'fixAndFlipIntake'          => 'Intake',
+                                                                        'fixAndFlipProcessing'      => 'Processing',
+                                                                        'fixAndFlipUw'              => 'Underwriting',
+                                                                        'fixAndFlipFunding'         => 'Funding',
+                                                                        'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
+                                                                    ],
+                                                                    'Small Balance Multifamily' => [
+                                                                        'sbmfSystems'         => 'Systems',
+                                                                        'sbmfInternalForms'   => 'Internal Forms',
+                                                                        'sbmfGuidelines'      => 'Guidelines',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [
