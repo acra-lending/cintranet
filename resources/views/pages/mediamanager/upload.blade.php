@@ -154,6 +154,18 @@
                                                                     'Jr Processor' => [
                                                                         'jrProcessorForms'      => 'Internal Forms',
                                                                     ],
+                                                                    'Jr Underwriter' => [
+                                                                        'jrUW'                => 'Jr Underwriter',
+                                                                    ],
+                                                                    'Pre-Screen' => [
+                                                                        'prescreen'         => 'Pre-Screen',
+                                                                    ],
+                                                                    'Post Close-Funding' => [
+                                                                        'postCloseFunding'  => 'Post Close-Funding',
+                                                                    ],
+                                                                    'Post Close-Shipping' => [
+                                                                        'postCloseShipping' => 'Post Close-Shipping',
+                                                                    ],
                                                                     'Processor' => [
                                                                         'processorForms'      => 'Internal Forms',
                                                                     ],
