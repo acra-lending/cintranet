@@ -179,7 +179,7 @@
                                                                         'fixAndFlipIntake'          => 'Loan Set Up',
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',
-                                                                        'fixAndFlipFunding'         => 'Funding',
+                                                                        'fixAndFlipFunding'         => 'Closing/Funding',
                                                                         'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ],
                                                                     'Small Balance Multifamily' => [
@@ -237,11 +237,11 @@
                                                                     ],
                                                                     'Fix & Flip' => [
                                                                         'fixAndFlipSystems'         => 'Systems',
-                                                                        'fixAndFlipDocs'            => 'References',
+                                                                        'fixAndFlipDocs'            => 'Documents',
                                                                         'fixAndFlipInternalForms'   => 'Internal Forms',
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',
-                                                                        'fixAndFlipFunding'         => 'Funding',
+                                                                        'fixAndFlipFunding'         => 'Closing/Funding',
                                                                         'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ],
                                                                     'Sales Tool Kit' => [
