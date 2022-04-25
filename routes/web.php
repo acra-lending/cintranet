@@ -51,7 +51,10 @@ Route::get('/monthlymeetings', 'VideosController@monthlymeetings')->middleware('
 Route::get('/operations/videos', 'VideosController@operations')->middleware('auth');
 Route::get('/humanresources/videos', 'VideosController@humanresources')->middleware('auth');
 Route::get('/infotech/videos', 'VideosController@infotech')->middleware('auth');
+Route::get('/consumerdirect/videos', 'VideosController@consumerDirect')->middleware('auth');
 Route::get('/legal/videos', 'VideosController@legal')->middleware('auth');
+Route::get('/fixandflip/videos', 'VideosController@fixandflip')->middleware('auth');
+
 
 //Learning And Development
 Route::get('learning/courses/fullcalendar', 'FullCalendarController@index')->name('index')->middleware('auth');
@@ -104,7 +107,6 @@ Route::get('correspondent/jobaides', 'CorrespondentJobaidesController@index')->m
 
 //Consumer Direct
 Route::get('consumerdirect/documents', 'DirectToConsumerController@index')->middleware('auth');
-Route::get('consumerdirect/videos', 'VideosController@consumerDirect')->middleware('auth');
 
 //Fix and Flip
 Route::get('fixandflip/documents', 'FixandFlipDocumentsController@index')->middleware('auth');

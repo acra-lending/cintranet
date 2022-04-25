@@ -562,6 +562,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/fixandflip/videos" class="nav-link {{ Request::path() === 'fixandflip/videos' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
             </li>
             <li class="nav-item">
                 <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
