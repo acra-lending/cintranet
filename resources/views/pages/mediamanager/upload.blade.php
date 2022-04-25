@@ -176,7 +176,7 @@
                                                                         'fixAndFlipSystems'         => 'Systems',
                                                                         'fixAndFlipInternalForms'   => 'Internal Forms',
                                                                         'fixAndFlipVetting'         => 'Agent Verification',
-                                                                        'fixAndFlipIntake'          => 'Intake',
+                                                                        'fixAndFlipIntake'          => 'Loan Set Up',
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',
                                                                         'fixAndFlipFunding'         => 'Funding',

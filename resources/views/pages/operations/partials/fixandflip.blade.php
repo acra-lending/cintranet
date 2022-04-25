@@ -8,8 +8,8 @@
           <a class="nav-link" id="vert-tabs-fix-and-flip-intake-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-intake" role="tab" aria-controls="vert-tabs-fix-and-flip-intake" aria-selected="true">Intake</a>
           {{-- <a class="nav-link" id="vert-tabs-fix-and-flip-processing-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-processing" role="tab" aria-controls="vert-tabs-fix-and-flip-processing" aria-selected="true">Processing</a> --}}
           <a class="nav-link" id="vert-tabs-fix-and-flip-uw-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-uw" role="tab" aria-controls="vert-tabs-fix-and-flip-uw" aria-selected="true">Fix & Flip UW</a>
-          <a class="nav-link" id="vert-tabs-fix-and-flip-funding-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-funding" role="tab" aria-controls="vert-tabs-fix-and-flip-funding" aria-selected="true">Fix & Flip Funding</a>
-          <a class="nav-link" id="vert-tabs-fix-and-flip-welcome-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-welcome" role="tab" aria-controls="vert-tabs-fix-and-flip-welcome" aria-selected="true">Welcome Letter & Required Forms</a>
+          <a class="nav-link" id="vert-tabs-fix-and-flip-funding-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-funding" role="tab" aria-controls="vert-tabs-fix-and-flip-funding" aria-selected="true">Fix & Flip Closing/Funding</a>
+          {{-- <a class="nav-link" id="vert-tabs-fix-and-flip-welcome-tab" data-toggle="pill" href="#vert-tabs-fix-and-flip-welcome" role="tab" aria-controls="vert-tabs-fix-and-flip-welcome" aria-selected="true">Welcome Letter & Required Forms</a> --}}
         </div>
       </div>
       <div class="col-sm-12 col-md-9 col-lg-9">
@@ -301,7 +301,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Fix & Flip Funding</h3>
+                  <h3 class="card-title">Fix & Flip Closing/Funding</h3>
                   <div class="card-tools">
                     </a>
                   </div>
@@ -343,7 +343,7 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane text-left fade show" id="vert-tabs-fix-and-flip-welcome" role="tabpanel" aria-labelledby="vert-tabs-fix-and-flip-welcome-tab">
+          {{-- <div class="tab-pane text-left fade show" id="vert-tabs-fix-and-flip-welcome" role="tabpanel" aria-labelledby="vert-tabs-fix-and-flip-welcome-tab">
             <!-- /.content-header -->        
             <div class="col">
               <div class="card card-dark">
@@ -389,7 +389,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          </div> --}}
         </div>
       </div>
     </div>
