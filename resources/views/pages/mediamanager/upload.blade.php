@@ -202,6 +202,8 @@
                                                                     ],
                                                                     'Fix & Flip' => [
                                                                         'smallBalanceMultifamily'    => 'Small Balance Multifamily', 
+                                                                        'ffSingleFamily'             => 'Stabilized Bridge Single Family',
+                                                                        'ffMultiFamily'              => 'Stabilized Bridge Multi Family',
                                                                     ],
                                                                     'Correspondent' => [
                                                                         'PDF' => [

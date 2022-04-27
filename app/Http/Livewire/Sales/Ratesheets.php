@@ -51,6 +51,16 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
+        //Fix & Flip
+        $ffSingleFamily = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
+        $ffMultiFamily = Post::whereRaw("find_in_set('ffMultiFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
+
 
         //AE Wholesale Past Ratesheets
         $wsOmbsvoeAE_past = Post::whereRaw("find_in_set('wsOmbsvoeAE', category_id)")
@@ -73,10 +83,6 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
-        $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
-        ->orderBy('created_at', 'desc')
-        // ->skip(1)
-        ->simplePaginate(5);
         $wsOdfAE_past = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
@@ -85,6 +91,21 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
+        
+        //Fix & Flip
+        $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $ffSingleFamily_past = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $ffMultiFamily_past = Post::whereRaw("find_in_set('ffMultiFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+
 
 
         //Correspondent Current Ratesheets PDF
@@ -181,6 +202,8 @@ class Ratesheets extends Component
             'wsNonprimeAE'        => $wsNonprimeAE,
             'wsJumboPrimeAE'        => $wsJumboPrimeAE,
             'smallBalanceMultifamily' => $smallBalanceMultifamily,
+            'ffSingleFamily'          => $ffSingleFamily,
+            'ffMultiFamily'           => $ffMultiFamily,
             'ws3mbsAE'            => $ws3mbsAE,
             'wsDscrAE'            => $wsDscrAE,
             'wsOdfAE'             => $wsOdfAE,
@@ -189,6 +212,8 @@ class Ratesheets extends Component
             'wsNonprimeAE_past'   => $wsNonprimeAE_past,
             'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
             'smallBalanceMultifamily_past'   => $smallBalanceMultifamily_past,
+            'ffSingleFamily_past'            => $ffSingleFamily_past,
+            'ffMultiFamily_past'             => $ffMultiFamily_past,
             'ws3mbsAE_past'       => $ws3mbsAE_past,
             'wsDscrAE_past'       => $wsDscrAE_past,
             'wsOdfAE_past'        => $wsOdfAE_past,

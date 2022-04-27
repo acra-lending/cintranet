@@ -19,6 +19,8 @@
               @include('livewire.sales.partials.past.nonprime.nonprime')
               @include('livewire.sales.partials.past.jumboprime.jumboprime')
               @include('livewire.sales.partials.past.sbmf.sbmf')
+              @include('livewire.sales.partials.past.ff.ffsfr')
+              @include('livewire.sales.partials.past.ff.ffmf')
               @include('livewire.sales.partials.past.odd.odd')
               @include('livewire.sales.partials.past.oddplus.oddplus')
             </div>
