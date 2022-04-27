@@ -134,6 +134,7 @@
                                                                         'tmInternalForms'   => 'Internal Forms',
                                                                         'tmProcesses'       => 'Processes',
                                                                         'tmSystems'         => 'Systems',
+                                                                        'tmTools'           => 'TM Tools',
                                                                         'tmTisp'            => 'Taxes/Insurance/Subject Property',
                                                                         'tmVetting'         => 'Agent Verification',
                                                                         
@@ -168,6 +169,7 @@
                                                                     ],
                                                                     'Processor' => [
                                                                         'processorForms'      => 'Internal Forms',
+                                                                        'processorTools'      => 'Processor Tools',
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',

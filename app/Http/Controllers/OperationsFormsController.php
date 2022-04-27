@@ -242,6 +242,10 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $tmTools = Post::whereRaw("find_in_set('tmTools', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $tmTisp = Post::whereRaw("find_in_set('tmTisp', category_id)")
         ->sortable('filename')
         ->get();
@@ -300,6 +304,10 @@ class OperationsFormsController extends Controller
         //Processor
         //-------------
         $processorForms = Post::whereRaw("find_in_set('processorForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        $processorTools = Post::whereRaw("find_in_set('processorTools', category_id)")
         ->sortable('filename')
         ->get();
 
@@ -444,6 +452,7 @@ class OperationsFormsController extends Controller
             'tmInternalForms'       => $tmInternalForms,
             // 'tmProcesses'           => $tmProcesses,
             'tmSystems'             => $tmSystems,
+            'tmTools'               => $tmTools,
             'tmTisp'                => $tmTisp,
             'tmVetting'             => $tmVetting,
             'uwCompliance'      => $uwCompliance,
@@ -457,6 +466,7 @@ class OperationsFormsController extends Controller
             'uwVideos'          => $uwVideos,
             'jrProcessorForms'  => $jrProcessorForms,
             'processorForms'    => $processorForms,
+            'processorTools'    => $processorTools,
             'nda'           => $nda,
             'fixAndFlipSystems'         => $fixAndFlipSystems,
             'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
