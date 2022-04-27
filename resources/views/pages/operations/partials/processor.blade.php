@@ -3,7 +3,7 @@
       <div class="col-sm-4 col-md-3 col-lg-3">
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-processor-forms-tab" data-toggle="pill" href="#vert-tabs-processor-forms" role="tab" aria-controls="vert-tabs-processor-forms" aria-selected="true">Internal Forms</a>
-          <a class="nav-link active" id="vert-tabs-processor-tools-tab" data-toggle="pill" href="#vert-tabs-processor-tools" role="tab" aria-controls="vert-tabs-processor-tools" aria-selected="true">Processor Tools</a>
+          <a class="nav-link" id="vert-tabs-processor-tools-tab" data-toggle="pill" href="#vert-tabs-processor-tools" role="tab" aria-controls="vert-tabs-processor-tools" aria-selected="true">Processor Tools</a>
         </div>
       </div>
       <div class="col-sm-12 col-md-9 col-lg-9">
