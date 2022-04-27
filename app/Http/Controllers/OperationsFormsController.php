@@ -319,6 +319,21 @@ class OperationsFormsController extends Controller
         ->get();
 
         //-------------
+        //Concierge Services
+        //-------------
+        $conciergeProcessing = Post::whereRaw("find_in_set('conciergeProcessing', category_id)")
+        ->sortable('filename')
+        ->get();
+        
+        $conciergeVendorContacts = Post::whereRaw("find_in_set('conciergeVendorContacts', category_id)")
+        ->sortable('filename')
+        ->get();
+        
+        $conciergeJobAides = Post::whereRaw("find_in_set('conciergeJobAides', category_id)")
+        ->sortable('filename')
+        ->get();
+
+        //-------------
         //Fix And Flip
         //-------------
         $fixAndFlipSystems = Post::whereRaw("find_in_set('fixAndFlipSystems', category_id)")
@@ -468,6 +483,9 @@ class OperationsFormsController extends Controller
             'processorForms'    => $processorForms,
             'processorTools'    => $processorTools,
             'nda'           => $nda,
+            'conciergeProcessing'       => $conciergeProcessing,
+            'conciergeVendorContacts'   => $conciergeVendorContacts,
+            'conciergeJobAides'         => $conciergeJobAides,
             'fixAndFlipSystems'         => $fixAndFlipSystems,
             'fixAndFlipInternalForms'   => $fixAndFlipInternalForms,
             'fixAndFlipVetting'         => $fixAndFlipVetting,           

@@ -56,6 +56,7 @@
                         @include('pages.operations.partials.prescreen')
                         @include('pages.operations.partials.postclosefunding')
                         @include('pages.operations.partials.postcloseshipping')
+                        @include('pages.operations.partials.concierge')
                     </div>
                   </div>
                 </div>

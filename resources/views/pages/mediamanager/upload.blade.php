@@ -188,6 +188,11 @@
                                                                         'sbmfSystems'         => 'Systems',
                                                                         'sbmfInternalForms'   => 'Internal Forms',
                                                                         'sbmfGuidelines'      => 'Guidelines',
+                                                                    ],
+                                                                    'Concierge Services' => [
+                                                                        'conciergeProcessing'         => 'Processing Forms',
+                                                                        'conciergeVendorContacts'     => 'Vendor Contacts',
+                                                                        'conciergeJobAides'           => 'Job Aides',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [

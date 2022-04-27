@@ -18,5 +18,6 @@
     <a class="nav-item nav-link" id="nav-prescreen-tab" data-toggle="tab" href="#nav-prescreen" role="tab" aria-controls="nav-prescreen" aria-selected="false">Pre-Screen</a>
     <a class="nav-item nav-link" id="nav-post-close-funding-tab" data-toggle="tab" href="#nav-post-close-funding" role="tab" aria-controls="nav-post-close-funding" aria-selected="false">Post Close-Funding</a>
     <a class="nav-item nav-link" id="nav-post-close-shipping-tab" data-toggle="tab" href="#nav-post-close-shipping" role="tab" aria-controls="nav-post-close-shipping" aria-selected="false">Post Close-Shipping</a>
+    <a class="nav-item nav-link" id="nav-concierge-services-tab" data-toggle="tab" href="#nav-concierge-services" role="tab" aria-controls="nav-concierge-services" aria-selected="false">Concierge Services</a>
     </div>
   </nav>
