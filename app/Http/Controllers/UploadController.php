@@ -279,11 +279,11 @@ class UploadController extends Controller
                     $filesize = $file->getSize();
                     $filesizeToStore = round($filesize * 0.0009765625, 2);
                     // Filename to store
-                    $fileNameToStore = 'F&F Stabilizied Bridge Credit Box (SFR) '.date('m-d-Y').'.'.$extension;
+                    $fileNameToStore = 'F&F Stabilized Bridge Credit Box (SFR) '.date('m-d-Y').'.'.$extension;
                     
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                        $fileNameToStore = 'F&F Stabilizied Bridge Credit Box (SFR) '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $fileNameToStore = 'F&F Stabilized Bridge Credit Box (SFR) '.date('m-d-Y').' v'.$num.'.'.$extension;
                         $num++;
                     }
                     // Upload
@@ -323,11 +323,11 @@ class UploadController extends Controller
                     $filesize = $file->getSize();
                     $filesizeToStore = round($filesize * 0.0009765625, 2);
                     // Filename to store
-                    $fileNameToStore = 'F&F Stabilizied Bridge Credit Box (MF)  '.date('m-d-Y').'.'.$extension;
+                    $fileNameToStore = 'F&F Stabilized Bridge Credit Box (MF)  '.date('m-d-Y').'.'.$extension;
                     
                     //Check if Filename exists
                     while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                        $fileNameToStore = 'F&F Stabilizied Bridge Credit Box (MF)  '.date('m-d-Y').' v'.$num.'.'.$extension;
+                        $fileNameToStore = 'F&F Stabilized Bridge Credit Box (MF)  '.date('m-d-Y').' v'.$num.'.'.$extension;
                         $num++;
                     }
                     // Upload
