@@ -54,10 +54,10 @@
             </div>
             <div class="col-6">
                 <div class="callout callout-gray">
-                <a href="https://goo.gl/maps/cxr13wjKWgMoyhKj9" target="_blank" style="text-decoration: none;">
+                <a href="https://goo.gl/maps/A7w1JG3QzwRcCPVR6" target="_blank" style="text-decoration: none;">
                     <h6>Utah Office</h6>
                 </a>  
-                <p class="m-0"style="font-size: 10.5pt;">2972 West Maple Loop Drive<br>Suite 101<br>Lehi, UT 84043</p> 
+                <p class="m-0"style="font-size: 10.5pt;">2901 W. Bluegrass Blvd<br>Suite 200<br>Lehi, UT 84043</p> 
                 </div>
             </div>
         </div>
