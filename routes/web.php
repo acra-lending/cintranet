@@ -29,6 +29,8 @@ Route::get('/search/announcements', 'SearchController@show')->middleware('auth')
 Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(function(){
     Route::resource('/user', 'UsersController', ['except' => ['show', 'create', 'store']])->middleware('auth');
 });
+
+Route::put('usermanagement/user/avatar/{user}', 'Admin\UsersController@delete_avatar')->middleware('auth');
 Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
 // Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');

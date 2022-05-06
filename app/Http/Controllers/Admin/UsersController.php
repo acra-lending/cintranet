@@ -71,7 +71,7 @@ class UsersController extends Controller
         if(Gate::denies('edit-users')){
             return redirect(route('admin.user.index'));
         }
-        
+       
         $roles = Role::all();
 
         $profile = DB::table('s2zar_jsn_users')
@@ -209,5 +209,19 @@ class UsersController extends Controller
         $user->delete();
 
         return redirect()->route('admin.user.index')->with('success', 'User Deleted');
+    }
+
+    public function delete_avatar(User $user)
+    {        
+        if(Gate::denies('delete-users')){
+            return redirect(route('admin.user.index'));
+        }
+        
+        $profile = User::where('id', $user->id)->first();
+        Storage::delete('public/avatars/'.$profile->avatar);
+        $profile->avatar = null;
+        $profile->save();
+        
+        return redirect('/usermanagement/profile/'.$user->id)->with('success', 'Profile Picture Deleted');
     }
 }

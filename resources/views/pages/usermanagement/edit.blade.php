@@ -136,8 +136,12 @@
             </div>
 
             </form>
+            @can('delete-users')
+            {{ Form::open(['action' => ['Admin\UsersController@delete_avatar', $user], 'method' => 'PUT']) }}
+              {{ Form::button('Delete Picture', ['type' => 'submit', 'class' => 'btn btn-secondary btn-sm mb-3', 'onclick' => "return confirm('Are you sure?')"])}}
+            {{ Form::close()}}
+            @endcan
             </div>
-
           </div>
           <!-- /.row -->
           @endforeach  
