@@ -193,6 +193,8 @@
                                                                         'conciergeProcessing'         => 'Processing Forms',
                                                                         'conciergeVendorContacts'     => 'Vendor Contacts',
                                                                         'conciergeJobAides'           => 'Job Aides',
+                                                                        'conciergeTisp'               => 'Taxes/Insurance/Subject Property',
+                                                                        'conciergeVetting'            => 'Agent Verification',
                                                                     ]
                                                                 ],
                                                                 'Ratesheets AE' => [
