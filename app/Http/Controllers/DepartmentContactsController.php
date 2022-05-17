@@ -182,6 +182,25 @@ class DepartmentContactsController extends Controller
             'pod_uw_lead_name',
         ]);
 
+        $pod6UwGroup3 = DB::table('s2zar_jsn_users')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->where('pod_id', 6)
+        ->where('pod_uw_lead_name', 'Multifamily')
+        ->orderBy('name')
+        // ->where('pod_id', '1')
+        ->get([
+            's2zar_jsn_users.id',
+            'name',
+            'position',
+            'team',
+            'pod_id',
+            'pod_lead',
+            'pod_tm_lead',
+            'pod_tm_lead_name',
+            'pod_uw_lead',
+            'pod_uw_lead_name',
+        ]);
+
 
         $pod1Lead = array();
         $pod1Tms = array();
@@ -219,6 +238,7 @@ class DepartmentContactsController extends Controller
         $pod6UwUsersGroup1 = array();
         $pod6UwUsersGroup2 = array();
         $pod6UwUsersGroup3 = array();
+        $pod6UwUsersGroup4 = array();
 
 
         foreach ($podTms as $podTm) {
@@ -566,6 +586,18 @@ class DepartmentContactsController extends Controller
             
         }
 
+        foreach ($pod6UwGroup4 as $pod6Group4) {
+            
+            $pod6UwUsersGroup4[] = [
+                'id' => $pod6Group4->id,
+                'uw_team' => $pod6Group4->pod_uw_lead_name,
+                'name' => $pod6Group4->name,
+                'position' => $pod6Group4->position,
+                'reports' => $pod6Group4->team
+            ];
+            
+        }
+
 
         return view('pages.directory.pods')->with([
             'pod1Lead'     => $pod1Lead,
@@ -602,6 +634,7 @@ class DepartmentContactsController extends Controller
             'pod6UwUsersGroup1'  => $pod6UwUsersGroup1,
             'pod6UwUsersGroup2'  => $pod6UwUsersGroup2,
             'pod6UwUsersGroup3'  => $pod6UwUsersGroup3,
+            'pod6UwUsersGroup4'  => $pod6UwUsersGroup4,
         ]);
     }
 }

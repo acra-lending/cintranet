@@ -46,6 +46,31 @@
             
             <div class="center">
                 <h3 class="profile-username highlight"> 
+                    {{ $pod6UwGroup4[0]->pod_uw_lead_name }}
+                </h3>
+            </div>
+                @foreach ($pod6UwUsersGroup4 as $user)
+                    @if ($user['uw_team'] == $pod6UwGroup4[0]->pod_uw_lead_name)
+                        <ul class="pod-ul">
+                            @if ($user['uw_team'] !== '')
+                                @php
+                                    $words2 = explode(' ', $user['reports']); $initials2 = null; foreach ($words2 as $w2) {
+                                        $initials2 .= $w2[0];
+                                    }  
+                                @endphp
+                            @else
+                                @php
+                                    $initials2 = null;
+                                @endphp
+                            @endif
+                            <li><a href="#">{{ $user['name'] }}</a></li>
+                            <li>{{ $user['position'] }}</li>
+                            <li>{{ $initials2 }}</li>
+                        </ul>
+                    @endif
+                @endforeach
+            <div class="center">
+                <h3 class="profile-username highlight"> 
                     {{ $pod6UwGroup1[0]->pod_uw_lead_name }}
                 </h3>
             </div>

@@ -127,6 +127,7 @@ class UsersController extends Controller
         ->toArray();
 
         $uwPodArray = array(
+            'Multifamily' => 'Multifamily',
             'DSCR / FNF UW Team' => 'DSCR / FNF UW Team', 
             'Consumer Direct' => 'Consumer Direct', 
             'Correspondent' => 'Correspondent'
@@ -206,6 +207,12 @@ class UsersController extends Controller
         $fullname = implode(' ', $array);
 
         if ($request->input('pod_id') == '6') {
+            $podUwLeadName = $request->input('pod_uw_lead_name');
+        } else {
+            $podUwLeadName = $fullname;
+        }
+
+        if ($request->input('pod_id') == '6' && $request->input('pod_uw_lead') == '1' && $request->input('pod_uw_lead') == '') {
             $podUwLeadName = $request->input('pod_uw_lead_name');
         } else {
             $podUwLeadName = $fullname;
