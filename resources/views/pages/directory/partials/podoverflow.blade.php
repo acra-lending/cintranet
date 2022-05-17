@@ -63,12 +63,10 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            @if ($user['uw_lead'] == '1')
-                            <b>
-                                <li><a href="#">{{ $user['name'] }}</a></li>
-                                <li>{{ $user['position'] }}</li>
-                                <li>{{ $initials2 }}</li>
-                            </b>
+                            @if ($user['uw_lead'] == '1')                            
+                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><b>{{ $user['position'] }}</b></li>
+                                <li><b>{{ $initials2 }}</b></li>
                             @else
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -97,11 +95,9 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                            <b>
-                                <li><a href="#">{{ $user['name'] }}</a></li>
-                                <li>{{ $user['position'] }}</li>
-                                <li>{{ $initials2 }}</li>
-                            </b>
+                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><b>{{ $user['position'] }}</b></li>
+                                <li><b>{{ $initials2 }}</b></li>
                             @else
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -130,11 +126,9 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                            <b>
-                                <li><a href="#">{{ $user['name'] }}</a></li>
-                                <li>{{ $user['position'] }}</li>
-                                <li>{{ $initials2 }}</li>
-                            </b>
+                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><b>{{ $user['position'] }}</b></li>
+                                <li><b>{{ $initials2 }}</b></li>
                             @else
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -163,11 +157,9 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                            <b>
-                                <li><a href="#">{{ $user['name'] }}</a></li>
-                                <li>{{ $user['position'] }}</li>
-                                <li>{{ $initials2 }}</li>
-                            </b>
+                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><b>{{ $user['position'] }}</b></li>
+                                <li><b>{{ $initials2 }}</b></li>
                             @else
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
