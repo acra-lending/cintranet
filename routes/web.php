@@ -45,6 +45,7 @@ Route::post('usermanagement/register', 'RegisterUsersController@create')->middle
 // Route::get('reports3', 'ReportsController@index3')->middleware('auth');
 // Route::get('reports4', 'ReportsController@index4')->middleware('auth');
 Route::get('reports5', 'ReportsController@index5')->middleware('auth');
+Route::get('reports6', 'ReportsController@index6')->middleware('auth');
 
 
 //Videos
@@ -87,6 +88,7 @@ Route::get('directory/user/{id}', 'DirectoryController@show')->middleware('auth'
 Route::get('directory/uwteams', 'DepartmentContactsController@uwteams')->middleware('auth');
 Route::get('directory/tmteams', 'DepartmentContactsController@tmteams')->middleware('auth');
 Route::get('directory/cdlteams', 'DepartmentContactsController@cdlteams')->middleware('auth');
+Route::get('directory/pods', 'DepartmentContactsController@podsList')->middleware('auth');
 
 //Ratesheets
 Route::get('ratesheets', 'RatesheetCategoryController@index')->middleware('auth');
