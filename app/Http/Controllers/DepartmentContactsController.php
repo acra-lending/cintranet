@@ -636,6 +636,7 @@ class DepartmentContactsController extends Controller
             'pod6UwGroup1'       => $pod6UwGroup1,
             'pod6UwGroup2'       => $pod6UwGroup2,
             'pod6UwGroup3'       => $pod6UwGroup3,
+            'pod6UwGroup4'       => $pod6UwGroup4,
             'pod6UwUsersGroup1'  => $pod6UwUsersGroup1,
             'pod6UwUsersGroup2'  => $pod6UwUsersGroup2,
             'pod6UwUsersGroup3'  => $pod6UwUsersGroup3,
