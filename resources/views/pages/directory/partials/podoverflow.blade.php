@@ -63,9 +63,17 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            <li><a href="#">{{ $user['name'] }}</a></li>
-                            <li>{{ $user['position'] }}</li>
-                            <li>{{ $initials2 }}</li>
+                            @if ($user['pod_uw_lead'] == '1')
+                            <b>
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            </b>
+                            @else
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            @endif
                         </ul>
                     @endif
                 @endforeach
@@ -88,9 +96,17 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            <li><a href="#">{{ $user['name'] }}</a></li>
-                            <li>{{ $user['position'] }}</li>
-                            <li>{{ $initials2 }}</li>
+                            @if ($user['pod_uw_lead'] == '1')
+                            <b>
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            </b>
+                            @else
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            @endif
                         </ul>
                     @endif
                 @endforeach
@@ -113,9 +129,17 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            <li><a href="#">{{ $user['name'] }}</a></li>
-                            <li>{{ $user['position'] }}</li>
-                            <li>{{ $initials2 }}</li>
+                            @if ($user['pod_uw_lead'] == '1')
+                            <b>
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            </b>
+                            @else
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            @endif
                         </ul>
                     @endif
                 @endforeach
@@ -138,9 +162,17 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            <li><a href="#">{{ $user['name'] }}</a></li>
-                            <li>{{ $user['position'] }}</li>
-                            <li>{{ $initials2 }}</li>
+                            @if ($user['pod_uw_lead'] == '1')
+                            <b>
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            </b>
+                            @else
+                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li>{{ $user['position'] }}</li>
+                                <li>{{ $initials2 }}</li>
+                            @endif
                         </ul>
                     @endif
                 @endforeach    
