@@ -110,8 +110,8 @@ class UsersController extends Controller
         $tmPodTeam = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('pod_tm_lead', '1')
-        ->orderBy('pod_tm_lead', 'asc')
         ->groupBy('name')
+        ->orderBy('pod_tm_lead', 'asc')
         ->pluck('name', 'name')
         ->toArray();
 
@@ -121,8 +121,8 @@ class UsersController extends Controller
         $uwPodTeam = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('pod_uw_lead', '1')
-        ->orderBy('pod_uw_lead', 'asc')
         ->groupBy('name')
+        ->orderBy('pod_uw_lead', 'asc')
         ->pluck('name', 'name')
         ->toArray();
 
