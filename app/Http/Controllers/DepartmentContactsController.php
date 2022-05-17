@@ -543,6 +543,7 @@ class DepartmentContactsController extends Controller
                         $pod6UwUsers[] = [
                             'id' => $pod->id,
                             'uw_team' => $pod->pod_uw_lead_name,
+                            'uw_lead' => $pod->pod_uw_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
@@ -556,6 +557,7 @@ class DepartmentContactsController extends Controller
             $pod6UwUsersGroup1[] = [
                 'id' => $pod6Group1->id,
                 'uw_team' => $pod6Group1->pod_uw_lead_name,
+                'uw_lead' => $pod6Group1->pod_uw_lead,
                 'name' => $pod6Group1->name,
                 'position' => $pod6Group1->position,
                 'reports' => $pod6Group1->team
@@ -567,6 +569,7 @@ class DepartmentContactsController extends Controller
             $pod6UwUsersGroup2[] = [
                 'id' => $pod6Group2->id,
                 'uw_team' => $pod6Group2->pod_uw_lead_name,
+                'uw_lead' => $pod6Group2->pod_uw_lead,
                 'name' => $pod6Group2->name,
                 'position' => $pod6Group2->position,
                 'reports' => $pod6Group2->team
@@ -579,6 +582,7 @@ class DepartmentContactsController extends Controller
             $pod6UwUsersGroup3[] = [
                 'id' => $pod6Group3->id,
                 'uw_team' => $pod6Group3->pod_uw_lead_name,
+                'uw_lead' => $pod6Group3->pod_uw_lead,
                 'name' => $pod6Group3->name,
                 'position' => $pod6Group3->position,
                 'reports' => $pod6Group3->team
@@ -591,6 +595,7 @@ class DepartmentContactsController extends Controller
             $pod6UwUsersGroup4[] = [
                 'id' => $pod6Group4->id,
                 'uw_team' => $pod6Group4->pod_uw_lead_name,
+                'uw_lead' => $pod6Group4->pod_uw_lead,
                 'name' => $pod6Group4->name,
                 'position' => $pod6Group4->position,
                 'reports' => $pod6Group4->team
