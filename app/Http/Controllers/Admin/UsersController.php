@@ -111,8 +111,8 @@ class UsersController extends Controller
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('pod_tm_lead', '1')
         ->groupBy('name')
-        ->orderBy('pod_tm_lead', 'asc')
         ->pluck('name', 'name')
+        ->orderBy('name', 'asc')
         ->toArray();
 
         // dd($tmPodTeam);
@@ -122,8 +122,8 @@ class UsersController extends Controller
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('pod_uw_lead', '1')
         ->groupBy('name')
-        ->orderBy('pod_uw_lead', 'asc')
         ->pluck('name', 'name')
+        ->orderBy('name', 'asc')
         ->toArray();
 
         $uwPodArray = array(
