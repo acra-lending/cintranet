@@ -182,7 +182,7 @@ class DepartmentContactsController extends Controller
             'pod_uw_lead_name',
         ]);
 
-        $pod6UwGroup3 = DB::table('s2zar_jsn_users')
+        $pod6UwGroup4 = DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->where('pod_id', 6)
         ->where('pod_uw_lead_name', 'Multifamily')
