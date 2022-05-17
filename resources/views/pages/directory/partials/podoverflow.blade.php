@@ -63,7 +63,7 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            @if ($user['pod_uw_lead'] == '1')
+                            @if ($user['uw_lead'] == '1')
                             <b>
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -96,7 +96,7 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            @if ($user['pod_uw_lead'] == '1')
+                            @if ($user['uw_lead'] == '1')
                             <b>
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -129,7 +129,7 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            @if ($user['pod_uw_lead'] == '1')
+                            @if ($user['uw_lead'] == '1')
                             <b>
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
@@ -162,7 +162,7 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            @if ($user['pod_uw_lead'] == '1')
+                            @if ($user['uw_lead'] == '1')
                             <b>
                                 <li><a href="#">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
