@@ -34,9 +34,15 @@
                                         $initials2 = null;
                                     @endphp
                                 @endif
-                                <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
-                                <li>{{ $user['position'] }}</li>
-                                <li>{{ $initials2 }}</li>
+                                @if ($user['lead'] == '1')                            
+                                    <li><a href="/directory/user/{{$user['id']}}"><b>{{ $user['name'] }}</b></a></li>
+                                    <li><b>{{ $user['position'] }}</b></li>
+                                    <li><b>{{ $initials2 }}</b></li>
+                                @else
+                                    <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
+                                    <li>{{ $user['position'] }}</li>
+                                    <li>{{ $initials2 }}</li>
+                                @endif
                             </ul>
                         @endif
                     @endif
@@ -63,7 +69,7 @@
                                     $initials2 = null;
                                 @endphp
                             @endif
-                            <li><a href="#">{{ $user['name'] }}</a></li>
+                            <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
                             <li>{{ $user['position'] }}</li>
                             <li>{{ $initials2 }}</li>
                         </ul>

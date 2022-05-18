@@ -64,11 +64,11 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')                            
-                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><a href="/directory/user/{{$user['id']}}"><b>{{ $user['name'] }}</b></a></li>
                                 <li><b>{{ $user['position'] }}</b></li>
                                 <li><b>{{ $initials2 }}</b></li>
                             @else
-                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
                                 <li>{{ $initials2 }}</li>
                             @endif
@@ -95,11 +95,11 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><a href="/directory/user/{{$user['id']}}"><b>{{ $user['name'] }}</b></a></li>
                                 <li><b>{{ $user['position'] }}</b></li>
                                 <li><b>{{ $initials2 }}</b></li>
                             @else
-                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
                                 <li>{{ $initials2 }}</li>
                             @endif
@@ -126,11 +126,11 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><a href="/directory/user/{{$user['id']}}"><b>{{ $user['name'] }}</b></a></li>
                                 <li><b>{{ $user['position'] }}</b></li>
                                 <li><b>{{ $initials2 }}</b></li>
                             @else
-                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
                                 <li>{{ $initials2 }}</li>
                             @endif
@@ -157,11 +157,11 @@
                                 @endphp
                             @endif
                             @if ($user['uw_lead'] == '1')
-                                <li><a href="#"><b>{{ $user['name'] }}</b></a></li>
+                                <li><a href="/directory/user/{{$user['id']}}"><b>{{ $user['name'] }}</b></a></li>
                                 <li><b>{{ $user['position'] }}</b></li>
                                 <li><b>{{ $initials2 }}</b></li>
                             @else
-                                <li><a href="#">{{ $user['name'] }}</a></li>
+                                <li><a href="/directory/user/{{$user['id']}}">{{ $user['name'] }}</a></li>
                                 <li>{{ $user['position'] }}</li>
                                 <li>{{ $initials2 }}</li>
                             @endif

@@ -364,6 +364,7 @@ class DepartmentContactsController extends Controller
                         $pod1TmUsers[] = [
                             'id' => $pod->id,
                             'tm_team' => $pod->pod_tm_lead_name,
+                            'lead' => $pod->pod_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
@@ -400,6 +401,7 @@ class DepartmentContactsController extends Controller
                         $pod2TmUsers[] = [
                             'id' => $pod->id,
                             'tm_team' => $pod->pod_tm_lead_name,
+                            'lead' => $pod->pod_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
@@ -436,6 +438,7 @@ class DepartmentContactsController extends Controller
                         $pod3TmUsers[] = [
                             'id' => $pod->id,
                             'tm_team' => $pod->pod_tm_lead_name,
+                            'lead' => $pod->pod_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
@@ -467,6 +470,7 @@ class DepartmentContactsController extends Controller
                     $pod2TmUsers[] = [
                         'id'    => $pod->id,
                         'tm_team' => $pod->pod_tm_lead_name,
+                        'lead' => $pod->pod_lead,
                         'name' => $pod->name,
                         'position' => $pod->position,
                         'reports' => $pod->team
@@ -478,6 +482,7 @@ class DepartmentContactsController extends Controller
                         $pod4TmUsers[] = [
                             'id' => $pod->id,
                             'tm_team' => $pod->pod_tm_lead_name,
+                            'lead' => $pod->pod_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
@@ -513,6 +518,7 @@ class DepartmentContactsController extends Controller
                         $pod5TmUsers[] = [
                             'id' => $pod->id,
                             'tm_team' => $pod->pod_tm_lead_name,
+                            'lead' => $pod->pod_lead,
                             'name' => $pod->name,
                             'position' => $pod->position,
                             'reports' => $pod->team
