@@ -95,14 +95,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/directory/pods" class="nav-link {{ Request::path() === 'directory/pods' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>POD Listing</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/directory/tmteams" class="nav-link {{ Request::path() === 'directory/tmteams' ? 'active': ''}}">
