@@ -464,6 +464,13 @@ class DepartmentContactsController extends Controller
                         'position' => $pod->position,
                         'reports' => $pod->team
                     ];
+                    $pod2TmUsers[] = [
+                        'id'    => $pod->id,
+                        'tm_team' => $pod->pod_tm_lead_name,
+                        'name' => $pod->name,
+                        'position' => $pod->position,
+                        'reports' => $pod->team
+                    ];
                 }
 
                 foreach ($podTms as $PodTm) {
