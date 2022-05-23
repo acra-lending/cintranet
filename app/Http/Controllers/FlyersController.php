@@ -58,6 +58,11 @@ class FlyersController extends Controller
         ->sortable('filename')
         ->get();
 
+        //Sales Tools Video
+        $salesVideos = Post::whereRaw("find_in_set('salesVideos',category_id)")
+        ->sortable('filename')
+        ->get();
+
         //Small Balance Multifamily
         // $sbmfFlyers = Post::whereRaw("find_in_set('sbmfFlyers', category_id)")
         // ->sortable('filename')
@@ -75,6 +80,7 @@ class FlyersController extends Controller
             'retail'        => $retail,
             'standards'     => $standards,
             'vert'          => $vert,
+            'salesVideos'   => $salesVideos,
             // 'sbmfFlyers'    => $sbmfFlyers,
         ]);
     }
