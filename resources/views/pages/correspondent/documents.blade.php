@@ -37,7 +37,9 @@
                     </div>
                     <div class="col-sm-10 col-md-9">
                       <div class="tab-content" id="vert-tabs-tabContent">
-                        @include('pages.correspondent.partials.documents.references')
+                        @include('pages.correspondent.partials.documents.documents')
+                        @include('pages.correspondent.partials.documents.forms')
+                        @include('pages.correspondent.partials.documents.jobaides')
                       </div>
                     </div>
                   </div>

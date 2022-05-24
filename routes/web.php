@@ -105,8 +105,8 @@ Route::post('sales/ratesheets', 'JumboPrimeRatesheetUpdateController@submit')->m
 
 //Correspondent
 Route::get('correspondent/documents', 'CorrespondentDocumentsController@index')->middleware('auth');
-Route::get('correspondent/forms', 'CorrespondentFormsController@index')->middleware('auth');
-Route::get('correspondent/jobaides', 'CorrespondentJobaidesController@index')->middleware('auth');
+// Route::get('correspondent/forms', 'CorrespondentFormsController@index')->middleware('auth');
+// Route::get('correspondent/jobaides', 'CorrespondentJobaidesController@index')->middleware('auth');
 
 
 //Consumer Direct

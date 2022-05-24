@@ -1,8 +1,8 @@
-<div class="tab-pane fade show active" id="vert-tabs-references" role="tabpanel" aria-labelledby="vert-tabs-references-tab">       
+<div class="tab-pane fade show active" id="vert-tabs-documents" role="tabpanel" aria-labelledby="vert-tabs-documents-tab">       
   <div class="col">
     <div class="card card-dark ">
       <div class="card-header border-0">
-        <h3 class="card-title">References</h3>
+        <h3 class="card-title">Documents</h3>
       </div>
       <div class="card-body table-responsive p-0">
         <table class="table">

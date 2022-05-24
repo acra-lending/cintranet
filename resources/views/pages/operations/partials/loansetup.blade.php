@@ -12,6 +12,7 @@
           <a class="nav-link" id="vert-tabs-lsu-valuation-tab" data-toggle="pill" href="#vert-tabs-lsu-valuation" role="tab" aria-controls="vert-tabs-lsu-valuation" aria-selected="false">Valuation Delivery</a>
           <a class="nav-link" id="vert-tabs-lsu-ssa-tab" data-toggle="pill" href="#vert-tabs-lsu-ssa" role="tab" aria-controls="vert-tabs-lsu-ssa" aria-selected="false">SSA-89 & 4506T</a>
           <a class="nav-link" id="vert-tabs-lsu-dept-tab" data-toggle="pill" href="#vert-tabs-lsu-dept" role="tab" aria-controls="vert-tabs-lsu-dept" aria-selected="false">Deparment Contacts</a>
+          <a class="nav-link" id="vert-tabs-lsu-job-aides-tab" data-toggle="pill" href="#vert-tabs-lsu-job-aides" role="tab" aria-controls="vert-tabs-lsu-job-aides" aria-selected="false">Job Aides</a>
         </div>
       </div>
       <div class="col-sm-12 col-md-9 col-lg-9">
@@ -460,6 +461,53 @@
                       </thead>
                       <tbody>
                           @foreach($deptContacts as $category)
+                          <tr>
+                            <td>{{$category->filename}}</td>
+                            <td>{{$category->filesize}} KB</td>
+                            <td>{{ Carbon\Carbon::parse($category->updated_at)->format('m-d-Y') }}</td>
+                            <td class="text-right py-0 align-middle">
+                              <div class="btn-group btn-group-sm">
+                                <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                @can('edit-users')
+                                <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->category_id }}" data-file_id="{{ $category->id }}"  data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                @endcan
+                                <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                @can('delete-users')
+                                {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                  {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                {{ Form::close()}}
+                                @endcan
+                              </div>
+                            </td>
+                          </tr>
+                            @endforeach
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane text-left fade show" id="vert-tabs-lsu-job-aides" role="tabpanel" aria-labelledby="vert-tabs-lsu-job-aides-tab">
+              <!-- /.content-header -->        
+              <div class="col">
+                <div class="card card-dark">
+                  <div class="card-header border-0">
+                    <h3 class="card-title">Job Aides</h3>
+                    <div class="card-tools">
+                      </a>
+                    </div>
+                  </div>
+                  <div class="card-body table-responsive p-0">
+                    <table class="table">
+                      <thead>
+                          <tr>
+                          <th>@sortablelink('filename', 'File Name')</th>
+                          <th>@sortablelink('filesize', 'File Size')</th>
+                          <th>@sortablelink('updated_at', 'Updated At')</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          @foreach($lsuJobAides as $category)
                           <tr>
                             <td>{{$category->filename}}</td>
                             <td>{{$category->filesize}} KB</td>

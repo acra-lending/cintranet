@@ -1,8 +1,8 @@
-<div class="tab-pane fade show active" id="vert-tabs-references" role="tabpanel" aria-labelledby="vert-tabs-references-tab">       
+<div class="tab-pane fade show" id="vert-tabs-forms" role="tabpanel" aria-labelledby="vert-tabs-forms-tab">       
   <div class="col">
     <div class="card card-dark ">
       <div class="card-header border-0">
-        <h3 class="card-title">References</h3>
+        <h3 class="card-title">Forms</h3>
       </div>
       <div class="card-body table-responsive p-0">
         <table class="table">
@@ -14,7 +14,7 @@
               </tr>
           </thead>
           <tbody>
-              @foreach($corrJobaides as $category)
+              @foreach($corrForms as $category)
               <tr>
               <td>{{$category->filename}}</td>
               <td>{{$category->filesize}} KB</td>

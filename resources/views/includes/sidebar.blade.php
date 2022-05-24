@@ -507,7 +507,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
@@ -522,7 +522,7 @@
                             <p>Job Aides</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
             </li>
             <li class="nav-item has-treeview {{ Request::is('consumerdirect/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">

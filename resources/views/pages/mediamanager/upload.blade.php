@@ -126,6 +126,7 @@
                                                                         'lsuSystems'        => 'Systems',
                                                                         'lsuValuation'      => 'Valuation Delivery',
                                                                         'lsuVetting'        => 'Agent Verification',
+                                                                        'lsuJobAides'       => 'Job Aides',
                                                                     ],
                                                                     'Transaction Manager' => [
                                                                         'tmCompliance'      => 'Compliance',

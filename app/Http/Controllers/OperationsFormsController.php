@@ -215,6 +215,10 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $lsuJobAides = Post::whereRaw("find_in_set('lsuJobAides', category_id)")
+        ->sortable('filename')
+        ->get();
+
         //--------------------
         //Transaction Manager
         //--------------------
@@ -469,6 +473,7 @@ class OperationsFormsController extends Controller
             'lsuSystems'                => $lsuSystems,
             'lsuValuation'              => $lsuValuation,
             'lsuVetting'                => $lsuVetting,
+            'lsuJobAides'               => $lsuJobAides,
             'tmCompliance'          => $tmCompliance,
             'tmFormsForBrokers'     => $tmFormsForBrokers,
             'tmProgramGuides'       => $tmProgramGuides,
