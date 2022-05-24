@@ -35,7 +35,7 @@
                     <div class="col-sm-4 col-md-3 col-lg-2">
                       @include('pages.correspondent.partials.documents.navtabs')
                     </div>
-                    <div class="col-sm-10 col-md-9">
+                    <div class="col-sm-12 col-md-12 col-lg-10">
                       <div class="tab-content" id="vert-tabs-tabContent">
                         @include('pages.correspondent.partials.documents.documents')
                         @include('pages.correspondent.partials.documents.forms')
