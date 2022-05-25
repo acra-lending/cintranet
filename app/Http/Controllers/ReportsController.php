@@ -35,4 +35,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reports6');
     }
+
+    public function opsTM()
+    {
+        return view('pages.usermanagement.reportsopstm');
+    }
 }
