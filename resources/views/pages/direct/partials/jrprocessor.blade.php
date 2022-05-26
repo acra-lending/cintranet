@@ -6,6 +6,7 @@
             <div class="tab-content" id="vert-tabs-tabContent">
                 @include('pages.direct.partials.jrprocessor.forms')
                 @include('pages.direct.partials.jrprocessor.checklists')
+                @include('pages.direct.partials.jrprocessor.emailtemplates')
             </div>
         </div>
     </div>

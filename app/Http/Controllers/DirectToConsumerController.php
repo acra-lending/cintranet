@@ -39,6 +39,10 @@ class DirectToConsumerController extends Controller
         ->sortable('filename')
         ->get();
 
+        $retailJrProcessorEmailTemplates = Post::whereRaw("find_in_set('retailJrProcessorEmailTemplates', category_id)")
+        ->sortable('filename')
+        ->get();
+
         $retailProcessorForms = Post::whereRaw("find_in_set('retailProcessorForms', category_id)")
         ->sortable('filename')
         ->get();
@@ -62,19 +66,19 @@ class DirectToConsumerController extends Controller
 
         return view('pages.direct.documents')
         ->with([
-            'retailDocs'                    => $retailDocs,
-            'retailMLO'                     => $retailMLO,
-            // 'retailCollateral'           => $retailCollateral,
-            'retailEmailTemplates'          => $retailEmailTemplates,
-            'retailSocialMedia'             => $retailSocialMedia,
-            'retailJrProcessorForms'        => $retailJrProcessorForms,
-            'retailJrProcessorChecklists'   => $retailJrProcessorChecklists,
-            'retailJrProcessorChecklists'   => $retailJrProcessorChecklists,
-            'retailProcessorForms'          => $retailProcessorForms,
-            'retailProcessorChecklists'     => $retailProcessorChecklists,
-            'retailLoanOfficerForms'        => $retailLoanOfficerForms,
-            'retailLoanOfficerChecklists'   => $retailLoanOfficerChecklists,
-            'retailLoanOfficerTraining'   => $retailLoanOfficerTraining,
+            'retailDocs'                        => $retailDocs,
+            'retailMLO'                         => $retailMLO,
+            // 'retailCollateral'               => $retailCollateral,
+            'retailEmailTemplates'              => $retailEmailTemplates,
+            'retailSocialMedia'                 => $retailSocialMedia,
+            'retailJrProcessorForms'            => $retailJrProcessorForms,
+            'retailJrProcessorChecklists'       => $retailJrProcessorChecklists,
+            'retailJrProcessorEmailTemplates'   => $retailJrProcessorEmailTemplates,
+            'retailProcessorForms'              => $retailProcessorForms,
+            'retailProcessorChecklists'         => $retailProcessorChecklists,
+            'retailLoanOfficerForms'            => $retailLoanOfficerForms,
+            'retailLoanOfficerChecklists'       => $retailLoanOfficerChecklists,
+            'retailLoanOfficerTraining'         => $retailLoanOfficerTraining,
         ]);
     }
 

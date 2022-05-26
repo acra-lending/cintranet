@@ -234,9 +234,44 @@
                                                                         ]
                                                                     ]                                                
                                                                 ],
+                                                                'Marketing' => [
+                                                                        'marketingForms'        => 'Marketing Forms',
+                                                                        'marketingMaterials'    => 'Marketing Materials',
+                                                                        'marketingEmailSignaturesAndResources'    => 'Email Signatures And Resources',
+                                                                ],
                                                                 'Sales' => [
                                                                     'Wholesale' => [
                                                                         'wholesaleDocs'     => 'Documents',
+                                                                            'Flyers & Programs' => [
+                                                                                'aboutCsc'      => 'About CSC',
+                                                                                'AEFlyers'      => 'AE Flyers',
+                                                                                'automation'    => 'Automation',
+                                                                                'cscPrograms'   => 'CSC Programs',
+                                                                                'social'        => 'LinkedIn/Social Posting Images',
+                                                                                'standards'     => 'Standard Flyers',
+                                                                                'vertFlyers'    => 'Vertical Integration Flyers'
+                                                                                // 'sbmfFlyers'    => 'Small Balance Multifamily Flyers'
+                                                                            ],
+                                                                            'Flyers For Brokers' => [
+                                                                                'flyersForBrokers'  => 'Flyers'
+                                                                            ],
+                                                                            'General Forms' => [
+                                                                                'generalForms'  => 'Forms'
+                                                                            ],
+                                                                            'Sales Tool Kit' => [
+                                                                                'salesTools'        => 'Sales Tool Kit',
+                                                                                'salesVideos'       => 'Sales Videos',
+                                                                            ],
+                                                                            'Training Material' => [
+                                                                                'trainingAe'        => 'Account Executives',
+                                                                                'trainingOps'       => 'OPS Meetings',
+                                                                                'trainingSystems'   => 'Systems',
+                                                                                'trainingVetting'   => 'Vetting',
+                                                                                'trainingVideos'    => 'Videos'
+                                                                            ],
+                                                                            'Admin' => [
+                                                                                'adminForms'  => 'Forms'
+                                                                            ],
                                                                     ],
                                                                     'Correspondent' => [
                                                                         'corrDocs'              => 'Documents',
@@ -256,67 +291,35 @@
                                                                         'fixAndFlipFunding'         => 'Closing/Funding',
                                                                         'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ],
-                                                                    'Sales Tool Kit' => [
-                                                                        'salesTools'        => 'Sales Tool Kit',
-                                                                        'salesVideos'       => 'Sales Videos',
-                                                                    ],
-                                                                    'Flyers & Programs' => [
-                                                                        'aboutCsc'      => 'About CSC',
-                                                                        'AEFlyers'      => 'AE Flyers',
-                                                                        'automation'    => 'Automation',
-                                                                        'cscPrograms'   => 'CSC Programs',
-                                                                        'social'        => 'LinkedIn/Social Posting Images',
-                                                                        'standards'     => 'Standard Flyers',
-                                                                        'vertFlyers'    => 'Vertical Integration Flyers'
-                                                                        // 'sbmfFlyers'    => 'Small Balance Multifamily Flyers'
-                                                                    ],
-                                                                    'Flyers For Brokers' => [
-                                                                        'flyersForBrokers'  => 'Flyers'
-                                                                    ],
-                                                                    'General Forms' => [
-                                                                        'generalForms'  => 'Forms'
-                                                                    ],
+                                                                    
                                                                     'Small Balance Multifamily' => [
                                                                         'sbmfForms'  => 'Forms'
                                                                     ],
-                                                                    'Training Material' => [
-                                                                        'trainingAe'        => 'Account Executives',
-                                                                        'trainingOps'       => 'OPS Meetings',
-                                                                        'trainingSystems'   => 'Systems',
-                                                                        'trainingVetting'   => 'Vetting',
-                                                                        'trainingVideos'    => 'Videos'
+
+                                                                    'Consumer Direct' => [
+                                                                        'References' => [
+                                                                            'retailDocs'            => 'Documents',
+                                                                            'retailMLO'             => 'MLO Licenses',
+                                                                        ],
+                                                                        'Marketing' => [
+                                                                            'retailEmailTemplates'  => 'Email Templates',
+                                                                            'retailSocialMedia'    => 'Social Media',
+                                                                        ],
+                                                                        'Jr Processor' => [
+                                                                            'retailJrProcessorForms'    => 'Forms',
+                                                                            'retailJrProcessorChecklists'    => 'Checklists',
+                                                                            'retailJrProcessorEmailTemplates' => 'Email Templates',
+                                                                        ],
+                                                                        'Processor' => [
+                                                                            'retailProcessorForms'    => 'Forms',
+                                                                            'retailProcessorChecklists'    => 'Checklists',
+                                                                        ],
+                                                                        'Loan Officer' => [
+                                                                            'retailLoanOfficerForms'    => 'Forms',
+                                                                            'retailLoanOfficerChecklists'    => 'Checklists',
+                                                                            'retailLoanOfficerTraining'    => 'Training',
+                                                                        ]
                                                                     ],
-                                                                    'Admin' => [
-                                                                        'adminForms'  => 'Forms'
-                                                                    ],
-                                                                    'Marketing' => [
-                                                                        'marketingForms'        => 'Marketing Forms',
-                                                                        'marketingMaterials'    => 'Marketing Materials',
-                                                                        'marketingEmailSignaturesAndResources'    => 'Email Signatures And Resources',
-                                                                    ]
-                                                                ],
-                                                                'Consumer Direct' => [
-                                                                    'References' => [
-                                                                        'retailDocs'            => 'Documents',
-                                                                        'retailMLO'             => 'MLO Licenses',
-                                                                    ],
-                                                                    'Marketing' => [
-                                                                        'retailEmailTemplates'  => 'Email Templates',
-                                                                        'retailSocialMedia'    => 'Social Media',
-                                                                    ],
-                                                                    'Jr Processor' => [
-                                                                        'retailJrProcessorForms'    => 'Forms',
-                                                                        'retailJrProcessorChecklists'    => 'Checklists',
-                                                                    ],
-                                                                    'Processor' => [
-                                                                        'retailProcessorForms'    => 'Forms',
-                                                                        'retailProcessorChecklists'    => 'Checklists',
-                                                                    ],
-                                                                    'Loan Officer' => [
-                                                                        'retailLoanOfficerForms'    => 'Forms',
-                                                                        'retailLoanOfficerChecklists'    => 'Checklists',
-                                                                        'retailLoanOfficerTraining'    => 'Training',
-                                                                    ]
                                                                 ],
                                                                 'Servicing' => [
                                                                     'callScripts'           => 'Call Scripts',
