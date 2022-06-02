@@ -4,7 +4,7 @@
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
           <a class="nav-link active" id="vert-tabs-concierge-processing-tab" data-toggle="pill" href="#vert-tabs-concierge-processing" role="tab" aria-controls="vert-tabs-concierge-processing" aria-selected="true">Concierge Services</a>
           <a class="nav-link" id="vert-tabs-concierge-vendor-contacts-tab" data-toggle="pill" href="#vert-tabs-concierge-vendor-contacts" role="tab" aria-controls="vert-tabs-concierge-vendor-contacts" aria-selected="true">Vendor Contacts</a>
-          <a class="nav-link" id="vert-tabs-concierge-job-aides-tab" data-toggle="pill" href="#vert-tabs-concierge-job-aides" role="tab" aria-controls="vert-tabs-concierge-job-aides" aria-selected="true">Job Aides</a>
+          <a class="nav-link" id="vert-tabs-concierge-job-aids-tab" data-toggle="pill" href="#vert-tabs-concierge-job-aids" role="tab" aria-controls="vert-tabs-concierge-job-aids" aria-selected="true">Job Aids</a>
           <a class="nav-link" id="vert-tabs-concierge-tisp-tab" data-toggle="pill" href="#vert-tabs-concierge-tisp" role="tab" aria-controls="vert-tabs-concierge-tisp" aria-selected="true">Taxes/Insurance/Subject Property</a>
           <a class="nav-link" id="vert-tabs-concierge-vetting-tab" data-toggle="pill" href="#vert-tabs-concierge-vetting" role="tab" aria-controls="vert-tabs-concierge-vetting" aria-selected="true">Agent Verification</a>
         </div>
@@ -117,12 +117,12 @@
               </div>
             </div>
           </div>
-          <div class="tab-pane text-left fade show" id="vert-tabs-concierge-job-aides" role="tabpanel" aria-labelledby="vert-tabs-concierge-job-aides-tab">
+          <div class="tab-pane text-left fade show" id="vert-tabs-concierge-job-aids" role="tabpanel" aria-labelledby="vert-tabs-concierge-job-aids-tab">
             <!-- /.content-header -->        
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Job Aides</h3>
+                  <h3 class="card-title">Job Aids</h3>
                   <div class="card-tools">
                     </a>
                   </div>
