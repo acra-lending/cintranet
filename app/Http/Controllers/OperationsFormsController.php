@@ -304,6 +304,11 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $jrProcessorVendorContacts = Post::whereRaw("find_in_set('jrProcessorVendorContacts', category_id)")
+        ->sortable('filename')
+        ->get();
+        
+
         //-------------
         //Processor
         //-------------
@@ -314,6 +319,11 @@ class OperationsFormsController extends Controller
         $processorTools = Post::whereRaw("find_in_set('processorTools', category_id)")
         ->sortable('filename')
         ->get();
+
+        $processorVendorContacts = Post::whereRaw("find_in_set('processorVendorContacts', category_id)")
+        ->sortable('filename')
+        ->get();
+        
 
         //-------------
         //NDA
@@ -493,8 +503,10 @@ class OperationsFormsController extends Controller
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos,
             'jrProcessorForms'  => $jrProcessorForms,
+            'jrProcessorVendorContacts'  => $jrProcessorVendorContacts,
             'processorForms'    => $processorForms,
             'processorTools'    => $processorTools,
+            'processorVendorContacts'    => $processorVendorContacts,
             'nda'           => $nda,
             'conciergeProcessing'       => $conciergeProcessing,
             'conciergeVendorContacts'   => $conciergeVendorContacts,

@@ -155,6 +155,7 @@
                                                                     ],
                                                                     'Jr Processor' => [
                                                                         'jrProcessorForms'      => 'Internal Forms',
+                                                                        'jrProcessorVendorContacts'      => 'Vendor Contacts',
                                                                     ],
                                                                     'Jr Underwriter' => [
                                                                         'jrUW'                => 'Jr Underwriter',
@@ -171,6 +172,7 @@
                                                                     'Processor' => [
                                                                         'processorForms'      => 'Internal Forms',
                                                                         'processorTools'      => 'Processor Tools',
+                                                                        'processorVendorContacts'      => 'Processor VendorContacts',
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',

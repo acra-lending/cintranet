@@ -1,8 +1,8 @@
-<div class="tab-pane fade show" id="vert-tabs-job-aides" role="tabpanel" aria-labelledby="vert-tabs-job-aides-tab">       
+<div class="tab-pane fade show" id="vert-tabs-training-refs" role="tabpanel" aria-labelledby="vert-tabs-training-refs-tab">       
   <div class="col">
     <div class="card card-dark ">
       <div class="card-header border-0">
-        <h3 class="card-title">Job Aides</h3>
+        <h3 class="card-title">Training References</h3>
       </div>
       <div class="card-body table-responsive p-0">
         <table class="table">
