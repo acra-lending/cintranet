@@ -507,7 +507,7 @@
                         </a>
                     </li>
                 </ul>
-                {{-- <ul class="nav nav-treeview">
+                <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
@@ -515,7 +515,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/correspondent/jobaides" class="nav-link {{ Request::path() === 'correspondent/jobaides' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
