@@ -278,7 +278,7 @@
                                                                     'Correspondent' => [
                                                                         'corrDocs'              => 'Documents',
                                                                         'corrForms'             => 'Forms',
-                                                                        'corrJobaides'          => 'Job Aides',
+                                                                        'corrJobaides'          => 'Training References',
                                                                         // 'flyersForBrokers'  => 'Flyers',
                                                                         // 'corrIncentive'     => 'Incentive Program',
                                                                         // 'social'            => 'LinkedIn/Social Posting Images',
