@@ -172,7 +172,7 @@
                                                                     'Processor' => [
                                                                         'processorForms'      => 'Internal Forms',
                                                                         'processorTools'      => 'Processor Tools',
-                                                                        'processorVendorContacts'      => 'Processor VendorContacts',
+                                                                        'processorVendorContacts'      => 'Processor Vendor Contacts',
                                                                     ],
                                                                     'NDA' => [
                                                                         'nda'      => 'NDA',
@@ -195,7 +195,7 @@
                                                                     'Concierge Services' => [
                                                                         'conciergeProcessing'         => 'Processing Forms',
                                                                         'conciergeVendorContacts'     => 'Vendor Contacts',
-                                                                        'conciergeJobAides'           => 'Job Aides',
+                                                                        'conciergeJobAides'           => 'Job Aids',
                                                                         'conciergeTisp'               => 'Taxes/Insurance/Subject Property',
                                                                         'conciergeVetting'            => 'Agent Verification',
                                                                     ]
