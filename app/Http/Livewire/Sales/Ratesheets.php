@@ -31,6 +31,10 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
+        $wsItinAE = Post::whereRaw("find_in_set('wsItinAE', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
         $wsNonprimeAE = Post::whereRaw("find_in_set('wsNonprimeAE', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
@@ -72,6 +76,10 @@ class Ratesheets extends Component
         // ->skip(1)
         ->simplePaginate(5);
         $wsDscrAE_past = Post::whereRaw("find_in_set('wsDscrAE', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $wsItinAE_past = Post::whereRaw("find_in_set('wsItinAE', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
@@ -121,6 +129,10 @@ class Ratesheets extends Component
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
                 ->get();
+        $corrItinPdf = Post::whereRaw("find_in_set('corrItinPdf', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->limit(1)
+                ->get();
         $corrNonprimePdf = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
@@ -148,6 +160,10 @@ class Ratesheets extends Component
                 ->limit(1)
                 ->get();
         $corrDscrXlsx = Post::whereRaw("find_in_set('corrDscrXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->limit(1)
+                ->get();
+        $corrItinXlsx = Post::whereRaw("find_in_set('corrItinXlsx', category_id)")
                 ->orderBy('created_at', 'desc')
                 ->limit(1)
                 ->get();
@@ -180,6 +196,9 @@ class Ratesheets extends Component
         $corrDscrPdf_past      = Post::whereRaw("find_in_set('corrDscrPdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 ->simplePaginate(5);
+        $corrItinPdf_past      = Post::whereRaw("find_in_set('corrItinPdf', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->simplePaginate(5);
         $corrNonprimePdf_past = Post::whereRaw("find_in_set('corrNonprimePdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 // ->skip(1)
@@ -206,6 +225,7 @@ class Ratesheets extends Component
             'ffMultiFamily'           => $ffMultiFamily,
             'ws3mbsAE'            => $ws3mbsAE,
             'wsDscrAE'            => $wsDscrAE,
+            'wsItinAE'            => $wsItinAE,
             'wsOdfAE'             => $wsOdfAE,
             'wsOdfPlusAE'         => $wsOdfPlusAE,
             'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
@@ -216,6 +236,7 @@ class Ratesheets extends Component
             'ffMultiFamily_past'             => $ffMultiFamily_past,
             'ws3mbsAE_past'       => $ws3mbsAE_past,
             'wsDscrAE_past'       => $wsDscrAE_past,
+            'wsItinAE_past'       => $wsItinAE_past,
             'wsOdfAE_past'        => $wsOdfAE_past,
             'wsOdfPlusAE_past'    => $wsOdfPlusAE_past,
             'corrOmbsvoePdf'    => $corrOmbsvoePdf,
@@ -223,6 +244,7 @@ class Ratesheets extends Component
             'corrJumboPrimePdf'   => $corrJumboPrimePdf,
             'corr3mbsPdf'       => $corr3mbsPdf,
             'corrDscrPdf'       => $corrDscrPdf,
+            'corrItinPdf'       => $corrItinPdf,
             'corrOdfPdf'        => $corrOdfPdf,
             'corrOdfPlusPdf'    => $corrOdfPlusPdf,
             'corrOmbsvoeXlsx'   => $corrOmbsvoeXlsx,
@@ -230,6 +252,7 @@ class Ratesheets extends Component
             'corrJumboPrimeXlsx'  => $corrJumboPrimeXlsx,
             'corr3mbsXlsx'      => $corr3mbsXlsx,
             'corrDscrXlsx'      => $corrDscrXlsx,
+            'corrItinXlsx'      => $corrItinXlsx,
             'corrOdfXlsx'       => $corrOdfXlsx,
             'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
             'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,
@@ -237,6 +260,7 @@ class Ratesheets extends Component
             'corrJumboPrimePdf_past'  => $corrJumboPrimePdf_past,
             'corr3mbsPdf_past'      => $corr3mbsPdf_past,
             'corrDscrPdf_past'      => $corrDscrPdf_past,
+            'corrItinPdf_past'      => $corrItinPdf_past,
             'corrOdfPdf_past'       => $corrOdfPdf_past,
             'corrOdfPlusPdf_past'   => $corrOdfPlusPdf_past,
         ]);
