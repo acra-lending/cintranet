@@ -36,6 +36,16 @@ class ReportsController extends Controller
         return view('pages.usermanagement.reports6');
     }
 
+    public function fundingDept()
+    {
+        return view('pages.usermanagement.fundingDept');
+    }
+
+    public function dailyDashboard()
+    {
+        return view('pages.usermanagement.daily');
+    }
+
     public function opsTM()
     {
         return view('pages.usermanagement.reportsopstm');
