@@ -19,7 +19,7 @@
             </thead>
             <tbody>
               @if(!empty($corrItinPdf_past))
-              @foreach($corrDscrPdf_past as $category)
+              @foreach($corrItinPdf_past as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>

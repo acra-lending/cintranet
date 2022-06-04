@@ -19,7 +19,7 @@
             </thead>
             <tbody>
               @if(!empty($wsItinAE_past))
-              @foreach($wsDscrAE_past as $category)
+              @foreach($wsItinAE_past as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>

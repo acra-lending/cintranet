@@ -18,7 +18,7 @@
             </thead>
             <tbody>
               @if(!empty($wsItinAE))
-              @foreach($wsDscrAE as $category)
+              @foreach($wsItinAE as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>

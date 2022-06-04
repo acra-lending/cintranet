@@ -18,7 +18,7 @@
             </thead>
             <tbody>
               @if(!empty($corrItinPdf))
-              @foreach($corrDscrPdf as $category)
+              @foreach($corrItinPdf as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>
@@ -41,8 +41,8 @@
                 </tr>
             @endforeach
             @endif
-            @if(!empty($corrDscrXlsx))
-            @foreach($corrDscrXlsx as $category)
+            @if(!empty($corrItinXlsx))
+            @foreach($corrItinXlsx as $category)
             <tr>
             <td>{{$category->filename}}</td>
             <td>{{$category->filesize}} KB</td>
