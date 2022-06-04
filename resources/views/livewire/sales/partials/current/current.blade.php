@@ -17,6 +17,7 @@
               @include('livewire.sales.partials.current.ombs.ombs')
               @include('livewire.sales.partials.current.3mbs.3mbs')
               @include('livewire.sales.partials.current.dscr.dscr')
+              @include('livewire.sales.partials.current.itin.itin')
               @include('livewire.sales.partials.current.nonprime.nonprime')
               @include('livewire.sales.partials.current.jumboprime.jumboprime')
               @include('livewire.sales.partials.current.sbmf.sbmf')
