@@ -30,7 +30,7 @@
         <section class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Non-Prime</b> Ratesheet Upload</h4>
@@ -50,9 +50,8 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Business Purpose / DSCR</b> Ratesheet Upload</h4>
@@ -74,7 +73,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>3-Month Bank Statement</b> Ratesheet Upload</h4>
@@ -94,9 +93,8 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Jumbo Prime</b> Ratesheet Upload</h4>
@@ -118,7 +116,28 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12 col-lg-6" style="display:inline-block;">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>ITIN</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_itin', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title"><b>Small Balance Multifamily</b> Ratesheet Upload</h4>
@@ -140,7 +159,7 @@
                     </div>
                 </div>
                 <div class="row mb-3">
-                    <div class="col-md-12 col-lg-6">
+                    <div class="col-md-6 col-lg-4">
                         <div class="progress mt-3" hidden>
                             <div class="bar"></div>
                             <div class="percent">0%</div>
