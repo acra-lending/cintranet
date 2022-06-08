@@ -11,6 +11,14 @@ class DirectoryController extends Controller
 {
     public function index(Request $request)
     {   
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         $departments = DB::table('s2zar_jsn_users')
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
@@ -48,6 +56,7 @@ class DirectoryController extends Controller
                 return view('pages.directory.directory')
                 ->with([
                     'contacts'      => $contacts,
+                    'division'      => $division,
                     'departments'   => $departments,
                     'position'      => $position,
                     'team'          => $team,
@@ -62,6 +71,7 @@ class DirectoryController extends Controller
         return view('pages.directory.directory')
         ->with([
             'contacts'      => $contacts,
+            'division'      => $division,
             'departments'   => $departments,
             'position'      => $position,
             'team'          => $team,

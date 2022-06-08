@@ -43,6 +43,9 @@
                       <b>Ext</b> <a class="float-right">{{$contact->extension}}</a>
                     </li>
                     <li class="list-group-item">
+                      <b>Division</b> <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->division)}}</a>
+                    </li>
+                    <li class="list-group-item">
                       <b>Department</b> <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->departments)}}</a>
                     </li>
                   </ul>

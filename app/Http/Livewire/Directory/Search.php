@@ -38,6 +38,14 @@ class Search extends Component
         ->pluck('position', 'position')
         ->toArray();
 
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         $departments = DB::table('s2zar_jsn_users')
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
@@ -60,6 +68,7 @@ class Search extends Component
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('name', 'like', '%'.$this->search.'%')
             ->orWhere('email', 'like', '%'.$this->search.'%')
+            ->orWhere('division', $this->search)
             ->orWhere('departments', $this->search)
             ->orWhere('position', $this->search)
             ->orWhere('team', $this->search)
@@ -68,6 +77,7 @@ class Search extends Component
         ])            
         ->with([
             'positions' => $positions,
+            'division' => $division,
             'departments' => $departments,
             'teams' => $teams
         ]);

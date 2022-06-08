@@ -86,7 +86,13 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-6">
+    <div class="col">
+        <div class="form-group">
+            <label class="control-label" for="department">New Division</label>
+            {{ Form::select('division', str_replace(array('[', '"', ']'), '', $division), null, ['class' => 'form-control', 'name' => 'division', 'placeholder' => '', 'style' => 'width:100%']) }}
+        </div>
+    </div>
+    <div class="col">
         <div class="form-group">
             <label class="control-label" for="department">New Department</label>
             {{ Form::select('departments', str_replace(array('[', '"', ']'), '', $departments), null, ['class' => 'form-control', 'name' => 'department', 'placeholder' => '', 'style' => 'width:100%']) }}

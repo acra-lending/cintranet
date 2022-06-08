@@ -82,6 +82,14 @@ class UsersController extends Controller
 
         // dd($profile);
 
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         $departments = DB::table('s2zar_jsn_users')
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
@@ -139,6 +147,7 @@ class UsersController extends Controller
             'user'          => $user,
             'roles'         => $roles,
             'profile'       => $profile,
+            'division'      => $division,
             'departments'   => $departments,
             'position'      => $position,
             'pods'          => $pods,
@@ -167,6 +176,7 @@ class UsersController extends Controller
             'email' => 'required',
             'directphone' => 'required',
             'ext' => 'nullable',
+            'division' => 'required',
             'departments' => 'required',
             'team' => 'nullable',
             'cell' => 'nullable',
@@ -239,6 +249,7 @@ class UsersController extends Controller
             'position' => $request->input('position'),
             'extension' => $request->input('extension'),
             'directphone' => $request->input('directphone'),
+            'division' => $request->input('division'),
             'departments' => $request->input('departments'),
             'team' => $request->input('team'),
             'cell' => $request->input('cell'),

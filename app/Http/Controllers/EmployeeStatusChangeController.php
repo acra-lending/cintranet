@@ -14,6 +14,14 @@ class EmployeeStatusChangeController extends Controller
 {
     public function index()
     {
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         $departments = DB::table('s2zar_jsn_users')
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
@@ -32,8 +40,9 @@ class EmployeeStatusChangeController extends Controller
 
         return view('pages.employee.statuschange')
             ->with([
+                'division'      => $division,
                 'departments'   => $departments,
-                'position'     => $position
+                'position'      => $position
             ]);
     }
 
@@ -49,6 +58,7 @@ class EmployeeStatusChangeController extends Controller
             'extension'             => 'nullable|max:20',
             'cellPhone'             => 'nullable|max:20',
             'territory'             => 'nullable|max:100',
+            'division'              => 'nullable',
             'department'            => 'nullable',
             'newPosition'           => 'nullable',
             'manager'               => 'nullable|max:100',

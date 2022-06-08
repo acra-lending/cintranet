@@ -22,9 +22,18 @@ class EmployeeNewHireController extends Controller
         ->pluck('departments', 'departments')
         ->toArray();
 
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         return view('pages.employee.newhire')
             ->with([
-                'departments'   => $departments
+                'departments'   => $departments,
+                'division'      => $division
             ]);
     }
 
@@ -37,6 +46,7 @@ class EmployeeNewHireController extends Controller
             'extension'             => 'nullable|max:20',
             'cellPhone'             => 'required|max:20',
             'territory'             => 'nullable|max:100',
+            'division'              => 'required',
             'department'            => 'required',
             'position'              => 'required',
             'manager'               => 'required|max:100',

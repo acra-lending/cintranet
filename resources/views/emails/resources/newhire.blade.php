@@ -34,6 +34,7 @@
 
 # Access Request:
 
+<strong>Division:</strong> {{ str_replace(array('[', '"', ']',), '',$data[0]['division']) }}<br/> 
 <strong>Department:</strong> {{ str_replace(array('[', '"', ']',), '',$data[0]['department']) }}<br/> 
 
 <strong>Access Type:</strong> {{ $data[0]['selectAccess'] }}<br/>

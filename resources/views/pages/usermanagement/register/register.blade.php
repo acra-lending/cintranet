@@ -97,6 +97,14 @@
                             </div>
                         </div>
                         <div class="form-group row">
+                            <label for="division" class="col-md-6 col-form-label">{{ __('Division*') }}</label>
+                            
+                            <div class="col-md-12">
+                                {{-- <input id="departments" type="text" class="form-control" name="departments"> --}}
+                                {{ Form::select('division', str_replace(array('[', '"', ']'), '', $division), null, ['class' => 'form-control float-right', 'name' => 'division'])  }}
+                            </div>
+                        </div>
+                        <div class="form-group row">
                             <label for="departments" class="col-md-6 col-form-label">{{ __('Department*') }}</label>
                             
                             <div class="col-md-12">
@@ -108,7 +116,7 @@
 
                         <div class="form-group row mb-0 justify-content-center">
                             <div class="col-md-12">
-                                <p><strong>*Must be an existing department. If new department, select one as temporary and contact webupdates to add new department*<br>    
+                                <p><strong>*Must be existing. If new, select one as temporary and contact webupdates to add new department*<br>    
                                 **Set user permissions after registration**
                                 </strong></p>
                                 {{-- <input type="reset" class="btn btn-outline-dark mr-3" value="Clear" /> --}}

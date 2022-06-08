@@ -38,6 +38,10 @@
 <strong>New Territory:</strong> {{ $data[0]['territory'] }}<br/>
 @endif
 
+@if(!empty($data[0]['division']))
+<strong>New Division:</strong> {{ str_replace(array('[', '"', ']',), '',$data[0]['division']) }}<br/>
+@endif
+
 @if(!empty($data[0]['department']))
 <strong>New Department:</strong> {{ str_replace(array('[', '"', ']',), '',$data[0]['department']) }}<br/>
 @endif

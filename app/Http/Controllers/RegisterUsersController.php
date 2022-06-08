@@ -13,6 +13,14 @@ class RegisterUsersController extends Controller
 {
     public function index()
     {
+        $division = DB::table('s2zar_jsn_users')
+        ->orderBy('division', 'asc')
+        ->groupBy('division')
+        ->where('division', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('division', 'division')
+        ->toArray();
+
         $departments = DB::table('s2zar_jsn_users')
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
@@ -22,7 +30,8 @@ class RegisterUsersController extends Controller
         ->toArray();
 
         return view('pages.usermanagement.register.register')->with([
-            'departments'   => $departments
+            'division'   => $division,
+            'departments'   => $departments,
         ]);
     }
 
@@ -47,6 +56,7 @@ class RegisterUsersController extends Controller
         $directPhone = $request['directPhone'];
         $ext = $request['ext'];
         $cellPhone = $request['cellPhone'];
+        $division = $request['division'];
         $departments = $request['departments'];
         $id = $user->id;
 
@@ -57,6 +67,7 @@ class RegisterUsersController extends Controller
             'directphone'   => $directPhone,
             'extension'     => $ext,
             'cell'          => $cellPhone,
+            'division'      => $division,
             'departments'   => $departments
         ]);
         
