@@ -83,6 +83,7 @@ class UsersApiController extends Controller
             $lastname = $data['name']['familyName'];
             $email = $data['emails'][0]['value'];
             $active = intval($data['active']);
+            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'];
             $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'];
             $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'];
             $position = $data['title'];
@@ -115,6 +116,7 @@ class UsersApiController extends Controller
                 'directphone'   => $directPhone,
                 'extension'     => $ext,
                 'cell'          => $mobilePhone,
+                'division'      => $division,
                 'departments'   => $departments,
                 'position'      => $position,
                 'team'          => $team,
@@ -171,6 +173,7 @@ class UsersApiController extends Controller
             $email = $data['emails'][0]['value'];
             $active = intval($data['active']);
             $position = $data['title'];
+            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'];
             $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'];
             $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'];
             $directPhone = $data['phoneNumbers'][0]['value'];
@@ -201,6 +204,7 @@ class UsersApiController extends Controller
                 'extension'     => $ext,
                 'cell'          => $mobilePhone,
                 'position'      => $position,
+                'division'      => $division,
                 'departments'   => $departments,
                 'team'          => $team,
             ]);
