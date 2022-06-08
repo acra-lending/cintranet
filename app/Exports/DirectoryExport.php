@@ -45,7 +45,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
     {
         return DB::table('s2zar_jsn_users')
         ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
-        ->orderBy('departments')
+        ->orderBy('division')
         // ->select('name', 'position', 'extension', 'directphone', 'cell', 'email')
         ->get();
     }
@@ -59,6 +59,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             $user->directphone,
             $user->cell,
             $user->email,
+            $user->division,
             $user->departments,
             $user->team,
             date('Y-n-j', strtotime($user->created_at))
@@ -74,6 +75,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'Direct Number',
             'Cell Number',
             'Email',
+            'Division',
             'Department',
             'Team',
             'Register Date'
@@ -89,9 +91,10 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'D' => 13.43,
             'E' => 13.71,
             'F' => 44,
-            'G' => 26.43,
-            'H' => 19,
-            'I' => 15,
+            'G' => 44,
+            'H' => 26.43,
+            'I' => 19,
+            'J' => 15,
         ];
     }
 

@@ -42,11 +42,11 @@
                         </div>
                     </div>
                     @can('edit-posts')
-                    <div class="row float-right">
+                    {{-- <div class="row float-right">
                         <div class="pt-3 mr-3">
                             <a href="/usermanagement/exports" class="btn btn-outline-danger mr-3">Directory List</a>
                         </div>
-                    </div>
+                    </div> --}}
                     @endcan
                 </div>
             </div>
