@@ -61,7 +61,7 @@
 
       <section class="content">
         <div class="container">
-            <iframe width="1550" height="3500" src="https://app.powerbi.com/view?r=eyJrIjoiNTIwMTQyMWMtMDk4Mi00ZTFhLTlhNWMtNTk3OTFjMzIzYzA0IiwidCI6ImM4YjhiYjhkLTQ4NzAtNGQ2NS04NzAxLWEyZmY5ZmViMDEwMiIsImMiOjZ9&pageName=ReportSection" frameborder="0" allowFullScreen="false"></iframe>
+            <iframe width="1550" height="1500" src="https://app.powerbi.com/view?r=eyJrIjoiNDJiNzIwZDAtOWVhMC00YWUxLTkwNDQtNTE2YzU0NGI4YzY3IiwidCI6ImM4YjhiYjhkLTQ4NzAtNGQ2NS04NzAxLWEyZmY5ZmViMDEwMiIsImMiOjZ9" frameborder="0" allowFullScreen="false"></iframe>
         </div>
       </section>
     </div>
