@@ -288,15 +288,20 @@
                                                                         // 'corrPrograms'      => 'Programs & Guidelines'
                                                                     ],
                                                                     'Fix & Flip' => [
-                                                                        'fixAndFlipSystems'         => 'Systems',
-                                                                        'fixAndFlipDocs'            => 'Documents',
-                                                                        'fixAndFlipInternalForms'   => 'Internal Forms',
-                                                                        'fixAndFlipProcessing'      => 'Processing',
-                                                                        'fixAndFlipUw'              => 'Underwriting',
-                                                                        'fixAndFlipFunding'         => 'Closing/Funding',
-                                                                        'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
+                                                                        'Documents' => [
+                                                                            'fixAndFlipSystems'         => 'Systems',
+                                                                            'fixAndFlipDocs'            => 'Documents',
+                                                                            'fixAndFlipInternalForms'   => 'Internal Forms',
+                                                                            'fixAndFlipProcessing'      => 'Processing',
+                                                                            'fixAndFlipUw'              => 'Underwriting',
+                                                                            'fixAndFlipFunding'         => 'Closing/Funding',
+                                                                            'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
+                                                                        ],
+                                                                        'Sales Tool Kit' => [
+                                                                            'fixAndFlipFlyers'          => 'Flyers',
+                                                                        ],
+                                                                        
                                                                     ],
-                                                                    
                                                                     'Small Balance Multifamily' => [
                                                                         'sbmfForms'  => 'Forms'
                                                                     ],

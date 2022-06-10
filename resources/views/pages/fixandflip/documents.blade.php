@@ -31,20 +31,21 @@
                   </h3>
                 </div>
                 <div class="card-body">
-                  <div class="row">
-                    <div class="col-sm-4 col-md-3 col-lg-2">
-                      @include('pages.fixandflip.partials.documents.navtabs')
+                  @include('pages.fixandflip.partials.documents.navtabs')
+                  <br/>
+                  
+                    <div class="tab-content" id="nav-tabContent">
+
+                      @include('pages.fixandflip.partials.documents.references.index')
+                      @include('pages.fixandflip.partials.documents.toolkit.index')
+
+                      {{-- @include('pages.fixandflip.partials.documents.systems')
+                      @include('pages.fixandflip.partials.documents.references')
+                      @include('pages.fixandflip.partials.documents.underwriting')
+                      @include('pages.fixandflip.partials.documents.funding')
+                      @include('pages.fixandflip.partials.documents.processes') --}}
                     </div>
-                    <div class="col-sm-10 col-md-9">
-                      <div class="tab-content" id="vert-tabs-tabContent">
-                        @include('pages.fixandflip.partials.documents.systems')
-                        @include('pages.fixandflip.partials.documents.references')
-                        @include('pages.fixandflip.partials.documents.underwriting')
-                        @include('pages.fixandflip.partials.documents.funding')
-                        @include('pages.fixandflip.partials.documents.processes')
-                      </div>
-                    </div>
-                  </div>
+
               </div>
             </div>
           </div>

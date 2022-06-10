@@ -29,13 +29,18 @@ class FixandFlipDocumentsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $fixAndFlipFlyers = Post::whereRaw("find_in_set('fixAndFlipFlyers', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.fixandflip.documents')
         ->with([
             'fixAndFlipDocs'            => $fixAndFlipDocs,
             'fixAndFlipSystems'         => $fixAndFlipSystems,
             'fixAndFlipUw'              => $fixAndFlipUw,
             'fixAndFlipFunding'         => $fixAndFlipFunding,
-            'fixAndFlipProcessing'      => $fixAndFlipProcessing
+            'fixAndFlipProcessing'      => $fixAndFlipProcessing,
+            'fixAndFlipFlyers'      => $fixAndFlipFlyers,
         ]);
     }
 }
