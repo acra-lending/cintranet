@@ -16,7 +16,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Processing Forms</h3>
+                  <h3 class="card-title">Concierge Services</h3>
                   <div class="card-tools">
                     </a>
                   </div>
@@ -32,7 +32,7 @@
                     </thead>
                     <tbody>
                       @if(count($conciergeProcessing) > 0 )
-                        @foreach($postCloseFunding as $category)
+                        @foreach($conciergeProcessing as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>

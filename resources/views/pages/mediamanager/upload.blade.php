@@ -425,7 +425,7 @@
                                                     </div>
                                                     <div class="input-group">
                                                         <div class="form-group">
-                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'msg,doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpg,jpeg,bmp,png,gif,eml,url')) }}
+                                                            {{ Form::file('file[]', array('multiple' => true, 'accept'=> 'msg,doc,docx,ppt,pptx,xls,xlsx,xls,pdf,jpg,jpeg,bmp,png,gif,eml')) }}
                                                         </div>
                                                     </div>
                                                 </div>
