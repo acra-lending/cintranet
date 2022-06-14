@@ -48,6 +48,27 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         ->orderBy('division')
         // ->select('name', 'position', 'extension', 'directphone', 'cell', 'email')
         ->get();
+
+        // return DB::table('s2zar_jsn_users')
+        // ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
+        // ->join('role_user', 'role_user.user_id', 's2zar_users.id')
+        // ->select(
+        //     's2zar_users.name as name',
+        //     's2zar_jsn_users.position as position',
+        //     's2zar_jsn_users.extension as extension',
+        //     's2zar_jsn_users.directphone as directphone',
+        //     's2zar_jsn_users.cell as cell',
+        //     's2zar_users.email as email',
+        //     's2zar_jsn_users.division as division',
+        //     's2zar_jsn_users.departments as departments',
+        //     's2zar_jsn_users.team as team',
+        //     's2zar_users.created_at as created_at',
+        //     )
+        // ->where('role_id', 3)
+        // ->orWhere('role_id', 2)
+        // ->orWhere('role_id', 1)
+        // ->orderBy('division')
+        // ->get();
     }
 
     public function map($user): array
