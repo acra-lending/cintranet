@@ -30,7 +30,8 @@ class WPUsersImport implements ToCollection
                 $emailAddress = strtolower($row[2]);
                 $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 // dd($lastNameWithNoSpace);
-                $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                // $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                $userName = strtolower($row[2]);
                 $tempPassword = $lastNameWithNoSpace.'$1!';
         
                 $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [

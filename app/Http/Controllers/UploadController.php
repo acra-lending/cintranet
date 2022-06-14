@@ -896,7 +896,8 @@ class UploadController extends Controller
                     $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
-                    $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                    // $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                    $userName = strtolower($emailAddress);
                     $emailAddress = strtolower($emailAddress);
                 }
                 $tempPassword = $lastName.'$1!';
@@ -1059,7 +1060,8 @@ class UploadController extends Controller
                     $lastNameWithNoSpace = str_replace($remove, "", $lastName);
                 }
                 if (isset($emailAddress)) {
-                    $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                    // $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
+                    $userName = strtolower($emailAddress);
                     $emailAddress = strtolower($emailAddress);
                     $tempPassword = $lastNameWithNoSpace.'$1!';
 
@@ -1116,7 +1118,8 @@ class UploadController extends Controller
                 }
                 if (isset($firstName2)){
                     $firstName2 = ucwords(strtolower($firstName2));
-                    $userName2 = strtolower($lastNameWithNoSpace2 .$firstName2[0] .time());
+                    // $userName2 = strtolower($lastNameWithNoSpace2 .$firstName2[0] .time());
+                    $userName2 = strtolower($emailAddress2);
                     $tempPassword2 = $lastNameWithNoSpace2.'$1!';
 
                     $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
