@@ -185,6 +185,8 @@ Route::post('mediamanager/upload3mbs', 'WebRatesheetUploadController@store_3mbs'
 Route::post('mediamanager/uploadjumboprime', 'WebRatesheetUploadController@store_jumboprime')->middleware('auth');
 Route::post('mediamanager/uploadsbmf', 'WebRatesheetUploadController@store_sbmf')->middleware('auth');
 Route::post('mediamanager/uploaditin', 'WebRatesheetUploadController@store_itin')->middleware('auth');
+Route::post('mediamanager/qqon', 'QuickQualifierToggleController@toggleOn')->middleware('auth');
+Route::post('mediamanager/qqoff', 'QuickQualifierToggleController@toggleOff')->middleware('auth');
 
 
 //File download

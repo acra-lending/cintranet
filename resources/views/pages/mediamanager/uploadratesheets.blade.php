@@ -158,6 +158,40 @@
                     </div>
                     </div>
                 </div>
+                <br>
+                <p>This will turn on/off the Quick Qualifier on the website</p>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>Quick Qualifier</b> Toggle Switch</h4>
+                        </div>
+
+                        <div class="card-body form-inline">           
+                            {{ Form::open(['action' => 'QuickQualifierToggleController@toggleOn', 'method' => 'POST', 'enctype' => 'multipart/form-data', 'class' => 'mx-2']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::submit('On', ['class' => 'btn btn-danger']) }}
+                            {{ Form::close() }}
+                            {{ Form::open(['action' => 'QuickQualifierToggleController@toggleOff', 'method' => 'POST', 'enctype' => 'multipart/form-data', 'class' => 'mx-2']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            {{ Form::submit('Off', ['class' => 'btn btn-secondary']) }}
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
                 <div class="row mb-3">
                     <div class="col-md-6 col-lg-4">
                         <div class="progress mt-3" hidden>
@@ -190,7 +224,7 @@
                     var percentVal = percentComplete + '%';
                     bar.width(percentVal)
                     percent.html(percentVal);
-                    $('.complete').html('Uploading...');
+                    $('.complete').html('Please wait...');
                 },
                 complete: function(data) {
                     $('.complete').html(data.responseJSON.success);
