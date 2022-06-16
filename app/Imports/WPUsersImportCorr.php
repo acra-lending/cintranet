@@ -5,8 +5,8 @@ namespace App\Imports;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Http;
-use App\Mail\BrokerPortalRequests;
-use App\Mail\BrokerPortalRequestsClient;
+use App\Mail\CorrespondentPortalRequests;
+use App\Mail\CorrespondentPortalRequestsClient;
 use Maatwebsite\Excel\Concerns\ToCollection;
 use Mail;
 
