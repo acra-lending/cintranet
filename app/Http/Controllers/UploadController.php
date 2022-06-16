@@ -9,6 +9,7 @@ use App\Mail\BrokerPortalRequests;
 use App\Mail\BrokerPortalRequestsClient;
 use Maatwebsite\Excel\Facades\Excel;
 use App\Imports\WPUsersImport;
+use App\Imports\WPUsersImportCorr;
 use App\Post;
 use App\Category;
 use Gate;
@@ -1187,6 +1188,13 @@ class UploadController extends Controller
     public function broker_portal_login_excel(Request $request)
     {
         Excel::import(new WPUsersImport, request()->file('file'));
+
+        return back()->with('success', 'Credentials created successfully');
+    }
+
+    public function correspondent_portal_login_excel(Request $request)
+    {
+        Excel::import(new WPUsersImportCorr, request()->file('file'));
 
         return back()->with('success', 'Credentials created successfully');
     }
