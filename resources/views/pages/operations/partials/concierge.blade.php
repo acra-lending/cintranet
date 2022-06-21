@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-sm-4 col-md-3 col-lg-3">
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="vert-tabs-concierge-processing-tab" data-toggle="pill" href="#vert-tabs-concierge-processing" role="tab" aria-controls="vert-tabs-concierge-processing" aria-selected="true">Concierge Services</a>
+          <a class="nav-link active" id="vert-tabs-concierge-processing-tab" data-toggle="pill" href="#vert-tabs-concierge-processing" role="tab" aria-controls="vert-tabs-concierge-processing" aria-selected="true">Concierge Processing</a>
           <a class="nav-link" id="vert-tabs-concierge-vendor-contacts-tab" data-toggle="pill" href="#vert-tabs-concierge-vendor-contacts" role="tab" aria-controls="vert-tabs-concierge-vendor-contacts" aria-selected="true">Vendor Contacts</a>
           <a class="nav-link" id="vert-tabs-concierge-job-aids-tab" data-toggle="pill" href="#vert-tabs-concierge-job-aids" role="tab" aria-controls="vert-tabs-concierge-job-aids" aria-selected="true">Job Aids</a>
           <a class="nav-link" id="vert-tabs-concierge-tisp-tab" data-toggle="pill" href="#vert-tabs-concierge-tisp" role="tab" aria-controls="vert-tabs-concierge-tisp" aria-selected="true">Taxes/Insurance/Subject Property</a>
@@ -16,7 +16,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Concierge Services</h3>
+                  <h3 class="card-title">Concierge Processing</h3>
                   <div class="card-tools">
                     </a>
                   </div>
