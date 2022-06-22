@@ -9,7 +9,7 @@
       @if(count($posts) > 0)
       @foreach($posts as $post)
         <div class="callout callout-danger">
-            <a href="/learning/announcements" style="text-decoration: none;">
+            <a href="/learning/announcements/{{ $post->id }}" style="text-decoration: none;">
               <h6>{{$post->title}}</h6>
             </a>  
             <p class="m-0"style="font-size: 10pt;"><em>{{Carbon\Carbon::parse($post->created_at)->format('Y-m-d')}}</em></p>    
