@@ -4,438 +4,338 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Post;
+use Carbon\Carbon;
 
 class OperationsFormsController extends Controller
 {
     public function index()
     {
+        $uwVideos = array();
+        $fixAndFlipSystems = array();
+        $fixAndFlipWelcomeForms = array();
+        $sbmfSystems = array();
+        $jrUW = array();
+        $vettingClerk = array();
+        $postCloseFunding = array();
+        $postCloseShipping = array();
+
+        $allForms = Post::get();
+
+        foreach ($allForms as $form) {
+            //-----------------
+            //Compliance Forms 
+            //-----------------  
+            if(str_contains($form->category_id, 'disclosure')) {
+                $disclosure[] = $form;
+            }
+            if(str_contains($form->category_id, 'important')) {
+                $important[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingStates')) {
+                $fundingStates[] = $form;
+            }
+            if(str_contains($form->category_id, 'policies')) {
+                $policies[] = $form;
+            }
+            if(str_contains($form->category_id, 'deptContacts')) {
+                $deptContacts[] = $form;
+            }
+            //--------
+            //Funding
+            // -------
+            if(str_contains($form->category_id, 'fundingCompliance')) {
+                $fundingCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingForms')) {
+                $fundingForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingSystems')) {
+                $fundingSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingTisp')) {
+                $fundingTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingVetting')) {
+                $fundingVetting[] = $form;
+            }
+            //-----------
+            //CD Doc Drawer
+            //-----------
+            if(str_contains($form->category_id, 'docDrawerCompliance')) {
+                $docDrawerCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'docDrawerForms')) {
+                $docDrawerForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'docDrawerSystems')) {
+                $docDrawerSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'docDrawerTisp')) {
+                $docDrawerTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'docDrawerTisp')) {
+                $docDrawerTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'docDrawerVetting')) {
+                $docDrawerVetting[] = $form;
+            }
+            //-------
+            //Funder-Closer
+            //-------
+            if(str_contains($form->category_id, 'funderCompliance')) {
+                $funderCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderEscrow')) {
+                $funderEscrow[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderForms')) {
+                $funderForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderPOA')) {
+                $funderPOA[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderSystems')) {
+                $funderSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderTisp')) {
+                $funderTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'funderVetting')) {
+                $funderVetting[] = $form;
+            }
+            //---------------
+            //Funding Forms
+            //---------------
+            if(str_contains($form->category_id, 'fundingFormsCompliance')) {
+                $fundingFormsCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingFormsForms')) {
+                $fundingFormsForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingFormsSystems')) {
+                $fundingFormsSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingFormsTisp')) {
+                $fundingFormsTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingFormsVetting')) {
+                $fundingFormsVetting[] = $form;
+            }
+            //-----------------
+            //Funding Assitant
+            //-----------------
+            if(str_contains($form->category_id, 'fundingAssistantCompliance')) {
+                $fundingAssistantCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingAssistantSystems')) {
+                $fundingAssistantSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingAssistantTisp')) {
+                $fundingAssistantTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'fundingAssistantVetting')) {
+                $fundingAssistantVetting[] = $form;
+            }
+            //------------
+            //Loan Set Up
+            //------------
+            if(str_contains($form->category_id, 'lsuAttachments')) {
+                $lsuAttachments[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuCompliance')) {
+                $lsuCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuForms')) {
+                $lsuForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuFloodCerts')) {
+                $lsuFloodCerts[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuSsaAnd4506T')) {
+                $lsuSsaAnd4506T[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuSystems')) {
+                $lsuSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuValuation')) {
+                $lsuValuation[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuVetting')) {
+                $lsuVetting[] = $form;
+            }
+            if(str_contains($form->category_id, 'lsuJobAides')) {
+                $lsuJobAides[] = $form;
+            }
+            //--------------------
+            //Transaction Manager
+            //--------------------
+            if(str_contains($form->category_id, 'tmCompliance')) {
+                $tmCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmFormsForBrokers')) {
+                $tmFormsForBrokers[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmProgramGuides')) {
+                $tmProgramGuides[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmInternalForms')) {
+                $tmInternalForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmSystems')) {
+                $tmSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmTools')) {
+                $tmTools[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmTisp')) {
+                $tmTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'tmVetting')) {
+                $tmVetting[] = $form;
+            }
+            //-------------
+            //Underwriting
+            //-------------
+            if(str_contains($form->category_id, 'uwCompliance')) {
+                $uwCompliance[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwSystems')) {
+                $uwSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwTisp')) {
+                $uwTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwGuidelines')) {
+                $uwGuidelines[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwGuidelinesPast')) {
+                $uwGuidelinesPast[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwTools')) {
+                $uwTools[] = $form;
+            }
+            if(str_contains($form->category_id, 'uwVetting')) {
+                $uwVetting[] = $form;
+            }
+            // if(str_contains($form->category_id, 'uwVideos')) {
+            //     $uwVideos[] = $form;
+            // }
+            //-------------
+            //Jr Processor
+            //-------------
+            if(str_contains($form->category_id, 'jrProcessorForms')) {
+                $jrProcessorForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'jrProcessorVendorContacts')) {
+                $jrProcessorVendorContacts[] = $form;
+            }
+            //-------------
+            //Processor
+            //-------------
+            if(str_contains($form->category_id, 'processorForms')) {
+                $processorForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'processorTools')) {
+                $processorTools[] = $form;
+            }
+            if(str_contains($form->category_id, 'processorVendorContacts')) {
+                $processorVendorContacts[] = $form;
+            }
+            //-------------
+            //NDA
+            //-------------
+            if(str_contains($form->category_id, 'nda')) {
+                $nda[] = $form;
+            }
+            //-------------
+            //Concierge Services
+            //-------------
+            if(str_contains($form->category_id, 'conciergeProcessing')) {
+                $conciergeProcessing[] = $form;
+            }
+            if(str_contains($form->category_id, 'conciergeVendorContacts')) {
+                $conciergeVendorContacts[] = $form;
+            }
+            if(str_contains($form->category_id, 'conciergeJobAides')) {
+                $conciergeJobAides[] = $form;
+            }
+            if(str_contains($form->category_id, 'conciergeTisp')) {
+                $conciergeTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'conciergeTisp')) {
+                $conciergeTisp[] = $form;
+            }
+            if(str_contains($form->category_id, 'conciergeVetting')) {
+                $conciergeVetting[] = $form;
+            }
+            //-------------
+            //Fix And Flip
+            //-------------
+            if(str_contains($form->category_id, 'fixAndFlipSystems')) {
+                $fixAndFlipSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipInternalForms')) {
+                $fixAndFlipInternalForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipVetting')) {
+                $fixAndFlipVetting[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipIntake')) {
+                $fixAndFlipIntake[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipUw')) {
+                $fixAndFlipUw[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipFunding')) {
+                $fixAndFlipFunding[] = $form;
+            }
+            if(str_contains($form->category_id, 'fixAndFlipWelcomeForms')) {
+                $fixAndFlipWelcomeForms[] = $form;
+            }
+            //-------------
+            //Small Balance Multifamily
+            //-------------
+            if(str_contains($form->category_id, 'sbmfSystems')) {
+                $sbmfSystems[] = $form;
+            }
+            if(str_contains($form->category_id, 'sbmfInternalForms')) {
+                $sbmfInternalForms[] = $form;
+            }
+            if(str_contains($form->category_id, 'sbmfGuidelines')) {
+                $sbmfGuidelines[] = $form;
+            }
+            //-------------
+            //Jr Underwriter
+            //-------------
+            if(str_contains($form->category_id, 'jrUW')) {
+                $jrUW[] = $form;
+            }
+            //-------------
+            //Pre-Screen
+            //-------------
+            if(str_contains($form->category_id, 'prescreen')) {
+                $prescreen[] = $form;
+            }
+            //-------------
+            //Vetting Clerk
+            //-------------
+            if(str_contains($form->category_id, 'vettingClerk')) {
+                $vettingClerk[] = $form;
+            }
+            //-------------
+            //Post Close-Funding
+            //-------------
+            if(str_contains($form->category_id, 'postCloseFunding')) {
+                $postCloseFunding[] = $form;
+            }
+            //-------------
+            //Post Close-Shipping
+            //-------------
+            if(str_contains($form->category_id, 'sbmfGuidelines')) {
+                $sbmfGuidelines[] = $form;
+            }
+        }
 
-        //-----------------
-        //Compliance Forms 
-        //-----------------       
-        $disclosure = Post::whereRaw("find_in_set('disclosure', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $important = Post::whereRaw("find_in_set('important', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        $fundingStates = Post::whereRaw("find_in_set('fundingStates', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $policies = Post::whereRaw("find_in_set('policies', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $deptContacts = Post::whereRaw("find_in_set('deptContacts', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //--------
-        //Funding
-        // -------
-        $fundingCompliance = Post::whereRaw("find_in_set('fundingCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingForms = Post::whereRaw("find_in_set('fundingForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $fundingProcesses = Post::whereRaw("find_in_set('fundingProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $fundingSystems = Post::whereRaw("find_in_set('fundingSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingTisp = Post::whereRaw("find_in_set('fundingTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingVetting = Post::whereRaw("find_in_set('fundingVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-----------
-        //CD Doc Drawer
-        //-----------
-        $docDrawerCompliance = Post::whereRaw("find_in_set('docDrawerCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $docDrawerForms = Post::whereRaw("find_in_set('docDrawerForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $docDrawerProcesses = Post::whereRaw("find_in_set('docDrawerProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $docDrawerSystems = Post::whereRaw("find_in_set('docDrawerSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $docDrawerTisp = Post::whereRaw("find_in_set('docDrawerTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $docDrawerVetting = Post::whereRaw("find_in_set('docDrawerVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------
-        //Funder-Closer
-        //-------
-        $funderCompliance = Post::whereRaw("find_in_set('funderCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $funderEscrow = Post::whereRaw("find_in_set('funderEscrow', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $funderForms = Post::whereRaw("find_in_set('funderForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $funderPOA = Post::whereRaw("find_in_set('funderPOA', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $funderProcesses = Post::whereRaw("find_in_set('funderProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $funderSystems = Post::whereRaw("find_in_set('funderSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $funderTisp = Post::whereRaw("find_in_set('funderTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $funderVetting = Post::whereRaw("find_in_set('funderVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //---------------
-        //Funding Forms
-        //---------------
-        $fundingFormsCompliance = Post::whereRaw("find_in_set('fundingFormsCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingFormsForms = Post::whereRaw("find_in_set('fundingFormsForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $fundingFormsProcesses = Post::whereRaw("find_in_set('fundingFormsProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $fundingFormsSystems = Post::whereRaw("find_in_set('fundingFormsSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingFormsTisp = Post::whereRaw("find_in_set('fundingFormsTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingFormsVetting = Post::whereRaw("find_in_set('fundingFormsVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-----------------
-        //Funding Assitant
-        //-----------------
-        $fundingAssistantCompliance = Post::whereRaw("find_in_set('fundingAssistantCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingAssistantForms = Post::whereRaw("find_in_set('fundingAssistantForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $fundingAssistantProcesses = Post::whereRaw("find_in_set('fundingAssistantProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $fundingAssistantSystems = Post::whereRaw("find_in_set('fundingAssistantSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingAssistantTisp = Post::whereRaw("find_in_set('fundingAssistantTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fundingAssistantVetting = Post::whereRaw("find_in_set('fundingAssistantVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //------------
-        //Loan Set Up
-        //------------
-        $lsuAttachments= Post::whereRaw("find_in_set('lsuAttachments', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuCompliance = Post::whereRaw("find_in_set('lsuCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuForms = Post::whereRaw("find_in_set('lsuForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuFloodCerts = Post::whereRaw("find_in_set('lsuFloodCerts', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $lsuProcesses = Post::whereRaw("find_in_set('lsuProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $lsuSsaAnd4506T = Post::whereRaw("find_in_set('lsuSsaAnd4506T', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuSystems = Post::whereRaw("find_in_set('lsuSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuValuation = Post::whereRaw("find_in_set('lsuValuation', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuVetting = Post::whereRaw("find_in_set('lsuVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $lsuJobAides = Post::whereRaw("find_in_set('lsuJobAides', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //--------------------
-        //Transaction Manager
-        //--------------------
-        $tmCompliance = Post::whereRaw("find_in_set('tmCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmFormsForBrokers = Post::whereRaw("find_in_set('tmFormsForBrokers', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmProgramGuides = Post::whereRaw("find_in_set('tmProgramGuides', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmInternalForms = Post::whereRaw("find_in_set('tmInternalForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $tmProcesses = Post::whereRaw("find_in_set('tmProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $tmSystems = Post::whereRaw("find_in_set('tmSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmTools = Post::whereRaw("find_in_set('tmTools', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmTisp = Post::whereRaw("find_in_set('tmTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $tmVetting = Post::whereRaw("find_in_set('tmVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Underwriting
-        //-------------
-        $uwCompliance = Post::whereRaw("find_in_set('uwCompliance', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $uwProcesses = Post::whereRaw("find_in_set('uwProcesses', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $uwSystems = Post::whereRaw("find_in_set('uwSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwTisp = Post::whereRaw("find_in_set('uwTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwGuidelines = Post::whereRaw("find_in_set('uwGuidelines', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwGuidelines_past = Post::whereRaw("find_in_set('uwGuidelinesPast', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwTools = Post::whereRaw("find_in_set('uwTools', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwVetting = Post::whereRaw("find_in_set('uwVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $uwVideos = Post::whereRaw("find_in_set('uwVideos', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Jr Processor
-        //-------------
-        $jrProcessorForms = Post::whereRaw("find_in_set('jrProcessorForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $jrProcessorVendorContacts = Post::whereRaw("find_in_set('jrProcessorVendorContacts', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-
-        //-------------
-        //Processor
-        //-------------
-        $processorForms = Post::whereRaw("find_in_set('processorForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $processorTools = Post::whereRaw("find_in_set('processorTools', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $processorVendorContacts = Post::whereRaw("find_in_set('processorVendorContacts', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-
-        //-------------
-        //NDA
-        //-------------
-        $nda = Post::whereRaw("find_in_set('nda', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Concierge Services
-        //-------------
-        $conciergeProcessing = Post::whereRaw("find_in_set('conciergeProcessing', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        $conciergeVendorContacts = Post::whereRaw("find_in_set('conciergeVendorContacts', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        $conciergeJobAides = Post::whereRaw("find_in_set('conciergeJobAides', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        $conciergeTisp = Post::whereRaw("find_in_set('conciergeTisp', category_id)")
-        ->sortable('filename')
-        ->get();
-        
-        $conciergeVetting = Post::whereRaw("find_in_set('conciergeVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Fix And Flip
-        //-------------
-        $fixAndFlipSystems = Post::whereRaw("find_in_set('fixAndFlipSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipInternalForms = Post::whereRaw("find_in_set('fixAndFlipInternalForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipVetting = Post::whereRaw("find_in_set('fixAndFlipVetting', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipIntake = Post::whereRaw("find_in_set('fixAndFlipIntake', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        // $fixAndFlipProcessing = Post::whereRaw("find_in_set('fixAndFlipProcessing', category_id)")
-        // ->sortable('filename')
-        // ->get();
-
-        $fixAndFlipUw = Post::whereRaw("find_in_set('fixAndFlipUw', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipFunding = Post::whereRaw("find_in_set('fixAndFlipFunding', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $fixAndFlipWelcomeForms = Post::whereRaw("find_in_set('fixAndFlipWelcomeForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Small Balance Multifamily
-        //-------------
-        $sbmfSystems = Post::whereRaw("find_in_set('sbmfSystems', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $sbmfInternalForms = Post::whereRaw("find_in_set('sbmfInternalForms', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        $sbmfGuidelines = Post::whereRaw("find_in_set('sbmfGuidelines', category_id)")
-        ->sortable('filename')
-        ->get();
-
-        //-------------
-        //Jr Underwriter
-        //-------------
-        $jrUW = Post::whereRaw("find_in_set('jrUW', category_id)")
-        ->sortable('filename')
-        ->get();
-        //-------------
-        //Pre-Screen
-        //-------------
-        $prescreen = Post::whereRaw("find_in_set('prescreen', category_id)")
-        ->sortable('filename')
-        ->get();
-        //-------------
-        //Vetting Clerk
-        //-------------
-        $vettingClerk = Post::whereRaw("find_in_set('vettingClerk', category_id)")
-        ->sortable('filename')
-        ->get();
-        //-------------
-        //Post Close-Funding
-        //-------------
-        $postCloseFunding = Post::whereRaw("find_in_set('postCloseFunding', category_id)")
-        ->sortable('filename')
-        ->get();
-        //-------------
-        //Post Close-Shipping
-        //-------------
-        $postCloseShipping = Post::whereRaw("find_in_set('postCloseShipping', category_id)")
-        ->sortable('filename')
-        ->get();
-        
         return view('pages.operations.forms', [
             'disclosure'            => $disclosure,
             'important'             => $important,
@@ -469,7 +369,7 @@ class OperationsFormsController extends Controller
             'fundingFormsTisp'           => $fundingFormsTisp,
             'fundingFormsVetting'        => $fundingFormsVetting,
             'fundingAssistantCompliance'     => $fundingAssistantCompliance,
-            'fundingAssistantForms'          => $fundingAssistantForms,
+            // 'fundingAssistantForms'          => $fundingAssistantForms,
             // 'fundingAssistantProcesses'      => $fundingAssistantProcesses,
             'fundingAssistantSystems'        => $fundingAssistantSystems,
             'fundingAssistantTisp'           => $fundingAssistantTisp,
@@ -498,7 +398,7 @@ class OperationsFormsController extends Controller
             'uwSystems'         => $uwSystems,
             'uwTisp'            => $uwTisp,
             'uwGuidelines'      => $uwGuidelines,
-            'uwGuidelines_past' => $uwGuidelines_past,
+            'uwGuidelinesPast' => $uwGuidelinesPast,
             'uwTools'           => $uwTools,
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos,

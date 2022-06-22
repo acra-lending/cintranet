@@ -36,7 +36,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwSystems as $category)
+                      @if(count($uwSystems) > 0)  
+                      @foreach($uwSystems as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -57,6 +58,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -83,7 +89,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwTisp as $category)
+                      @if(count($uwTisp) > 0)  
+                      @foreach($uwTisp as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -104,6 +111,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -130,7 +142,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwVetting as $category)
+                      @if(count($uwVetting) > 0)  
+                      @foreach($uwVetting as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -151,6 +164,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -177,7 +195,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwCompliance as $category)
+                      @if(count($uwCompliance) > 0)  
+                      @foreach($uwCompliance as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -198,6 +217,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -224,7 +248,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwProcesses as $category)
+                      @if(count($uwProcesses) > 0)  
+                      @foreach($uwProcesses as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -245,6 +270,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                          <tr>
+                              <td>No Files Found</td>
+                          </tr>
+                        @endif
                     </tbody>
                   </table>
                 </div>
@@ -271,7 +301,8 @@
                         </tr>
                     </thead>
                     <tbody>
-                        @foreach($uwGuidelines as $category)
+                      @if(count($uwGuidelines) > 0)  
+                      @foreach($uwGuidelines as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
                           <td>{{$category->filesize}} KB</td>
@@ -292,6 +323,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -318,6 +354,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                      @if(count($uwTools) > 0 )
                       @foreach($uwTools as $category)
                       <tr>
                         <td>{{$category->filename}}</td>
@@ -339,6 +376,11 @@
                         </td>
                       </tr>
                         @endforeach
+                        @else 
+                          <tr>
+                              <td>No Files Found</td>
+                          </tr>
+                        @endif
                   </tbody>
                   </table>
                 </div>
@@ -365,6 +407,7 @@
                           </tr>
                       </thead>
                       <tbody>
+                        @if(count($uwVideos) > 0)
                         @foreach($uwVideos as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
@@ -386,6 +429,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                     </table>
                   </div>
@@ -412,6 +460,7 @@
                           </tr>
                       </thead>
                       <tbody>
+                        @if(count($deptContacts) > 0)
                         @foreach($deptContacts as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
@@ -433,6 +482,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                     </table>
                   </div>
@@ -459,7 +513,7 @@
                           </tr>
                       </thead>
                       <tbody>
-                          @foreach($uwGuidelines_past as $category)
+                          @foreach($uwGuidelinesPast as $category)
                           <tr>
                             <td>{{$category->filename}}</td>
                             <td>{{$category->filesize}} KB</td>

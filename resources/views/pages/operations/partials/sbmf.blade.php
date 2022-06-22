@@ -29,6 +29,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if(count($sbmfSystems) > 0)
                         @foreach($sbmfSystems as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
@@ -50,6 +51,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -76,6 +82,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if(count($sbmfInternalForms) > 0)
                         @foreach($sbmfInternalForms as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
@@ -97,6 +104,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
@@ -123,6 +135,7 @@
                         </tr>
                     </thead>
                     <tbody>
+                        @if(count($sbmfGuidelines) > 0)
                         @foreach($sbmfGuidelines as $category)
                         <tr>
                           <td>{{$category->filename}}</td>
@@ -144,6 +157,11 @@
                           </td>
                         </tr>
                           @endforeach
+                          @else 
+                            <tr>
+                                <td>No Files Found</td>
+                            </tr>
+                          @endif
                     </tbody>
                   </table>
                 </div>
