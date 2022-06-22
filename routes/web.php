@@ -136,6 +136,8 @@ Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware
 Route::put('operations/usefullinks', 'UsefulLinksController@update')->middleware('auth');
 Route::delete('operations/usefullinks/{id}', 'UsefulLinksController@destroy')->middleware('auth');
 
+//Business Integrations
+Route::get('integrations/requests', 'BusinessIntegrationsController@requests')->middleware('auth');
 
 //Servicing
 Route::get('servicing/documents', 'ServicingDocsController@index')->middleware('auth');

@@ -426,6 +426,38 @@
                     </li>
                 </ul>
             </li>
+            <li class="nav-item has-treeview {{ Request::is('integrations/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-project-diagram"></i>
+                    <p>Business Integration
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/integrations/requests" class="nav-link {{ Request::path() === 'integrations/requests' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Integration Requests</p>
+                        </a>
+                    </li>
+                </ul>
+                {{-- <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Forms</p>
+                        </a>
+                    </li>
+                </ul> --}}
+                {{-- <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/jobaides" class="nav-link {{ Request::path() === 'correspondent/jobaides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Job Aides</p>
+                        </a>
+                    </li>
+                </ul> --}}
+            </li>
             <li class="nav-item">
                 <a href="/ratesheets" class="nav-link {{ Request::path() === 'ratesheets' ? 'active': ''}}">
                     <i class="nav-icon fas fa-table"></i>
