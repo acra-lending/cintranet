@@ -36,18 +36,16 @@
                             </select>
                         </div>
                     </div>
-                    <div class="row float-right">
+                    <div class="row flex-row-reverse">
                         <div class="pt-3">
-                            <a href="/directory/search" class="btn btn-dark mr-3">Reset</a>
+                            <a href="/directory/search" class="btn btn-dark mr-2">Reset</a>
                         </div>
-                    </div>
-                    @can('edit-posts')
-                    <div class="row float-right">
+                        @can('edit-posts')
                         <div class="pt-3 mr-3">
                             <a href="/usermanagement/exports" class="btn btn-outline-danger mr-3">Directory List</a>
                         </div>
-                    </div>
                     @endcan
+                    </div>
                 </div>
             </div>
             <div class="row">
