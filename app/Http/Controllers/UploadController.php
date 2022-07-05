@@ -62,113 +62,147 @@ class UploadController extends Controller
             $upload3mbs = new WS3mbsUpload;
             $upload3mbs->upload3mbs($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'wsDscrAE') {
+        elseif($categoryIdSingle == 'wsDscrAE') {
 
             $uploadDscr = new WSDscrUpload;
             $uploadDscr->uploadDscr($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'wsNonprimeAE') {
+        elseif($categoryIdSingle == 'wsNonprimeAE') {
                 
             $uploadNonPrime = new WSNonPrimeUpload;
             $uploadNonPrime->uploadNonPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'wsJumboPrimeAE') {
+        elseif($categoryIdSingle == 'wsJumboPrimeAE') {
 
             $uploadJumboPrime = new WSJumboPrimeUpload;
             $uploadJumboPrime->uploadJumboPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'wsItinAE') {
+        elseif($categoryIdSingle == 'wsItinAE') {
 
             $uploadItin = new WSItinUpload;
             $uploadItin->uploadItin($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'smallBalanceMultifamily') {
+        elseif($categoryIdSingle == 'smallBalanceMultifamily') {
 
             $uploadSmallBalanceMultiFamily = new SmallBalanceMultiFamilyUpload;
             $uploadSmallBalanceMultiFamily->uploadSmallBalanceMultiFamily($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
             
         }
 
-        if($categoryIdSingle == 'ffSingleFamily') {
+        elseif($categoryIdSingle == 'ffSingleFamily') {
 
             $uploadFfSingleFamily = new FFSingleFamilyUpload;
             $uploadFfSingleFamily->uploadFfSingleFamily($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'ffMultiFamily') {
+        elseif($categoryIdSingle == 'ffMultiFamily') {
 
             $uploadMultiFamily = new FFMultiFamilyUpload;
             $uploadMultiFamily->uploadMultiFamily($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'corr3mbsPdf') {
+        elseif($categoryIdSingle == 'corr3mbsPdf') {
 
             $uploadPdfCorr3mbs = new Corr3mbsUpload;
             $uploadPdfCorr3mbs->uploadCorr3mbs($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+
         }
 
-        if($categoryIdSingle == 'corrDscrPdf') {
+        elseif($categoryIdSingle == 'corrDscrPdf') {
 
             $uploadPdfCorrDscr = new CorrDscrUpload;
             $uploadPdfCorrDscr->uploadCorrDscr($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+
         }
 
-        if($categoryIdSingle == 'corrNonprimePdf') {
+        elseif($categoryIdSingle == 'corrNonprimePdf') {
             
             $uploadPdfCorrNonPrime = new CorrNonPrimeUpload;
             $uploadPdfCorrNonPrime->uploadCorrNonPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'corrJumboPrimePdf') {
+        elseif($categoryIdSingle == 'corrJumboPrimePdf') {
                     
             $uploadPdfCorrJumboPrime = new CorrJumboPrimeUpload;
             $uploadPdfCorrJumboPrime->uploadCorrJumboPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'corr3mbsXlsx') {
+        elseif($categoryIdSingle == 'corr3mbsXlsx') {
             
             $uploadXlsxCorr3mbs = new Corr3mbsUpload;
             $uploadXlsxCorr3mbs->uploadCorr3mbs($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
         }
 
-        if($categoryIdSingle == 'corrDscrXlsx') {
+        elseif($categoryIdSingle == 'corrDscrXlsx') {
 
             $uploadXlsxCorrDscr = new CorrDscrUpload;
             $uploadXlsxCorrDscr->uploadCorrDscr($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'corrNonprimeXlsx') {
+        elseif($categoryIdSingle == 'corrNonprimeXlsx') {
             
             $uploadXlsxCorrNonPrime = new CorrNonPrimeUpload;
             $uploadXlsxCorrNonPrime->uploadCorrNonPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($categoryIdSingle == 'corrJumboPrimeXlsx') {
+        elseif($categoryIdSingle == 'corrJumboPrimeXlsx') {
                   
             $uploadXlsxCorrJumboPrime = new CorrJumboPrimeUpload;
             $uploadXlsxCorrJumboPrime->uploadCorrJumboPrime($request);
 
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         }
 
-        if($request->hasFile('file')){
+        elseif($request->hasFile('file')){
 
         $fileUpload = new FileUpload;
         $fileUpload->uploadFile($request);

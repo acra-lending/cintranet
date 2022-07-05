@@ -44,10 +44,6 @@ class WSJumboPrimeUpload {
                 $post->save();
 
             }     
-
-            // return back()->with('success', 'Upload Complete');
-            return response()->json(['success' => 'Uploaded Successfully']);
-    
         }
     }
 }
