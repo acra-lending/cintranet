@@ -4,27 +4,29 @@
           <div class="col-12">
               <div class="card card-danger">
                 <div class="card-header">
-                    <div class="row">
-                    <h3 class="card-title"><i class="fas fa-user"></i> Users Per Page: &nbsp;</h3>
-                    <div class="col-xs-2 float-left form-inline">
-                        <select wire:model="perPage" class="form-control">
-                            <option>10</option>
-                            <option>15</option>
-                            <option>25</option>
-                        </select>
-                    </div>
-                    <!-- SEARCH FORM -->
-                    <div class="col float-right">
-                      <div class="input-group input-group">
-                        <input class="form-control form-control-navbar" wire:model="searchTerm" type="text" placeholder="Search Name or Email" aria-label="Search" autofocus="autofocus">
-                        <div class="input-group-append">
-                            <button class="btn btn-navbar" type="submit" style="right: 40px;">
-                            <i class="fas fa-search"></i>
-                            </button>
+                    <div class="row justify-content-between">
+                      <div class="col-xs-4">
+                        <h3 class="card-title mt-2"><i class="fas fa-user"></i> Users Per Page: &nbsp;</h3>
+                        <div class="form-inline">
+                            <select wire:model="perPage" class="form-control">
+                                <option>10</option>
+                                <option>15</option>
+                                <option>25</option>
+                            </select>
                         </div>
                       </div>
+                    <!-- SEARCH FORM -->
+                    <div class="col-sm-6">
+                      <div class="input-group input-group">
+                        <input class="form-control form-control-navbar" wire:model="searchTerm" type="text" placeholder="Search Name or Email" aria-label="Search" autofocus="autofocus">
+                        {{-- <div class="input-group-append">
+                            <button class="btn btn-navbar" type="submit">
+                            <i class="fas fa-search"></i>
+                            </button>
+                        </div> --}}
+                      </div>
                     </div>
-                </div>
+                  </div>
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">

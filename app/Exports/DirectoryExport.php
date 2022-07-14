@@ -55,6 +55,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         // ->select(
         //     's2zar_users.name as name',
         //     's2zar_jsn_users.position as position',
+        //     // 'role_user.role_id',
         //     's2zar_jsn_users.extension as extension',
         //     's2zar_jsn_users.directphone as directphone',
         //     's2zar_jsn_users.cell as cell',
@@ -62,8 +63,9 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         //     's2zar_jsn_users.division as division',
         //     's2zar_jsn_users.departments as departments',
         //     's2zar_jsn_users.team as team',
-        //     's2zar_users.created_at as created_at',
-        //     )
+        //     's2zar_users.updated_at as updated_at',
+        //     's2zar_users.created_at as created_at'
+            // )
         // ->where('role_id', 3)
         // ->orWhere('role_id', 2)
         // ->orWhere('role_id', 1)
@@ -76,6 +78,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         return [
             $user->name,
             $user->position,
+            // $user->role_id,
             $user->extension,
             $user->directphone,
             $user->cell,
@@ -83,6 +86,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             $user->division,
             $user->departments,
             $user->team,
+            date('Y-n-j', strtotime($user->updated_at)),
             date('Y-n-j', strtotime($user->created_at))
         ];
     }
@@ -92,6 +96,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
         return [
             'Name',
             'Position',
+            // 'Role',
             'Ext',
             'Direct Number',
             'Cell Number',
@@ -99,6 +104,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'Division',
             'Department',
             'Team',
+            'Updated Date',
             'Register Date'
         ];
     }
@@ -109,13 +115,15 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'A' => 26.86,
             'B' => 45.29,
             'C' => 4,
-            'D' => 13.43,
-            'E' => 13.71,
-            'F' => 44,
+            'D' => 4,
+            'E' => 13.43,
+            'F' => 13.71,
             'G' => 44,
-            'H' => 26.43,
-            'I' => 19,
-            'J' => 15,
+            'H' => 44,
+            'I' => 26.43,
+            'J' => 19,
+            'K' => 15,
+            'L' => 15,
         ];
     }
 
