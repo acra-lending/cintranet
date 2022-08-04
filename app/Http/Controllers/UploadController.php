@@ -123,7 +123,7 @@ class UploadController extends Controller
         elseif($categoryIdSingle == 'ffMultiFamily') {
 
             $uploadMultiFamily = new FFMultiFamilyUpload;
-            $uploadMultiFamily->uploadMultiFamily($request);
+            $uploadMultiFamily->uploadFfMultiFamily($request);
 
             return response()->json(['success' => 'Uploaded Successfully']);
 

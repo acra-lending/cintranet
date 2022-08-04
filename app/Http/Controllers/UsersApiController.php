@@ -78,19 +78,21 @@ class UsersApiController extends Controller
             return $this->scimError('User already exists', Response::HTTP_CONFLICT);
             // return response()->setStatusCode(Response::HTTP_OK);
         } else {
-    
-            $firstname = $data['name']['givenName'];
-            $lastname = $data['name']['familyName'];
-            $email = $data['emails'][0]['value'];
-            $active = intval($data['active']);
-            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'];
-            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'];
-            $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'];
-            $position = $data['title'];
-            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'];
-            $mobilePhone = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['mobilePhone'];
-            $directPhone = $data['phoneNumbers'][0]['value'];
-            $ext = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['extension'];
+            
+            //check for empty
+
+            $firstname = $data['name']['givenName'] ?? 'empty';
+            $lastname = $data['name']['familyName'] ?? 'empty';
+            $email = $data['emails'][0]['value'] ?? 'empty';
+            $active = intval($data['active']) ?? 'empty';
+            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'] ?? 'empty';
+            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'] ?? 'empty';
+            $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'] ?? 'empty';
+            $position = $data['title'] ?? 'empty';
+            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'] ?? 'empty';
+            $mobilePhone = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['mobilePhone'] ?? 'empty';
+            $directPhone = $data['phoneNumbers'][0]['value'] ?? 'empty';
+            $ext = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['extension'] ?? 'empty';
     
             // $role = Role::where('id', $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['roles'])->first();
             $role = Role::where('name', 'user')->first();
@@ -168,17 +170,19 @@ class UsersApiController extends Controller
 
         } else {
 
-            $firstname = $data['name']['givenName'];
-            $lastname = $data['name']['familyName'];
-            $email = $data['emails'][0]['value'];
+            //check for empty 
+
+            $firstname = $data['name']['givenName'] ?? 'empty';
+            $lastname = $data['name']['familyName'] ?? 'empty';
+            $email = $data['emails'][0]['value'] ?? 'empty';
             $active = intval($data['active']);
-            $position = $data['title'];
-            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'];
-            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'];
-            $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'];
-            $directPhone = $data['phoneNumbers'][0]['value'];
-            $mobilePhone = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['mobilePhone'];
-            $ext = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['extension'];
+            $position = $data['title'] ?? 'empty';
+            $division = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['division'] ?? 'empty';
+            $departments = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['department'] ?? 'empty';
+            $team = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['manager']['displayName'] ?? 'empty';
+            $directPhone = $data['phoneNumbers'][0]['value'] ?? 'empty';
+            $mobilePhone = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['mobilePhone'] ?? 'empty';
+            $ext = $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['extension'] ?? 'empty';
     
             // $role = Role::where('id', $data['urn:ietf:params:scim:schemas:extension:enterprise:2.0:User']['roles'])->first();
             // $role = Role::where('name', 'user')->first();
