@@ -657,6 +657,14 @@
                         </a>
                     </li>
                 </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/infotech/newprojectrequests" class="nav-link {{ Request::path() === 'infotech/newprojectrequests' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>New Project Requests</p>
+                        </a>
+                    </li>
+                </ul>
                 @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">

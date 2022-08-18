@@ -163,4 +163,9 @@ class ITSupportController extends Controller
             'itDocs' => $itDocs,
         ]);
     }
+
+    public function newProjectRequests()
+    {
+        return view('pages.infotech.projectrequests');
+    }
 }

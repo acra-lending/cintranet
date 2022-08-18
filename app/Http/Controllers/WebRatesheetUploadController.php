@@ -262,6 +262,8 @@ class WebRatesheetUploadController extends Controller
             $post->filesize = $filesizeToStore;
             $post->save();
     
+            // return back()->with('success', 'Upload Complete');
+
             return response()->json(['success' => 'Uploaded Successfully']);
         
         } else {
