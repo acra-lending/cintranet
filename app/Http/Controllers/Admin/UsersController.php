@@ -267,13 +267,16 @@ class UsersController extends Controller
         $fullname = implode(' ', $array);
         $folderID = $request->input('folderID');
 
-        $info2 = DB::table('s2zar_users')->where('id', $user->id)->update([
-            'name' => $fullname,
-            'folderID' => $folderID
-        ]);
+        // $info2 = DB::table('s2zar_users')->where('id', $user->id)->update([
+        //     'name' => $fullname,
+        //     'folderID' => $folderID
+        // ]);
 
         $profile = User::where('id', $user->id)->first();
         $profile->email = $request->input('email');
+        $profile->name = $fullname;
+        $profile->folderID = $folderID;
+
 
         if($request->hasFile('avatar')){
             $profile->avatar = $fileNameToStore;
