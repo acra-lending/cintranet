@@ -2,7 +2,7 @@
     <div class="col">
       <div class="card card-danger">
         <div class="card-header border-0">
-          <h3 class="card-title">Business Purpose / DSCR</h3>
+          <h3 class="card-title">ITIN</h3>
           <div class="card-tools">
             </a>
           </div>

@@ -2,6 +2,7 @@
     <a class="nav-link active" id="vert-tabs-ombs-corr-tab_past" data-toggle="pill" href="#vert-tabs-ombs-corr_past" role="tab" aria-controls="vert-tabs-ombs-corr_past" aria-selected="true" wire:ignore>OMBS & VOE</a>
     <a class="nav-link" id="vert-tabs-3mbs-corr-tab_past" data-toggle="pill" href="#vert-tabs-3mbs-corr_past" role="tab" aria-controls="vert-tabs-3mbs-corr_past" aria-selected="false" wire:ignore>3MBS</a>
     <a class="nav-link" id="vert-tabs-dscr-corr-tab_past" data-toggle="pill" href="#vert-tabs-dscr-corr_past" role="tab" aria-controls="vert-tabs-dscr-corr_past" aria-selected="false" wire:ignore>Business Purpose / DSCR</a>
+    <a class="nav-link" id="vert-tabs-itin-corr-tab_past" data-toggle="pill" href="#vert-tabs-itin-corr_past" role="tab" aria-controls="vert-tabs-itin-corr_past" aria-selected="false" wire:ignore>ITIN</a>
     <a class="nav-link" id="vert-tabs-non-prime-corr-tab_past" data-toggle="pill" href="#vert-tabs-non-prime-corr_past" role="tab" aria-controls="vert-tabs-non-prime-corr_past" aria-selected="false" wire:ignore>Non-Prime Correspondent</a>
     <a class="nav-link" id="vert-tabs-jumbo-prime-corr-tab_past" data-toggle="pill" href="#vert-tabs-jumbo-prime-corr_past" role="tab" aria-controls="vert-tabs-jumbo-prime-corr_past" aria-selected="false" wire:ignore>Jumbo Prime Correspondent</a>
     <a class="nav-link" id="vert-tabs-odf-corr-tab_past" data-toggle="pill" href="#vert-tabs-odf-corr_past" role="tab" aria-controls="vert-tabs-odf-corr_past" aria-selected="false" wire:ignore>Outside Dodd-Frank<sup>®</sup></a>

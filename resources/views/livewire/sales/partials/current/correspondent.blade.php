@@ -16,6 +16,7 @@
               @include('livewire.sales.partials.current.ombs.ombscorr')
               @include('livewire.sales.partials.current.3mbs.3mbscorr')
               @include('livewire.sales.partials.current.dscr.dscrcorr')
+              @include('livewire.sales.partials.current.itin.itincorr')
               @include('livewire.sales.partials.current.nonprime.nonprimecorr')
               @include('livewire.sales.partials.current.jumboprime.jumboprimecorr')
               @include('livewire.sales.partials.current.odd.oddcorr')
