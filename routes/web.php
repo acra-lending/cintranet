@@ -201,10 +201,12 @@ Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 
 //IT
 Route::get('infotech/ticket', 'ITSupportController@index')->middleware('auth');
+Route::get('infotech/ratesheetupdates', 'ITSupportController@ratesheetUpdates')->middleware('auth');
 Route::get('infotech/newprojectrequests', 'ITSupportController@newProjectRequests')->middleware('auth');
 Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('auth');
 Route::post('infotech/issues', 'ITSupportController@submitIssues')->middleware('auth');
 Route::post('infotech/requests', 'ITSupportController@submitRequests')->middleware('auth');
+Route::post('infotech/ratesheetupdates', 'ITSupportController@submitRatesheetUpdates')->middleware('auth');
 Route::get('infotech/documents', 'ITSupportController@getDocuments')->middleware('auth');
 
 //Excel Export

@@ -253,7 +253,7 @@
                                                 <label for="attachFiles">Attach File(s)</label>
                                                 <div class="input-group">
                                                     <div class="form-group">
-                                                        {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif')) }}
+                                                        {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif,pdf,xlsx')) }}
                                                     </div>
                                                 </div>
                                                 </div>
@@ -338,7 +338,7 @@
                                                 <label for="attachFiles">Attach File(s)</label>
                                                 <div class="input-group">
                                                     <div class="form-group">
-                                                        {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif')) }}
+                                                        {{ Form::file('attachment[]', array('multiple' => true, 'accept'=> 'pdf,jpeg,jpg,bmp,png,gif,pdf,xlsx')) }}
                                                     </div>
                                                 </div>
                                                 </div>

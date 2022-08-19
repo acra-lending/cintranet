@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Mail\ITSupportMail;
 use App\Mail\ITSupportIssues;
 use App\Mail\ITSupportRequests;
+use App\Mail\ITSupportRatesheetUpdates;
 use App\Post;
 use App\User;
 use Mail;
@@ -32,6 +33,11 @@ class ITSupportController extends Controller
             ]);
     }
 
+    public function ratesheetUpdates()
+    {
+        return view('pages.infotech.ratesheetupdates');
+    }
+
     public function submitForm(Request $request)
     {
             $dataValidate = request()->validate([
@@ -47,8 +53,8 @@ class ITSupportController extends Controller
                 'docVelocity'       => 'nullable',
                 'folderName'        => 'nullable',
                 'additionalInfo'    => 'nullable',
-                'attachment'        => 'array',
-                'attachment.*'      => 'image|mimes:jpg,jpeg,bmp,png',
+                'attachment'        => 'nullable',
+                'attachment.*'      => 'nullable|mimes:jpg,jpeg,bmp,png,pdf,xlsx',
             ]);
 
             $data = $request->except('itemRequest');
@@ -90,8 +96,8 @@ class ITSupportController extends Controller
             'subject'       => 'required',
             'priority'      => 'nullable',
             'bodyMessage'   => 'required',
-            'attachment'    => 'array',
-            'attachment.*'  => 'image|mimes:jpg,jpeg,bmp,png',
+            'attachment'    => 'nullable',
+            'attachment.*'  => 'nullable|mimes:jpg,jpeg,bmp,png,pdf,xlsx',
         ]);
 
         $data = $request->all();
@@ -125,8 +131,8 @@ class ITSupportController extends Controller
             'subject'       => 'required',
             'priority'      => 'nullable',
             'bodyMessage'   => 'required',
-            'attachment'    => 'array',
-            'attachment.*'  => 'image|mimes:jpg,jpeg,bmp,png',
+            'attachment'    => 'nullable',
+            'attachment.*'  => 'nullable|mimes:jpg,jpeg,bmp,png,pdf,xlsx',
         ]);
 
         $data = $request->all();
@@ -149,6 +155,46 @@ class ITSupportController extends Controller
             ->send($mail);
 
         return redirect('/infotech/ticket')
+            ->with('success', 'Request Form Sent');
+    }
+
+    public function submitRatesheetUpdates(Request $request)
+    {
+        $dataValidate = request()->validate([
+            'name'              => 'required|max:100',
+            'email'             => 'required|email',
+            'subject'           => 'required',
+            'effectiveDate'     => 'required',
+            'priority'          => 'nullable',
+            'systemRequest'     => 'required',
+            'bodyMessage'       => 'required',
+            'attachment'        => 'nullable',
+            'attachment.*'      => 'nullable|mimes:jpg,jpeg,bmp,png,pdf,xlsx',
+        ]);
+
+        $data = $request->except('systemRequest');
+
+        $systemRequest = $request->input('systemRequest');
+        $systemRequest = implode(', ', $systemRequest);
+
+        $mail = new ITSupportRatesheetUpdates($data, $systemRequest);
+
+        $files = $request->file('attachment');
+    
+        if($request->hasFile('attachment')){
+
+            foreach ($files as $file){
+                $mail->attach($file->getRealPath(), [
+                    'as'    => $file->getClientOriginalName(),
+                    'mime'  => $file->getClientMimeType()
+                ]);          
+            }
+        }
+        
+        Mail::to(['itsupport@citadelservicing.com'])
+            ->send($mail);
+
+        return redirect('/infotech/ratesheetupdates')
             ->with('success', 'Request Form Sent');
     }
 
