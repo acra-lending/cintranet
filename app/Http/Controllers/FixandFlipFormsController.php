@@ -17,10 +17,15 @@ class FixandFlipFormsController extends Controller
         ->sortable('filename')
         ->get();
 
+        $fixAndFlipDrawForms = Post::whereRaw("find_in_set('fixAndFlipDrawForms', category_id)")
+        ->sortable('filename')
+        ->get();
+
         return view('pages.fixandflip.forms')
         ->with([
             'fixAndFlipInternalForms'    => $fixAndFlipInternalForms,
-            'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms
+            'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
+            'fixAndFlipDrawForms'       => $fixAndFlipDrawForms
         ]);
     }
 }

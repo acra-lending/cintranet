@@ -39,6 +39,7 @@
                       <div class="tab-content" id="vert-tabs-tabContent">
                         @include('pages.fixandflip.partials.forms.internalforms')
                         @include('pages.fixandflip.partials.forms.welcomeforms')
+                        @include('pages.fixandflip.partials.forms.drawforms')
                       </div>
                     </div>
                   </div>

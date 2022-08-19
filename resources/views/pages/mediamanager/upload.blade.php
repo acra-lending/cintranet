@@ -296,6 +296,7 @@
                                                                             'fixAndFlipUw'              => 'Underwriting',
                                                                             'fixAndFlipFunding'         => 'Closing/Funding',
                                                                             'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
+                                                                            'fixAndFlipDrawForms'       => 'Draw Forms'
                                                                         ],
                                                                         'Sales Tool Kit' => [
                                                                             'fixAndFlipFlyers'          => 'Flyers',
