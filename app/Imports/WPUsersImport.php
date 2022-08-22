@@ -61,7 +61,15 @@ class WPUsersImport implements ToCollection
                     'tempPassword'  => $tempPassword,
                 ];
         
-                $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com'); 
+                $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com');
+                
+                if($request->filled('email2')){
+                    $emails = explode(',', $request->input('email2'));
+                    foreach($emails as $email)
+                    {
+                        array_push($emailArray, $email);
+                    }
+                }   
         
                 if ($response->successful()) {
                     Mail::to($emailArray)

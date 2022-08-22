@@ -166,14 +166,18 @@
                           <div class="tab-pane fade" id="nav-broker-login-request-excel" role="tabpanel" aria-labelledby="nav-broker-login-request-excel-tab">
                             {{ Form::open(['action' => 'UploadController@broker_portal_login_excel', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                             <div class="form-group">
-                                <p class="mt-3 py-2">This is for <strong>Excel Upload </strong> with filename: <strong>login_credentials.xlsx</strong></p>
+                                <p class="mt-3 py-2">This is for <strong>Excel Upload </strong> with filename: <strong><a href="{{ asset ('storage/upload/login_credentials.xlsx') }}" download>login_credentials.xlsx</a></strong></p>
                                 <p class="py-2"><strong>Upload .xlsx file ONLY</strong></p>
-                                <p class="py-2"><strong>For Broker Credentials ONLY</strong></p>
-                                <label for="attachFiles">Attach Email(s)</label>
+                                <p class="py-2"><strong>For BROKER Credentials ONLY</strong></p>
+                                <label for="attachFiles">Attach Excel</label>
                                 <div class="input-group">
                                     <div class="form-group">
                                         {{ Form::file('file', array('multiple' => false, 'accept'=> 'xlsx')) }}
                                     </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="email3">Additional Recipients Email (Internal Only, separated by comma):</label>
+                                    <input type="email" class="form-control" name="email2" id="email2" multiple> 
                                 </div>
                             </div>
                             <div>
@@ -189,14 +193,18 @@
                           <div class="tab-pane fade" id="nav-corr-login-request-excel" role="tabpanel" aria-labelledby="nav-corr-login-request-excel-tab">
                             {{ Form::open(['action' => 'UploadController@correspondent_portal_login_excel', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                             <div class="form-group">
-                                <p class="mt-3 py-2">This is for <strong>Correspondent Excel Upload </strong> with filename: <strong>login_credentials.xlsx</strong></p>
+                                <p class="mt-3 py-2">This is for <strong>Correspondent Excel Upload </strong> with filename: <strong><a href="{{ asset ('storage/upload/login_credentials.xlsx') }}" download>login_credentials.xlsx</a></strong></p>
                                 <p class="py-2"><strong>Upload .xlsx file ONLY</strong></p>
-                                <p class="py-2"><strong>For Broker Credentials ONLY</strong></p>
-                                <label for="attachFiles">Attach Email(s)</label>
+                                <p class="py-2"><strong>For CORRESPONDENT Credentials ONLY</strong></p>
+                                <label for="attachFiles">Attach Excel</label>
                                 <div class="input-group">
                                     <div class="form-group">
                                         {{ Form::file('file', array('multiple' => false, 'accept'=> 'xlsx')) }}
                                     </div>
+                                </div>
+                                <div class="form-group">
+                                    <label class="control-label" for="email3">Additional Recipients Email (Internal Only, separated by comma):</label>
+                                    <input type="email" class="form-control" name="email2" id="email2" multiple> 
                                 </div>
                             </div>
                             <div>
