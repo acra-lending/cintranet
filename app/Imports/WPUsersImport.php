@@ -13,6 +13,11 @@ use Mail;
 
 class WPUsersImport implements ToCollection
 {
+    public function __construct(Request $request)
+    {
+        $this->request = $request;
+    }
+
     /**
     * @param Collection $collection
     */
@@ -63,8 +68,8 @@ class WPUsersImport implements ToCollection
         
                 $emailArray = array('webupdates@acralending.com', 'brokerportalconfirmations@citadelservicing.com');
                 
-                if($request->filled('email2')){
-                    $emails = explode(',', $request->input('email2'));
+                if($this->request->filled('email2')){
+                    $emails = explode(',', $this->request->input('email2'));
                     foreach($emails as $email)
                     {
                         array_push($emailArray, $email);
@@ -87,11 +92,11 @@ class WPUsersImport implements ToCollection
 
         }
 
-        if ($response->successful()) {
-            return back()->with('success', 'Credentials created successfully');
-        } else {
-            $message = $response->json()['message'];
-            return back()->with('error', $message);
-        }
+        // if ($response->successful()) {
+        //     return back()->with('success', 'Credentials created successfully');
+        // } else {
+        //     $message = $response->json()['message'];
+        //     return back()->with('error', $message);
+        // }
     }
 }

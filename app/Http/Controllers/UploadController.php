@@ -334,14 +334,14 @@ class UploadController extends Controller
 
     public function broker_portal_login_excel(Request $request)
     {
-        Excel::import(new WPUsersImport, request()->file('file'));
+        Excel::import(new WPUsersImport($request), request()->file('file'));
 
         return back()->with('success', 'Credentials created successfully');
     }
 
     public function correspondent_portal_login_excel(Request $request)
     {
-        Excel::import(new WPUsersImportCorr, request()->file('file'));
+        Excel::import(new WPUsersImportCorr($request), request()->file('file'));
 
         return back()->with('success', 'Credentials created successfully');
     }
