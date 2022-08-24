@@ -49,6 +49,7 @@ Route::post('usermanagement/register', 'RegisterUsersController@create')->middle
 Route::get('reports5', 'ReportsController@index5')->middleware('auth');
 Route::get('reports6', 'ReportsController@index6')->middleware('auth');
 Route::get('reportsopstm', 'ReportsController@opsTM')->middleware('auth');
+Route::get('reportsopsuw', 'ReportsController@opsUW')->middleware('auth');
 Route::get('daily', 'ReportsController@dailyDashboard')->middleware('auth');
 Route::get('fundingdept', 'ReportsController@fundingDept')->middleware('auth');
 

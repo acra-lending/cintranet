@@ -50,4 +50,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reportsopstm');
     }
+
+    public function opsUW()
+    {
+        return view('pages.usermanagement.reportsopsuw');
+    }
 }
