@@ -94,7 +94,7 @@ Route::get('directory/user/{id}', 'DirectoryController@show')->middleware('auth'
 Route::get('directory/uwteams', 'DepartmentContactsController@uwteams')->middleware('auth');
 Route::get('directory/tmteams', 'DepartmentContactsController@tmteams')->middleware('auth');
 Route::get('directory/cdlteams', 'DepartmentContactsController@cdlteams')->middleware('auth');
-Route::get('directory/pods', 'DepartmentContactsController@podsList')->middleware('auth');
+// Route::get('directory/pods', 'DepartmentContactsController@podsList')->middleware('auth');
 
 //Ratesheets
 Route::get('ratesheets', 'RatesheetCategoryController@index')->middleware('auth');

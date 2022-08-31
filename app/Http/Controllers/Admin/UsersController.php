@@ -106,42 +106,42 @@ class UsersController extends Controller
         ->pluck('position', 'position')
         ->toArray();
 
-        $pods = array(
-            '1'  => '1', 
-            '2'  => '2', 
-            '3'  => '3',
-            '4'  => '4',
-            '5'  => '5',
-            '6'  => 'Overflow'
-        );
+        // $pods = array(
+        //     '1'  => '1', 
+        //     '2'  => '2', 
+        //     '3'  => '3',
+        //     '4'  => '4',
+        //     '5'  => '5',
+        //     '6'  => 'Overflow'
+        // );
 
-        $tmPodTeam = DB::table('s2zar_jsn_users')
-        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('pod_tm_lead', '1')
-        ->groupBy('name')
-        ->orderBy('name', 'asc')
-        ->pluck('name', 'name')
-        ->toArray();
+        // $tmPodTeam = DB::table('s2zar_jsn_users')
+        // ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        // ->where('pod_tm_lead', '1')
+        // ->groupBy('name')
+        // ->orderBy('name', 'asc')
+        // ->pluck('name', 'name')
+        // ->toArray();
 
-        // dd($tmPodTeam);
+        // // dd($tmPodTeam);
 
 
-        $uwPodTeam = DB::table('s2zar_jsn_users')
-        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('pod_uw_lead', '1')
-        ->groupBy('name')
-        ->orderBy('name', 'asc')
-        ->pluck('name', 'name')
-        ->toArray();
+        // $uwPodTeam = DB::table('s2zar_jsn_users')
+        // ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        // ->where('pod_uw_lead', '1')
+        // ->groupBy('name')
+        // ->orderBy('name', 'asc')
+        // ->pluck('name', 'name')
+        // ->toArray();
 
-        $uwPodArray = array(
-            'Multifamily' => 'Multifamily',
-            'DSCR / FNF UW Team' => 'DSCR / FNF UW Team', 
-            'Consumer Direct' => 'Consumer Direct', 
-            'Correspondent' => 'Correspondent'
-        );
+        // $uwPodArray = array(
+        //     'Multifamily' => 'Multifamily',
+        //     'DSCR / FNF UW Team' => 'DSCR / FNF UW Team', 
+        //     'Consumer Direct' => 'Consumer Direct', 
+        //     'Correspondent' => 'Correspondent'
+        // );
 
-        $uwPodTeam = $uwPodTeam + $uwPodArray;
+        // $uwPodTeam = $uwPodTeam + $uwPodArray;
         
         return view('pages.usermanagement.edit')->with([
             'user'          => $user,
@@ -150,9 +150,9 @@ class UsersController extends Controller
             'division'      => $division,
             'departments'   => $departments,
             'position'      => $position,
-            'pods'          => $pods,
-            'tmPodTeam'     => $tmPodTeam,
-            'uwPodTeam'     => $uwPodTeam
+            // 'pods'          => $pods,
+            // 'tmPodTeam'     => $tmPodTeam,
+            // 'uwPodTeam'     => $uwPodTeam
         ]);
     }
 
@@ -180,12 +180,12 @@ class UsersController extends Controller
             'departments' => 'required',
             'team' => 'nullable',
             'cell' => 'nullable',
-            'pod_id' => 'nullable',
-            'pod_lead' => 'nullable',
-            'pod_tm_lead' => 'nullable',
-            'pod_uw_lead' => 'nullable',
-            'pod_tm_lead_name' => 'nullable',
-            'pod_uw_lead_name' => 'nullable',
+            // 'pod_id' => 'nullable',
+            // 'pod_lead' => 'nullable',
+            // 'pod_tm_lead' => 'nullable',
+            // 'pod_uw_lead' => 'nullable',
+            // 'pod_tm_lead_name' => 'nullable',
+            // 'pod_uw_lead_name' => 'nullable',
             'folderID' => 'nullable',
             'avatar' => 'image|nullable|max:1999'
         ]);
@@ -211,34 +211,34 @@ class UsersController extends Controller
         $firstname = explode(' ', trim($name))[0];
         $lastname = explode(' ', trim($name))[1];
 
-        $podTmLeadName = '';
-        $podUwLeadName = '';
+        // $podTmLeadName = '';
+        // $podUwLeadName = '';
         $array = array($request->input('firstname'), $request->input('lastname'));
         $fullname = implode(' ', $array);
 
-        if ($request->input('pod_id') == '6') {
-            $podUwLeadName = $request->input('pod_uw_lead_name');
-        } else {
-            $podUwLeadName = $fullname;
-        }
+        // if ($request->input('pod_id') == '6') {
+        //     $podUwLeadName = $request->input('pod_uw_lead_name');
+        // } else {
+        //     $podUwLeadName = $fullname;
+        // }
 
-        if ($request->input('pod_id') == '6' && $request->input('pod_uw_lead') == '1' && $request->input('pod_uw_lead') == '') {
-            $podUwLeadName = $request->input('pod_uw_lead_name');
-        } else {
-            $podUwLeadName = $fullname;
-        }
+        // if ($request->input('pod_id') == '6' && $request->input('pod_uw_lead') == '1' && $request->input('pod_uw_lead') == '') {
+        //     $podUwLeadName = $request->input('pod_uw_lead_name');
+        // } else {
+        //     $podUwLeadName = $fullname;
+        // }
 
-        if ($request->input('pod_tm_lead') == "1") {
-            $podTmLeadName = $fullname;
-        } else {
-            $podTmLeadName = $request->input('pod_tm_lead_name');
-        }
+        // if ($request->input('pod_tm_lead') == "1") {
+        //     $podTmLeadName = $fullname;
+        // } else {
+        //     $podTmLeadName = $request->input('pod_tm_lead_name');
+        // }
 
-        if ($request->input('pod_uw_lead') == "1" && $request->input('pod_id') !== '6') {
-            $podUwLeadName = $fullname;
-        } else {
-            $podUwLeadName = $request->input('pod_uw_lead_name');
-        }
+        // if ($request->input('pod_uw_lead') == "1" && $request->input('pod_id') !== '6') {
+        //     $podUwLeadName = $fullname;
+        // } else {
+        //     $podUwLeadName = $request->input('pod_uw_lead_name');
+        // }
 
         
 
@@ -253,12 +253,12 @@ class UsersController extends Controller
             'departments' => $request->input('departments'),
             'team' => $request->input('team'),
             'cell' => $request->input('cell'),
-            'pod_id' => $request->input('pod_id'),
-            'pod_lead' => $request->input('pod_lead'),
-            'pod_tm_lead' => $request->input('pod_tm_lead'),
-            'pod_uw_lead' => $request->input('pod_uw_lead'),
-            'pod_tm_lead_name' => $podTmLeadName,
-            'pod_uw_lead_name' => $podUwLeadName,
+            // 'pod_id' => $request->input('pod_id'),
+            // 'pod_lead' => $request->input('pod_lead'),
+            // 'pod_tm_lead' => $request->input('pod_tm_lead'),
+            // 'pod_uw_lead' => $request->input('pod_uw_lead'),
+            // 'pod_tm_lead_name' => $podTmLeadName,
+            // 'pod_uw_lead_name' => $podUwLeadName,
         ]);
 
 

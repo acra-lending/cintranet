@@ -386,9 +386,13 @@ class OperationsFormsController extends Controller
         ->sortable('filename')
         ->get();
 
-        $fixAndFlipWelcomeForms = Post::whereRaw("find_in_set('fixAndFlipWelcomeForms', category_id)")
+        $fixAndFlipVendorContacts = Post::whereRaw("find_in_set('fixAndFlipVendorContacts', category_id)")
         ->sortable('filename')
         ->get();
+
+        // $fixAndFlipWelcomeForms = Post::whereRaw("find_in_set('fixAndFlipWelcomeForms', category_id)")
+        // ->sortable('filename')
+        // ->get();
 
         //-------------
         //Small Balance Multifamily
@@ -520,7 +524,8 @@ class OperationsFormsController extends Controller
             // 'fixAndFlipProcessing'      => $fixAndFlipProcessing,
             'fixAndFlipUw'              => $fixAndFlipUw,
             'fixAndFlipFunding'         => $fixAndFlipFunding,
-            'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
+            'fixAndFlipVendorContacts'  => $fixAndFlipVendorContacts,
+            // 'fixAndFlipWelcomeForms'    => $fixAndFlipWelcomeForms,
             'sbmfSystems'           => $sbmfSystems,
             'sbmfInternalForms'     => $sbmfInternalForms,
             'sbmfGuidelines'        => $sbmfGuidelines,

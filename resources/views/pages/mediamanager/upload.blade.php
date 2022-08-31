@@ -185,7 +185,8 @@
                                                                         'fixAndFlipProcessing'      => 'Processing',
                                                                         'fixAndFlipUw'              => 'Underwriting',
                                                                         'fixAndFlipFunding'         => 'Closing/Funding',
-                                                                        'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
+                                                                        'fixAndFlipVendorContacts'  => 'Vendor Contacts',
+                                                                        // 'fixAndFlipWelcomeForms'    => 'Welcome Letter & Required Forms',
                                                                     ],
                                                                     'Small Balance Multifamily' => [
                                                                         'sbmfSystems'         => 'Systems',

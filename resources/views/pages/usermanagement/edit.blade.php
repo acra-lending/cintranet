@@ -123,7 +123,7 @@
                   </div>
                 </div>
                 <div class="form-group">
-                  @can('edit-users')
+                  {{-- @can('edit-users')
                     <div class="card card-danger">
                       <div class="card-header">
                         <h3 class="card-title">POD Details</h3>
@@ -169,8 +169,8 @@
                         </ul>
     
                       </div>
-                    </div>
-                  @endcan
+                    </div> 
+                  @endcan --}}
                   @can('manage-users')
                   {{ Form::label('Profile Picture ') }}
                   {{ Form::file('avatar') }}
