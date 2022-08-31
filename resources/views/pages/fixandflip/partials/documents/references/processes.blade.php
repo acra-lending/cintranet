@@ -1,6 +1,6 @@
 <div class="tab-pane fade" id="vert-tabs-processes" role="tabpanel" aria-labelledby="vert-tabs-processes-tab">       
   <div class="col">
-    <div class="card card-dark ">
+    <div class="card card-dark">
       <div class="card-header border-0">
         <h3 class="card-title">Processes</h3>
       </div>

@@ -1,13 +1,19 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Livewire\Fixandflip;
 
-use Illuminate\Http\Request;
+use Livewire\Component;
+use Livewire\WithPagination;
 use App\Post;
+use DB;
 
-class FixandFlipDocumentsController extends Controller
+class FixandFlipDocuments extends Component
 {
-    public function index()
+    use WithPagination;
+
+    protected $paginationTheme = 'bootstrap';
+
+    public function render()
     {
         $fixAndFlipDocs = Post::whereRaw("find_in_set('fixAndFlipDocs', category_id)")
         ->sortable('filename')
@@ -35,10 +41,9 @@ class FixandFlipDocumentsController extends Controller
 
         $fixAndFlipBulletins = Post::whereRaw("find_in_set('fixAndFlipBulletins', category_id)")
         ->sortable('filename')
-        ->paginate(1);
-
-        return view('pages.fixandflip.documents')
-        ->with([
+        ->simplePaginate(15);
+        
+        return view('livewire.fixandflip.fixand-flip-documents')->with([
             'fixAndFlipDocs'            => $fixAndFlipDocs,
             'fixAndFlipSystems'         => $fixAndFlipSystems,
             'fixAndFlipUw'              => $fixAndFlipUw,
@@ -47,5 +52,6 @@ class FixandFlipDocumentsController extends Controller
             'fixAndFlipFlyers'          => $fixAndFlipFlyers,
             'fixAndFlipBulletins'       => $fixAndFlipBulletins
         ]);
+        
     }
 }

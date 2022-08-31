@@ -21,35 +21,7 @@
         <!-- Main content -->
         <section class="content">
           @include('pages.modals.modal-forms')
-          <div class="container">
-            <div class="col-md-12 col-lg-12 col-xl-10">
-              <div class="card card-dark card-outline">
-                <div class="card-header">
-                  <h3 class="card-title">
-                    <i class="fas fa-folder"></i>
-                    Documents
-                  </h3>
-                </div>
-                <div class="card-body">
-                  @include('pages.fixandflip.partials.documents.navtabs')
-                  <br/>
-                  
-                    <div class="tab-content" id="nav-tabContent">
-
-                      @include('pages.fixandflip.partials.documents.references.index')
-                      @include('pages.fixandflip.partials.documents.toolkit.index')
-
-                      {{-- @include('pages.fixandflip.partials.documents.systems')
-                      @include('pages.fixandflip.partials.documents.references')
-                      @include('pages.fixandflip.partials.documents.underwriting')
-                      @include('pages.fixandflip.partials.documents.funding')
-                      @include('pages.fixandflip.partials.documents.processes') --}}
-                    </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
+            <livewire:fixandflip.fixand-flip-documents />
       </section>
     </div>
 @stop

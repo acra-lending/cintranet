@@ -290,6 +290,7 @@
                                                                     ],
                                                                     'Fix & Flip' => [
                                                                         'Documents' => [
+                                                                            'fixAndFlipBulletins'       => 'Bulletins',
                                                                             'fixAndFlipSystems'         => 'Systems',
                                                                             'fixAndFlipDocs'            => 'Documents',
                                                                             'fixAndFlipInternalForms'   => 'Internal Forms',

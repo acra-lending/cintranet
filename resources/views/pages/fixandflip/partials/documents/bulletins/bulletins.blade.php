@@ -1,8 +1,8 @@
-<div class="tab-pane fade show active" id="vert-tabs-flyers" role="tabpanel" aria-labelledby="vert-tabs-flyers-tab">       
+<div class="tab-pane fade" id="vert-tabs-bulletins" role="tabpanel" aria-labelledby="vert-tabs-bulletins-tab">       
   <div class="col">
     <div class="card card-dark">
       <div class="card-header border-0">
-        <h3 class="card-title">Flyers</h3>
+        <h3 class="card-title">Bulletins</h3>
       </div>
       <div class="card-body table-responsive p-0">
         <table class="table">
@@ -14,7 +14,8 @@
               </tr>
           </thead>
           <tbody>
-              @foreach($fixAndFlipFlyers as $category)
+              @if(count($fixAndFlipBulletins) > 0)
+              @foreach($fixAndFlipBulletins as $category)
               <tr>
               <td>{{$category->filename}}</td>
               <td>{{$category->filesize}} KB</td>
@@ -35,9 +36,11 @@
               </td>
             </tr>
               @endforeach
+              @endif
           </tbody>
           </table>
       </div>
+      {{ $fixAndFlipBulletins->links() }}
     </div>
   </div>
 </div>

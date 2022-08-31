@@ -1,4 +1,4 @@
-<div class="tab-pane fade show active" id="vert-tabs-flyers" role="tabpanel" aria-labelledby="vert-tabs-flyers-tab">       
+<div class="tab-pane fade show active" id="vert-tabs-flyers" role="tabpanel" aria-labelledby="vert-tabs-flyers-tab" wire:ignore.self>       
   <div class="col">
     <div class="card card-dark">
       <div class="card-header border-0">

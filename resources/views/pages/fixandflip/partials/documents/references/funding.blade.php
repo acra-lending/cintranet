@@ -1,6 +1,6 @@
 <div class="tab-pane fade" id="vert-tabs-funding" role="tabpanel" aria-labelledby="vert-tabs-funding-tab">       
   <div class="col">
-    <div class="card card-dark ">
+    <div class="card card-dark">
       <div class="card-header border-0">
         <h3 class="card-title">Closing/Funding</h3>
       </div>
