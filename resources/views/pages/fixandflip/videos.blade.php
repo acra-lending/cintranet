@@ -128,6 +128,7 @@
           <div class="container-fluid">
               <div class="row justify-content-center">
                   @include('pages.fixandflip.videos.training')
+                  @include('pages.fixandflip.videos.sales')
               </div>
           </div>
       </section>

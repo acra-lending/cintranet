@@ -172,9 +172,15 @@ class VideosController extends Controller
         $data = $url['data'];
         $fixAndFliptrainingResults = $data;
 
+        $url = Vimeo::request("/users/124219438/projects/12515769/videos", ['per_page' => 99], 'GET');
+        $url = $url['body'];
+        $data = $url['data'];
+        $fixAndFlipAEResults = $data;
+
         return view('pages.fixandflip.videos', 
             compact([
-                'fixAndFliptrainingResults'
+                'fixAndFliptrainingResults',
+                'fixAndFlipAEResults'
             ]));
     }
 
