@@ -8,9 +8,12 @@
         <table class="table">
           <thead>
               <tr>
-              <th>@sortablelink('filename', 'File Name')</th>
+              <th>File Name</th>
+              <th>File Size</th>
+              <th>Created At</th>
+              {{-- <th>@sortablelink('filename', 'File Name')</th>
               <th>@sortablelink('filesize', 'File Size')</th>
-              <th>@sortablelink('created_at', 'Created At')</th>
+              <th>@sortablelink('created_at', 'Created At')</th> --}}
               </tr>
           </thead>
           <tbody>

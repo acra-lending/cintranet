@@ -34,8 +34,7 @@ class FixandFlipDocumentsController extends Controller
         ->get();
 
         $fixAndFlipBulletins = Post::whereRaw("find_in_set('fixAndFlipBulletins', category_id)")
-        ->latest()
-        ->sortable('filename')
+        ->sortable(['created_at' => 'desc'])
         ->paginate(1);
 
         return view('pages.fixandflip.documents')

@@ -40,7 +40,8 @@ class FixandFlipDocuments extends Component
         ->get();
 
         $fixAndFlipBulletins = Post::whereRaw("find_in_set('fixAndFlipBulletins', category_id)")
-        ->sortable('filename')
+        ->orderBy('created_at', 'desc')
+        // ->sortable(['created_at' => 'desc'])
         ->simplePaginate(15);
         
         return view('livewire.fixandflip.fixand-flip-documents')->with([
