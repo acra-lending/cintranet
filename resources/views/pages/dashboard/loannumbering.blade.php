@@ -12,38 +12,38 @@
         <div>
           <h6>Bytepro:</h6>
             <p class="m-0" style="font-size: 10.5pt;">
-            0003000000 – Commercial<br>
-            0004000000 – Legacy 2nd Liens<br>
-            0005000000 – Retail<br>
-            0006000000 – Legacy Misc.<br>
-            0007000000 – Wholesale<br>
-            0008000000 – Legacy 2nd Liens<br>
-            0009000000 – Correspondent Flow<br>
-            0010000000 – Correspondent Bulk<br>
-            0011000000 – Correspondent 2 Step<br>
-            0012000000 – Jumbo Prime Wholesale<br>
-            0012500000 – Jumbo Prime Retail<br>
+            0003000000 - Commercial<br>
+            0004000000 - Legacy 2nd Liens<br>
+            0005000000 - Retail<br>
+            0006000000 - Legacy Misc.<br>
+            0007000000 - Wholesale<br>
+            0008000000 - Legacy 2nd Liens<br>
+            0009000000 - Correspondent Flow<br>
+            0010000000 - Correspondent Bulk<br>
+            0011000000 - Correspondent 2 Step<br>
+            0012000000 - Jumbo Prime Wholesale<br>
+            0012500000 - Jumbo Prime Retail<br>
             </p>
             <br>
-            <h6>Empower:</h6>
+            {{-- <h6>Empower:</h6>
             <p class="m-0" style="font-size: 10.5pt;">
-            0025000000 – Retail (Pending)<br>
-            0027000000 – Wholesale<br>
-            0029000000 – Correspondent (Pending)<br>
+            0025000000 - Retail (Pending)<br>
+            0027000000 - Wholesale<br>
+            0029000000 - Correspondent (Pending)<br>
             </p>
-            <br>
+            <br> --}}
 
             <h6>Decipher:</h6>
             <p class="m-0" style="font-size: 10.5pt;">
-            0023000000 – Fix and Flip<br>
+            0023000000 - Fix and Flip<br>
             </p>
             <br>
 
-            <h6>Evolve:</h6>
+            {{-- <h6>Evolve:</h6>
             <p class="m-0" style="font-size: 10.5pt;">
-            0022000000 – Jumbo Prime<br>
+            0022000000 - Jumbo Prime<br>
             </p>
-            <br>
+            <br> --}}
         </div>
       </div>
     </div>

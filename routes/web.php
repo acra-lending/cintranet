@@ -130,7 +130,7 @@ Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
 Route::get('operations/daily', function(){return view('pages.operations.daily');})->middleware('auth'); // Coming Soon
 Route::get('operations/forms', 'OperationsFormsController@index')->middleware('auth');
 Route::get('operations/processes', 'OperationsProcessesController@index')->middleware('auth');
-Route::get('operations/empower', 'OperationsEmpowerController@index')->middleware('auth');
+// Route::get('operations/empower', 'OperationsEmpowerController@index')->middleware('auth');
 Route::get('operations/usefullinks', 'UsefulLinksController@index')->middleware('auth');
 Route::get('operations/usefullinks/create', 'UsefulLinksController@create')->middleware('auth');
 Route::post('operations/usefullinks', 'UsefulLinksController@store')->middleware('auth');
@@ -145,8 +145,9 @@ Route::get('servicing/documents', 'ServicingDocsController@index')->middleware('
 Route::get('servicing/tools', 'ServicingToolsController@index')->middleware('auth');
 
 //Human Resources
-Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
+// Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
 Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware('auth');
+Route::get('humanresources/dayforce', 'HRDocumentsController@dayforce')->middleware('auth');
 Route::get('humanresources/401k', 'Principal401kController@index')->middleware('auth');
 Route::get('humanresources/health', 'HealthPlansController@index')->middleware('auth');
 Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->middleware('auth');
@@ -217,6 +218,8 @@ Route::get('/exportTM', 'DirectoryExportController@exportTM')->middleware('auth'
 Route::get('/exportCDL', 'DirectoryExportController@exportCDL')->middleware('auth');
 Route::get('/usermanagement/exports', 'DirectoryListController@index')->middleware('auth');
 
+//Clear Cache
+Route::get('/clear/cache', 'ClearCacheController@clearRoute')->middleware('auth');
 
 
 

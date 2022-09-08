@@ -19,4 +19,16 @@ class HRDocumentsController extends Controller
             'hrPolicies' => $hrPolicies,
         ]);
     }
+
+    public function dayforce()
+    {
+        $hrDayforceGuides = Post::where('category_id', 'hrDayforceGuides')
+        ->sortable('filename', 'asc')
+        ->get();
+
+        return view('pages.humanresources.dayforce')
+        ->with([
+            'hrDayforceGuides' => $hrDayforceGuides,
+        ]);
+    }
 }

@@ -294,6 +294,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/humanresources/dayforce" class="nav-link {{ Request::path() === 'humanresources/dayforce' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Dayforce</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/humanresources/documents" class="nav-link {{ Request::path() === 'humanresources/documents' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Documents</p>
@@ -401,14 +409,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/operations/empower" class="nav-link {{ Request::path() === 'operations/empower' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Empower - Wholesale</p>
                         </a>
                     </li>
-                </ul>
+                </ul> --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/operations/usefullinks" class="nav-link {{ Request::path() === 'operations/usefullinks' ? 'active': ''}}">

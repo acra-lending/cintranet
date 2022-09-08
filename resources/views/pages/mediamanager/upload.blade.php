@@ -371,6 +371,9 @@
                                                                         'hrPaylocity'           => 'Paylocity',
                                                                         'hrHowTo'               => 'How To\'s',
                                                                     ],
+                                                                    'Dayforce' => [
+                                                                        'hrDayforceGuides'      => 'Guides',
+                                                                    ],
                                                                     'Recruitment' => [
                                                                         'hrSocialMedia'         => 'Social Media',
                                                                         'hrFlyers'              => 'Flyers',

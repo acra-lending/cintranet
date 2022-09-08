@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Http;
 use App\Mail\BrokerPortalRequests;
@@ -225,6 +226,7 @@ class UploadController extends Controller
 
         $fileUpload = new FileUpload;
         $fileUpload->uploadFile($request);
+        Cache::flush();
 
         return response()->json(['success' => 'Uploaded Successfully']);
 
@@ -256,11 +258,13 @@ class UploadController extends Controller
             $post->category_id = ($request->input('category_id'));
             $post->filename = $newfilename;
             $post->save();
+            Cache::flush();
             
             return back()->with('success', 'File Updated');
         } else if ($newfilename == $oldfilename && $newcategory != $oldcategory) {
             $post->category_id = ($request->input('category_id'));
             $post->save();
+            Cache::flush();
 
             return back()->with('success', 'File Updated');
 
@@ -358,6 +362,7 @@ class UploadController extends Controller
         Storage::delete('public/upload/'.$post->filename);
 
         $post->delete();
+        Cache::flush();
 
         return back()->with('success', 'File Removed');
     }
