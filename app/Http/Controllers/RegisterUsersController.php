@@ -57,6 +57,7 @@ class RegisterUsersController extends Controller
             'name' => $request['name'],
             'email' => $request['email'],
             'password' => Hash::make($request['password']),
+            'active' => 1
         ]);
 
         $firstname = explode(' ', trim($request['name']))[0];
