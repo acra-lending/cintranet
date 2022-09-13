@@ -67,9 +67,16 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        $role = Role::where('name', 'admin')->first();
+        if(User::where('employeeID', '=', $data['employeeID'])->exists()) {
+            return back()->with('error', 'User with Employee ID already exists');
+        }
+        dd($data);
+
+        $role = Role::where('name', 'user')->first();
 
         $user = User::create([
+            'employeeID' => $data['employeeID'],
+            'startDate' => $data['startDate'],
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
@@ -81,6 +88,7 @@ class RegisterController extends Controller
         $ext = $data['ext'];
         $cellPhone = $data['cellPhone'];
         $departments = $data['departments'];
+        $team = $data['team'];
         $id = $user->id;
 
 
@@ -91,7 +99,8 @@ class RegisterController extends Controller
             'directphone'   => $directPhone,
             'extension'     => $ext,
             'cell'          => $cellPhone,
-            'departments'   => $departments
+            'departments'   => $departments,
+            'team'          => $team,
         ]);
 
         

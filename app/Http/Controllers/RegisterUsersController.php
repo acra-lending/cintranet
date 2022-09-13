@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\User;
 use App\Role;
 use DB;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -43,9 +44,16 @@ class RegisterUsersController extends Controller
             'password'      => ['required', 'string', 'min:8', 'confirmed'],
         ]);
 
-        $role = Role::where('name', 'admin')->first();
+        if(User::where('employeeID', '=', $request['employeeID'])->exists()) {
+            return back()->with('error', 'User with Employee ID already exists');
+        }
+        // dd($request['requestDueDate']);
+
+        $role = Role::where('name', 'user')->first();
 
         $user = User::create([
+            'employeeID' => intval( $request['employeeID'] ),
+            'startDate' => Carbon::parse( $request['requestDueDate'] ),
             'name' => $request['name'],
             'email' => $request['email'],
             'password' => Hash::make($request['password']),

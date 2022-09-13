@@ -76,6 +76,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
     public function map($user): array
     {
         return [
+            $user->employeeID,
             $user->name,
             $user->position,
             // $user->role_id,
@@ -87,13 +88,16 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             $user->departments,
             $user->team,
             date('Y-n-j', strtotime($user->updated_at)),
-            date('Y-n-j', strtotime($user->created_at))
+            date('Y-n-j', strtotime($user->created_at)),
+            date('Y-n-j', strtotime($user->startDate)),
+            date('Y-n-j', strtotime($user->deleted_at))
         ];
     }
 
     public function headings(): array
     {
         return [
+            'Employee ID',
             'Name',
             'Position',
             // 'Role',
@@ -105,25 +109,30 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             'Department',
             'Team',
             'Updated Date',
-            'Register Date'
+            'Register Date',
+            'Start Date',
+            'Termination Date'
         ];
     }
 
     public function columnWidths(): array
     {
         return [
-            'A' => 26.86,
-            'B' => 45.29,
-            'C' => 4,
-            'D' => 4,
-            'E' => 13.43,
-            'F' => 13.71,
-            'G' => 44,
+            'A' => 8,
+            'B' => 24.67,
+            'C' => 56.44,
+            'D' => 5,
+            'E' => 13,
+            'F' => 13.56,
+            'G' => 42.71,
             'H' => 44,
-            'I' => 26.43,
-            'J' => 19,
+            'I' => 22,
+            'J' => 17.89,
             'K' => 15,
             'L' => 15,
+            'M' => 15,
+            'N' => 15,
+            'O' => 15,
         ];
     }
 

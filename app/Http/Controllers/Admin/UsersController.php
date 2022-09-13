@@ -6,6 +6,7 @@ use App\User;
 use App\Role;
 use Gate;
 use DB;
+use Carbon\Carbon;
 use Illuminate\Support\Facades\Storage;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
@@ -57,6 +58,17 @@ class UsersController extends Controller
         return view('pages.usermanagement.index')
         ->with([
             'users'         => $users
+        ]);
+    }
+
+    public function inactiveUsers(Request $request)
+    {
+        $inactiveUsers = User::onlyTrashed()->get();
+        // dd($inactiveUsers);
+
+        return view('pages.usermanagement.inactive')
+        ->with([
+            'inactiveUsers' => $inactiveUsers
         ]);
     }
 
@@ -301,11 +313,37 @@ class UsersController extends Controller
             return redirect(route('admin.user.index'));
         }
 
+
         $user->roles()->detach();
-        DB::table('s2zar_jsn_users')->where('id', '=', $user->id)->delete();
+        $profile = DB::table('s2zar_jsn_users')->where('id', $user->id)->update([
+            'deleted_at' => Carbon::now()
+        ]);
+        $user->active = 0;
+        $user->save();
+
         $user->delete();
 
         return redirect()->route('admin.user.index')->with('success', 'User Deleted');
+    }
+
+    public function restore($id)
+    {
+        if(Gate::denies('delete-users')){
+            return redirect(route('admin.user.index'));
+        }
+        $role = Role::where('name', 'user')->first();
+
+        $user = DB::table('s2zar_jsn_users')->where('id', $id)->update([
+            'deleted_at' => null
+        ]);
+        $inactiveUser = User::where('id', $id)->withTrashed()->first();
+        $inactiveUser->assignRole($role);
+        $inactiveUser->active = 1;
+        $inactiveUser->save();
+        $inactiveUser->restore();
+
+
+        return redirect()->route('admin.user.inactive')->with('success', 'User Restored');
     }
 
     public function delete_avatar(User $user)

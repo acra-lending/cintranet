@@ -264,11 +264,20 @@ class UsersApiController extends Controller
 
         if ($active === false) {
             $user->roles()->detach();
-            DB::table('s2zar_jsn_users')->where('id', $user->id)->delete();
+            $profile = DB::table('s2zar_jsn_users')->where('id', $user->id)->first();
+            $profile->deleted_at = now();
             $user->delete();
         }
 
         if ($active === true) {
+            $role = Role::where('name', 'user')->first();
+
+            $user = DB::table('s2zar_jsn_users')->where('id', $user->id)->first();
+            $user->deleted_at = null;
+            $inactiveUser = User::where('id', $user->id)->withTrashed()->first();
+            $inactiveUser->assignRole($role);
+            $inactiveUser->restore();
+
             return UserResource::make($user)
             ->response()
             ->setStatusCode(Response::HTTP_OK);

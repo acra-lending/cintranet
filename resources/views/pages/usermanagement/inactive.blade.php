@@ -11,7 +11,7 @@
               <h1>Manage Users</h1>
               @can('manage-posts')
                 <a href="/usermanagement/register" class="mt-3 col-sm-3 btn btn-outline-dark">Create User</a>
-                <a href="/usermanagement/user/inactive" class="mt-3 col-sm-3 btn btn-outline-danger">Inactive Users</a>
+                <a href="/usermanagement/user" class="mt-3 col-sm-3 btn btn-outline-danger">Active Users</a>
               @endcan
             </div>
           </div>
@@ -25,7 +25,7 @@
   
       <!-- Main content -->
       <section class="content">
-        <livewire:usermanagement.search />
+        <livewire:usermanagement.search-inactive />
       </section>
     </div> <!-- end content-wrapper -->
 

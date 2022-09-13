@@ -34,10 +34,10 @@
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        {{-- <th class="w-5"><a wire:click.prevent="sortBy('employeeID')" role="button" href="#">
+                        <th class="w-5"><a wire:click.prevent="sortBy('employeeID')" role="button" href="#">
                             Employee ID 
                             @include('includes._sort-icon', ['field' => 'employeeID'])
-                        </a></th> --}}
+                        </a></th>
                         <th class="w-25"><a wire:click.prevent="sortBy('name')" role="button" href="#">
                             Name 
                             @include('includes._sort-icon', ['field' => 'name'])
@@ -47,13 +47,13 @@
                             @include('includes._sort-icon', ['field' => 'email'])
                         </a></th>
                         <th class="w-0">Role(s)</th>
-                        <th class="w-0"><a wire:click.prevent="sortBy('created_at')" role="button" href="#">
-                            Register Date 
-                            @include('includes._sort-icon', ['field' => 'created_at'])
+                        <th class="w-0"><a wire:click.prevent="sortBy('startDate')" role="button" href="#">
+                            Start Date 
+                            @include('includes._sort-icon', ['field' => 'startDate'])
                         </a></th>
                         <th class="w-0"><a wire:click.prevent="sortBy('lastvisitDate')" role="button" href="#">
-                            Last Login 
-                            @include('includes._sort-icon', ['field' => 'lastvisitDate'])
+                            Termination Date 
+                            @include('includes._sort-icon', ['field' => 'deleted_at'])
                         </a></th>
                         <th class="w-0">Action</th>
                       </tr>
@@ -61,19 +61,16 @@
                     <tbody>
                         @foreach($users as $user)
                       <tr>
-                        {{-- <td>{{$user->employeeID}}</td> --}}
+                        <td>{{$user->employeeID}}</td>
                         <td><div class="col-sm-2 col-md-6 col-lg-3 col-xl-2 image float-left"><img src="{{ ($user->avatar) ? url('/storage/avatars/' .$user->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"></div><p class="pt-2 mb-0 float-left">{{$user->name}}</p></td>
                         <td>{{$user->email}}</td>
                         <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>
-                        <td>{{ Carbon\Carbon::parse($user->created_at)->format('Y-m-d') }}</td>
+                        <td>{{ Carbon\Carbon::parse($user->startDate)->format('Y-m-d') }}</td>
                         <td>{{ Carbon\Carbon::parse($user->lastvisitDate)->format('Y-m-d') }}</td>
                         <td>
-                          @can('edit-users')
-                          <a href="{{ route('admin.user.edit', $user->id)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
-                          @endcan
                           @can('manage-users')
-                          {{ Form::open(['action' => ['Admin\UsersController@destroy', $user], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
-                          {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
+                          {{ Form::open(['route' => ['admin.user.restore', $user->id], 'method' => 'POST', 'class' => 'float-left pl-1']) }}
+                          {{ Form::submit('Restore', ['class' => 'btn btn-outline-dark', 'onclick' => "return confirm('Are you sure?')"]) }}
                           {{ Form::close() }}
                           @endcan
                           {{-- <a href="{{ route('admin.user.destroy', $user->id)}}" method="POST"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a> --}}

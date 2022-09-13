@@ -177,7 +177,7 @@
               </div>
             </div>
           </div>
-          {{-- <div class="col-12">
+          <div class="col-12">
             <div class="card card-danger">
               <div class="card-header">
                 <div class="card-title">
@@ -198,7 +198,7 @@
                 </div>
               </div>
             </div>
-          </div> --}}
+          </div>
           <div class="col-12">
             <div class="card card-danger">
               <div class="card-header">

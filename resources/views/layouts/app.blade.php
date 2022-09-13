@@ -79,7 +79,11 @@
         </nav>
 
         <main class="py-4">
+            <div class="container col-3" id="messages">    
+                @include('includes.messages')
+            </div>
             @yield('content')
+
         </main>
     </div>
     @include('includes.scripts')

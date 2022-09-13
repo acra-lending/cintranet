@@ -11,8 +11,16 @@
                     <i class="far fa-calendar-alt"></i>
                     </span>
                 </div>
-                <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required onchange="notes()">
+                <input type="text" class="form-control float-right" name="requestDueDate" id="requestDate" required>
             </div>
+        </div>
+    </div>
+</div>
+<div class="row card-footer">
+    <div class="col-sm-12 col-md-6 col-lg-6 col-xl-3">
+        <div class="form-group required">
+            <label class="control-label" for="name">Employee ID</label>
+            <input type="text" class="form-control" name="employeeID" id="employeeID" placeholder="" required>
         </div>
     </div>
 </div>

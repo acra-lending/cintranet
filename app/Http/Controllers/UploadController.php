@@ -228,6 +228,8 @@ class UploadController extends Controller
         $fileUpload->uploadFile($request);
         Cache::flush();
 
+        // return back()->with('success', 'Uploaded Successfully');
+
         return response()->json(['success' => 'Uploaded Successfully']);
 
         } else {

@@ -9,11 +9,11 @@ use Illuminate\Contracts\Auth\CanResetPassword;
 use App\Notifications\MailResetPasswordNotification;
 use Kyslik\ColumnSortable\Sortable;
 use Laravel\Passport\HasApiTokens;
-
+use Illuminate\Database\Eloquent\SoftDeletes;
 
 class User extends Authenticatable
 {
-    use HasApiTokens, Notifiable, Sortable;
+    use HasApiTokens, Notifiable, Sortable, SoftDeletes;
 
     // public $sortable = [ 'name', 'email', 'created_at', 'lastvisitDate' ];
 
@@ -24,7 +24,7 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password', 'lastvisitDate', 'active'
+        'employeeID', 'startDate', 'name', 'email', 'password', 'lastvisitDate', 'active'
     ];
 
     /**

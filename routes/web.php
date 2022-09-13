@@ -31,6 +31,8 @@ Route::namespace('Admin')->prefix('usermanagement')->name('admin.')->group(funct
 });
 
 Route::put('usermanagement/user/avatar/{user}', 'Admin\UsersController@delete_avatar')->middleware('auth');
+Route::post('usermanagement/user/restore/{id}', 'Admin\UsersController@restore')->name('admin.user.restore')->middleware('auth');
+Route::get('usermanagement/user/inactive', 'Admin\UsersController@inactiveUsers')->name('admin.user.inactive')->middleware('auth');
 Route::get('usermanagement/wp-users', 'WPUsersController@index')->middleware('auth');
 // Route::get('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@index')->middleware('auth');
 Route::post('usermanagement/brokerportalrequests', 'BrokerPortalRequestsController@submit')->middleware('auth');
