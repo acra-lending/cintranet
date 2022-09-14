@@ -130,7 +130,7 @@
 
   function outFunc() {
     // $('[data-toggle="tooltip"]').tooltip();
-    $('[data-toggle="tooltip"]').tooltip('dispose').tooltip({title: 'Copied'}).tooltip('show');
+    $('[data-toggle="tooltip"]').tooltip('dispose').tooltip({title: 'Copy'});
 
   }
 </script>
