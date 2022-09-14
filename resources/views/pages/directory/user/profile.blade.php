@@ -48,12 +48,20 @@
                     <li class="list-group-item">
                       <b>Department</b> <a class="float-right">{{str_replace(array('[', '"', ']',), '',$contact->departments)}}</a>
                     </li>
+                    @if($contact->departments == 'Sales')
+                    <li class="list-group-item">
+                      <b>Fix & Flip Link</b><br>
+                      <input type="text" class="form-control" value="https://acrafixandflip.com/apply?ref={{$contact->email}}" id="aeLink">
+                        <button class="btn btn-danger btn-sm my-1" data-toggle="tooltip" data-placement="right" data-title="Copy" onclick="copyToClipboard()" onmouseout="outFunc()">
+                          Copy
+                        </button>
+                    </li>
+                    @endif
                   </ul>
                 </div>
                 <!-- /.card-body -->
               </div>
               <!-- /.card -->
-
   
               <!-- About Me Box -->
               <div class="card card-dark card-outline">
@@ -106,4 +114,26 @@
     <!-- /.content-wrapper -->
 <!-- ./wrapper -->
 
+@push('includes.scripts')
+<script>
+  $(function() {
+    $('[data-toggle="tooltip"]').tooltip()
+  });
+
+  function copyToClipboard() {
+    var copyText = document.getElementById("aeLink");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
+    navigator.clipboard.writeText(copyText.value);
+    $('[data-toggle="tooltip"]').tooltip('dispose').tooltip({title: 'Copied'}).tooltip('show');
+  }
+
+  function outFunc() {
+    // $('[data-toggle="tooltip"]').tooltip();
+    $('[data-toggle="tooltip"]').tooltip('dispose').tooltip({title: 'Copied'}).tooltip('show');
+
+  }
+</script>
+  
+@endpush
 @stop
