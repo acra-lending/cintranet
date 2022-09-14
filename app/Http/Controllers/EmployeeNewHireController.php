@@ -40,7 +40,7 @@ class EmployeeNewHireController extends Controller
     public function submit(Request $request)
     {
         $dataValidate = request()->validate([
-            'employeeID'            => 'required|max:20',
+            // 'employeeID'            => 'required|max:20',
             'name'                  => 'required|max:100',
             'email'                 => 'required|email',
             'phone'                 => 'nullable|max:20',
