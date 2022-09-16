@@ -71,7 +71,7 @@
                     </li>
                 </ul> --}}
                 @endcan
-                @can('edit-posts')
+                {{-- @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/turntimes" class="nav-link {{ Request::path() === 'turntimes' ? 'active': ''}}">
@@ -88,7 +88,7 @@
                         </a>
                     </li>
                 </ul>
-                @endcan
+                @endcan --}}
             </li>
             @endcan
             
