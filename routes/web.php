@@ -223,5 +223,10 @@ Route::get('/usermanagement/exports', 'DirectoryListController@index')->middlewa
 //Clear Cache
 Route::get('/clear/cache', 'ClearCacheController@clearRoute')->middleware('auth');
 
+//Turn Times editor
+Route::get('/turntimes', 'TurnTimesController@show')->middleware('auth');
+Route::get('/turntimes/edit', 'TurnTimesController@edit')->middleware('auth');
+Route::put('/turntimes', 'TurnTimesController@update')->middleware('auth');
+
 
 

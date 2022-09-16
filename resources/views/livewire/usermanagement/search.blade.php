@@ -34,10 +34,10 @@
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        {{-- <th class="w-5"><a wire:click.prevent="sortBy('employeeID')" role="button" href="#">
+                        <th class="w-5"><a wire:click.prevent="sortBy('employeeID')" role="button" href="#">
                             Employee ID 
                             @include('includes._sort-icon', ['field' => 'employeeID'])
-                        </a></th> --}}
+                        </a></th>
                         <th class="w-25"><a wire:click.prevent="sortBy('name')" role="button" href="#">
                             Name 
                             @include('includes._sort-icon', ['field' => 'name'])
@@ -61,7 +61,7 @@
                     <tbody>
                         @foreach($users as $user)
                       <tr>
-                        {{-- <td>{{$user->employeeID}}</td> --}}
+                        <td>{{$user->employeeID}}</td>
                         <td><div class="col-sm-2 col-md-6 col-lg-3 col-xl-2 image float-left"><img src="{{ ($user->avatar) ? url('/storage/avatars/' .$user->avatar) : asset('img/avatar1.png') }}" alt="user-photo" class="img-circle img-fluid"></div><p class="pt-2 mb-0 float-left">{{$user->name}}</p></td>
                         <td>{{$user->email}}</td>
                         <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td>

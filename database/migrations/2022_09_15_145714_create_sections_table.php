@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTurnTimesTable extends Migration
+class CreateSectionsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,12 @@ class CreateTurnTimesTable extends Migration
      */
     public function up()
     {
-        //split table
-        Schema::create('turn_times', function (Blueprint $table) {
+        Schema::create('sections', function (Blueprint $table) {
             $table->id();
+            $table->integer('turn_time_id');
+            $table->string('title');
+            $table->string('body');
+            $table->string('comments');
             $table->timestamps();
         });
     }
@@ -27,6 +30,6 @@ class CreateTurnTimesTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('turn_times');
+        Schema::dropIfExists('sections');
     }
 }

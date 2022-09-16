@@ -24,7 +24,7 @@ Route::middleware('client_credentials')->prefix('v1')->group(function() {
 
 });
 
-
+Route::get('/turntimes', 'TurnTimesController@index');
 
 
 // Route::middleware('auth:api')->get('/user', function (Request $request) {
