@@ -34,6 +34,9 @@
   
                   <ul class="list-group list-group-unbordered mb-3">
                     <li class="list-group-item">
+                      <b>Employee ID</b> <a class="float-right">{{$contact->employeeID}}</a>
+                    </li>
+                    <li class="list-group-item">
                       <b>Email</b> <a class="float-right" href="mailto:{{$contact->email}}">{{$contact->email}}</a>
                     </li>
                     <li class="list-group-item">

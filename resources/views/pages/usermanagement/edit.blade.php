@@ -38,6 +38,10 @@
 
                     <ul class="list-group list-group-unbordered mb-3">
                       <li class="list-group-item">
+                        <b>Employee ID</b>
+                        <input type="text" class="form-control float-right" name="employeeID" value="{{$contact->employeeID}}" style="width:50%; text-align:right;">
+                      </li>
+                      <li class="list-group-item">
                         <b>First Name</b>
                         <input type="text" class="form-control float-right" name="firstname" value="{{$contact->firstname}}" style="width:50%; text-align:right;">
                       </li>

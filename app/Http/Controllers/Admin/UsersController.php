@@ -182,6 +182,7 @@ class UsersController extends Controller
         }
 
         $this->validate($request, [
+            'employeeID' => 'nullable',
             'firstname' => 'required',
             'lastname' => 'required',
             'position' => 'required',
@@ -287,6 +288,7 @@ class UsersController extends Controller
         $profile = User::where('id', $user->id)->first();
         $profile->email = $request->input('email');
         $profile->name = $fullname;
+        $profile->employeeID = $request->input('employeeID');
         $profile->folderID = $folderID;
 
 
