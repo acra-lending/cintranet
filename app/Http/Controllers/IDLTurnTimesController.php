@@ -10,16 +10,9 @@ use App\SubSections;
 use Gate;
 
 
-class TurnTimesController extends Controller
+class IDLTurnTimesController extends Controller
 {
     public function index()
-    {
-        $turnTimes = TurnTimes::with('section.subSection')->find(1);
-
-        return response()->json($turnTimes);
-    }
-
-    public function idl_index()
     {
         $turnTimes = TurnTimes::with('section.subSection')->find(2);
 
@@ -28,20 +21,20 @@ class TurnTimesController extends Controller
 
     public function show()
     {
-        $turnTimes = TurnTimes::with('section.subSection')->first();
+        $turnTimes = TurnTimes::with('section.subSection')->find(2);
         // dd($turnTimes);
 
-        return view('pages.turntimes.show')->with([
+        return view('pages.turntimes.idl.show')->with([
             'turnTimes' => $turnTimes,
         ]);
     }
 
     public function edit()
     {
-        $turnTimes = TurnTimes::with('section.subSection')->find(1);
+        $turnTimes = TurnTimes::with('section.subSection')->find(2);
         // dd($turnTimes);
 
-        return view('pages.turntimes.edit')->with([
+        return view('pages.turntimes.idl.edit')->with([
             'turnTimes' => $turnTimes,
         ]);
     }
@@ -69,7 +62,8 @@ class TurnTimesController extends Controller
         $subSectionCommentLength = count(array_filter($input['subSection']['comments']));
 
         //Update post
-        $turnTimes = TurnTimes::with('section.subSection')->find(1);
+        $turnTimes = TurnTimes::with('section.subSection')->find(2);
+        // dd($turnTimes->section[0]->title);
         $num = 0;
         while ($num < $titleLength) {
             $turnTimes->section[$num]->title = $input['section']['title'][$num];
@@ -108,7 +102,7 @@ class TurnTimesController extends Controller
         $turnTimes->push();
 
 
-        return redirect('/turntimes')->with('success', 'Turn Times Updated');   
+        return redirect('/idl/turntimes')->with('success', 'Turn Times Updated');   
 
     }
 

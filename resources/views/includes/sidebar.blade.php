@@ -71,16 +71,24 @@
                     </li>
                 </ul> --}}
                 @endcan
-                {{-- @can('edit-posts')
+                @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/turntimes" class="nav-link {{ Request::path() === 'turntimes' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Turn Times</p>
+                            <p>Wholesale Turn Times</p>
                         </a>
                     </li>
                 </ul>
-                @endcan --}}
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/idl/turntimes" class="nav-link {{ Request::path() === 'idl/turntimes' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>IDL Turn Times</p>
+                        </a>
+                    </li>
+                </ul>
+                @endcan
             </li>
             @endcan
             
