@@ -18,7 +18,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
         <div class="col-sm-6">
-            <h1 class="m-0 text-dark">IDL Turn Times</h1>
+            <h1 class="m-0 text-dark">ILD Turn Times</h1>
         </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -38,7 +38,7 @@
                 <div class="col">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title">IDL Turn Times API</h4>
+                            <h4 class="card-title">ILD Turn Times API</h4>
                         </div>
                         <div class="card-body">
                             @foreach ($turnTimes->section as $turnTime)
@@ -68,7 +68,7 @@
                                 </div>
                                 <hr>
                             @endforeach
-                            <a href="/idl/turntimes/edit" class="btn btn-outline-dark">Edit</a>
+                            <a href="/ild/turntimes/edit" class="btn btn-outline-dark">Edit</a>
                         </div>
                     </div>
                 </div>

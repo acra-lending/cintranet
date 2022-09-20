@@ -1,8 +1,8 @@
-<div class="tab-pane fade show active" id="vert-tabs-jr-processor-checklist" role="tabpanel" aria-labelledby="vert-tabs-jr-processor-checklist-tab">       
+<div class="tab-pane fade" id="vert-tabs-processor-vendor-contacts" role="tabpanel" aria-labelledby="vert-tabs-processor-vendor-contacts-tab">
     <div class="col">
         <div class="card card-dark ">
             <div class="card-header border-0">
-                <h3 class="card-title">Checklists</h3>
+                <h3 class="card-title">Vendor Contacts</h3>
                 <div class="card-tools">
                 </a>
                 </div>
@@ -17,7 +17,7 @@
                     </tr>
                 </thead>
                 <tbody>
-                    @foreach($retailJrProcessorChecklists as $category)
+                    @foreach($retailVendorContacts as $category)
                     <tr>
                     <td>{{$category->filename}}</td>
                     <td>{{$category->filesize}} KB</td>

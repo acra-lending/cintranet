@@ -82,9 +82,9 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/idl/turntimes" class="nav-link {{ Request::path() === 'idl/turntimes' ? 'active': ''}}">
+                        <a href="/ild/turntimes" class="nav-link {{ Request::path() === 'ild/turntimes' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>IDL Turn Times</p>
+                            <p>ILD Turn Times</p>
                         </a>
                     </li>
                 </ul>
@@ -593,6 +593,22 @@
                         <a href="/consumerdirect/documents" class="nav-link {{ Request::path() === 'consumerdirect/documents' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Documents</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/consumerdirect/forms" class="nav-link {{ Request::path() === 'consumerdirect/forms' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Forms</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/consumerdirect/processes" class="nav-link {{ Request::path() === 'consumerdirect/processes' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Processes</p>
                         </a>
                     </li>
                 </ul>

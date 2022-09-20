@@ -7,7 +7,7 @@
     <div class="container-fluid">
         <div class="row mb-2">
         <div class="col-sm-6">
-            <h1 class="m-0 text-dark">IDL Turn Times</h1>
+            <h1 class="m-0 text-dark">ILD Turn Times</h1>
         </div><!-- /.col -->
         </div><!-- /.row -->
     </div><!-- /.container-fluid -->
@@ -27,10 +27,10 @@
                 <div class="col">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title">IDL Turn Times Editor for API</h4>
+                            <h4 class="card-title">ILD Turn Times Editor for API</h4>
                         </div>
                         <div class="card-body">
-                            {{ Form::open(['action' => ['IDLTurnTimesController@update'], 'method' => 'PUT', 'enctype' => 'multipart/form-data']) }}
+                            {{ Form::open(['action' => ['ILDTurnTimesController@update'], 'method' => 'PUT', 'enctype' => 'multipart/form-data']) }}
                                 @foreach ($turnTimes->section as $turnTime)
                                 <div class="row">
                                     <div class="col-8">

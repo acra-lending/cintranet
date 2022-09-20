@@ -10,7 +10,7 @@ use App\SubSections;
 use Gate;
 
 
-class IDLTurnTimesController extends Controller
+class ILDTurnTimesController extends Controller
 {
     public function index()
     {
@@ -24,7 +24,7 @@ class IDLTurnTimesController extends Controller
         $turnTimes = TurnTimes::with('section.subSection')->find(2);
         // dd($turnTimes);
 
-        return view('pages.turntimes.idl.show')->with([
+        return view('pages.turntimes.ild.show')->with([
             'turnTimes' => $turnTimes,
         ]);
     }
@@ -34,7 +34,7 @@ class IDLTurnTimesController extends Controller
         $turnTimes = TurnTimes::with('section.subSection')->find(2);
         // dd($turnTimes);
 
-        return view('pages.turntimes.idl.edit')->with([
+        return view('pages.turntimes.ild.edit')->with([
             'turnTimes' => $turnTimes,
         ]);
     }
@@ -102,7 +102,7 @@ class IDLTurnTimesController extends Controller
         $turnTimes->push();
 
 
-        return redirect('/idl/turntimes')->with('success', 'Turn Times Updated');   
+        return redirect('/ild/turntimes')->with('success', 'Turn Times Updated');   
 
     }
 

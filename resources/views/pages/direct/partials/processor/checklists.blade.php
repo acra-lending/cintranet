@@ -1,4 +1,4 @@
-<div class="tab-pane fade" id="vert-tabs-processor-checklists" role="tabpanel" aria-labelledby="vert-tabs-processor-checklists-tab">
+<div class="tab-pane fade show active" id="vert-tabs-processor-checklists" role="tabpanel" aria-labelledby="vert-tabs-processor-checklists-tab">
     <div class="col">
         <div class="card card-dark ">
             <div class="card-header border-0">

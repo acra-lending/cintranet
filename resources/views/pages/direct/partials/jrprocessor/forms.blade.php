@@ -1,4 +1,4 @@
-<div class="tab-pane text-left fade show active" id="vert-tabs-jr-processor-forms" role="tabpanel" aria-labelledby="vert-tabs-jr-processor-forms-tab">       
+{{-- <div class="tab-pane text-left fade show active" id="vert-tabs-jr-processor-forms" role="tabpanel" aria-labelledby="vert-tabs-jr-processor-forms-tab">       
     <div class="col">
         <div class="card card-dark ">
         <div class="card-header border-0">
@@ -43,4 +43,4 @@
         </div>
         </div>
     </div>
-</div>
+</div> --}}

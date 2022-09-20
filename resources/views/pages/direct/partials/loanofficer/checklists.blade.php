@@ -1,4 +1,4 @@
-<div class="tab-pane fade" id="vert-tabs-loan-officer-checklists" role="tabpanel" aria-labelledby="vert-tabs-loan-officer-checklists-tab">         
+<div class="tab-pane fade show active" id="vert-tabs-loan-officer-checklists" role="tabpanel" aria-labelledby="vert-tabs-loan-officer-checklists-tab">         
     <div class="col">
         <div class="card card-dark ">
         <div class="card-header border-0">

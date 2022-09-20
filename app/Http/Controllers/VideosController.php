@@ -33,7 +33,7 @@ class VideosController extends Controller
         $data = $url['data'];
         $panelResults = $data;
 
-        $url = Cache::remember('trainingResults', $this->seconds, function() {
+        $url = Cache::remember('WStrainingResults', $this->seconds, function() {
            return Vimeo::request("/users/124219438/projects/4682588/videos", ['per_page' => 99], 'GET');
         });
 
@@ -211,10 +211,28 @@ class VideosController extends Controller
         $url = $url['body'];
         $data = $url['data'];
         $trainingResults = $data;
+        
+        $url = Cache::remember('productResults', $this->seconds, function() {
+           return Vimeo::request("/users/124219438/projects/12778179/videos", ['per_page' => 99], 'GET');
+        });
+
+        $url = $url['body'];
+        $data = $url['data'];
+        $productResults = $data;
+
+        $url = Cache::remember('departmentProcessesResults', $this->seconds, function() {
+           return Vimeo::request("/users/124219438/projects/12778184/videos", ['per_page' => 99], 'GET');
+        });
+
+        $url = $url['body'];
+        $data = $url['data'];
+        $departmentProcessesResults = $data;
 
         return view('pages.direct.videos', 
             compact([
-                'trainingResults'
+                'trainingResults',
+                'productResults',
+                'departmentProcessesResults'
             ]));
     }
 

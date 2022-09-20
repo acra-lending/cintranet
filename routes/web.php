@@ -119,6 +119,8 @@ Route::get('correspondent/forms', 'CorrespondentFormsController@index')->middlew
 
 //Consumer Direct
 Route::get('consumerdirect/documents', 'DirectToConsumerController@index')->middleware('auth');
+Route::get('consumerdirect/forms', 'DirectToConsumerController@forms')->middleware('auth');
+Route::get('consumerdirect/processes', 'DirectToConsumerController@processes')->middleware('auth');
 
 //Fix and Flip
 Route::get('fixandflip/documents', 'FixandFlipDocumentsController@index')->middleware('auth');
@@ -227,9 +229,9 @@ Route::get('/clear/cache', 'ClearCacheController@clearRoute')->middleware('auth'
 Route::get('/turntimes', 'TurnTimesController@show')->middleware('auth');
 Route::get('/turntimes/edit', 'TurnTimesController@edit')->middleware('auth');
 Route::put('/turntimes', 'TurnTimesController@update')->middleware('auth');
-Route::get('/idl/turntimes', 'IDLTurnTimesController@show')->middleware('auth');
-Route::get('/idl/turntimes/edit', 'IDLTurnTimesController@edit')->middleware('auth');
-Route::put('/idl/turntimes', 'IDLTurnTimesController@update')->middleware('auth');
+Route::get('/ild/turntimes', 'ILDTurnTimesController@show')->middleware('auth');
+Route::get('/ild/turntimes/edit', 'ILDTurnTimesController@edit')->middleware('auth');
+Route::put('/ild/turntimes', 'ILDTurnTimesController@update')->middleware('auth');
 
 
 

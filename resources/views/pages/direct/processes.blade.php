@@ -70,20 +70,19 @@
                 <div class="card-header">
                   <h3 class="card-title">
                     <i class="fas fa-folder"></i>
-                    Documents
+                    Processes
                   </h3>
                 </div>
                 <div class="card-body">
 
-                  @include('pages.direct.partials.navtabs')
+                  @include('pages.direct.partials.processes.navtabs')
                   
                   <div class="tab-content" id="nav-tabContent">
 
-                    @include('pages.direct.partials.documents')
-                    @include('pages.direct.partials.collaterals')
-                    {{-- @include('pages.direct.partials.jrprocessor')
                     @include('pages.direct.partials.processor')
-                    @include('pages.direct.partials.loanofficer') --}}
+                    @include('pages.direct.partials.jrprocessor')
+                    @include('pages.direct.partials.loanofficer')
+
                 </div>
               </div>
             </div>
