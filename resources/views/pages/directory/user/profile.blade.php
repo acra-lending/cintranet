@@ -54,7 +54,7 @@
                     @if($contact->departments == 'Sales')
                     <li class="list-group-item">
                       <b>Fix & Flip Link</b><br>
-                      <input type="text" class="form-control" value="https://acrafixandflip.com/apply?ref={{$contact->email}}" id="aeLink">
+                      <input type="text" class="form-control" value="https://acrainvestorloans.com/apply?ref={{$contact->email}}" id="aeLink">
                         <button class="btn btn-danger btn-sm my-1" data-toggle="tooltip" data-placement="right" data-title="Copy" onclick="copyToClipboard()" onmouseout="outFunc()">
                           Copy
                         </button>
