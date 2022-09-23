@@ -624,7 +624,7 @@
             <li class="nav-item has-treeview {{ Request::is('fixandflip/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tools"></i>
-                    <p>Fix & Flip
+                    <p>Investor Loans Division
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
