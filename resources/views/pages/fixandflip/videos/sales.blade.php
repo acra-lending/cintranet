@@ -2,7 +2,7 @@
     <div class="card card-danger">
         <div class="card-header">
             <div class="card-title">
-            Fix & Flip AEs ONLY
+            ILD AEs ONLY
             </div>
         </div>
         <div class="card-body">
