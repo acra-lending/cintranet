@@ -734,6 +734,22 @@
                     </li>
                 </ul>
             </li>
+            <li class="nav-item has-treeview {{ Request::is('Facilities/*') ? 'menu-open' : ''}}">
+                <a href="#" class="nav-link">  
+                    <i class="nav-icon fas fa-building"></i>
+                    <p>Facilities
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/facilities/ticket" class="nav-link {{ Request::path() === 'facilities/ticket' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Submit Ticket</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
             @can('edit-users')
             <li class=" nav-item has-treeview {{ Request::is('mediamanager/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
