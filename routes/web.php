@@ -177,6 +177,10 @@ Route::post('humanresources/employee/reminders', 'ReminderController@store')->mi
 Route::post('humanresources/employee/termination', 'EmployeeTerminationController@submit')->middleware('auth');
 Route::post('humanresources/employee/involuntarytermination', 'EmployeeInvoluntaryTerminationController@submit')->middleware('auth');
 
+//Facilities
+Route::get('facilities/ticket', 'FacilitiesController@index')->middleware('auth');
+Route::post('facilities/ticket', 'FacilitiesController@submitTicket')->middleware('auth');
+
 //File Upload
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');
 Route::get('mediamanager/upload', 'UploadController@index')->middleware('auth');

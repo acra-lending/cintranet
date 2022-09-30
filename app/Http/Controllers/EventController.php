@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Event;
-use App\Http\Requests\EventRequest;
 use Illuminate\Http\Request;
+use App\Http\Requests\EventRequest;
+use App\Event;
 use Gate;
 
 
