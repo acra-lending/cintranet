@@ -184,7 +184,7 @@ class Ratesheets extends Component
                 ->limit(1)
                 ->get();
 
-        //Correspondent Past Ratesheets
+        //Correspondent Past Ratesheets PDF
         $corrOmbsvoePdf_past = Post::whereRaw("find_in_set('corrOmbsvoePdf', category_id)")
                 ->orderBy('created_at', 'desc')
                 // ->skip(1)
@@ -215,7 +215,26 @@ class Ratesheets extends Component
                 ->orderBy('created_at', 'desc')
                 // ->skip(1)
                 ->simplePaginate(5);
-        
+
+        //Correspondent Past Ratesheets Excel
+        $corr3mbsXlsx_past = Post::whereRaw("find_in_set('corr3mbsXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                // ->skip(1)
+                ->simplePaginate(5);
+        $corrDscrXlsx_past      = Post::whereRaw("find_in_set('corrDscrXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->simplePaginate(5);
+        $corrItinXlsx_past      = Post::whereRaw("find_in_set('corrItinXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                ->simplePaginate(5);
+        $corrNonprimeXlsx_past = Post::whereRaw("find_in_set('corrNonprimeXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                // ->skip(1)
+                ->simplePaginate(5);
+        $corrJumboPrimeXlsx_past = Post::whereRaw("find_in_set('corrJumboPrimeXlsx', category_id)")
+                ->orderBy('created_at', 'desc')
+                // ->skip(1)
+                ->simplePaginate(5);
         return view('livewire.sales.ratesheets')->with([
             'wsOmbsvoeAE'         => $wsOmbsvoeAE,
             'wsNonprimeAE'        => $wsNonprimeAE,
@@ -263,6 +282,11 @@ class Ratesheets extends Component
             'corrItinPdf_past'      => $corrItinPdf_past,
             'corrOdfPdf_past'       => $corrOdfPdf_past,
             'corrOdfPlusPdf_past'   => $corrOdfPlusPdf_past,
+            'corrNonprimeXlsx_past'  => $corrNonprimeXlsx_past,
+            'corrJumboPrimeXlsx_past'  => $corrJumboPrimeXlsx_past,
+            'corr3mbsXlsx_past'      => $corr3mbsXlsx_past,
+            'corrDscrXlsx_past'      => $corrDscrXlsx_past,
+            'corrItinXlsx_past'      => $corrItinXlsx_past,
         ]);
     }
 }

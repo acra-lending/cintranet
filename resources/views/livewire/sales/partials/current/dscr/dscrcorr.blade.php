@@ -41,7 +41,7 @@
                 </tr>
             @endforeach
             @endif
-            @if(!empty($corrDscrXlsx))
+            {{-- @if(!empty($corrDscrXlsx))
             @foreach($corrDscrXlsx as $category)
             <tr>
             <td>{{$category->filename}}</td>
@@ -63,7 +63,7 @@
             </td>
             </tr>
             @endforeach
-            @endif
+            @endif --}}
             </tbody>
             </table>
         </div>
