@@ -653,12 +653,47 @@
                     </li>
                 </ul>
             </li>
-            <li class="nav-item">
-                <a href="/marketing" class="nav-link {{ Request::path() === 'marketing' ? 'active' : ''}}">
+            <li class="nav-item has-treeview {{ Request::is('marketing/*') ? 'menu-open': ''}}">
+                <a href="/marketing" class="nav-link">
                     <i class="nav-icon fas fa-rocket"></i>
-                    <p>Marketing</p>
+                    <p>Marketing
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
                 </a>
-            </li>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/marketing" class="nav-link {{ Request::path() === 'marketing/calendar' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Resources</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item has-treeview {{ Request::is('learning/courses/*') ? 'menu-open': ''}}">
+                        <a href="#" class="nav-link">
+                            <i class="nav-icon fas fa-circle"></i>
+                            <p>
+                            Calendars
+                            <i class="right fas fa-angle-left"></i>
+                            </p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="/marketing/wholesale/calendar" class="nav-link {{ Request::path() === 'marketing/wholesale/calendar' ? 'active': ''}}">
+                                    <i class="far fa-circle text-circle nav-icon"></i>
+                                    <p>Wholesale</p>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="/marketing/cdl/calendar" class="nav-link {{ Request::path() === 'marketing/cdl/calendar' ? 'active': ''}}">
+                                    <i class="far fa-circle text-circle nav-icon"></i>
+                                    <p>CDL</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>   
             <li class="nav-item has-treeview {{ Request::is('servicing/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  
                     <i class="nav-icon fas fa-headset"></i>
