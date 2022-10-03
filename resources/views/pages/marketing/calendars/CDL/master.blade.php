@@ -29,8 +29,8 @@
     </div><!-- /.content-header -->
     
     <section class="content">
-      @include('pages.marketing.calendar.modal-calendar')
-      @include('pages.marketing.calendar.modal-fastEvents')
+      @include('pages.marketing.calendars.CDL.modal-calendar')
+      @include('pages.marketing.calendars.CDL.modal-fastEvents')
       <div class="container">
       <div class="row">
         <div class="col-md-3">
