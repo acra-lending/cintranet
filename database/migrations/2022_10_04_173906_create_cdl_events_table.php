@@ -15,7 +15,14 @@ class CreateCdlEventsTable extends Migration
     {
         Schema::create('cdl_events', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->dateTime('start');
+            $table->dateTime('end');
+            $table->string('color', 7);
+            $table->longText('description')->nullable();
+            $table->integer('user_id');
             $table->timestamps();
+            $table->softDeletes();
         });
     }
 

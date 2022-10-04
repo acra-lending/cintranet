@@ -22,7 +22,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Calendar</h1>
+            <h1>CDL Marketing Calendar</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
@@ -81,16 +81,16 @@
 
                 <div id='calendar'
    
-                data-route-load-events="{{ route('routeLoadEvents') }}"
+                data-route-load-events="{{ route('routeCDLLoadEvents') }}"
                 @can('edit-posts') 
-                data-route-event-update="{{ route('routeEventUpdate') }}"
-                data-route-event-store="{{ route('routeEventStore') }}"
-                data-route-event-delete="{{ route('routeEventDelete') }}"
+                data-route-event-update="{{ route('routeCDLEventUpdate') }}"
+                data-route-event-store="{{ route('routeCDLEventStore') }}"
+                data-route-event-delete="{{ route('routeCDLEventDelete') }}"
                 @endcan
                 @can('edit-posts')
-                data-route-fast-event-update="{{ route('routeFastEventUpdate') }}"
-                data-route-fast-event-store="{{ route('routeFastEventStore') }}"
-                data-route-fast-event-delete="{{ route('routeFastEventDelete') }}"
+                data-route-fast-event-update="{{ route('routeCDLFastEventUpdate') }}"
+                data-route-fast-event-store="{{ route('routeCDLFastEventStore') }}"
+                data-route-fast-event-delete="{{ route('routeCDLFastEventDelete') }}"
                 @endcan
                 ></div>
             

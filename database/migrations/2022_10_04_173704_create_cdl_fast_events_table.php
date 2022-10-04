@@ -15,7 +15,13 @@ class CreateCdlFastEventsTable extends Migration
     {
         Schema::create('cdl_fast_events', function (Blueprint $table) {
             $table->id();
+            $table->string('title');
+            $table->time('start');
+            $table->time('end');
+            $table->string('color', 7);
             $table->timestamps();
+
+            $table->softDeletes();
         });
     }
 
