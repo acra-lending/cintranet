@@ -3,14 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\FastEvent;
+use App\CDLFastEvent;
 
-class FullCalendarController extends Controller
+class CDLFullCalendarController extends Controller
 {
     public function index()
     {
-        $fastEvents = FastEvent::all();
+        $fastEvents = CDLFastEvent::all();
 
-        return view('pages.marketing.calendar.master', ['fastEvents' => $fastEvents]);
+        return view('pages.marketing.calendars.CDL.master', ['fastEvents' => $fastEvents]);
     }
 }

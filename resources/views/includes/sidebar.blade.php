@@ -669,7 +669,7 @@
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
-                    <li class="nav-item has-treeview {{ Request::is('learning/courses/*') ? 'menu-open': ''}}">
+                    <li class="nav-item has-treeview {{ Request::is('marketing/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-circle"></i>
                             <p>
