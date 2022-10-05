@@ -147,10 +147,10 @@ Route::get('fixandflip/documents', 'FixandFlipDocumentsController@index')->middl
 Route::get('fixandflip/forms', 'FixandFlipFormsController@index')->middleware('auth');
 
 //Marketing
-Route::get('marketing', 'MarketingController@index')->middleware('auth');
-Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
-Route::get('marketing/wholesale/calendar', 'WholesaleFullCalendarController@index')->name('index')->middleware('auth');
-Route::get('marketing/cdl/calendar', 'CDLFullCalendarController@index')->name('index')->middleware('auth');
+Route::get('marketing/resources', 'MarketingController@index')->middleware('auth');
+Route::post('marketing/resources', 'MarketingController@submitForm')->middleware('auth');
+Route::get('marketing/calendar/wholesale', 'WholesaleFullCalendarController@index')->name('index')->middleware('auth');
+Route::get('marketing/calendar/cdl', 'CDLFullCalendarController@index')->name('index')->middleware('auth');
 
 
 //Operations

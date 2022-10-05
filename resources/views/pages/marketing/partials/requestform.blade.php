@@ -14,7 +14,7 @@
         </p>
         <hr/>
         <!-- form start -->
-        <form role="form" action="{{ url('marketing') }}" method="POST">
+        <form role="form" action="{{ url('marketing/resources') }}" method="POST">
             @csrf
                 <h4>Contact Information</h4>
                 <hr/>
