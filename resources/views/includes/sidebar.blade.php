@@ -668,7 +668,7 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                {{-- <ul class="nav nav-treeview">
                     <li class="nav-item has-treeview {{ Request::is('marketing/calendar/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
                             <i class="nav-icon fas fa-calendar-alt"></i>
@@ -692,7 +692,7 @@
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul> --}}
             </li>   
             <li class="nav-item has-treeview {{ Request::is('servicing/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  
