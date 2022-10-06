@@ -54,6 +54,7 @@ Route::get('reportsopstm', 'ReportsController@opsTM')->middleware('auth');
 Route::get('reportsopsuw', 'ReportsController@opsUW')->middleware('auth');
 Route::get('daily', 'ReportsController@dailyDashboard')->middleware('auth');
 Route::get('fundingdept', 'ReportsController@fundingDept')->middleware('auth');
+Route::get('reportretailprocessor', 'ReportsController@reportretailprocessor')->middleware('auth');
 
 
 //Videos
