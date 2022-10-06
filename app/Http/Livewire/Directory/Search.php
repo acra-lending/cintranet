@@ -66,6 +66,7 @@ class Search extends Component
             'contacts' => DB::table('s2zar_jsn_users')
             ->orderBy('lastname', 'asc')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+            ->where('s2zar_users.deleted_at', null)
             ->where('name', 'like', '%'.$this->search.'%')
             ->orWhere('email', 'like', '%'.$this->search.'%')
             ->orWhere('division', $this->search)
