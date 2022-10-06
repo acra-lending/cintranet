@@ -65,11 +65,11 @@ class DirectoryController extends Controller
         }
 
         $contacts = DB::table('s2zar_jsn_users')
-    
+        // ->where('s2zar_users.deleted_at', null)
         ->orderBy('lastname', 'asc')
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-        ->where('s2zar_users.deleted_at', null)
         ->paginate(12);
+
         return view('pages.directory.directory')
         ->with([
             'contacts'      => $contacts,
