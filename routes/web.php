@@ -153,7 +153,7 @@ Route::get('servicing/tools', 'ServicingToolsController@index')->middleware('aut
 
 //Human Resources
 // Route::get('humanresources/mvp', function (){return view('pages.humanresources.mvp');})->middleware('auth');
-Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware('auth');
+Route::get('humanresources/dayforce/login', 'PaylocityController@index')->middleware('auth');
 Route::get('humanresources/dayforce', 'HRDocumentsController@dayforce')->middleware('auth');
 Route::get('humanresources/401k', 'Principal401kController@index')->middleware('auth');
 Route::get('humanresources/health', 'HealthPlansController@index')->middleware('auth');
