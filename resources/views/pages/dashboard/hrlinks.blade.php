@@ -27,8 +27,8 @@
                 </a>
             </div>
             <div style="text-align: center;">
-                <a href="humanresources/paylocity">
-                <p>Paylocity</p>
+                <a href="humanresources/dayforce">
+                <p>Dayforce</p>
                 <i class="fas fa-door-open" style="font-size: 32pt;"></i>
                 </a>
             </div>
