@@ -6,7 +6,7 @@
             <div class="container-fluid">
                 <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0 text-dark">Dayforce</h1>
+                    <h1 class="m-0 text-dark">Paylocity</h1>
                 </div>
                 </div>
             </div>
@@ -28,7 +28,7 @@
                         </div>
                     </div>
                 </div>
-                {{-- <div class="float-left">
+                <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$loginGuide->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_paylocity-login-guide.svg') }}" alt="paylocity-guide"></a></button>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-            </div> --}}
+            </div>
             {{-- <div class="row">
               <div class="col-md-12 col-lg-12 col-xl-10">
                 <div class="card card-danger card-outline">

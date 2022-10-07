@@ -23,7 +23,7 @@ class PaylocityController extends Controller
         ->sortable('filename', 'asc')
         ->get();
      
-        return view('pages.humanresources.dayforcelogin')
+        return view('pages.humanresources.paylocity')
         ->with([
             'loginGuide'    => $loginGuide,
             'webPayGuide'   => $webPayGuide,
