@@ -179,7 +179,7 @@
                     </li>
                     <li class="nav-item has-treeview {{ Request::is('learning/courses/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-circle"></i>
+                            <i class="nav-icon fas fa-chalkboard-teacher"></i>
                             <p>
                             Courses
                             <i class="right fas fa-angle-left"></i>
@@ -624,7 +624,7 @@
             <li class="nav-item has-treeview {{ Request::is('fixandflip/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fas fa-tools"></i>
-                    <p>Investor Loans Division
+                    <p>Investor Loan Division
                         <i class="right fas fa-angle-left"></i>
                     </p>
                 </a>
@@ -662,16 +662,16 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/marketing" class="nav-link {{ Request::path() === 'marketing/calendar' ? 'active': ''}}">
+                        <a href="/marketing/resources" class="nav-link {{ Request::path() === 'marketing/resources' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Resources</p>
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
-                    <li class="nav-item has-treeview {{ Request::is('learning/courses/*') ? 'menu-open': ''}}">
+                {{-- <ul class="nav nav-treeview">
+                    <li class="nav-item has-treeview {{ Request::is('marketing/calendar/*') ? 'menu-open': ''}}">
                         <a href="#" class="nav-link">
-                            <i class="nav-icon fas fa-circle"></i>
+                            <i class="nav-icon fas fa-calendar-alt"></i>
                             <p>
                             Calendars
                             <i class="right fas fa-angle-left"></i>
@@ -679,20 +679,20 @@
                         </a>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                                <a href="/marketing/wholesale/calendar" class="nav-link {{ Request::path() === 'marketing/wholesale/calendar' ? 'active': ''}}">
+                                <a href="/marketing/calendar/wholesale" class="nav-link {{ Request::path() === 'marketing/calendar/wholesale' ? 'active': ''}}">
                                     <i class="far fa-circle text-circle nav-icon"></i>
                                     <p>Wholesale</p>
                                 </a>
                             </li>
                             <li class="nav-item">
-                                <a href="/marketing/cdl/calendar" class="nav-link {{ Request::path() === 'marketing/cdl/calendar' ? 'active': ''}}">
+                                <a href="/marketing/calendar/cdl" class="nav-link {{ Request::path() === 'marketing/calendar/cdl' ? 'active': ''}}">
                                     <i class="far fa-circle text-circle nav-icon"></i>
                                     <p>CDL</p>
                                 </a>
                             </li>
                         </ul>
                     </li>
-                </ul>
+                </ul> --}}
             </li>   
             <li class="nav-item has-treeview {{ Request::is('servicing/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  

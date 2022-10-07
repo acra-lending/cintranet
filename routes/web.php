@@ -54,6 +54,7 @@ Route::get('reportsopstm', 'ReportsController@opsTM')->middleware('auth');
 Route::get('reportsopsuw', 'ReportsController@opsUW')->middleware('auth');
 Route::get('daily', 'ReportsController@dailyDashboard')->middleware('auth');
 Route::get('fundingdept', 'ReportsController@fundingDept')->middleware('auth');
+Route::get('reportretailprocessor', 'ReportsController@reportretailprocessor')->middleware('auth');
 
 
 //Videos
@@ -79,15 +80,35 @@ Route::get('learning/courses/catalog', 'CourseCatalogController@index')->middlew
 //Legal
 Route::get('legal/documents', 'LegalController@index')->middleware('auth');
 
-//Calendar Events
+//L&D Calendar Events
 Route::get('loadevents', 'EventController@loadEvents')->name('routeLoadEvents')->middleware('auth');
 Route::put('eventupdate', 'EventController@update')->name('routeEventUpdate')->middleware('auth');
 Route::post('eventstore', 'EventController@store')->name('routeEventStore')->middleware('auth');
 Route::delete('eventdelete', 'EventController@destroy')->name('routeEventDelete')->middleware('auth');
-//Calendar Fast Events
+//L&D Calendar Fast Events
 Route::put('fasteventupdate', 'FastEventController@update')->name('routeFastEventUpdate')->middleware('auth');
 Route::post('fasteventstore', 'FastEventController@store')->name('routeFastEventStore')->middleware('auth');
 Route::delete('fasteventdelete', 'FastEventController@destroy')->name('routeFastEventDelete')->middleware('auth');
+
+//CDL Calendar Events
+Route::get('cdlloadevents', 'CDLEventController@loadEvents')->name('routeCDLLoadEvents')->middleware('auth');
+Route::put('cdleventupdate', 'CDLEventController@update')->name('routeCDLEventUpdate')->middleware('auth');
+Route::post('cdleventstore', 'CDLEventController@store')->name('routeCDLEventStore')->middleware('auth');
+Route::delete('cdleventdelete', 'CDLEventController@destroy')->name('routeCDLEventDelete')->middleware('auth');
+//CDL Calendar Fast Events
+Route::put('cdlfasteventupdate', 'CDLFastEventController@update')->name('routeCDLFastEventUpdate')->middleware('auth');
+Route::post('cdlfasteventstore', 'CDLFastEventController@store')->name('routeCDLFastEventStore')->middleware('auth');
+Route::delete('cdlfasteventdelete', 'CDLFastEventController@destroy')->name('routeCDLFastEventDelete')->middleware('auth');
+
+//Wholesale Calendar Events
+Route::get('wholesaleloadevents', 'WholesaleEventController@loadEvents')->name('routeWholesaleLoadEvents')->middleware('auth');
+Route::put('wholesaleeventupdate', 'WholesaleEventController@update')->name('routeWholesaleEventUpdate')->middleware('auth');
+Route::post('wholesaleeventstore', 'WholesaleEventController@store')->name('routeWholesaleEventStore')->middleware('auth');
+Route::delete('wholesaleeventdelete', 'WholesaleEventController@destroy')->name('routeWholesaleEventDelete')->middleware('auth');
+//Wholesale Calendar Fast Events
+Route::put('wholesalefasteventupdate', 'WholesaleFastEventController@update')->name('routeWholesaleFastEventUpdate')->middleware('auth');
+Route::post('wholesalefasteventstore', 'WholesaleFastEventController@store')->name('routeWholesaleFastEventStore')->middleware('auth');
+Route::delete('wholesalefasteventdelete', 'WholesaleFastEventController@destroy')->name('routeWholesaleFastEventDelete')->middleware('auth');
 
 //Directory
 Route::get('directory/search', 'DirectoryController@index')->middleware('auth');
@@ -127,10 +148,10 @@ Route::get('fixandflip/documents', 'FixandFlipDocumentsController@index')->middl
 Route::get('fixandflip/forms', 'FixandFlipFormsController@index')->middleware('auth');
 
 //Marketing
-Route::get('marketing', 'MarketingController@index')->middleware('auth');
-Route::post('marketing', 'MarketingController@submitForm')->middleware('auth');
-Route::get('marketing/wholesale/calendar', 'FullCalendarController@index')->name('index')->middleware('auth');
-Route::get('marketing/cdl/calendar', 'FullCalendarController@index')->name('index')->middleware('auth');
+Route::get('marketing/resources', 'MarketingController@index')->middleware('auth');
+Route::post('marketing/resources', 'MarketingController@submitForm')->middleware('auth');
+Route::get('marketing/calendar/wholesale', 'WholesaleFullCalendarController@index')->name('index')->middleware('auth');
+Route::get('marketing/calendar/cdl', 'CDLFullCalendarController@index')->name('index')->middleware('auth');
 
 
 //Operations

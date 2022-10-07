@@ -22,15 +22,15 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1>Calendar</h1>
+            <h1>Wholesale Marketing Calendar</h1>
           </div>
         </div>
       </div><!-- /.container-fluid -->
     </div><!-- /.content-header -->
     
     <section class="content">
-      @include('pages.marketing.calendar.modal-calendar')
-      @include('pages.marketing.calendar.modal-fastEvents')
+      @include('pages.marketing.calendars.Wholesale.modal-calendar')
+      @include('pages.marketing.calendars.Wholesale.modal-fastEvents')
       <div class="container">
       <div class="row">
         <div class="col-md-3">
@@ -81,16 +81,16 @@
 
                 <div id='calendar'
    
-                data-route-load-events="{{ route('routeLoadEvents') }}"
+                data-route-load-events="{{ route('routeWholesaleLoadEvents') }}"
                 @can('edit-posts') 
-                data-route-event-update="{{ route('routeEventUpdate') }}"
-                data-route-event-store="{{ route('routeEventStore') }}"
-                data-route-event-delete="{{ route('routeEventDelete') }}"
+                data-route-event-update="{{ route('routeWholesaleEventUpdate') }}"
+                data-route-event-store="{{ route('routeWholesaleEventStore') }}"
+                data-route-event-delete="{{ route('routeWholesaleEventDelete') }}"
                 @endcan
                 @can('edit-posts')
-                data-route-fast-event-update="{{ route('routeFastEventUpdate') }}"
-                data-route-fast-event-store="{{ route('routeFastEventStore') }}"
-                data-route-fast-event-delete="{{ route('routeFastEventDelete') }}"
+                data-route-fast-event-update="{{ route('routeWholesaleFastEventUpdate') }}"
+                data-route-fast-event-store="{{ route('routeWholesaleFastEventStore') }}"
+                data-route-fast-event-delete="{{ route('routeWholesaleFastEventDelete') }}"
                 @endcan
                 ></div>
             

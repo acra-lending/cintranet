@@ -55,4 +55,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reportsopsuw');
     }
+
+    public function reportretailprocessor()
+    {
+        return view('pages.usermanagement.reportretailprocessor');
+    }
 }

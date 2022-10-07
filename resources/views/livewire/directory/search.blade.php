@@ -63,6 +63,7 @@
                     <div class="row d-flex align-items-stretch">
                         @if(count($contacts) > 0)
                         @foreach($contacts as $contact)
+                        @if($contact->deleted_at == null)
                         <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                             <div class="card bg-light">
                                 <div class="card-header text-muted border-bottom-0">
@@ -92,6 +93,7 @@
                                 </div>
                             </div>
                         </div>
+                        @endif
                         @endforeach
                         @else
                         <div class="container">
