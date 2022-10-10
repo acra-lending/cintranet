@@ -17,7 +17,7 @@
                 </tr>
             </thead>
             <tbody>
-              @foreach($corrNonprimePdf as $category)
+              {{-- @foreach($corrNonprimePdf as $category)
 
                 <tr>
                 <td>{{$category->filename}}</td>
@@ -38,7 +38,7 @@
                   </div>
                 </td>
                 </tr>
-            @endforeach
+            @endforeach --}}
             @foreach($corrNonprimeXlsx as $category)
             <tr>
             <td>{{$category->filename}}</td>

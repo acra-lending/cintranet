@@ -18,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-              @if(!empty($corrDscrPdf_past))
+              {{-- @if(!empty($corrDscrPdf_past))
               @foreach($corrDscrPdf_past as $category)
 
                 <tr>
@@ -41,8 +41,8 @@
                 </td>
                 </tr>
             @endforeach
-            @endif
-            {{-- @if(!empty($corrDscrXlsx_past))
+            @endif --}}
+            @if(!empty($corrDscrXlsx_past))
             @foreach($corrDscrXlsx_past as $category)
             <tr>
             <td>{{$category->filename}}</td>
@@ -64,7 +64,7 @@
             </td>
             </tr>
             @endforeach
-            @endif --}}
+            @endif
             </tbody>
             </table>
         </div>

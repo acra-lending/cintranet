@@ -17,7 +17,7 @@
                 </tr>
             </thead>
             <tbody>
-              @if(!empty($corrItinPdf))
+              {{-- @if(!empty($corrItinPdf))
               @foreach($corrItinPdf as $category)
 
                 <tr>
@@ -40,7 +40,7 @@
                 </td>
                 </tr>
             @endforeach
-            @endif
+            @endif --}}
             @if(!empty($corrItinXlsx))
             @foreach($corrItinXlsx as $category)
             <tr>
