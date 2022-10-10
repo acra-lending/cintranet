@@ -41,8 +41,8 @@
                 </tr>
             @endforeach
             @endif --}}
-            @if(!empty($corrNonPrimeXlsx_past))
-            @foreach($corrNonPrimeXlsx_past as $category)
+            @if(!empty($corrNonprimeXlsx_past))
+            @foreach($corrNonprimeXlsx_past as $category)
             <tr>
             <td>{{$category->filename}}</td>
             <td>{{$category->filesize}} KB</td>
