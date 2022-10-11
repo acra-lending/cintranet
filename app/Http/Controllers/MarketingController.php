@@ -64,7 +64,7 @@ class MarketingController extends Controller
             Mail::to('marketing@citadelservicing.com')
                 ->send(new MarketingRequestMail($data));
 
-            return redirect('/marketing')
+            return redirect('/marketing/resources')
                 ->with('success', 'Request Form Sent');
 
     }
