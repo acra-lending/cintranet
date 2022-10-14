@@ -41,10 +41,12 @@ class WholesaleEventController extends Controller
 
         $event = WholesaleEvent::where('id', $request->id)->first();
 
+        // dd($request);
+
         $event->fill($request->all());
 
         $event->save();
-
+        // return redirect('/marketing/calendar/wholesale');
         return response()->json(true);
     }
 

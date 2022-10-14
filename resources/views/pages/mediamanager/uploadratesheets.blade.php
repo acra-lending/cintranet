@@ -248,7 +248,7 @@
         </section>
     </div>
   @push('includes.scripts')
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
+  {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
   <script type="text/javascript">
     $(function() {
         $(document).ready(function()
@@ -276,6 +276,6 @@
               });
         }); 
      });
-    </script>
+    </script> --}}
     @endpush
 @stop
