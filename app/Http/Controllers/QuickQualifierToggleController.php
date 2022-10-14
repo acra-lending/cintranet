@@ -30,7 +30,7 @@ class QuickQualifierToggleController extends Controller
         // to show the Quick Qualifier
         $file = Storage::disk('local')->get('public/files/toggle-on.html');
         // Upload
-        Storage::disk('sftp')->put('/acraweb/LoanNEX/corr/index2.html', $file);
+        Storage::disk('sftp')->put('/acraweb/LoanNEX/corr/index.html', $file);
 
         if ($response->successful()) {
 
@@ -64,7 +64,7 @@ class QuickQualifierToggleController extends Controller
         // This replaces the index.html with removed Quick Qualifier
         $file = Storage::disk('local')->get('public/files/toggle-off.html');
         // Upload
-        Storage::disk('sftp')->put('/acraweb/LoanNEX/corr/index2.html', $file);
+        Storage::disk('sftp')->put('/acraweb/LoanNEX/corr/index.html', $file);
 
         if ($response->successful()) {
 
