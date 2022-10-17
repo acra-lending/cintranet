@@ -531,16 +531,14 @@
                         </a>
                     </li>
                 </ul>
-                {{-- @can('edit-users')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/sales/submissions" class="nav-link {{ Request::path() === 'sales/submissions' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/sites/Marketing/Events/Marketing%20Calendar.aspx" class="nav-link" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Submissions</p>
+                            <p>Marketing Calendar</p>
                         </a>
                     </li>
                 </ul>
-                @endcan --}}
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/sales/videos" class="nav-link {{ Request::path() === 'sales/videos' ? 'active': ''}}">
