@@ -33,6 +33,7 @@ class ITSupportRatesheetUpdates extends Mailable
     public function build()
     {
         return $this->markdown('emails.infotech.ratesheetupdates')
+                    ->from('webupdates@citadelservicing.onmicrosoft.com')
                     ->subject('New/Update Ratesheet Request');
     }
 }

@@ -31,6 +31,7 @@ class ITSupportRequests extends Mailable
     public function build()
     {
         return $this->markdown('emails.infotech.requests')
+                    ->from('webupdates@citadelservicing.onmicrosoft.com')
                     ->subject('Report Request');
     }
 }

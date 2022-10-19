@@ -33,6 +33,7 @@ class ITSupportMail extends Mailable
     public function build()
     {
         return $this->markdown('emails.infotech.ticket')
+                    ->from('webupdates@citadelservicing.onmicrosoft.com')
                     ->subject('IT Support Request');
     }
 }
