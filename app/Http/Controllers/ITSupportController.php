@@ -80,7 +80,7 @@ class ITSupportController extends Controller
                 }
             }
 
-            Mail::to(['itsupport@citadelservicing.com'])
+            Mail::to(['acrasupport@meriplex.com'])
             ->send($mail);
             
             return redirect('/infotech/ticket')
@@ -116,7 +116,7 @@ class ITSupportController extends Controller
             }
         }
 
-        Mail::to(['itsupport@citadelservicing.com'])
+        Mail::to(['acrasupport@meriplex.com'])
         ->send($mail);
 
         return redirect('/infotech/ticket')
@@ -151,7 +151,7 @@ class ITSupportController extends Controller
             }
         }
         
-        Mail::to(['itsupport@citadelservicing.com'])
+        Mail::to(['acrasupport@meriplex.com'])
             ->send($mail);
 
         return redirect('/infotech/ticket')
@@ -191,7 +191,7 @@ class ITSupportController extends Controller
             }
         }
         
-        Mail::to(['itsupport@citadelservicing.com'])
+        Mail::to(['acrasupport@meriplex.com'])
             ->send($mail);
 
         return redirect('/infotech/ratesheetupdates')
