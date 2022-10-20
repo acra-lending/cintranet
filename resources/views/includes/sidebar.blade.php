@@ -628,17 +628,25 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/fixandflip/documents" class="nav-link {{ Request::path() === 'fixandflip/documents' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/InvestorLoanDivision/EqCloARjiwNMjRHu-r7tWS4BvNNzwUvjfKZRuc2WTqisPA?e=LVfgkP" class="nav-link" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Documents</p>
+                            <p>Sales Tool Kit</p>
                         </a>
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/fixandflip/forms" class="nav-link {{ Request::path() === 'fixandflip/forms' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/InvestorLoanDivision/EsDuvISu-NZJoInwLO-UtWkBYv1ACTbkRDQN7KFIEZPESg?e=eUmlqS" class="nav-link" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Forms</p>
+                            <p>Operations</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/InvestorLoanDivision/Eh_BQf4tPZxFo3oRc5qlm7sBr1MERDh6KI41I7pJCOwW4A?e=h3ygDd" class="nav-link" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>ILD Guidelines & Credit Grids</p>
                         </a>
                     </li>
                 </ul>
