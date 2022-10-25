@@ -124,7 +124,7 @@
             'NDA' => [
                 'nda'      => 'NDA',
             ],
-            'Fix & Flip' => [
+            'ILD' => [
                 'fixAndFlipSystems'         => 'Systems',
                 'fixAndFlipInternalForms'   => 'Internal Forms',
                 'fixAndFlipVetting'         => 'Agent Verification',
@@ -155,14 +155,17 @@
                 'wsDscrAE'        => 'Business Purpose / DSCR', 
                 'wsItinAE'        => 'ITIN', 
                 'wsNonprimeAE'    => 'Non-Prime Wholesale', 
-                'wsJumboPrimeAE'    => 'Jumbo Prime Wholesale', 
+                'wsJumboPrimeAE'  => 'Jumbo Prime Wholesale', 
                 'wsOdfAE'         => 'Outside Dodd-Frank', 
                 'wsOdfPlusAE'     => 'Outside Dodd-Frank Plus'
             ],
-            'Fix & Flip' => [
+            'ILD' => [
+                'ffMain'                     => 'Main sheet',
+                'ffDscr'                     => 'DSCR',
                 'smallBalanceMultifamily'    => 'Small Balance Multifamily', 
-                'ffSingleFamily'             => 'Stabilized Bridge Single Family',
-                'ffMultiFamily'              => 'Stabilized Bridge Multi Family',
+                'ffSingleFamily'             => 'SFR Bridge',
+                'ffMultiFamily'              => 'MF Bridge',
+                'ffMultiFamilyLongTerm'      => 'MF Long Term',
             ],
             'Correspondent' => [
                 'PDF' => [
@@ -171,19 +174,19 @@
                     'corrDscrPdf'       => 'Business Purpose / DSCR (PDF)', 
                     'corrItinPdf'       => 'ITIN (PDF)', 
                     'corrNonprimePdf'   => 'Non-Prime Correspondent (PDF)', 
-                    'corrJumboPrimePdf'   => 'Jumbo Prime Correspondent(PDF)', 
+                    'corrJumboPrimePdf' => 'Jumbo Prime Correspondent(PDF)', 
                     'corrOdfPdf'        => 'Outside Dodd-Frank (PDF)', 
                     'corrOdfPlusPdf'    => 'Outside Dodd-Frank Plus (PDF)',
                 ],
                 'Excel' => [
-                    'corrOmbsvoeXlsx'   => 'OMBS & VOE (Excel)',
-                    'corr3mbsXlsx'      => '3-Month Bank Statement (Excel)',
-                    'corrDscrXlsx'      => 'Business Purpose / DSCR (Excel)',
-                    'corrItinXlsx'      => 'ITIN (Excel)',
-                    'corrNonprimeXlsx'  => 'Non-Prime Correspondent (Excel)',
-                    'corrJumboPrimeXlsx'  => 'Jumbo Prime Correspondent (Excel)',
-                    'corrOdfXlsx'       => 'Outside Dodd-Frank (Excel)', 
-                    'corrOdfPlusXlsx'   => 'Outside Dodd-Frank Plus (Excel)'
+                    'corrOmbsvoeXlsx'    => 'OMBS & VOE (Excel)',
+                    'corr3mbsXlsx'       => '3-Month Bank Statement (Excel)',
+                    'corrDscrXlsx'       => 'Business Purpose / DSCR (Excel)',
+                    'corrItinXlsx'       => 'ITIN (Excel)',
+                    'corrNonprimeXlsx'   => 'Non-Prime Correspondent (Excel)',
+                    'corrJumboPrimeXlsx' => 'Jumbo Prime Correspondent (Excel)',
+                    'corrOdfXlsx'        => 'Outside Dodd-Frank (Excel)', 
+                    'corrOdfPlusXlsx'    => 'Outside Dodd-Frank Plus (Excel)'
                 ]
             ]                                                
         ],

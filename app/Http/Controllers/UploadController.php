@@ -26,6 +26,9 @@ use App\Classes\CorrItinUpload;
 use App\Classes\SmallBalanceMultiFamilyUpload;
 use App\Classes\FFSingleFamilyUpload;
 use App\Classes\FFMultiFamilyUpload;
+use App\Classes\FFMultifamilyLongTermUpload;
+use App\Classes\FFDscrUpload;
+use App\Classes\FFMainUpload;
 use App\Classes\FileUpload;
 use App\Classes\BrokerLoginRequestParser;
 use Gate;
@@ -126,6 +129,33 @@ class UploadController extends Controller
 
             $uploadMultiFamily = new FFMultiFamilyUpload;
             $uploadMultiFamily->uploadFfMultiFamily($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
+        elseif($categoryIdSingle == 'ffMultiFamilyLongTerm') {
+
+            $uploadFfMultifamilyLongTerm = new FFMultifamilyLongTermUpload;
+            $uploadFfMultifamilyLongTerm->uploadFfMultifamilyLongTerm($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
+        elseif($categoryIdSingle == 'ffDscr') {
+
+            $uploadFfDscr = new FFDscrUpload;
+            $uploadFfDscr->uploadFfDscr($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
+        elseif($categoryIdSingle == 'ffMain') {
+
+            $uploadFfMain = new FFMainUpload;
+            $uploadFfMain->uploadFfMain($request);
 
             return response()->json(['success' => 'Uploaded Successfully']);
 

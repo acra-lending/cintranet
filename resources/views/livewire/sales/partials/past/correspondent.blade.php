@@ -1,4 +1,4 @@
-<div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <div class="card card-danger card-outline">
       <div class="card-header">
         <h3 class="card-title">

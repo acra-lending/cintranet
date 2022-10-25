@@ -6,9 +6,9 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Post;
 
-class FFMultiFamilyUpload {   
+class FFMultifamilyLongTermUpload {   
 
-    public function uploadFfMultiFamily(Request $request)
+    public function uploadFfMultifamilyLongTerm(Request $request)
     {
         $num = 2;
         //Handle File Upload
@@ -26,11 +26,11 @@ class FFMultiFamilyUpload {
                 $filesize = $file->getSize();
                 $filesizeToStore = round($filesize * 0.0009765625, 2);
                 // Filename to store
-                $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet  '.date('m-d-Y').'.'.$extension;
+                $fileNameToStore = 'MF Long Term Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
                 
                 //Check if Filename exists
                 while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                    $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet  '.date('m-d-Y').' v'.$num.'.'.$extension;
+                    $fileNameToStore = 'MF Long Term Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                     $num++;
                 }
                 // Upload

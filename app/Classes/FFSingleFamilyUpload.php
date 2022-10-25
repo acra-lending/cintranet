@@ -26,11 +26,11 @@ class FFSingleFamilyUpload {
                 $filesize = $file->getSize();
                 $filesizeToStore = round($filesize * 0.0009765625, 2);
                 // Filename to store
-                $fileNameToStore = 'Stabilized Bridge Credit Box (SFR) '.date('m-d-Y').'.'.$extension;
+                $fileNameToStore = 'SFR Bridge Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
                 
                 //Check if Filename exists
                 while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                    $fileNameToStore = 'Stabilized Bridge Credit Box (SFR) '.date('m-d-Y').' v'.$num.'.'.$extension;
+                    $fileNameToStore = 'SFR Bridge Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                     $num++;
                 }
                 // Upload

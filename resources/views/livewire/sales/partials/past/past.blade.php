@@ -1,9 +1,9 @@
-<div class="col-sm-12 col-md-12 col-lg-12 col-xl-10">
+<div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
     <div class="card card-danger card-outline">
       <div class="card-header">
         <h3 class="card-title">
           <i class="fas fa-history"></i>
-          Past Rate Sheets
+          Past Wholesale Rate Sheets
         </h3>
       </div>
       <div class="card-body">
@@ -20,8 +20,6 @@
               @include('livewire.sales.partials.past.nonprime.nonprime')
               @include('livewire.sales.partials.past.jumboprime.jumboprime')
               @include('livewire.sales.partials.past.sbmf.sbmf')
-              @include('livewire.sales.partials.past.ff.ffsfr')
-              @include('livewire.sales.partials.past.ff.ffmf')
               @include('livewire.sales.partials.past.odd.odd')
               @include('livewire.sales.partials.past.oddplus.oddplus')
             </div>

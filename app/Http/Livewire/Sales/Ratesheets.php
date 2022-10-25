@@ -55,12 +55,24 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
-        //Fix & Flip
-        $ffSingleFamily = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
+        //Fix & Flip / Investor Loan Division
+        $ffDscr = Post::whereRaw("find_in_set('ffDscr', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
+        $ffMain = Post::whereRaw("find_in_set('ffMain', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
         $ffMultiFamily = Post::whereRaw("find_in_set('ffMultiFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
+        $ffMultiFamilyLongTerm = Post::whereRaw("find_in_set('ffMultiFamilyLongTerm', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
+        $ffSingleFamily = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
@@ -99,13 +111,17 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
-        
-        //Fix & Flip
         $smallBalanceMultifamily_past = Post::whereRaw("find_in_set('smallBalanceMultifamily', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
-        $ffSingleFamily_past = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
+        
+        //Fix & Flip / Investor Loan Division
+        $ffDscr_past = Post::whereRaw("find_in_set('ffDscr', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $ffMain_past = Post::whereRaw("find_in_set('ffMain', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
@@ -113,7 +129,14 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
-
+        $ffMultiFamilyLongTerm_past = Post::whereRaw("find_in_set('ffMultiFamilyLongTerm', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
+        $ffSingleFamily_past = Post::whereRaw("find_in_set('ffSingleFamily', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
 
 
         //Correspondent Current Ratesheets PDF
@@ -240,6 +263,9 @@ class Ratesheets extends Component
             'wsNonprimeAE'        => $wsNonprimeAE,
             'wsJumboPrimeAE'        => $wsJumboPrimeAE,
             'smallBalanceMultifamily' => $smallBalanceMultifamily,
+            'ffDscr'                  => $ffDscr,
+            'ffMain'                  => $ffMain,
+            'ffMultiFamilyLongTerm'   => $ffMultiFamilyLongTerm,
             'ffSingleFamily'          => $ffSingleFamily,
             'ffMultiFamily'           => $ffMultiFamily,
             'ws3mbsAE'            => $ws3mbsAE,
@@ -250,9 +276,12 @@ class Ratesheets extends Component
             'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
             'wsNonprimeAE_past'   => $wsNonprimeAE_past,
             'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
-            'smallBalanceMultifamily_past'   => $smallBalanceMultifamily_past,
-            'ffSingleFamily_past'            => $ffSingleFamily_past,
-            'ffMultiFamily_past'             => $ffMultiFamily_past,
+            'smallBalanceMultifamily_past' => $smallBalanceMultifamily_past,
+            'ffDscr_past'                  => $ffDscr_past,
+            'ffMain_past'                  => $ffMain_past,
+            'ffMultiFamilyLongTerm_past'   => $ffMultiFamilyLongTerm_past,
+            'ffSingleFamily_past'          => $ffSingleFamily_past,
+            'ffMultiFamily_past'           => $ffMultiFamily_past,
             'ws3mbsAE_past'       => $ws3mbsAE_past,
             'wsDscrAE_past'       => $wsDscrAE_past,
             'wsItinAE_past'       => $wsItinAE_past,
