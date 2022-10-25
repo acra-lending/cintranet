@@ -16,8 +16,8 @@
             <div class="tab-content" id="vert-tabs-tabContent">
               @include('livewire.sales.partials.current.ff.ffMain')
               @include('livewire.sales.partials.current.ff.ffDscr')
-              @include('livewire.sales.partials.current.ff.ffMfBridge')
-              @include('livewire.sales.partials.current.ff.ffMfLongTerm')
+              @include('livewire.sales.partials.current.ff.ffMFBridge')
+              @include('livewire.sales.partials.current.ff.ffMFLongTerm')
               @include('livewire.sales.partials.current.ff.ffSFRBridge')
             </div>
           </div>
