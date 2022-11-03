@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
 use App\Announcement;
 use App\AnnouncementFile;
+use App\Classes\AnnouncementFileUpload;
 use App\User;
 use App\Role;
 use DB;
@@ -77,28 +78,8 @@ class AnnouncementPostsController extends Controller
         $post->user_id = auth()->user()->id;
 
         // Handle File Upload
-        if($request->hasFile('file')){
-
-
-            foreach($request->file('file') as $file){
-
-                // Get filename with the extension
-                $filenameWithExt = $file->getClientOriginalName();
-                // Get just filename
-                $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
-                // Get Just ext
-                $extension = $file->getClientOriginalExtension();
-                // Filename to store
-                $fileNameToStore = $filename.'_'.time().'.'.$extension;
-                // Upload
-                $path = $file->storeAs('public/files', $fileNameToStore);
-
-                $filePost = new AnnouncementFile;
-                $filePost->announcement_id = $post->id;
-                $filePost->file = $fileNameToStore;
-                $filePost->save();
-            } 
-        }
+        $uploadFile = new AnnouncementFileUpload;
+        $uploadFile->uploadFile($request, $post);
 
         $post->save();
 
@@ -132,7 +113,11 @@ class AnnouncementPostsController extends Controller
         }
 
         $post = Announcement::find($id);
-        return view('pages.announcements.edit')->with('post', $post);
+        $files = AnnouncementFile::where('announcement_id', $id)->get();
+        return view('pages.announcements.edit')->with([
+            'post' => $post,
+            'files' => $files,
+        ]);
     }
 
     /**
@@ -161,24 +146,9 @@ class AnnouncementPostsController extends Controller
         $post->body = $request->input('body');
 
         // Handle File Upload
-        if($request->hasFile('file')){
+        $uploadFile = new AnnouncementFileUpload;
+        $uploadFile->uploadFile($request, $post);
 
-            foreach($request->file('file') as $file){
-
-                // Get filename with the extension
-                $filenameWithExt = $file->getClientOriginalName();
-                // Get just filename
-                $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
-                // Get Just ext
-                $extension = $file->getClientOriginalExtension();
-                // Filename to store
-                $fileNameToStore = $filename.'_'.time().'.'.$extension;
-                // Upload
-                $path = $file->storeAs('public/files', $fileNameToStore);
-
-            }
-
-        }
         $post->save();
 
         return redirect('/learning/announcements')->with('success', 'Announcement Updated');
@@ -190,6 +160,24 @@ class AnnouncementPostsController extends Controller
         $filepath = public_path().'/storage/files/'.$file;
 
         return response()->file($filepath);
+    }
+
+    public function destroyFile($id)
+    {
+        if(Gate::denies('manage-posts')){
+            return redirect(route('home'));
+        }
+
+        $file = AnnouncementFile::find($id);
+        $announcementId = $file->announcement_id;
+        // dd($announcementId);
+
+        // Delete file from storage
+        Storage::delete('public/files/'.$file->file);
+        // Delete AnnouncementFile post
+        $file->delete();
+
+        return redirect('/learning/announcements/'. $announcementId .'/edit')->with('success', 'File Removed');
     }
 
     /**

@@ -40,11 +40,45 @@
                                     {{ Form::label('body', 'Body')}}
                                     {{ Form::textarea('body', $post->body, ['id' => 'editor1','class' => 'form-control', 'placeholder' => 'Body Text'])}}
                                 </div>
-                                {{-- <div class="form-group">
+
+                                <div class="form-group">
+                                    {{ Form::label('Attach Resource Files:') }}
                                     {{ Form::file('file[]', array('multiple' => true, 'accept' => 'doc,docx,pdf')) }}
-                                </div> --}}
+                                </div>
                                 {{ Form::submit('Submit', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
+
+
+                            <div class="card-body table-responsive p-0">
+                                <table class="table">
+                                  <thead>
+                                      
+                                        <th>Resources Files</th>
+                                      
+                                  </thead>
+                                    <tbody>
+                                      @foreach($files as $file)
+                                    <tr>
+                                        <td>
+                                            <a href="{{ route('view', $file->file) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-file-alt"></i> {{$file->file}}</a>
+                                            <div class="btn-group btn-group-sm">
+                                                @can('edit-posts')
+                                                {{ Form::open(['action' => ['AnnouncementPostsController@destroyFile', $file->id], 'method' => 'DELETE']) }}
+                                                  {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                                {{ Form::close()}}
+                                                @endcan
+                                              </div>
+                                        </td>
+
+                                    </tr>
+                                    
+                                      @endforeach
+                                    </tbody>
+                                </table>
+                              </div>
+
+
+
                         </div>
                     </div>
                 </div>
