@@ -557,7 +557,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/correspondent/documents" class="nav-link {{ Request::path() === 'correspondent/documents' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/EtP4VUmhCcJHpf14CUAj0BMBr9NhsTM8QQggHk2RWZ2u2Q?e=EsyyqN" class="nav-link {{ Request::path() === 'correspondent/documents' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Documents</p>
                         </a>
@@ -565,7 +565,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Em-aNaBSzgVNkDyNJ4bdr5kBdolth6GCdiqRV8LkTT8xgw?e=Dfe1h8" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Forms</p>
                         </a>
@@ -588,7 +588,7 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/consumerdirect/documents" class="nav-link {{ Request::path() === 'consumerdirect/documents' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/ConsumerDirectLending/EiOoA2VcPOlDiuf-CD-TzgsBPmt0xJsVDwvVeOsVuYKZLQ?e=ZDFUDs" class="nav-link {{ Request::path() === 'consumerdirect/documents' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Documents</p>
                         </a>
@@ -596,7 +596,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/consumerdirect/forms" class="nav-link {{ Request::path() === 'consumerdirect/forms' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/ConsumerDirectLending/Erf7HS_WfUhIvkV9aCP8emABi33XcjOTOkDkL4mNq9a-jg?e=LdjdO8" class="nav-link {{ Request::path() === 'consumerdirect/forms' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Forms</p>
                         </a>
@@ -604,7 +604,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/consumerdirect/processes" class="nav-link {{ Request::path() === 'consumerdirect/processes' ? 'active': ''}}">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/ConsumerDirectLending/EmP0jot_npdOoe05PPGQtH0BixXopjwu8FkypnVUeOvkVg?e=NfW4zJ" class="nav-link {{ Request::path() === 'consumerdirect/processes' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Processes</p>
                         </a>
