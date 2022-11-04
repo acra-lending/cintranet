@@ -1,8 +1,22 @@
+
 $(function() {
     $('#requestDate').daterangepicker({
         singleDatePicker: true,
+        timePicker: true,
     });
     $('#dateRange').daterangepicker();
+})
+
+$(function() {
+    $('.datepicker').daterangepicker({
+        singleDatePicker: true,
+        startDate: moment().startOf('minute'),
+        timePicker: true,
+        timePicker24Hour: true,
+        locale: {
+            format: 'M/DD hh:mm A'
+          }
+    });
 })
 
 $(function() {

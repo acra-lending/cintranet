@@ -14,6 +14,7 @@ class Kernel extends ConsoleKernel
      */
     protected $commands = [
         Commands\NumberOfEmployees::class,
+        Commands\UpdateRatesheet::class,
     ];
 
     /**
@@ -25,6 +26,9 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         $schedule->command('company:employees')
+            ->daily();
+
+        $schedule->command('update:ratesheet')
             ->daily();
     }
 

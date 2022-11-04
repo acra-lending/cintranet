@@ -818,7 +818,7 @@
                     <li class="nav-item">
                         <a href="/mediamanager/uploadratesheets" class="nav-link {{ Request::path() === 'mediamanager/uploadratesheets' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Ratesheets Web Upload</p>
+                            <p>Ratesheets Upload</p>
                         </a>
                     </li>
                 </ul>

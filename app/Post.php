@@ -10,6 +10,7 @@ class Post extends Model
     use Sortable;
 
     public $sortable = [ 'filename', 'filesize', 'created_at', 'updated_at' ];
+    protected $fillable = ['category_id', 'filesize'];
 
     public function categories()
     {

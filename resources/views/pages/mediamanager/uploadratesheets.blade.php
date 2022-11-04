@@ -8,8 +8,9 @@
         <div class="container-fluid">
             <div class="row mb-2">
             <div class="col-sm-6">
-                <h1 class="m-0 text-dark">Ratesheets Web Upload</h1>
-                <p class=mt-2>This will update the ratesheets on the website</p>
+                <h1 class="m-0 text-dark">Ratesheets Upload Scheduler</h1>
+                <p class=mt-2>This will update the ratesheets on the website and Cintranet</p>
+                <p class=mt-2>Use datetime picker to schedule the upload</p>
             </div><!-- /.col -->
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -45,7 +46,16 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+                            
+
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -54,7 +64,7 @@
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title">Wholesale <b>Business Purpose / DSCR</b> Ratesheet Upload</h4>
+                            <h4 class="card-title">Wholesale <b>BP / DSCR</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
@@ -66,50 +76,15 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
-                            {{ Form::close() }}
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
-                    <div class="card card-danger">
-                        <div class="card-header">
-                            <h4 class="card-title">Wholesale <b>3-Month Bank Statement</b> Ratesheet Upload</h4>
-                        </div>
-
-                        <div class="card-body">           
-                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_3mbs', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
-                                <div class="input-group">
-                                    <div class="input-group">
-                                        <div class="form-group" style="width: 100%;">
-                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
-                                        </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
-                            {{ Form::close() }}
-                        </div>
-                    </div>
-                    </div>
-                
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
-                    <div class="card card-danger">
-                        <div class="card-header">
-                            <h4 class="card-title">Wholesale <b>Jumbo Prime</b> Ratesheet Upload</h4>
-                        </div>
 
-                        <div class="card-body">           
-                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_jumboprime', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
-                                <div class="input-group">
-                                    <div class="input-group">
-                                        <div class="form-group" style="width: 100%;">
-                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
-                                        </div>
-                                    </div>
-                                </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -131,7 +106,15 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -140,7 +123,7 @@
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title"><b>Small Balance Multifamily</b> Ratesheet Upload</h4>
+                            <h4 class="card-title"><b>Small Balance MF</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
@@ -152,7 +135,15 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -162,7 +153,66 @@
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title"><b>Fix & Flip SFR</b> Ratesheet Upload</h4>
+                            <h4 class="card-title">Wholesale <b>3-Month Bank Statement</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_3mbs', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title">Wholesale <b>Jumbo Prime</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_jumboprime', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                {{-- <div class="row">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>ILD SFR</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
@@ -174,7 +224,15 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
                             {{ Form::close() }}
                         </div>
                     </div>
@@ -183,7 +241,7 @@
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title"><b>Fix & Flip MF</b> Ratesheet Upload</h4>
+                            <h4 class="card-title"><b>ILD MF</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
@@ -195,12 +253,20 @@
                                         </div>
                                     </div>
                                 </div>
-                            {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
                             {{ Form::close() }}
                         </div>
                     </div>
                     </div>
-                </div>
+                </div> --}}
                 <br>
                 <p>This will turn on/off the Quick Qualifier on the website</p>
                 <div class="row">
@@ -235,7 +301,7 @@
                     </div>
                     </div>
                 </div>
-                <div class="row mb-3">
+                {{-- <div class="row mb-3">
                     <div class="col-md-6 col-lg-4">
                         <div class="progress mt-3" hidden>
                             <div class="bar"></div>
@@ -243,13 +309,13 @@
                         </div>
                         <div class="complete"></div>
                     </div>
-                </div>
+                </div> --}}
             </div>
         </section>
     </div>
   @push('includes.scripts')
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
-  <script type="text/javascript">
+  {{-- <script type="text/javascript">
     $(function() {
         $(document).ready(function()
         {
@@ -276,6 +342,12 @@
               });
         }); 
      });
-    </script>
+    </script> --}}
     @endpush
+    
+    @push('includes.scripts')
+    <script src="{{ asset('js/pages/datepicker.js') }}"></script>
+    @endpush
+
+
 @stop
