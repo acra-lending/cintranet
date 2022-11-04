@@ -557,17 +557,17 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/EtP4VUmhCcJHpf14CUAj0BMBr9NhsTM8QQggHk2RWZ2u2Q?e=EsyyqN" class="nav-link {{ Request::path() === 'correspondent/documents' ? 'active': ''}}" target="_blank">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Ehf81TXe-V1AvI9t0eCo7CwBqJjDnLa6GoSUnspucIQVgg?e=hV5Kj2" class="nav-link {{ Request::path() === 'correspondent/documents' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Documents</p>
+                            <p>Sales Tool Kit</p>
                         </a>
                     </li>
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Em-aNaBSzgVNkDyNJ4bdr5kBdolth6GCdiqRV8LkTT8xgw?e=Dfe1h8" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}" target="_blank">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Ej28AO_9YRxHhyH1NXsF18UBAoOQrngWyKiK8Ebb8nghpw?e=5FjFvw" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Forms</p>
+                            <p>Operations</p>
                         </a>
                     </li>
                 </ul>
