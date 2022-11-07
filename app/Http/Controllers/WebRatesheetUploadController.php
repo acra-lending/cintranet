@@ -353,7 +353,7 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $path = $file->storeAs(
                 'acraweb/wp-content/uploads/2022/RateSheets/FF',
-                'acra-ff-creditbox-sfr.pdf',
+                'acra-ff-creditbox-sfr-3.pdf',
                 'sftp'
             );
 
