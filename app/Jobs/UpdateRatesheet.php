@@ -9,6 +9,8 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Queue\SerializesModels;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
+use League\Flysystem\Filesystem;
+use League\Flysystem\Sftp\SftpAdapter;
 use App\Post;
 
 
@@ -44,8 +46,18 @@ class UpdateRatesheet implements ShouldQueue
      * @return void
      */
     public function handle()
-    {        
-        Storage::disk('sftp')
+    {      
+
+        $filesystem = new Filesystem(new SftpAdapter([
+            'host' => config('filesystems.disks.sftp.host'),
+            'username' => config('filesystems.disks.sftp.username'),
+            'password' => config('filesystems.disks.sftp.password'),
+            'port' => 22,
+            'root' => '/var/www',
+            'timeout' => 10,
+        ]));
+          
+        $filesystem
             ->put(
                 'acraweb/wp-content/uploads/2020/RateSheets/Wholesale/'.$this->sftpFileName, 
                 'public/upload/'.$this->fileNameToStore
