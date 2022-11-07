@@ -346,7 +346,7 @@
     @endpush
     
     @push('includes.scripts')
-    <script src="{{ asset('js/pages/datepicker.js?version=1') }}"></script>
+    <script src="{{ asset('js/pages/datepicker.js?version=2') }}"></script>
     @endpush
 
 
