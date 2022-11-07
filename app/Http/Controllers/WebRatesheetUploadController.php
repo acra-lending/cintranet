@@ -30,7 +30,7 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime);
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
         $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
@@ -81,8 +81,8 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime);
-        $start = Carbon::now()->subHours(7);
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
 
@@ -137,8 +137,8 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime);
-        $start = Carbon::now()->subHours(7);
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
 
@@ -189,8 +189,8 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime);
-        $start = Carbon::now()->subHours(7);
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
 
@@ -241,8 +241,8 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
         
-        $carbonDate = Carbon::parse($request->datetime);
-        $start = Carbon::now()->subHours(7);
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
 
