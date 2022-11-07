@@ -208,7 +208,7 @@
                     </div>
                     </div>
                 </div>
-                {{-- <div class="row">
+                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -266,7 +266,7 @@
                         </div>
                     </div>
                     </div>
-                </div> --}}
+                </div>
                 <br>
                 <p>This will turn on/off the Quick Qualifier on the website</p>
                 <div class="row">
