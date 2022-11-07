@@ -75,7 +75,7 @@ return [
 
         'sftp' => [
             'driver' => 'sftp',
-            'host' => env('SFTP_HOST'),
+            'host' => env('SFTP_HOST', '138.197.211.434'),
             'username' => env('SFTP_USERNAME'),
             'password' => env('SFTP_PASSWORD'),
         
