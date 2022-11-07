@@ -84,7 +84,7 @@ return [
             // 'password' => 'encryption-password',
         
             // Optional SFTP Settings...
-            // 'port' => 22,
+            'port' => 22,
             'root' => '/var/www',
             'timeout' => 30,
         ],

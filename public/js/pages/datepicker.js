@@ -10,7 +10,7 @@ $(function() {
 $(function() {
     $('.datepicker').daterangepicker({
         singleDatePicker: true,
-        startDate: moment().startOf('minute').add(-8, 'hour'),
+        startDate: moment().startOf('minute'),
         timePicker: true,
         timePicker24Hour: true,
         locale: {
