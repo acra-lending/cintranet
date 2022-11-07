@@ -31,7 +31,7 @@ class WebRatesheetUploadController extends Controller
         ]);
 
         $carbonDate = Carbon::parse($request->datetime);
-        $start = Carbon::now()->subHours(7);
+        $start = Carbon::now();
         $end = $carbonDate;
         $differenceInMinutes = $end->diffInMinutes($start);
 
@@ -55,7 +55,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-1stTDs.pdf';
+            $sftpFileName = '/acra-ws-ratematrix-1stTDs-3.pdf';
             $categoryId = 'wsNonprimeAE';
 
             $post = Post::create();
