@@ -55,7 +55,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-1stTDs-4.pdf';
+            $sftpFileName = '/acra-ws-ratematrix-1stTDs.pdf';
             $categoryId = 'wsNonprimeAE';
 
             $post = Post::create();
