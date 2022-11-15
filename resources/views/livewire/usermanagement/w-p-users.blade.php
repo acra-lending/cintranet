@@ -60,20 +60,42 @@
                     <tbody>
                         @foreach($users as $user)
                         {{-- {{dd($user)}} --}}
+                        {{-- {{dd($user)}} --}}
                       <tr>
-                        <td>{{$user->user_login}}</p></td>
+                        {{-- Strapi --}}
+                        <td>{{$user->username}}</p></td>
+                        <td>{{$user->firstname}} {{$user->lastname}}</p></td>
+                        <td>{{$user->email}}</td>
+                        
+                        {{-- <td>{{$user->user_login}}</p></td>
                         <td>{{$user->display_name}}</p></td>
-                        <td>{{$user->user_email}}</td>
+                        <td>{{$user->user_email}}</td> --}}
+
                         {{-- <td>{{implode(', ', $user->roles()->get()->pluck('name')->toArray()) }}</td> --}}
-                        <td>{{ Carbon\Carbon::parse($user->user_registered)->format('Y-m-d') }}</td>
+                        {{-- Strapi --}}
+                        <td>{{ Carbon\Carbon::parse($user->created_at)->format('Y-m-d') }}</td>
+
+                        {{-- <td>{{ Carbon\Carbon::parse($user->user_registered)->format('Y-m-d') }}</td> --}}
+
+
                         {{-- <td>{{ Carbon\Carbon::parse($user->lastvisitDate)->format('Y-m-d') }}</td> --}}
                         <td>
+                          
+                          {{-- Strapi --}}
                           @can('manage-users')
+                          <a href="{{ url('usermanagement/wpusers/edit', $user->user_id)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
+                          {{ Form::open(['action' => ['BrokerPortalRequestsController@destroy', $user->user_id], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
+                          {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
+                          {{ Form::close() }}
+                          @endcan
+
+
+                          {{-- @can('manage-users')
                           <a href="{{ url('usermanagement/wpusers/edit', $user->ID)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
                           {{ Form::open(['action' => ['BrokerPortalRequestsController@destroy', $user->ID], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
                           {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
                           {{ Form::close() }}
-                          @endcan
+                          @endcan --}}
                           {{-- <a href="{{ route('admin.user.destroy', $user->id)}}" method="POST"><button class="btn btn-outline-danger" onclick="return confirm('Are you sure?')">Delete</button></a> --}}
                         </td>
                       </tr>
