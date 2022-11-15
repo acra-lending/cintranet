@@ -16,7 +16,9 @@ class DirectoryListController extends Controller
             return redirect(route('home'));
         }
 
+      
         $usersArray = DB::table('s2zar_jsn_users')
+        ->where('s2zar_jsn_users.deleted_at', NULL)
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->orderby('departments', 'asc')
         ->orderby('firstname', 'asc')
@@ -34,6 +36,7 @@ class DirectoryListController extends Controller
 
 
         $departments = DB::table('s2zar_jsn_users')
+        ->where('s2zar_jsn_users.deleted_at', NULL)
         ->orderBy('departments', 'asc')
         ->groupBy('departments')
         ->where('departments', '<>', '')
@@ -42,6 +45,7 @@ class DirectoryListController extends Controller
         ->toArray();
 
         $division = DB::table('s2zar_jsn_users')
+        ->where('s2zar_jsn_users.deleted_at', NULL)
         ->orderBy('division', 'asc')
         ->groupBy('division')
         ->where('division', '<>', '')

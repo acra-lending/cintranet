@@ -47,6 +47,11 @@ class User extends Authenticatable
         'active' => 'boolean'
     ];
 
+    public function details()
+    {
+        return $this->hasOne(Details::class, 'id');
+    }
+
     public function roles()
     {
         return $this->belongsToMany(Role::class);
