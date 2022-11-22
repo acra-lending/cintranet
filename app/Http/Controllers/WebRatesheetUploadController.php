@@ -293,6 +293,11 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
         $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
