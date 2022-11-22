@@ -28,15 +28,17 @@ class UpdateRatesheet implements ShouldQueue
     public $filesizeToStore;
     public $sftpFileName;
     public $categoryId;
+    public $directory;
     
 
-    public function __construct(Post $post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)
+    public function __construct(Post $post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)
     {
         $this->post = $post;
         $this->fileNameToStore = $fileNameToStore;
         $this->filesizeToStore = $filesizeToStore;
         $this->sftpFileName = $sftpFileName;
         $this->categoryId = $categoryId;
+        $this->directory = $directory;
 
     }
 
@@ -59,8 +61,9 @@ class UpdateRatesheet implements ShouldQueue
           
         $filesystem
             ->put(
-                'acraweb/wp-content/uploads/2020/RateSheets/Wholesale/'.$this->sftpFileName, 
-                'public/upload/'.$this->fileNameToStore
+                'acraweb/wp-content/uploads/'.$this->directory.$this->sftpFileName, 
+                Storage::disk('public')->get('upload/'.$this->fileNameToStore)
+                // 'public/upload/'.$this->fileNameToStore
             );  
 
         //Create Upload Post

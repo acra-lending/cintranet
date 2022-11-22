@@ -57,10 +57,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-1stTDs.pdf';
             $categoryId = 'wsNonprimeAE';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -113,10 +114,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-dscr.pdf';
             $categoryId = 'wsDscrAE';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
     
             
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -165,10 +167,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-3mbs.pdf';
             $categoryId = '3MBSRatesheet';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -217,10 +220,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-itin.pdf';
             $categoryId = 'ITINRatesheet';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
             
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -269,10 +273,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-jumboprime.pdf';
             $categoryId = 'wsJumboPrimeAE';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -308,9 +313,10 @@ class WebRatesheetUploadController extends Controller
             $extension = $file->getClientOriginalExtension();
             $filesize = $file->getSize();
             $filesizeToStore = round($filesize * 0.0009765625, 2);
+            // $fileNameToStore = 'test.'.$extension;
             $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').'.'.$extension;
                 
-            //Check if Filename exists
+            // Check if Filename exists
             while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
                 $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                 $num++;
@@ -322,10 +328,11 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ff-ratematrix-sbmf.pdf';
             $categoryId = 'smallBalanceMultifamily';
+            $directory = '2022/RateSheets/FF/';
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
     
 
             return response()->json(['success' => 'Uploaded Successfully']);
