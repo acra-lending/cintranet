@@ -55,7 +55,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-1stTDs.pdf';
+            $sftpFileName = 'acra-ws-ratematrix-1stTDs.pdf';
             $categoryId = 'wsNonprimeAE';
 
             $post = Post::create();
@@ -111,7 +111,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-dscr.pdf';
+            $sftpFileName = 'acra-ws-ratematrix-dscr.pdf';
             $categoryId = 'wsDscrAE';
 
             $post = Post::create();
@@ -163,7 +163,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-3mbs.pdf';
+            $sftpFileName = 'acra-ws-ratematrix-3mbs.pdf';
             $categoryId = '3MBSRatesheet';
 
             $post = Post::create();
@@ -215,7 +215,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-itin.pdf';
+            $sftpFileName = 'acra-ws-ratematrix-itin.pdf';
             $categoryId = 'ITINRatesheet';
 
             $post = Post::create();
@@ -267,7 +267,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ws-ratematrix-jumboprime.pdf';
+            $sftpFileName = 'acra-ws-ratematrix-jumboprime.pdf';
             $categoryId = 'wsJumboPrimeAE';
 
             $post = Post::create();
@@ -320,7 +320,7 @@ class WebRatesheetUploadController extends Controller
             $path = $file->storeAs('public/upload', $fileNameToStore);
             
             // Upload
-            $sftpFileName = '/acra-ff-ratematrix-sbmf.pdf';
+            $sftpFileName = 'acra-ff-ratematrix-sbmf.pdf';
             $categoryId = 'SBMFRatesheet';
 
             $post = Post::create();
