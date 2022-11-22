@@ -301,7 +301,7 @@
                     </div>
                     </div>
                 </div> --}}
-                {{-- <div class="row mb-3">
+                <div class="row mb-3">
                     <div class="col-md-6 col-lg-4">
                         <div class="progress mt-3" hidden>
                             <div class="bar"></div>
@@ -309,13 +309,13 @@
                         </div>
                         <div class="complete"></div>
                     </div>
-                </div> --}}
+                </div>
             </div>
         </section>
     </div>
   @push('includes.scripts')
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.form/4.2.2/jquery.form.js"></script>
-  {{-- <script type="text/javascript">
+  <script type="text/javascript">
     $(function() {
         $(document).ready(function()
         {
@@ -342,7 +342,7 @@
               });
         }); 
      });
-    </script> --}}
+    </script>
     @endpush
     
     @push('includes.scripts')
