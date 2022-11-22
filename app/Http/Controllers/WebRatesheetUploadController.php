@@ -321,7 +321,7 @@ class WebRatesheetUploadController extends Controller
             
             // Upload
             $sftpFileName = 'acra-ff-ratematrix-sbmf.pdf';
-            $categoryId = 'SBMFRatesheet';
+            $categoryId = 'smallBalanceMultifamily';
 
             $post = Post::create();
             
