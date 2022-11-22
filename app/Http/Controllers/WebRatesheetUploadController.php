@@ -312,7 +312,7 @@ class WebRatesheetUploadController extends Controller
                 
             //Check if Filename exists
             while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                $fileNameToStore = 'Small Balance Multifamily Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $fileNameToStore = 'Small%20Balance%20Multifamily%20Rate%20Sheet%20'.date('m-d-Y').'%20v'.$num.'.'.$extension;
                 $num++;
             }
 
