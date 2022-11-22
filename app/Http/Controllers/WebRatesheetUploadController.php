@@ -293,6 +293,7 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
 
