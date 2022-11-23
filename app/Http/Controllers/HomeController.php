@@ -87,6 +87,7 @@ class HomeController extends Controller
             ->get();
 
             $teamLead = DB::table('s2zar_jsn_users')
+            ->where('s2zar_jsn_users.deleted_at', NULL)
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('s2zar_users.name', $team)
             ->orderBy('lastname', 'asc')
