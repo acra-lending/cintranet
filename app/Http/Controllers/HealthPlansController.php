@@ -22,22 +22,44 @@ class HealthPlansController extends Controller
         ->orderBy('created_at', 'desc')
         ->first();
 
+        $benefitsCA2023 = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%guide ca only%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
+        $benefitsNonCA2023 = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%guide non ca%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
         $fsaExpenseList = Post::where('category_id', 'hrHealthPlanDocs')
         ->where('filename', 'like', '%fsa expense list%')
         ->orderBy('created_at', 'desc')
         ->first();
         
-        $fsaEnrollment = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%fsa enrollment%')
+        $fsaQuestions = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%fsa questions%')
         ->orderBy('created_at', 'desc')
         ->first();
+        
+        $hsa = Post::where('category_id', 'hsa')
+        ->orderBy('created_at', 'desc')
+        ->get();
+
+        $additionalInfo = Post::where('category_id', 'additionalInfo')
+        ->orderBy('created_at', 'desc')
+        ->get();
 
         return view('pages.humanresources.healthplan')
         ->with([
             'benefitsCA'        => $benefitsCA,
             'benefitsNonCA'     => $benefitsNonCA,
+            'benefitsCA2023'    => $benefitsCA2023,
+            'benefitsNonCA2023' => $benefitsNonCA2023,
             'fsaExpenseList'    => $fsaExpenseList,
-            'fsaEnrollment'     => $fsaEnrollment,
+            'fsaQuestions'      => $fsaQuestions,
+            'hsa'               => $hsa,
+            'additionalInfo'    => $additionalInfo,
         ]);
     }
 }

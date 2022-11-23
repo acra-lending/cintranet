@@ -131,7 +131,7 @@
                     <div class="row">
                         <div class="float-left">
                             <div class="container">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/employee_navigator.jpg') }}" data-toggle="modal" data-target="#modal-default" alt="login-portal"></button>
                                     <div class="card-body">
                                     </div>
@@ -140,7 +140,7 @@
                         </div>
                         <div class="float-left">
                             <div class="container">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsCA->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_ca.jpg') }}" alt="csc-health-welfare"></a></button>
                                     <div class="card-body">
                                     </div>
@@ -149,8 +149,26 @@
                         </div>
                         <div class="float-left">
                             <div class="container">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsNonCA->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_non_ca.jpg') }}" alt="csc-health-welfare-alt"></a></button>
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsCA2023->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_ca_2023.jpg') }}" alt="csc-health-welfare"></a></button>
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsNonCA2023->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_non_ca_2023.jpg') }}" alt="csc-health-welfare-alt"></a></button>
                                     <div class="card-body">
                                     </div>
                                 </div>
@@ -171,7 +189,7 @@
                     <div class="row">
                         <div class="float-left">
                             <div class="container">
-                                <div class="card" style="width: 18rem;">
+                                <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$fsaExpenseList->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/fsa-expense-list.png') }}" alt="fsa-expense-list"></a></button>
                                     <div class="card-body">
                                         <h5 class="card-title">FSA Eligible Expense List</h5>
@@ -181,10 +199,10 @@
                         </div>
                         <div class="float-left">
                             <div class="container">
-                                <div class="card" style="width: 18rem;">
-                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$fsaEnrollment->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/fsa-enrollment.png') }}" alt="fsa-enrollment"></a></button>
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$fsaQuestions->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/fsa-questions.jpg') }}" alt="fsa-enrollment"></a></button>
                                     <div class="card-body">
-                                        <h5 class="card-title">FSA Open Enrollment 2022</h5>
+                                        <h5 class="card-title">FSA Q&A</h5>
                                     </div>
                                 </div>
                             </div>
@@ -193,6 +211,62 @@
                   </div>
                 </div>
               </div>
+
+            <div class="col-12">
+                <div class="card card-danger card-outline">
+                    <div class="card-header">
+                        <div class="card-title">
+                            HSA
+                        </div>
+                    </div>
+                  <div class="card-body">
+                    <div class="row">
+                        @if(count($hsa) > 0)
+                        @foreach ($hsa as $doc)
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$doc->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/'.str_replace('pdf', 'jpg', $doc->filename)) }}" alt="{{str_replace('pdf', 'jpg', $doc->filename)}}"></a></button>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{$doc->filename}}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+                        @endif
+                    </div>
+                  </div>
+                </div>
+              </div>
+            <div class="col-12">
+                <div class="card card-danger card-outline">
+                    <div class="card-header">
+                        <div class="card-title">
+                            Additional Information
+                        </div>
+                    </div>
+                  <div class="card-body">
+                    <div class="row">
+                        @if(count($additionalInfo) > 0)
+                        @foreach ($additionalInfo as $doc)
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$doc->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/'.str_replace('pdf', 'jpg', $doc->filename)) }}" alt="{{str_replace('pdf', 'jpg', $doc->filename)}}"></a></button>
+                                    <div class="card-body">
+                                        <h5 class="card-title">{{$doc->filename}}</h5>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        @endforeach
+                        @endif
+                    </div>
+                  </div>
+                </div>
+              </div>
+
             <div class="col-12 mb-5">
                 <div class="card card-dark card-outline">
                     <div class="card-header">

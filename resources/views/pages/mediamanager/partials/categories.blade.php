@@ -328,6 +328,8 @@
             ],
             'Health Plan' => [
                 'hrHealthPlanDocs'      => 'Health Plan Documents',
+                'hsa'                   => 'HSA',
+                'additionalInfo'        => 'Additional Information',
             ],
             'Paylocity' => [
                 'hrPaylocity'           => 'Paylocity',

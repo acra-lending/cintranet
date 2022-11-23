@@ -161,7 +161,23 @@ class VideosController extends Controller
         $data = $url['data'];
         $humanresourcesBenefits = $data;
 
+        $url = Cache::remember('humanresourcesBenefitsAdditional', $this->seconds, function() {
+           return Vimeo::request("/users/124219438/projects/13859192/videos", ['per_page' => 99], 'GET');
+        });
+
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresourcesBenefitsAdditional = $data;
+
         $url = Cache::remember('humanresourcesNewHire', $this->seconds, function() {
+           return Vimeo::request("/users/124219438/projects/10233750/videos", ['per_page' => 99], 'GET');
+        });
+
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresourcesNewHire = $data;
+
+        $url = Cache::remember('humanresources', $this->seconds, function() {
            return Vimeo::request("/users/124219438/projects/10233750/videos", ['per_page' => 99], 'GET');
         });
 
@@ -189,6 +205,7 @@ class VideosController extends Controller
             compact([
             'humanresources',
             'humanresourcesBenefits',
+            'humanresourcesBenefitsAdditional',
             'humanresourcesNewHire',
             'humanresourcesDayforce',
             'humanresourcesCertify',
