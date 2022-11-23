@@ -79,6 +79,7 @@ class HomeController extends Controller
             ->value('team');  
 
             $teamMembers = DB::table('s2zar_jsn_users')
+            ->where('s2zar_jsn_users.deleted_at', NULL)
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
             ->where('team', $team)
             ->orWhere('s2zar_users.name', $team)
