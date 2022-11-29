@@ -23,12 +23,12 @@ class HealthPlansController extends Controller
         ->first();
 
         $benefitsCA2023 = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%new guide ca only%')
+        ->where('filename', 'like', '%guide ca only%')
         ->orderBy('created_at', 'desc')
         ->first();
 
         $benefitsNonCA2023 = Post::where('category_id', 'hrHealthPlanDocs')
-        ->where('filename', 'like', '%new guide non ca%')
+        ->where('filename', 'like', '%guide non ca%')
         ->orderBy('created_at', 'desc')
         ->first();
 
