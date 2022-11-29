@@ -224,8 +224,11 @@ Route::post('mediamanager/upload3mbs', 'WebRatesheetUploadController@store_3mbs'
 Route::post('mediamanager/uploadjumboprime', 'WebRatesheetUploadController@store_jumboprime')->middleware('auth');
 Route::post('mediamanager/uploadsbmf', 'WebRatesheetUploadController@store_sbmf')->middleware('auth');
 Route::post('mediamanager/uploaditin', 'WebRatesheetUploadController@store_itin')->middleware('auth');
-Route::post('mediamanager/uploadsfr', 'WebRatesheetUploadController@store_sfr')->middleware('auth');
-Route::post('mediamanager/uploadmf', 'WebRatesheetUploadController@store_mf')->middleware('auth');
+Route::post('mediamanager/uploadildmain', 'WebRatesheetUploadController@store_ild_main')->middleware('auth');
+Route::post('mediamanager/uploadilddscr', 'WebRatesheetUploadController@store_ild_dscr')->middleware('auth');
+Route::post('mediamanager/uploadmfbridge', 'WebRatesheetUploadController@store_ild_mfBridge')->middleware('auth');
+Route::post('mediamanager/uploadmflongterm', 'WebRatesheetUploadController@store_ild_mfLongTerm')->middleware('auth');
+Route::post('mediamanager/uploadsfr', 'WebRatesheetUploadController@store_ild_sfr')->middleware('auth');
 Route::post('mediamanager/qqon', 'QuickQualifierToggleController@toggleOn')->middleware('auth');
 Route::post('mediamanager/qqoff', 'QuickQualifierToggleController@toggleOff')->middleware('auth');
 

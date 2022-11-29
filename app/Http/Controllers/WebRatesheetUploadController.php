@@ -334,7 +334,6 @@ class WebRatesheetUploadController extends Controller
             
             UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
     
-
             return response()->json(['success' => 'Uploaded Successfully']);
         
         } else {
@@ -342,7 +341,7 @@ class WebRatesheetUploadController extends Controller
         }
     }
 
-    public function store_sfr(Request $request)
+    public function store_ild_main(Request $request)
     {
         if(Gate::denies('edit-users')){
             return redirect(route('home'));
@@ -353,38 +352,50 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
 
             $file = $request->file('file');
-            $filenameWithExt = $file->getClientOriginalName();          // Get filename with the extension
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);  // Get just filename
-            $extension = $file->getClientOriginalExtension();           // Get Just ext
-            $filesize = $file->getSize();                               // Get filesize
+            $filenameWithExt = $file->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
+            $filesize = $file->getSize();
             $filesizeToStore = round($filesize * 0.0009765625, 2);
-            $fileNameToStore = $filename.'_'.time().'.'.$extension;     // Filename to store
-            // Upload
-            $path = $file->storeAs(
-                'acraweb/wp-content/uploads/2022/RateSheets/FF',
-                'acra-ff-creditbox-sfr-3.pdf',
-                'sftp'
-            );
+            // $fileNameToStore = 'test.'.$extension;
+            $fileNameToStore = 'Investor Loan Main Rate Sheet '.date('m-d-Y').'.'.$extension;
+                
+            // Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'Investor Loan Main Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
 
-            //Create Upload Post
-            $post = new Post;
-            $post->category_id = 'SFRRatesheet';
-            $post->filename = $fileNameToStore;
-            $post->filesize = $filesizeToStore;
-            $post->save();
-    
+
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ild-main.pdf';
+            $categoryId = 'ffMain';
+            $directory = '2022/RateSheets/FF/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+                
             return response()->json(['success' => 'Uploaded Successfully']);
-        
+            
         } else {
             return 'Error. Upload failed';
         }
     }
 
-    public function store_mf(Request $request)
+    public function store_ild_dscr(Request $request)
     {
         if(Gate::denies('edit-users')){
             return redirect(route('home'));
@@ -395,32 +406,206 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
 
             $file = $request->file('file');
-            $filenameWithExt = $file->getClientOriginalName();          // Get filename with the extension
-            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);  // Get just filename
-            $extension = $file->getClientOriginalExtension();           // Get Just ext
-            $filesize = $file->getSize();                               // Get filesize
+            $filenameWithExt = $file->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
+            $filesize = $file->getSize();
             $filesizeToStore = round($filesize * 0.0009765625, 2);
-            $fileNameToStore = $filename.'_'.time().'.'.$extension;     // Filename to store
-            // Upload
-            $path = $file->storeAs(
-                'acraweb/wp-content/uploads/2022/RateSheets/FF',
-                'acra-ff-creditbox-mf.pdf',
-                'sftp'
-            );
+            // $fileNameToStore = 'test.'.$extension;
+            $fileNameToStore = 'DSCR Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
+                
+            // Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'DSCR Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
 
-            //Create Upload Post
-            $post = new Post;
-            $post->category_id = 'MFRatesheet';
-            $post->filename = $fileNameToStore;
-            $post->filesize = $filesizeToStore;
-            $post->save();
-    
+
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ild-dscr.pdf';
+            $categoryId = 'ffDscr';
+            $directory = '2022/RateSheets/FF/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+                
             return response()->json(['success' => 'Uploaded Successfully']);
-        
+
+        } else {
+            return 'Error. Upload failed';
+        }
+    }
+
+    public function store_ild_mfBridge(Request $request)
+    {
+        if(Gate::denies('edit-users')){
+            return redirect(route('home'));
+        }
+
+        $this->validate($request, [
+            'file' => 'required|mimes:pdf|max:99999999',
+            'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
+        ]);
+
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
+        //Handle File Upload
+        if($request->hasFile('file')){
+
+            $file = $request->file('file');
+            $filenameWithExt = $file->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
+            $filesize = $file->getSize();
+            $filesizeToStore = round($filesize * 0.0009765625, 2);
+            // $fileNameToStore = 'test.'.$extension;
+            $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
+                
+            // Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
+
+
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ild-mf-bridge.pdf';
+            $categoryId = 'ffMultiFamily';
+            $directory = '2022/RateSheets/FF/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+                
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        } else {
+            return 'Error. Upload failed';
+        }
+    }
+
+    public function store_ild_mfLongTerm(Request $request)
+    {
+        if(Gate::denies('edit-users')){
+            return redirect(route('home'));
+        }
+
+        $this->validate($request, [
+            'file' => 'required|mimes:pdf|max:99999999',
+            'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
+        ]);
+
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
+        //Handle File Upload
+        if($request->hasFile('file')){
+
+            $file = $request->file('file');
+            $filenameWithExt = $file->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
+            $filesize = $file->getSize();
+            $filesizeToStore = round($filesize * 0.0009765625, 2);
+            // $fileNameToStore = 'test.'.$extension;
+            $fileNameToStore = 'MF Long Term Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
+                
+            // Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'MF Long Term Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
+
+
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ild-mf-longterm.pdf';
+            $categoryId = 'ffMultiFamilyLongTerm';
+            $directory = '2022/RateSheets/FF/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+                
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        } else {
+            return 'Error. Upload failed';
+        }
+    }
+
+    public function store_ild_sfr(Request $request)
+    {
+        if(Gate::denies('edit-users')){
+            return redirect(route('home'));
+        }
+
+        $this->validate($request, [
+            'file' => 'required|mimes:pdf|max:99999999',
+            'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
+        ]);
+
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
+        //Handle File Upload
+        if($request->hasFile('file')){
+
+            $file = $request->file('file');
+            $filenameWithExt = $file->getClientOriginalName();
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);
+            $extension = $file->getClientOriginalExtension();
+            $filesize = $file->getSize();
+            $filesizeToStore = round($filesize * 0.0009765625, 2);
+            // $fileNameToStore = 'test.'.$extension;
+            $fileNameToStore = 'SFR Bridge Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
+                
+            // Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'SFR Bridge Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
+
+
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ild-sfr.pdf';
+            $categoryId = 'ffSingleFamily';
+            $directory = '2022/RateSheets/FF/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+                
+            return response()->json(['success' => 'Uploaded Successfully']);
+
         } else {
             return 'Error. Upload failed';
         }

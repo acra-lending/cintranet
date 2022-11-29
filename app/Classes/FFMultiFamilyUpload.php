@@ -26,11 +26,11 @@ class FFMultiFamilyUpload {
                 $filesize = $file->getSize();
                 $filesizeToStore = round($filesize * 0.0009765625, 2);
                 // Filename to store
-                $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet  '.date('m-d-Y').'.'.$extension;
+                $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet '.date('m-d-Y').'.'.$extension;
                 
                 //Check if Filename exists
                 while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
-                    $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet  '.date('m-d-Y').' v'.$num.'.'.$extension;
+                    $fileNameToStore = 'MF Bridge Investor Loan Rate Sheet '.date('m-d-Y').' v'.$num.'.'.$extension;
                     $num++;
                 }
                 // Upload

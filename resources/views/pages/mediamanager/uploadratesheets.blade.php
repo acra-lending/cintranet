@@ -208,15 +208,15 @@
                     </div>
                     </div>
                 </div>
-                {{-- <div class="row">
+                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title"><b>ILD SFR</b> Ratesheet Upload</h4>
+                            <h4 class="card-title"><b>ILD Main</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
-                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_sfr', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_ild_main', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                 <div class="input-group">
                                     <div class="input-group">
                                         <div class="form-group" style="width: 100%;">
@@ -241,11 +241,11 @@
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
-                            <h4 class="card-title"><b>ILD MF</b> Ratesheet Upload</h4>
+                            <h4 class="card-title"><b>ILD DSCR</b> Ratesheet Upload</h4>
                         </div>
 
                         <div class="card-body">           
-                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_mf', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_ild_dscr', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                 <div class="input-group">
                                     <div class="input-group">
                                         <div class="form-group" style="width: 100%;">
@@ -267,6 +267,96 @@
                     </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>ILD MF Bridge</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_ild_mfBridge', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>ILD MF Long Term</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_ild_mfLongTerm', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>ILD SFR Bridge</b> Ratesheet Upload</h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_ild_sfr', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
                 <br>
                 <p>This will turn on/off the Quick Qualifier on the website</p>
                 <div class="row">
@@ -300,7 +390,7 @@
                         </div>
                     </div>
                     </div>
-                </div> --}}
+                </div>
                 <div class="row mb-3">
                     <div class="col-md-6 col-lg-4">
                         <div class="progress mt-3" hidden>
