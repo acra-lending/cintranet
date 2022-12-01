@@ -44,7 +44,6 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
     public function collection()
     {
         return DB::table('s2zar_jsn_users')
-        ->where('s2zar_jsn_users.deleted_at', NULL)
         ->join('s2zar_users', 's2zar_users.id',  's2zar_jsn_users.id')
         ->orderBy('division')
         // ->select('name', 'position', 'extension', 'directphone', 'cell', 'email')
