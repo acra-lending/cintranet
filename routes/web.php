@@ -186,6 +186,7 @@ Route::get('humanresources/stateposters', 'StatePostersController@index')->middl
 Route::get('humanresources/expensereport', 'ExpenseReportingController@index')->middleware('auth');
 Route::get('humanresources/recruitment', 'SchedulesFormsController@recruitment')->middleware('auth');
 Route::get('humanresources/documents', 'HRDocumentsController@index')->middleware('auth');
+Route::get('humanresources/audit', 'HRAuditTimeController@index')->middleware('auth');
 
 //Employee Status
 Route::get('humanresources/employee/newhire', 'EmployeeNewHireController@index')->middleware('auth');
