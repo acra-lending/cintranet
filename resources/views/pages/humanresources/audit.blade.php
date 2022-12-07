@@ -22,8 +22,7 @@
                     <div class="card card-danger card-outline">
                         <div class="card-body">
                             <div class="embed-responsive embed-responsive-16by9">
-                                {{-- <iframe width="1600" height="1200" src="https://app.smartsheet.com/b/form/a91258e7499a4bf4b6a71ff3b03c0966" frameborder="0" allowFullScreen="false"></iframe> --}}
-                                <iframe class="embed-responsive-item" src="https://app.smartsheet.com/b/form/30b9f245d2e544faa2d15c3119ac6126"></iframe>
+                                <iframe width="1600" height="1800" src="https://app.smartsheet.com/b/form/30b9f245d2e544faa2d15c3119ac6126" frameborder="0" allowFullScreen="false"></iframe>
                             </div>
                         </div>
                     </div>

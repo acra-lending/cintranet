@@ -294,6 +294,7 @@
                     </li>
                     @endcan
                 </ul>
+                @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/audit" class="nav-link {{ Request::path() === 'humanresources/audit' ? 'active': ''}}">
@@ -302,6 +303,7 @@
                         </a>
                     </li>
                 </ul>
+                @endcan
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/401k" class="nav-link {{ Request::path() === 'humanresources/401k' ? 'active': ''}}">
