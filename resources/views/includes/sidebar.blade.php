@@ -484,6 +484,38 @@
                     </li>
                 </ul> --}}
             </li>
+            <li class="nav-item has-treeview {{ Request::is('compliance/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-hand-paper"></i>
+                    <p>Compliance
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Compliance/Et8tw8TuLrtOv0AMSZLigLYBxFWwQa0NxyfuU01knST2hw?e=QKDEx0" class="nav-link" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Policies and Procedures</p>
+                        </a>
+                    </li>
+                </ul>
+                {{-- <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/forms" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Forms</p>
+                        </a>
+                    </li>
+                </ul> --}}
+                {{-- <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/correspondent/jobaides" class="nav-link {{ Request::path() === 'correspondent/jobaides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Job Aides</p>
+                        </a>
+                    </li>
+                </ul> --}}
+            </li>
             <li class="nav-item">
                 <a href="/ratesheets" class="nav-link {{ Request::path() === 'ratesheets' ? 'active': ''}}">
                     <i class="nav-icon fas fa-table"></i>
