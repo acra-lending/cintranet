@@ -14,8 +14,9 @@ class WPUsers extends Component
 
     public $perPage = 10;
     public $searchTerm = '';
-    public $sortField = 'user_registered';
+    public $sortField = 'created_at';
     public $sortAsc = true;
+    public $selectedUsers = [];
 
     public function sortBy($field)
     {
@@ -44,13 +45,25 @@ class WPUsers extends Component
 
         $searchTerm = '%'.$this->searchTerm.'%';
 
+        //Strapi
         return view('livewire.usermanagement.w-p-users', [
-            'users' => DB::connection('mysql2')->table('wp_9c4654a05b_users')
-            ->where('display_name', 'LIKE', $searchTerm)
-            ->orWhere('user_email', 'LIKE', str_replace(' ', '', $searchTerm))
-            ->orWhere('user_login', 'LIKE', str_replace(' ', '', $searchTerm))
+            'users' => DB::connection('mysql3')->table('up_users')
+            // ->join('up_users_role_links', 'up_users_role_links.user_id', 'up_users.id')
+            // ->join('role_types_user_links', 'role_types_user_links.user_id', 'up_users.id')
+            ->where('firstname', 'LIKE', $searchTerm)
+            ->orWhere('lastname', 'LIKE', $searchTerm)
+            ->orWhere('email', 'LIKE', str_replace(' ', '', $searchTerm))
+            ->orWhere('username', 'LIKE', str_replace(' ', '', $searchTerm))
             ->orderBy($this->sortField, $this->sortAsc ? 'desc' : 'asc')
             ->paginate($this->perPage),
         ]);
+        // return view('livewire.usermanagement.w-p-users', [
+        //     'users' => DB::connection('mysql2')->table('wp_9c4654a05b_users')
+        //     ->where('display_name', 'LIKE', $searchTerm)
+        //     ->orWhere('user_email', 'LIKE', str_replace(' ', '', $searchTerm))
+        //     ->orWhere('user_login', 'LIKE', str_replace(' ', '', $searchTerm))
+        //     ->orderBy($this->sortField, $this->sortAsc ? 'desc' : 'asc')
+        //     ->paginate($this->perPage),
+        // ]);
     }
 }

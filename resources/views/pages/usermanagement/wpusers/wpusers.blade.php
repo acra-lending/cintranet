@@ -8,7 +8,7 @@
         <div class="container-fluid">
           <div class="row mb-2">
             <div class="col-sm-6">
-              <h1>Wordpress Users</h1>
+              <h1>Broker and Correspondent Portal Users</h1>
             </div>
           </div>
         </div>
@@ -95,9 +95,13 @@
                                                       <label class="control-label" for="selectType" required>Select Type</label>
                                                       <div>
                                                           <select class="form-control" name="selectType" >
+                                                              <option value="Broker" @if(old('selectType') == 'Broker')selected @endif>Broker</option>
+                                                              <option value="Correspondent" @if(old('selectType') == 'Correspondent') selected @endif>Correspondent</option>
+                                                          </select>
+                                                          {{-- <select class="form-control" name="selectType" >
                                                               <option value="um_broker" @if(old('selectType') == 'um_broker')selected @endif>Broker</option>
                                                               <option value="um_correspondent" @if(old('selectType') == 'um_correspondent') selected @endif>Correspondent</option>
-                                                          </select>
+                                                          </select> --}}
                                                       </div>
                                                   </div>
                                               </div>

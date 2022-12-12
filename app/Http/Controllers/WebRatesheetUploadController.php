@@ -166,8 +166,7 @@ class WebRatesheetUploadController extends Controller
             
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-3mbs.pdf';
-            $categoryId = 'ws3mbsAE';
-            $directory = '2020/RateSheets/Wholesale/';
+            $categoryId = '3MBSRatesheet';
 
             $post = Post::create();
             
@@ -219,8 +218,7 @@ class WebRatesheetUploadController extends Controller
             
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-itin.pdf';
-            $categoryId = 'wsItinAE';
-            $directory = '2020/RateSheets/Wholesale/';
+            $categoryId = 'ITINRatesheet';
 
             $post = Post::create();
             
@@ -298,11 +296,6 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
-
         $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
@@ -327,8 +320,7 @@ class WebRatesheetUploadController extends Controller
             
             // Upload
             $sftpFileName = 'acra-ff-ratematrix-sbmf.pdf';
-            $categoryId = 'smallBalanceMultifamily';
-            $directory = '2022/RateSheets/FF/';
+            $categoryId = 'SBMFRatesheet';
 
             $post = Post::create();
             

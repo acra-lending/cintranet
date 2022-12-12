@@ -44,7 +44,8 @@
                               <div class="card-body">
                                   <hr/>
                                   <!-- form start -->
-                                  {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->ID], 'method' => 'PUT']) }}
+                                  {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->id], 'method' => 'PUT']) }}
+                                  {{-- {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->ID], 'method' => 'PUT']) }} --}}
                                           <h4>Broker Portal Requests Details</h4>
                                           <hr/>
                                           @foreach($wp_users as $user)
@@ -53,7 +54,8 @@
                                               <div class="col-sm-12 col-md-6 col-lg-6">
                                                   <div class="form-group required">
                                                       <label class="control-label" for="email">Email</label>
-                                                      <input required type="email" class="form-control" name="email" id="email" placeholder="" value={{ $user->user_email }} >
+                                                      <input required type="email" class="form-control" name="email" id="email" placeholder="" value={{ $user->email }} >
+                                                      {{-- <input required type="email" class="form-control" name="email" id="email" placeholder="" value={{ $user->user_email }} > --}}
                                                   </div>
                                               </div>
 
@@ -63,7 +65,8 @@
                                                   <div class="form-group required">
                                                       <label class="control-label" for="firstname">First Name</label>
                                                       <input required type="text" class="form-control" name="firstname" id="firstname" placeholder="" 
-                                                      value={{ $first_name }} >
+                                                      {{-- value={{ $first_name }} > --}}
+                                                      value={{ $user->firstname }} >
                                                   </div>
                                               </div>
                                               {{-- {{dd($last_name)}} --}}
@@ -71,7 +74,8 @@
                                                   <div class="form-group required">
                                                       <label class="control-label" for="lastname">Last Name</label>
                                                       <input requiredtype="text" class="form-control" name="lastname" id="lastname" placeholder="" 
-                                                      value="{{ $last_name }}" >
+                                                      value="{{ $user->lastname }}" >
+                                                      {{-- value="{{ $last_name }}" > --}}
                                                   </div>
                                               </div>
                                           </div>
@@ -84,13 +88,11 @@
                                                   </div>
                                               </div> --}}
                                               <div class="col-sm-12 col-md-6 col-lg-6">
-                                                  <div class="form-group required">
-                                                      <label class="control-label" for="selectType" required>Select Type</label>
+                                                  <div class="form-group">
+                                                      <label class="control-label" for="selectType">Type</label>
                                                       <div>
-                                                          <select class="form-control" name="selectType" >
-                                                                <option value="um_broker" @if(old('selectType') == 'um_broker')selected @endif>Broker</option>
-                                                                <option value="um_correspondent" @if(old('selectType') == 'um_correspondent') selected @endif>Correspondent</option>
-                                                          </select>
+                                                          <input class="form-control" name="selectType"
+                                                          value="{{$user->role_type}}">
                                                       </div>
                                                   </div>
                                               </div>
