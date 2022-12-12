@@ -38,7 +38,7 @@ class BrokerPortalRequestsController extends Controller
         // $tempPassword = $username.'1';
         $tempPassword = $lastNameWithNoSpace.'$1!';
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
-        $selectType = intval($request->input('selectType'));
+        $selectType = $request->input('selectType');
         // dd($selectType);
 
 
@@ -49,16 +49,17 @@ class BrokerPortalRequestsController extends Controller
         $strapiToken = env('STRAPI_API_TOKEN');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->post('http://localhost:1337/api/auth/local/register', [
+        ->post('https://api.acralending.com/api/auth/local/register', [
             'username'  => $username,
             'email'     => $email,
             'firstname' => $request->input('firstname'),
             'lastname'  => $request->input('lastname'),
             'password'  => $tempPassword,
             'repeatPassword' => $tempPassword,
-            'role' => [
-                'id' => $selectType
-            ]
+            'roleType'       => $selectType,
+            // 'role' => [
+            //     'id' => $selectType
+            // ]
 
 
         ]);
@@ -74,7 +75,7 @@ class BrokerPortalRequestsController extends Controller
             }
         }  
 
-        if ($selectType = 3) {
+        if ($selectType = "Broker") {
             if ($strapiResponse->successful()) {
                 Mail::to($emailArray)
                 ->queue(new BrokerPortalRequests($data));
@@ -90,8 +91,8 @@ class BrokerPortalRequestsController extends Controller
             return back()->withInput($request->all())->with('error', $message);
         }
 
-        if ($selectType = 4) {
-            if ($response->successful()) {
+        if ($selectType = "Correspondent") {
+            if ($strapiResponse->successful()) {
                 Mail::to($emailArray)
                 ->queue(new CorrespondentPortalRequests($data));
                 // Mail::to([
@@ -101,7 +102,7 @@ class BrokerPortalRequestsController extends Controller
                 return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
             }
             else 
-            $message = $response->json()['error']['message'];
+            $message = $strapiResponse->json()['error']['message'];
         
             return back()->withInput($request->all())->with('error', $message);
             
@@ -172,7 +173,8 @@ class BrokerPortalRequestsController extends Controller
         $wp_users = DB::connection('mysql3')
             ->table('up_users')
             ->where('up_users.id', intval($user))
-            ->join('up_users_role_links', 'up_users_role_links.user_id', 'up_users.id')
+            // ->join('up_users_role_links', 'up_users_role_links.user_id', 'up_users.id')
+            // ->join('role_types_user_links', 'role_types_user_links.user_id', 'up_users.id')
             ->get();
 
             // dd($wp_users);
@@ -202,7 +204,7 @@ class BrokerPortalRequestsController extends Controller
             'firstname'         => 'required|max:100',
             'lastname'          => 'required|max:100',
             'email'             => 'required|email',
-            // 'selectType'        => 'nullable',
+            'selectType'        => 'required|max:100',
         ]);
         // dd($request->id);
 
@@ -215,6 +217,7 @@ class BrokerPortalRequestsController extends Controller
         $lastName = ucwords(strtolower($request->input('lastname')));
         $firstName = ucwords(strtolower($request->input('firstname')));
         $email = strtolower($request->input('email'));
+        $selectType = $request->input('selectType');
         // $data = [$request->all(), 'username' => $username];
         // $data = [$request->all()];
         // $displayName = $firstName. ' ' .$lastName;
@@ -224,11 +227,13 @@ class BrokerPortalRequestsController extends Controller
         $strapiToken = env('STRAPI_API_TOKEN');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->put('http://localhost:1337/api/users/'. $wp_users, [
+        ->put('https://api.acralending.com/api/users/'. $wp_users, [
             'username'  => $email,
             'email'     => $email,
             'firstname' => $request->input('firstname'),
             'lastname'  => $request->input('lastname'),
+            'roleType'  => $selectType,
+            
         ]);
 
         if ($strapiResponse->successful()) {
@@ -270,11 +275,12 @@ class BrokerPortalRequestsController extends Controller
 
     public function destroy(Request $request, $wp_users)
     {
+
         //Strapi Start
         $strapiToken = env('STRAPI_API_TOKEN');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->delete('http://localhost:1337/api/users/'. $wp_users);
+        ->delete('https://api.acralending.com/api/users/'. $wp_users);
 
         if ($strapiResponse->successful()) {
 
@@ -283,6 +289,57 @@ class BrokerPortalRequestsController extends Controller
         else 
 
         $message = $strapiResponse->json()['error']['message'];
+
+        // $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
+        //     'username' => env('WP_USERNAME'),
+        //     'password' => env('WP_PASSWORD'),
+        // ]);
+
+        // $token = $token->json()['token'];
+
+        // $response = Http::withToken($token)
+        // ->delete('https://acralending.com/wp-json/wp/v2/users/' . $wp_users, [
+        //     'reassign' => '997',
+        //     'force' => true
+        // ]);
+        
+        // if ($response->successful()) {
+
+        //     return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials Deleted');
+        // }
+        // else 
+        // $message = $response->json()['message'];
+    
+        return back()->withInput($request->all())->with('error', $message);
+    }
+
+    public function destroyBulk(Request $request)
+    {
+
+        //Strapi Start
+        $strapiToken = env('STRAPI_API_TOKEN');
+
+        $selectedUsers = $request->input('selectedUsers');
+        if($selectedUsers) {
+            foreach($selectedUsers as $wp_users) {
+                $strapiResponse = Http::withToken($strapiToken)
+                ->delete('https://api.acralending.com/api/users/'. $wp_users);
+            }
+
+        }
+        else {
+            return back()->with('error', 'Please select a user');
+        }
+
+
+        if ($strapiResponse->successful()) {
+
+            return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials Deleted');
+        }
+        else 
+
+        $message = $strapiResponse->json()['error']['message'];
+
 
         // $token = Http::post('https://acralending.com/wp-json/jwt-auth/v1/token', [
         //     'username' => env('WP_USERNAME'),

@@ -16,6 +16,7 @@ class WPUsers extends Component
     public $searchTerm = '';
     public $sortField = 'created_at';
     public $sortAsc = true;
+    public $selectedUsers = [];
 
     public function sortBy($field)
     {
@@ -47,7 +48,8 @@ class WPUsers extends Component
         //Strapi
         return view('livewire.usermanagement.w-p-users', [
             'users' => DB::connection('mysql3')->table('up_users')
-            ->join('up_users_role_links', 'up_users_role_links.user_id', 'up_users.id')
+            // ->join('up_users_role_links', 'up_users_role_links.user_id', 'up_users.id')
+            // ->join('role_types_user_links', 'role_types_user_links.user_id', 'up_users.id')
             ->where('firstname', 'LIKE', $searchTerm)
             ->orWhere('lastname', 'LIKE', $searchTerm)
             ->orWhere('email', 'LIKE', str_replace(' ', '', $searchTerm))

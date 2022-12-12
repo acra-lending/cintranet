@@ -95,8 +95,8 @@
                                                       <label class="control-label" for="selectType" required>Select Type</label>
                                                       <div>
                                                           <select class="form-control" name="selectType" >
-                                                              <option value="3" @if(old('selectType') == '3')selected @endif>Broker</option>
-                                                              <option value="4" @if(old('selectType') == '4') selected @endif>Correspondent</option>
+                                                              <option value="Broker" @if(old('selectType') == 'Broker')selected @endif>Broker</option>
+                                                              <option value="Correspondent" @if(old('selectType') == 'Correspondent') selected @endif>Correspondent</option>
                                                           </select>
                                                           {{-- <select class="form-control" name="selectType" >
                                                               <option value="um_broker" @if(old('selectType') == 'um_broker')selected @endif>Broker</option>

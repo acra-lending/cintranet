@@ -28,12 +28,40 @@
                 </div>
                 </div>
                 <!-- /.card-header -->
+                {{ Form::open(['action' => ['BrokerPortalRequestsController@destroyBulk'], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
                 <div class="card-body table-responsive p-0">
                   @if(count($users) > 0)
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
-                        <th class="w-25"><a wire:click.prevent="sortBy('user_login')" role="button" href="#">
+                        <th></th>
+                        {{-- Strapi --}}
+                        {{-- <th class=""><a wire:click.prevent="sortBy('username')" role="button" href="#">
+                            Username 
+                            @include('includes._sort-icon', ['field' => 'username'])
+                          </a></th> --}}
+                        <th class=""><a wire:click.prevent="sortBy('email')" role="button" href="#">
+                            Email 
+                            @include('includes._sort-icon', ['field' => 'email'])
+                        </a></th>
+                        <th class=""><a wire:click.prevent="sortBy('firstname')" role="button" href="#">
+                            First Name 
+                            @include('includes._sort-icon', ['field' => 'firstname'])
+                        </a></th>
+                        <th class=""><a wire:click.prevent="sortBy('lastname')" role="button" href="#">
+                            Last Name 
+                            @include('includes._sort-icon', ['field' => 'lastname'])
+                        </a></th>
+                        <th class=""><a wire:click.prevent="sortBy('role_id')" role="button" href="#">
+                            Role
+                            @include('includes._sort-icon', ['field' => 'role_id'])
+                        </a></th>
+                        <th class=""><a wire:click.prevent="sortBy('created_at')" role="button" href="#">
+                            Register Date 
+                            @include('includes._sort-icon', ['field' => 'created_at'])
+                        </a></th>
+
+                        {{-- <th class="w-25"><a wire:click.prevent="sortBy('user_login')" role="button" href="#">
                             Username 
                             @include('includes._sort-icon', ['field' => 'user_login'])
                         </a></th>
@@ -45,27 +73,22 @@
                             Email 
                             @include('includes._sort-icon', ['field' => 'email'])
                         </a></th>
-                        {{-- <th class="w-0">Role(s)</th> --}}
                         <th class="w-0"><a wire:click.prevent="sortBy('user_registered')" role="button" href="#">
                             Register Date 
                             @include('includes._sort-icon', ['field' => 'user_registered'])
-                        </a></th>
-                        {{-- <th class="w-0"><a wire:click.prevent="sortBy('lastvisitDate')" role="button" href="#">
-                            Last Login 
-                            @include('includes._sort-icon', ['field' => 'lastvisitDate'])
                         </a></th> --}}
                         <th class="w-0">Action</th>
                       </tr>
                     </thead>
                     <tbody>
                         @foreach($users as $user)
-                        {{-- {{dd($user)}} --}}
-                        {{-- {{dd($user)}} --}}
                       <tr>
                         {{-- Strapi --}}
-                        <td>{{$user->username}}</p></td>
-                        <td>{{$user->firstname}} {{$user->lastname}}</p></td>
+                        <td><input wire:model="selectedUsers" type="checkbox" name="selectedUsers[]" value="{{$user->id}}"/></td>
                         <td>{{$user->email}}</td>
+                        <td>{{$user->firstname}}</td>
+                        <td>{{$user->lastname}}</td>
+                        <td>{{$user->role_type}}</td>
                         
                         {{-- <td>{{$user->user_login}}</p></td>
                         <td>{{$user->display_name}}</p></td>
@@ -83,10 +106,10 @@
                           
                           {{-- Strapi --}}
                           @can('manage-users')
-                          <a href="{{ url('usermanagement/wpusers/edit', $user->user_id)}}"><button class="float-left btn btn-outline-dark">Edit</button></a>
-                          {{ Form::open(['action' => ['BrokerPortalRequestsController@destroy', $user->user_id], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
+                          <a class="float-left btn btn-sm btn-outline-dark" href="/usermanagement/wpusers/edit/{{$user->id}}">Edit</a>
+                          {{-- {{ Form::open(['action' => ['BrokerPortalRequestsController@destroy', $user->id], 'method' => 'DELETE', 'class' => 'float-left pl-1']) }}
                           {{ Form::submit('Delete', ['class' => 'btn btn-outline-danger', 'onclick' => "return confirm('Are you sure?')"]) }}
-                          {{ Form::close() }}
+                          {{ Form::close() }} --}}
                           @endcan
 
 
@@ -115,6 +138,30 @@
                 </div>
                 <div class="col text-right text-muted">
                     Showing {{$users->firstItem()}} to {{$users->lastItem()}} out of {{$users->total()}} results
+              </div>
+            </div>
+            <div class="d-flex flex-row mb-3">
+              <div>
+                  {{ Form::submit('Delete', ['class' => 'btn btn-sm btn-outline-danger', 'onclick' => "return confirm('Delete selected users?')"]) }}
+
+                  &nbsp;{{count($selectedUsers)}}
+                  @switch(count($selectedUsers))
+                    @case(count($selectedUsers) == 0)
+                    User selected
+                    @break
+                    @case(count($selectedUsers) == 1)
+                    User selected
+                    @break
+                    
+                    @case(count($selectedUsers) > 1)
+                    Users selected
+                    @break
+
+                    @default
+                    User selected
+                  @endswitch
+
+                  {{ Form::close() }}
               </div>
             </div>
         </div>

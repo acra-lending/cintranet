@@ -44,7 +44,7 @@
                               <div class="card-body">
                                   <hr/>
                                   <!-- form start -->
-                                  {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->user_id], 'method' => 'PUT']) }}
+                                  {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->id], 'method' => 'PUT']) }}
                                   {{-- {{ Form::open(['action' => ['BrokerPortalRequestsController@update', $wp_users[0]->ID], 'method' => 'PUT']) }} --}}
                                           <h4>Broker Portal Requests Details</h4>
                                           <hr/>
@@ -91,37 +91,8 @@
                                                   <div class="form-group">
                                                       <label class="control-label" for="selectType">Type</label>
                                                       <div>
-                                                          <select class="form-control" name="selectType" >
-                                                                <option value=""         selected disabled 
-                                                                >
-                                                                @switch($user->role_id)
-                                                                @case(1)
-                                                                Authenticated
-                                                                @break
-                                                                
-                                                                @case(2)
-                                                                Public
-                                                                @break
-                                                                
-                                                                @case(3)
-                                                                Broker
-                                                                @break
-
-                                                                @case(4)
-                                                                Correspondent
-                                                                @break
-
-                                                                @default
-                                                                Not set
-                                                                @endswitch
-
-
-                                                                </option>
-                                                            
-                                                        
-                                                                {{-- <option value="um_broker" @if(old('selectType') == 'um_broker')selected @endif>Broker</option>
-                                                                <option value="um_correspondent" @if(old('selectType') == 'um_correspondent') selected @endif>Correspondent</option> --}}
-                                                          </select>
+                                                          <input class="form-control" name="selectType"
+                                                          value="{{$user->role_type}}">
                                                       </div>
                                                   </div>
                                               </div>
