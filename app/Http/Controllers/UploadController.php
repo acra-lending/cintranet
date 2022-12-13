@@ -383,7 +383,12 @@ class UploadController extends Controller
             }
         } 
 
-        Excel::import(new StrapiUsersImport($request->except('file'), $emailArray), request()->file('file')->getRealPath());
+        dd(request()->file('file'));
+
+        $tmpfname = request()->file('userfile')->getRealPath();
+        rename($tmpfname, $tmpfname .= '.tmp');
+
+        Excel::import(new StrapiUsersImport($request->except('file'), $emailArray), $tmpfname);
 
         // Excel::import(new WPUsersImport($request), request()->file('file'));
 
