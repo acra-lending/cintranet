@@ -47,9 +47,10 @@ class BrokerPortalRequestsController extends Controller
 
         //Strapi Start
         $strapiToken = env('STRAPI_API_TOKEN');
+        $strapiUrl = env('STRAPI_API_URL');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->post('https://api.acralending.com/api/auth/local/register', [
+        ->post($strapiUrl. '/api/auth/local/register', [
             'username'  => $username,
             'email'     => $email,
             'firstname' => $request->input('firstname'),
@@ -225,9 +226,10 @@ class BrokerPortalRequestsController extends Controller
 
         //Strapi Start
         $strapiToken = env('STRAPI_API_TOKEN');
+        $strapiUrl = env('STRAPI_API_URL');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->put('https://api.acralending.com/api/users/'. $wp_users, [
+        ->put($strapiUrl.'/api/users/'. $wp_users, [
             'username'  => $email,
             'email'     => $email,
             'firstname' => $request->input('firstname'),
@@ -278,9 +280,10 @@ class BrokerPortalRequestsController extends Controller
 
         //Strapi Start
         $strapiToken = env('STRAPI_API_TOKEN');
+        $strapiUrl = env('STRAPI_API_URL');
 
         $strapiResponse = Http::withToken($strapiToken)
-        ->delete('https://api.acralending.com/api/users/'. $wp_users);
+        ->delete($strapiUrl. '/api/users/'. $wp_users);
 
         if ($strapiResponse->successful()) {
 
@@ -318,12 +321,13 @@ class BrokerPortalRequestsController extends Controller
 
         //Strapi Start
         $strapiToken = env('STRAPI_API_TOKEN');
+        $strapiUrl = env('STRAPI_API_URL');
 
         $selectedUsers = $request->input('selectedUsers');
         if($selectedUsers) {
             foreach($selectedUsers as $wp_users) {
                 $strapiResponse = Http::withToken($strapiToken)
-                ->delete('https://api.acralending.com/api/users/'. $wp_users);
+                ->delete($strapiUrl. '/api/users/'. $wp_users);
             }
 
         }
