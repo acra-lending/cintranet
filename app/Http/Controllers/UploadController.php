@@ -382,9 +382,7 @@ class UploadController extends Controller
                 array_push($emailArray, $email);
             }
         } 
-
-        dd(request()->file('file'));
-
+        
         $tmpfname = request()->file('userfile')->getRealPath();
         rename($tmpfname, $tmpfname .= '.tmp');
 
