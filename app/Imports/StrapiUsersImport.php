@@ -40,7 +40,7 @@ class StrapiUsersImport implements ToCollection, WithChunkReading, ShouldQueue
                 // dd($lastNameWithNoSpace);
                 // $userName = strtolower($lastNameWithNoSpace .$firstName[0] .time());
                 $username = strtolower($row[2]);
-                $tempPassword = $lastNameWithNoSpace.'$1!';
+                $tempPassword = $lastNameWithNoSpace. time();
 
                 //Strapi Start
                 $strapiToken = env('STRAPI_API_TOKEN');

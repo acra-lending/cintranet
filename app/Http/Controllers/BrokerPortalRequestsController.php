@@ -36,7 +36,7 @@ class BrokerPortalRequestsController extends Controller
         $username = strtolower($request->input('email'));
         $email = strtolower($request->input('email'));
         // $tempPassword = $username.'1';
-        $tempPassword = $lastNameWithNoSpace.'$1!';
+        $tempPassword = $lastNameWithNoSpace. time();
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
         $selectType = $request->input('selectType');
         // dd($selectType);

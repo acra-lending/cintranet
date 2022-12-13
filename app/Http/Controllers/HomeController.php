@@ -57,6 +57,24 @@ class HomeController extends Controller
         // $events = Event::whereRaw('MONTH(created_at) = ?', [$currentMonth])->paginate(5);
         $events = Event::where('start', '>', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);
 
+        // //Strapi Start
+        // $strapiToken = env('STRAPI_API_TOKEN');
+
+        // $strapiResponse = Http::get('https://api.acralending.com/api/auth/local/register', [
+        //     'username'  => $username,
+        //     'email'     => $email,
+        //     'firstname' => $request->input('firstname'),
+        //     'lastname'  => $request->input('lastname'),
+        //     'password'  => $tempPassword,
+        //     'repeatPassword' => $tempPassword,
+        //     'roleType'       => $selectType,
+        //     // 'role' => [
+        //     //     'id' => $selectType
+        //     // ]
+
+
+        // ]);
+
         // Query Database
         if (DB::table('s2zar_jsn_users')
         ->orderBy('lastname', 'asc')
