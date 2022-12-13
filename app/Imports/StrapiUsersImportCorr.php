@@ -46,7 +46,7 @@ class StrapiUsersImportCorr implements ToCollection, WithChunkReading, ShouldQue
                 $strapiToken = env('STRAPI_API_TOKEN');
 
                 $strapiResponse = Http::withToken($strapiToken)
-                ->post('http://localhost:1337/api/auth/local/register', [
+                ->post('https://api.acralending.com/api/auth/local/register', [
                     'username'  => $username,
                     'email'     => $email,
                     'firstname' => $firstname,
