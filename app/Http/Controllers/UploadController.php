@@ -382,8 +382,8 @@ class UploadController extends Controller
                 array_push($emailArray, $email);
             }
         } 
-        
-        $tmpfname = request()->file('userfile')->getRealPath();
+
+        $tmpfname = request()->file('file')->getRealPath();
         rename($tmpfname, $tmpfname .= '.tmp');
 
         Excel::import(new StrapiUsersImport($request->except('file'), $emailArray), $tmpfname);
