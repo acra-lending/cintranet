@@ -17,6 +17,10 @@ class StatePostersController extends Controller
         ->sortable('filename', 'asc')
         ->get();
 
+        $arkansas = Post::whereRaw("find_in_set('arkansas', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
         $arizona = Post::whereRaw("find_in_set('arizona', category_id)")
         ->sortable('filename', 'asc')
         ->get();
@@ -26,6 +30,10 @@ class StatePostersController extends Controller
         ->get();
 
         $colorado = Post::whereRaw("find_in_set('colorado', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+        $connecticut = Post::whereRaw("find_in_set('connecticut', category_id)")
         ->sortable('filename', 'asc')
         ->get();
 
@@ -41,6 +49,10 @@ class StatePostersController extends Controller
         ->sortable('filename', 'asc')
         ->get();
 
+        $hawaii = Post::whereRaw("find_in_set('hawaii', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
         $idaho = Post::whereRaw("find_in_set('idaho', category_id)")
         ->sortable('filename', 'asc')
         ->get();
@@ -50,6 +62,10 @@ class StatePostersController extends Controller
         ->get();
 
         $indiana = Post::whereRaw("find_in_set('indiana', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+        $kansas = Post::whereRaw("find_in_set('kansas', category_id)")
         ->sortable('filename', 'asc')
         ->get();
 
@@ -73,6 +89,14 @@ class StatePostersController extends Controller
         ->sortable('filename', 'asc')
         ->get();
 
+        $missouri = Post::whereRaw("find_in_set('missouri', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+        $montana = Post::whereRaw("find_in_set('montana', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
         $nevada = Post::whereRaw("find_in_set('nevada', category_id)")
         ->sortable('filename', 'asc')
         ->get();
@@ -82,6 +106,10 @@ class StatePostersController extends Controller
         ->get();
 
         $northCarolina = Post::whereRaw("find_in_set('northCarolina', category_id)")
+        ->sortable('filename', 'asc')
+        ->get();
+
+        $ohio = Post::whereRaw("find_in_set('ohio', category_id)")
         ->sortable('filename', 'asc')
         ->get();
 
@@ -130,22 +158,29 @@ class StatePostersController extends Controller
             'federal'       => $federal,
             'alabama'       => $alabama,
             'arizona'       => $arizona,
+            'arkansas'      => $arkansas,
             'california'    => $california,
             'colorado'      => $colorado,
+            'connecticut'   => $connecticut,
             'delaware'      => $delaware,
             'florida'       => $florida,
             'georgia'       => $georgia,
+            'hawaii'        => $hawaii,
             'idaho'         => $idaho,
             'illinois'      => $illinois,
             'indiana'       => $indiana,
+            'kansas'        => $kansas,
             'kentucky'      => $kentucky,
             'louisiana'     => $louisiana,
             'maryland'      => $maryland,
             'massachusetts' => $massachusetts,
             'minnesota'     => $minnesota,
+            'missouri'      => $missouri,
+            'montana'       => $montana,
             'nevada'        => $nevada,
             'newJersey'     => $newJersey,
             'northCarolina' => $northCarolina,
+            'ohio'          => $ohio,
             'oregon'        => $oregon,
             'pennsylvania'  => $pennsylvania,
             'southCarolina' => $southCarolina,

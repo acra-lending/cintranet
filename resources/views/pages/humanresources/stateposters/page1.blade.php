@@ -123,6 +123,65 @@
                         </div>
                     </div>
                     <div class="panel panel-default">
+                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1a">
+                            <h5 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1a" aria-expanded="true" aria-controls="collapse1a">
+                                    Arkansas
+                                </a>
+                            </h5>
+                            <hr class="p-0"/>
+                        </div>
+                        <div id="collapse1a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1a">
+                            <div class="panel-body px-3 mb-4">
+                                <div class="col">
+                                    <div class="card card-danger card-outline">
+                                        <div class="card-body table-responsive p-0">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                    <th>@sortablelink('filename', 'File Name')</th>
+                                                    <th>@sortablelink('filesize', 'File Size')</th>
+                                                    <th>@sortablelink('created_at', 'Created At')</th>
+                                                    <th></th>
+                                                    </tr>
+                                                </thead>
+                                                    <tbody>
+                                                    @if(count($arkansas) > 0)
+                                                    @foreach($arkansas as $category)
+                                                        <tr>
+                                                        <td>{{$category->filename}}</td>
+                                                        <td>{{$category->filesize}} KB</td>
+                                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                        <td class="text-right py-0 align-middle">
+                                                        <div class="btn-group btn-group-sm">
+                                                            <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                            @can('edit-users')
+                                                            <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                            @endcan
+                                                            <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                            @can('delete-users')
+                                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                                            {{ Form::close()}}
+                                                            @endcan
+                                                        </div>
+                                                        </td>
+                                                        </tr>
+                                                    @endforeach
+                                                    @else 
+                                                    <tr>
+                                                        <td>No Files Found</td>
+                                                    </tr>
+                                                    @endif
+                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
                         <div class="panel-heading p-0 mb-0" role="tab" id="heading2">
                             <h5 class="panel-title">
                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
@@ -300,6 +359,65 @@
                         </div>
                     </div>
                     <div class="panel panel-default">
+                        <div class="panel-heading p-0 mb-0" role="tab" id="heading4a">
+                            <h5 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse4a" aria-expanded="true" aria-controls="collapse4a">
+                                    Connecticut
+                                </a>
+                            </h5>
+                            <hr class="p-0"/>
+                        </div>
+                        <div id="collapse4a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading4a">
+                            <div class="panel-body px-3 mb-4">
+                                <div class="col">
+                                    <div class="card card-danger card-outline">
+                                        <div class="card-body table-responsive p-0">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                    <th>@sortablelink('filename', 'File Name')</th>
+                                                    <th>@sortablelink('filesize', 'File Size')</th>
+                                                    <th>@sortablelink('created_at', 'Created At')</th>
+                                                    <th></th>
+                                                    </tr>
+                                                </thead>
+                                                    <tbody>
+                                                    @if(count($connecticut) > 0)
+                                                    @foreach($connecticut as $category)
+                                                        <tr>
+                                                        <td>{{$category->filename}}</td>
+                                                        <td>{{$category->filesize}} KB</td>
+                                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                        <td class="text-right py-0 align-middle">
+                                                        <div class="btn-group btn-group-sm">
+                                                            <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                            @can('edit-users')
+                                                            <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                            @endcan
+                                                            <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                            @can('delete-users')
+                                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                                            {{ Form::close()}}
+                                                            @endcan
+                                                        </div>
+                                                        </td>
+                                                        </tr>
+                                                    @endforeach
+                                                    @else 
+                                                    <tr>
+                                                        <td>No Files Found</td>
+                                                    </tr>
+                                                    @endif                                                                    
+                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
                         <div class="panel-heading p-0 mb-0" role="tab" id="heading5">
                             <h5 class="panel-title">
                                 <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true" aria-controls="collapse5">
@@ -443,6 +561,65 @@
                                                     <tbody>
                                                     @if(count($georgia) > 0)
                                                     @foreach($georgia as $category)
+                                                        <tr>
+                                                        <td>{{$category->filename}}</td>
+                                                        <td>{{$category->filesize}} KB</td>
+                                                        <td>{{ Carbon\Carbon::parse($category->created_at)->format('m-d-Y') }}</td>
+                                                        <td class="text-right py-0 align-middle">
+                                                        <div class="btn-group btn-group-sm">
+                                                            <a href="{{ route('show', $category->filename) }}" target="_blank" class="btn btn-secondary"><i class="fas fa-eye"></i></a>
+                                                            @can('edit-users')
+                                                            <a href="#" class="btn btn-warning" data-filename="{{ $category->filename}}" data-category_id="{{ $category->id }}" data-toggle="modal" data-target="#editForm"><i class="fas fa-edit"></i></a>
+                                                            @endcan
+                                                            <a href="/download/{{$category->filename}}" download class="btn btn-info"><i class="fas fa-file-download"></i></a>
+                                                            @can('delete-users')
+                                                            {{ Form::open(['action' => ['UploadController@destroy', $category->id], 'method' => 'DELETE']) }}
+                                                            {{ Form::button('<i class="fas fa-trash"></i>', ['type' => 'submit', 'class' => 'btn btn-danger btn-sm', 'onclick' => "return confirm('Are you sure?')"])}}
+                                                            {{ Form::close()}}
+                                                            @endcan
+                                                        </div>
+                                                        </td>
+                                                        </tr>
+                                                    @endforeach
+                                                    @else 
+                                                    <tr>
+                                                        <td>No Files Found</td>
+                                                    </tr>
+                                                    @endif                                                                    
+                                                    </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-default">
+                        <div class="panel-heading p-0 mb-0" role="tab" id="heading7a">
+                            <h5 class="panel-title">
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse7a" aria-expanded="true" aria-controls="collapse7a">
+                                    Hawaii
+                                </a>
+                            </h5>
+                            <hr class="p-0"/>
+                        </div>
+                        <div id="collapse7a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading7a">
+                            <div class="panel-body px-3 mb-4">
+                                <div class="col">
+                                    <div class="card card-danger card-outline">
+                                        <div class="card-body table-responsive p-0">
+                                            <table class="table">
+                                                <thead>
+                                                    <tr>
+                                                    <th>@sortablelink('filename', 'File Name')</th>
+                                                    <th>@sortablelink('filesize', 'File Size')</th>
+                                                    <th>@sortablelink('created_at', 'Created At')</th>
+                                                    <th></th>
+                                                    </tr>
+                                                </thead>
+                                                    <tbody>
+                                                    @if(count($hawaii) > 0)
+                                                    @foreach($hawaii as $category)
                                                         <tr>
                                                         <td>{{$category->filename}}</td>
                                                         <td>{{$category->filesize}} KB</td>
