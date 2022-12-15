@@ -123,15 +123,15 @@
                         </div>
                     </div>
                     <div class="panel panel-default">
-                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1a">
+                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2">
                             <h5 class="panel-title">
-                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1a" aria-expanded="true" aria-controls="collapse1a">
-                                    Arkansas
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
+                                    Arizona
                                 </a>
                             </h5>
                             <hr class="p-0"/>
                         </div>
-                        <div id="collapse1a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1a">
+                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
                             <div class="panel-body px-3 mb-4">
                                 <div class="col">
                                     <div class="card card-danger card-outline">
@@ -146,8 +146,8 @@
                                                     </tr>
                                                 </thead>
                                                     <tbody>
-                                                    @if(count($arkansas) > 0)
-                                                    @foreach($arkansas as $category)
+                                                    @if(count($arizona) > 0)
+                                                    @foreach($arizona as $category)
                                                         <tr>
                                                         <td>{{$category->filename}}</td>
                                                         <td>{{$category->filesize}} KB</td>
@@ -182,15 +182,15 @@
                         </div>
                     </div>
                     <div class="panel panel-default">
-                        <div class="panel-heading p-0 mb-0" role="tab" id="heading2">
+                        <div class="panel-heading p-0 mb-0" role="tab" id="heading1a">
                             <h5 class="panel-title">
-                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true" aria-controls="collapse2">
-                                    Arizona
+                                <a class="collapsed" role="button" title="" data-toggle="collapse" data-parent="#accordion" href="#collapse1a" aria-expanded="true" aria-controls="collapse1a">
+                                    Arkansas
                                 </a>
                             </h5>
                             <hr class="p-0"/>
                         </div>
-                        <div id="collapse2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading2">
+                        <div id="collapse1a" class="panel-collapse collapse" role="tabpanel" aria-labelledby="heading1a">
                             <div class="panel-body px-3 mb-4">
                                 <div class="col">
                                     <div class="card card-danger card-outline">
@@ -205,8 +205,8 @@
                                                     </tr>
                                                 </thead>
                                                     <tbody>
-                                                    @if(count($arizona) > 0)
-                                                    @foreach($arizona as $category)
+                                                    @if(count($arkansas) > 0)
+                                                    @foreach($arkansas as $category)
                                                         <tr>
                                                         <td>{{$category->filename}}</td>
                                                         <td>{{$category->filesize}} KB</td>

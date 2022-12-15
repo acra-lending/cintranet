@@ -346,8 +346,8 @@
             'State Workplace Posters' => [
                 'federal'       => 'Federal',
                 'alabama'       => 'Alabama',
-                'arkansas'      => 'Arkansas',
                 'arizona'       => 'Arizona',
+                'arkansas'      => 'Arkansas',
                 'california'    => 'California',
                 'colorado'      => 'Colorado',
                 'connecticut'   => 'Connecticut',
