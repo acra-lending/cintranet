@@ -47,7 +47,7 @@ class StrapiUsersImport implements ToCollection, WithChunkReading, ShouldQueue
                 $strapiUrl = env('STRAPI_API_URL');
 
                 $strapiResponse = Http::withToken($strapiToken)
-                ->post($strapiUrl. '/api/auth/local/register', [
+                ->post($strapiUrl.'/api/auth/local/register', [
                     'username'  => $username,
                     'email'     => $email,
                     'firstname' => $firstname,

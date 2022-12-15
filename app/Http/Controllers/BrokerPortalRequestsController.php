@@ -39,7 +39,6 @@ class BrokerPortalRequestsController extends Controller
         $tempPassword = $lastNameWithNoSpace. time();
         $data = [$request->all(), 'username' => $username, 'tempPassword' => $tempPassword];
         $selectType = $request->input('selectType');
-        // dd($selectType);
 
 
 
@@ -76,23 +75,7 @@ class BrokerPortalRequestsController extends Controller
             }
         }  
 
-        if ($selectType = "Broker") {
-            if ($strapiResponse->successful()) {
-                Mail::to($emailArray)
-                ->queue(new BrokerPortalRequests($data));
-                // Mail::to([
-                //     $request->input('email')
-                // ])->queue(new BrokerPortalRequestsClient($data));
-        
-                return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
-            }
-            else 
-            $message = $strapiResponse->json()['error']['message'];
-        
-            return back()->withInput($request->all())->with('error', $message);
-        }
-
-        if ($selectType = "Correspondent") {
+        if ($selectType == "Correspondent") {
             if ($strapiResponse->successful()) {
                 Mail::to($emailArray)
                 ->queue(new CorrespondentPortalRequests($data));
@@ -108,6 +91,24 @@ class BrokerPortalRequestsController extends Controller
             return back()->withInput($request->all())->with('error', $message);
             
         }
+
+        if ($selectType == "Broker") {
+            if ($strapiResponse->successful()) {
+                Mail::to($emailArray)
+                ->queue(new BrokerPortalRequests($data));
+                // Mail::to([
+                //     $request->input('email')
+                // ])->queue(new BrokerPortalRequestsClient($data));
+        
+                return redirect ('/usermanagement/wp-users')->with ('success', 'Credentials created');
+            }
+            else 
+            $message = $strapiResponse->json()['error']['message'];
+        
+            return back()->withInput($request->all())->with('error', $message);
+        }
+
+
 
         //Strapi End
 
