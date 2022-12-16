@@ -219,6 +219,7 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-itin.pdf';
             $categoryId = 'wsItinAE';
+            $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();
             
