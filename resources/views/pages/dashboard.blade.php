@@ -82,6 +82,7 @@
             @include('pages.dashboard.quote')
             @include('pages.dashboard.productionlinks')
             @include('pages.dashboard.hrlinks')
+            @include('pages.dashboard.wholesaleLinks')
             @include('pages.dashboard.map')
             @include('pages.dashboard.officelocations')
           </div>

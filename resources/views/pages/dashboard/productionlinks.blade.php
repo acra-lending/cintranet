@@ -10,12 +10,6 @@
     <div class="card-body">
         <div class="container d-flex" style="align-items: center; justify-content: space-between;">
         <div style="text-align: center;">
-            <a href="/ratesheets">
-            <p>Rate Sheets</p>
-            <i class="fas fa-table" style="font-size: 32pt;"></i>
-            </a>
-        </div>
-        <div style="text-align: center;">
             <a href="https://acralending.com/wp-content/uploads/2020/TurnTimes/acra-production-turntimes.pdf" target="_blank">
             <p>Turn Times</p>
             <i class="fas fa-history" style="font-size: 32pt;"></i>
@@ -31,6 +25,12 @@
             <a href="/operations/usefullinks">
             <p>Useful Links</p>
             <i class="fas fa-link" style="font-size: 32pt;"></i>
+            </a>
+        </div>
+        <div style="text-align: center;">
+            <a href="/operations/videos">
+            <p>Videos</p>
+            <i class="fas fa-file-video" style="font-size: 32pt;"></i>
             </a>
         </div>
         </div>
