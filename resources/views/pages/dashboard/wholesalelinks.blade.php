@@ -28,7 +28,7 @@
             </a>
         </div>
         <div style="text-align: center;">
-            <a href="https://docs.google.com/forms/d/1gTV6Wq8P1hBx4Uh1mW-ykUrs57xaV5D1v8Zaqx2nuus/prefill" target="_blank">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScLJGXYB_BZ2RXAFlJdTcCDwA4z1jAza4aXRwjvyywdo2rgig/viewform" target="_blank">
             <p>Deal of Day Request</p>
             <i class="fab fa-wpforms" style="font-size: 32pt;"></i>
             </a>
