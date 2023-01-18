@@ -53,7 +53,7 @@
                     {{$contacts->links('livewire.directory.livewire-paginator')}}
                 </div>
                 <div class="col text-right text-muted">
-                    Showing {{$contacts->firstItem()}} to {{$contacts->lastItem()}} out of {{$contacts->total()}} results
+                    Showing {{$results->firstItem()}} to {{$results->lastItem()}} out of {{$results->total()}} results
                 </div>
             </div>
             <br/>
@@ -108,7 +108,7 @@
                     {{$contacts->links('livewire.directory.livewire-paginator')}}
                 </div>
                 <div class="col text-right text-muted">
-                    Showing {{$contacts->firstItem()}} to {{$contacts->lastItem()}} out of {{$contacts->total()}} results
+                    Showing {{$results->firstItem()}} to {{$results->lastItem()}} out of {{$results->total()}} results
                 </div>
             </div>
         </div>

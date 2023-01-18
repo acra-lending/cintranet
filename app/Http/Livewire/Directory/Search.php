@@ -6,6 +6,7 @@ use Livewire\Component;
 use Livewire\WithPagination;
 use App\Directory;
 use App\Role;
+use App\User;
 use Gate;
 use DB;
 
@@ -61,13 +62,14 @@ class Search extends Component
         ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
         ->pluck('team')
         ->toArray();
+
+        $results = User::paginate(9);
         
         return view('livewire.directory.search', [
             'contacts' => DB::table('s2zar_jsn_users')
             ->orderBy('lastname', 'asc')
             ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
-            // ->orWhere('s2zar_users.deleted_at', null)
-            ->where('name', 'like', '%'.$this->search.'%')
+            ->orWhere('name', 'like', '%'.$this->search.'%')
             ->orWhere('email', 'like', '%'.$this->search.'%')
             ->orWhere('division', $this->search)
             ->orWhere('departments', $this->search)
@@ -80,7 +82,8 @@ class Search extends Component
             'positions' => $positions,
             'division' => $division,
             'departments' => $departments,
-            'teams' => $teams
+            'teams' => $teams,
+            'results' => $results
         ]);
     }
 }
