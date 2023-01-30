@@ -63,6 +63,6 @@ class ReportsController extends Controller
 
     public function reportExceptions()
     {
-        return view('pages.usermanagement.reportExceptions');
+        return view('pages.usermanagement.reportexceptions');
     }
 }
