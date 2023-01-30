@@ -60,4 +60,9 @@ class ReportsController extends Controller
     {
         return view('pages.usermanagement.reportretailprocessor');
     }
+
+    public function reportExceptions()
+    {
+        return view('pages.usermanagement.reportExceptions');
+    }
 }
