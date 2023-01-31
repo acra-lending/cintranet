@@ -336,6 +336,7 @@
                         </a>
                     </li>
                 </ul>
+                <!--
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/expensereport" class="nav-link {{ Request::path() === 'humanresources/expensereport' ? 'active': ''}}">
@@ -344,6 +345,7 @@
                         </a>
                     </li>
                 </ul>
+                -->
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/health" class="nav-link {{ Request::path() === 'humanresources/health' ? 'active': ''}}">
