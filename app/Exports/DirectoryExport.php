@@ -75,6 +75,8 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
 
     public function map($user): array
     {
+
+
         return [
             $user->employeeID,
             $user->name,
@@ -90,7 +92,7 @@ class DirectoryExport implements FromCollection, WithMapping, WithHeadings, With
             date('Y-n-j', strtotime($user->updated_at)),
             date('Y-n-j', strtotime($user->created_at)),
             date('Y-n-j', strtotime($user->startDate)),
-            date('Y-n-j', strtotime($user->deleted_at))
+            $user->deleted_at ? date('Y-n-j',  strtotime($user->deleted_at)) : ''
         ];
     }
 
