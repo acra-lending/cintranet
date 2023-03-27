@@ -140,6 +140,26 @@ $('#world-map').vectorMap({
       <br>
       Georgia Mortgage Lender License/Registration #23462`);
     }
+    if(code== 'hi') {
+      label.append(`
+      <br>
+      <br>
+      Mortgage Loan Originator Company Lic. # HI-144549
+      <br>
+      <br>
+      Mortgage Servicer Lic. # MS300
+      <br>
+      <br>
+      Citadel Servicing Corporation dba Acra Lending is licensed in Hawaii as both a Mortgage Loan<br>
+      Originator Company (Lic. # MS300). Consumers wishing to contact the Hawaii Division of Financial<br>
+      Institutions or file a complaint against a mortgage loan origination company or mortgage<br>
+      servicer can reach the Division using the following methods. <u>Via mail</u>: Department of<br>
+      Commerce and Consumer Affairs, Division of Financial Institutions, P.O. Box 2054, Honolulu,<br>
+      HI 96805. <u>Via in person or courier</u>: Department of Commerce and Consumer Affairs, Division<br>
+      of Financial Institutions, 335 Merchant Street, Room 221; Honolulu, HI 96813. <br>
+      <u>Via email</u>: <a href="mailto:dfi@dcca.hawaii.gov>dif@dcca.hawaii.gov</a><br>
+      <u>Via telphone</u>: 808-586-2820.`);
+    }
     if(code== 'il') {
       label.append(`<br><br>
       Illinois Residential Mortgage License #MB.6761204
@@ -233,6 +253,12 @@ $('#world-map').vectorMap({
         <br>
         New Hampshire Mortgage Banker License #21139-MB`);
     }
+    if(code== 'nm') {
+      label.append(`
+          <br>
+          <br>
+          New Mexico Mortgage Loan Company Lic. (No #)`);
+      }
     if(code== 'nv') {
     label.append(`
         <br>
@@ -282,13 +308,14 @@ $('#world-map').vectorMap({
       label.append(`
       <br>
       <br>
-      Tennessee Mortgage License #125315`);
+      South Carolina Mortgage Lender/Servicer License #MLS-144549`);
     }
     if(code== 'tn') {
       label.append(`
       <br>
       <br>
-      South Carolina Mortgage Lender/Servicer License #MLS-144549`);
+      Tennessee Mortgage License #125315`);
+    }
     }
     if(code== 'tx') {
       label.append(`
