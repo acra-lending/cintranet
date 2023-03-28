@@ -316,7 +316,6 @@ $('#world-map').vectorMap({
       <br>
       Tennessee Mortgage License #125315`);
     }
-    }
     if(code== 'tx') {
       label.append(`
       <br>
