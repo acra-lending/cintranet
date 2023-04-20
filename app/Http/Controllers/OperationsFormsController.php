@@ -920,7 +920,7 @@ class OperationsFormsController extends Controller
             'vettingClerk'          => $vettingClerk,
             'postCloseFunding'      => $postCloseFunding,
             'postCloseShipping'     => $postCloseShipping,
-            'valuationReviews'      => $valuations,
+            // 'valuationReviews'      => $valuations,
         ]);
     }
 }
