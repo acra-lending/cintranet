@@ -558,7 +558,18 @@ class OperationsFormsController extends Controller
             ->get();
             
         });
+        
+        
+        //-------------
+        //Valuation Reviews
+        //-------------
+        $valuations = Cache::remember('valuations', $seconds, function() {
+            return Post::whereRaw("find_in_set('valuationReviews', category_id)")
+            ->sortable('filename')
+            ->get();
             
+        });
+
 
         //-------------
         //Jr Processor
