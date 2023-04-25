@@ -10,13 +10,13 @@
         <div class="row">
             <div class="col-6">
                 <div class="callout callout-primary">
-                <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none;">
-                    <h6>California - Corporate</h6>
+                <a href="https://goo.gl/maps/sbB13JofXREZ5u1F6" target="_blank" style="text-decoration: none;">
+                    <h6>California</h6>
                 </a>  
-                <p class="m-0"style="font-size: 10.5pt;">25531 Commercentre Dr<br>Suite 160<br>Lake Forest, CA 92630</p> 
+                <p class="m-0"style="font-size: 10.5pt;">3 Ada Parkway<br>Suite 200A<br>Irvine, CA 92618</p> 
                 </div>
             </div>
-            <div class="col-6">
+            <!-- <div class="col-6">
                 <div class="callout callout-primary">
                 <a href="https://goo.gl/maps/RsmakTTcLCEXMeQq6" target="_blank" style="text-decoration: none;">
                     <h6>California - Lake Forest Operations</h6>
@@ -42,7 +42,7 @@
                 <p class="m-0"style="font-size: 10.5pt;">36 Technology Dr<br>Suite 250<br>Irvine, CA 92618</p> 
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
