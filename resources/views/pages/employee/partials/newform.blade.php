@@ -150,10 +150,7 @@
             <div class="">
                 <select class="form-control" name="location" required>
                     <option selected disabled>Please select</option> 
-                    <option value="CA - Corporate">CA - Corporate</option>
-                    <option value="CA - Lake Forest Operations Office">CA - Lake Forest Operations Office</option>
-                    <option value="CA - Rockfield">CA - Rockfield</option>
-                    <option value="CA - Technology">CA - Technology</option>
+                    <option value="CA - Corporate">CA - Ada Head Office</option>
                     <option value="Oregon">Oregon</option>
                     <option value="Nevada">Nevada</option>
                     <option value="Utah">Utah</option>
