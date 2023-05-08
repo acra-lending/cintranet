@@ -89,6 +89,7 @@
           <div class="col-lg-4">
             @include('pages.dashboard.outofoffice')
             @include('pages.dashboard.team')
+            @include('pages.dashboard.marketing-calendar')
             {{-- @include('pages.dashboard.calendar') --}}
 
           </div>
