@@ -51,7 +51,8 @@
                       </li>
                       <li class="list-group-item">
                         <b>Position</b>
-                        <input type="text" class="form-control float-right" name="position" value="{{$contact->position}}" style="width:50%; text-align:right;">
+                        <!-- <input type="text" class="form-control float-right" name="position" value="{{$contact->position}}" style="width:50%; text-align:right;"> -->
+                        {{ Form::select('position', str_replace(array('[', '"', ']'), '', $position), $contact->position, ['class' => 'form-control float-right', 'name' => 'position', 'style' => 'width:65%'])  }}
                       </li>
 
                       <li class="list-group-item">
