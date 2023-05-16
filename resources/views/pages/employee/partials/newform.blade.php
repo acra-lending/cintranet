@@ -80,7 +80,8 @@
     <div class="col">
         <div class="form-group required">
             <label class="control-label" for="position">Position</label>
-            <input type="text" class="form-control" name="position" id="position" placeholder="" required>
+            <!-- <input type="text" class="form-control" name="position" id="position" placeholder="" required> -->
+            {{ Form::select('position', str_replace(array('[', '"', ']'), '', $position), null, ['class' => 'form-control', 'name' => 'position', 'placeholder' => '', 'style' => 'width:100%']) }}
         </div>
     </div>
     <div class="col">
