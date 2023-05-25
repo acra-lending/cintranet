@@ -19,12 +19,12 @@
                 </time>
                 
                 <div class="info">
-                    <h2 class="title">{{$event->title}}</h2>
-                    <span class="desc">
+                    <h2 class="title" style="padding-top: 20px; font-size: 20px;">{{$event->title}}</h2>
+                    {{-- <span class="desc">
                         {{ Carbon\Carbon::parse($event->start)->format('H:i') }}
                         - 
                         {{ Carbon\Carbon::parse($event->end)->format('H:i') }}</span><br/>
-                    <span class="desc">{{$event->description}}</span>
+                    <span class="desc">{{$event->description}}</span> --}}
 
                 </div>
             </li>
