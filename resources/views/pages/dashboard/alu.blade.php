@@ -29,8 +29,8 @@
             </li>
             @endforeach
         </ul></a>
-        <div class="float-right pr-3 pb-3">
+    </div>
+    <div class="float-right pr-3 pb-3">
             <a href="/learning/courses/fullcalendar" data-turbolinks="false" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
         </div>
-    </div>
 </div>
