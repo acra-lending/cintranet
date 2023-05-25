@@ -3,10 +3,10 @@
     <div class="card-header border-0">
         <h3 class="card-title">
         <i class="far fa-calendar-alt"></i>
-        Calendar
+        Marketing Calendar
         </h3>
     </div>
-    <div class="card-body pt-0">
+    <div class="card-body">
         <!--The calendar -->
         <a href="https://citadelservicing.sharepoint.com/sites/Marketing/Events/Marketing%20Calendar.aspx" data-turbolinks="false" style="color: inherit; text-decoration: none; ">
         <ul class="event-list">
