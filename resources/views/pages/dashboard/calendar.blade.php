@@ -8,7 +8,7 @@
     </div>
     <div class="card-body pt-0">
         <!--The calendar -->
-        <a href="/marketing/calendar/wholesale" data-turbolinks="false" style="color: inherit; text-decoration: none; ">
+        <a href="https://citadelservicing.sharepoint.com/sites/Marketing/Events/Marketing%20Calendar.aspx" data-turbolinks="false" style="color: inherit; text-decoration: none; ">
         <ul class="event-list">
             @foreach($wholesale_events as $event)
             <li>
@@ -32,6 +32,6 @@
         </ul></a>
     </div>
     <div class="float-right pr-3 pb-3">
-            <a href="/marketing/calendar/wholesale" data-turbolinks="false" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
+            <a href="https://citadelservicing.sharepoint.com/sites/Marketing/Events/Marketing%20Calendar.aspx" data-turbolinks="false" class="small-box-footer float-right">View Calendar <i class="fas fa-chevron-circle-right"></i></a>
         </div>
 </div>
