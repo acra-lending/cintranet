@@ -19,7 +19,7 @@
                 </time>
                 
                 <div class="info">
-                    <h2 class="title" style="padding-top: 20px; font-size: 20px;">{{$event->title}}</h2>
+                    <h2 class="title" style="padding-top: 20px; font-size: 15px;">{{$event->title}}</h2>
                     {{-- <span class="desc">
                         {{ Carbon\Carbon::parse($event->start)->format('H:i') }}
                         - 
