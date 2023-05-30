@@ -563,10 +563,10 @@ class OperationsFormsController extends Controller
         //-------------
         //Valuation Reviews
         //-------------
-        // $valuations = Cache::remember('valuations', $seconds, function() {
-        //     return Post::whereRaw("find_in_set('valuationReviews', category_id)")
-        //     ->sortable('filename')
-        //     ->get();
+        $valuations = Cache::remember('valuations', $seconds, function() {
+            return Post::whereRaw("find_in_set('valuations', category_id)")
+            ->sortable('filename')
+            ->get();
             
         // });
 
@@ -892,6 +892,7 @@ class OperationsFormsController extends Controller
             'uwTools'           => $uwTools,
             'uwVetting'         => $uwVetting,
             'uwVideos'          => $uwVideos,
+            'valuations'        => $valuations,
             'jrProcessorForms'  => $jrProcessorForms,
             'jrProcessorVendorContacts'  => $jrProcessorVendorContacts,
             'processorForms'    => $processorForms,
