@@ -2,7 +2,7 @@
     <div class="row">
       <div class="col-sm-4 col-md-3 col-lg-3">
         <div class="nav flex-column nav-tabs h-100" id="vert-tabs-tab" role="tablist" aria-orientation="vertical">
-          <a class="nav-link active" id="vert-tabs-valuations-tab" data-toggle="pill" href="#vert-tabs-valuations" role="tab" aria-controls="vert-tabs-valuations" aria-selected="true">Valuation Reviews</a>
+          <a class="nav-link active" id="vert-tabs-valuations-tab" data-toggle="pill" href="#vert-tabs-valuations" role="tab" aria-controls="vert-tabs-valuations" aria-selected="true">Valuation Waterfall</a>
         </div>
       </div>
       <div class="col-sm-12 col-md-9 col-lg-9">
@@ -12,7 +12,7 @@
             <div class="col">
               <div class="card card-dark">
                 <div class="card-header border-0">
-                  <h3 class="card-title">Valuation Reviews</h3>
+                  <h3 class="card-title">Valuation Waterfall</h3>
                   <div class="card-tools">
                     </a>
                   </div>
