@@ -209,7 +209,7 @@
                 </ul>
             </li>
 
-            <li class="nav-item has-treeview {{ Request::is('procedures/*') ? 'menu-open': ''}}">
+            <!-- <li class="nav-item has-treeview {{ Request::is('procedures/*') ? 'menu-open': ''}}">
                 <a href="#" class="nav-link">
                     <i class="nav-icon fa fa-book"></i>
                     <p>Procedures & Guides
@@ -256,7 +256,7 @@
                         </a>
                     </li>
                 </ul>
-            </li>
+            </li> -->
 
             <li class="nav-item has-treeview {{ Request::is ('legal/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  
