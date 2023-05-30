@@ -208,6 +208,56 @@
                     </li>
                 </ul>
             </li>
+
+            <!-- <li class="nav-item has-treeview {{ Request::is('procedures/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fa fa-book"></i>
+                    <p>Procedures & Guides
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/procedures/documents" class="nav-link {{ Request::path() === 'procedures/documents' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Wholesale</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/learning/guides" class="nav-link {{ Request::path() === 'learning/guides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Correspondent</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/learning/posts" class="nav-link {{ Request::path() === 'learning/posts' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Investor Loan Division</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/learning/guides" class="nav-link {{ Request::path() === 'learning/guides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Consumer Direct</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/learning/guides" class="nav-link {{ Request::path() === 'learning/guides' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Shared Services</p>
+                        </a>
+                    </li>
+                </ul>
+            </li> -->
+
             <li class="nav-item has-treeview {{ Request::is ('legal/*') ? 'menu-open' : ''}}">
                 <a href="#" class="nav-link">  
                     <i class="nav-icon fas fa-gavel"></i>
@@ -585,6 +635,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Wholesale2/Eo_Svk7jkTNLvo4C9Qw1zosBCvOlrUzPHnCa_g-lWgJMMA?e=XvMEYR" class="nav-link" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Procedures & Guides</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/sales/videos" class="nav-link {{ Request::path() === 'sales/videos' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Videos</p>
@@ -612,6 +670,14 @@
                         <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Ej28AO_9YRxHhyH1NXsF18UBAoOQrngWyKiK8Ebb8nghpw?e=5FjFvw" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Operations</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/Correspondent2/Eh7uL8IrfjZNorQQ1uXEa9YBDkM03Wd8VueQXP3OqOdtBg?e=gAdAX0" class="nav-link {{ Request::path() === 'correspondent/forms' ? 'active': ''}}" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Procedures & Guides</p>
                         </a>
                     </li>
                 </ul>
@@ -643,6 +709,14 @@
                         <a href="https://citadelservicing.sharepoint.com/:f:/s/ConsumerDirectLending/Erf7HS_WfUhIvkV9aCP8emABi33XcjOTOkDkL4mNq9a-jg?e=LdjdO8" class="nav-link {{ Request::path() === 'consumerdirect/forms' ? 'active': ''}}" target="_blank">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Forms</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/ConsumerDirectLending/EqmMK3-i0b9KhZgOVkdj4d8Bc1J3BMziXl7g2OhUbB7Z-A?e=PbuuXi" class="nav-link {{ Request::path() === 'consumerdirect/processes' ? 'active': ''}}" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Procedures & Guides</p>
                         </a>
                     </li>
                 </ul>
@@ -696,9 +770,33 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/InvestorLoanDivision/Eq1tsxj7fcFGiDFCkZlE4uwBDPcl7B62yIsig5Dtp42y9A?e=PG4nkk" class="nav-link" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Procedures & Guides</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/fixandflip/videos" class="nav-link {{ Request::path() === 'fixandflip/videos' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Videos</p>
+                        </a>
+                    </li>
+                </ul>
+            </li>
+            <li class="nav-item has-treeview {{ Request::is('sharedservices/*') ? 'menu-open': ''}}">
+                <a href="#" class="nav-link">
+                    <i class="nav-icon fas fa-users"></i>
+                    <p>Shared Services
+                        <i class="right fas fa-angle-left"></i>
+                    </p>
+                </a>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/:f:/s/SharedServices/EqyzYQRbWrtMoLnTiQ6i4vUBR8CvRVretc_BmzC82_fXgw?e=wdYtKJ" class="nav-link" target="_blank">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Procedures & Guides</p>
                         </a>
                     </li>
                 </ul>

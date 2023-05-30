@@ -105,6 +105,7 @@ Route::post('cdlfasteventstore', 'CDLFastEventController@store')->name('routeCDL
 Route::delete('cdlfasteventdelete', 'CDLFastEventController@destroy')->name('routeCDLFastEventDelete')->middleware('auth');
 
 //Wholesale Calendar Events
+Route::get('marketing/calendar/wholesale', 'WholesaleFullCalendarController@index')->name('index')->middleware('auth');
 Route::get('wholesaleloadevents', 'WholesaleEventController@loadEvents')->name('routeWholesaleLoadEvents')->middleware('auth');
 Route::put('wholesaleeventupdate', 'WholesaleEventController@update')->name('routeWholesaleEventUpdate')->middleware('auth');
 Route::post('wholesaleeventstore', 'WholesaleEventController@store')->name('routeWholesaleEventStore')->middleware('auth');

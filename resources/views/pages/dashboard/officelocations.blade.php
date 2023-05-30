@@ -10,40 +10,12 @@
         <div class="row">
             <div class="col-6">
                 <div class="callout callout-primary">
-                <a href="https://goo.gl/maps/LACX4HgGp3i64pfC7" target="_blank" style="text-decoration: none;">
-                    <h6>California - Corporate</h6>
+                <a href="https://goo.gl/maps/sbB13JofXREZ5u1F6" target="_blank" style="text-decoration: none;">
+                    <h6>California</h6>
                 </a>  
-                <p class="m-0"style="font-size: 10.5pt;">25531 Commercentre Dr<br>Suite 160<br>Lake Forest, CA 92630</p> 
+                <p class="m-0"style="font-size: 10.5pt;">3 Ada Parkway<br>Suite 200A<br>Irvine, CA 92618</p> 
                 </div>
             </div>
-            <div class="col-6">
-                <div class="callout callout-primary">
-                <a href="https://goo.gl/maps/RsmakTTcLCEXMeQq6" target="_blank" style="text-decoration: none;">
-                    <h6>California - Lake Forest Operations</h6>
-                </a>  
-                <p class="m-0"style="font-size: 10.5pt;">25541 Commercentre Dr<br>Suite 250<br>Lake Forest, CA 92630</p> 
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-6">
-                <div class="callout callout-primary">
-                <a href="https://goo.gl/maps/DAEZH83F54YvQdM37" target="_blank" style="text-decoration: none;">
-                    <h6>California - Rockfield</h6>
-                </a>  
-                <p class="m-0"style="font-size: 10.5pt;">15707 Rockfield Blvd<br>Suite 225<br>Irvine, CA 92618</p> 
-                </div>
-            </div>
-            <div class="col-6">
-                <div class="callout callout-primary">
-                <a href="https://goo.gl/maps/9ahjtvWkK3CTgbgz9" target="_blank" style="text-decoration: none;">
-                    <h6>California - Technology</h6>
-                </a>  
-                <p class="m-0"style="font-size: 10.5pt;">36 Technology Dr<br>Suite 250<br>Irvine, CA 92618</p> 
-                </div>
-            </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/7ELBCxBLn5DzHrqH7" target="_blank" style="text-decoration: none;">
@@ -52,6 +24,8 @@
                 <p class="m-0"style="font-size: 10.5pt;">10151 SE Sunnyside Rd<br>Suite 305<br>Clackamas, OR 97015</p> 
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/A7w1JG3QzwRcCPVR6" target="_blank" style="text-decoration: none;">
@@ -60,8 +34,6 @@
                 <p class="m-0"style="font-size: 10.5pt;">2901 W. Bluegrass Blvd<br>Suite 200<br>Lehi, UT 84043</p> 
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/tJoYBzrEgWpPAt7D9" target="_blank" style="text-decoration: none;">
@@ -70,6 +42,8 @@
                 <p class="m-0"style="font-size: 10.5pt;">47 Perimeter Center E<br>Suite 630<br>Atlanta, GA 30346</p> 
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/4EcSgdCL8upFo9VS7" target="_blank" style="text-decoration: none;">
@@ -78,8 +52,6 @@
                 <p class="m-0"style="font-size: 10.5pt;">2605 Enterprise Rd<br>Suite 320<br>Clearwater, FL 33759</p> 
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/WTQYSNUJKdw2Aozy7" target="_blank" style="text-decoration: none;">
@@ -88,6 +60,8 @@
                 <p class="m-0"style="font-size: 10.5pt;">8345 West Sunset Rd<br>Suite 350<br>Las Vegas, NV 89113</p> 
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/p845CvyyMcBtTFwj8" target="_blank" style="text-decoration: none;">
@@ -96,8 +70,6 @@
                 <p class="m-0"style="font-size: 10.5pt;">76 LaSalle Rd<br>Suite 405<br>West Hartford, CT 06107</p> 
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/g9t7mRv2f9zpHbt67" target="_blank" style="text-decoration: none;">
@@ -106,6 +78,8 @@
                 <p class="m-0"style="font-size: 10.5pt;">8777 E. Via de Ventura<br>Suite 385<br>Scottsdale, AZ 85258</p> 
                 </div>
             </div>
+        </div>
+        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                     {{-- <div class="ribbon-wrapper">
@@ -117,8 +91,6 @@
                 <p class="m-0"style="font-size: 10.5pt;">2405 Grand Blvd<br>Suite 1030<br>Kansas City, MO 64108</p> 
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-6">
                 <div class="callout callout-gray">
                 <a href="https://goo.gl/maps/5GhKRZKmc99kAE788" target="_blank" style="text-decoration: none;">

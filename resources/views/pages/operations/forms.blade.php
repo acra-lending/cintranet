@@ -47,7 +47,6 @@
                         @include('pages.operations.partials.loansetup')
                         @include('pages.operations.partials.tm')
                         @include('pages.operations.partials.uw')
-                        @include('pages.operations.partials.valuations')
                         @include('pages.operations.partials.jrprocessor')
                         @include('pages.operations.partials.processor')
                         @include('pages.operations.partials.nda')

@@ -7,6 +7,7 @@ use App\Directory;
 use App\User;
 use App\Announcement;
 use App\Event;
+use App\WholesaleEvent;
 use App\Post;
 use App\StatusReport;
 use App\Reminder;
@@ -56,6 +57,8 @@ class HomeController extends Controller
         // $currentMonth = date('m');
         // $events = Event::whereRaw('MONTH(created_at) = ?', [$currentMonth])->paginate(5);
         $events = Event::where('start', '>', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);
+
+        $wholesale_events = WholesaleEvent::where('start', '>=', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);
 
 
         // Query Database
@@ -110,6 +113,7 @@ class HomeController extends Controller
                 'first_name'    => $first_name,
                 'posts'         => $posts,
                 'events'        => $events,
+                'wholesale_events' => $wholesale_events,
                 'dailyStatus'   => $dailyStatus,
                 'reminders'     => $reminders,
             ]);
@@ -120,6 +124,7 @@ class HomeController extends Controller
             'first_name'    => $first_name,
             'posts'         => $posts,
             'events'        => $events,
+            'wholesale_events' => $wholesale_events,
             'dailyStatus'   => $dailyStatus,
             'reminders'     => $reminders,
         ]);

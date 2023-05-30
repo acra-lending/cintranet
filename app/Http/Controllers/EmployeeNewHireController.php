@@ -30,10 +30,19 @@ class EmployeeNewHireController extends Controller
         ->pluck('division', 'division')
         ->toArray();
 
+        $position = DB::table('s2zar_jsn_users')
+        ->orderBy('position', 'asc')
+        ->groupBy('position')
+        ->where('position', '<>', '')
+        ->join('s2zar_users', 's2zar_users.id', 's2zar_jsn_users.id')
+        ->pluck('position', 'position')
+        ->toArray();
+
         return view('pages.employee.newhire')
             ->with([
                 'departments'   => $departments,
-                'division'      => $division
+                'division'      => $division,
+                'position'      => $position
             ]);
     }
 
