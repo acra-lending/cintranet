@@ -100,6 +100,9 @@
                 'uwVetting'             => 'Agent Verification',
                 'uwVideos'              => 'Videos',
             ],
+            'Valuation Waterfall' => [
+                'valuations'      => 'Valuation Waterfall',
+            ],
             'Jr Processor' => [
                 'jrProcessorForms'      => 'Internal Forms',
                 'jrProcessorVendorContacts'      => 'Vendor Contacts',
