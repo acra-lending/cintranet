@@ -18,7 +18,7 @@
 
         <section class="content">
             <div class="row">
-                <div class="float-left">
+                <!-- <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
                             <button class="btn btn-outline-default"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-login-portal.svg') }}" data-toggle="modal" data-target="#modal-default" alt="principal"></button>
@@ -26,11 +26,11 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$booklet->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/cintranet-items_principal-401k-summary-booklet.svg') }}" alt="paylocity-logo"></a></button>
+                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$booklet->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/Account Access Flyer.png') }}" alt="voya-logo"></a></button>
                             <div class="card-body">
                             </div>
                         </div>
@@ -39,7 +39,7 @@
             </div>
         </section>
         </div>
-          <div class="modal fade" id="modal-default">
+          <!-- <div class="modal fade" id="modal-default">
             <div class="modal-dialog">
               <div class="modal-content">
                 <div class="modal-header">
@@ -56,11 +56,11 @@
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                   <a href="https://login.principal.com/login" target="_blank" class="btn btn-danger">Go</a>
                 </div>
-              </div>
+              </div> -->
               <!-- /.modal-content -->
-            </div>
+            <!-- </div> -->
             <!-- /.modal-dialog -->
-          </div>
+          <!-- </div> -->
           <!-- /.modal -->
 
   </div>
