@@ -30,7 +30,7 @@
                 <div class="float-left">
                     <div class="container">
                         <div class="card" style="width: 18rem;">
-                            <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$booklet->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/Account Access Flyer.png') }}" alt="voya-logo"></a></button>
+                        <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$doc->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/'.str_replace('pdf', 'jpg', $doc->filename)) }}" alt="{{str_replace('pdf', 'jpg', $doc->filename)}}"></a></button>
                             <div class="card-body">
                             </div>
                         </div>
