@@ -334,6 +334,9 @@
                 'hsa'                   => 'HSA',
                 'additionalInfo'        => 'Additional Information',
             ],
+            'BetterVet' => [
+                'better'                => 'Documents',
+            ],
             'Paylocity' => [
                 'hrPaylocity'           => 'Paylocity',
                 'hrHowTo'               => 'How To\'s',

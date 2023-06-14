@@ -183,6 +183,7 @@ Route::get('humanresources/paylocity', 'PaylocityController@index')->middleware(
 Route::get('humanresources/dayforce', 'HRDocumentsController@dayforce')->middleware('auth');
 Route::get('humanresources/401k', 'Principal401kController@index')->middleware('auth');
 Route::get('humanresources/health', 'HealthPlansController@index')->middleware('auth');
+Route::get('humanresources/better', 'BetterVetController@index')->middleware('auth');
 Route::get('humanresources/schedulesforms', 'SchedulesFormsController@index')->middleware('auth');
 Route::get('humanresources/careers', 'CareersController@index')->middleware('auth');
 Route::get('humanresources/stateposters', 'StatePostersController@index')->middleware('auth');
