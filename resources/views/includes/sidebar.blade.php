@@ -406,6 +406,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="/humanresources/better" class="nav-link {{ Request::path() === 'humanresources/better' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>BetterVet</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/humanresources/paylocity" class="nav-link {{ Request::path() === 'humanresources/paylocity' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Paylocity</p>
