@@ -956,7 +956,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fcitadelservicing%2Esharepoint%2Ecom%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials%2FSeating%20Request%20Guide%2Epdf&correlation=6f76bfa0%2De0d6%2D3000%2Dba50%2D5534d110660d&Type=item&name=a8f4d3a4%2D48be%2D4343%2D9882%2D0e02dcdeb6a4&listItemId=743&listItemUniqueId=c8aa29b6%2D7a1b%2D48cd%2D9266%2D776b9e9fb1ab" class="nav-link" target="_blank">
+                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials%2FSeating%20Request%20Guide%2Epdf&parent=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials&p=true&wdLOR=c14C84C91%2D6296%2D4BE7%2DA669%2D0C905A2D2F54&ct=1687988046631&or=Outlook%2DBody&cid=9EB7095D%2D927F%2D4A4B%2D8553%2D512C0DBD63AC&ga=1" class="nav-link" target="_blank">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Seating Request Guide</p>
                                 </a>
@@ -965,7 +965,7 @@
                         <ul class="nav nav-treeview">
                         @can('edit-posts')
                             <li class="nav-item">
-                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fcitadelservicing%2Esharepoint%2Ecom%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FGuides%20and%20Tutorials%2FSeating%20Chart%20Management%20Guide%2Epdf&correlation=8776bfa0%2D203f%2D3000%2Dba50%2D5810f40c399e&Type=item&name=a8f4d3a4%2D48be%2D4343%2D9882%2D0e02dcdeb6a4&listItemId=747&listItemUniqueId=973ce3c9%2D6679%2D42fd%2Da7b6%2Da904d73a8523" class="nav-link" target="_blank">
+                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FGuides%20and%20Tutorials%2FSeating%20Chart%20Management%20Guide%2Epdf&parent=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FGuides%20and%20Tutorials&p=true&ct=1687988096753&or=Teams%2DHL&ga=1" class="nav-link" target="_blank">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>SR Management Guide</p>
                                 </a>
