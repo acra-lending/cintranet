@@ -208,6 +208,7 @@ Route::post('humanresources/employee/involuntarytermination', 'EmployeeInvolunta
 //Facilities
 Route::get('facilities/ticket', 'FacilitiesController@index')->middleware('auth');
 Route::post('facilities/ticket', 'FacilitiesController@submitTicket')->middleware('auth');
+Route::get('facilities/seatingrequest', 'FacilitiesController@newSeatingRequests')->middleware('auth');
 
 //File Upload
 Route::get('mediamanager/files', function (){return view('pages.mediamanager.files');})->middleware('auth');

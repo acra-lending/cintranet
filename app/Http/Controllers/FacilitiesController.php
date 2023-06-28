@@ -34,4 +34,9 @@ class FacilitiesController extends Controller
         return redirect('/facilities/ticket')
             ->with('success', 'Request Form Sent');
     }
+
+    public function newSeatingRequests()
+    {
+        return view('pages.facilities.seatingrequest');
+    }
 }
