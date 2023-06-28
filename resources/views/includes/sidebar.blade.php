@@ -933,6 +933,48 @@
                     </p>
                 </a>
                 <ul class="nav nav-treeview">
+                    <li class=" nav-item has-treeview {{ Request::is('facilities/*') ? 'menu-open': ''}}">
+                        <a href="#" class="nav-link" style="{{ Request::is('facilities/*') ? 'background-color: var(--primary-color); color: #FFF': '' }}">
+                            <i class="nav-icon fas fa-user-tag"></i>
+                            <p>Seating Request<i class="right fas fa-angle-left"></i></p>
+                        </a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                            <a href="https://citadelservicing.sharepoint.com/:u:/s/Reception/EajauNBuVJdGlVufMyRmRYQBgOoG7dvI9qCPTzsNQ0sfbw?e=4%3Agozm8j&at=9" class="nav-link" target="_blank">
+                                    <i class="far fa-dot-circle text-circle nav-icon"></i>
+                                    <p>Seating Chart Floor Plan</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                                <a href="/facilities/seatingrequest" class="nav-link {{ Request::path() === 'facilities/seatingrequest' ? 'active': ''}}">
+                                    <i class="far fa-dot-circle text-circle nav-icon"></i>
+                                    <p>Seating Request Form</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item">
+                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fcitadelservicing%2Esharepoint%2Ecom%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials%2FSeating%20Request%20Guide%2Epdf&correlation=6f76bfa0%2De0d6%2D3000%2Dba50%2D5534d110660d&Type=item&name=a8f4d3a4%2D48be%2D4343%2D9882%2D0e02dcdeb6a4&listItemId=743&listItemUniqueId=c8aa29b6%2D7a1b%2D48cd%2D9266%2D776b9e9fb1ab" class="nav-link" target="_blank">
+                                    <i class="far fa-dot-circle text-circle nav-icon"></i>
+                                    <p>Seating Request Guide</p>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav nav-treeview">
+                        @can('edit-posts')
+                            <li class="nav-item">
+                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/_layouts/15/AccessDenied.aspx?Source=https%3A%2F%2Fcitadelservicing%2Esharepoint%2Ecom%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FGuides%20and%20Tutorials%2FSeating%20Chart%20Management%20Guide%2Epdf&correlation=8776bfa0%2D203f%2D3000%2Dba50%2D5810f40c399e&Type=item&name=a8f4d3a4%2D48be%2D4343%2D9882%2D0e02dcdeb6a4&listItemId=747&listItemUniqueId=973ce3c9%2D6679%2D42fd%2Da7b6%2Da904d73a8523" class="nav-link" target="_blank">
+                                    <i class="far fa-dot-circle text-circle nav-icon"></i>
+                                    <p>SR Management Guide</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    @endcan
+                </ul>
+                <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/facilities/ticket" class="nav-link {{ Request::path() === 'facilities/ticket' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
