@@ -956,7 +956,7 @@
                         </ul>
                         <ul class="nav nav-treeview">
                             <li class="nav-item">
-                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials%2FSeating%20Request%20Guide%2Epdf&parent=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials&p=true&wdLOR=c14C84C91%2D6296%2D4BE7%2DA669%2D0C905A2D2F54&ct=1687988046631&or=Outlook%2DBody&cid=9EB7095D%2D927F%2D4A4B%2D8553%2D512C0DBD63AC&ga=1" class="nav-link" target="_blank">
+                            <a href="https://citadelservicing.sharepoint.com/sites/ITInfrastructure2/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials%2FSeating%20Request%20Guide%2Epdf&parent=%2Fsites%2FITInfrastructure2%2FShared%20Documents%2FUser%20Guides%20and%20Tutorials&p=true&ga=1" class="nav-link" target="_blank">
                                     <i class="far fa-dot-circle text-circle nav-icon"></i>
                                     <p>Seating Request Guide</p>
                                 </a>
