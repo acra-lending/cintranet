@@ -248,6 +248,7 @@ Route::get('download/{id}/edit', 'DownloadController@edit')->middleware('auth');
 Route::get('infotech/ticket', 'ITSupportController@index')->middleware('auth');
 Route::get('infotech/ratesheetupdates', 'ITSupportController@ratesheetUpdates')->middleware('auth');
 Route::get('infotech/newprojectrequests', 'ITSupportController@newProjectRequests')->middleware('auth');
+Route::get('infotech/webprojectrequests', 'ITSupportController@newWebProjectRequests')->middleware('auth');
 Route::post('infotech/submit', 'ITSupportController@submitForm')->middleware('auth');
 Route::post('infotech/issues', 'ITSupportController@submitIssues')->middleware('auth');
 Route::post('infotech/requests', 'ITSupportController@submitRequests')->middleware('auth');

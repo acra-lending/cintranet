@@ -214,4 +214,9 @@ class ITSupportController extends Controller
     {
         return view('pages.infotech.projectrequests');
     }
+
+    public function newWebProjectRequests()
+    {
+        return view('pages.infotech.webprojectrequests');
+    }
 }
