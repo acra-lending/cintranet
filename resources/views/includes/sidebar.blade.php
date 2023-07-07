@@ -894,7 +894,15 @@
                     <li class="nav-item">
                         <a href="/infotech/newprojectrequests" class="nav-link {{ Request::path() === 'infotech/newprojectrequests' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>New Project Requests</p>
+                            <p>Business Solution Requests</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                        <a href="/infotech/webprojectrequests" class="nav-link {{ Request::path() === 'infotech/webprojectrequests' ? 'active': ''}}">
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Web Project Requests</p>
                         </a>
                     </li>
                 </ul>
