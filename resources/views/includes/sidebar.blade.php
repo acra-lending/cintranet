@@ -884,9 +884,25 @@
                 </a>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/infotech/ticket" class="nav-link {{ Request::path() === 'infotech/ticket' ? 'active': ''}}">
-                            <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Submit Ticket</p>
+                        <a href="https://meriplex.deskdirector.com/auth/v1/email?platform=portal&returnUrl=https:%2F%2Fmeriplex.deskdirector.com%2Fportal%2Fv2%2Fgroups%2Fmy-tickets%2Ftickets%2Frequests%3Fskip%3D0%26take%3D25%26state%3Dclosed%26order%3D-last_updated" class="nav-link" target="_blank">
+                            <i class="far fa-dot-circle text-circle nav-icon"></i>
+                            <p>Open Support Request</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                    <a href="https://citadelservicing.sharepoint.com/sites/ITPublications/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITPublications%2FShared%20Documents%2FGuides%2FSubmitting%20Support%20Requests%2Epdf&parent=%2Fsites%2FITPublications%2FShared%20Documents%2FGuides&p=true&ct=1689106062688&or=Teams%2DHL&ga=1" class="nav-link" target="_blank">
+                            <i class="far fa-dot-circle text-circle nav-icon"></i>
+                            <p>Support Request Doc</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
+                    <a href="https://citadelservicing.sharepoint.com/sites/ITPublications/Shared%20Documents/Forms/AllItems.aspx?id=%2Fsites%2FITPublications%2FShared%20Documents%2FGuides%2FEscalating%20Support%20Requests%2Epdf&parent=%2Fsites%2FITPublications%2FShared%20Documents%2FGuides&p=true&ct=1689106093175&or=Teams%2DHL&ga=1" class="nav-link" target="_blank">
+                            <i class="far fa-dot-circle text-circle nav-icon"></i>
+                            <p>Support Escalation Doc</p>
                         </a>
                     </li>
                 </ul>
