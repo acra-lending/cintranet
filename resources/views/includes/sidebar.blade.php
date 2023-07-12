@@ -908,9 +908,17 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                    <a href="https://citadelservicing.sharepoint.com/sites/ITPublications?OR=Teams-HL&CT=1689196231129&clickparams=eyJBcHBOYW1lIjoiVGVhbXMtRGVza3RvcCIsIkFwcFZlcnNpb24iOiIyNy8yMzA2MDQwMTE2MSIsIkhhc0ZlZGVyYXRlZFVzZXIiOmZhbHNlfQ%3D%3D" class="nav-link" target="_blank">
+                            <i class="far fa-dot-circle text-circle nav-icon"></i>
+                            <p>IT Publications</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/infotech/newprojectrequests" class="nav-link {{ Request::path() === 'infotech/newprojectrequests' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
-                            <p>Business Solution Requests</p>
+                            <p>Bus Sols Project Requests</p>
                         </a>
                     </li>
                 </ul>
