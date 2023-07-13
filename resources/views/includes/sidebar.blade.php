@@ -938,7 +938,7 @@
                         </a>
                     </li>
                 </ul> -->
-                @can('edit-posts')
+                <!-- @can('edit-posts')
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/infotech/documents" class="nav-link {{ Request::path() === 'infotech/documents' ? 'active': ''}}">
@@ -947,7 +947,7 @@
                         </a>
                     </li>
                 </ul>
-                @endcan
+                @endcan -->
                 <!-- <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/infotech/videos" class="nav-link {{ Request::path() === 'infotech/videos' ? 'active': ''}}">
