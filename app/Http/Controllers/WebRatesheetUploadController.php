@@ -30,11 +30,6 @@ class WebRatesheetUploadController extends Controller
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
 
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
-
         $num = 2;
         //Handle File Upload
         if($request->hasFile('file')){
@@ -61,7 +56,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -81,11 +76,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -118,7 +108,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
     
             
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -138,11 +128,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -171,7 +156,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -191,11 +176,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -224,7 +204,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
             
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -244,11 +224,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-        
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -277,7 +252,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
 
     
             return response()->json(['success' => 'Uploaded Successfully']);
@@ -328,7 +303,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
     
             return response()->json(['success' => 'Uploaded Successfully']);
         
@@ -347,11 +322,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -382,7 +352,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
                 
             return response()->json(['success' => 'Uploaded Successfully']);
             
@@ -401,11 +371,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -436,7 +401,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
                 
             return response()->json(['success' => 'Uploaded Successfully']);
 
@@ -455,11 +420,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -490,7 +450,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
                 
             return response()->json(['success' => 'Uploaded Successfully']);
 
@@ -509,11 +469,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -544,7 +499,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
                 
             return response()->json(['success' => 'Uploaded Successfully']);
 
@@ -563,11 +518,6 @@ class WebRatesheetUploadController extends Controller
             'file' => 'required|mimes:pdf|max:99999999',
             'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
         ]);
-
-        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
-        $start = Carbon::now();
-        $end = $carbonDate;
-        $differenceInMinutes = $end->diffInMinutes($start);
 
         $num = 2;
         //Handle File Upload
@@ -598,7 +548,7 @@ class WebRatesheetUploadController extends Controller
 
             $post = Post::create();
             
-            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory);
                 
             return response()->json(['success' => 'Uploaded Successfully']);
 
