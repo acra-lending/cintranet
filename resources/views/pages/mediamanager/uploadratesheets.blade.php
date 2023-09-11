@@ -47,9 +47,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -77,9 +77,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -107,9 +107,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -136,9 +136,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -166,9 +166,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -195,9 +195,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -225,9 +225,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -254,9 +254,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -284,9 +284,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -313,9 +313,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -343,9 +343,9 @@
                                     </div>
                                 </div>
                                 <div class="d-flex justify-content-between">
-                                    <div>
+<!--                                     <div>
                                         <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
-                                    </div>
+                                    </div> -->
                                     <div>
                                         {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
                                     </div>
@@ -436,7 +436,7 @@
     @endpush
     
     @push('includes.scripts')
-    <script src="{{ asset('js/pages/datepicker.js?version=1.1') }}"></script>
+<!--     <script src="{{ asset('js/pages/datepicker.js?version=1.1') }}"></script> -->
     @endpush
 
 
