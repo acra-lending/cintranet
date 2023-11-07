@@ -1,0 +1,143 @@
+Received: from DM4PR11MB5440.namprd11.prod.outlook.com (2603:10b6:5:39c::7) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 21 Oct 2021 23:16:05
+ +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB5440.namprd11.prod.outlook.com (2603:10b6:5:39c::7) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4628.18; Thu, 21 Oct 2021 23:16:05 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4608.018; Thu, 21 Oct 2021
+ 23:16:05 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037042 /
+ Kahn
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037042 / Kahn
+Thread-Index: AdfG0YalVuNKCr6+RTCxNX0bEmxwHg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 21 Oct 2021 23:16:05 +0000
+Message-ID:
+	<DM6PR11MB28283DE407A8E0666906656DFFBF9@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	428d8ae7-fd76-405b-b529-08d994e8c1ab
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5440:
+x-ms-exchange-crosstenant-originalarrivaltime: 21 Oct 2021 23:16:05.0745 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	428d8ae7-fd76-405b-b529-08d994e8c1ab
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5440
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8756085
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 428d8ae7-fd76-405b-b529-08d994e8c1ab
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname: Hayleec@citadelservicing.com
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4628.018
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920050)(425001)(930049);
+X-Microsoft-Antispam-Message-Info:
+	TgaXw6rakAe0Jd002bLk/hztTDEUZYVWJEZ5nWO3sKIJ0NpEv2jrHxwZrHRjgViqJ3OGXfnvkroAywK+hrUxo7uYJhO+s8tOjKgzOSs2ZpQhaftoP7O1Y4cBSuVSdvUFNumI6/sIEWMPc/A3LCOAAu0xVgGX1lxEQoPl9Arad4EJbq+IyNMW8HFrzp1Q37xro5vDUJ0D/C3ApDCj6o94qvQ8aRpZJmsOn0DXmPwVakctWO9JLNasKM8Ue83JJkodeQxRwjjMrWWt8ESVVVuKLiH6L6dcsozKvjmCSXtfsv6UKYhS7ZofLBAxEpo4jZXscboZwXRIn0bSI6YBEgIz60boDLqrcHBNbt/eSxZH1H1YJVgSAliA+2NqNtUwZALKxYmUs8BAFxb4hKH1+8MFNa3CXCpmGLtCp0tKK7aWw/yU5TgqWw1eGlPvGJNmXDoyc/X9DG8tDh0rGk8x+iZ8W1P1qPwL6FaF4ah66VmIPsKwAC9rcop4MTq/62B1nE6TmmwLzVyTZWunY6RVMI4o8ngC/ArCXu+lIo+makQXwdUMaCrPdwwUYb249PmM+TKjGVfbJfoT3jSXmNEjdfoTMmchPavujR5n4pEaUd05qcBpiqrBuRw8QN1oJ0O+s7Z7EAwlXQBo8kFXcwcGzxijimI/+59kp2VDOrKi8I2csYQ=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28283DE407A8E0666906656DFFBF9DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28283DE407A8E0666906656DFFBF9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: CrossCountry Mortgage, LLC
+Broker Company NMLS: 2039102
+
+LO First Name: David
+LO Last Name: Schissler
+LO Email: david.schissler@myccmortgage.com
+
+LP First Name: Kelly
+LP Last Name: Luebeck
+LP Email: kelly.luebeck@myccmortgage.com
+
+
+
+
+--_000_DM6PR11MB28283DE407A8E0666906656DFFBF9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> CrossCountry Mortgage, LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 2039102<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>David<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Schissler<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>david.schissler@myccmortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span>Kelly<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;</span>Luebeck<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span>kelly.luebeck@myccmortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28283DE407A8E0666906656DFFBF9DM6PR11MB2828namp_--

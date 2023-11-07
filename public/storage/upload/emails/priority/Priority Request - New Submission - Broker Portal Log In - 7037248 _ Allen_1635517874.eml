@@ -1,0 +1,144 @@
+Received: from SJ0PR11MB5119.namprd11.prod.outlook.com (2603:10b6:a03:2d6::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 29 Oct 2021
+ 00:42:55 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com (2603:10b6:a03:7b::23)
+ by SJ0PR11MB5119.namprd11.prod.outlook.com (2603:10b6:a03:2d6::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Fri, 29 Oct
+ 2021 00:42:54 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::603e:52ed:928e:b33a]) by BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::603e:52ed:928e:b33a%5]) with mapi id 15.20.4628.020; Fri, 29 Oct 2021
+ 00:42:54 +0000
+From: Mayra Mendoza <mayra.mendoza@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Mosias Venord <Mosias.Venord@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037248 /
+ Allen
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037248 / Allen
+Thread-Index: AdfMXaZBE/0/TJqYSweVADI3CQ75lg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 29 Oct 2021 00:42:54 +0000
+Message-ID:
+	<BYAPR11MB346185B73D516F2D3A7C368AF9879@BYAPR11MB3461.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB3461.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a8fad0c0-bdca-451e-8d54-08d99a750b8f
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB5119:
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Oct 2021 00:42:54.3735 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a8fad0c0-bdca-451e-8d54-08d99a750b8f
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB5119
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4144553
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a8fad0c0-bdca-451e-8d54-08d99a750b8f
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB3461.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	HRTY9vDt2gFj3txOBl9EWE+KZIvradgV8oq/tMmt5/E91ShUWGFzro+n7eIAnegRjk88wYP+3TdW8Rsqzh67tLBV0BbdhYGh1sA20X9Ygw0=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.015
+x-ms-exchange-crosstenant-authsource: BYAPR11MB3461.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	PgTyQ4XCS2EAJ63dA9s0if6AzWJKuHMBMLHWsmle1zMYgnylK8JpbJoRXdTv5q3VV/q8G+1ehHNhFqxrrwznIq9YX07HPhHv6KIYGaqeS4M+A1xrxI2aquf6C+DgCXY+K80mFAGsFdkO7F/sh2/1DepW3SkoW+9oNB/lnqb+YluPLPk7/wpRR4ZjdE1P1TXRW6+vikbINqgyKSuy8FKmds/z+wSxJRQPs/LwtQ85mMmwF9Q1885dYowEOfJl4lCCRUmzfvBxamASOx4ywmgt36WTAuXlxgJ7AAqYnBD7ALICuzMpvWsVjyK8hK8AIJMbPXYyxGrTS7utXcrayq+buJD06iftZJd4OGgSsFYbthGc0TfMjbdpA8hWLZRqTFWzHTBb6YK87uJGNuz0TInvKG4CBmrkwzbG2VvPa37e1x/lAn8Bfj/SDSoDRUKcDjGdDhmJ8QCVKUlWJBMNBfZDTVfVvD2TG2KlApnEa2HSv9DT9V5L6Wdl5ZMuOusELs6nQWWL50hJvAHLmyDjl+RSStrKU53stkW9vAi0yuce8+kRe0XmVQAbSnMqbuicEPEngKqYYoi+tS47kOeuIBvUJsr3c6dbPOyG+6hd3WZWc/SO7e6+dD+TEUwm0fqsTa2KrBhaT7JnqTC2zGnYuP8Esi5P/DdFmxjWuegYNFx7ud8=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB346185B73D516F2D3A7C368AF9879BYAPR11MB3461namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB346185B73D516F2D3A7C368AF9879BYAPR11MB3461namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: LHM Financial Corporation /
+
+LO First Name: KAREN
+
+LO Last Name: FLORES
+
+LO Email: karenf@Lhmfinancial.com<mailto:karenf@Lhmfinancial.com>
+
+LP First Name: COURTNEY
+
+LP Last Name: HITE
+
+LP Email: courtneyh@Lhmfinancial.com
+
+--_000_BYAPR11MB346185B73D516F2D3A7C368AF9879BYAPR11MB3461namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Century Gothic",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company Name: LHM Financial Corporation /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LO First Name: KAREN<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Last Name:FLORES<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LO Email:
+<a href="mailto:karenf@Lhmfinancial.com">karenf@Lhmfinancial.com</a><o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company NMLS: 1838846
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP First Name : COURTNEY<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Last Name: HITE
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP Email: courtneyh@Lhmfinancial.com</span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB346185B73D516F2D3A7C368AF9879BYAPR11MB3461namp_--

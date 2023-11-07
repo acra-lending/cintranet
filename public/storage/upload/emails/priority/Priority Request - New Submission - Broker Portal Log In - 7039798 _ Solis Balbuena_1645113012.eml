@@ -1,0 +1,132 @@
+Received: from SA1PR11MB5921.namprd11.prod.outlook.com (2603:10b6:806:22a::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 17 Feb 2022
+ 00:30:40 +0000
+Received: from PH0PR11MB5013.namprd11.prod.outlook.com (2603:10b6:510:30::21)
+ by SA1PR11MB5921.namprd11.prod.outlook.com (2603:10b6:806:22a::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4975.12; Thu, 17 Feb
+ 2022 00:30:38 +0000
+Received: from PH0PR11MB5013.namprd11.prod.outlook.com
+ ([fe80::501c:25d4:c916:7602]) by PH0PR11MB5013.namprd11.prod.outlook.com
+ ([fe80::501c:25d4:c916:7602%4]) with mapi id 15.20.4995.016; Thu, 17 Feb 2022
+ 00:30:38 +0000
+From: Veronica Valdez <Veronica.Valdez@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Aubra Ronquillo <aubra.ronquillo@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7039798 /
+ Solis Balbuena
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7039798 / Solis Balbuena
+Thread-Index: AdgjlQCT/ti1qGmpQCmz1xzS9kU3lQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 17 Feb 2022 00:30:38 +0000
+Message-ID:
+	<PH0PR11MB50137F0A74345D7999522432E2369@PH0PR11MB5013.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: PH0PR11MB5013.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	090b5b94-211b-4bd7-8a3c-08d9f1acb8b4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA1PR11MB5921:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 17 Feb 2022 00:30:38.3269 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	090b5b94-211b-4bd7-8a3c-08d9f1acb8b4
+x-ms-exchange-transport-crosstenantheadersstamped: SA1PR11MB5921
+x-ms-exchange-transport-endtoendlatency: 00:00:01.8648828
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 090b5b94-211b-4bd7-8a3c-08d9f1acb8b4
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1923;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:PH0PR11MB5013.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	k6tGjkwx6l4OrMnGCgNj3NZsNOGMRr0plB43DsGjvfRRk8Dq7+SESeYwKr7rT3QZTLUBdHf6v4UnbZFSDqaaVGrpHK1MHmJ5X46gYNu0XNw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4975.019
+x-ms-exchange-crosstenant-authsource: PH0PR11MB5013.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	qERg8ZrGAawdgxftkbLqTbcnAso1UvqJ8dNF6etuCydgtVUhTgZhOa3E5qtPXdHOuflqkut4D8W1pgEAfjC68pJUTeRFWHxh3SwKbSeq5Za94JX5BxFX6JRAxtCGKGX+QpNLGbno58Rv1jeGdkD6GDz5kx+TRptC4nKIqTS1ES5Kz9CvU/gR7gsKyIYrXX99NT9Tyzw8HBxc+/NDknXOLhapnv2rnv3FqI5PVBzL1TYGCnEo2++PhnxlJztvsN/t+82MnvmQn5NYpl9fiI9zdmrrDuzivH46r6ryySBKdaY228zLBwKRfwIUyyQsycoyKyVxJogppPXUTWWzC7uT8MWH7hXwxvUlKqdLjU6OD9tL3e7739ZdECAt7BBv1Uw68Em8N5LHJsY5PCyBBTerHtNWRi6cTWrYjlsVENum5oCGagAwRdkZRpcEhKlfW2/ThustUNyvXXI5RAldssM2qmWxgoLhzTFnacUA1lbMlTiHfNeg4Kk+eXchixlf4fzpiQqinPJRtvCZM7hd7RrURWZAsuCfVaYsQQHdN1VhFzuQwfBMHkJmZZqv6bseKI4Q7QynDehWZceAlmB+B/epNOUxJEJd4zlkFV01dlllB9sGz2+5Io/wGgkx3BD9bpYxZztzUsF8bVLQeQgF+1rT1gmavbgbvMHy/PaA2ghfJ1c=
+Content-Type: multipart/alternative;
+	boundary="_000_PH0PR11MB50137F0A74345D7999522432E2369PH0PR11MB5013namp_"
+MIME-Version: 1.0
+
+--_000_PH0PR11MB50137F0A74345D7999522432E2369PH0PR11MB5013namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Finance of America Mortgage LLC
+Broker Company NMLS: 1414094
+
+LO First Name: Jesus
+LO Last Name: Hernandez
+LO Email: jhernandez@financeofamerica.com
+
+
+
+--_000_PH0PR11MB50137F0A74345D7999522432E2369PH0PR11MB5013namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Finance of America Mortgage LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1414094<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Jesus<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Hernandez<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>jhernandez@financeofamerica.com<span style="font-size:12.0pt;color:black">
+<o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_PH0PR11MB50137F0A74345D7999522432E2369PH0PR11MB5013namp_--

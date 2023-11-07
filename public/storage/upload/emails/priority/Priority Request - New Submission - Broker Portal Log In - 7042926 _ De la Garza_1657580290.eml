@@ -1,0 +1,144 @@
+Received: from DM8PR11MB5701.namprd11.prod.outlook.com (2603:10b6:8:20::12) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 11 Jul 2022 22:00:39
+ +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com (2603:10b6:5:1da::17)
+ by DM8PR11MB5701.namprd11.prod.outlook.com (2603:10b6:8:20::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.20; Mon, 11 Jul
+ 2022 22:00:38 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::12c:d708:7e03:c8f2]) by DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::12c:d708:7e03:c8f2%6]) with mapi id 15.20.5417.025; Mon, 11 Jul 2022
+ 22:00:37 +0000
+From: Jacob Hayden <Jacob.Hayden@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042926 /
+ De la Garza
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042926 / De la Garza
+Thread-Index: AdiVcWJaoTT7izACT0qnIf4BpDyJ1Q==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 11 Jul 2022 22:00:37 +0000
+Message-ID:
+	<DM6PR11MB4507EA5F23E3207CC3B4594E93879@DM6PR11MB4507.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4507.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6a1b6c2c-0673-497b-309a-08da6388c9d2
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM8PR11MB5701:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Jul 2022 22:00:37.8887 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6a1b6c2c-0673-497b-309a-08da6388c9d2
+x-ms-exchange-transport-crosstenantheadersstamped: DM8PR11MB5701
+x-ms-exchange-transport-endtoendlatency: 00:00:01.5614277
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 6a1b6c2c-0673-497b-309a-08da6388c9d2
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4507.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	fEE8pZIuxWcsYUrZI1rS7ZOj/isBMAg4X8hZFYj8cWx0PER315Z/bX6HAI8Dm2o+EBDFPJ3nsVbmOdXi97M/ISLxrcaeeBaGjwdHjPRv1Z8=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5417.026
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4507.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	VtzO9njwCVmMzpgP4M5cpKozjQOo1vDD05YGXonadv18y+e/IHcY+01amZhGMx0EYvS8A3xTAYhV3SUA7GZna0wrY2zpWiO5LvpeC7/YmQNYN6eBk5Fz8DSCKq/bFCK/QCaBt98INxf/rap9NLIpdQ1PL/xU0yXBncrw4voX+mikh96Qn1ggiXyEzWK31qBhi6/Sr/LqUn4OuqfS+5QEuuWym/ME26A4ls40pdp1OM2LmqVMUrT074B6EU7hGRO2cFC/BHfT2+Z40fpC8HRcTSSoMlW94YZEj6OIEznrrzr/S2xb9pljzQ2ulJHsxiclhkgimBxlGBsnOlBAlIzeT4ZKrmLhesGOl8ZuHh1TSLeSlVAQ4+dqAWXYLm+JmLEeeX78vOKWkgvjf3uALlkydkvEQPh4rip+x7QkZM8TP3YKU+zFx23M997RFGeqAiMx3qr8d3C6ueO+x0gQSWeeh0zhkdoddnh3pXOXAu2vLruLGn2Slht0+TQaJIS2fEBWCylH8mRBGICqQO3f72dMVREIoHm9dJY94qF7HWG06uNWpzrewYw9eLz5ZT5SvOyVmuL+HHqrcjscZPwHss20XZwzjV1O3CzPk2slzgRRfouoUXVZYS0fei62RA69sf1wSSKNQM8f7lOTUVVVR/IOZzjsvOg2ujmgIPjUxq/eIV0eKTjCO7ERVNfY9kacR+xx7Yr7i8oj3T/nLylqHdXDFGdkpZBgvLcSeBosQR2ZGOvQCWQdFT9ij01qQ+ENEU+G
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB4507EA5F23E3207CC3B4594E93879DM6PR11MB4507namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB4507EA5F23E3207CC3B4594E93879DM6PR11MB4507namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Adriana
+
+LO Last Name: Pedraza
+
+LO Email: adriana@jacksonhenry.com<mailto:adriana@jacksonhenry.com>
+
+
+
+LP First Name: Julia
+
+LP Last Name: Ruiz
+
+LP Email: julia@sogprocessing.com<mailto:julia@sogprocessing.com>
+
+
+
+
+
+
+
+--_000_DM6PR11MB4507EA5F23E3207CC3B4594E93879DM6PR11MB4507namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Adriana <o:p></o:p></p>
+<p>LO Last Name: Pedraza <o:p></o:p></p>
+<p>LO Email: <a href="mailto:adriana@jacksonhenry.com">adriana@jacksonhenry.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Julia <o:p></o:p></p>
+<p>LP Last Name: Ruiz <o:p></o:p></p>
+<p>LP Email: <a href="mailto:julia@sogprocessing.com">julia@sogprocessing.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB4507EA5F23E3207CC3B4594E93879DM6PR11MB4507namp_--

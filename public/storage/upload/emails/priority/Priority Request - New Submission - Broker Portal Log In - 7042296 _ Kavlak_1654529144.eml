@@ -1,0 +1,202 @@
+Received: from DM6PR11MB4657.namprd11.prod.outlook.com (2603:10b6:5:2a6::7) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 3 Jun 2022 23:02:31
+ +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com (2603:10b6:406:b3::31)
+ by DM6PR11MB4657.namprd11.prod.outlook.com (2603:10b6:5:2a6::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.12; Fri, 3 Jun
+ 2022 23:02:31 +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa]) by BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa%5]) with mapi id 15.20.5293.018; Fri, 3 Jun 2022
+ 23:02:31 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Donna Abbo <Donna.Abbo@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042296 /
+ Kavlak
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042296 / Kavlak
+Thread-Index: Adh3neQ4nNN84aFlRyS9rLGQGPLVtw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 3 Jun 2022 23:02:30 +0000
+Message-ID:
+	<BN7PR11MB28500F24BE293F3AF06B43B087A19@BN7PR11MB2850.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN7PR11MB2850.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	eeb5b06a-3dc5-4098-4619-08da45b5234b
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM6PR11MB4657:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 03 Jun 2022 23:02:30.9410 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	eeb5b06a-3dc5-4098-4619-08da45b5234b
+x-ms-exchange-transport-crosstenantheadersstamped: DM6PR11MB4657
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9075270
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: eeb5b06a-3dc5-4098-4619-08da45b5234b
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN7PR11MB2850.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	V7MtdH3IX77gUdnyq+x/pgBFF71ZRSH7+UUwnA+gyzWBt7feQNgwVPuHXa3FJR33C/NaTPl/fgrckuXETmNtaLHWikP15LGthaC5PAeTNZg=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.015
+x-ms-exchange-crosstenant-authsource: BN7PR11MB2850.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	WBHa19Fx2SkAeUfmz+LLmRwQy1liNzq9nX/hzndlwfyFz2KeNsehJU7KtdGs9MW9333iLAWDZ6Ea5KsvCBqqYESzb2FsKQkmoPg6GjYcKDxM8O3OzdPOPU11qe+MaW420Fr/kUnVcyQRwGXcX1QDHOqr119k8l3JPv/4RTqYVapb0pFpeM81JVEumqvcjqXMgzenbVl2uHlOi8SQ/FRKK/Yfvdf8ywNzGGa0VBxyfhCZOfiKXxLJxgiAXz63EhUR3O9g1QLAjv0zstRmVOmXFp7s5Q4M96Vw/SI05B/dyaZCrPwMxwaCatWS/hZzwugfYUlD8Jke1b2P1D6HZ+u+UnbL4rkqecs6k/YBLNWP6X5QY1Cqfweh27109pjq3F86GRfpvkD2UJuFqL6+UN4NRs8X4zE7pUOdPSMaQ75UrYzJspylyDsEquzwqqTGIRHalpiBuzj1Kbbnakrmuv2ti0P5z584OK08Pkh0rZDQQjD6Gh2KCQP1tKbAuX4ZNUepMwUMBh/185uUrFkO23Ywecz/i6lUzQgOTZBLWJRv/bEodGirXl+jsDUgeTHcG9j6C6vYzVW0W0B4ubtgIcRppfzga3DHK+Oswr6ahR4qSnzXwRy4kOcIvvKTME2ktRSJHebkQW7cyHxL2shrwslMz2QkGsQkbhn6yu7+VUSb/eQ=
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR11MB28500F24BE293F3AF06B43B087A19BN7PR11MB2850namp_"
+MIME-Version: 1.0
+
+--_000_BN7PR11MB28500F24BE293F3AF06B43B087A19BN7PR11MB2850namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Prime Time Mortgage Inc.
+Broker Company NMLS: 372178
+
+LO First Name: Angel
+LO Last Name: Taipale
+LO Email: Act@primetime4loan.com
+
+LP First Name: Susan
+LP Last Name: Rey
+LP Email: Susie0129@hotmail.com
+
+
+
+
+--_000_BN7PR11MB28500F24BE293F3AF06B43B087A19BN7PR11MB2850namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:569387306;
+	mso-list-type:hybrid;
+	mso-list-template-ids:-1290792828 67698689 67698713 67698715 67698703 67698713 67698715 67698703 67698713 67698715;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:70.5pt;
+	text-indent:-21.0pt;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:103.5pt;
+	text-indent:-.25in;}
+@list l0:level3
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:139.5pt;
+	text-indent:-9.0pt;}
+@list l0:level4
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:175.5pt;
+	text-indent:-.25in;}
+@list l0:level5
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:211.5pt;
+	text-indent:-.25in;}
+@list l0:level6
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:247.5pt;
+	text-indent:-9.0pt;}
+@list l0:level7
+	{mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:283.5pt;
+	text-indent:-.25in;}
+@list l0:level8
+	{mso-level-number-format:alpha-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	margin-left:319.5pt;
+	text-indent:-.25in;}
+@list l0:level9
+	{mso-level-number-format:roman-lower;
+	mso-level-tab-stop:none;
+	mso-level-number-position:right;
+	margin-left:355.5pt;
+	text-indent:-9.0pt;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Prime Time Mortgage Inc.<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 372178<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Angel<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Taipale<o:p></o:p></p>
+<p class="MsoNormal">LO Email: Act@primetime4loan.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Susan<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Rey<o:p></o:p></p>
+<p class="MsoNormal">LP Email: Susie0129@hotmail.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN7PR11MB28500F24BE293F3AF06B43B087A19BN7PR11MB2850namp_--

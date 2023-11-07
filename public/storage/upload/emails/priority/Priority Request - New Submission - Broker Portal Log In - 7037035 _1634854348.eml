@@ -1,0 +1,136 @@
+Received: from BN6PR1101MB2243.namprd11.prod.outlook.com
+ (2603:10b6:405:50::16) by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS;
+ Thu, 21 Oct 2021 21:41:51 +0000
+Received: from BN6PR11MB4004.namprd11.prod.outlook.com (2603:10b6:405:7c::24)
+ by BN6PR1101MB2243.namprd11.prod.outlook.com (2603:10b6:405:50::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4628.16; Thu, 21 Oct
+ 2021 21:41:50 +0000
+Received: from BN6PR11MB4004.namprd11.prod.outlook.com
+ ([fe80::89ed:1d18:3f75:e21b]) by BN6PR11MB4004.namprd11.prod.outlook.com
+ ([fe80::89ed:1d18:3f75:e21b%5]) with mapi id 15.20.4628.018; Thu, 21 Oct 2021
+ 21:41:50 +0000
+From: Clark Deremo <Clark.Deremo@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037035 
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037035 
+Thread-Index: AdfGxHMltHUoaouBQTeP5UW7+ZlhBw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 21 Oct 2021 21:41:50 +0000
+Message-ID:
+	<BN6PR11MB4004DD079A21F0596E78DF618ABF9@BN6PR11MB4004.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN6PR11MB4004.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	d1937da2-319c-4c01-dc99-08d994db971c
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BN6PR1101MB2243:
+x-ms-exchange-crosstenant-originalarrivaltime: 21 Oct 2021 21:41:50.2876 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	d1937da2-319c-4c01-dc99-08d994db971c
+x-ms-exchange-transport-crosstenantheadersstamped: BN6PR1101MB2243
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0561227
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: d1937da2-319c-4c01-dc99-08d994db971c
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN6PR11MB4004.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname: clarkd@citadelservicing.com
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4628.018
+x-ms-exchange-crosstenant-authsource: BN6PR11MB4004.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920050)(425001)(930049);
+X-Microsoft-Antispam-Message-Info:
+	BN/yU2exDg+7BqbBOm3Oy4AadCuTCKJOILT93Hugd/AnXjvUMZnLHoyCvX3Qp9mgxDm5eS1mCq//bORMLehRkCrAQwBrK++2ivqB3FdhTcw5KkbSwTh3sdeAImNhDYESYVdewMm2owYb/oO85IXT2kjghffV7BV7wo03tm+9dgxvFG7W3/mD1WTCo6LxeFbnIQetq5g3S2uVlKS/2zSOa3CEiNoTW4rFnP2iBuZYKxzzrmmIeQwdE/oEoOWnqeeTGseUEcI7l4PHDeEuzlRtlAZJZfY6ZcYa3jtn7CkRQnh3eputI1omgs+KC3JmFf032ueqtJk0HJ+jOdDsIydTrojO8P2qNwuhEYvrlubZtpwli1yvHJA3Rv2g2B4qmnTSe+fOti4VksWE660Okybhvis7taxzfmgakb4Tjrg9cBkOXDLPKsSr5mNqG6PtXC0wQbZiUPame2T8PSYOn/6SW6kPgOr/AO/r+MIPjJdQcCECUYpTyVW13T2rXpJBVGl7OkJRAn1196E4m5QWEE+UXBhvk60MqpGr+keyQV/X36zyuyz2BIKiDHjqDOGcod4q3tlXB7vg5DYnL7H40qGUWa9PsU07PxBtx5qQ6KnrwRL5ahCKZkteCs+RS5lOc9iFV3H2p28geJsqriWkZ9AEh5I26Icxb7WtC5RWk/9h+kQ=
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB4004DD079A21F0596E78DF618ABF9BN6PR11MB4004namp_"
+MIME-Version: 1.0
+
+--_000_BN6PR11MB4004DD079A21F0596E78DF618ABF9BN6PR11MB4004namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Jared
+
+LO Last Name: Thiel
+
+LO Email: jared@davidkilpatrickgroup.com<mailto:jared@davidkilpatrickgroup.com>
+
+LP First Name: Kathy
+
+
+
+LP Last Name: Snyder
+
+LP Email: Kathy@davidkilpatrickgroup.com<mailto:Kathy@davidkilpatrickgroup.com>
+
+
+
+--_000_BN6PR11MB4004DD079A21F0596E78DF618ABF9BN6PR11MB4004namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Jared<o:p></o:p></p>
+<p>LO Last Name: Thiel <o:p></o:p></p>
+<p>LO Email: <a href="mailto:jared@davidkilpatrickgroup.com">jared@davidkilpatrickgroup.com</a><o:p></o:p></p>
+<p>LP First Name: Kathy<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP Last Name: Snyder <o:p></o:p></p>
+<p>LP Email: <a href="mailto:Kathy@davidkilpatrickgroup.com">Kathy@davidkilpatrickgroup.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB4004DD079A21F0596E78DF618ABF9BN6PR11MB4004namp_--

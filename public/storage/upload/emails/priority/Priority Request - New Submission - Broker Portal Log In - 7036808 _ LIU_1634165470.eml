@@ -1,0 +1,131 @@
+Received: from DM4PR11MB5438.namprd11.prod.outlook.com (2603:10b6:5:399::21)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 22:50:18 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB5438.namprd11.prod.outlook.com (2603:10b6:5:399::21) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4587.20; Wed, 13 Oct 2021 22:50:17 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4587.026; Wed, 13 Oct 2021
+ 22:50:17 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Andrea Olson <andrea.olson@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036808 /
+ LIU
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036808 / LIU
+Thread-Index: AdfAhI2Fu5202l+aRWaQlofuFgayZQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 22:50:16 +0000
+Message-ID:
+	<DM6PR11MB2828CA00F58B2F2F828577BBFFB79@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2fce9699-e5b0-47ab-455e-08d98e9bd393
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5438:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 22:50:16.8176 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2fce9699-e5b0-47ab-455e-08d98e9bd393
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5438
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4836329
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2fce9699-e5b0-47ab-455e-08d98e9bd393
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	SdtYuiVT6yImEzqWV82fyBmVpVYb7wtDFm2PacSS1XtoXzqR3Ku65VrYZ89UosqM/EBVow9/sU38cm7QJlyhxXxRnErQfpMMId+4DRIYGzQ=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920035)(425001)(930034);
+X-Microsoft-Antispam-Message-Info:
+	C5CduauE3bqGBZ2dicM0Avl/TbtdH+o1qp/QahDQOpxeWTfwXW5jXFDN4tdboWg5B2W6ADXIRKja8feFt6ymjHUzt0SAd8I7/7iR0NzooKS1C7jCnCm25RfgSudyffN2yEgBJVY20Irq/uWSzhW16OkY+BFGPk5VYGnBxgK4R9mVvhBpjOgQIw6mhxYHCI81U6VWy6H03iZWOYWnKSOiwm3sy8irdHCdrjUM3FBdaBsVR8uVQ8QJWD0K+Z78b8B0EVia+q4ShqkdOx9q3pNS9xEgst/jrdbeSgd047FxyyuG+IAizINplzmm5qwcGeFeo21ZwjaTmi/PuWf5TgHb58Y4a4J32XPrx0eb6NISH7oyYUAbD2hbPzcJNvF6+lTWkjjrVXPZyvtlf3hnOgv/mHJo9X50lDuR5VQxF0noi4dikHCW3u4Vek4BGeyk4BqaGTykvJWQSjBknOD+Ymi/Kj9bWbkC+w3nvf71VRSbCDJs1b9zpcdJdiIV4y5DLoXKladVsHWT29QvViMcDbttikN6ozh5/NkB08Ggq/Ln17Im0AGH4JM3yakqTGVTDl4HsMURFsd8Y0/Sx9rOXkXUIrd2DU30XgFD4iZBnfPYzkV7RyTBKA77P5x2Ubiyj1uKuJ9PfzBiVhVb6X0Wc1F72kUULYbtCAI3qZxYLkT7LjQ=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828CA00F58B2F2F828577BBFFB79DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828CA00F58B2F2F828577BBFFB79DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+Broker Company Name: Guild Mortgage Company LLC
+Broker Company NMLS: 1463399
+
+LO First Name: Jennifer
+LO Last Name: Cox
+LO Email: jenniferc@guildmortgage.com
+
+
+
+--_000_DM6PR11MB2828CA00F58B2F2F828577BBFFB79DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Guild Mortgage Company LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1463399<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Jennifer<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Cox<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>jenniferc@guildmortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828CA00F58B2F2F828577BBFFB79DM6PR11MB2828namp_--

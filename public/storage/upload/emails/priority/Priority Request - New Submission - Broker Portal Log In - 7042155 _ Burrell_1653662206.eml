@@ -1,0 +1,139 @@
+Received: from MW3PR11MB4618.namprd11.prod.outlook.com (2603:10b6:303:5f::9)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 26 May 2022
+ 19:29:17 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by MW3PR11MB4618.namprd11.prod.outlook.com (2603:10b6:303:5f::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Thu, 26 May
+ 2022 19:29:12 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5273.023; Thu, 26 May 2022
+ 19:29:12 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042155 /
+ Burrell
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042155 / Burrell
+Thread-Index: AdhxNs2sx7HjQEsfQh6kht1RHZ40GQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 26 May 2022 19:29:12 +0000
+Message-ID:
+	<BYAPR11MB2853CAF302C9F6C6604A60C5FAD99@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	fe71fb85-ceb2-41ca-95fa-08da3f4e0397
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW3PR11MB4618:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 26 May 2022 19:29:12.6142 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	fe71fb85-ceb2-41ca-95fa-08da3f4e0397
+x-ms-exchange-transport-crosstenantheadersstamped: MW3PR11MB4618
+x-ms-exchange-transport-endtoendlatency: 00:00:05.2946541
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: fe71fb85-ceb2-41ca-95fa-08da3f4e0397
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	gjI3vsQEALTnQKtKZVnhrSzrjgbuMk2MdV6pH0G8H5Tr+u9AuE7c2MX4Y/DfpdgYEZtw3aCShzIGQHUqFKXjeqhtFvOd9E6ZtIpE9Hs4luw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5293.013
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	5fDAV4Asw3gynYP1hbHLfk8zmjHBw54g6Ml74ojxcQFh+PJpKPSVr3GF9xxcyIYe4C5Zr093fsjnu2FB2JOLPVcNLYkGPOiP0fHqL3Z13fuPwlEERpyQUA8yHTs4ksvZOovfJI+Fq9kBeWqFemlIF6nGyQR5ij8dX3L54lpWN/jP/Rl7TNaspwB4TU2E7rf8mL84bm6co6kA5gdQCk4awIoXwa4VVI0UMhX/0PM8Gf996JHLnNmKbLBucQ3m8l7gb13a/HmIo5zQ6ENlVnMbaIxh+qNkO3/mFcASNph+LJ+Whr86DTWQUxusb620PZBpA8U8rVf3pkk3wHvhLFPAcNnk3baD/Gob7j4bmlcL01Iwo94pHbrN+grYYSGkKKVh3lIV2aqYD8f2R5WKixsptF/IV9oxSDnXdQc8TVONXowLsoKb/nz507VuBv4L4kJItcAjVixp9itc4cjLnAVhd2zOgwNQDvbYquMv4m5g9uMkdlFdggnNOrvzA8tfM5zzXDTWIBi9NRq6YJ9BnIvvG3CZiLFz60sqmoiGDwl2vgN1WgKXxX/l/3F+FrMUsy75CKdbX8XsKpUFwrBThuwTs4J3ASlpFNuYa+NBYYBkqmGMzh2b5Kj8seFJo5KEfW8qYF1VluGeeVYkqBkwBKgU5+WTf3M3WFdvK0LkGFC3pdE=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853CAF302C9F6C6604A60C5FAD99BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853CAF302C9F6C6604A60C5FAD99BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Southwest Funding, LP
+Broker Company NMLS: 309090
+
+LO First Name: Richard
+LO Last Name: Smith
+LO Email: teamsmith@southwestfunding.com<mailto:teamsmith@southwestfunding.com>
+
+
+
+--_000_BYAPR11MB2853CAF302C9F6C6604A60C5FAD99BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Southwest Funding, LP<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 309090<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Richard<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Smith<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:teamsmith@southwestfunding.com">teamsmith@southwestfunding.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853CAF302C9F6C6604A60C5FAD99BYAPR11MB2853namp_--

@@ -1,0 +1,153 @@
+Received: from MN2PR11MB4520.namprd11.prod.outlook.com (2603:10b6:208:265::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 27 Oct 2021
+ 22:38:25 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com (2603:10b6:208:fa::18)
+ by MN2PR11MB4520.namprd11.prod.outlook.com (2603:10b6:208:265::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Wed, 27 Oct
+ 2021 22:38:23 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7]) by MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7%7]) with mapi id 15.20.4628.020; Wed, 27 Oct 2021
+ 22:38:23 +0000
+From: Paria Azarisoreh <pariaa@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037178 /
+ Katz
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037178 / Katz
+Thread-Index: AdfLZb6oFHkFYlTsSCmUbmbPbElO5Q==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 27 Oct 2021 22:38:23 +0000
+Message-ID:
+	<MN2PR11MB383914AD3CBB66298B6865A4B5859@MN2PR11MB3839.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3839.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6dc34dbd-f507-45a8-2d22-08d9999a7be1
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MN2PR11MB4520:
+x-ms-exchange-crosstenant-originalarrivaltime: 27 Oct 2021 22:38:23.0464 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6dc34dbd-f507-45a8-2d22-08d9999a7be1
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR11MB4520
+x-ms-exchange-transport-endtoendlatency: 00:00:02.0064307
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 6dc34dbd-f507-45a8-2d22-08d9999a7be1
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3839.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	VH3gARlTYklxgPjac+yGwAvDH4O6GlMSiq2+T3xHRNxhovLuBamg9VAQYY/dmtFDRg0W0cBherxb+5b9pG4T8Gk0hJMWb0Y2DfHLL+LZkS4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.015
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3839.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920057)(425001)(930056);
+X-Microsoft-Antispam-Message-Info:
+	PyP8avfV7/DxfuwIgTpERZYEaybKoBou1cRQkrwEjSWFKQNe5YNzy0n4OiqMAuAVTJddLIl+Fi06kFItNUeT8TGUzM4crj96CskECtRfF/Htz4jxI19b5MR+D7vRhz0c8eXw8/tpGYa63A5qFjLvSeabwI+Bnt2bPyJIKI9p6+FCKPKiQ+0/ZLAVmD93kCfmKvx+cuLwrDD989Bb1rMtwsiQ73wCWb8i/VMoGV0z+vYWcVJuJPi5zlSl45sja+k0wU14yDOMd0iKAIM5bfhaamM+ZQb3B7ZNr4xUaK7OFg1qW/nXjT17MeHhxeDxNKL4yRlsrRo8ZZi/m6Qh6GRa+S6vDFG7enRF9cfFFjzq8zYo89VIHmvEOyt/DBCZghCdEyDZf//ayKO3pvXYnPaLXaMr36w6ilWtCgc3kJOc/8Li8Eaeqt2dODgP0AHnKMHABN/h0jJJs0AsdzTikwhvblekX51UTy+qw2xfUqDDpQ90DuskdayxdCRxJtOyW6Ry26NM2JqBbfiIdql2+NrIi+hu9UBrUWRdkINH9+h90kUvHTZDCO5mjy5OgISd8wZv5tlxdte/wwMNb4A/xLqE5JE83laotSnN9dZxRJCiJI/C1Uso14HY3gTlAXrcHY2gq9jYDJX6qbs9LbpzG/NnR993e6B3L9HMvYY/9XU8eIw=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB383914AD3CBB66298B6865A4B5859MN2PR11MB3839namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB383914AD3CBB66298B6865A4B5859MN2PR11MB3839namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Contour Mortgage Corporation
+Broker Company NMLS: 34384
+
+LO First Name: Anthony
+LO Last Name: DeMario
+LO Email:  adam@contourmtg.com<mailto:adam@contourmtg.com>
+
+
+LP First Name: Stacy
+LP Last Name: Randell
+LP Email: srandell@contourmtg.com<mailto:srandell@contourmtg.com>
+
+
+
+
+
+
+--_000_MN2PR11MB383914AD3CBB66298B6865A4B5859MN2PR11MB3839namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto">Broker Company Name: Contour Mortgage Corporation<o:p></o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS: 34384<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;Anthony &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name: DeMario<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp; <a href="mailto:adam@contourmtg.com">
+adam@contourmtg.com</a><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name: Stacy &nbsp;&nbsp;
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;Randell<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;<a href="mailto:srandell@contourmtg.com">srandell@contourmtg.com</a><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB383914AD3CBB66298B6865A4B5859MN2PR11MB3839namp_--

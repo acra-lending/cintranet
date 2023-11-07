@@ -1,0 +1,147 @@
+Received: from PH0PR11MB5625.namprd11.prod.outlook.com (2603:10b6:510:ea::11)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022
+ 23:40:25 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by PH0PR11MB5625.namprd11.prod.outlook.com (2603:10b6:510:ea::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.13; Mon, 6 Jun
+ 2022 23:40:22 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5314.015; Mon, 6 Jun 2022
+ 23:40:22 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Kristin Graves <Kristin.Graves@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042332 /
+ Uzun
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042332 / Uzun
+Thread-Index: Adh5/qzW0UgHYHuQQ9CsfSsp1iH2MQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 23:40:22 +0000
+Message-ID:
+	<BYAPR11MB2853C58A311611B75C59BC71FAA29@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	91fb9ac4-3320-40ab-09d0-08da4815ec4a
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR11MB5625:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 23:40:22.1509 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	91fb9ac4-3320-40ab-09d0-08da4815ec4a
+x-ms-exchange-transport-crosstenantheadersstamped: PH0PR11MB5625
+x-ms-exchange-transport-endtoendlatency: 00:00:03.6007997
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 91fb9ac4-3320-40ab-09d0-08da4815ec4a
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Ilp4OYDbY0pnzBptBoWaTKlyZGW7PedC/t2A2mEwNKZXr1kKxRrvw4qyWU5wyB3+9nFmLOjebtn79D+pOGiyelSi8bt4sS2j3Zw+F0fKxPc=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	2qWmY0iZD8gBgprW0TkMy7qG4n1pEYGeAOXJS7E28eT+Ftj8jHj5aUZH5e1OVKacrlpmqw2Q8yaaFguB+S5IOEAHvqOiTpN5wCH9OxmvSfiI49Qs9ramXh84McJq7f4fBnThuChgwSduACCQpSUZsOuDXFUe0ppGQyNkIJGMVSqHn29OsZ7WVuxRYyZ8yZNhU9t3DXqJ8n+jhD/YSxoP6AHOfWd3NVQOAM+UXYbnEOXwyaZyo+aKIvVp7WCBEKsQDlsUvWJrFF+v1r741OP7VIT7soTrf0LyNu/O2Y7dw1XfGcnauxZD/YKHXp977eBmp7JLfRxFGCrA3yuzXXvd9rlvKmloCZM+8J09RZcr2qSy1tzp9k/8HxAJxozoY6HSDOO43kCPI+FpXJ9PCIIno8cISK9oU7A/rf0sEGChS7gL2ZkaSFO51lKmaDInkSWycfMfwXxQUtVrlSyeosa3kQVDVbo9gHa+jT3r9M0jwL5a+4Ab1frxm81gTbtMP1IgNTRZ+etHBCacU0TrxJ1LUxo90KQP+stjqqCypU/ckPS0EvqmfJJwtTxkJNL/qHbMq5T6sSwO1V0qhBUogRWDeiLMYcMn/+QlewRY0iN/vIWAgk6dPzYY5jZG7dPE/uHw88oNpAfZfMFm8jAtTjkcw3wfQeiSKBeJ3s5Q54pVSRo=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853C58A311611B75C59BC71FAA29BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853C58A311611B75C59BC71FAA29BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Paramount Residential Mortgage Group, Inc.
+Broker Company NMLS: 75243
+
+LO First Name: Sylvia
+LO Last Name: Parish
+LO Email: sylviap@prmg.net<mailto:sylviap@prmg.net>
+
+LP First Name: Steven
+LP Last Name: Rivera
+LP Email: srivera@prmg.net<mailto:srivera@prmg.net>
+
+
+
+--_000_BYAPR11MB2853C58A311611B75C59BC71FAA29BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Paramount Residential Mortgage Group, Inc.<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 75243<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Sylvia<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Parish<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:sylviap@prmg.net">sylviap@prmg.net</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Steven<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Rivera<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:srivera@prmg.net">srivera@prmg.net</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853C58A311611B75C59BC71FAA29BYAPR11MB2853namp_--

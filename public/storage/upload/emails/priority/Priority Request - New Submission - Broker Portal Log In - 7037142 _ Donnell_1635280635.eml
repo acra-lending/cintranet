@@ -1,0 +1,142 @@
+Received: from DM5PR1101MB2090.namprd11.prod.outlook.com (2603:10b6:4:51::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 26 Oct 2021
+ 20:14:44 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM5PR1101MB2090.namprd11.prod.outlook.com (2603:10b6:4:51::17) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4628.18; Tue, 26 Oct 2021 20:14:44 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4628.020; Tue, 26 Oct 2021
+ 20:14:44 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037142 /
+ Donnell
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037142 / Donnell
+Thread-Index: AdfKpgrsplwZhZj+TCiiSAj1PF4X7A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 26 Oct 2021 20:14:44 +0000
+Message-ID:
+	<DM6PR11MB28283A47E64241ECB5F547B7FF849@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	8981180c-89a8-4f01-cb29-08d998bd4030
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM5PR1101MB2090:
+x-ms-exchange-crosstenant-originalarrivaltime: 26 Oct 2021 20:14:44.1716 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	8981180c-89a8-4f01-cb29-08d998bd4030
+x-ms-exchange-transport-crosstenantheadersstamped: DM5PR1101MB2090
+x-ms-exchange-transport-endtoendlatency: 00:00:00.5961193
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 8981180c-89a8-4f01-cb29-08d998bd4030
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	TCdt6zaKtwNHIAPKP9zGgAiNsbAO2igRVkCBsT+WegQNOqu9rR0rlqNX9H+3uyiZuU4t7NdmCr0QJjRWVC4OSyYxpyC9L04n1JXfpuxuCXc=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.014
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920050)(425001)(930049);
+X-Microsoft-Antispam-Message-Info:
+	z56Lf2UJHay3iIk3eIFJj2MVhNuOmwHkblT7xqFkYGe1DmZD2KAxYsmHd12lDO2BMchQbiQqlnkJj+DwXGQFQmVyuDgHqOUPmCsp1CPu+bVNXT3Jj4FttZpJ2VnPhZ8wVBFhIz5ipIIL7yvi3bIjpC01abAPw3F0vF0e68F9Se8fOuKg9uP4FLMqJFyN2V4ptDhHP4sKwKWINGhuOQgkgQW6zmJT5FJuQKN0N8/G5nBbTbxBLFCnLyDIEJLFxUKuiSVH0jyQjNDk+qt6sB4Ih/97CZy0xTN1L7XrzHnJ3/hEIuadJ4/BkK+RGqDiJ0XBYBuxvHgTbiD1AJX4mQLvYaJ2U/CSdZx5mn4iIii8YbM1r7/Bt6uQUoqgly8sindAsRum7/4CQcjcD7rsbQc/sGtcBhZO/0r1uuy0afF0nBjCwSaAGTasHAyJQ82n6bpPgRsK15HCDRt767G6rcuLZP8FBYoFOFLxT7bEDK7Qt5eHlduo2cmpYAUeSYVqpcTYsaVhskjgkPZVCptTIbFoJT4e4AJ3I8T1oxgKxcLGc1ZAAs+lj7Odp+lcBLKaC3hmIEYOUr8NXuviFAbQuvudafwMc9H6wx1O/2bDADtiWY8ysglPFiVJbEHhp6m2/I+1qlrB8yzr/I1avJuM2lcpbp5ZqBg+IYOtQWSCwKoH/Kg=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28283A47E64241ECB5F547B7FF849DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28283A47E64241ECB5F547B7FF849DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Veritas Funding LLC
+Broker Company NMLS: 2138229
+
+LO First Name: Barry
+LO Last Name: Willner
+LO Email: bwillner@vfund.com
+
+LP First Name: Maureen
+LP Last Name: Ramsay
+LP Email: mramsay@vfund.com
+
+
+
+--_000_DM6PR11MB28283A47E64241ECB5F547B7FF849DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Veritas Funding LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 2138229<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Barry<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Willner<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>bwillner@vfund.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span>Maureen<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;</span>Ramsay<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span>mramsay@vfund.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28283A47E64241ECB5F547B7FF849DM6PR11MB2828namp_--

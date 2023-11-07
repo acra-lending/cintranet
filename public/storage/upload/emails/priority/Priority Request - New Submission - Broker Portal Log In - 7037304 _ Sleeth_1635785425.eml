@@ -1,0 +1,132 @@
+Received: from BN9PR11MB5532.namprd11.prod.outlook.com (2603:10b6:408:105::14)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 1 Nov 2021
+ 16:47:38 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com (2603:10b6:405:7c::31)
+ by BN9PR11MB5532.namprd11.prod.outlook.com (2603:10b6:408:105::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.13; Mon, 1 Nov
+ 2021 16:47:35 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::3979:8e7:93ed:c0be]) by BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::3979:8e7:93ed:c0be%6]) with mapi id 15.20.4649.019; Mon, 1 Nov 2021
+ 16:47:34 +0000
+From: Jose Esparza <josee@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Roni Lund <Roni.Lund@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037304 /
+ Sleeth
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037304 / Sleeth
+Thread-Index: AdfPP9eAbmL5G31+S4CqOx3m+AtDlg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 1 Nov 2021 16:47:34 +0000
+Message-ID:
+	<BN6PR11MB4068758DD89F7B437F1DE089C98A9@BN6PR11MB4068.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN6PR11MB4068.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	76876410-20c0-458d-5dfc-08d99d574e0d
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BN9PR11MB5532:
+x-ms-exchange-crosstenant-originalarrivaltime: 01 Nov 2021 16:47:34.3872 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	76876410-20c0-458d-5dfc-08d99d574e0d
+x-ms-exchange-transport-crosstenantheadersstamped: BN9PR11MB5532
+x-ms-exchange-transport-endtoendlatency: 00:00:03.8639847
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 76876410-20c0-458d-5dfc-08d99d574e0d
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN6PR11MB4068.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	FqkL3ZkxRyZoXANeTsQ+vbVw/0KRtrrbOeGxX0g7INyndmUt5815S02Iaq3xq9WqPiQ4wz7cnqEdLaadUVRLOBMtQuPHEocaNuFk0IY0Yrc=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.019
+x-ms-exchange-crosstenant-authsource: BN6PR11MB4068.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	jxoybhp/Gwh0T9gJUQtBcqYRVp7o9iXsM6+jU/w14BtX8lpPWL/oGg9YrkHM0sTyNKqNjBFNiV9hUYBsrxUMDplYdwBiyCHTmP33QmpxcqjZ/kkx9xVFZPqgOYZNN9mVNumCxFs5N9M7L4iMI4EmoqzzXUZK/1caN+T6H4sK9bU+t3kQMG7ki86Dl+YxIHyUlE/jCkfPqZFupK1+RHboV4xfMJAAAYNFnkujqKGGggN9iPXnsgsAkQDQkGB7sfmJcnk30iU9pOEaNZvGiEiQILq5z+VwmprSbkCNxrmR+BSr8LAVI+umDkPq9rNRzNHhwPoRAHCZ9+DJ6yrmVZ3KRWZohbi2PLZTnjayxaNt/0BVrGSgSZmYAyhmyUm8sGZ4fbWhsbBTvZicOiA8MrL5tjjZe6eEkJudceKBxk3ejZ2JhXZ2gprZ7yFIG3R008Z2g3wIi0H+Uhx2PNJtJNgUNPHhavbwZnH8IgTVj2iEmXaJRkJu2wit2cingQzTWNt2nSFjt6Iw8ZmQlqVctveNK7FbVLXbZ47M66g+ZCxOW1gEhbdwklMZp5uXCOQhvMbIcl17u6ArMPq0UgjHGDLbWLbM1knt0ZlHcQKwvdPmv677VF2f7ORe3jiZCq4X5vz2Syeh7K+45YYuUT0AXwH04p5jwtv06qptHfXVrPn5Mlw=
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB4068758DD89F7B437F1DE089C98A9BN6PR11MB4068namp_"
+MIME-Version: 1.0
+
+--_000_BN6PR11MB4068758DD89F7B437F1DE089C98A9BN6PR11MB4068namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Joseph
+
+LO Last Name: Shuler
+
+LO Email: mshuler@primeres.com<mailto:mshuler@primeres.com>
+
+LP First Name: Christy
+
+LP Last Name: Kroft
+
+LP Email: ckroft@primeres.com
+
+--_000_BN6PR11MB4068758DD89F7B437F1DE089C98A9BN6PR11MB4068namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Joseph <o:p></o:p></p>
+<p>LO Last Name: Shuler <o:p></o:p></p>
+<p>LO Email: <a href="mailto:mshuler@primeres.com">mshuler@primeres.com</a><o:p></o:p></p>
+<p>LP First Name: Christy <o:p></o:p></p>
+<p>LP Last Name: Kroft <o:p></o:p></p>
+<p>LP Email: ckroft@primeres.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB4068758DD89F7B437F1DE089C98A9BN6PR11MB4068namp_--

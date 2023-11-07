@@ -1,0 +1,147 @@
+Received: from SA2PR11MB5084.namprd11.prod.outlook.com (2603:10b6:806:116::11)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 3 Jun 2022
+ 23:11:35 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by SA2PR11MB5084.namprd11.prod.outlook.com (2603:10b6:806:116::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.13; Fri, 3 Jun
+ 2022 23:11:33 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5314.015; Fri, 3 Jun 2022
+ 23:11:33 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042297 /
+ Tsykunov
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042297 / Tsykunov
+Thread-Index: Adh3ny3YrPs8e+xDRYuRG4n5vT9A1A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 3 Jun 2022 23:11:33 +0000
+Message-ID:
+	<BYAPR11MB28538D80D403E3650FF0524BFAA19@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	ea4ea645-e80a-4181-19c7-08da45b666c3
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA2PR11MB5084:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 03 Jun 2022 23:11:33.6304 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	ea4ea645-e80a-4181-19c7-08da45b666c3
+x-ms-exchange-transport-crosstenantheadersstamped: SA2PR11MB5084
+x-ms-exchange-transport-endtoendlatency: 00:00:02.0671441
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: ea4ea645-e80a-4181-19c7-08da45b666c3
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	XVKynCrycrEGxQqDlg5vfm9PNXHJSQRl/1LecLpUhleTNbkn1FOmAr+XiqBZ+bCqyCVTHh5nX3kmBcbGU3uJ/cr13kVCVkL3dkOLwJ/0Oko=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.015
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	CCHaTp69n0fw4Qnwl3JVBJ3z6xD7sNpkkkbZ3Ut1JDXDnZH4R1cpm3XTz9mxrqlZQz+AHw8z3BZ3zlTDVzEcmGd0OBApFLp20MKCwj4872P/h4lcTp0cjf3WpvzN4sp0gV3o6uW+O8UvZfTzY8QwfU3J0kXk945aTwAYt0GxZTCbZbMR6mTwRKbEqgM1J5OwqPXnqZGKG6AKpKs7r9MwQ/YSYNR+cegxwgvwq7A8DSIkddl2v7vZ9NSi2s7Iv57wt2P02bkPEo5qoVHZsLv1Uazfe5vVe2N6NmMqUKO8gX8qXSelRdOPhVCIoumnVfmTLxMgGrUGXFRNTAhcOU75fBK9aA7n2UXK//RFyWgaXVTL5OzwjbJVrlDOAMJEeh4Q5CgOHGjiUyP+5oz19gWDPBSe8HACcQ/4E4D4uQOC5n/bFvcFR0SqBdGjEZEDRkjEdR1Oj1564XrzOXX41ehaDEZBpxwRzgFc3HAozgmvxhctOQuzPa9yMsSDFeulvMJHdDiqGAWdfbW3FRuOdDvXTcQPY56mJLceEveOd42nkng4++j5kmY8foCTnOUpTeTD4cxgExmbt13ciXcZ7DwxRR6WUR3PFr2cYilFlqyON5gpWlXHhEVvIzcbnpnli6UGTkcZZkqEOHnJETPSS2DgAaN9hUupt4LSQusCrcPeKW4=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB28538D80D403E3650FF0524BFAA19BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB28538D80D403E3650FF0524BFAA19BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Prime Equity Financial Corp.
+Broker Company NMLS: 395946
+
+LO First Name: Matthew
+LO Last Name: King
+LO Email: matthew@primeeq.com<mailto:matthew@primeeq.com>
+
+LP First Name: Sonyette
+LP Last Name: McQueen
+LP Email: sonyette@primeeq.com<mailto:sonyette@primeeq.com>
+
+
+
+--_000_BYAPR11MB28538D80D403E3650FF0524BFAA19BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Prime Equity Financial Corp.<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 395946<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Matthew<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>King<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:matthew@primeeq.com">matthew@primeeq.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Sonyette<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>McQueen<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:sonyette@primeeq.com">sonyette@primeeq.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB28538D80D403E3650FF0524BFAA19BYAPR11MB2853namp_--

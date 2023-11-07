@@ -1,0 +1,142 @@
+Received: from DM6PR11MB4675.namprd11.prod.outlook.com (2603:10b6:5:2ac::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 7 Jun 2022
+ 00:13:10 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by DM6PR11MB4675.namprd11.prod.outlook.com (2603:10b6:5:2ac::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.12; Tue, 7 Jun
+ 2022 00:13:09 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::8476:5f6a:2a15:74bc]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::8476:5f6a:2a15:74bc%7]) with mapi id 15.20.5314.019; Tue, 7 Jun 2022
+ 00:13:09 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Bill Dennis <Bill.Dennis@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042178 /
+ Holland
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042178 / Holland
+Thread-Index: Adh6A0dfvOEKc2fNTy6moOBk+k2R4g==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 7 Jun 2022 00:13:09 +0000
+Message-ID:
+	<BY5PR11MB42436CB1D7D611C3FFE3CB61FFA59@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	edb8fecd-c719-49ec-5b00-08da481a80b8
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM6PR11MB4675:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 07 Jun 2022 00:13:09.1949 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	edb8fecd-c719-49ec-5b00-08da481a80b8
+x-ms-exchange-transport-crosstenantheadersstamped: DM6PR11MB4675
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9663268
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: edb8fecd-c719-49ec-5b00-08da481a80b8
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	94STrFPo37ywTDPAgYdHNi9YiBndl59+d3K4NFflegkM4c5CbqldXR09NI8bZ1WH04Mc1n+PY6NowmsJAq8x6p3OxlpNKrsP/RjiaAoBT6U=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	stImEXuwQReiqOWOcwgHcI2NZxLYLBEKMkMQfq7nVywfiUUa6nLZiPtHipRDc60RrvRtrJ+UXA4txFJRMr8owjo5gpnDFa7QzWnBpNc4J2zT+uyHYsVe3kWv9XAFBbUqUf5/vx3+uP8LRldwP/143cvqkPfpuk2+sxMddqjZPXa9dp/zDei98vAwLHJyhd/OFkJrlQ8cKQXnYyeUOLsr4cDd2oKFX6fIUxJ2Dae2dJauIJJw6geMtdt2hCirLxzK5Az/DWXoah8PHO/WU3c2x+BwFXAAFUAOVQPCYqpe4Gb7dkMP0hHahfTIoy9joVpDIGu4H6ocP1RKBhQbROYLGMuInJOQYuSpAO6X4N1Poe2NZkaYNaD8g92I/hfSAYJe7kAahL0JfK2fGJKoE8x640ZG5jZkH6GRfwL6nvLLEVCQmfkPaMay+OeOvVz2nQFjds6Cp0nXC0MLfRTui9lGWvjgRuCLkoePIx8v+efNxCE2aIuGxHdzpDqTr8DYP6YkduQnZ6e1PgXoh9rtj1tDra6INlVOEhcogkqnMc662hSKffi2e/YsQny+4uBj88fDjtqdra5L0JuMe8TOw1Z7pSJu6N/bmI72SvRnc4K6Q0hEj9qt/12s6uao2yrsBeWrUvCFbIcyWB5MQjNCggrZIxX5faP9/4ASgr6G0AGGunI=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB42436CB1D7D611C3FFE3CB61FFA59BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB42436CB1D7D611C3FFE3CB61FFA59BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Celebrity Home Loans LLC
+Broker Company NMLS: 2024027
+
+LO First Name: Monica
+LO Last Name: Centeno
+LO Email: monica@mortgagewithmonica.com<mailto:monica@mortgagewithmonica.com>
+
+
+
+
+--_000_BY5PR11MB42436CB1D7D611C3FFE3CB61FFA59BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:
+</span><span style="color:black">Celebrity Home Loans LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:
+</span><span style="color:black">2024027</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="color:black">Monica
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="color:black">Centeno</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="color:black"><a href="mailto:monica@mortgagewithmonica.com">monica@mortgagewithmonica.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB42436CB1D7D611C3FFE3CB61FFA59BY5PR11MB4243namp_--

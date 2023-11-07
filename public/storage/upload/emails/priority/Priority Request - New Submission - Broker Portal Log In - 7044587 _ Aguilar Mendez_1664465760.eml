@@ -1,0 +1,148 @@
+Received: from BN9PR11MB5387.namprd11.prod.outlook.com (2603:10b6:408:11c::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 28 Sep 2022
+ 23:08:44 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ BN9PR11MB5387.namprd11.prod.outlook.com (2603:10b6:408:11c::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.17; Wed, 28 Sep
+ 2022 23:08:41 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32%4]) with mapi id 15.20.5676.015; Wed, 28 Sep 2022
+ 23:08:41 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044587 /
+ Aguilar Mendez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044587 / Aguilar Mendez
+Thread-Index: AdjTjwyHuaZ93+xfTIWMwhxbH19tZA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 28 Sep 2022 23:08:40 +0000
+Message-ID:
+	<DM6PR11MB2828C3ACCACB44FA18056AE5FF549@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	f610a802-5bb3-4fa7-36b9-08daa1a66248
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: f610a802-5bb3-4fa7-36b9-08daa1a66248
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: DM6PR11MB2828:EE_|BN9PR11MB5387:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 28 Sep 2022 23:08:41.1576 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	f610a802-5bb3-4fa7-36b9-08daa1a66248
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	mgBFBQZjR8pthw69z1umJrzPBnl8yPE2/yliDNupK3zrH2KjkEO/+pEfE6R5blElb+QLzQPAA7irZsdS5pNzYW/Tbtbh3GPjPBTFJ5cv3ck=
+x-ms-exchange-transport-crosstenantheadersstamped: BN9PR11MB5387
+x-ms-exchange-transport-endtoendlatency: 00:00:03.3004075
+x-ms-exchange-processed-by-bccfoldering: 15.20.5654.027
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	JvupKaMMMY+qH+IH+3UAmPruQIcNKqkichcQi9xzmo3NQ5c5UyJg9bKkith0UjlonX7iMUO/wv8eIudNI1j1lu+Jq4u5ttIG/umpM7cFFh2qP32AnWfPcZgEixEq5FyJWB5WyM1c049rrUkaGPaVICuyg+pNRwhXNvY6VVyLJsr9uvSwGl8GPhclDPVR17dusaJdCGlEh5e+WlHrtP6w9yT1EoPFOjTw2yU3bXLy/xGZfuSvs/BljQ55rZXN2o04qWH2zlub/f9yzlo+v/HquGdEB/qvlBuHAfHIN72GFKhobWyV2PE3bs73tzwCa8tJ2g+D0BkVcPw7oAPUzLsMP75d9iu0ecHgHIMt8yOQ3e/tyLorClPBpLKEyRaW+nz9Wd92boJDCzzDzBAzogTIrQrVM5ZGBOn7ZAeMsm26N7/kPBCN3tXm/yb2S2IH37iNCL0kIvjV8GUipKns7A7ZHeKDPhmdRNhq21OnZ38yc4BLHaHh8KI6kcq18WuxeJ19F0m5T2sVZAKX+sRaEG2lPruQUMpuXnyFxYeaYiSDBc/EJt9/mCOvSt54PlydFxjKwioNLi1cGKzs13q1Tg7VSGPqLKAQkJKTfB/1IG0U9S5DSbxOODicGNx9ByrNNm8FMpM04NVPd56n2zT16Kmt8Dg989VLIMJGIkU8qy9tcxn5KlwnyDlJUSpqPst6/gK5hgIz+a9dbXAQOOaGs1iWTBFOYAD+81nwc8n6tiZ0Ze+pmfWUwuqIjZ6LB8vV+dobYxpbCAt2/C0TXEV6rn1WCA==
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828C3ACCACB44FA18056AE5FF549DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828C3ACCACB44FA18056AE5FF549DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: CrossCountry Mortgage, LLC, Tulsa, OK
+Broker Company NMLS: 1996452
+
+LO First Name: Shannon
+LO Last Name: Swafford
+LO Email: shannon.swafford@myccmortgage.com<mailto:shannon.swafford@myccmortgage.com>
+
+LP First Name: Debbie
+LP Last Name: Bray
+LP Email: debbie.bray@myccmortgage.com<mailto:debbie.bray@myccmortgage.com>
+
+
+
+
+--_000_DM6PR11MB2828C3ACCACB44FA18056AE5FF549DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Broker Company Name: CrossCountry Mortgage, LLC, Tulsa, OK<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1996452<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Shannon <o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Swafford<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:shannon.swafford@myccmortgage.com">
+shannon.swafford@myccmortgage.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Debbie <o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Bray<o:p></o:p></p>
+<p class="MsoNormal">LP Email: <a href="mailto:debbie.bray@myccmortgage.com">debbie.bray@myccmortgage.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828C3ACCACB44FA18056AE5FF549DM6PR11MB2828namp_--

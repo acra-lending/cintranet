@@ -1,0 +1,131 @@
+Received: from DM5PR1101MB2090.namprd11.prod.outlook.com (2603:10b6:4:51::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 18 Oct 2021
+ 23:03:21 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM5PR1101MB2090.namprd11.prod.outlook.com (2603:10b6:4:51::17) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4608.17; Mon, 18 Oct 2021 23:03:20 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4608.018; Mon, 18 Oct 2021
+ 23:03:20 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036938 /
+ Zarko
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036938 / Zarko
+Thread-Index: AdfEdEhX72lWQJPHQKGiU7X5AQYzBQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 18 Oct 2021 23:03:20 +0000
+Message-ID:
+	<DM6PR11MB2828C68FFD2B3674CB7FA652FFBC9@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	ac663613-896f-485e-8b82-08d9928b7abf
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM5PR1101MB2090:
+x-ms-exchange-crosstenant-originalarrivaltime: 18 Oct 2021 23:03:20.6479 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	ac663613-896f-485e-8b82-08d9928b7abf
+x-ms-exchange-transport-crosstenantheadersstamped: DM5PR1101MB2090
+x-ms-exchange-transport-endtoendlatency: 00:00:00.5030670
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: ac663613-896f-485e-8b82-08d9928b7abf
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1923;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	lT1Y0xhx7LY1v7XMDzgFie/+FpDry60UjBWI9HcpgeS9Q4nUQBG1K5zRXV4NElO/REynWo6j9cv+ngF4oWJbYq/ZyYWTXy0oO3LzM04OFrE=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	sO0mZWzhyh1LkkIW84AOZkAe1OlIpjvgZ65lQ6puRB8c9OUuJUWn0xAzQleOVtCkvA2WIBqgKH0k0VFWO6qjCPQuczLAygMNy+QBx0jnDyxXkeMFzKjO2uWpLmmkHSmz609QJsl/B0BiXY7XwTRkBKwhowEgc/si2UzxYPl8hDnNhKqYhevSKq9G+cfTRxQjEhlN3NMDAFIntgUq3Q0sAT4rzqITa7glocGi2u3Q/jZ2NpIAdoFW4DRjhuVX1Jji033xIShn+GZeMtYIFnUyzufEJ0W9gtQEhXZvDNu5QWrFNQsmsVMQsI+qZGCV4Ff9ZFyPvrQxxK7zBnH85+1Vv50vr8FlEq/IanXS2ARAmao69g3o1i58YCKyL8KuvypNWaYumdc1us434M/XSEqDZoJEexKhBOez7A45C+6C7zfi5gSDTbD4KPJ8y9g1T/f4BwcasYkUMNzA0LP+fepGOhrNYdzvWDkJyia00fAtzZqkJCVYlY/fvr3/I5hPTbo1SlqpoNwcBe35Xtw3PCMpmvrp7Iw/3CJStHrnQOeySdjw/sDdWla+YVOF1ayJKAyV/wj6otMC1KOcbNYz7gY8FRcvie1ZT+VOhC7N5U8hLIUjFzP3DY8RsZdb4zwmQMVIcyCSyNTaY/NoYHq2v+f+UXtGChj6VNduw6f9/7wc44s=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828C68FFD2B3674CB7FA652FFBC9DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828C68FFD2B3674CB7FA652FFBC9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Mutual of Omaha Mortgage, Inc.
+Broker Company NMLS: 1812925
+
+LO First Name: Bradley
+LO Last Name: Cullipher
+LO Email: bcullipher@mutualmortgage.com
+
+
+
+--_000_DM6PR11MB2828C68FFD2B3674CB7FA652FFBC9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Mutual of Omaha Mortgage, Inc.<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1812925<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Bradley<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Cullipher<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>bcullipher@mutualmortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828C68FFD2B3674CB7FA652FFBC9DM6PR11MB2828namp_--

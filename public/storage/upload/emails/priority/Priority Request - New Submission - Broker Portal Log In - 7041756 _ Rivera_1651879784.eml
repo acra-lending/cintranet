@@ -1,0 +1,138 @@
+Received: from PH0PR11MB5064.namprd11.prod.outlook.com (2603:10b6:510:3b::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 6 May 2022
+ 22:20:22 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com (2603:10b6:805:61::14)
+ by PH0PR11MB5064.namprd11.prod.outlook.com (2603:10b6:510:3b::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5206.13; Fri, 6 May
+ 2022 22:20:20 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::e020:330a:f846:786c]) by SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::e020:330a:f846:786c%7]) with mapi id 15.20.5206.024; Fri, 6 May 2022
+ 22:20:19 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Scott Kerns <scott.kerns@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041756 /
+ Rivera
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041756 / Rivera
+Thread-Index: Adhhl2ClH/1TfOI2Q+S2m9Wb22Kicw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 6 May 2022 22:20:19 +0000
+Message-ID:
+	<SN6PR11MB28615C1AB8DB7A5072F1CA2787C59@SN6PR11MB2861.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SN6PR11MB2861.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	92f44f25-0605-4341-15bb-08da2fae9b02
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR11MB5064:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 May 2022 22:20:19.7141 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	92f44f25-0605-4341-15bb-08da2fae9b02
+x-ms-exchange-transport-crosstenantheadersstamped: PH0PR11MB5064
+x-ms-exchange-transport-endtoendlatency: 00:00:03.1905608
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 92f44f25-0605-4341-15bb-08da2fae9b02
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:SN6PR11MB2861.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	btaBWfBKjpF2DN0v4nVqGLNJGuw3/8T6mA5g964Vw/Mj5je5tEYJ8XlbgkvzcGHY0VYmkTbbRYM4l1l45vW6rIiy3ogU8pAcpQzjCYoYFEA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5206.027
+x-ms-exchange-crosstenant-authsource: SN6PR11MB2861.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	BnN8lJtqULZm6OHIRQ2tCMkJuNKvfr3vJHSe++P0g8AxRRYSzFNcwoy6WPlXC1MS01F0cvKyB41NfIKJcqhwFaEyw6lz4GT4++veuRv5wlMdcEIZ7jJQfzi3ZrIgSYJAIC2eiWpcwrhRD8f7XvF+4A3HKUpfURctrU4+NTRkgOXq8QtOBx26SZNmRDwq+XP8kwEnmfqObaP25mlk2cAHDbfVae80gd4PkCBty0uI96SoOEpcT4k+ZCnJHqGjP/qMv1/0vmcrz1kkdFMEAhSuGJV8TAjW8JQo3e4jxS5bimAqPSePw21J65R/qEm0m3zvUlYmsvnVDeFTrh2hz1oWNDMmVtD0LcKLQXfl15ub3NSLY9NvHZY4G8A8nvptF+SS6tRRKR1Fp9emkapD+pztSV2FsxfXvThygzTgLzK/At0qCggp5cul/2UQC4/Rn3bo1a6ZBh1nafE7O26jR96hGI9+394In9bztAjdcHdE0cHdqLXYkipZTpEWGoiz/91NBd0dmipACe4nyDLTxZD2J8WSfPO8d3xfOy+eeBXVxzI1CNF0ca3n7xVTdUZLscvOGFIPUcRdUFb4eCFwigayqcx1cS4W1OJxK5Dx2JOIX8tMiyNqITiIPzet3IXv/sW0vTfCpPc+rUahC8jTewfJCQor04U+pYipeNq8XJxY2PI=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR11MB28615C1AB8DB7A5072F1CA2787C59SN6PR11MB2861namp_"
+MIME-Version: 1.0
+
+--_000_SN6PR11MB28615C1AB8DB7A5072F1CA2787C59SN6PR11MB2861namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Paul Blanco and Associates, Inc.
+Broker Company NMLS: 352390
+
+LO First Name: Emma
+LO Last Name: Cavazos
+LO Email: emma@pbnassoc.com
+
+LP First Name: Veronica
+LP Last Name: Aguilar
+LP Email: aguilar@pbnassoc.com
+
+
+
+
+--_000_SN6PR11MB28615C1AB8DB7A5072F1CA2787C59SN6PR11MB2861namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Paul Blanco and Associates, Inc.<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 352390<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Emma<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Cavazos<o:p></o:p></p>
+<p class="MsoNormal">LO Email: emma@pbnassoc.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Veronica<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Aguilar<o:p></o:p></p>
+<p class="MsoNormal">LP Email: aguilar@pbnassoc.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR11MB28615C1AB8DB7A5072F1CA2787C59SN6PR11MB2861namp_--

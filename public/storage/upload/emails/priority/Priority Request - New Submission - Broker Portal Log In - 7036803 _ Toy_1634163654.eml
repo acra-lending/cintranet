@@ -1,0 +1,134 @@
+Received: from BL1PR11MB5415.namprd11.prod.outlook.com (2603:10b6:208:315::14)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 20:53:40 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com (2603:10b6:208:13e::25)
+ by BL1PR11MB5415.namprd11.prod.outlook.com (2603:10b6:208:315::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.25; Wed, 13 Oct
+ 2021 20:53:39 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a]) by MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a%7]) with mapi id 15.20.4587.030; Wed, 13 Oct 2021
+ 20:53:38 +0000
+From: Clark Deremo <Clark.Deremo@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036803 /
+ Toy
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036803 / Toy
+Thread-Index: AdfAdEb6UJYMZwYORKCM9dCBdE81dA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 20:53:38 +0000
+Message-ID:
+	<MN2PR11MB401328CBDF1B5EFD9FD297D78AB79@MN2PR11MB4013.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB4013.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	b570be59-52af-4d44-c5c1-08d98e8b8863
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5415:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 20:53:38.7345 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	b570be59-52af-4d44-c5c1-08d98e8b8863
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5415
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2900384
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: b570be59-52af-4d44-c5c1-08d98e8b8863
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB4013.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	NIFGRhF3TsfwuuAi6irt0dao5x0gcbgHTWkYTZBmBq1dae/aGfU0d1IVGdoipUhFHE9coiEHN4RUozuBm7GmaB6kZIjlnnSl1DHD5fwkAdk=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: MN2PR11MB4013.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920034)(425001)(930033);
+X-Microsoft-Antispam-Message-Info:
+	eVyAJsmckRhXM4vcmt214JHVZlzJzAJXrImMxfY9UChFd9mejnlG8xmgekyrgPJFse18wyBOfM+59Ms15MU0L8vdcwDbtSbiwKi+Ku6mbYtu1otQfNIONi/pjT1148wE7z5eb3gjEVVu8dsNknnoBITpsVWC+ZjF/obI4tansidkP0iYidi63zuHRd8usrR1y0Lbj12gL8u/4X2QalU+H0fprSF2+AxJ0Z9OOEu4AAEsNleLLGCE4vXUKzjqqjnvmnVpTnZ4JldQR97C5XjeGrbde5hegl987/nJ0Zrvx7epQ/qJ0U/pQ4BQuOexmWLBXUhQhH6czgatZu5Tsxf5BTHXSNUeJrlnhrVah6XR1LLywt5c6RifLhxPGqWnnOvhDB9/woi9AQBp1Yi3hTJ+NfcPZ67oyGur7jpaOJhGbWsJ2p/XL6RPZIT1FhRolyvjk29JL0tf6yxwVqDrvwmXBsmmlVQvhBqxcejXrkdQtsKUeJF+ipiWvLLdwt1eGKsEmy7s9NYzVnLoDDt27COi6ZGTKguShc/Fb7yDZlf6YAwt6uQUUZ1M5Cl3uDa6m/uH6R5bP7i9KP2xFEdDDWPLTvfPZCkOxRobTK5xKoXmdmLWyx9V4dxFckuVETiBle2gr94wLxF7VqwTPoIe8EhxDNQiFF2mDCDR8A4w8TJC3MI=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB401328CBDF1B5EFD9FD297D78AB79MN2PR11MB4013namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB401328CBDF1B5EFD9FD297D78AB79MN2PR11MB4013namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Elaine
+
+LO Last Name: Roccio
+
+LO Email: ELAINEROCCIO@AOL.COM<mailto:ELAINEROCCIO@AOL.COM>
+
+LP First Name: Maribel
+
+LP Last Name: Aranda
+
+LP Email: LPCLOANPROCESSOR@GMAIL.COM<mailto:LPCLOANPROCESSOR@GMAIL.COM>
+
+
+
+--_000_MN2PR11MB401328CBDF1B5EFD9FD297D78AB79MN2PR11MB4013namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Elaine<o:p></o:p></p>
+<p>LO Last Name: Roccio <o:p></o:p></p>
+<p>LO Email: <a href="mailto:ELAINEROCCIO@AOL.COM">ELAINEROCCIO@AOL.COM</a><o:p></o:p></p>
+<p>LP First Name: Maribel<o:p></o:p></p>
+<p>LP Last Name: Aranda <o:p></o:p></p>
+<p>LP Email: <a href="mailto:LPCLOANPROCESSOR@GMAIL.COM">LPCLOANPROCESSOR@GMAIL.COM</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB401328CBDF1B5EFD9FD297D78AB79MN2PR11MB4013namp_--

@@ -1,0 +1,142 @@
+Received: from BL1PR11MB5285.namprd11.prod.outlook.com (2603:10b6:208:309::19)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 17:26:42 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com (2603:10b6:208:fa::18)
+ by BL1PR11MB5285.namprd11.prod.outlook.com (2603:10b6:208:309::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.15; Wed, 13 Oct
+ 2021 17:26:41 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7]) by MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7%7]) with mapi id 15.20.4587.026; Wed, 13 Oct 2021
+ 17:26:41 +0000
+From: Paria Azarisoreh <pariaa@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Saleena Walker <saleena.walker@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036140 /
+ Pirwani
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036140 / Pirwani
+Thread-Index: AdfAUAoWISqtonaNTDmoUXeAz/y0Zw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 17:26:41 +0000
+Message-ID:
+	<MN2PR11MB3839BE4B1FAEDBEED4EBE0A0B5B79@MN2PR11MB3839.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3839.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	05f8de35-a48a-475e-fd49-08d98e6e9f45
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5285:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 17:26:41.7467 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	05f8de35-a48a-475e-fd49-08d98e6e9f45
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5285
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8594479
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 05f8de35-a48a-475e-fd49-08d98e6e9f45
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3839.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	vGijrpVRqLnDu1nK5MGlJbmtFomA0FPczizJ1KIxHhfMhiIf30spM+8+ouDVQWJGGf3ZsPjka1XBob0w1008YrjdOZuOvu8uU7ZFeGOABEI=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3839.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(750132)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info:
+	VZSQ/AnvSPCRkbwA0I4Eb5cnu2GwkWEsTUKeXppH8/K4X4kJwFjhOciCKRnDR9IoPFeLvVadCRbX/ppYOh9lTnYNDm001lTSPJP7GtjTAIp+DjQbb/hlXl0hb1KXIKAqt8bPuyuRnG1QIZXgocJ/a0LuaeQsu6ilNkeqGZ6hPOFgudL/96+qKcEKQNnXByjXqM3dzGLVFmw6X+n1x+26Gkvc55ExNB7Zl5eTX738foZkzld9EVUsjhceRzXORt//QZgVJY4KLh26bAR2ab0ExjgQmkiX4cRecHs4AUYsskk0GE6J8o6fHi9HSSzfCwp2Srk8TmSZTdMFXZzniPy0VhNP6aSO5J6oEpNcCLhPkDNzW7G1u3W9nJU0V8GZDi8lEtYi75o6FYYP8OCx9n6c3jxg8QEM7mfL17NRFgp+LmB9gdnv3N2o+gVvVbCyHRv0FhuvLZd7TD2TKpaz6drUJB2oicv8v+bDyjJPRzOU95AOHqrWTV5rttdI5ilw6akIc34e2FLayCMnL8NQNvyT09nxK1vPJysXE5h2lU0LFZ7xxlc/SPtRS0e77ZcmMwV6IB+Y0b0jOXYKF8YYPUIdl41Dg1tGNFfBav+MC8ifAt68mkuNKzreD5G+si7PuzhLOXlAfjf/hrfiIrAPV6LtVes9LVq6IFEdBrf17niN1xU=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3839BE4B1FAEDBEED4EBE0A0B5B79MN2PR11MB3839namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB3839BE4B1FAEDBEED4EBE0A0B5B79MN2PR11MB3839namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Hamilton Home Loans, INC
+
+Broker Company NMLS: 200719
+
+LO First Name: Isabel
+LO Last Name: Pittman
+LO Email:  isabel.pittman@hamiltonhomeloans.com<mailto:isabel.pittman@hamiltonhomeloans.com>>
+
+
+
+
+
+--_000_MN2PR11MB3839BE4B1FAEDBEED4EBE0A0B5B79MN2PR11MB3839namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Hamilton Home Loans, INC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS: 200719</span><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;Isabel
+</span><o:p></o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;Pittman</span><o:p></o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>
+<a href="mailto:isabel.pittman@hamiltonhomeloans.com">isabel.pittman@hamiltonhomeloans.com</a>&gt;<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3839BE4B1FAEDBEED4EBE0A0B5B79MN2PR11MB3839namp_--

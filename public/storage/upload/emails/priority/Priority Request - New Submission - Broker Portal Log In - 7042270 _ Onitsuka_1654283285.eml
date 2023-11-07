@@ -1,0 +1,137 @@
+Received: from CO1PR11MB5041.namprd11.prod.outlook.com (2603:10b6:303:90::16)
+ by CH2PR11MB4341.namprd11.prod.outlook.com with HTTPS; Fri, 3 Jun 2022
+ 17:32:06 +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com (2603:10b6:406:b3::31)
+ by CO1PR11MB5041.namprd11.prod.outlook.com (2603:10b6:303:90::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.12; Fri, 3 Jun
+ 2022 17:32:05 +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa]) by BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa%5]) with mapi id 15.20.5293.018; Fri, 3 Jun 2022
+ 17:32:05 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Andrea Flick <andrea.flick@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042270 /
+ Onitsuka
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042270 / Onitsuka
+Thread-Index: Adh3b8CkTAw7QgURSi6dtKE86Vt/Ew==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 3 Jun 2022 17:32:04 +0000
+Message-ID:
+	<BN7PR11MB285049161BAB3A1A82FBF0C987A19@BN7PR11MB2850.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN7PR11MB2850.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a613eb21-9f1f-4fa9-4ac4-08da4586fa13
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CO1PR11MB5041:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 03 Jun 2022 17:32:04.9692 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a613eb21-9f1f-4fa9-4ac4-08da4586fa13
+x-ms-exchange-transport-crosstenantheadersstamped: CO1PR11MB5041
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2051193
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a613eb21-9f1f-4fa9-4ac4-08da4586fa13
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN7PR11MB2850.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	n+EtY95NwQnBmL3i7+fv1BSRS5/MmXgAkHB8f2ggfnrKV9489JUtjjd2eHvMWShKadivhQvZNBcPNyj2bh9FpVPnlm9D+GRA1n3CHYrID1c=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.013
+x-ms-exchange-crosstenant-authsource: BN7PR11MB2850.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	TX5F+GDa1I6T+95vxuIzKXI2Br5BwrXM7ZkjXZFv0G7TnIH86v/GHbIB3hgl8rJH28Fcxbe0f9tMucfe/JDjbKhBkEvb7N6enJN17i2AteQCPSsrEknRbcHZpMR8q1eukm5FqeTl5pKvte1r+d4tEbWkoHSIbgkidUjR1Vlihs1m1l4829CvTeVaMAbZ2kQUNHkVnRw3ep7E6tth+6yVp2lU/3a5o9HDIIbcGTbpLa9wQGn7M8GzSYCPXRouMWo1wxeTF0qFLaYM3I0C1EmXAKMAqOLCxYl5jbK43ubo0Fw9isQqkr3TaOQTbLLVcI4pUSxRKmU77NraEybkEGWJVZ5+MSHysybNcVImfjIP47x7hoZoObtRrtwIdk+kAQ8+DBGKT21zMqWhSXL3HwOiutVTQY2wYR8p8FieYqgk1yGUs6+HZJTY8kh40Z8AiyRtyB1iQxhxdJ7CxFuYWDYWFOgOm9vHREgrvbKVEf+yQT1x2UYtVNjxSJz2FFOMHwLIviE6G6TkfUy+smZAhVcv/u3UtMYSZNgiBQGWh4a75Ka61kUDBZHClekhB6oKHjpP8OUEGf1Ip5FcyjZuehelv9/wB0MbYIE0DWlOZVuFu8vvj9xPAAcRYorx4uUUzBGlgjHaoUTInSUU/N9d+XdQ0bkHnyHbd0jGkHDmL3DkQoQ=
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR11MB285049161BAB3A1A82FBF0C987A19BN7PR11MB2850namp_"
+MIME-Version: 1.0
+
+--_000_BN7PR11MB285049161BAB3A1A82FBF0C987A19BN7PR11MB2850namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Seraph Rates
+Broker Company NMLS: 391642
+
+LO First Name: Elizabeth
+LO Last Name: Grijalva
+LO Email: liz.grijalva@seraphrates.com
+
+LP First Name: Elizabeth
+LP Last Name: Grijalva
+LP Email: liz.grijalva@seraphrates.com
+
+
+
+--_000_BN7PR11MB285049161BAB3A1A82FBF0C987A19BN7PR11MB2850namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Seraph Rates<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 391642<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Elizabeth<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Grijalva<o:p></o:p></p>
+<p class="MsoNormal">LO Email: liz.grijalva@seraphrates.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Elizabeth<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Grijalva<o:p></o:p></p>
+<p class="MsoNormal">LP Email: liz.grijalva@seraphrates.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN7PR11MB285049161BAB3A1A82FBF0C987A19BN7PR11MB2850namp_--

@@ -1,0 +1,139 @@
+Received: from LV2PR11MB6000.namprd11.prod.outlook.com (2603:10b6:408:17c::12)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 20 May 2022
+ 23:42:11 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by LV2PR11MB6000.namprd11.prod.outlook.com (2603:10b6:408:17c::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5250.18; Fri, 20 May
+ 2022 23:42:08 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626%3]) with mapi id 15.20.5273.013; Fri, 20 May 2022
+ 23:42:07 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Lisa Ramirez <lisa.ramirez@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042055 /
+ Antoulinakis
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042055 / Antoulinakis
+Thread-Index: Adhsoxn690UFQkjTSTWwrPdKh0be/Q==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 20 May 2022 23:42:07 +0000
+Message-ID:
+	<BYAPR11MB28544778EB56BE9FD09A556187D39@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	73fece6d-b275-47c9-a7fc-08da3aba5a38
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: LV2PR11MB6000:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 20 May 2022 23:42:07.8180 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	73fece6d-b275-47c9-a7fc-08da3aba5a38
+x-ms-exchange-transport-crosstenantheadersstamped: LV2PR11MB6000
+x-ms-exchange-transport-endtoendlatency: 00:00:03.8569989
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 73fece6d-b275-47c9-a7fc-08da3aba5a38
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	8IBcDVjDsIbSkmHEIdcFdWQVFi6bNt9+SeAi3rdnjUnF4KQ5+3SpZJxdUK/+dZh3QSejueB7KV6B1DM7bjEGj5vgM8Nc+YnabhmjvB5Nhi4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5273.014
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	lP3JzB/ELXyfMA2hmrdeEUr6s3JtHqXjU/67RwSbJOJdKmkuW6/V4Tj3g8JQ5zAdnop5xb2zIBJXwaQ2tI7fxjJXkB1UyqEp+v59WK56SSyTDCgd6HuAoJIql07wrJ0Brl4hBpUvdF2tFfzWgU1E+ckjEyggpH1f2pn59ntyoTQp5tXI1+TZdGvNg0/gEnls9EpaQNaFFzZq3m6EvpBUDE3hpQmozuS9eUX0xTI7f9tH3icrrhLLo+9IaYZxXcEY3BG37o/OYpqlwsKVwsxtiOmVEFhm603aGzWzM9qu030074W3IM8DZ8a3d0O5gBqW2GetcIAQO91zbT5cu1nNKg2tESktGLY3DDk6z7H2joo7/kSr2wcNoqTpVYw5086YK/wruBe+5JzqyYSukHcWnrLdjZ+bIdpFT7pc+YsjiyXBzYR13VNY0sH+DfA3e4eCirR1Pk73GrssbsEzBCH2JPx6+q1gkL1CrZMhbGozzm7f/NUtYYPeAVx53hLyVnpSmUEGIR37Rjjg59V7zh9wK+dizh0BB4WFTNqWTPERevfEhaqMsSY2nnd/tJ/p72P+Yf3UmRkCiPF8ypRw0sJBDo1D2e15/1D9mTqzErEoHrEUTEFi5ejOfHSGCflTUgDPvE+LyZWYmjnH8+grRjs6gvnG5sxvQ7ZyEbzHRDs7B94=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB28544778EB56BE9FD09A556187D39BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB28544778EB56BE9FD09A556187D39BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: CrossCountry Mortgage, LLC
+Broker Company NMLS: 1987668
+
+LO First Name: Carlos
+LO Last Name: Unzueta
+LO Email: carlos.unzueta@myccmortgage.com
+
+
+LP First Name: Daniela
+LP Last Name: Buffington
+LP Email: daniela.buffington@myccmortgage.com
+
+
+
+--_000_BYAPR11MB28544778EB56BE9FD09A556187D39BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: CrossCountry Mortgage, LLC<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1987668<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Carlos<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Unzueta<o:p></o:p></p>
+<p class="MsoNormal">LO Email: carlos.unzueta@myccmortgage.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Daniela<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Buffington<o:p></o:p></p>
+<p class="MsoNormal">LP Email: daniela.buffington@myccmortgage.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB28544778EB56BE9FD09A556187D39BYAPR11MB2854namp_--

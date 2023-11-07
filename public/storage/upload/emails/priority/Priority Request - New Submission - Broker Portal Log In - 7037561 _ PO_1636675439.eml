@@ -1,0 +1,130 @@
+Received: from SJ0PR11MB5070.namprd11.prod.outlook.com (2603:10b6:a03:2d5::13)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 11 Nov 2021
+ 23:55:42 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com (2603:10b6:a03:7b::23)
+ by SJ0PR11MB5070.namprd11.prod.outlook.com (2603:10b6:a03:2d5::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4690.18; Thu, 11 Nov
+ 2021 23:55:42 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::603e:52ed:928e:b33a]) by BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::603e:52ed:928e:b33a%5]) with mapi id 15.20.4690.020; Thu, 11 Nov 2021
+ 23:55:42 +0000
+From: Mayra Mendoza <mayra.mendoza@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Tom Esposito <Tom.Esposito@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037561 /
+ PO
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037561 / PO
+Thread-Index: AdfXV3xi6LQCI6NLTYilst+shevuZA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 11 Nov 2021 23:55:41 +0000
+Message-ID:
+	<BYAPR11MB3461B6E5980F10AD6331CD3EF9949@BYAPR11MB3461.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB3461.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	39c8a488-c4a5-4eb7-b60d-08d9a56ec504
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB5070:
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Nov 2021 23:55:41.8862 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	39c8a488-c4a5-4eb7-b60d-08d9a56ec504
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB5070
+x-ms-exchange-transport-endtoendlatency: 00:00:00.5261909
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 39c8a488-c4a5-4eb7-b60d-08d9a56ec504
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB3461.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	IlP+jMUHYeSRtsY+58uQTC3wg5ylc8FAaoUkcXlJroFvZeh/jOw+8gzZ8RsoHxknYFAPgcUJkBedQXOOrAG3hROvvATKg+cmvz7ORF/aLsA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.016
+x-ms-exchange-crosstenant-authsource: BYAPR11MB3461.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930096);
+X-Microsoft-Antispam-Message-Info:
+	yUk5gHROsldPzJUB9uL6WIUaVsBxVBz0FHQqdoH225WnEEGhiOSjcLdn0bti2Zxy5yA6tK/GxKCnt3q/wRGkZnG9nLZ1yQ7cKApaY3WWLgCtEVnmAtzk3IPlfOKTxfkkeP3hOJFef7n5ml6MSWadF7xNdOTTjWsUJdn/EOXUf4VQUgw2wVE026tN3JhKN6ktA0rC8FjnNQ2E3AH0lZOb7XcIYuGzwHxtLNxaeEXQ6ozyH2qYPwDefirZ+Ci+81SKFC6VKe3oXiDs7MtH6f4AElcR1hsUK/mDGE6kDCI0Nhoo39CLmhS5e/c6+Qqzageqws63bO8/y790xqnp7jJQ7YDvXpP3H7UqNgs9w43IMiq1ZGx8cNA6KzsBRaVm+ZEDPB0ZSd0GOLPHlN/FCarugT223D6hv6xic5189BuuD5R5prOyN7wwPjuoVH4LNyZuci4YjJgU2Wsxsug20nvXHfDwnoYlgVukZLSXte3bROiAEyKqOT7RmkV0iU/WIM1fX6wQc/Djbkwj4LS5J4+XopUNBEC070QDq3GhrBE25CboFZ4k48AcL1bwl5A0wiEr0MmBSfSjId1Ho3wFBx7ukCbpbWQs5CO1Nn0TSd5W3J+bUhV4LxaFnT8y9aCvx8MCyMT67w2b055N2yIiRJQF40/nBmSkrSry+P1KMQg85LI=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB3461B6E5980F10AD6331CD3EF9949BYAPR11MB3461namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB3461B6E5980F10AD6331CD3EF9949BYAPR11MB3461namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Joseph Dio Holdings Inc
+
+Broker Company NMLS: 1858423
+
+ LP First Name: Alvin
+
+LP Last Name: Adrada /
+
+LP Email: ALVIN@HOZOROLOANS.COM
+
+--_000_BYAPR11MB3461B6E5980F10AD6331CD3EF9949BYAPR11MB3461namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+/* Style Definitions */
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Century Gothic",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company Name: Joseph Dio Holdings Inc &nbsp;<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company NMLS: 1858423
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">&nbsp;LP First Name: Alvin<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP Last Name: Adrada /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP Email: ALVIN@HOZOROLOANS.COM<o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB3461B6E5980F10AD6331CD3EF9949BYAPR11MB3461namp_--

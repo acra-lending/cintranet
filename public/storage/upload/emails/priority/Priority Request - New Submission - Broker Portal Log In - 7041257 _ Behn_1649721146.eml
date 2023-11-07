@@ -1,0 +1,141 @@
+Received: from SJ0PR11MB4847.namprd11.prod.outlook.com (2603:10b6:a03:2d9::8)
+ by CH2PR11MB4341.namprd11.prod.outlook.com with HTTPS; Mon, 11 Apr 2022
+ 23:29:32 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com (2603:10b6:5:1da::17)
+ by SJ0PR11MB4847.namprd11.prod.outlook.com (2603:10b6:a03:2d9::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.29; Mon, 11 Apr
+ 2022 23:29:31 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::a52f:ab3c:ad4b:c3e1]) by DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::a52f:ab3c:ad4b:c3e1%7]) with mapi id 15.20.5144.029; Mon, 11 Apr 2022
+ 23:29:30 +0000
+From: Jacob Hayden <Jacob.Hayden@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Scott Kerns <scott.kerns@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041257 /
+ Behn
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041257 / Behn
+Thread-Index: AdhN+6IY2/TDD4ljQfuXgL/tqQUl/w==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 11 Apr 2022 23:29:30 +0000
+Message-ID:
+	<DM6PR11MB4507C97BA2A54E415DE080BB93EA9@DM6PR11MB4507.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4507.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	e4ab9501-fc5a-4aff-a039-08da1c1320fd
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB4847:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Apr 2022 23:29:30.9014 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	e4ab9501-fc5a-4aff-a039-08da1c1320fd
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB4847
+x-ms-exchange-transport-endtoendlatency: 00:00:01.7609760
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: e4ab9501-fc5a-4aff-a039-08da1c1320fd
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4507.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	eHCmRXaHNwhhMLZ1tHYE4q3dENBTGADELxb9xdJZFSqo6x6qdbEG/3XJWB8GKM+t5YFbGi44W3SkFXfxUqcig+p+HxVbLf4HRmpKxcxNEn4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5144.029
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4507.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	htBG96dRP5ohrboPtWIqSOISfDhKjMSufgVGvdFakfOThW5aodyzxCy6RmhIsxp+4E1okQUBJ7V9KGnQdPIIgJnR/rWY8JauHYVwFNpjfNVuraPJuPjDmaGLW35AkSjbCUNSYkHvQUdOqhb5nU6BvDYGvj8E174i2a/pdsmOseZfhOCj+Hwx/xFnayN8w67xk80x2FRDcXTcK3U7PMmEMypTFK4CjC+haC7CH1LjtTE2914jRB1+aHoERm/WGBqcG/zCEBpjPHYLCMEvMIbFgagjV5T3v1ymHI7G7beniXc9wUIamk0+L1Spm8dMXZ7MT3tolLd1kMjbQsFwk7k9jacOI7Bl7MWLJ0Gwqq/Zzl3gyk+t8TlWVjcGYtysZeP/lZ7+nUrx5avhx4di3OGRP97qBvaZcKfLdHLx7C4HYCGsZfDZPiLbodMgEMmm2P6jKFqa4i+qo9kZowZqnK/9pFv+PapxWEVdtGh52o/ES8PJsogZm+j6CKtCN1VXg/S0GGnzVPTb48g8bEIKTtDnxC0LtjRpzdK44dwpg97U+tR5o7Qf7niZ6u31eSHyGx4++dJ/OCzOVSssS8P2ax1gYJGG+GNvTKrWQsYSX7PNjKqXp526pONR1f5kC6dK6d/PnLPjoN6HMhNwGd/nm8zfHIrA5lQUSJKLtGlgsXp2Rvs=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB4507C97BA2A54E415DE080BB93EA9DM6PR11MB4507namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB4507C97BA2A54E415DE080BB93EA9DM6PR11MB4507namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Augie
+
+LO Last Name: Iacono
+
+LO Email: augie@revolutionmortgage.com<mailto:augie@revolutionmortgage.com>
+
+
+
+LP First Name: Sara
+
+LP Last Name: Weinhold
+
+LP Email: sara@revolutionmortgage.com<mailto:sara@revolutionmortgage.com>
+
+
+
+
+
+--_000_DM6PR11MB4507C97BA2A54E415DE080BB93EA9DM6PR11MB4507namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Augie <o:p></o:p></p>
+<p>LO Last Name: Iacono<o:p></o:p></p>
+<p>LO Email: <a href="mailto:augie@revolutionmortgage.com">augie@revolutionmortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Sara<o:p></o:p></p>
+<p>LP Last Name: Weinhold<o:p></o:p></p>
+<p>LP Email: <a href="mailto:sara@revolutionmortgage.com">sara@revolutionmortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB4507C97BA2A54E415DE080BB93EA9DM6PR11MB4507namp_--

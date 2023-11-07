@@ -1,0 +1,148 @@
+Received: from MN2PR11MB4566.namprd11.prod.outlook.com (2603:10b6:208:24e::16)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 28 Sep 2022
+ 21:55:51 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ MN2PR11MB4566.namprd11.prod.outlook.com (2603:10b6:208:24e::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.17; Wed, 28 Sep
+ 2022 21:55:49 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32%4]) with mapi id 15.20.5676.015; Wed, 28 Sep 2022
+ 21:55:49 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Saleena Walker <saleena.walker@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044583 /
+ Flores Espinoza
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044583 / Flores Espinoza
+Thread-Index: AdjThPvkWl16QeHNR1+fkHEcOQKN7A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 28 Sep 2022 21:55:49 +0000
+Message-ID:
+	<DM6PR11MB28287CDF03A375FF2152371FFF549@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	11fa12b7-1ba8-4877-043c-08daa19c34a4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 11fa12b7-1ba8-4877-043c-08daa19c34a4
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: DM6PR11MB2828:EE_|MN2PR11MB4566:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 28 Sep 2022 21:55:49.5855 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	11fa12b7-1ba8-4877-043c-08daa19c34a4
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	R+k+Zm862Gd8bLMKONLPH+xVqwkSqGQdTSuKxA0c2YpXm+b9Vkw7Up9kHjknZKkqUaTCORVxH7dNL0YXqQp1tKPLrajs/YSqJjopySOyQUQ=
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR11MB4566
+x-ms-exchange-transport-endtoendlatency: 00:00:02.1818771
+x-ms-exchange-processed-by-bccfoldering: 15.20.5654.027
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	6FYFRso7rMIr64qkCSSI6NF0GrITI7YbZCD9Y7Enlvb8gibs3Wc7qDudzPRVQu2jrX2C9olvW7rTA10C7I5gpYaA34TMVXl8sV3uXPKwMZxB/AuJZVKL8Ue86p1jdb2LWFBGbgiV4eXmQcM3ZVYezeCqo+wPj+EKTtCcBl4TvPt6Nv26SC12ZWh+TESQk+LOIZk1U51/Emj+wSrFoZ2jRfc+tNjak0qyecHJjKDZp6aZEoXonolRdtDa1ihxbEcyhsiRT82AmbJLxa4cAwnxbKiYDWrt6m2L/7XrvT5yFVNArYh1YeQZbIF7Lt8fDRGMFsCSr0WiBLqgsBnPtE4YWn7l5ZSivpqfps2iCrh30T2Ymfv64pu7nfTkkMJxctncge1zx3sPNvZXanwnUhTCW6VmgyMiJclOY5O3xp62YIoNQBkzmBmq6uN9sDXNS1LXNC+kw6n2U+Q70LU9Vv96rCuP3sYK69OI59mjHfOCccaf3IuaVAMBUG+JkkJuIRBBTC1WgsmbSOxsOWEN/SIQMMpz5z+8I259ABOk7ZCmgzA2Rfbks8qTni7JdS/9dZQQdgFXz1uFR6SufmDMFiYzYV07nC0ZVYCbUlrbVrrjlfd4OzEocH6oSc4kcAgUZu8MveXaeKAfuGtNVQUqdxb3LrmOIAgzk5xOvR2ou1kSQTSIx3UzKHcBjcwhI5OJsU0LX4EXstLf8bG5/IvU0DkCh3dst13cSBPdlJ8tIFSyO6lkBqmLF9odKRA4PzldX5Z1mZLWSDIVBDJW1r6Fz46bcQ==
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28287CDF03A375FF2152371FFF549DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28287CDF03A375FF2152371FFF549DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Gold Quest Group, LLC
+Broker Company NMLS: 212990
+
+LO First Name: Veronica
+LO Last Name: Montgomery
+LO Email: veronica@goldquestgroup.com<mailto:veronica@goldquestgroup.com>
+
+LP First Name: Erik
+LP Last Name: Ortiz
+LP Email: erik@goldquestgroup.com<mailto:erik@goldquestgroup.com>
+
+
+
+
+--_000_DM6PR11MB28287CDF03A375FF2152371FFF549DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Broker Company Name: Gold Quest Group, LLC<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 212990<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Veronica <o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Montgomery<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:veronica@goldquestgroup.com">veronica@goldquestgroup.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Erik <o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Ortiz<o:p></o:p></p>
+<p class="MsoNormal">LP Email: <a href="mailto:erik@goldquestgroup.com">erik@goldquestgroup.com</a>
+<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28287CDF03A375FF2152371FFF549DM6PR11MB2828namp_--

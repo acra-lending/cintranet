@@ -1,0 +1,137 @@
+Received: from CY4PR1101MB2264.namprd11.prod.outlook.com
+ (2603:10b6:910:24::15) by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS;
+ Fri, 25 Mar 2022 22:42:10 +0000
+Received: from DM6PR11MB4531.namprd11.prod.outlook.com (2603:10b6:5:2a5::19)
+ by CY4PR1101MB2264.namprd11.prod.outlook.com (2603:10b6:910:24::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5102.16; Fri, 25 Mar
+ 2022 22:42:09 +0000
+Received: from DM6PR11MB4531.namprd11.prod.outlook.com
+ ([fe80::b03b:b58f:ea2d:f1]) by DM6PR11MB4531.namprd11.prod.outlook.com
+ ([fe80::b03b:b58f:ea2d:f1%5]) with mapi id 15.20.5102.019; Fri, 25 Mar 2022
+ 22:42:09 +0000
+From: Saul Gonzalez <Saul.gonzalez@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7040964 /
+ Mann
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7040964 / Mann
+Thread-Index: AdhAmWPFTr1a9X/xQEOXKyvPiy7GxA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 25 Mar 2022 22:42:09 +0000
+Message-ID:
+	<DM6PR11MB4531F99D1D4C9C36FE100401EC1A9@DM6PR11MB4531.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4531.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	86b7082b-24a0-4b8e-c36c-08da0eb0b24c
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CY4PR1101MB2264:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 25 Mar 2022 22:42:09.3661 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	86b7082b-24a0-4b8e-c36c-08da0eb0b24c
+x-ms-exchange-transport-crosstenantheadersstamped: CY4PR1101MB2264
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0884206
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 86b7082b-24a0-4b8e-c36c-08da0eb0b24c
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4531.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	lNjkJXVDblK7EWwfqqLpZKbdiCRJu57F6hW2QsiBpkoDSwxpDGLOdNM1wda7kGWQrY1sZ8QVssyLd87AtaGLtpTSCAw5M3IyuCZ625jD6vc=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5102.018
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4531.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	KE1P7xuzTAugAofAFU4sFxsccKKEllzFr2nDk7L4FaTILTAmwrX8NWCKttKqpV1qc3x8txKgw8pbleaHl8iWuKs5K18Lg1rHs7zCjTRGzx8t9dpx2qMv6Z2wO3OpLqQSMNVJlvwI7riAvQF6NnJnHBkdCAoiHHJZ909G0AmU8SpfiwHLjNYa13zSojflzs3aMJHS6BFuVlxxHlRYs5eDWmBG7a0uJFqfCkAqOuc4aa7tfHNixYdyTJvd2Z1IIOxzHrXDEXAb/ELFK/srtBz4YhdCGACd8IL9rNY/YQWkhAy7CUW7kFVsn+eJTNInUn0ZltKiYPO6KlF0SF2EHD8NxTJ+pi5SL7NlNUuHWe8hfDRY7+4sTC/W5yaNLfZtOEWb+F0I/g2YeUh70LOQ82LO1SoHdbfLcJzVJWBxAIDaDwgFe2/N+c/Lk/G4ga4HpyAzAijebeSkcXmZ0Sw3kGd8+Nf1P4/5O25NrxkPkGCxwo4hsE21+E1prqFgZoOvrDZscRp/83oPWk9ByUolw7HFoSxFwdaZF0lr/xynxEFAQUH88M0yEnozWhbOcXEhWgXeYEyQENlhf3ENAgA6twGDZld0gTBekl8LH0CXlLo766RMHy2RVKxP/92KMCov2Q8oqj1gagzYGMCy5iuoyQ6DJu0MaTQjFCZgXzSqda3X9ag=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB4531F99D1D4C9C36FE100401EC1A9DM6PR11MB4531namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB4531F99D1D4C9C36FE100401EC1A9DM6PR11MB4531namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Portal Login:
+LO First Name: Christine
+LO Last Name: Baratoff
+LO Email: cbaratoff@loandepot.com<mailto:cbaratoff@loandepot.com>
+
+LP First Name: Nellie
+LP Last Name: Quisol
+LP Email: nquisol@loandepot.com<mailto:nquisol@loandepot.com>
+
+--_000_DM6PR11MB4531F99D1D4C9C36FE100401EC1A9DM6PR11MB4531namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Portal Login:<o:p></o:p></p>
+<p class="MsoNormal">LO First Name: Christine <o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Baratoff<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:cbaratoff@loandepot.com">cbaratoff@loandepot.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Nellie<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Quisol<o:p></o:p></p>
+<p class="MsoNormal">LP Email: <a href="mailto:nquisol@loandepot.com">nquisol@loandepot.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB4531F99D1D4C9C36FE100401EC1A9DM6PR11MB4531namp_--

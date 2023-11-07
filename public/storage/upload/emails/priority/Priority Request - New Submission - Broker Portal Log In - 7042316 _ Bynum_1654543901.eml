@@ -1,0 +1,138 @@
+Received: from DS7PR11MB5966.namprd11.prod.outlook.com (2603:10b6:8:71::6) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022 19:21:08
+ +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by DS7PR11MB5966.namprd11.prod.outlook.com (2603:10b6:8:71::6) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5293.19; Mon, 6 Jun 2022 19:21:06 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5314.015; Mon, 6 Jun 2022
+ 19:21:06 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Kellie Bocanegra <Kellie.Bocanegra@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042316 /
+ Bynum
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042316 / Bynum
+Thread-Index: Adh52k2888QSdBpdTQ+Gn5Je/2FZbA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 19:21:06 +0000
+Message-ID:
+	<BYAPR11MB285319A8F6CD91B71B45FCFBFAA29@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a62dcf70-a6e7-4cc2-0243-08da47f1b454
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DS7PR11MB5966:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 19:21:06.4285 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a62dcf70-a6e7-4cc2-0243-08da47f1b454
+x-ms-exchange-transport-crosstenantheadersstamped: DS7PR11MB5966
+x-ms-exchange-transport-endtoendlatency: 00:00:01.7095868
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a62dcf70-a6e7-4cc2-0243-08da47f1b454
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	/6hrfLFpBMpY/BPJZyBpsYTBKooSKwjlFpvyZVdsfttGM3EsFqDO6KrRNlQTg/q0rU+1498rkQ6sVWIVjBo5QwJeJMrWg1J7LnKazuDlcUw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	s5isBCnDlZzBLpP236hujsJXeQzTAznQOU2CH21TAC/Zzri1uq0Kn5RLGCo58Q2MXz4s3nQJcH/eOpiRjmHTJf0V9T8LKpvNoYg/Kui0MQrHa8JisGFj7FLGRprfvgHdSxcsxbTjZGrSrSLmuSWWsBlWja4XA/I+/seSP3Lu8wiwtyiaZnaZihSVM9rxEL6kqW4rEDqLQrwXaCzhB9W6rvSkkO3yvk7UeztHQl2Y6AaEUmSHGLZnfviQ2lh4b6255aK+ZhSUivWQI4P2I+vdrpLRK9k8UnZMmBSsYQW47q5ChU9hW+8i7qlDmOa6/PRaA5jVwsDOSmnmjwzPMUwuyKnEeMp2uyk+BwuREPjuykY7kM7c9ghB79zfo6rV4ba92P0m1EdV+YXTyauLDBdiUdOnE+R10bbk7tCCradEY8bAMTvn8wW8TXgdpOTtAGOnuV9iabdfqIx96pVrVOb1w695lBe7kPOrN8M6eAYuONI9ATvZmodv0t6N6l9gvUgpSJKG25wNpAb+LH3eJAZb8WFDgWQClgjI02ES1XjOpLzNht8/8umVVCXKhJQMH6Yd6Dcbc0z/vx44XHceE97ZnrIOpZtUwYkY66ebWWc/OAw5t7HOl1ywoqfw552KjRMORy5ArWUwQTdELbPxk9/VTEcpP24b6cU3ru/x2u3q6pU=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB285319A8F6CD91B71B45FCFBFAA29BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB285319A8F6CD91B71B45FCFBFAA29BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: LeaderOne Financial Corporation
+Broker Company NMLS: 1620442
+
+LP First Name: Yaneth
+LP Last Name: Damas
+LP Email: yanethdamas@leader1.com<mailto:yanethdamas@leader1.com>
+
+
+
+--_000_BYAPR11MB285319A8F6CD91B71B45FCFBFAA29BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> LeaderOne Financial Corporation<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 1620442<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Yaneth<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Damas<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:yanethdamas@leader1.com">yanethdamas@leader1.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB285319A8F6CD91B71B45FCFBFAA29BYAPR11MB2853namp_--

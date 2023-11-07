@@ -1,0 +1,141 @@
+Received: from SJ0PR11MB4799.namprd11.prod.outlook.com (2603:10b6:a03:2ae::19)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 8 Apr 2022
+ 19:58:18 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by SJ0PR11MB4799.namprd11.prod.outlook.com (2603:10b6:a03:2ae::19) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.26; Fri, 8 Apr
+ 2022 19:58:16 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::3ddb:919c:84bd:a5e2]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::3ddb:919c:84bd:a5e2%4]) with mapi id 15.20.5144.022; Fri, 8 Apr 2022
+ 19:58:16 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041225 /
+ LEWIS
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041225 / LEWIS
+Thread-Index: AdhLguNNlEoxKafjRiSRjo6EdPsHKg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 8 Apr 2022 19:58:16 +0000
+Message-ID:
+	<BY5PR11MB4243C8F0A432A3D650030C72FFE99@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	4d1cdbeb-60b6-444e-1253-08da199a1f63
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB4799:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 08 Apr 2022 19:58:16.7653 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	4d1cdbeb-60b6-444e-1253-08da199a1f63
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB4799
+x-ms-exchange-transport-endtoendlatency: 00:00:02.2235203
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 4d1cdbeb-60b6-444e-1253-08da199a1f63
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	wfJZlQq8QrShJSlAFlrL46ZpJsP6bp8Qs9DekY6fv7YQcK49S/nyDFPi5fZbUtE0kO3Ro4EtNaqj9rA7tNSMsZ91sswrkgZEeSbvwuveFIk=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5144.026
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	hFO5eskK6YETlF/H7aEghEegdpF7s26xa04mwqLiJRAlxG26TAnfQBrE0CRjoIW9SEVvvQ8CGxojWMtY6l0v90RiB7wkxRp/4/1cr+HFC2CenoHqQDcq8AMfBdTqDh/gnKw7vfyxKEMhReL2YRtQtP08tMehWMfZGyxvd80mrvy94YG05EHmrx6TIb/deRApFlwhedHWA4rxc6r+4rl+8KTkBxdjkcQa0bsdYIIrmH3QzeZlPYLTqua2UHCyaq8m78I8o39Q87EiSQRsc0KVxTJWCfrCup9xUO2Smke2QZUNPrS9pcSPCW5d3dHx3jFdKLZmiStf/W7qvBQfEH3JzqeJ53aM7XAFxYmgh1ZsGwKWNyDilKEqX76kjR2yi20hOynKu2x0mxJ7CcQLN0LiJGA8GFv2Zf4IhE9HdW8p56zoDu0syauzqpqS2HxEu3nB89F3kUdMAXlS1sS1dMVkZ1ISmVUdiEHSTIxCSGSU0TkDcGGNKpuf4fb32fDr8fxy++Icuckrzazjqwzwfd56L0KzyCnvc0rYmlwDAValAc3JkArhpruYS7RHAe+MPfyGXHqveFOiiGrZWMUWNr3RmOZhzRanj3AXH0PEUSBXLN7sXTP1Rq6Buz/Q/GDQFxdFCOKUEcvniEm9CzC0/O8mVoNPefyvLljVj9d/9y0d6Ps=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB4243C8F0A432A3D650030C72FFE99BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB4243C8F0A432A3D650030C72FFE99BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: GC Financial Services LLC
+Broker Company NMLS: 996877
+
+LP First Name: KATHERINE
+LP Last Name: LUKE
+LP Email: KLUKE@GOLDCOAST.FINANCIAL<mailto:KLUKE@GOLDCOAST.FINANCIAL>
+
+
+
+
+--_000_BY5PR11MB4243C8F0A432A3D650030C72FFE99BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:
+</span><span style="color:black">GC Financial Services LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="color:black"> 996877</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="color:black">KATHERINE
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="color:black">LUKE</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="color:black"><a href="mailto:KLUKE@GOLDCOAST.FINANCIAL">KLUKE@GOLDCOAST.FINANCIAL</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB4243C8F0A432A3D650030C72FFE99BY5PR11MB4243namp_--

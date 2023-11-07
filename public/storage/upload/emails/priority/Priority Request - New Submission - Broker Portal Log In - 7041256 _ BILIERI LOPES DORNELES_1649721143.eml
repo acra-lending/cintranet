@@ -1,0 +1,145 @@
+Received: from MWHPR1101MB2157.namprd11.prod.outlook.com
+ (2603:10b6:301:51::10) by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS;
+ Mon, 11 Apr 2022 22:41:16 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by MWHPR1101MB2157.namprd11.prod.outlook.com (2603:10b6:301:51::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5144.29; Mon, 11 Apr
+ 2022 22:41:15 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::a5a4:521b:46f6:c521]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::a5a4:521b:46f6:c521%3]) with mapi id 15.20.5144.029; Mon, 11 Apr 2022
+ 22:41:15 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041256 /
+ BILIERI LOPES DORNELES
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041256 / BILIERI LOPES DORNELES
+Thread-Index: AdhN9SRcFinuc+8cSFWhHljckDrjhg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 11 Apr 2022 22:41:15 +0000
+Message-ID:
+	<BYAPR11MB2853D846F235D006EFD7DE3FFAEA9@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2df8cd5f-3d7e-410b-afa8-08da1c0c6364
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MWHPR1101MB2157:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Apr 2022 22:41:15.8293 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2df8cd5f-3d7e-410b-afa8-08da1c0c6364
+x-ms-exchange-transport-crosstenantheadersstamped: MWHPR1101MB2157
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9086070
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2df8cd5f-3d7e-410b-afa8-08da1c0c6364
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	yTcMhIn7zK+HO4QjbT8FEoDTI94/8JylMbu45klLxbBe9BnDiAIbYXMqcjtg+U0Looq1LR5+j4GQtRtfcU4DFuFck3EV6TniOt9fJHbkc6A=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5144.029
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	HvxaoDuu0FvhphxMWfqaWnYRzmxDaArW3HYjZk3lXFNVvHYAe/nt4v2w/r2kZ3Kfklf6rj60iAnAGyNe380VsfUqyVq6crUL6qONZBy2lzJB4FBZ6AvSlvCOuCijknyB5LE+GA8hBFMUyKL+y+dLEADGx8AFrii18xeAitl/Baa68jLmW9DSbeomTl0/55CD6QMgeX3Fo7iNWgUy7pBYlt92+vaebsmVqzI3l1afUoEts8iW4lg244N7NvEguuvCt33uJAByJNNy1G0U90ns0/ephebTACilM4EmWeYKXDv5ScRuo6cliXm/F+8tc7WKQWO7xsxeqFedbx1oRbQrFrWSVF7+r4IheXpt00QgobXHH1uA4un03CVoNuLdjqlMHBm3WG/y3l318yROnIhvJlp9lyA9JyhlQpVwkdv61oTarmrXGCn70wlt2pbi7bsyXTUSexrMqeZKZD6armjJRJq2O5F4Rwmbil/0r2103gBHSxNDLkj7qNDT3lPOR4IFz37HYtTfmGP/qav0t6/AkSjwNhyhx6rWUeh2b2cBiAQ3H2vfa41sBIhhNqbxj/ewDo6Ak5S3xb3rlLdyeHPa8RgLJThfTqTyHEy9Y7b1YZ5J6UNnDurwXtcD4WGPtyDd27TD4MvcPPVVB+FY6wU9pnx8zG9mZn1o2GQJy4x4hRU=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853D846F235D006EFD7DE3FFAEA9BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853D846F235D006EFD7DE3FFAEA9BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: T2 Financial LLC dba Revolution Mortgage
+Broker Company NMLS: 2133490
+
+LO First Name: Rob
+LO Last Name: Livingston
+LO Email: rlivingston@revolutionmortgage.com<mailto:rlivingston@revolutionmortgage.com>
+
+LP First Name: Jen
+LP Last Name: Dixon
+LP Email: jdixon@revolutionmortgage.com<mailto:jdixon@revolutionmortgage.com>
+
+
+
+
+--_000_BYAPR11MB2853D846F235D006EFD7DE3FFAEA9BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> T2 Financial LLC dba Revolution Mortgage<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 2133490<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Rob<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Livingston<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:rlivingston@revolutionmortgage.com">rlivingston@revolutionmortgage.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Jen<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Dixon<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:jdixon@revolutionmortgage.com">jdixon@revolutionmortgage.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853D846F235D006EFD7DE3FFAEA9BYAPR11MB2853namp_--

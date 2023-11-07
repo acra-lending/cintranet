@@ -1,0 +1,124 @@
+Received: from BN6PR1101MB2148.namprd11.prod.outlook.com
+ (2603:10b6:405:52::11) by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS;
+ Fri, 8 Oct 2021 20:17:54 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com (2603:10b6:405:7c::31)
+ by BN6PR1101MB2148.namprd11.prod.outlook.com (2603:10b6:405:52::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.22; Fri, 8 Oct
+ 2021 20:17:53 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::6cb8:3bac:6f86:e72]) by BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::6cb8:3bac:6f86:e72%5]) with mapi id 15.20.4587.022; Fri, 8 Oct 2021
+ 20:17:53 +0000
+From: Jose Esparza <josee@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036706 /
+ GRAMMATICO
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036706 / GRAMMATICO
+Thread-Index: Ade8gXbX0rHsYUBgRGa6SFBKwRmCiA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 8 Oct 2021 20:17:53 +0000
+Message-ID:
+	<BN6PR11MB4068FE6417B52ED72F35D9A6C9B29@BN6PR11MB4068.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN6PR11MB4068.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	796de137-8bc5-40d0-954b-08d98a98b577
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BN6PR1101MB2148:
+x-ms-exchange-crosstenant-originalarrivaltime: 08 Oct 2021 20:17:53.2082 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	796de137-8bc5-40d0-954b-08d98a98b577
+x-ms-exchange-transport-crosstenantheadersstamped: BN6PR1101MB2148
+x-ms-exchange-transport-endtoendlatency: 00:00:01.6432839
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 796de137-8bc5-40d0-954b-08d98a98b577
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN6PR11MB4068.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	c29K4lp1WS9Coy9dZB0rAhNIZh+V0HDCh3M5HoKN2OuQjDU1ip+ljOJFybVy8q+qTSt3OZkAP25SrVgCjqmjMwVq9eH0bP5onuJ44cKeftY=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.022
+x-ms-exchange-crosstenant-authsource: BN6PR11MB4068.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(750132)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info:
+	UVhVLMh/M7lVTtgt1ca8vZ+sZj/neh3dVOFnWvR70Rt5dzaR0NjxbXB0etw9g0EhUbR5e/Wdaj+PJk1Mu6fK2IkGxMLnZj+MZ4U9b5fRALfuiaMsRKIqFM8GnUkrsCjYUTX7NPALt2MoiuAclr3ddgJ2A8luZRSfZDGDh6LOnpq1Rzpj83qxbFDuG6XVDtNw2JZ1/nNOgDhhHV69pD8q6a9MYpkDYl3baa3h8tihmZMx6BVdwmA4TtRX+Vk3chL9f1aeR2JUtXydrU53guYuP3MVp6CDZHpwzltkdcGYaBC/AeZxVPcFbesITWNkK00lRKy5GxB9Huw06elK92jCPPZUglgVau9vd/lVe+S5qzKU6/41UZdlVIZft4kxNwcWiX12wz0+CqsQG3RUEKd6E55b4d4Rh+myFlDPmTJXWQ57Db0IlgiW03dCTof3+rDMssd6j6iUkj2fbr1454ItHbyOKtt8316nm4fDXojcW9zIx55JLCT83JfoZYp9qLEDAFPJJT/UsxpVyVAH3J1AbQpHoJOAJXBILoflAj4eTAycxx+Oj0JDiBFgwigdeyIafr1v2TJkFq6kc699m9+bIFmdWcp/CLAtBVaCfwMKG0f+vgEgxrMFpXxZbdMP63VYzNB3aWeXaOW5e8Z9YWVQNjG/V3vY/nmt7BVkYh83Aaw=
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB4068FE6417B52ED72F35D9A6C9B29BN6PR11MB4068namp_"
+MIME-Version: 1.0
+
+--_000_BN6PR11MB4068FE6417B52ED72F35D9A6C9B29BN6PR11MB4068namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: CAPITAL DIRECT FUNDING, INC.
+
+Broker Company NMLS: 1159831
+
+LP First Name: Karla
+
+LP Last Name: Banuelos
+
+LP Email: Karla@capitaldf.com
+
+--_000_BN6PR11MB4068FE6417B52ED72F35D9A6C9B29BN6PR11MB4068namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: CAPITAL DIRECT FUNDING, INC. <o:p></o:p></p>
+<p>Broker Company NMLS: 1159831 <o:p></o:p></p>
+<p>LP First Name-Karla <o:p></o:p></p>
+<p>&nbsp;Last Name:Banuelos<o:p></o:p></p>
+<p>LP Email: Karla@capitaldf.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB4068FE6417B52ED72F35D9A6C9B29BN6PR11MB4068namp_--

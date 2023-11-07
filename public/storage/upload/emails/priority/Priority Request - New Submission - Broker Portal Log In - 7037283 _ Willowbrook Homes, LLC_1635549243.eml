@@ -1,0 +1,129 @@
+Received: from CH0PR11MB5266.namprd11.prod.outlook.com (2603:10b6:610:e1::7)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 29 Oct 2021
+ 23:02:25 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5266.namprd11.prod.outlook.com (2603:10b6:610:e1::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Fri, 29 Oct
+ 2021 23:02:24 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5%8]) with mapi id 15.20.4649.015; Fri, 29 Oct 2021
+ 23:02:24 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Mosias Venord <Mosias.Venord@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037283 /
+ Willowbrook Homes, LLC
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037283 / Willowbrook Homes, LLC
+Thread-Index: AdfNGODUKmC8GNBvQzqXow6gk+ss+g==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 29 Oct 2021 23:02:24 +0000
+Message-ID:
+	<CH0PR11MB5425048419EFB3EF0549D648F6879@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	500c7e2e-d1a5-495b-f6d6-08d99b302bb2
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5266:
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Oct 2021 23:02:24.3052 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	500c7e2e-d1a5-495b-f6d6-08d99b302bb2
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5266
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9690097
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 500c7e2e-d1a5-495b-f6d6-08d99b302bb2
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	pUsGIL9sDi+8Bc8+SG9dyT1N5j6U4K914LVJNfEheWL9pPq8WEybOujeZLERf/UK8Mp5yJNYOp5aIeHP1lU8bK8P1TsAFN6cbVL0+Rtgsvw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.017
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	aI6VjPu3KOOVMG0q89f2svuy+W04QaYOuJ835PjJZ/TKWz8Cdpxm34AOVOp5w8QE2PNbXyaisUzHouOX48QyOM4GCz++Ry7FcF23V7zwapSBgb/1r1Q3VPSzj5F9pGrgyy5y8YPOPKhtWtRKOVIWY9gBdVaafF7CLjUTreoRgvWOlIqTl2Ek9xWp2Saebujm4jiLdcXvFHThIyhBQtpjbX93hvHEwBo1PGbLDjm3AdX9SWrs1+ZMJwQVMcr2uAUzbvQIx+pO5zXod2xsc/1t5PT8Ln3DIbRF0O7E6J2er2in90wyCg6RpY2FCGUo6XqcljeB/pYJ+DpFLfHy7mfsr/7XlzMLAY38Nkf5XVG2VZ3LfSeAt+yVASUYrFC+T5NnR4spdFYNBBK79guRhJq5GjXBIZ4gHQ2/lkmqO5lITQEl8NIMtFWUlg5+xKpiU6omPNZRBlLziur04/jdLA2YIurEGHuYnZW8eAwA7CBfZ1NYGMhqhHx0uybo//gblDEmjahPbhusQ62iPeVPf3FWvpSNYw2cvCD/5pbvROn+IS4cK+TY7V/V7e7p5VKkYeT8+XJsXNMWVC+wtE1lhHYSeoUqVyn/wuFxiDN8zORvtNpydbaXdrRSKSoob6m0bCtjLOZATvaWkfIr95QIvDsCUbNAibgbCmACJnmueVn2hys=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB5425048419EFB3EF0549D648F6879CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB5425048419EFB3EF0549D648F6879CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Edouard Cordi dba EMC Group / Broker Company NMLS: 1023018
+
+LP First Name: Sheila
+
+LP Last Name: Paderes
+
+LP Email: sheila@myrareservices.com<mailto:sheila@myrareservices.com>
+
+--_000_CH0PR11MB5425048419EFB3EF0549D648F6879CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Edouard Cordi dba EMC Group / Broker Company NMLS: 1023018<o:p></o:p></p>
+<p style="margin:0in">LP First Name: Sheila<o:p></o:p></p>
+<p style="margin:0in">LP Last Name: Paderes<o:p></o:p></p>
+<p style="margin:0in">LP Email: <a href="mailto:sheila@myrareservices.com">sheila@myrareservices.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB5425048419EFB3EF0549D648F6879CH0PR11MB5425namp_--

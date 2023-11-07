@@ -1,0 +1,148 @@
+Received: from BN9PR11MB5274.namprd11.prod.outlook.com (2603:10b6:408:133::21)
+ by CH2PR11MB4341.namprd11.prod.outlook.com with HTTPS; Fri, 3 Jun 2022
+ 17:51:45 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by BN9PR11MB5274.namprd11.prod.outlook.com (2603:10b6:408:133::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.12; Fri, 3 Jun
+ 2022 17:51:43 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::9ce4:d843:ece6:f662]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::9ce4:d843:ece6:f662%7]) with mapi id 15.20.5293.019; Fri, 3 Jun 2022
+ 17:51:43 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Michelle Marias-Santa Maria <michelle.marias-santamaria@acralending.com>,
+	Mayra Mendoza <mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - FX220664 /
+ Bryn
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ FX220664 / Bryn
+Thread-Index: Adh3cnI+UM3VeVMKT8eAsnofKtxG/A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 3 Jun 2022 17:51:43 +0000
+Message-ID:
+	<BY5PR11MB4243D1D8CD30CE8DFE274A65FFA19@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	e73a8e04-b68a-4a0d-c67c-08da4589b8aa
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BN9PR11MB5274:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 03 Jun 2022 17:51:43.7069 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	e73a8e04-b68a-4a0d-c67c-08da4589b8aa
+x-ms-exchange-transport-crosstenantheadersstamped: BN9PR11MB5274
+x-ms-exchange-transport-endtoendlatency: 00:00:01.3262253
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: e73a8e04-b68a-4a0d-c67c-08da4589b8aa
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	FdXIM5OFVMnmrCkb/aD126J7FQMLgZAx5uCIbg0fwAgSxBCIYkHPXKwF2xPYOV/tqxRY3Glaoecl3ya8SBWyuBP8X6IbZiSd9RqDms+OaWw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.013
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	zPITyG3+MOAOQJXRwU+qoZAH3YfrZqApN+xKVyRUa6nMBS3meFF6ruN9dpER7q5hzD3admBxeORemoMXAAr3ukQX/8dXtaapo5HBXzVf4VMmeNRxZH/sTVYTQoRXCD8l00Iga1WHbozR254Y9Z0fc91f3seTGgaF/0VZTOmZgAb6xIecM5+1oxih8qH3q7K/mwdUbJfUXRUPCzxOqywV4joug25Pn/0BJ+t1kucPCxR115FjSR8LJ8UBxxwOKjTFX3LdiqLNwtoXugxZqI0bzkzpnjXu357A26FJZngiX2jNyWEJ18jgJsorMc3fFRoPSE9Qg4BegeVqwMwliYcah0WTHx3+u7FGZ39jimPzZBQ3n//g5F+2hnxTubXTzsUgErFvvrPUT4iq3O70vO3BcJKd0WEEy9GHf5MfwPiosApqzXF+qPrufTW152kdoEEq5yW+OTN4lOJWbRtBVgiCdhraYxT1JxC+Yo8ib7zzzUUe6SenC3is2zvXAva+w58xhz7cWgB0XOOq1gXfrMxv5X05OdEUZBorIYjki9e/nfYJIzj5zOqIIOSpstmjGM43sEq3FDR7aet4cpBoaWTpTSxUKOhxP1e7DfjDPKgbtsRajVB/3bOvLpSstbg0SuRFvwTjvIUlvV8YIiCSJXEQ4jlY0Y/21WGUgFVofZKuNc8=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB4243D1D8CD30CE8DFE274A65FFA19BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB4243D1D8CD30CE8DFE274A65FFA19BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Mission Loans, LLC dba Residential Bancorp dba Resban Corporation
+Broker Company NMLS: 1637479
+
+LO First Name: BRYAN
+LO Last Name: FELDMAN
+LO Email: BRYAN.FELDMAN@BANCORP.COM<mailto:BRYAN.FELDMAN@BANCORP.COM>
+
+LP First Name: VEE
+LP Last Name: SUN
+LP Email: VEE.SUN@BANCORP.COM<mailto:VEE.SUN@BANCORP.COM>
+
+
+
+
+--_000_BY5PR11MB4243D1D8CD30CE8DFE274A65FFA19BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:</span><span style="color:black"> Mission Loans, LLC dba Residential Bancorp dba Resban Corporation</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="color:black"> 1637479</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="color:black">BRYAN</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="color:black">: FeLDMAN</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="color:black"><a href="mailto:BRYAN.FELDMAN@BANCORP.COM">BRYAN.FELDMAN@BANCORP.COM</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="color:black">VEE
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="color:black">SUN</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="color:black"><a href="mailto:VEE.SUN@BANCORP.COM">VEE.SUN@BANCORP.COM</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB4243D1D8CD30CE8DFE274A65FFA19BY5PR11MB4243namp_--

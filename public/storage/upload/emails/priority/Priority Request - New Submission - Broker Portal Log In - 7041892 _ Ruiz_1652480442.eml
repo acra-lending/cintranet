@@ -1,0 +1,145 @@
+Received: from CY4PR1101MB2248.namprd11.prod.outlook.com
+ (2603:10b6:910:1a::11) by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS;
+ Fri, 13 May 2022 19:48:13 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by CY4PR1101MB2248.namprd11.prod.outlook.com (2603:10b6:910:1a::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5227.23; Fri, 13 May
+ 2022 19:48:12 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5227.023; Fri, 13 May 2022
+ 19:48:12 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041892 /
+ Ruiz
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041892 / Ruiz
+Thread-Index: AdhnAka9j3KLJPjjTZi/fKGJvQVPMQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 13 May 2022 19:48:12 +0000
+Message-ID:
+	<BYAPR11MB28531DDDECF72CEF81C8FE19FACA9@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2507ee40-cfe1-4f32-fe4d-08da35198364
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CY4PR1101MB2248:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 13 May 2022 19:48:12.0610 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2507ee40-cfe1-4f32-fe4d-08da35198364
+x-ms-exchange-transport-crosstenantheadersstamped: CY4PR1101MB2248
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0388116
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2507ee40-cfe1-4f32-fe4d-08da35198364
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	RxHXNONpu9KMNa0N9AqY17QZse6fWojFM2hfktXOWle3ISZ3Fmh4J+gAaT9OgKnh9B6JShigtImWfJZ54CEtCaQUCGdvLkQr97GPLTGPJLA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5250.015
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	6Bv3IZVvjdnhmRFlpNu0bWZijuY/x0dRYmK0qi1tBX/pg/itX45X/QoEFECMyljRAoZVEFPx101ne4ML+Vm7I4FrpowwxyKkThGTC8CH8uzIWcXJzR/wmbPUxabdIsBfw7DEmsFBv/FIptqmEyo2PDPMb5KJdOmht8eE7EInWQD/idJamzu56ZSM4dEZPP7XoBkbUQNdZLZQRMbjyBVRbJiVxSU+MZPo0jptqemp8N598mEBVwuiJMSwdyzkdTNu8p5CKyc5Kd7jWzhid+GsXSXvgqVdURZJ9AR2AqTx/vaqVULAMaeI5Nfif4bnC5Ilbz+YuO8uBC4V6LSVPN62HT+5fsg8DskzTfN1tUd7xI/o/rDP9QeyQRTIBhsPnBV7+Ru/C5FqJm0fWJ6woI9WzL4023Wkax9ZJOcUgrM/g6gf0Rm7Rq/JNvsjOxejglxt5iJ44/tqg/n04+3nBe5eY1pi/NHz5WttzxFBvM9pxsRFsk4m5ZKKQ5FouG4FaMNmgMPbB0R9PmiA9k6Olfvux+AiAi30r83c4mtumw7e1K44a41Iq4ZU8Ho2nBRwFEwOCtDtzMMaZPy8QxxDtgnPaB5qI03cZqA8Sx17DbZLRujwuWggHJs3ihagWJ++P5CODU8+5lDKzUAe+HSxvf7akj1w+tJcLcL/tu2IwfsiG3E=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB28531DDDECF72CEF81C8FE19FACA9BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB28531DDDECF72CEF81C8FE19FACA9BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Everett Financial, Inc dba Supreme Lending
+Broker Company NMLS: 2280483
+
+LO First Name: Hector
+LO Last Name: Roman
+LO Email: hector.ramon@supremelending.com<mailto:hector.ramon@supremelending.com>
+
+LP First Name: Laura
+LP Last Name: DosRamos
+LP Email: laura.dosramos@supremelending.com<mailto:laura.dosramos@supremelending.com>
+
+
+
+
+--_000_BYAPR11MB28531DDDECF72CEF81C8FE19FACA9BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Everett Financial, Inc dba Supreme Lending<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 2280483<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Hector<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Roman<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:hector.ramon@supremelending.com">hector.ramon@supremelending.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Laura<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>DosRamos<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:laura.dosramos@supremelending.com">laura.dosramos@supremelending.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB28531DDDECF72CEF81C8FE19FACA9BYAPR11MB2853namp_--

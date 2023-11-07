@@ -1,0 +1,138 @@
+Received: from SA1PR11MB5923.namprd11.prod.outlook.com (2603:10b6:806:23a::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 17:29:31 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com (2603:10b6:805:61::14)
+ by SA1PR11MB5923.namprd11.prod.outlook.com (2603:10b6:806:23a::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.20; Wed, 13 Oct
+ 2021 17:29:30 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::440a:2fac:edaf:527]) by SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::440a:2fac:edaf:527%3]) with mapi id 15.20.4608.016; Wed, 13 Oct 2021
+ 17:29:30 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Tom Esposito <Tom.Esposito@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036781 /
+ Mora Castro
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036781 / Mora Castro
+Thread-Index: AdfAV3GrEYWqZoXDSTyRbM4YYwrwhw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 17:29:29 +0000
+Message-ID:
+	<SN6PR11MB28618690E4915E41FB28DC3187B79@SN6PR11MB2861.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SN6PR11MB2861.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	c4d22fc5-1c80-4fb6-a5b9-08d98e6f03a3
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA1PR11MB5923:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 17:29:30.0088 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	c4d22fc5-1c80-4fb6-a5b9-08d98e6f03a3
+x-ms-exchange-transport-crosstenantheadersstamped: SA1PR11MB5923
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0513055
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: c4d22fc5-1c80-4fb6-a5b9-08d98e6f03a3
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:SN6PR11MB2861.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Za+xt+uVw7A8IraKFYP233QQEEW/LUV13QrgfcImCkJywXF02iFdeFkyXsoFkYojUUDFItBZurggDuRz23ZPZYDKOFgeDOYjipTcaqc9+LI=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: SN6PR11MB2861.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(750132)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info:
+	G8EaZJKIc46DGqp+G6eNy5WUN7yepbdlAoITDay2i9QgJWfFLv3k/+p/zUrKvq5CudjBsKjyAWdrGHkklaTNwLAJwCxPNIUNT1tpfupBxpFcFwD5PCY5fi3iiT5XDvh3tSKe1AOvgX/FxD/h5M2QQoWE2eiT9pNmIY0qEDGNH2BdevClZJ8p+LsE4Lv5o8HOWr6ISnGj3pSfQUuxEVc8XUWGj2eiKjlAE8oNKMsBJqX8AtpuZfVii65DdVnTHKZc7xlP18V51soEq7B/NzQv+EqykBUp76oVJyJUY30jsKJspWuUD2VHFQXeBKIubpz85AzU0bwM0r/oeNPTxetAiNbwUzloTLxAmfcI9184NYjjMybAQ+epMT7FFQ85tJ6lfyIT2bUy58YyYA2SK2uwmqOadWG8vCEQy6r2TNpLn49NJs9OeXEhCBuWHpnukGvYLWse4hOc2ev7L9xDQb1EZlxVZuIubQ4wWWUNCtayW3mB7xItuMDACQONwy9uWhPXgz0nngr1pfRFGdhRhKMJDaHwjxvqYQ1e7IJFCed7eQ0bnztg5vtIvvtJVr/DSBXvAU1ONAj4HZ9QB459AOg2cr5KYt4crgYEQil+1wFn2PN8k0hUzFlh2TbjPNVNUBay6n7FSb08lalj9hDIfWWJ/CpEj9+VEtEjwRO0GC1m8og=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR11MB28618690E4915E41FB28DC3187B79SN6PR11MB2861namp_"
+MIME-Version: 1.0
+
+--_000_SN6PR11MB28618690E4915E41FB28DC3187B79SN6PR11MB2861namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Florida Funding, LLC
+Broker Company NMLS: 1699532
+
+LO First Name: Gail
+LO Last Name: Hanna
+LO Email: gail.hanna@florida-funding.com
+
+LP First Name: Kalie
+LP Last Name: Culver
+LP Email: kalie.culver@florida-funding.com
+
+
+
+--_000_SN6PR11MB28618690E4915E41FB28DC3187B79SN6PR11MB2861namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Florida Funding, LLC<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1699532<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Gail<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Hanna<o:p></o:p></p>
+<p class="MsoNormal">LO Email: gail.hanna@florida-funding.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Kalie<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Culver<o:p></o:p></p>
+<p class="MsoNormal">LP Email: kalie.culver@florida-funding.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR11MB28618690E4915E41FB28DC3187B79SN6PR11MB2861namp_--

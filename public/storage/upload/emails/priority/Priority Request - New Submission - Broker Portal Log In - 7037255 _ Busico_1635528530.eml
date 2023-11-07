@@ -1,0 +1,141 @@
+Received: from CH0PR11MB5315.namprd11.prod.outlook.com (2603:10b6:610:be::7)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 29 Oct 2021
+ 17:24:49 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5315.namprd11.prod.outlook.com (2603:10b6:610:be::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Fri, 29 Oct
+ 2021 17:24:48 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5%8]) with mapi id 15.20.4649.015; Fri, 29 Oct 2021
+ 17:24:48 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Kellie Bocanegra <Kellie.Bocanegra@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037255 /
+ Busico
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037255 / Busico
+Thread-Index: AdfM6a3ceHNZQvLESn+q7+PY3TSSUg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 29 Oct 2021 17:24:48 +0000
+Message-ID:
+	<CH0PR11MB5425999E9856ED337EEE99FFF6879@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a2db0981-c59d-4e28-6529-08d99b010232
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5315:
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Oct 2021 17:24:48.2889 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a2db0981-c59d-4e28-6529-08d99b010232
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5315
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2119193
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a2db0981-c59d-4e28-6529-08d99b010232
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	ChZBe0/CklCN/ys3WZ7wLn2xmTR5LMfu6LuKcw+RxnjZOI5UYYzugnSa25OX6SWlo4z7UVdyE25E/w7BpqyHOgJGm5jBIGW6VgTfZmRnXZY=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.017
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	+J//ZNPT8JtXAeZPdYA9KxptyN0tPsZf+d7QiHqDSbk/sgeUS2/+uKJYzU568gZNK9bImIwkSs9HgT8eOK/28b70rJWwSoPzYsagidOgSFJcOzNBhbsiJLPhQr06uNg4eA0prMbdCqUh4ah6amQETDre8VW9dQEtbxHvxDrdFiRA8enaEl6m0z7p63y/KnTA5MokQZmURXP4tvai79FmnheX3NUt1kKgvf09+OxEHXzCYnYHz6fRIC/hY66eQadSiZ3gXrjSPhEr3hojqJ7EiMB8ifdXQelwahQyS/wRvKnGBmNKnH77WfIwOiB2vMUBngQ17EnzOaUXBApj6ggOYHteFLCOUKA6OM34Aa1U2Ip7e9nuocoiBPt6Ma4Sp8qwJPacoHbijMDnkbAYnXdLRjdaEOyKk3HixzUok1fSsEWv7g+RiwNWM+5mnsN5FY6m+r5CydJ3myMheX5zIymN/7spFJjJ4E+ZRb9+m3N98ruzUOBKUbYBZ9E9mSKTEA/iLs+hlXnp7DcyA9VULUm3L2fQWQ56MpC28c4L4C/UBI2FtAHzwwRRC/NdwUrBhZZeYDQEjRzD9Etzx2J9XFYuSzHkWEvi8ZIvZ/LHK0n5sZSt5dZbrEyMALg1sXpNMpQn6kFVzN2uYvzBeZ81GEHZMQk/nHZWpMHOrc7Uv8numMU=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB5425999E9856ED337EEE99FFF6879CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB5425999E9856ED337EEE99FFF6879CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Fidelity Mortgage Inc / Broker Company NMLS: 1249466
+
+LO First Name: Tomas
+
+LO Last Name: Vacca
+
+LO Email: tvacca@loansbyfidelity.com<mailto:tvacca@loansbyfidelity.com>
+
+
+
+LP First Name: Michelle
+
+LO Last Name: Frericks
+
+LP Email: mfrericks@loansbyfidelity.com<mailto:mfrericks@loansbyfidelity.com>
+
+--_000_CH0PR11MB5425999E9856ED337EEE99FFF6879CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Fidelity Mortgage Inc / Broker Company NMLS: 1249466<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Tomas<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Vacca <o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:tvacca@loansbyfidelity.com">tvacca@loansbyfidelity.com</a><o:p></o:p></p>
+<p style="margin:0in"><o:p>&nbsp;</o:p></p>
+<p style="margin:0in">LP First Name: Michelle<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Frericks<o:p></o:p></p>
+<p style="margin:0in">LP Email: <a href="mailto:mfrericks@loansbyfidelity.com">mfrericks@loansbyfidelity.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB5425999E9856ED337EEE99FFF6879CH0PR11MB5425namp_--

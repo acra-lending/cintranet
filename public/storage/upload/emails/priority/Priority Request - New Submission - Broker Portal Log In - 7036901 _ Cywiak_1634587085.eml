@@ -1,0 +1,133 @@
+Received: from BN9PR11MB5500.namprd11.prod.outlook.com (2603:10b6:408:105::8)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 18 Oct 2021
+ 19:48:50 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com (2603:10b6:405:7c::31)
+ by BN9PR11MB5500.namprd11.prod.outlook.com (2603:10b6:408:105::8) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.17; Mon, 18 Oct
+ 2021 19:48:50 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::3979:8e7:93ed:c0be]) by BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::3979:8e7:93ed:c0be%6]) with mapi id 15.20.4608.018; Mon, 18 Oct 2021
+ 19:48:50 +0000
+From: Jose Esparza <josee@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Michelle Marias-Santa Maria <michelle.marias-santamaria@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036901 /
+ Cywiak
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036901 / Cywiak
+Thread-Index: AdfEWOCHJ99huQdhRfWHKgsNAUk1YQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 18 Oct 2021 19:48:50 +0000
+Message-ID:
+	<BN6PR11MB406828F70EAEBE1749CA875AC9BC9@BN6PR11MB4068.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN6PR11MB4068.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	35a8e0a9-579a-4986-5f30-08d992704ebe
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BN9PR11MB5500:
+x-ms-exchange-crosstenant-originalarrivaltime: 18 Oct 2021 19:48:50.3787 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	35a8e0a9-579a-4986-5f30-08d992704ebe
+x-ms-exchange-transport-crosstenantheadersstamped: BN9PR11MB5500
+x-ms-exchange-transport-endtoendlatency: 00:00:00.4893659
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 35a8e0a9-579a-4986-5f30-08d992704ebe
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN6PR11MB4068.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	+ZbDFQlkKXScR1SRc8ktDCZq5ttbsxilmbfD/sGa0AazEhLt0qE3tdChY9fpr5ePr2PPSjhPux5u7ZjtvZyfs+hH5GgqNGupHqhHfe7HgkE=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: BN6PR11MB4068.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	YekayljG85yYdE6Tc6wJ1vjOagDO1Ht3xR9M46b22MGdBWUudmo6wf7I1OcEn/rf8NgSjZ80/+rbvwKwBe9TG/ANVBdOnSTN5KfZQIcQJnroLj2RQzR2BEdA/fb8SPJqa+ERogW9vTui9Eu1JDX97XK/lTxFDbg5Eh2EKY1txoVdao6O5ka9lFDrXzENvcqX26DQvTngxdvT8+GllhKuG09qIBinDh3uLE5Fn+H44XyDh4i2fTb8Q/SltpwIDuqCOtoOpEx2bmOtA7iI6AimKo/WcuUtmOBvbpkJDo9Fc7dZ9yu17F+SLwbOoVkjQZVZ9nqzV8cxxnEmoCWPD6Y4gZ0Htc9PveRQ3wK7FV3OqRdlhdkJ2KYfQHnMZr7aBuLxiRA8h1AsVOBBsMQnFTDVF1SR1PoaWvrwPmlfK+wLv1BLEvU1qFQ5A1NbwSb71O9Oo2lCqPYhxazJeX4SRXqWq69MJQnVooQtpo7A4Q0LHEh+tSXJ4sYAuv6oPIQVcVE4Gbi+EBxZAeL8zzgr/upage/CHipIhpCfSGumQUEprOl5c9VNKW0MpEwoiXEmOGhlavSRED4bmfpjdJdw7n86MZB8Yssb3uuhAr0gZnB35j9906qJnPSC0URnIpiLJeiW9+XRTSqMeYzd/ke7cQhHwEMjFI4iMBG2f6Ahhy9zcnc=
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB406828F70EAEBE1749CA875AC9BC9BN6PR11MB4068namp_"
+MIME-Version: 1.0
+
+--_000_BN6PR11MB406828F70EAEBE1749CA875AC9BC9BN6PR11MB4068namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Todd
+
+Last Name: Caldwell  Broker Company NMLS: 116848
+
+LO Email: tcaldwell@1stsecurities.net<mailto:tcaldwell@1stsecurities.net>
+
+LP First Name: Ross
+
+Last Name: Coppersmith
+
+ LP Email: rcoppersmith@1stsecurities.net
+
+--_000_BN6PR11MB406828F70EAEBE1749CA875AC9BC9BN6PR11MB4068namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name : Todd<o:p></o:p></p>
+<p>Last Name: Caldwell &nbsp;Broker Company NMLS: 116848 <o:p></o:p></p>
+<p>LO Email: <a href="mailto:tcaldwell@1stsecurities.net">tcaldwell@1stsecurities.net</a><o:p></o:p></p>
+<p>LP First Name: Ross<o:p></o:p></p>
+<p>Last Name: Coppersmith <o:p></o:p></p>
+<p>&nbsp;LP Email: rcoppersmith@1stsecurities.net<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB406828F70EAEBE1749CA875AC9BC9BN6PR11MB4068namp_--

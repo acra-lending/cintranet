@@ -1,0 +1,145 @@
+Received: from SJ1PR11MB6179.namprd11.prod.outlook.com (2603:10b6:a03:45a::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 13 Sep 2022
+ 18:45:28 +0000
+Received: from DM6PR11MB3707.namprd11.prod.outlook.com (2603:10b6:5:144::24)
+ by SJ1PR11MB6179.namprd11.prod.outlook.com (2603:10b6:a03:45a::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5612.20; Tue, 13 Sep
+ 2022 18:45:26 +0000
+Received: from DM6PR11MB3707.namprd11.prod.outlook.com
+ ([fe80::5dce:9a2e:e16c:5f2c]) by DM6PR11MB3707.namprd11.prod.outlook.com
+ ([fe80::5dce:9a2e:e16c:5f2c%6]) with mapi id 15.20.5612.022; Tue, 13 Sep 2022
+ 18:45:25 +0000
+From: Linda Fong <Linda.Fong@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Michelle Marias-Santa Maria <michelle.marias-santamaria@acralending.com>,
+	Mayra Mendoza <mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044177 /
+ King
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044177 / King
+Thread-Index: AdjHoH+ohDEJ0iFHSBax3cyN1WPDVA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Sep 2022 18:45:25 +0000
+Message-ID:
+	<DM6PR11MB3707A823C2ADC2238AB8DDD987479@DM6PR11MB3707.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB3707.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	f80f1bf2-6e6b-41b6-b893-08da95b81f57
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: f80f1bf2-6e6b-41b6-b893-08da95b81f57
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: DM6PR11MB3707:EE_|SJ1PR11MB6179:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB3707.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Sep 2022 18:45:25.8085 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	f80f1bf2-6e6b-41b6-b893-08da95b81f57
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	l4UQ8yBCdL/cnFn2OqNRSPlBFsAqoKK4E629d6UKcCvGIW0QQGjVL7mgSDda7+NIfd5z4YPWuOPwnD6ZebNS8ZaaUau2c72/1dMIuXOTnjk=
+x-ms-exchange-transport-crosstenantheadersstamped: SJ1PR11MB6179
+x-ms-exchange-transport-endtoendlatency: 00:00:02.5918172
+x-ms-exchange-processed-by-bccfoldering: 15.20.5612.022
+x-ms-exchange-crosstenant-authsource: DM6PR11MB3707.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	1sNp68pALiggL51g1W0MbZww01WYq4c90oiMhjOBsVvkYxKB7G23D3lBc8klj45b5bG+2YI6xSuwSLztLFbsVWezpuM+YMDLJt0HoDC/PzjDcnLNHxaCHzh1+CHKSKZSB7J+AFK4GWOlTCU46Xr3A07uWf9Vj9m1RIC8toKxnp0ae/lf+JJwgvWhA3Z0ZHQd9lk5QfRYw3hufwy/0jctMTeByQx80nL6xyyrpVzgQkKFFjiFIHVq54sDvM9FPjRqjRKS1vWJPDrPENk0a/1XzuEDGWrrBmTml+ddxrAKs7BLNVe7kIJTZtyADXzUugE0uZjvz96B73UbSftNt7gB1xDn9b8GoJg8lZXV2mgxZPINdSOeQ8ii4v7nxlG9epnUKVyZjrk5LzcARp9zoKmDVADOHhabrJSP7bQKq+gA3PfXoz6bbH/KEmVHTLYXuF0E8d0yfSrv6XqbMbDtU1fAIsrndKP0bH4AZGMnURtzlSnJthGHmpfwu56wur62i/p/inoldAMWb/5xOiLzt39X4MhkUCjVV/FwOH+e5AM36hNpQ/s2y7utbamBPoKwcv4u8jyZxmLOX+W6pd+7Zg3ssSF0ap6w941lG1bx6MxdEPtsiZkgj1444QlEfIK0rxwwQn1vSKQuh/gxxE38Is9wQMQrqQXxtAaEzTkvDdIByQbTchV1pNy9UHHdjkn+SMff0P558wcmY8ycIz8VfxoLlLp5PIuH/lMaUBDpuh7NyDdmUNq0bsnaX8dlWpc4DbHyEShZGVyU/GkFZHMkaL10ug==
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB3707A823C2ADC2238AB8DDD987479DM6PR11MB3707namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB3707A823C2ADC2238AB8DDD987479DM6PR11MB3707namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Anchor Funding, Inc.
+Broker Company NMLS: 236419
+
+LO First Name: Gregory
+LO Last Name: Herman
+LO Email: gherman@anchorfunding.net<mailto:gherman@anchorfunding.net>
+
+LP First Name: Doris
+LP Last Name: Olmedo
+LP Email: dolmedo@anchorfunding.net<mailto:dolmedo@anchorfunding.net>
+
+
+--_000_DM6PR11MB3707A823C2ADC2238AB8DDD987479DM6PR11MB3707namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Anchor Funding, Inc.<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 236419<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">LO First Name:&nbsp;Gregory
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">LO Last Name:&nbsp;Herman</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">LO Email:&nbsp;<a href="mailto:gherman@anchorfunding.net">gherman@anchorfunding.net</a><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span><span style="font-size:12.0pt">Doris<span style="color:black"><o:p></o:p></span></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name: Olmedo<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;<a href="mailto:dolmedo@anchorfunding.net">dolmedo@anchorfunding.net</a><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB3707A823C2ADC2238AB8DDD987479DM6PR11MB3707namp_--

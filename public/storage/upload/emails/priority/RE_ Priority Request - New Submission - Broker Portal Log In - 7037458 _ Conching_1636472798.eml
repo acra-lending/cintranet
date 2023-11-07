@@ -1,0 +1,393 @@
+Received: from MN2PR11MB4629.namprd11.prod.outlook.com (2603:10b6:208:264::9)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 9 Nov 2021
+ 01:18:59 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com (2603:10b6:208:fa::18)
+ by MN2PR11MB4629.namprd11.prod.outlook.com (2603:10b6:208:264::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4669.11; Tue, 9 Nov
+ 2021 01:18:56 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7]) by MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::ad79:f009:2d45:e4f7%7]) with mapi id 15.20.4669.016; Tue, 9 Nov 2021
+ 01:18:56 +0000
+From: Paria Azarisoreh <pariaa@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In -
+ 7037458 / Conching
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037458 / Conching
+Thread-Index: AdfU88X48YfqIYZIR5mYkk2rxcL8+gAEPNygAABoPfA=
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 9 Nov 2021 01:18:56 +0000
+Message-ID:
+	<MN2PR11MB3839B0610C8335B83ADC1344B5929@MN2PR11MB3839.namprd11.prod.outlook.com>
+References:
+	<MN2PR11MB38397FA0E7709396F9CF13B1B5929@MN2PR11MB3839.namprd11.prod.outlook.com>
+ <BYAPR11MB32565695A056A6E7EEC42104E4929@BYAPR11MB3256.namprd11.prod.outlook.com>
+In-Reply-To:
+	<BYAPR11MB32565695A056A6E7EEC42104E4929@BYAPR11MB3256.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3839.namprd11.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	8978e058-716b-45fe-9191-08d9a31ee6db
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MN2PR11MB4629:
+x-ms-exchange-crosstenant-originalarrivaltime: 09 Nov 2021 01:18:56.5572 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	8978e058-716b-45fe-9191-08d9a31ee6db
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR11MB4629
+x-ms-exchange-transport-endtoendlatency: 00:00:02.7644958
+authentication-results: acralending.com; dkim=none (message not signed)
+ header.d=none;acralending.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: 8978e058-716b-45fe-9191-08d9a31ee6db
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:10000;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3839.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	6Srt6G6ZI9J6Eq0Kt6vx54SmbfnzJd7UlS1hFhFOMsW1rrq65X0mc4BMKtpOpLWanBYEKPAhL8giGQbs1mbBIHp3cpA9U1T+ye5f5LhSFt4=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.016
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3839.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930096);
+X-Microsoft-Antispam-Message-Info:
+	bP6iXnxhrJykGwfQ76Lrfa8XMMDKVx4Kx4K06pQYj8soHx6wV+uSVDucOdbe2sOgW9KyLyQ2ykabWIrmZ3/y0kJn22/rsXpj2lyN78WY3r2PIdIuSrI+rMCffLrD+/ZszIWJlGZnsX2z+8IEWwDHTAZM3O8e+2DpAxN4k6t0IxoUT67llRvEJsny9REB4n3uBF5JE0oQCwqePPOPzu8OXol6rrf1SHUyWyPH/SCTEw4oGrSoipL4AikH6P3LzydrZmCvkABbt8iRx8pIIZdtp1Q77E3gmSwWnpekvufH0RLaBm/5DZP0np8tVmDGjZl/5v9UwFrcHop/JJ8WJg8p2inWvJJ8G8y2lJvGXA6toZHlE3RqaembNA0nxMOPKFqBSo7UQir6V2hbbAmaegzJRCZksslrhQG+X8r/lqxAlV1vsKiI6xrpvF7FlMLe/8929KSzl0m+p8IYe6antDnyJO/dn5riMO3FnC6ij4pVUnas1nLbMqwWWHpPaJpmKvoQ7bxyEY5fqbqGsBhc3aYFHn8gxxkovXhFsiQZZxTyuRRHQ25B8cdwm9RQIMELHGdP8fNwfGrusHOtzBu0yK/ncn3CqcsoQe3MYjNVV2r15nGJnIUgplcV/l9+gdt5wGn57Pp0N4vtejDYC0cUqiJI3s/xN8MpP6ehQqVuIowhgN2EQKNUfyONPUeMosjn/zWlZay3LJuuXO9D5PEoZOcJZA+JLfpvGW/tkBffMavgbR7iy0W0hx9ibhCSx5OvgPIRZnEaCTDRQY/tlDbLvijAvpAcYZxkin229HuWO+LlwPA=
+Content-Type: multipart/related;
+	boundary="_004_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_004_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_"
+
+--_000_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Cross County Mortgage
+
+Broker Company NMLS: 1379257
+LO First Name: Derek
+LO Last Name: Graber
+LO Email: Derek.graber@myccmortgage.com
+
+
+        Thank you,
+       Paria Azarisoreh
+       Loan Setup Clerk
+
+[cid:image001.png@01D7D4C3.BF849F50]
+
+
+
+Please visit our website for our updated Privacy Policies, including the California Consumer Privacy Notice, effective January 1, 2020, at www.citadelservicing.com/CCPA
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.
+
+This is from a debt collector attempting to collect a debt; any information obtained will be used for that purpose. If you or your account are subject to pending bankruptcy or the obligation referenced in this statement has been discharged in a bankruptcy proceeding, this statement is for informational purposes only and is not an attempt to collect a debt. Please call "CSC" if you have any questions about this statement at 1-888-800-7661.
+
+Disclaimer: For privacy and security purposes, Citadel Servicing Corporation does not and will not process any requests for payment processing received via email. Should you need to submit a payment request, you may contact us toll free at 1-888-800-7661 during normal business hours or utilize our website at: www.citadelservicing.com<http://www.citadelservicing.com/>.**encrypt**
+
+From: Web Updates <Webupdates@acralending.com>
+Sent: Monday, November 8, 2021 4:57 PM
+To: Paria Azarisoreh <pariaa@citadelservicing.com>; Web Updates <Webupdates@acralending.com>
+Cc: Lisa Ramirez <lisa.ramirez@acralending.com>; Mayra Mendoza <mayra.mendoza@acralending.com>; Haylee Couron <haylee.couron@acralending.com>
+Subject: RE: Priority Request - New Submission - Broker Portal Log In - 7037458 / Conching
+
+LP U: koikec1634344197
+
+From: Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>
+Sent: Monday, November 8, 2021 4:50 PM
+To: Web Updates <webupdates@citadelservicing.com<mailto:webupdates@citadelservicing.com>>
+Cc: Lisa Ramirez <lisa.ramirez@acralending.com<mailto:lisa.ramirez@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>; Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037458 / Conching
+
+
+Broker Company Name: Cross County Mortgage
+
+Broker Company NMLS: 1379257
+
+
+
+LP First Name: Candace
+
+LP Last Name: Koike
+
+LP Email:candace.koike@myccmortgage.com
+
+--_000_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+@font-face
+	{font-family:Roboto;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle22
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style>
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Cross County Mortgage <o:p></o:p></p>
+<p>Broker Company NMLS: 1379257<o:p></o:p></p>
+<p class="MsoNormal">LO First Name: Derek<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Graber<o:p></o:p></p>
+<p class="MsoNormal">LO Email:&nbsp; Derek.graber@myccmortgage.com<o:p></o:p></p>
+<div>
+<table class="MsoNormalTable" border="0" cellspacing="0" cellpadding="0" style="border-collapse:collapse">
+<tbody>
+<tr>
+<td width="348" valign="top" style="width:261.3pt;padding:0in 5.4pt 0in 5.4pt">
+<p class="MsoNormal" style="margin-left:70.5pt"><span style="font-size:12.0pt;font-family:&quot;Century Gothic&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;font-family:&quot;Century Gothic&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Thank you,
+<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paria Azarisoreh<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Loan Setup Clerk<o:p></o:p></span></b></p>
+<p class="MsoNormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></i></p>
+<p class="MsoNormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img width="133" height="120" style="width:1.3854in;height:1.25in" id="Picture_x0020_1" src="cid:image001.png@01D7D4C3.BF849F50"><o:p></o:p></span></i></p>
+<p class="MsoNormal" style="line-height:105%"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</td>
+<td width="276" valign="top" style="width:206.7pt;padding:0in 5.4pt 0in 5.4pt">
+<p class="MsoNormal" style="line-height:105%"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+</td>
+</tr>
+</tbody>
+</table>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">Please visit our website for our updated Privacy Policies, including the California Consumer Privacy Notice, effective January 1, 2020, at
+<a href="www.citadelservicing.com/CCPA"><span style="color:blue">www.citadelservicing.com/CCPA</span></a><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not
+ the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks
+ on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended
+ recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">This is from a debt collector attempting to collect a debt; any information obtained will be used for that purpose. If you or your account are subject to pending bankruptcy or
+ the obligation referenced in this statement has been discharged in a bankruptcy proceeding, this statement is for informational purposes only and is not an attempt to collect a debt. Please call &#8220;CSC&#8221; if you have any questions about this statement at 1-888-800-7661.<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><b><u><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif">Disclaimer:</span></u></b><span style="font-size:7.5pt;font-family:&quot;Arial&quot;,sans-serif"> For privacy and security purposes, Citadel Servicing Corporation does not and will
+ not process any requests for payment processing received via email. Should you need to submit a payment request, you may contact us toll free at 1-888-800-7661 during normal business hours or utilize our website at:
+<a href="http://www.citadelservicing.com/"><span style="color:blue">www.citadelservicing.com</span></a>.**encrypt**<o:p></o:p></span></p>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="MsoNormal"><b>From:</b> Web Updates &lt;Webupdates@acralending.com&gt; <br>
+<b>Sent:</b> Monday, November 8, 2021 4:57 PM<br>
+<b>To:</b> Paria Azarisoreh &lt;pariaa@citadelservicing.com&gt;; Web Updates &lt;Webupdates@acralending.com&gt;<br>
+<b>Cc:</b> Lisa Ramirez &lt;lisa.ramirez@acralending.com&gt;; Mayra Mendoza &lt;mayra.mendoza@acralending.com&gt;; Haylee Couron &lt;haylee.couron@acralending.com&gt;<br>
+<b>Subject:</b> RE: Priority Request - New Submission - Broker Portal Log In - 7037458 / Conching<o:p></o:p></p>
+</div>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP U: <span style="font-family:Roboto;color:#212529;background:white">
+koikec1634344197</span><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="MsoNormal"><b>From:</b> Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;
+<br>
+<b>Sent:</b> Monday, November 8, 2021 4:50 PM<br>
+<b>To:</b> Web Updates &lt;<a href="mailto:webupdates@citadelservicing.com">webupdates@citadelservicing.com</a>&gt;<br>
+<b>Cc:</b> Lisa Ramirez &lt;<a href="mailto:lisa.ramirez@acralending.com">lisa.ramirez@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;; Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;<br>
+<b>Subject:</b> Priority Request - New Submission - Broker Portal Log In - 7037458 / Conching<o:p></o:p></p>
+</div>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p>Broker Company Name: Cross County Mortgage <o:p></o:p></p>
+<p>Broker Company NMLS: 1379257<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Candace <o:p></o:p></p>
+<p>LP Last Name: Koike<o:p></o:p></p>
+<p>LP Email:candace.koike@myccmortgage.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_--
+
+--_004_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=7181;
+	creation-date="Tue, 09 Nov 2021 01:18:56 GMT";
+	modification-date="Tue, 09 Nov 2021 01:18:56 GMT"
+Content-ID: <image001.png@01D7D4C3.BF849F50>
+Content-Transfer-Encoding: base64
+
+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
+AABJRU5ErkJggg==
+
+--_004_MN2PR11MB3839B0610C8335B83ADC1344B5929MN2PR11MB3839namp_--

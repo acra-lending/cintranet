@@ -1,0 +1,145 @@
+Received: from MW4PR11MB5933.namprd11.prod.outlook.com (2603:10b6:303:16a::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 5 May 2022
+ 22:16:31 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by MW4PR11MB5933.namprd11.prod.outlook.com (2603:10b6:303:16a::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5186.15; Thu, 5 May
+ 2022 22:16:28 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5206.025; Thu, 5 May 2022
+ 22:16:28 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Michelle Marias-Santa Maria <michelle.marias-santamaria@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041715 /
+ Reinhardt
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041715 / Reinhardt
+Thread-Index: Adhgzaxxhic+Jjc4R1GyyLzQ9uWvAQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 5 May 2022 22:16:27 +0000
+Message-ID:
+	<BYAPR11MB28532E6B4E713D179645B855FAC29@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	8e1e05df-dace-4a08-fa87-08da2ee4e691
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW4PR11MB5933:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 05 May 2022 22:16:28.1937 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	8e1e05df-dace-4a08-fa87-08da2ee4e691
+x-ms-exchange-transport-crosstenantheadersstamped: MW4PR11MB5933
+x-ms-exchange-transport-endtoendlatency: 00:00:02.8819435
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 8e1e05df-dace-4a08-fa87-08da2ee4e691
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	yuGCYCky0+lw/2ZhjlBXxDXlYifXCsMvfQGTssIRDUHWAHnF1693pJBt6oMCR6bkQo2CuEyLSqqVhr+dLYnGehBTz6OAuv4Tc7X+po8z/iA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5206.024
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	w/bA6Bqxsu8uJp1LrbaLAhxysCft7CYi59HtTh1IdjbagUfP4q8q5nbfKABH3hBx7PhrqC7LlwXp2qMxpXGRzXpByOEPADHAc+nNMrXcCAmYxfur7ED3PjxuLU3VnaB6kb0F9M62JvcGmB8ziV45wHLiNdSgjOutmO/9GMor1d+y5VS/YZVpnII8xWiPUEMwPsePXY1M08I/uBvIisMu1f9lJjktKuFVvOCLKTsrxbPQprIcme1B1ZtnaBnk5uXqldbzZJOUlJCAXLuCWG1gQEhadhWvtbT2fdsRPikBJaS2KxPRFMUz9q8KtiFt+lewNtvpAuYsvCcVi+eOzqPiRCcWJ3by9N9M9noc1bZDoZ6M9ojf7UEkdudrpOujo69ODEHRwWZMHsZnzbYMEGJN5VyWb2Y5uMl4lgy+tHgQvKHsOjVklJnu5LIc0f7SV2xiZJdDypQxHE6XjuYyiTzLA7oWfy45qfY4NmBUF1qUIAbS/HEjVn6mnATPnL2z8Gzm0aFna0+CbECMyFs4h3zz39zwgmrcKENL4SVqFuYmtMRN5FPmF1r144HVqPXg5W8jy4RZxxs7sIovqzKIAeXFioKzTxwEJgOyiA7FQ2GN4VrOiUIXuFaEGTdhz8JVCPug6EBIPCFnu2dApa7Jc4uzWY7yZ1rsL4+H5C7RQe/cL5w=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB28532E6B4E713D179645B855FAC29BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB28532E6B4E713D179645B855FAC29BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Premier Mortgage Resources, LLC
+Broker Company NMLS: 1169
+
+LO First Name: Shannon
+LO Last Name: Huyg
+LO Email: teamshan@pmrloans.com<mailto:teamshan@pmrloans.com>
+
+LP First Name: Lauren
+LP Last Name: Mason
+LP Email: lauren.mason@pmrloans.com<mailto:lauren.mason@pmrloans.com>
+
+
+
+
+--_000_BYAPR11MB28532E6B4E713D179645B855FAC29BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Premier Mortgage Resources, LLC<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 1169<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Shannon<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Huyg<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:teamshan@pmrloans.com">teamshan@pmrloans.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Lauren<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Mason<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:lauren.mason@pmrloans.com">lauren.mason@pmrloans.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB28532E6B4E713D179645B855FAC29BYAPR11MB2853namp_--

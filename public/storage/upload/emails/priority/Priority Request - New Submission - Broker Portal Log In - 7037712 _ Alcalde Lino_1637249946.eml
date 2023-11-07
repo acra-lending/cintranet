@@ -1,0 +1,129 @@
+Received: from CH0PR11MB5347.namprd11.prod.outlook.com (2603:10b6:610:ba::13)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 18 Nov 2021
+ 01:48:36 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5347.namprd11.prod.outlook.com (2603:10b6:610:ba::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4669.11; Thu, 18 Nov
+ 2021 01:48:35 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea%7]) with mapi id 15.20.4713.022; Thu, 18 Nov 2021
+ 01:48:35 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037712 /
+ Alcalde Lino
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037712 / Alcalde Lino
+Thread-Index: AdfcHkbqidb9mYxIR/SZR+U9SuCQuw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 18 Nov 2021 01:48:34 +0000
+Message-ID:
+	<CH0PR11MB54252E75E2C837A4A4F5FD84F69B9@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	38ba40a9-5a22-4ca1-a64b-08d9aa358885
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5347:
+x-ms-exchange-crosstenant-originalarrivaltime: 18 Nov 2021 01:48:34.8840 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	38ba40a9-5a22-4ca1-a64b-08d9aa358885
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5347
+x-ms-exchange-transport-endtoendlatency: 00:00:01.6168795
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 38ba40a9-5a22-4ca1-a64b-08d9aa358885
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	yjRmNiGLQDhQtA51gK2OYov1mircXnqVraNM+RlvHoz7i3HfpdIC4MnTSSv52GAqGyuZG/Sox0U4OXNl0xyKn2AepiyVisDv4Bhhrlrh1J0=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4690.027
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	1zKiYL65wQ3h64uMla+zx5EseFnO6oqKy1Zh2EshzvH7ng0pZpSIZi7vOXRzOYIM4Kh7ophZM1Um4FDcQXnvX/eDz1KewQozCW0JSvTajbBn5lQuU2mAw+3NfErKEoLgHv7Os+2eh9mkW3OP3IJYrxZOiLFw/uEpfFc1MBGIsII6/zvn+KEb7WmiuoUQ6HGTQOK3kOYxZoskR5L3QyUAuP/Ig7syVyBo7w5U+uwKIbSC36QMZ3nw1Bh6ZagDtAb0jTG9JYbGuKwABRH4gHsoymi3Ptb+8CZLfoAiAhpqWpTCFu8huKsSZh4a4jLZBdy4bnOKmOipLe2BBqSyKtdONI5ga1OSaxQad2LVn4DaDJvGUM7xE+qLEka/zv35EWW/oCSy10tLbGOaWIrpAqBw1t/TyTac6twu67/7DoXNG1yAnZ3nIiy189Ns+3KJedpkX0z3aIogdMrV8Qxo7AeaE9m+bEFise2kf6i+uyQpzCfxAR42vSdKOYAZF9kDvq6xvKXdMSPxytpFno6mRkjmJkMshoFozcBWSBSjYWz6uK4ykvLhuz3VLnRzLxuCxXbQrdQJxrDqcksvejZI1Wy1I2JgU4+rw+9wEt52tDBkFqhzVKM8QdmuPXpJH3IRWqgdQyLof9rbrmHw7vsk3GdPAPSmK+Q88U3DzXl+46YpYJU=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB54252E75E2C837A4A4F5FD84F69B9CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB54252E75E2C837A4A4F5FD84F69B9CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Panorama Mortgage Group LLC / Broker Company NMLS: 133739
+
+LO First Name: Brian
+
+LO Last Name: Fernandez
+
+LO Email: brian@goalterra.com<mailto:brian@goalterra.com>
+
+--_000_CH0PR11MB54252E75E2C837A4A4F5FD84F69B9CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Panorama Mortgage Group LLC / Broker Company NMLS: 133739<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Brian<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Fernandez<o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:brian@goalterra.com">brian@goalterra.com</a>
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB54252E75E2C837A4A4F5FD84F69B9CH0PR11MB5425namp_--

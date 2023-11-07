@@ -1,0 +1,131 @@
+Received: from DM4PR11MB5536.namprd11.prod.outlook.com (2603:10b6:5:39b::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 13 Jun 2022
+ 17:01:41 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB5536.namprd11.prod.outlook.com (2603:10b6:5:39b::15) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5332.14; Mon, 13 Jun 2022 17:01:40 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b%6]) with mapi id 15.20.5332.020; Mon, 13 Jun 2022
+ 17:01:40 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042445 /
+ Powell
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042445 / Powell
+Thread-Index: Adh/RyDP531crP7IQVS9sdjvTCeguA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 13 Jun 2022 17:01:40 +0000
+Message-ID:
+	<DM6PR11MB2828BABF8DEDDEC528AE30CCFFAB9@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	7105ea66-a3cd-4777-54a9-08da4d5e62b7
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5536:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Jun 2022 17:01:40.4168 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	7105ea66-a3cd-4777-54a9-08da4d5e62b7
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5536
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8669044
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 7105ea66-a3cd-4777-54a9-08da4d5e62b7
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	3TOPBwEAkDlPuN7l4xCh5l7am5huLV/xtIN1cKf+ZyXi0ddsZdYqA2bApkjGQc/vQpxaejBu75axGkpoZCOG7H/CFrQBLfaurVEZlM7wKYU=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5332.020
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	bC4f1T1WuIRckNF3yg4PPuKEPNqbRPAK0AZOCNypq3dCElFZHZ75gNbgp094EO1S5nfAS5q1BeedYxw9MjUl/XVnLerZw2KvPd1n+cKQf2PJ6wPBAD7g8l1+ipg4QTVcOYSF3w3+BQ+CmfURwoNGfSN+BfGwszXxBx/w159BOEcRWBUUu0wNv34UTqUiBXjRrUO1EbwLveAp/aGHCBnF5lFa19zIHvAHFAcaYZmrXKDYygIg1XemxlYbAPAj3huJcnKOFNAK0x3uWLDtvVzmCUxYXwn6sAVmzVJauTCsBsv8ez1rzoEk6b02o7LGsUpw3NG8x3tkG8rC8JN+DrXWXHs/5Q1gQVON9aeL5EY0Rul2MWBbcasNk9m5aOpF4Z/+g8KUFhKr9xtrGcVZBmHE98h1cjLZveoZiAhpZ3x7B3NYGSzEO1QRKvl1i61QZhz4x8UYpso6VXQlipCAi2l15NHCR7+vr/424VpWPNLiuWOgk7dRWDTBbuAmLACLL1xjEsKLwxv4vSa0nRyr+r99dPB+3paGZ+Nw1AtQ1VB/rhaQwRrSx0uiLZ4WNgKYerjBPIfd/SI1G7tNf9tTggAG08UXWmRqQUomY9KJUhrxatxsM1MMqdyNDLK3CtCeDIq+HTTQmV1Wt7axDhLOCZS2RCqQZiLYkI65l5RTsD6LwkQ=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828BABF8DEDDEC528AE30CCFFAB9DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828BABF8DEDDEC528AE30CCFFAB9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Platinum Mortgage Company
+Broker Company NMLS: 266371
+
+LO First Name: Allysia
+LO Last Name: Romo-Evans
+LO Email: allysia@pmccanhelp.com
+
+
+
+
+--_000_DM6PR11MB2828BABF8DEDDEC528AE30CCFFAB9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Platinum Mortgage Company<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 266371<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Allysia
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Romo-Evans<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>allysia@pmccanhelp.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828BABF8DEDDEC528AE30CCFFAB9DM6PR11MB2828namp_--

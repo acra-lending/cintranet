@@ -1,0 +1,129 @@
+Received: from CH0PR11MB5489.namprd11.prod.outlook.com (2603:10b6:610:d4::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 28 Oct 2021
+ 00:46:30 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5489.namprd11.prod.outlook.com (2603:10b6:610:d4::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Thu, 28 Oct
+ 2021 00:46:28 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5%8]) with mapi id 15.20.4649.015; Thu, 28 Oct 2021
+ 00:46:28 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Donna Abbo <Donna.Abbo@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037209 /
+ Blanco
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037209 / Blanco
+Thread-Index: AdfLlR09zpqEc3GGTkCzxnnNPA9YzQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 28 Oct 2021 00:46:28 +0000
+Message-ID:
+	<CH0PR11MB54258A084AC1659A93A3768BF6869@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	120a4fd4-ace4-40b8-90ac-08d999ac60bb
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5489:
+x-ms-exchange-crosstenant-originalarrivaltime: 28 Oct 2021 00:46:28.4730 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	120a4fd4-ace4-40b8-90ac-08d999ac60bb
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5489
+x-ms-exchange-transport-endtoendlatency: 00:00:02.1792704
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 120a4fd4-ace4-40b8-90ac-08d999ac60bb
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Jol7I9UU1A49LIG7PYKN/7geDgdJuxuwQqhB3rswKyrPErroK2G961mh2bxHztECMlxWMQPhcABm15U3Ye59laqolnl7WtqVn214d9EcPrc=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.015
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920057)(425001)(930056);
+X-Microsoft-Antispam-Message-Info:
+	RXGioJ3KAAy4tIQq2ZFnZdSfeemPpC3RIDqy4Ehg4z5E3hkSvknesaCwJndHwDEpH2wDof7RrkpUGl2YaoZ3t4yrEIvMgdj1JE8/+dydiH9lHkf8uBq+xr7T7fSErifFj3RV04+nWMfDFW0Vjkw2bJRZtqTIkUkWGKKshepBjWANmeVrNaGT00d/ubgpiVtsQPLb+ObJEZ0r1SXU71xS4PPa/duPdcOSfT4Ltc4vNZy39Vgci+zU+Sn9Q6hK+r/eM77AKZMbm/3Ia4HchriRyHPed+6ur1enEsWiL+0MtTQYfCc+Fa4xYoMTtWHTLiTBYy6RITPaWssQQClqA9msFxiiF0zeJ8Ei66Rew6lRC9PDnP0HCZ9Q0ji55QCdMEizAiIbTrAlhFAMnHkrt2qLAEaPqzNNrPPgi22sdoDf5sWILbVL5Bn9bKy74IXSAHN2ywdD6FHKIualivKBkDM6L9aSUE0JjnaMUcVAbiQcazw8T38kdaucgy8G6Y38Mmn2h0ZXrzNceVI3N7iKhdJ6gALNqqXlK/YW6FtiGHRtZ4cLoooIgxsNY3f36LZvX4LdoEzKlFAnOV9z07LnXyovZoCqBKpnRVOiTEJ3CkrEgMujTvwJxFDx9gASboCoZZ8mSKt/ekYs6HFBocMUsapVRV93cNK0e5Et6/16daqwtik=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB54258A084AC1659A93A3768BF6869CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB54258A084AC1659A93A3768BF6869CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Lincoln Lending Group, Inc / Broker Company NMLS: 355238
+
+LO First Name: Emilio
+
+LO Last Name: Henriquez
+
+LO Email: emilio@lincolnlend.com<mailto:emilio@lincolnlend.com>
+
+--_000_CH0PR11MB54258A084AC1659A93A3768BF6869CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Lincoln Lending Group, Inc / Broker Company NMLS: 355238<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Emilio<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Henriquez <o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:emilio@lincolnlend.com">emilio@lincolnlend.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB54258A084AC1659A93A3768BF6869CH0PR11MB5425namp_--

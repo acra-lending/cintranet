@@ -1,0 +1,127 @@
+Received: from BL1PR11MB5349.namprd11.prod.outlook.com (2603:10b6:208:308::16)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 19 Oct 2021
+ 22:00:39 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com (2603:10b6:208:13e::25)
+ by BL1PR11MB5349.namprd11.prod.outlook.com (2603:10b6:208:308::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.16; Tue, 19 Oct
+ 2021 22:00:37 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a]) by MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a%7]) with mapi id 15.20.4608.018; Tue, 19 Oct 2021
+ 22:00:37 +0000
+From: Clark Deremo <Clark.Deremo@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Brin Stephens <brin.stephens@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036971 /
+ BONILLA
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036971 / BONILLA
+Thread-Index: AdfFNLITKpavEmR0Ss2f5joiWf8//w==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 19 Oct 2021 22:00:37 +0000
+Message-ID:
+	<MN2PR11MB40138080D39835B80B8A069E8ABD9@MN2PR11MB4013.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB4013.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	46f2700c-db22-4b4c-b1b4-08d9934be23a
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5349:
+x-ms-exchange-crosstenant-originalarrivaltime: 19 Oct 2021 22:00:37.6273 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	46f2700c-db22-4b4c-b1b4-08d9934be23a
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5349
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4685382
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 46f2700c-db22-4b4c-b1b4-08d9934be23a
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB4013.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	3Aq4D8b9kiaJkgBqu5T+FCKkd4OHFpx/SBbw5YLH1rEdbo+IsIsT2Giv+2MRyXQdCbrg9CkBIb3QLLjxZlO/ufyjsk0iqVqx6NQ6N2RjzqY=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: MN2PR11MB4013.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	M1LPlmG7mZCDFA2ChiHftfVlya29ktw5qzKHdz1G19bRIlaOuAu0OOaUwl988kR+AW5U9lX5vKPnnU9QBAYuXi8JSKud6coswgSiEef+Hj4rODTuVOZqLhSJF62ThiIfV/cLVCeH2H9ke970ph5wRaCQ4UCX/KCL13v2aaNliANMN4YSizZu37mqCafVuFfR97Hh20y7lH0MF1Un1E8L/NqJ71LOBKMRBLWcthDNuLVzQJNi+pilPhqtiJhuOhWjzRa2gCvTCwcVXQA/Rl8pNbVZM+Lyyf35P06NFgeIFQd9hR+1bqc4PlrTgMYsdDZwH9QGxFq0If9wQz+i5qyKDPXkH698Eym/FgvUHAr/laBu87oWHGDie2nwZZGCwwNoulbKo0qJs9fMNb34unVtmUiCf78HtPRbjiQvtKEfZiyJINTUC7/wL0aRcf1Q+hMNPzeF6drIXsdkkrcGOEUZtmivq7x/khgNri/zFjmgsqGh5xbkTNRPwOtm4TC1QxGqZSstBtobwn0cFZZLE8bsyMZIJNvtUo5vozwFeVGaFxNhwbPDQtMKgYs2D/LM2htRHfY4Fn9NegVjXO7YSdGzhC47woGXRidydYlR1hzvC5FWLTyVRNmgT++lodiQ04e4Y+l2g3CAR+eg+1c48ChYfz7wElOD0TME6KKHmT7pr9Y=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB40138080D39835B80B8A069E8ABD9MN2PR11MB4013namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB40138080D39835B80B8A069E8ABD9MN2PR11MB4013namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Brian
+
+LO Last Name: Passman
+
+LO Email: brian@integrity-loans.com<mailto:brian@integrity-loans.com>
+
+
+
+--_000_MN2PR11MB40138080D39835B80B8A069E8ABD9MN2PR11MB4013namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Brian<o:p></o:p></p>
+<p>LO Last Name: Passman <o:p></o:p></p>
+<p>LO Email: <a href="mailto:brian@integrity-loans.com">brian@integrity-loans.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB40138080D39835B80B8A069E8ABD9MN2PR11MB4013namp_--

@@ -1,0 +1,146 @@
+Received: from DM4PR11MB5550.namprd11.prod.outlook.com (2603:10b6:5:38b::24)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 9 Feb 2022
+ 00:51:10 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by DM4PR11MB5550.namprd11.prod.outlook.com (2603:10b6:5:38b::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4951.12; Wed, 9 Feb
+ 2022 00:51:09 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::65eb:7b39:4989:fa]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::65eb:7b39:4989:fa%6]) with mapi id 15.20.4951.019; Wed, 9 Feb 2022
+ 00:51:09 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7039875 /
+ Wendt
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7039875 / Wendt
+Thread-Index: AdgdTv+GyXCgYdwnQvG2LPtX9c6cbg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 9 Feb 2022 00:51:08 +0000
+Message-ID:
+	<BYAPR11MB2853943AC49174C853D8B28EFA2E9@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2d4b92df-8748-49d6-c8ad-08d9eb6642fa
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5550:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 09 Feb 2022 00:51:09.1777 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2d4b92df-8748-49d6-c8ad-08d9eb6642fa
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5550
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8837822
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2d4b92df-8748-49d6-c8ad-08d9eb6642fa
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	4+g5MbMPk+bs0p7HHGjJkeHuJdKoKWFu/cbKnlWrCs7QVtumXDSuxcQWfYvmiJFzHjuJfcxzPPOGC1maYyR6NND36yf1PLZfzvyj4o/o6m4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4951.019
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	P1g3xmdNAO+nB4JYaTbPqAi488nOBTG5ooD/IF07AwcXRsb8H28spAnsuu+mv3nvNjvBXTNuprjfrFvl+jZrbA028XTTM7hrcFuKTpTLZtE8HuG5oIfPUUZn7rZSD6ONIewiOg4u6u+bLX3RUYCQmduXxJXsuDSdhx9YJrTozUH8vfBCMzyGe2MWwFbwlo2t7YIA9CZgAaRLkEY+lv1H4KQbVbq8vGJRZpsrtuL+oYs1YKlgzVJki1Bb7Uv/q5IAwzte4BmxoKL3pO/+jjx0YSZ6tc7lEzLItdl4S42tjJGkzHGAcPntoAFupFPL2vXwGqhBiXAj4/V3n09m/np9rwIZPokVuxlZyW7G0FoUacVt8qM3xJwbeRJGUBMQ3EzwzrniyfVuqPRMjyG1ZslFZTRhYf8DkglqE1gdt0EpzyZDvETupAELMJtT9i7RQbAIonR+81+HpCnIUNxForFFE5Zk0Qposg9vReqbroNu6i/YtrhMzTIfW0qEwjfvRpVNDvSzT/c3sV6l6lGGJctLS0GQKSOel77dWlnsTERe6d28fzWQNJVvxmUERWfqMU+Uajy+QjYGeix3fYys6EEG7eSUoe7E7j7Hewe7QP9AAp0R9wDlfAFmGcDVHM2oVocLahsF1s/vjBj43VQN02OD2iCZD2lv6e2iq609icpUn5U=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853943AC49174C853D8B28EFA2E9BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853943AC49174C853D8B28EFA2E9BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: LoanDepot.com LLC
+Broker Company NMLS: 1250800
+
+LO First Name: Domenic
+LO Last Name: Giannone
+LO Email: dom@loandepot.com<mailto:dom@loandepot.com>
+
+LP First Name: Patti
+LP Last Name: Roins
+LP Email: proins@loandepot.com<mailto:proins@loandepot.com>
+
+
+
+--_000_BYAPR11MB2853943AC49174C853D8B28EFA2E9BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> LoanDepot.com LLC<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 1250800<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Domenic<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Giannone<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:dom@loandepot.com">dom@loandepot.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Patti<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Roins<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:proins@loandepot.com">proins@loandepot.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853943AC49174C853D8B28EFA2E9BYAPR11MB2853namp_--

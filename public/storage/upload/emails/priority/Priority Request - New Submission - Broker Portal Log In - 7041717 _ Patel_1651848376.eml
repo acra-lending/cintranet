@@ -1,0 +1,127 @@
+Received: from DS0PR11MB6399.namprd11.prod.outlook.com (2603:10b6:8:c8::5) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 5 May 2022 23:01:38
+ +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com (2603:10b6:805:61::14)
+ by DS0PR11MB6399.namprd11.prod.outlook.com (2603:10b6:8:c8::5) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5186.28; Thu, 5 May 2022 23:01:37 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::e020:330a:f846:786c]) by SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::e020:330a:f846:786c%7]) with mapi id 15.20.5206.024; Thu, 5 May 2022
+ 23:01:36 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041717 /
+ Patel
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041717 / Patel
+Thread-Index: Adhg0/vumdTtX8tvRJ2xeZ6DyFSuFg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 5 May 2022 23:01:36 +0000
+Message-ID:
+	<SN6PR11MB2861504C746871B50EB72C0387C29@SN6PR11MB2861.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SN6PR11MB2861.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	ce4f79e0-05d5-44ee-8f23-08da2eeb3514
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DS0PR11MB6399:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 05 May 2022 23:01:36.8766 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	ce4f79e0-05d5-44ee-8f23-08da2eeb3514
+x-ms-exchange-transport-crosstenantheadersstamped: DS0PR11MB6399
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2985957
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: ce4f79e0-05d5-44ee-8f23-08da2eeb3514
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:SN6PR11MB2861.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	X2Im8HQapfO7OFL4YP2H5jR9W96bxNSRsBW67kdE/l61YnB+tzroD0ENPwlxH+y8h289SliYXVGCHAaKKeGP300KQ3+LxkRGaJoG1zHrvB4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5206.024
+x-ms-exchange-crosstenant-authsource: SN6PR11MB2861.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	wH9bDJ+zG4GpRZxFrOjgfVO5W7ovBLNsUVrJxxGUhkIKp6GW07XJVTbGogJgE81MygQEhbZImO7wlmT7u0FtROLdI4tUaHBp8Cfrml8DEuwVd1BT+AojgdCp69GK82r3/WvNEyXzuqTOTUiOc75EL/mI+EW6LdHXopOVlEI8Dy6rXVPDVQ9XUr3d0jY3dfocLI6NR8oDdNpszrjRkohnlLdLYD3SBVWquB+aTDCSD2bTwU3fbmvRcV0MPkLjtnjWGVGqD39ct+DtTJeHKDIPDGPTD9il5gZo0UMLEshE5FIpB/siO9bspNMxmdlgPgqiYdIrboBklxaokaEiA4JrEmp2MBD+h/QC594YNzlwz9x7ACemRlXBu7V3MIYBDqWyMWbbpwwRoxBiiNzPMC+5HLMEsSn/MtVKBfkuuA+O7tGV4H74BIB0BaByO1od2dn8+AZXiC4JOtakwVMCRHjciSFs2gBcYZL+JBbNsoUDb762w6YSYysO0GzSecjj9+rVD3fS1yV1EEaAF2mPKn8Xm9KHEkE1zjlfAzmjqcGyiuWSA80BDXFz3sKoFxXi2HwxEQn6F7eMuCs2Ky6KTtarHYOS8HNclfOu8ZYOXmcSKf65X9c/fqT0dBZTKSZU380TEDR3hvneBl3r+wRCU/kYzTvrdUT1mlY+xNiXHRadQ7s=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR11MB2861504C746871B50EB72C0387C29SN6PR11MB2861namp_"
+MIME-Version: 1.0
+
+--_000_SN6PR11MB2861504C746871B50EB72C0387C29SN6PR11MB2861namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: United Mortgage, LLC
+Broker Company NMLS: 4351
+
+LP First Name: Brian
+LP Last Name: Keller
+LP Email: bkeller@umhomeloan.com
+
+
+
+--_000_SN6PR11MB2861504C746871B50EB72C0387C29SN6PR11MB2861namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: United Mortgage, LLC<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 4351<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Brian<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Keller<o:p></o:p></p>
+<p class="MsoNormal">LP Email: bkeller@umhomeloan.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR11MB2861504C746871B50EB72C0387C29SN6PR11MB2861namp_--

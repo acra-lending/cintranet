@@ -1,0 +1,130 @@
+Received: from IA1PR11MB6196.namprd11.prod.outlook.com (2603:10b6:208:3e8::6)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 14 Jun 2022
+ 16:07:23 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com (2603:10b6:405:7c::31)
+ by IA1PR11MB6196.namprd11.prod.outlook.com (2603:10b6:208:3e8::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5332.22; Tue, 14 Jun
+ 2022 16:07:22 +0000
+Received: from BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::658f:84d6:cf9a:4cf1]) by BN6PR11MB4068.namprd11.prod.outlook.com
+ ([fe80::658f:84d6:cf9a:4cf1%5]) with mapi id 15.20.5332.022; Tue, 14 Jun 2022
+ 16:07:22 +0000
+From: Jose Esparza <Jose.Esparza@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Brin Stephens <brin.stephens@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042465 /
+ HUSSAIN
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042465 / HUSSAIN
+Thread-Index: AdiACKYATYJUb/B1RcywS5sVyCNwqQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 14 Jun 2022 16:07:22 +0000
+Message-ID:
+	<BN6PR11MB406891490C96B0FA9000C22594AA9@BN6PR11MB4068.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN6PR11MB4068.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2e563788-3d20-4da3-2ca2-08da4e1ff6f7
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: IA1PR11MB6196:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 14 Jun 2022 16:07:22.0536 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2e563788-3d20-4da3-2ca2-08da4e1ff6f7
+x-ms-exchange-transport-crosstenantheadersstamped: IA1PR11MB6196
+x-ms-exchange-transport-endtoendlatency: 00:00:01.6831804
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2e563788-3d20-4da3-2ca2-08da4e1ff6f7
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN6PR11MB4068.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	8sYs6Vt9m3XwMxtTelL15sN3e0ADtqu+N/KPkDg+Kg8DwiV3OJlFe8c0fI1M2j4HXnH3n5St1jKPBWZRilkWGcEdYyKyCJbMzBgh87uh+po=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5332.022
+x-ms-exchange-crosstenant-authsource: BN6PR11MB4068.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	n8z8gKZHrSb73IontsudV9J0lsqAJTuS4u52iaqKiKHvdkVLOvHTrn/aSFl4CYXvp138GTtpAY1CjiBI9DcNKmqZkq2jTLKrsrbPzIXetuugzwvLXp1K9JPy/5tdl7Dkp2Sf7+XDqUYzVu7WPadzTNIGZj+fOO5degIKnGGMZAnML1j5CjMD0eD9L96M3v2VUtXSV039Ya/+B8pCoyXR09iUf4DIs5RAxZHVx/pIYo9Y3jR7HnqvGR4v6+6i/0mdwml52K+x1IZaxMN7LUztj2IhoL0dRm86Jd6Y0Ctt9M2koIH28X/tLeK0ljjwEoQuxpGZUwFqFXw1DOi+ounOs9FDgvZBLpB1BuF1ycRDuZ9eRE7N0uHQaB9INSk1QoQkpgsh122FpT25ygTpfB8xxCki0C6OX/V7KohZDwule6/KYh8r2nybNDHIhGVDmSJI/6S3yBlrMfnVeUJ5baABodXTqmFEOzL4o4KTB1o99qOzydixkHFmx08z8sRzS8oM5e0VKpFCCVcapqJELE2lf55swOJOY+8iOKcxGHeDKD94kkRMkWUUhCBXxHfvblpHB6idOnuwq/cb1nHSeAD9/oyGS34iu6JEdeFwmhkDMecHM05NHAzHZrN7tIjHKcMZ3lZKpbteUleMATqm3oz/RL0SGM6AnJVi1gLAjLct+lk=
+Content-Type: multipart/alternative;
+	boundary="_000_BN6PR11MB406891490C96B0FA9000C22594AA9BN6PR11MB4068namp_"
+MIME-Version: 1.0
+
+--_000_BN6PR11MB406891490C96B0FA9000C22594AA9BN6PR11MB4068namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Harold
+
+LO Last Name: Osborne
+
+LO Email: harold@smartchoicerealtyinc.com<mailto:harold@smartchoicerealtyinc.com>
+
+LP First Name: Kathryn
+
+LP Last Name: Thomas
+
+LP Email: kathrynthomasprocessing@gmail.com
+
+--_000_BN6PR11MB406891490C96B0FA9000C22594AA9BN6PR11MB4068namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Harold<o:p></o:p></p>
+<p>LO Last Name: Osborne <o:p></o:p></p>
+<p>LO Email: <a href="mailto:harold@smartchoicerealtyinc.com">harold@smartchoicerealtyinc.com</a><o:p></o:p></p>
+<p>LP First Name: Kathryn<o:p></o:p></p>
+<p>LP Last Name: Thomas <o:p></o:p></p>
+<p>LP Email: kathrynthomasprocessing@gmail.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN6PR11MB406891490C96B0FA9000C22594AA9BN6PR11MB4068namp_--

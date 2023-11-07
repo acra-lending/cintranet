@@ -1,0 +1,136 @@
+Received: from DM4PR11MB5374.namprd11.prod.outlook.com (2603:10b6:5:395::23)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 30 Dec 2021
+ 01:31:19 +0000
+Received: from DM6PR11MB4531.namprd11.prod.outlook.com (2603:10b6:5:2a5::19)
+ by DM4PR11MB5374.namprd11.prod.outlook.com (2603:10b6:5:395::23) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4844.13; Thu, 30 Dec
+ 2021 01:31:18 +0000
+Received: from DM6PR11MB4531.namprd11.prod.outlook.com
+ ([fe80::8ea:5882:ef65:e802]) by DM6PR11MB4531.namprd11.prod.outlook.com
+ ([fe80::8ea:5882:ef65:e802%4]) with mapi id 15.20.4844.014; Thu, 30 Dec 2021
+ 01:31:18 +0000
+From: Saul Gonzalez <Saul.gonzalez@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7038798 /
+ Herscu
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7038798 / Herscu
+Thread-Index: Adf9HNushi1Nc78ERoqcLR9seGi3fQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 30 Dec 2021 01:31:18 +0000
+Message-ID:
+	<DM6PR11MB45313F95AFFB99A8F86E7061EC459@DM6PR11MB4531.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4531.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	76d9a1cf-b825-40c5-2dd4-08d9cb341443
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5374:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 30 Dec 2021 01:31:18.7071 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	76d9a1cf-b825-40c5-2dd4-08d9cb341443
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5374
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8957933
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 76d9a1cf-b825-40c5-2dd4-08d9cb341443
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4531.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	e10E4oZOsBA5b/wc7f2HvtSPEBmK0zVyCPnizJ2ENOUzClFKmhdSpa9jK+4bUKGSaUw44A1tl4x6B2TQgMx9AFYaDVNOW711zI9Yky9F3C8=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4823.024
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4531.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	Bh5/rzO5hM8o+QDzzKCEGGxGvuqhIE6lprLNwfIRxsPg6K7gppqmoKLehCAAPqHC7sZjs82f+f8cJbRknu1KDyvGtiO0yG8J6ejtq/69V3hWVdijuDy3NXEuAr/MVRrVAdVgBe6bOVzwV30lzNeIhDpT92lSGhube5+wRMd0P+sR2KnqzMcY1DRD2bwmezWipXN942+8QnE+PNFsWdkYo1l9itIuGod6lnA7ZS/mi6y1jzxtpdWxSlKFxW+fC0YuQETnFQB7FCR19gdnGDXzAQ/FSe3kJjdWOl9SFuVGcgXgaCpasO0UBLkDQjSKlE2/d4nFynRurKnHTfpwJZeUOOa7XTnCpnWRmkgc8EgrN1HYdCHheAX8FnQ/4v/MInGfgX7iDmIsJcavRE1iBswo97oFwTWLr7KBluwQSzmDzySjneRRr5ueJ1xH+QlV7s4rjCtOjeANJb1Qq5z9SnIG3u4AN9GoGxE59BYPXdjNuw64rzgdCqPHcsey87M/PmFUD9pXSGvPsr2MAIKaSQUJB+X69/gvZ/vFNg1+F4alSC22vr082EaFLvyPbmkAkGp28U4/VZVptrKLe33hayPfWv8ZE9jxLPRWTPQzVG02Oxkhy2y2Xkp7560Rk8rs2hyglvM8+BmIehLxUXoFUOM12LSH4uT781+CtYkye6YTAk8=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB45313F95AFFB99A8F86E7061EC459DM6PR11MB4531namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB45313F95AFFB99A8F86E7061EC459DM6PR11MB4531namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Portal Login:
+LO First Name: Jason
+LO Last Name: Seradsky
+LO Email: jseradsky@emortgagecapital.com<mailto:jseradsky@emortgagecapital.com>
+
+LP First Name: Ricky
+LP Last Name: Chen
+LP Email: chen@emortgagecapital.com<mailto:chen@emortgagecapital.com>
+
+--_000_DM6PR11MB45313F95AFFB99A8F86E7061EC459DM6PR11MB4531namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Portal Login:<o:p></o:p></p>
+<p class="MsoNormal">LO First Name: Jason<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Seradsky<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:jseradsky@emortgagecapital.com">jseradsky@emortgagecapital.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Ricky<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Chen<o:p></o:p></p>
+<p class="MsoNormal">LP Email: <a href="mailto:chen@emortgagecapital.com">chen@emortgagecapital.com</a>&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB45313F95AFFB99A8F86E7061EC459DM6PR11MB4531namp_--

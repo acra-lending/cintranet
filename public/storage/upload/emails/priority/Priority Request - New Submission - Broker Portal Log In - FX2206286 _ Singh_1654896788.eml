@@ -1,0 +1,141 @@
+Received: from MW5PR11MB5930.namprd11.prod.outlook.com (2603:10b6:303:1a1::16)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 10 Jun 2022
+ 21:13:48 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by MW5PR11MB5930.namprd11.prod.outlook.com (2603:10b6:303:1a1::16) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.19; Fri, 10 Jun
+ 2022 21:13:47 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5332.013; Fri, 10 Jun 2022
+ 21:13:47 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Alex Castillo <Alex.Castillo@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - FX2206286
+ / Singh
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ FX2206286 / Singh
+Thread-Index: Adh9Duf0ZwcMqD+MQom71upXtHRj0g==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 10 Jun 2022 21:13:47 +0000
+Message-ID:
+	<BYAPR11MB2853E563EE6053DA5181C2A9FAA69@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6e245b30-6616-4a44-7ac4-08da4b261be4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW5PR11MB5930:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 10 Jun 2022 21:13:47.4832 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6e245b30-6616-4a44-7ac4-08da4b261be4
+x-ms-exchange-transport-crosstenantheadersstamped: MW5PR11MB5930
+x-ms-exchange-transport-endtoendlatency: 00:00:00.8272106
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 6e245b30-6616-4a44-7ac4-08da4b261be4
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	bOEGFpIgOyUb7LPxHZpedELGQ7yhNh8Hbn8kC0YrkpOcXA+0KVuZzipf42h5YQ410q82PNw6NCyU1M2ctiCw+ZB2+f9fZrVxWmRBxQeufOA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.021
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	gwm2eZP/Hj69hiQcND6JMNBoxlxSK0ppuJ1gIbkt50z4K8sNK9TAj8ljjXXjMhE3iA2Uh7zVgI5pLEYmDNcu/qIj0qZ20LOUFy57Pdv9NwePdashlfQoK8ZNDn0+6RGA9f1iqXPX2DMFcCs+h7bBQ9lSJM6fPDpn6El219JSemJ3pRx0mkilnoZks6ta/PxgxfFHsA3Tv/2vQJ7Ul+vQCKSwUlDtaxFzuYgb4TUoxWYL/2/svxcHAwJ5JpLznBQxU4wJk6OqDDOA7RhPCnJEjAfErLw2B++sysm8dcTXVmeCRcotGm/1h8TgGsYyI7CGSGIOsoA7X7lQlgjyJnKcxdSlobp4Qwsu4vUpSfjDl6hNCoM771kIVvh/hx5SQRaUsgdViLdF8vjyIsKhr6GDLJA3ev99aG7tFegqYQUiEEaoHQHTyd+oA1WA08EDWZ6H5l/HJrOt35TqCiOgqrOV/ujOog87SPUfO2+ozEIeMDrLYYWJ5jOcxdOVaTrB+JxYHAOYi51kmywCtp9G7Zozw/lM8lpLQfnmPrRa/tuvdkCxBHBTuHxRk7hzvRA+Xo9pzWQ5sEGV9LKm8o9VyLkrECo2bkhuh6qvD6tDKt75/4aPV+YnQlpRKu8ayMPhLXg1I/N73G/T61czXB0xYbPKIeOgfIJV/f8Efk0BnpPNOUU=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853E563EE6053DA5181C2A9FAA69BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853E563EE6053DA5181C2A9FAA69BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Absolute Home Mortgage Corporation
+Broker Company NMLS: 2242484
+
+LO First Name: Richard
+LO Last Name: Melnyk
+LO Email: rmelnyk@crownhm.com<mailto:rmelnyk@crownhm.com>
+
+
+
+
+--_000_BYAPR11MB2853E563EE6053DA5181C2A9FAA69BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> Absolute Home Mortgage Corporation<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 2242484<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Richard<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>Melnyk<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:rmelnyk@crownhm.com">rmelnyk@crownhm.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853E563EE6053DA5181C2A9FAA69BYAPR11MB2853namp_--

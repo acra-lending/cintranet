@@ -1,0 +1,1679 @@
+Received: from DM8PR11MB5687.namprd11.prod.outlook.com (2603:10b6:8:22::7) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 5 Nov 2021 00:29:27
+ +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM8PR11MB5687.namprd11.prod.outlook.com (2603:10b6:8:22::7) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4649.15; Fri, 5 Nov 2021 00:29:27 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4669.013; Fri, 5 Nov 2021
+ 00:29:27 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Chris Liu <chris.liu@acralending.com>, Web Updates
+	<Webupdates@acralending.com>
+CC: Charyl Frakes <charyl.frakes@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Bill Fairbanks
+	<bill.fairbanks@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In -
+ 7037363 / KEMPIS
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037363 / KEMPIS
+Thread-Index:
+	AdfQ1mT76fdD6MHVTqGIo0EqXM7l7gAA+aZJAC6Cp6AAACWBgAAQLp2QAADhl8YAAJbFYA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 5 Nov 2021 00:29:26 +0000
+Message-ID:
+	<DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9@DM6PR11MB2828.namprd11.prod.outlook.com>
+References:
+	<MN2PR11MB383985FDE4F9F7FE2B02EC01B58C9@MN2PR11MB3839.namprd11.prod.outlook.com>
+ <BY5PR11MB4133A9357D026AC6787FC643FA8C9@BY5PR11MB4133.namprd11.prod.outlook.com>
+ <DM6PR11MB282851981D38D9D144BAD8EBFF8D9@DM6PR11MB2828.namprd11.prod.outlook.com>
+ <SJ0PR11MB48163B7ED7BD209D3F8A66E58B8D9@SJ0PR11MB4816.namprd11.prod.outlook.com>
+ <DM6PR11MB28289EF316954F48AB4DB048FF8D9@DM6PR11MB2828.namprd11.prod.outlook.com>
+ <SJ0PR11MB4816517F1278D245C250E9ED8B8E9@SJ0PR11MB4816.namprd11.prod.outlook.com>
+In-Reply-To:
+	<SJ0PR11MB4816517F1278D245C250E9ED8B8E9@SJ0PR11MB4816.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	a2a3f8e2-9ac5-41dd-245b-08d99ff35324
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM8PR11MB5687:
+x-ms-exchange-crosstenant-originalarrivaltime: 05 Nov 2021 00:29:26.9733 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a2a3f8e2-9ac5-41dd-245b-08d99ff35324
+x-ms-exchange-transport-crosstenantheadersstamped: DM8PR11MB5687
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9297232
+authentication-results: acralending.com; dkim=none (message not signed)
+ header.d=none;acralending.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a2a3f8e2-9ac5-41dd-245b-08d99ff35324
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1332;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	YIJ5OniTqMOTkHCI3dQZ0Lmf7zbTRNl5rRNVG0i0LI/01lhGgxlrkanddmw9P/6bueeEANBCv2ccnWTJMeCKV1p5Qa9UT3kmN/uG9s+utoM=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.013
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930096);
+X-Microsoft-Antispam-Message-Info:
+	hACUA2p9oGT7afZtI9uNTACqKT+cWGALEQreyQCRazrTZXDgnvVjMeTJ1SDNPHYlB788a/w+rMJeXdVHxK22F1zSnuycno3TOCUY/EEwMRu89oaVR5L7vG/JH5GYAU7jhkCyRmwbZkunBGDZryAUG9VTw6S9tHmMt419/OBgzp5K+dliSeajMaTrLGq9GdgQxZzs43yVsfiLyT5PTDp0+a5YZbpW9z561dTyAPr1wU6SC5oSumQ8I5x1BGahLEvneYGlN64GpAF1b9ZWS/50qHbgl6dXLfXKf/nNQ82U4Q5+2KeSoTJOLJwHonLBv0iujinvwbUyDf+XkXcTg0a6pyLVi3q4qew91yOMLJJb/6N1ZK/cBQlRZdvUp0SUeCkgmLcpEFtu3lNdWQTVV3hJIHRxwCZoFFmZuTocQsmlLeaThGmhOzdsz/rFr9ijLjgTQb0aDYaMwqbXUr67itGG/1M7x73MR7gVnhacKA9IjiKDHKnjYiUDzadxvRkz/l9vqHsyDMu/7m3gIhoQj1HyJIkbB5dKVkkrGa5xEsGoLxLKZA96ugXXWHIZ3vHK1zhS+UdH+O6ZvdS94iwIh51htIU2J7WO6fE5rk03dlmbB5YHDywL74Y6zcnDN7BRDEalsn3pUbZBj+BGI0JLtuJEiiOA1QxiQqh7Hm2jtvQk1ib8bc/zCxvWlxcqueeu1Oe5vAciW+CWawgom4cFZbIcFSnP+lKH0ABENXPrTYjBZSSCzRXjpdABVMMtJH4q8w/Hobpoyp01UJ0yQRgdBdYBa0fB7Fkhv26469g+gQUu5cU=
+Content-Type: multipart/related;
+	boundary="_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_"
+
+--_000_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Jesus
+LO Last Name: Medina
+LO Email: broker@crestlinefinancial.com<mailto:broker@crestlinefinancial.com>
+
+LP First Name: Charlotte
+LP Last Name: Macasarte
+LP Email: crestlineinfo@gmail.com<mailto:crestlineinfo@gmail.com>
+
+I apologize for any confusion!
+
+Thank you,
+
+Haylee Couron
+Loan Set Up Team Lead
+[cid:image002.png@01D7D1A1.8065BD10]
+The Leader in Today's Non-QM Programs
+
+[cid:image003.png@01D7D1A1.8065BD10](949) 328-1728 ext. 145
+[cid:image004.png@01D7D1A1.8065BD10]haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>
+
+25531 Commercentre Drive, Ste 160
+Lake Forest, CA 92630
+
+
+Review our Privacy Policies at www.acralending.com/privacy-policy<http://www.acralending.com/privacy-policy>
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect. NMLS ID #144549
+
+From: Bill Fairbanks <bill.fairbanks@acralending.com>
+Sent: Thursday, November 4, 2021 5:08 PM
+To: Haylee Couron <haylee.couron@acralending.com>; Chris Liu <chris.liu@acralending.com>; Paria Azarisoreh <pariaa@citadelservicing.com>; Web Updates <Webupdates@acralending.com>
+Cc: Charyl Frakes <charyl.frakes@acralending.com>; Mayra Mendoza <mayra.mendoza@acralending.com>
+Subject: Re: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+Yes, thanks!
+
+Get Outlook for iOS<https://aka.ms/o0ukef>
+________________________________
+From: Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>
+Sent: Thursday, November 4, 2021 4:43:42 PM
+To: Bill Fairbanks <bill.fairbanks@acralending.com<mailto:bill.fairbanks@acralending.com>>; Chris Liu <chris.liu@acralending.com<mailto:chris.liu@acralending.com>>; Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>; Web Updates <Webupdates@acralending.com<mailto:Webupdates@acralending.com>>
+Cc: Charyl Frakes <charyl.frakes@acralending.com<mailto:charyl.frakes@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>
+Subject: RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+
+Okay perfect, and I'm just now seeing the other submission sheet in that file but I want to confirm that this is the correct email for the LO before I re-request the correct credentials. Is this the email you would like us to use for Jesus?
+
+
+
+[cid:image009.png@01D7D1A1.8065BD10]
+
+
+
+Thank you,
+
+
+
+Haylee Couron
+
+Loan Set Up Team Lead
+
+[cid:image002.png@01D7D1A1.8065BD10]
+
+The Leader in Today's Non-QM Programs
+
+
+
+[cid:image003.png@01D7D1A1.8065BD10](949) 328-1728 ext. 145
+
+[cid:image004.png@01D7D1A1.8065BD10]haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>
+
+
+
+25531 Commercentre Drive, Ste 160
+
+Lake Forest, CA 92630
+
+
+
+
+
+Review our Privacy Policies at www.acralending.com/privacy-policy<http://www.acralending.com/privacy-policy>
+
+
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect. NMLS ID #144549
+
+
+
+From: Bill Fairbanks <bill.fairbanks@acralending.com<mailto:bill.fairbanks@acralending.com>>
+Sent: Thursday, November 4, 2021 9:00 AM
+To: Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>; Chris Liu <chris.liu@acralending.com<mailto:chris.liu@acralending.com>>; Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>; Web Updates <Webupdates@acralending.com<mailto:Webupdates@acralending.com>>
+Cc: Charyl Frakes <charyl.frakes@acralending.com<mailto:charyl.frakes@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>
+Subject: RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+
+
+Hello Haylee,
+
+
+
+Thanks for the message today.
+
+Let's  make for the LP Charlotte as she is the main point of contact.
+
+
+
+
+
+Best,,,
+
+
+
+BILL FAIRBANKS
+
+Account Executive
+
+[cid:image002.png@01D7D1A1.8065BD10]
+
+The Leader in Today's Non-QM Programs
+
+
+
+[cid:image003.png@01D7D1A1.8065BD10](949) 310 7943
+
+Bill.Fairbanks@Acralending.com<mailto:Bill.Fairbanks@Acralending.com>
+
+
+
+ [Upload New Loan Here] <https://acralending.com/broker-portal/#wholesale-file-upload>
+
+[Jumbo Prime Rates]<https://acralending.com/wp-content/uploads/2020/RateSheets/Wholesale/acra-ws-ratematrix-jumboprime.pdf>
+
+
+
+
+
+{Mortgagee Clause}
+
+CITADEL SERVICING CORPORATION ISAOA
+
+25531 Commercentre Drive, Suite 160
+
+Lake Forest, CA 92630
+
+
+
+
+
+
+
+
+
+From: Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>
+Sent: Thursday, November 4, 2021 8:56 AM
+To: Chris Liu <chris.liu@acralending.com<mailto:chris.liu@acralending.com>>; Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>; Web Updates <Webupdates@acralending.com<mailto:Webupdates@acralending.com>>; Bill Fairbanks <bill.fairbanks@acralending.com<mailto:bill.fairbanks@acralending.com>>
+Cc: Charyl Frakes <charyl.frakes@acralending.com<mailto:charyl.frakes@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>
+Subject: RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+
+
+Hi Bill,
+
+
+
+Both the LO and the LP have the same email listed. Who should Chris make the credentials for?
+
+
+
+[cid:image012.png@01D7D1A1.8065BD10]
+
+
+
+Thank you,
+
+
+
+Haylee Couron
+
+Loan Set Up Team Lead
+
+[cid:image002.png@01D7D1A1.8065BD10]
+
+The Leader in Today's Non-QM Programs
+
+
+
+[cid:image003.png@01D7D1A1.8065BD10](949) 328-1728 ext. 145
+
+[cid:image004.png@01D7D1A1.8065BD10]haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>
+
+
+
+25531 Commercentre Drive, Ste 160
+
+Lake Forest, CA 92630
+
+
+
+
+
+Review our Privacy Policies at www.acralending.com/privacy-policy<http://www.acralending.com/privacy-policy>
+
+
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect. NMLS ID #144549
+
+
+
+From: Chris Liu <chris.liu@acralending.com<mailto:chris.liu@acralending.com>>
+Sent: Wednesday, November 3, 2021 10:44 AM
+To: Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>; Web Updates <webupdates@citadelservicing.com<mailto:webupdates@citadelservicing.com>>
+Cc: Charyl Frakes <charyl.frakes@acralending.com<mailto:charyl.frakes@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>; Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>
+Subject: Re: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+
+
+LO and LP can't have same email address.
+
+Thanks,
+
+
+
+Chris Liu
+
+Web Administrator
+
+
+
+ [cid:image013.png@01D7D1A1.8065BD10]
+
+Non-Prime / Non-QM Lending
+
+
+
+chris.liu@acralending.com<mailto:chrisl@citadelservicing.com>
+
+25531 Commercentre Drive, Ste 160
+
+Lake Forest, CA 92630
+
+-------------------------------------------
+
+Review our Privacy Policies at www.acralending.com/privacy-policy<http://www.acralending.com/privacy-policy>
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect. NMLS ID #144549
+
+
+
+
+
+
+
+________________________________
+
+From: Paria Azarisoreh <pariaa@citadelservicing.com<mailto:pariaa@citadelservicing.com>>
+Sent: Wednesday, November 3, 2021 10:41 AM
+To: Web Updates <webupdates@citadelservicing.com<mailto:webupdates@citadelservicing.com>>
+Cc: Charyl Frakes <charyl.frakes@acralending.com<mailto:charyl.frakes@acralending.com>>; Mayra Mendoza <mayra.mendoza@acralending.com<mailto:mayra.mendoza@acralending.com>>; Haylee Couron <haylee.couron@acralending.com<mailto:haylee.couron@acralending.com>>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS
+
+
+
+Broker Company Name: Crestline Financial INC.
+
+Broker Company NMLS: 1462951
+
+
+
+LO First Name: Jesus
+
+LO Last Name: Medina
+
+LO Email:  crestlineinfo@gmail.com<mailto:crestlineinfo@gmail.com>
+
+
+
+LP First Name: Charlotte
+
+LP Last Name: Macasarte
+
+LP Email: crestlineinfo@gmail.com<mailto:crestlineinfo@gmail.com>
+
+--_000_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	text-decoration:underline;}
+p.xmsonormal, li.xmsonormal, div.xmsonormal
+	{mso-style-name:x_msonormal;
+	margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle24
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="blue" vlink="purple" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Hello Chris, <o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">I see that Jesus Medina already has some credentials using <a href="mailto:crestlineinfo@gmail.com">
+crestlineinfo@gmail.com</a> but Bill is wanting the LO to use the email <a href="mailto:broker@crestlinefinancial.com">
+broker@crestlinefinancial.com</a>. Would it be possible to re create a couple credentials to the following?: &nbsp;<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name: Crestline Financial &amp; Marketing Service<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS: 1462951<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;Jesus
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;Medina<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span><a href="mailto:broker@crestlinefinancial.com">broker@crestlinefinancial.com</a><span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;Charlotte
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;Macasarte<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span><a href="mailto:crestlineinfo@gmail.com">crestlineinfo@gmail.com</a><span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">I apologize for any confusion!<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<p class="MsoNormal">Thank you,<o:p></o:p></p>
+<p class="MsoNormal"><b><o:p>&nbsp;</o:p></b></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Haylee Couron<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Loan Set Up Team Lead</span></b><i><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></i></p>
+<p class="MsoNormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img border="0" width="133" height="120" style="width:1.3854in;height:1.25in" id="_x0000_i1065" src="cid:image002.png@01D7D1A1.8065BD10"><o:p></o:p></span></i></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">The Leader in Today&#8217;s Non-QM Programs<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><img border="0" width="16" height="17" style="width:.1666in;height:.177in" id="Picture_x0020_1" src="cid:image003.png@01D7D1A1.8065BD10"></span></b><span style="font-family:&quot;Arial&quot;,sans-serif">(949)
+ 328-1728 ext. 145</span><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></b></p>
+<p class="MsoNormal"><img border="0" width="24" height="18" style="width:.25in;height:.1875in" id="Picture_x0020_16" src="cid:image004.png@01D7D1A1.8065BD10"><u><span style="font-family:&quot;Arial&quot;,sans-serif;color:#0563C1"><a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>
+</span></u><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">25531 Commercentre Drive, Ste 160<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Lake Forest, CA 92630<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">Review our Privacy Policies at
+<span style="color:#0070C0"><a href="http://www.acralending.com/privacy-policy"><span style="color:#0070C0">www.acralending.com/privacy-policy</span></a></span><span style="color:blue">
+</span><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not
+ the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks
+ on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended
+ recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.
+<b>NMLS ID #144549</b><o:p></o:p></span></p>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="MsoNormal"><b>From:</b> Bill Fairbanks &lt;bill.fairbanks@acralending.com&gt;
+<br>
+<b>Sent:</b> Thursday, November 4, 2021 5:08 PM<br>
+<b>To:</b> Haylee Couron &lt;haylee.couron@acralending.com&gt;; Chris Liu &lt;chris.liu@acralending.com&gt;; Paria Azarisoreh &lt;pariaa@citadelservicing.com&gt;; Web Updates &lt;Webupdates@acralending.com&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;charyl.frakes@acralending.com&gt;; Mayra Mendoza &lt;mayra.mendoza@acralending.com&gt;<br>
+<b>Subject:</b> Re: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS<o:p></o:p></p>
+</div>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div>
+<div>
+<p class="MsoNormal" style="background:white"><span style="color:black">Yes, thanks!<o:p></o:p></span></p>
+</div>
+</div>
+<div id="ms-outlook-mobile-signature">
+<div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+<p class="MsoNormal">Get <a href="https://aka.ms/o0ukef">Outlook for iOS</a><o:p></o:p></p>
+</div>
+</div>
+<div class="MsoNormal" align="center" style="text-align:center">
+<hr size="2" width="98%" align="center">
+</div>
+<div id="divRplyFwdMsg">
+<p class="MsoNormal"><b><span style="color:black">From:</span></b><span style="color:black"> Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;<br>
+<b>Sent:</b> Thursday, November 4, 2021 4:43:42 PM<br>
+<b>To:</b> Bill Fairbanks &lt;<a href="mailto:bill.fairbanks@acralending.com">bill.fairbanks@acralending.com</a>&gt;; Chris Liu &lt;<a href="mailto:chris.liu@acralending.com">chris.liu@acralending.com</a>&gt;; Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;;
+ Web Updates &lt;<a href="mailto:Webupdates@acralending.com">Webupdates@acralending.com</a>&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;<a href="mailto:charyl.frakes@acralending.com">charyl.frakes@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;<br>
+<b>Subject:</b> RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS</span>
+<o:p></o:p></p>
+<div>
+<p class="MsoNormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p class="xmsonormal">Okay perfect, and I&#8217;m just now seeing the other submission sheet in that file but I want to confirm that this is the correct email for the LO before I re-request the correct credentials. Is this the email you would like us to use for Jesus?
+<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><img border="0" width="298" height="84" style="width:3.1041in;height:.875in" id="x_Picture_x0020_13" src="cid:image009.png@01D7D1A1.8065BD10"><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class="xmsonormal">Thank you,<o:p></o:p></p>
+<p class="xmsonormal"><b>&nbsp;</b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Haylee Couron</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Loan Set Up Team Lead</span></b><o:p></o:p></p>
+<p class="xmsonormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img border="0" width="133" height="120" style="width:1.3854in;height:1.25in" id="x_Picture_x0020_10" src="cid:image002.png@01D7D1A1.8065BD10"></span></i><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">The Leader in Today&#8217;s Non-QM Programs</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><img border="0" width="16" height="17" style="width:.1666in;height:.177in" id="x__x005f_x0000_i1045" src="cid:image003.png@01D7D1A1.8065BD10"></span></b><span style="font-family:&quot;Arial&quot;,sans-serif">(949)
+ 328-1728 ext. 145</span><o:p></o:p></p>
+<p class="xmsonormal"><img border="0" width="24" height="18" style="width:.25in;height:.1875in" id="x_Picture_x0020_12" src="cid:image004.png@01D7D1A1.8065BD10"><u><span style="font-family:&quot;Arial&quot;,sans-serif;color:#0563C1"><a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>
+</span></u><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">25531 Commercentre Drive, Ste 160</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Lake Forest, CA 92630</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">Review our Privacy Policies at
+<span style="color:#0070C0"><a href="http://www.acralending.com/privacy-policy"><span style="color:#0070C0">www.acralending.com/privacy-policy</span></a></span><span style="color:blue">
+</span></span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not
+ the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks
+ on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended
+ recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.
+<b>NMLS ID #144549</b></span><o:p></o:p></p>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="xmsonormal"><b>From:</b> Bill Fairbanks &lt;<a href="mailto:bill.fairbanks@acralending.com">bill.fairbanks@acralending.com</a>&gt;
+<br>
+<b>Sent:</b> Thursday, November 4, 2021 9:00 AM<br>
+<b>To:</b> Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;; Chris Liu &lt;<a href="mailto:chris.liu@acralending.com">chris.liu@acralending.com</a>&gt;; Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;;
+ Web Updates &lt;<a href="mailto:Webupdates@acralending.com">Webupdates@acralending.com</a>&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;<a href="mailto:charyl.frakes@acralending.com">charyl.frakes@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;<br>
+<b>Subject:</b> RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS<o:p></o:p></p>
+</div>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">Hello Haylee, <o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">Thanks for the message today.<o:p></o:p></p>
+<p class="xmsonormal">Let&#8217;s &nbsp;make for the LP Charlotte as she is the main point of contact.<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">Best,,,<o:p></o:p></p>
+<div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:14.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#1F497D">BILL FAIRBANKS</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Account Executive</span></b><o:p></o:p></p>
+<p class="xmsonormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img border="0" width="133" height="120" style="width:1.3854in;height:1.25in" id="x_x__x005f_x0000_i1036" src="cid:image002.png@01D7D1A1.8065BD10"></span></i><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">The Leader in Today&#8217;s Non-QM Programs</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><img border="0" width="16" height="17" style="width:.1666in;height:.177in" id="x_x__x005f_x0000_i1035" src="cid:image003.png@01D7D1A1.8065BD10"></span></b><span style="font-family:&quot;Arial&quot;,sans-serif">(949)
+ 310 7943</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><a href="mailto:Bill.Fairbanks@Acralending.com">Bill.Fairbanks@Acralending.com</a></span><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><a href="https://acralending.com/broker-portal/#wholesale-file-upload"><span style="font-family:&quot;Arial&quot;,sans-serif;color:windowtext;text-decoration:none"><img border="0" width="289" height="49" style="width:3.0104in;height:.5104in" id="x_Picture_x0020_17" src="cid:image010.png@01D7D1A1.8065BD10" alt="Upload New Loan Here"></span></a><o:p></o:p></p>
+<p class="xmsonormal"><a href="https://acralending.com/wp-content/uploads/2020/RateSheets/Wholesale/acra-ws-ratematrix-jumboprime.pdf"><span style="font-family:&quot;Arial&quot;,sans-serif;color:windowtext;text-decoration:none"><img border="0" width="289" height="49" style="width:3.0104in;height:.5104in" id="x_Picture_x0020_9" src="cid:image011.png@01D7D1A1.8065BD10" alt="Jumbo Prime Rates"></span></a><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:14.0pt;color:#1F497D">{<b><i><u><span style="background:yellow">Mortgagee Clause</span></u></i></b>}</span><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:12.0pt">CITADEL SERVICING CORPORATION ISAOA</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:12.0pt">25531 Commercentre Drive, Suite 160</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:12.0pt">Lake Forest, CA 92630</span></b><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="xmsonormal"><b>From:</b> Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;
+<br>
+<b>Sent:</b> Thursday, November 4, 2021 8:56 AM<br>
+<b>To:</b> Chris Liu &lt;<a href="mailto:chris.liu@acralending.com">chris.liu@acralending.com</a>&gt;; Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;; Web Updates &lt;<a href="mailto:Webupdates@acralending.com">Webupdates@acralending.com</a>&gt;;
+ Bill Fairbanks &lt;<a href="mailto:bill.fairbanks@acralending.com">bill.fairbanks@acralending.com</a>&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;<a href="mailto:charyl.frakes@acralending.com">charyl.frakes@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;<br>
+<b>Subject:</b> RE: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS<o:p></o:p></p>
+</div>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">Hi Bill,<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal">Both the LO and the LP have the same email listed. Who should Chris make the credentials for?
+<o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><img border="0" width="666" height="90" style="width:6.9375in;height:.9375in" id="x_Picture_x0020_5" src="cid:image012.png@01D7D1A1.8065BD10"><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class="xmsonormal">Thank you,<o:p></o:p></p>
+<p class="xmsonormal"><b>&nbsp;</b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Haylee Couron</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Loan Set Up Team Lead</span></b><o:p></o:p></p>
+<p class="xmsonormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img border="0" width="133" height="120" style="width:1.3854in;height:1.25in" id="x_Picture_x0020_4" src="cid:image002.png@01D7D1A1.8065BD10"></span></i><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">The Leader in Today&#8217;s Non-QM Programs</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span></b><o:p></o:p></p>
+<p class="xmsonormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><img border="0" width="16" height="17" style="width:.1666in;height:.177in" id="x_Picture_x0020_7" src="cid:image003.png@01D7D1A1.8065BD10"></span></b><span style="font-family:&quot;Arial&quot;,sans-serif">(949)
+ 328-1728 ext. 145</span><o:p></o:p></p>
+<p class="xmsonormal"><img border="0" width="24" height="18" style="width:.25in;height:.1875in" id="x_Picture_x0020_3" src="cid:image004.png@01D7D1A1.8065BD10"><u><span style="font-family:&quot;Arial&quot;,sans-serif;color:#0563C1"><a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>
+</span></u><o:p></o:p></p>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">25531 Commercentre Drive, Ste 160</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Lake Forest, CA 92630</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">Review our Privacy Policies at
+<span style="color:#0070C0"><a href="http://www.acralending.com/privacy-policy"><span style="color:#0070C0">www.acralending.com/privacy-policy</span></a></span><span style="color:blue">
+</span></span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not
+ the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks
+ on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended
+ recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.
+<b>NMLS ID #144549</b></span><o:p></o:p></p>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="xmsonormal"><b>From:</b> Chris Liu &lt;<a href="mailto:chris.liu@acralending.com">chris.liu@acralending.com</a>&gt;
+<br>
+<b>Sent:</b> Wednesday, November 3, 2021 10:44 AM<br>
+<b>To:</b> Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;; Web Updates &lt;<a href="mailto:webupdates@citadelservicing.com">webupdates@citadelservicing.com</a>&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;<a href="mailto:charyl.frakes@acralending.com">charyl.frakes@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;; Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;<br>
+<b>Subject:</b> Re: Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS<o:p></o:p></p>
+</div>
+</div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+<div>
+<p class="xmsonormal"><span style="font-size:12.0pt;color:black">LO and LP can't have same email address.</span><o:p></o:p></p>
+</div>
+<div>
+<p class="xmsonormal"><span style="font-size:12.0pt;color:black"><br>
+Thanks,</span><o:p></o:p></p>
+</div>
+<div>
+<div>
+<p class="xmsonormal"><span style="font-size:12.0pt;color:black">&nbsp;</span><o:p></o:p></p>
+</div>
+<div id="x_Signature">
+<div>
+<div>
+<p style="background:white"><b><span style="color:black">Chris Liu</span></b><o:p></o:p></p>
+<p style="background:white;text-align:start"><i><span style="color:black">Web Administrator</span></i><o:p></o:p></p>
+<p style="background:white;text-align:start"><span style="color:#201F1E">&nbsp;</span><o:p></o:p></p>
+<div>
+<p class="xmsonormal" style="background:white"><i><span style="color:#201F1E">&nbsp;</span></i><i><span style="color:#201F1E"><img border="0" width="104" height="70" style="width:1.0833in;height:.7291in" id="x_Picture_x0020_1" src="cid:image013.png@01D7D1A1.8065BD10"></span></i><o:p></o:p></p>
+</div>
+<p style="background:white;text-align:start"><b><span style="font-size:10.0pt;color:black">Non-Prime / Non-QM Lending</span></b><o:p></o:p></p>
+<p style="background:white;text-align:start"><b><span style="color:#201F1E">&nbsp;</span></b><o:p></o:p></p>
+<p style="background:white;text-align:start"><b><u><span style="color:#7E0000"><a href="mailto:chrisl@citadelservicing.com" target="_blank"><span style="color:#0563C1">chris.liu@acralending.com</span></a></span></u></b><o:p></o:p></p>
+<p class="xmsonormal" style="text-align:start"><span style="color:black">25531 Commercentre Drive, Ste 160
+</span><o:p></o:p></p>
+<div>
+<p class="xmsonormal"><span style="color:black">Lake Forest, CA 92630</span><o:p></o:p></p>
+</div>
+</div>
+<div>
+<p class="xmsonormal" style="text-align:start"><span style="font-size:12.0pt;color:black">-------------------------------------------</span><o:p></o:p></p>
+</div>
+<div>
+<p style="background:white;text-align:start"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#201F1E">Review our Privacy Policies at&nbsp;<a href="http://www.acralending.com/privacy-policy" target="_blank">www.acralending.com/privacy-policy</a></span></b><o:p></o:p></p>
+<p style="background:white;text-align:start"><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif;color:#201F1E">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately
+ and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise
+ you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client
+ privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.&nbsp;<b>NMLS ID #144549</b></span><o:p></o:p></p>
+<p style="background:white;text-align:start"><span style="color:#201F1E">&nbsp;</span><o:p></o:p></p>
+<p class="xmsonormal"><span style="font-size:12.0pt;color:black">&nbsp;</span><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+<div>
+<div>
+<p class="xmsonormal"><span style="font-size:12.0pt;color:black">&nbsp;</span><o:p></o:p></p>
+</div>
+<div class="MsoNormal" align="center" style="text-align:center">
+<hr size="2" width="98%" align="center">
+</div>
+<div id="x_divRplyFwdMsg">
+<p class="xmsonormal"><b><span style="color:black">From:</span></b><span style="color:black"> Paria Azarisoreh &lt;<a href="mailto:pariaa@citadelservicing.com">pariaa@citadelservicing.com</a>&gt;<br>
+<b>Sent:</b> Wednesday, November 3, 2021 10:41 AM<br>
+<b>To:</b> Web Updates &lt;<a href="mailto:webupdates@citadelservicing.com">webupdates@citadelservicing.com</a>&gt;<br>
+<b>Cc:</b> Charyl Frakes &lt;<a href="mailto:charyl.frakes@acralending.com">charyl.frakes@acralending.com</a>&gt;; Mayra Mendoza &lt;<a href="mailto:mayra.mendoza@acralending.com">mayra.mendoza@acralending.com</a>&gt;; Haylee Couron &lt;<a href="mailto:haylee.couron@acralending.com">haylee.couron@acralending.com</a>&gt;<br>
+<b>Subject:</b> Priority Request - New Submission - Broker Portal Log In - 7037363 / KEMPIS</span>
+<o:p></o:p></p>
+<div>
+<p class="xmsonormal">&nbsp;<o:p></o:p></p>
+</div>
+</div>
+<div>
+<div>
+<p>Broker Company Name: Crestline Financial INC.<o:p></o:p></p>
+<p>Broker Company NMLS: 1462951<o:p></o:p></p>
+<p>&nbsp;<o:p></o:p></p>
+<p>LO First Name: Jesus <o:p></o:p></p>
+<p>LO Last Name: Medina<o:p></o:p></p>
+<p>LO Email:&nbsp; <a href="mailto:crestlineinfo@gmail.com">crestlineinfo@gmail.com</a><o:p></o:p></p>
+<p>&nbsp;<o:p></o:p></p>
+<p>LP First Name: Charlotte<o:p></o:p></p>
+<p>LP Last Name: Macasarte<o:p></o:p></p>
+<p>LP Email: <a href="mailto:crestlineinfo@gmail.com">crestlineinfo@gmail.com</a><o:p></o:p></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_--
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=7181;
+	creation-date="Fri, 05 Nov 2021 00:29:22 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:22 GMT"
+Content-ID: <image002.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+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
+AABJRU5ErkJggg==
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=749;
+	creation-date="Fri, 05 Nov 2021 00:29:22 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:22 GMT"
+Content-ID: <image003.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFwSURBVDhPxZO7qsJAEIb/xEsweCkUEREFn0Ew
+nZ2VL2Dhq1jpCwRsfAHfJCJYCWqhqIUg2Cle0ThmhjQh5gjnFOeDZZeZ3X9urEIO+AOqu/+a/xf4
+2gN23+93HA4H2ePxOBKJBCKRiPgDBdj8fD6x3W4xnU4xn89xPB5RKBRQq9VQLpcRjUbloo/X60Xn
+85kmkwm1222qVCqUTCbJiUq5XI5M06T9fi93fT1wbLher5jNZuj1ehgMBgiHw3AeIpvNStTL5SLl
+ML4SHo+HPO73+7AsC41GA61WC+PxGOv1GqVSCdVqFcViEZqmeUvg1FerFXU6HTIMg7rdrpTC9iA8
+JXBaHH04HEqTms0mYrGY6/2MR4C7vNlssNvtpE4+K4oiKwiPwO12g5OyNPJ0OmGxWMiZVxAeAU43
+k8kglUpB13WZ+Tc8U+AeLJdLjEYjqKqKer2OfD7vej/jGyOLcPq2bSOdTiMUCrmez3z9Cz8DvAEg
+0Af3gBWEewAAAABJRU5ErkJggg==
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image004.png"
+Content-Description: image004.png
+Content-Disposition: inline; filename="image004.png"; size=904;
+	creation-date="Fri, 05 Nov 2021 00:29:22 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:22 GMT"
+Content-ID: <image004.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAILSURBVDhP1VRNq2lhFH7oRiEUCQMp+SwZyUBG
+psTE19zAz3BGRhI/4pRiQJkZGDLykYlMJKKcTITyce69a53t3ONud3AGBvep1dpr7/ddz7vWs94t
++fkbeCKkgn8a/n+COw0ulwuu16sQfR8SiQQymUyIPnBHUCwW8fLyIkTfh9vtRq/XE6IP3LXodDph
+t9uxHQ4HyOVy3uRwOGC1Wj/NZrPB6XTCYDDgfD5/7tnv90KmP/gheBGoXK1Wi2QyCb/fj+PxiFux
+RLxYLFCv17FarfjdvyASWalUwm63s729vaHb7XLCQCCAUCjEZjabMZvNMJ1OodFo4PV6YTQahQz3
+EBGo1WoEg0Fks1m4XC50Oh2USiWMx2Ouar1eo1qtolar8UDE43GkUimYTCYhwz1ELZJKpXyaSCTC
+LSqXy2i1Wpw8HA5jMplwTC2LxWJIp9PYbDZoNpus4d8QVUCnonHV6XRMksvlWOR2u41KpYLX11f+
+Ho1Gkclk4PF4eN+j5ISHIt/E1Ov1LLJKpUKj0eD2UHWkA5FTciJ7f3/n9Y8gIqBWkNEmqoaSJxIJ
++Hw+LJdLFpXGlDytozV0IHp+BFGLaK7ppP1+H8PhkP1oNGJCElKhUPCI0rfBYMCeponuzSPc3eRC
+oYB8Ps+tsVgsPJ638m+VEb6+owq22y3m8zlfQpq2r3j6r+LJPzvgFwEfBSfsjhb4AAAAAElFTkSu
+QmCC
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image009.png"
+Content-Description: image009.png
+Content-Disposition: inline; filename="image009.png"; size=10622;
+	creation-date="Fri, 05 Nov 2021 00:29:23 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:23 GMT"
+Content-ID: <image009.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAASoAAABUCAIAAAC6B+19AAAAAXNSR0IArs4c6QAAKCZJREFUeF7t
+3Xe8HUX1AHDSIaRQQoAQDCVSQhchIL1IDR0EBZUmoCAdpCnSlCIi0hQxlNCLFKUHUJTeBEKvoUsg
+ECAkIe33xeNnfvu5e9999723L7yy+8f93Lt39szMmdPmlNnZZhZ0TZ8+/frrr7/kkkvGjx//9NNP
+77zzznvvvffBBx/8/vvv19nDxRdf/OCDD9Zu/Oijj44cOVJfmmW/19lF7WZpAB9//PGpp55qIk0C
+azx//vOfY2xxwcPmm2/+1FNPffrpp7/5zW9ee+2173//+7/61a+0efXVV7faaqu//e1vo0aNuuee
+ezSeMmXKOeecs/vuu++4447/+Mc/sl0/99xzt91221/+8pcmjUfjSZMmvfvuu/U8VdESBk455ZQK
+DDz//PPHHnvs2LFj//3vfx944IFnn322p9L3jz766Pzzz99///2vuuqqenos28BAt1/+8pezFXFZ
+hssuu+zDDz9cYoklrNOgQYOsBKL5+te/7ifKm2uuuW644QZfFl54YZTqQoKLLLLIm2+++de//rVH
+jx633377tGnT/vOf/wwZMqRbt24G5UGPGCVoVv2aa6554oknFlxwwb59+8b3+eefH2Vr1qtXL593
+3323OxMnTiQIjMT30aNHP/LII3rRIAtwjjnmeOCBB+677z7ABw4c6LuhArjBBhvMPffcb7zxhp+f
+fPLJjBkzACEUAMceoBk/aEYOrPsLLLCANrfccothv/LKK+by9ttvuznnnHPq7p///OeLL744efJk
+U37ooYeWXHJJYPX47W9/G9cBtfHGG2uz+uqrG8Njjz3mXzT9zW9+02jnm2++WBYw//SnPwGuC8OL
+Wej6/vvv9/3mm2/u168fvGnQv39/QAYPHvzkk09Cac+ePS+44AIcDn7v3r3zT3nw7/+9PHjuuedq
+ueqqqxIWsAGy+59//rkvpuMTnm+88cZnnnlmlVVWIWRjcSHniiuuiO99+vTR46abbgr5m2yySRE0
+1fFhdC1qigho/fXXh/2ll17aIt10001bb731csst98EHH1x00UXIkQhHGSgYiZx11lkojDjHMH/4
+wx9QJ3Ihp7/2ta/hKwRnVMjdI4suuihKRcS///3vV1tttRdeeMGD6TuWRq+ENAWCl/xFg/3iF7+Y
+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
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image010.png"
+Content-Description: image010.png
+Content-Disposition: inline; filename="image010.png"; size=1939;
+	creation-date="Fri, 05 Nov 2021 00:29:23 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:23 GMT"
+Content-ID: <image010.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+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
+AAAAAElFTkSuQmCC
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image011.png"
+Content-Description: image011.png
+Content-Disposition: inline; filename="image011.png"; size=1878;
+	creation-date="Fri, 05 Nov 2021 00:29:24 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:24 GMT"
+Content-ID: <image011.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+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
+SUVORK5CYII=
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image012.png"
+Content-Description: image012.png
+Content-Disposition: inline; filename="image012.png"; size=20114;
+	creation-date="Fri, 05 Nov 2021 00:29:25 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:25 GMT"
+Content-ID: <image012.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAApoAAABaCAIAAACXGWE1AAAAAXNSR0IArs4c6QAATTpJREFUeF7t
+3XXcdVW1L/CDcezE7sbubsVAEBQbFRtRURBUBAQReZVWEFFCMVBQsMUWbDExMLGw22t3nO97xr3j
+M+9ae6+9n3z3ft6x/ng++1lrrhljjt+oOdeYm/znP//5r7qKAkWBosAcUeDDH56jzq54V+961xVv
+ohqYBwqcax46WX0sChQFigJFgaJAUWCIAqXOiz+KAkWBokBRoCgw9xTYZOMJtn/9619/wxvesN12
+2133utd95zvfefrpp3fGftGLXnTHHXe84hWv+O9///vDH/7wG9/4xu9+97sXvOAFb33rWz/mMY9x
+32x/85vfPOmkkx760Ide73rXy8n/7Gc/+653veuJT3ziFa5wBTe99ZrXvOZzn/vcP//5z+tc5zpa
+vP3tb9/hlN/+9rfHHHPMr371q+233/7GN75xPv3DH/7g/u9+97sddtjhKle5ykA/9VbJH/3oR949
+17nOdb7zne/qV7/6fe5znytf+cpR229+85uXvexld7jDHe52t7t99atffd3rXrfVVlvd8Y53zLa+
+8IUvqF+3L3e5y8XNv/3tb694xSu0/uQnP/kSl7jE3HN3DWAtUgA8v3H00fDlx81vfvMb3vCG+N9A
+YQqf/+Mf/4hB//d///dNbnKTC13oQn7/5Cc/+djHPvbnP//5+te//i1ucYvznOc8UeZnP/uZ+3/8
+4x9vdKMb3exmNzv3uc/dEuwvf/nLBz/4wVvd6lYJEHc++clPnnPOOZAOShe5yEVmgsAVbJ+Jadjw
+nTj38573vA3fi1XpAaX7/Oc//y53ucs1rnGNV73qVccffzwV+Pvf//7//L+LMgNRaowWfNKTnuTH
+LW95S+r8zW9+M13oxctc5jJf/OIXn/vc5975zne+9rWvnb1mGRx66KH3v//9wV6BbbbZ5nvf+95t
+bnMbmpXKPOywwy596UuTO+0of/3rX+++++7veMc7LnzhC2+++eabbLJJPP3MZz7ztKc9zVsqufzl
+Lz/QT7bInnvu+bWvfY0Morm///3vv+lNb6LgmR1kk6p++tOfPuMZz/AvY+LTn/70s5/9bBJwiy22
+uNjFLhZtfeQjH4luG1fcOeuss7TuPhFJ8K3KtFQjRYGFUeBo1x57sJWB6OSTT6bL8SoEfeITnzjw
+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
+rkJggg==
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_
+Content-Type: image/png; name="image013.png"
+Content-Description: image013.png
+Content-Disposition: inline; filename="image013.png"; size=7820;
+	creation-date="Fri, 05 Nov 2021 00:29:25 GMT";
+	modification-date="Fri, 05 Nov 2021 00:29:25 GMT"
+Content-ID: <image013.png@01D7D1A1.8065BD10>
+Content-Transfer-Encoding: base64
+
+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
+/g9kaIE8EeWYbAAAAABJRU5ErkJggg==
+
+--_011_DM6PR11MB28281BF0F8F1DD28A221E1A7FF8E9DM6PR11MB2828namp_--

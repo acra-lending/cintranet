@@ -1,0 +1,137 @@
+Received: from MW3PR11MB4665.namprd11.prod.outlook.com (2603:10b6:303:5d::12)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 29 Sep 2022
+ 02:32:26 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by MW3PR11MB4665.namprd11.prod.outlook.com (2603:10b6:303:5d::12) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.17; Thu, 29 Sep
+ 2022 02:32:23 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110%3]) with mapi id 15.20.5676.019; Thu, 29 Sep 2022
+ 02:32:18 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044603 /
+ Martell
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044603 / Martell
+Thread-Index: AdjTq5zerutxyafsSMqv+r+snauYIg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 29 Sep 2022 02:32:17 +0000
+Message-ID:
+	<MN2PR11MB3696F3D5BA9D506881C6F9549F579@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	fbd0ce87-5295-4598-b521-08daa1c2d411
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: fbd0ce87-5295-4598-b521-08daa1c2d411
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: MN2PR11MB3696:EE_|MW3PR11MB4665:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Sep 2022 02:32:17.9691 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	fbd0ce87-5295-4598-b521-08daa1c2d411
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	ovaLB6yKNPJS2vcyxA2l560EKjH2HTim7zcXS0ddPbSXLLy8Z7rKtzVwajTJ04DXCB6EWwAPScZMTdHhvjVWUgli7J9K338Pf1Ts4d9jBSw=
+x-ms-exchange-transport-crosstenantheadersstamped: MW3PR11MB4665
+x-ms-exchange-transport-endtoendlatency: 00:00:08.3704134
+x-ms-exchange-processed-by-bccfoldering: 15.20.5654.027
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	wkFp5vfbZZ4UVkXEnEQyj7myVRcWyHJTUjvRydfO49OL2eVX02nCY+sKz5GR/60LHKM5nQrbyXBJ77t/7DqJ4LQn/q1wTIqSLO0KpUu0e2x0d1TPEEOCzqumy5pFXciuGBu/I+tAt/iSM+Bf/EO7f2xEPpy6eUtnD36HhGeaZ9wBfp5mDqIQlnSui/CSDCUhJiminQoECbb+CC+VLJPlf9clL+4wYOk8/tBp5wr0k5iBFn+C22JEp05MRy+O4E7k2cM1s9tYXpJC86Qj93mQk9aipqGMXfimx86bNg7m4DmEMfuQ9TscKVZz/Wy40nZ4T3CkzHh4TKxyA3l2FR+r2vc6YyMMCq/mkNFKD7p8Bo5Tg7JTzV18MEL//r5InwOF1FRxUsBV4H/XP8TWaRhTd09KkyyWTPP9ATc3WdS05F++2raMxHoHJLyv054ejgkbACU7H/0vcjroOFqvqRGPgERATxL3CPcC29mnu6bG/3s4DF41F5MFkdDViJeGh2l/5Gp+jLNI47BujpfkAQsDZBzVejCp1TmWLnDrYz7WJBcbz/N0IQ9bAFItzisEAVpwhsg+Hg/MEUXvNPYCl7NUau62Ls3CS8tMMswH4liepEIt2CRADL+uZd+RqUtfRX/y25kmWpyW2IIG0tlfQg1gbUyMnS5u5+0UfjfCkH4fK3+KlVX3bWlAiQzJJWTNZi+m7SulOCSPlN7xIofIAPpkZ1dl8oXc8SQGBZoAAKk36dtBPs6gm7TUJCTrbCGoOkUdFDJhmN1LxVn+8azZrqgOiQ==
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3696F3D5BA9D506881C6F9549F579MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB3696F3D5BA9D506881C6F9549F579MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Ensource Financial Corp
+Broker Company NMLS: 1718474
+
+LP First Name: Isva
+LP Last Name: Cases
+LP Email: process@epicprosolutions.com<mailto:process@epicprosolutions.com>
+
+
+
+
+--_000_MN2PR11MB3696F3D5BA9D506881C6F9549F579MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> Ensource Financial Corp</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> 1718474</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Isva</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Cases</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:process@epicprosolutions.com">process@epicprosolutions.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3696F3D5BA9D506881C6F9549F579MN2PR11MB3696namp_--

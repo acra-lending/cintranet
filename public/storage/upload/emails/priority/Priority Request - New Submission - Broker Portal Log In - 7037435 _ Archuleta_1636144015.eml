@@ -1,0 +1,135 @@
+Received: from SJ0PR11MB4831.namprd11.prod.outlook.com (2603:10b6:a03:2d2::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 5 Nov 2021
+ 19:54:55 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by SJ0PR11MB4831.namprd11.prod.outlook.com (2603:10b6:a03:2d2::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4669.13; Fri, 5 Nov
+ 2021 19:54:55 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::ad59:6d06:16df:f16a]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::ad59:6d06:16df:f16a%3]) with mapi id 15.20.4669.013; Fri, 5 Nov 2021
+ 19:54:54 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037435 /
+ Archuleta
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037435 / Archuleta
+Thread-Index: AdfSfukyiZ77WqUvQ96iUBHK4JKPyA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 5 Nov 2021 19:54:54 +0000
+Message-ID:
+	<BYAPR11MB28547985B2C7FAE876086B43878E9@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	1930e52e-6674-43fb-3e27-08d9a0962363
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB4831:
+x-ms-exchange-crosstenant-originalarrivaltime: 05 Nov 2021 19:54:54.7921 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	1930e52e-6674-43fb-3e27-08d9a0962363
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB4831
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0702379
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 1930e52e-6674-43fb-3e27-08d9a0962363
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	/xZFDqoF+AQSs6oRI1fwJbip84aCpsV2ZLzslsmf5cuP7MgkdemlonGhmcSM32qjtcyKm3dHQyHG4lF2UcTWgFCky7M+ZNBHfC3jERr8BTM=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.013
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930096);
+X-Microsoft-Antispam-Message-Info:
+	ELWuvvhZCevZHY8VjkeXYrdU4txB/45olTbogFLjNVLDph48BKze9S38Ci6Y6EXERUjMDMfJNzM8Utba+xAJUlQOjTlQGTuXDJ6CF44uTfEws87aOKUJKnCXnVfGlIjgOdiW9Jyo1GE8qXIjcT1RxhPTml/Kl/aflZTxgLhj15u3b0vjFg0aVgwREejIGyg//O+bJwLadrlUyYKkTqtQTBqsqsQYszdYFj24Ue5wFjp3+9CSJVEzMVPm6V+RjF0/j06NWqBuaQ/HmSjpV9SPhSOKiepKRqWuphKsMazRexNfF5o3M03TPoTZ0awx1NAWqw2ARmpyTelmhJjYV9lYS7EJOww5ZC8UqiqsjRhWxn/7GZQZKaBB+Cd8UiprC5K6dMDLYro0kKcAOu2NB6rhcYOppboS6PAmkk+rovBaur3KrHSV88eH33rzGKZWbjbdH2+DAyz7Ik6kdq26MKSg3Km86VuGbOZsxKCfVR7IFD3vZc8ajvIKU4sRe+FPjwwJoOqwSKHGBHuznZjIp1PbLnFskBqAt/1jurpgjXjlOAhwHvZz1Hxn4nBH6/uS9GeRjGRC0gSsDD6rt/aK8tgu1Nc9I+CasIkcpaLXWU1lN8pbYDR4Es8ua+tuZpKNtVydpqUwLv3IbRpf1t0Lny8os2yluVD3BkdDPoA13XTdoFs=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB28547985B2C7FAE876086B43878E9BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB28547985B2C7FAE876086B43878E9BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: North Point Financial Inc.
+Broker Company NMLS: 362825
+
+LO First Name: Josiah
+LO Last Name: Gallegos
+LO Email: josiah@npficolorado.com
+
+LP First Name: Josiah
+LP Last Name: Gallegos
+LP Email: josiah@npficolorado.com
+
+--_000_BYAPR11MB28547985B2C7FAE876086B43878E9BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: North Point Financial Inc.<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 362825<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Josiah<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Gallegos<o:p></o:p></p>
+<p class="MsoNormal">LO Email: : josiah@npficolorado.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Josiah<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Gallegos<o:p></o:p></p>
+<p class="MsoNormal">LP Email: : josiah@npficolorado.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB28547985B2C7FAE876086B43878E9BYAPR11MB2854namp_--

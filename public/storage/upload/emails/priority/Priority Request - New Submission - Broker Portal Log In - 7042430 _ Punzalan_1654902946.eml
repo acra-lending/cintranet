@@ -1,0 +1,136 @@
+Received: from CH0PR11MB5298.namprd11.prod.outlook.com (2603:10b6:610:bd::19)
+ by MN2PR11MB4351.namprd11.prod.outlook.com with HTTPS; Fri, 10 Jun 2022
+ 22:50:13 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ CH0PR11MB5298.namprd11.prod.outlook.com (2603:10b6:610:bd::19) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5332.13; Fri, 10 Jun 2022 22:50:12 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b%6]) with mapi id 15.20.5332.013; Fri, 10 Jun 2022
+ 22:50:12 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Maria Bunes <Maria.Bunes@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042430 /
+ Punzalan
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042430 / Punzalan
+Thread-Index: Adh9HFbelgkeWMQ2Rg60oYRuhlsWGA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 10 Jun 2022 22:50:12 +0000
+Message-ID:
+	<DM6PR11MB28282CDF6B386138590DE76FFFA69@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	71ece3fa-cdb9-43ad-e652-08da4b3393c4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5298:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 10 Jun 2022 22:50:12.0760 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	71ece3fa-cdb9-43ad-e652-08da4b3393c4
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5298
+x-ms-exchange-transport-endtoendlatency: 00:00:01.1916943
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 71ece3fa-cdb9-43ad-e652-08da4b3393c4
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	PGKlO7OdZd0REjDEtqWuBZuqQLevPVGOrK9/qnN0BTZG9dIR+NTZ3VU5F+8R4rnt5jOuv5vdZM6931hXb03mteMRaZLrWj+B3Iy9LZuQZmw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5332.013
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	jKtTEWOZAJSQ21hBonFLsTU9aOn+qAnR1Ja3lt2MhO8jWmdpUXjMQdvKVem8PV6b+RtO+L3nAKwa38DG/Ej67kWbdZtWhScsSSSpamLlKcj6ThggmGx/6sG6KJGFRSLHEAdiJLJkQWWFFjeRF0+zMa5GKMxZy/F88R5xjYH3RtTZjbdP96cY6uhaBfjQbC3RQZpPKoh4qns0PMi9vNYAnFMHyomwVjRzuNKshTbIh+rjZ//0thHDvjoLOIbhVG5H+tv5kqQ2QvCFQRstwNTfMbVRnO3PL3QEih8B8NtTrU5SK8TyO0ObVT+Et8YxApD4a+bpyCNY/mAIs9eFakPbXfdYesIoXm8Ak52YsXYY80xjAXZ91P5/Vmiv34oU8nf78y7KWgfx/m7t2bitu+nB+HrbZ/V4284XKPiTBQi8rPJ9lcs2onz6gyIzRHmjk645syimr1MSle+K8IkfMpxdzlw/XFpEsSRTDqyxKi9opzp2xYSuLJ8aOx5uEJ9iYr1cSBSRyX5SS2and6pZYjn8lFnzDj1ZWBrTiC2lqlVfSBRh+b/to++0Z4azyS1+JEF4m2Ti8saIKvL+QHsm4f+oz7meFVTKQEY2czzi3e23jPDGgE+oGMuPmjRXLPi29o0XWb7hHXatqyR6IGgFPoRnKpNcTSY0QHFNnOTRzY7yVsE=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28282CDF6B386138590DE76FFFA69DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28282CDF6B386138590DE76FFFA69DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Crestline Funding Corporation
+Broker Company NMLS: 1978
+
+LO First Name: Jeffrey
+LO Last Name: Joiner
+LO Email: jeffj@crestlinefunding.com
+
+
+
+
+--_000_DM6PR11MB28282CDF6B386138590DE76FFFA69DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:
+</span>Crestline Funding Corporation<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1978<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Jeffrey
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Joiner<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>jeffj@crestlinefunding.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28282CDF6B386138590DE76FFFA69DM6PR11MB2828namp_--

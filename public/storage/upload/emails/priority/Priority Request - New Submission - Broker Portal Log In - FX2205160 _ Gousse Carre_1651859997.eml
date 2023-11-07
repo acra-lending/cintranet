@@ -1,0 +1,129 @@
+Received: from SJ0PR11MB4781.namprd11.prod.outlook.com (2603:10b6:a03:2d8::14)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 6 May 2022
+ 16:57:13 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com (2603:10b6:5:1da::17)
+ by SJ0PR11MB4781.namprd11.prod.outlook.com (2603:10b6:a03:2d8::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5206.13; Fri, 6 May
+ 2022 16:57:11 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::5470:3e1a:f4cd:54e7]) by DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::5470:3e1a:f4cd:54e7%3]) with mapi id 15.20.5206.024; Fri, 6 May 2022
+ 16:57:11 +0000
+From: Jacob Hayden <Jacob.Hayden@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lisa Ramirez <lisa.ramirez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - FX2205160
+ / Gousse Carre
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ FX2205160 / Gousse Carre
+Thread-Index: Adhhah7B95UY4iO9TeuF4hutuKX2Sg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 6 May 2022 16:57:11 +0000
+Message-ID:
+	<DM6PR11MB4507E54D2F4687AAD4F48F1893C59@DM6PR11MB4507.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4507.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	f3cf47c0-8cd9-497e-fa38-08da2f81767b
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB4781:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 May 2022 16:57:11.1000 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	f3cf47c0-8cd9-497e-fa38-08da2f81767b
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB4781
+x-ms-exchange-transport-endtoendlatency: 00:00:01.9024852
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: f3cf47c0-8cd9-497e-fa38-08da2f81767b
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4507.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	5hFo0hyhPvdQjnUIdw9RLO7JWz8lojz+wI6H+Fvo0omPOstVyVbBr2aG3ei7u/v0r3Ho+fJx6j4Y0wkOlWq7knvCkyfsT2v2D+UbglL4e3Q=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5206.027
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4507.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	whO1bc9ZTgdp7dBHe9yAf2uLoB6LmDSWA037BhcuOryVucdrhv0m8tnIX7B8QzXRWRt0iNEXaYUAEY+sMriDIK1y70CVAt5Dzwjy4WcEpZLZ3twoowZsNLgLLKdoTGXunqI4G2BZ8NMdaZvijHIEdxJoVlCvWlVQ1p7fasiqRc+Zmqstr5urrbElT4Op6M1BXsxoe5QjsBvEiYJDGMWEGV3RgdHbsaHrlpi1u+HxJeTP2oAUhhR/SoKBz/PHerniTxxgjqet01M4PuUxnD0VDHes6WToMsP4BoaK/9k2HR2XzZC8V6OOiJUxufxpekWR9KXsERcCGg7WthFc9IjF6kJZj4xNuFRt07PsiJXoGvfJdAFNMRsMTamUT43rva8gasXo3pohkdrfw+NPWGwAnD+CTovGq+HrqhWgPzbjbb4JDYbLYeVo08a7BlbGNJzNb3shFRo/23brzUpiY615hUbYx+IkBFy18rlafr0V6/qGjPP82XolSJAYBSyNRPmCfcnTGywrx29npC5xiNr90ZCKm2blxe6af1/umE2uuKF/alevpA5X0eP91qf8DJJOfhuIOohnPwakW6Jy9sIWlTxvoB9MhHO5aZItEEFAWrXyxpJQIMM5g3r1+pDZgcvEMOTGEHpe+oz+/2CofzQd2gLeRkBNHF8u4WTK+Xtym30=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB4507E54D2F4687AAD4F48F1893C59DM6PR11MB4507namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB4507E54D2F4687AAD4F48F1893C59DM6PR11MB4507namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Gonzalo
+
+LO Last Name: Espinoza
+
+LO Email: Gonzalo.espinoza@myccmortgage.com<mailto:Gonzalo.espinoza@myccmortgage.com>
+
+
+
+
+
+--_000_DM6PR11MB4507E54D2F4687AAD4F48F1893C59DM6PR11MB4507namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Gonzalo <o:p></o:p></p>
+<p>LO Last Name: Espinoza<o:p></o:p></p>
+<p>LO Email: <a href="mailto:Gonzalo.espinoza@myccmortgage.com">Gonzalo.espinoza@myccmortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB4507E54D2F4687AAD4F48F1893C59DM6PR11MB4507namp_--

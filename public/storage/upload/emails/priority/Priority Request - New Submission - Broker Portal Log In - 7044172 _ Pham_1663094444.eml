@@ -1,0 +1,135 @@
+Received: from SN7PR11MB7091.namprd11.prod.outlook.com (2603:10b6:806:29a::18)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 13 Sep 2022
+ 16:45:26 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by SN7PR11MB7091.namprd11.prod.outlook.com (2603:10b6:806:29a::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5612.22; Tue, 13 Sep
+ 2022 16:45:25 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::94bc:ab59:7da1:2a1c]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::94bc:ab59:7da1:2a1c%6]) with mapi id 15.20.5612.022; Tue, 13 Sep 2022
+ 16:45:24 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044172 /
+ Pham
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044172 / Pham
+Thread-Index: AdjHkBJtIL3/6eH1QieogQUdClkxuQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Sep 2022 16:45:24 +0000
+Message-ID:
+	<MN2PR11MB36967B9B24661A1688D3DE269F479@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	80e4a80f-0242-444c-44cc-08da95a75b31
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 80e4a80f-0242-444c-44cc-08da95a75b31
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: MN2PR11MB3696:EE_|SN7PR11MB7091:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Sep 2022 16:45:24.7910 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	80e4a80f-0242-444c-44cc-08da95a75b31
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	a0i1k7HCGPYB+ei68Ui1Phe6pMTTTe+B6AiLM5nC5oa53Qvb1mBD+OLiy1TM00yHxIoGTUehMCmFqB1gEig1aNyrEc10LuDlPDiCSyEKlmI=
+x-ms-exchange-transport-crosstenantheadersstamped: SN7PR11MB7091
+x-ms-exchange-transport-endtoendlatency: 00:00:02.1519890
+x-ms-exchange-processed-by-bccfoldering: 15.20.5612.022
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	gORC6GR+krtj9E1oCGoOGcJKLq42mounKzZpkLHbCUJ32nB+Rc1nQdm/ihdFcvub+wMidtky0RIw+L1fTL90C9BL9jNHxZ3UbeJbIj7TyEjp4hJRYJ1E3geXkPCYuqtyQF08GW3k9qahdyL7Rk1FPZ/z1qc9/eF9vQcRtV8liTmPj09WlZ729rm9lJ+RKD7wLjmRdBy3dJ2uunaGPHelYKPloL0mu+ia2bEIEKfoEg1U2H3XQTWLT8W/vw2nQ+iy6xzMCLWkrHQ8v/xefVqMc9R605bCDU+Od3iucvUgyJxi5aITSDzDBA3O7z6VWtrZXFJyWiGk/0sqj6HTEhAAJaeFjClhFZKQl8HL1W5xbaAiCUvY9g/oMOep8SBqVJzSrQ5C7O7+q5LR0W8V50G9BcIFuW6hw3Opicseri5W4EMUifCGbEozTi84947t/Bj5SqJw5u1BJhs+k98mNmc1Sbpa29O5D7acCAShwTwq6Ylma5F/rXdbHeiTmtIGrnBxL/gZOSc7B3HveOr7MKkweOLVWi/9rS+EJAYU9DALGYT1JZzuxF7vfxEvLLuUiglwVqoV3vvHvXG8CAJWHeM24wvEClf2TTYPAOhy5ErZvKJgK/Ia/6UsC4vH+eEDGYjMC+W2s8VHFYgKz9xM0FMqhcxH/W8Du5fhb9wPi1yqG9KGtqVlNlpULCI3K4A8EDoIIiCMaHjvpx6ZfFLyV2RS6NwCPuxE8IYkx5fX+M1+joHEKXH4p9vT0KpgGWR/L7LciiCsWKaoko1ZmtmTtMNhlw==
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB36967B9B24661A1688D3DE269F479MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB36967B9B24661A1688D3DE269F479MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Lock It Mortgage LLC
+Broker Company NMLS: 2128354
+
+LP First Name: Jennie
+LP Last Name: Tran
+LP Email: jennie@lockitlending.com<mailto:jennie@lockitlending.com>
+
+
+
+--_000_MN2PR11MB36967B9B24661A1688D3DE269F479MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> Lock It Mortgage LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> 2128354</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Jennie</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Tran</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:jennie@lockitlending.com">jennie@lockitlending.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB36967B9B24661A1688D3DE269F479MN2PR11MB3696namp_--

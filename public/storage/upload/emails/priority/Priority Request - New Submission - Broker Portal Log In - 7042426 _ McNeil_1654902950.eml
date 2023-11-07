@@ -1,0 +1,149 @@
+Received: from MN2PR11MB4630.namprd11.prod.outlook.com (2603:10b6:208:24e::18)
+ by MN2PR11MB4351.namprd11.prod.outlook.com with HTTPS; Fri, 10 Jun 2022
+ 23:04:35 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com (2603:10b6:a02:c8::12)
+ by MN2PR11MB4630.namprd11.prod.outlook.com (2603:10b6:208:24e::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5332.13; Fri, 10 Jun
+ 2022 23:04:34 +0000
+Received: from BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e]) by BYAPR11MB2853.namprd11.prod.outlook.com
+ ([fe80::2c26:8f15:858b:634e%5]) with mapi id 15.20.5332.013; Fri, 10 Jun 2022
+ 23:04:34 +0000
+From: John Holmes <John.Holmes@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Michelle Marias-Santa Maria <michelle.marias-santamaria@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042426 /
+ McNeil
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042426 / McNeil
+Thread-Index: Adh9HlibhrW+vhipTF+OCoAJJHOgpg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 10 Jun 2022 23:04:34 +0000
+Message-ID:
+	<BYAPR11MB2853E887B760BA687CEF709BFAA69@BYAPR11MB2853.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2853.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	de3c2573-c024-4200-45f9-08da4b3595d2
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MN2PR11MB4630:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 10 Jun 2022 23:04:34.4969 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	de3c2573-c024-4200-45f9-08da4b3595d2
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR11MB4630
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9247995
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: de3c2573-c024-4200-45f9-08da4b3595d2
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2853.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	w/V9xLdjHQVhvoDGlYw4t+j93oTVf8wgPircQ5ZiGT/5U/1UWlKZZlEMmQAp4IUtZIO/DUgQhtG2RhDLJ7rG7srJ8jWuWy1axyUtkL/2/Fo=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5332.013
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2853.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	VIBo9GzSM/46ENubuj52tG+WM8+QwrCNp8SlxY+8A19zUfN4outD6uvOZ2cqBolXfbGGtpL2qgiT9JbC2h6Lr2gjNBKuHfxPFvy9jYw6bgRp+K+6oPC2WeVoxlnURvH/iBIAUaiu/xrDk7xo+K7bAC4CrdMA1PV14B7ymnOTOzHwY+kV0r8GHwQ7ArRIk2jd6NDjax6UCmilocob904oPWdFfZClDlQhdHMtCl9qrfFn49sUo0JGDopVF4+9EkuxWfosoL+xl0lGbDHZw813rxx+bRZif9jeaeKbkXFK6hrqw0g+TkO8APaWTf5X1T62mPhBjEIe5Y98UJlTU6Wd0UiqRW9Bu7M12Xvalt6ml3wQWmrATY3oyBInoQd8KoUbpQRjfV44nHH0NkgNQbzNbkjYccsCYxc88EppzQ9hfUrf8siygYJfwAf9L2oiqBw9PRCdtLZy1EDTxep6oqBFi2s78GY0Qs1fOBhlRXJd5xIbDcR/4cuCc3yOwMHsu6ji1T/fQQDqSr9A3D10r8kvyRR6tbD6kZ6/7aO4FBjcPLZW3g6+0N5K5XTOhhidn4g1weWFG84oSYu4QImUDj7HOpNa4v4rY5PLWZOt5AuRv5s77NDC44pCSjmGzCPwzo7SU2R2rt43X8bH11GcQNvV9VK3jXUxsO1RHYPXBc/t1rY=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2853E887B760BA687CEF709BFAA69BYAPR11MB2853namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2853E887B760BA687CEF709BFAA69BYAPR11MB2853namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: McTygue Group Inc
+Broker Company NMLS: 243794
+
+LO First Name: Thomas
+LO Last Name: McTygue
+LO Email: tom@mctyguegroupinc.com<mailto:tom@mctyguegroupinc.com>
+
+LP First Name: Victoria
+LP Last Name: Rodriguez
+LP Email: victoria@mctyguegroupinc.com<mailto:victoria@mctyguegroupinc.com>
+
+
+
+
+--_000_BYAPR11MB2853E887B760BA687CEF709BFAA69BYAPR11MB2853namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-family:&quot;Segoe UI&quot;,sans-serif">Broker Company Name:</span> McTygue Group Inc<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span> 243794<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span>Thomas<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span>McTygue<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><a href="mailto:tom@mctyguegroupinc.com">tom@mctyguegroupinc.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span>Victoria<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span>Rodriguez<span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal" style="mso-margin-top-alt:auto;mso-margin-bottom-alt:auto"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><a href="mailto:victoria@mctyguegroupinc.com">victoria@mctyguegroupinc.com</a><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2853E887B760BA687CEF709BFAA69BYAPR11MB2853namp_--

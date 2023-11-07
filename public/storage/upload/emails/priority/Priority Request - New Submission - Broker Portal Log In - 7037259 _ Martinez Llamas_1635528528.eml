@@ -1,0 +1,140 @@
+Received: from DM4PR11MB5341.namprd11.prod.outlook.com (2603:10b6:5:390::22)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 29 Oct 2021
+ 17:07:27 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB5341.namprd11.prod.outlook.com (2603:10b6:5:390::22) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4649.15; Fri, 29 Oct 2021 17:07:26 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4628.020; Fri, 29 Oct 2021
+ 17:07:26 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037259 /
+ Martinez Llamas
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037259 / Martinez Llamas
+Thread-Index: AdfM51KXxgB4PLH+Rqy0kz+1DESgjQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 29 Oct 2021 17:07:26 +0000
+Message-ID:
+	<DM6PR11MB2828954BB91368C53CDA0B7EFF879@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	73de780c-1834-45e7-111c-08d99afe9538
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5341:
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Oct 2021 17:07:26.4446 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	73de780c-1834-45e7-111c-08d99afe9538
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5341
+x-ms-exchange-transport-endtoendlatency: 00:00:00.6707641
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 73de780c-1834-45e7-111c-08d99afe9538
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	A2sLjp31z7oZYxU3FQmRPZb/EjJcMXz+i4UKh72kY96oWmXrwxgWXfdL70oPlWuEoBxpDRopF3K04EIikAD1oRCRpFPn50oEc3yJrMIzYWM=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.017
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	xbkmAbdEhurAiqGtqdp8kCat+tjjAXm+3sq5hpq8TitfP2r1wmgIv57qiwMGpdVNcHRpM/G+dlJgLAunZBkohKiBCD0ySMkAMXKHHUnDK8cna4gTijqBm2IguyOF9+Klr+tDt/2LHi93u6X273wy3zUewlWrtwPUVNKgFOWrAar01fbr0TMW34soCCeEk1piz2BSo5InLcUdmJO/8CmyBTEUq+EDhqr7FyermuaoTr47fpriaAc1ufKYH9eakCuKfgAyMe072LwW2luibYcmDRtmWSAne1Qhyh9Kvzr0qz2RNmLO3DiSA1LcbkDRwaXUC+KRvvfM87MHwAXQI9lHkH5m0pwxFbq9iySHoF9JEmiTwMxW++3zBfMJeHgLT8fNPpyExKJ+Mfw165YYpjL6+tbRcP/gGkp6fr2cWSwSqHHRiHZzJgvwjftBAbah1FmmfTU+eXNcy1pl7Q7SHlaSnpTrO51jyUGKHo40Xazi8UeM4dZehFfYibRscwp/c8HetySmn26aJ/eIPR4IlhoUcxBe8BWrXfqm1gKp3VHL+pfWFaWw3/ECd9cdgGhxzW3WPnxphemacP5lD+L6IBuRct30oHXaefI0Gv5/yQHm3eIoIMKCg3YClhIJ1kFVbvAvT71W1NxvTHiW1fEdiUbUjAFs7fZ0cKUgNItjoedQtdw=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828954BB91368C53CDA0B7EFF879DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828954BB91368C53CDA0B7EFF879DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Empire Capital Group, Inc.
+Broker Company NMLS: 24658
+
+LO First Name: Juan
+LO Last Name: Banda
+LO Email: juanbanda@empirecapitalgrp.com
+
+LP First Name: Talitha
+LP Last Name: Chavira
+LP Email: processing@ecgmortgage.com
+
+
+
+
+--_000_DM6PR11MB2828954BB91368C53CDA0B7EFF879DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Empire Capital Group, Inc.<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 24658<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Juan<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Banda<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>juanbanda@empirecapitalgrp.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span>Talitha<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;</span>Chavira<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span>processing@ecgmortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828954BB91368C53CDA0B7EFF879DM6PR11MB2828namp_--

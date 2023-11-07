@@ -1,0 +1,145 @@
+Received: from DM8PR11MB5669.namprd11.prod.outlook.com (2603:10b6:8:36::10) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 28 Sep 2022 20:53:31
+ +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by DM8PR11MB5669.namprd11.prod.outlook.com (2603:10b6:8:36::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.17; Wed, 28 Sep
+ 2022 20:53:30 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110%3]) with mapi id 15.20.5676.019; Wed, 28 Sep 2022
+ 20:53:30 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044577 /
+ Fang
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044577 / Fang
+Thread-Index: AdjTe8gLrLdJ7kj+QPiqdwrizK7C/A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 28 Sep 2022 20:53:29 +0000
+Message-ID:
+	<MN2PR11MB3696CEF55E4F7281E2250A749F549@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	89796be4-1c20-4f4d-9bcc-08daa1937f98
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 89796be4-1c20-4f4d-9bcc-08daa1937f98
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: MN2PR11MB3696:EE_|DM8PR11MB5669:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 28 Sep 2022 20:53:29.9162 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	89796be4-1c20-4f4d-9bcc-08daa1937f98
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	SXxZUbvFwhG32Kk0+/S+SozpDD+woS4Yf/2XxZGidA78XbYCiCkAZpEk0uReqCWhZFz2z2dO2J4nz9tLKqebLBKSLgSRLWzmK4lNL2Ky+X4=
+x-ms-exchange-transport-crosstenantheadersstamped: DM8PR11MB5669
+x-ms-exchange-transport-endtoendlatency: 00:00:01.8295061
+x-ms-exchange-processed-by-bccfoldering: 15.20.5654.027
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	/ChJgTIjLmlsZEGK7QkahWUNwZqwqf+QwxEtebic5M9+9Sd+4KHfdpejB3W5/Y5O0GV26R9IR9wuOx/hVU5N4OyfSJsLk+Ifc7vRlDjEDQF0L3BPRMVfViAoz4eDvDEusqkGehUZ2UkOn1ujKPtruwGGs02zVJzQjHjHREHz5vs5cmt0US18VshLMCYAsG+bsFeVq171aFVpu0716650E4QIaHSOL7DaCI6Ozlqk3GvYWoReHQ63MGa5jDH8wCB/D6YvZD2TfilxCto9FiZb475Pt2NZmEUwHr7+eCBKehgQXfMzlyi3H3bQN5DfUDhBkOhnIyNSJ8+odFSmkk9QHSnP8n0mStQxRR8vaTB2Pb9YfqR/QoMQ5iZdZsySoCOPb1Gejubllh9LVYYcl/HULZGbD5SIq7NTd3QHQpz43QrglS86PCW6vMStFLBhRv1+7bx/QjXRZlXbAwM+rXRtlNQHvW5AeLE+PWtzesze+pQB0HiXp08em3GbLCBk0Vx/h7PA7jP446yp+QWtBugkeNucJr/7ROnnnbEkOjyW+3d95mWA11ybjNvYBSl34WPzGZjcarJ0RXxv/4yiQOeKTaDmcc8/hA4Es3YE8A4Iby8FxBGuNe4OinQCYakRS7uc85h8Q+ZOlXKMX4dAV3HNPPmtUCmXWj27MlRHq2QmA8LnzXE5kOFY9AqaLdRjvvNPrUYb68CTIFWNIJ/WX26JQlF/8U6aPKfhqTB4Q6QP1WIYQLd/84TxJ8bTatBo/C0DF86fHaOJ9vNr3ZuvcsJ8pw==
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3696CEF55E4F7281E2250A749F549MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB3696CEF55E4F7281E2250A749F549MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: LoanDepot.com LLC
+Broker Company NMLS: 1109777
+
+LO First Name: Frances
+LO Last Name: Chan
+LO Email: fchan@loandepot.com<mailto:fchan@loandepot.com>
+
+LP First Name: TINA
+LP Last Name: UDELL
+LP Email: TUdell@loandepot.com<mailto:TUdell@loandepot.com>
+
+
+
+
+--_000_MN2PR11MB3696CEF55E4F7281E2250A749F549MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> LoanDepot.com LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> 1109777</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Frances</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Chan</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:fchan@loandepot.com">fchan@loandepot.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">TINA</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">UDELL</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:TUdell@loandepot.com">TUdell@loandepot.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3696CEF55E4F7281E2250A749F549MN2PR11MB3696namp_--

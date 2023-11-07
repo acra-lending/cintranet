@@ -1,0 +1,148 @@
+Received: from BL1PR11MB5302.namprd11.prod.outlook.com (2603:10b6:208:312::7)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 14 Jan 2022
+ 00:41:58 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com (2603:10b6:208:fa::18)
+ by BL1PR11MB5302.namprd11.prod.outlook.com (2603:10b6:208:312::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4888.11; Fri, 14 Jan
+ 2022 00:41:57 +0000
+Received: from MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::888:59e3:9af4:2ff7]) by MN2PR11MB3839.namprd11.prod.outlook.com
+ ([fe80::888:59e3:9af4:2ff7%4]) with mapi id 15.20.4867.012; Fri, 14 Jan 2022
+ 00:41:57 +0000
+From: Paria Azarisoreh <pariaa@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Nathalie Gomez <Nathalie.Gomez@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7039113 /
+ Alvarez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7039113 / Alvarez
+Thread-Index: AdgI21YKnIDtEsVZTximhUaHmxPTxg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 14 Jan 2022 00:41:56 +0000
+Message-ID:
+	<MN2PR11MB3839C14640A1B4D9EFBDEDB1B5549@MN2PR11MB3839.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3839.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	d20ad23f-d6de-47fe-c53a-08d9d6f6ab12
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5302:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 14 Jan 2022 00:41:56.9287 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	d20ad23f-d6de-47fe-c53a-08d9d6f6ab12
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5302
+x-ms-exchange-transport-endtoendlatency: 00:00:01.3780894
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: d20ad23f-d6de-47fe-c53a-08d9d6f6ab12
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3839.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	uIuEQT8GvTE6JdOGmCeLvFYoLWP741bE7SeGxYWlyzYxXWF0J7jtrZyu1bzyXi19FuJade0w71ETSbe3GXX6WDSiCNXVjuHgm2xVFfk94B4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4888.011
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3839.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	/R+lFMF48v4KvxuowI449I1k+Gj9aJ+rYCG7qcv9QHSYcjySmytWrPfdkbib9gMf5UJMIOjhoisabZnupIoqk5qO1KF9VTR+xiH6q0uCChnNscb8l3oTP/NQQmgW3d/njF1w/hDrC0XUmGsTq61QxaXzmEmG0QMMtJ0R8LHMx8FP8YyXXtQ4y/UN6uc7YZAKjCkEIbDYj5nlSZ/IgXo9EOCdTV2QN/TOOVXJ1xX5ISxy3JxXdN6RS5YBf/T5HSR0Avlf57ogDQMkB1+sF3HH1PR3VdNUCaM/a3jPZ4xtDbXxLQdmccBCIdlXKNqdzGI7XMZhBeZZlTkAE0vQfjk5B43i9dH7rP3XvZt247Yt1Ux2tBe9kfMYkhzFkqKr+oK7F225JGeP73hJZjXOeE93ej5j8NpZrViesB9xlyhT5F7LiKkMNqjkKRQgNoPF8HbtuvlB95aVRnDWOwhbBFrZT/Rv1fzTOj6+f8YUIJGfSm5u4kpTJdyFLvB0LnYN4VvDvOL/TFc7a7l1IMXvayDKpnCUc4Xv6pVR11Hzi+xNOYxpEZi/DyDRJVRlzw4QtBWM/yLyrAIk4ZhzEjOh7SL4cqh3Q1If6CaCvnBjShb+bneX27whOBVykDEcVD9Osh9EhLeBAUR4+aSag+WsoJgiyKVnJaXZ9jqV0aLNHZ+D1aE=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3839C14640A1B4D9EFBDEDB1B5549MN2PR11MB3839namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB3839C14640A1B4D9EFBDEDB1B5549MN2PR11MB3839namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Loan depot Mortgage
+
+Broker Company NMLS:174457
+
+
+
+LO First Name: Arturo
+
+LO Last Name: Saldana
+
+LO Email:  asaldana@loandepot.com<mailto:asaldana@loandepot.com>
+
+
+
+LP First Name: Tami
+
+LP Last Name: Robinson
+
+LP Email: tami@loandepot.com<mailto:tami@loandepot.com>
+
+
+
+--_000_MN2PR11MB3839C14640A1B4D9EFBDEDB1B5549MN2PR11MB3839namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Loan depot Mortgage <o:p></o:p></p>
+<p>Broker Company NMLS:174457<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LO First Name: Arturo&nbsp; <o:p></o:p></p>
+<p>LO Last Name: Saldana&nbsp; <o:p></o:p></p>
+<p>LO Email:&nbsp; <a href="mailto:asaldana@loandepot.com">asaldana@loandepot.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Tami<o:p></o:p></p>
+<p>LP Last Name: Robinson <o:p></o:p></p>
+<p>LP Email: <a href="mailto:tami@loandepot.com">tami@loandepot.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3839C14640A1B4D9EFBDEDB1B5549MN2PR11MB3839namp_--

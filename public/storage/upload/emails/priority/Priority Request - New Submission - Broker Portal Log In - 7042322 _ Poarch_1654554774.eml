@@ -1,0 +1,151 @@
+Received: from PH0PR11MB5128.namprd11.prod.outlook.com (2603:10b6:510:39::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022
+ 22:28:51 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by PH0PR11MB5128.namprd11.prod.outlook.com (2603:10b6:510:39::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.12; Mon, 6 Jun
+ 2022 22:28:49 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::8476:5f6a:2a15:74bc]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::8476:5f6a:2a15:74bc%7]) with mapi id 15.20.5314.019; Mon, 6 Jun 2022
+ 22:28:49 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042322 /
+ Poarch
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042322 / Poarch
+Thread-Index: Adh59K/z8JjUKP8BRdODBCDL/nWiDA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 22:28:48 +0000
+Message-ID:
+	<BY5PR11MB424378F8FA903BDB30F1114EFFA29@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a8c8b67a-de5a-4c69-6fe5-08da480bed62
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR11MB5128:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 22:28:49.0213 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a8c8b67a-de5a-4c69-6fe5-08da480bed62
+x-ms-exchange-transport-crosstenantheadersstamped: PH0PR11MB5128
+x-ms-exchange-transport-endtoendlatency: 00:00:02.0973062
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a8c8b67a-de5a-4c69-6fe5-08da480bed62
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	QPA/NtKmVDxiIFtVrHztiG6yu06rfeUj5Yi//A0+LDtsrkrm2TeHRzTc5svfTJz1LWkAau8oIpD863E5jpUe1CAzTAttf6xsuQhWqeuKi/c=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	NrBk2ikGZZppRTuC0Phw88kT02Qwxz1TI+mkxo5dIFh4m0FGv9QmacdhtlaAr46U46EiFtUK5ctX+9ixIa4h5N2kqaJLsVqp2c30FWkxbLp43tj7C8U9SamyGzgKpnhg+UgcevBQX7R/L6y8+fdnvpANmPh6XuoF9FtIJcw0XxCinir4GQHO70cjFkbq9aQm7Q3fKTTbNxlHM10TwxBlfDz2q6clgCIoTJ0Yw6ZPeTiXunRCEMuPJXnqDWrWEd/4ALPIoqQgNnZ5BZ9k8+lpGxtDAO5lvQtRSKtvKT1ftIVeZXOjtj4s/zj8XxRGhmVnnbVKGsETFp3Bc5x1uoarjfbABzhRsqQsdZFb6Dz30+amZnmMNhJlrK76CYQgM5FLcNP2uWmg1atbTun0c3xvk1fyxg177GzEy8ABgaj7NeyHfXDa75MAhz/ntmGs/4Ik014XStNAHJuZm86EEUAduWnT9kSHbcLh1lJWcpeF7kfGWXpyRL2H6xernTMgCEU4Up/fiPi2DZDBdVgd06F9aOpaZ5PNVK3A/Yiu+P2fkfjVvU/gF1Kke+7esv+m7pd6j7YqhXy/zBW9EH9rWepzCSFcpO4PeAMS7Hl8qx01VXcmC4KEyydF+H2C3Z3PvyZzG+/VmGwYaXnjHpXxT0dNB+GNRBY0XOwS4Ee32akdQyk=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB424378F8FA903BDB30F1114EFFA29BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB424378F8FA903BDB30F1114EFFA29BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: : Great Plains National Bank
+Broker Company NMLS: 458937
+
+LO First Name: Krystal
+LO Last Name: Hendrickson
+LO Email: khendrickson@gpbankok.net<mailto:khendrickson@gpbankok.net>
+
+LP First Name: Monique
+LP Last Name: Behrens
+LP Email: mbehrens@bpbankok.net<mailto:mbehrens@bpbankok.net>
+
+
+
+
+--_000_BY5PR11MB424378F8FA903BDB30F1114EFFA29BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:
+</span><span style="color:black">: Great Plains National Bank</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:
+</span><span style="color:black">458937</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="color:black">Krystal
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="color:black">Hendrickson</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="color:black"><a href="mailto:khendrickson@gpbankok.net">khendrickson@gpbankok.net</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="color:black">Monique
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="color:black">Behrens</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="color:black"><a href="mailto:mbehrens@bpbankok.net">mbehrens@bpbankok.net</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB424378F8FA903BDB30F1114EFFA29BY5PR11MB4243namp_--

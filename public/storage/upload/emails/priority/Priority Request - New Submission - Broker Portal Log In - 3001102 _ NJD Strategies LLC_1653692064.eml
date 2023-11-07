@@ -1,0 +1,142 @@
+Received: from SJ0PR11MB4845.namprd11.prod.outlook.com (2603:10b6:a03:2d1::10)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 27 May 2022
+ 22:19:30 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com (2603:10b6:5:1da::17)
+ by SJ0PR11MB4845.namprd11.prod.outlook.com (2603:10b6:a03:2d1::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Fri, 27 May
+ 2022 22:19:28 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::5470:3e1a:f4cd:54e7]) by DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::5470:3e1a:f4cd:54e7%3]) with mapi id 15.20.5273.023; Fri, 27 May 2022
+ 22:19:28 +0000
+From: Jacob Hayden <Jacob.Hayden@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Davina Hall <davina.hall@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 3001102 /
+ NJD Strategies LLC
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 3001102 / NJD Strategies LLC
+Thread-Index: AdhyF22D9D4x70wWRLKQygxjA91Vsg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 27 May 2022 22:19:28 +0000
+Message-ID:
+	<DM6PR11MB45075BD021F5DEAD1EB1C39A93D89@DM6PR11MB4507.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4507.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	35c8be5f-d415-4295-2773-08da402ef74e
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB4845:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 27 May 2022 22:19:28.7489 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	35c8be5f-d415-4295-2773-08da402ef74e
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB4845
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4333808
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 35c8be5f-d415-4295-2773-08da402ef74e
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4507.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	tfkZEUgdyqiw+Dh8V0D2zbYUjRZXAXG4LbPfFg2OToDK5igj03So2UdcgUsM6ujkCw4IKT/kyPNdwtf5ze9B/OLuxztSaRGIoi+bkcQKAEo=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5293.013
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4507.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	xfD4eTEz9JMSNyEUl3RkSvLrj3uW4h4SsTV62LTud81+Tr1SgG+wQA0hBuPKK59p/CcEjqySCssyEcE/p2+GyeTBTUVqriShnTU2UCtXCPLpOMJ5SxMmTMELCgQasXzBW8kdQgSqcbMnMfMleN7AZR+3ik2mP8Lc9pg3kuXYslsxyLy2Kf4+WnpmJn9R1eNz86NDlwCJDRfN0MGBhgthBL6XUAPG/f1E+jbNrbkay8g8TgzGAo1CJ2atoCZJEp2RX8EYTr2WvkSJCSXFHGc6wX5SnQMtXPx6UDGP5dYOjeGoYeBGrhMqg1c2qRxBav/i7xLEstVfUbbwlVEPjtbjuK5qE/y4i8NLzdd0Cn5LrQwuzHURneiVWjLbpzocBe7J0ygl5qpyRMhabcmmJm2lbITQMDw8hQ3LAK1HrcpvPvTOC5hHq6RaO6cK+yJ+/viFVx9TP9rON4sNK5UrUJHqWtURwfkXG0+SSRqYNSvcUjZg/7kM0h4/Y1PtMy4Z97qZP2H1ZWTruBZmuKvbgubKxrp/35AC1ihQjYOqIq4lw7MijN4Y2kTXXWy4b/xaAS4TFEy63dZe6rDmwL/CEedobL+/xKbkkqKpjt0fzrLJLbMrbYrzsXw99qquRBkz+xgYKGryLRhGTKS4XeXYYKvraKEvgw5v7IM4fmUtQr+hhag=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB45075BD021F5DEAD1EB1C39A93D89DM6PR11MB4507namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB45075BD021F5DEAD1EB1C39A93D89DM6PR11MB4507namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Kimberly
+
+LO Last Name: Lommen
+
+LO Email: klommen@usmortgagefunding.com<mailto:klommen@usmortgagefunding.com>
+
+
+
+LP First Name: Anna
+
+LP Last Name: Million
+
+LP Email: anna@usmortgagefunding.com<mailto:anna@usmortgagefunding.com>
+
+
+
+
+
+--_000_DM6PR11MB45075BD021F5DEAD1EB1C39A93D89DM6PR11MB4507namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Kimberly <o:p></o:p></p>
+<p>LO Last Name: Lommen <o:p></o:p></p>
+<p>LO Email: <a href="mailto:klommen@usmortgagefunding.com">klommen@usmortgagefunding.com</a>
+<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Anna <o:p></o:p></p>
+<p>LP Last Name: Million<o:p></o:p></p>
+<p>LP Email: <a href="mailto:anna@usmortgagefunding.com">anna@usmortgagefunding.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB45075BD021F5DEAD1EB1C39A93D89DM6PR11MB4507namp_--

@@ -1,0 +1,141 @@
+Received: from CH0PR11MB5249.namprd11.prod.outlook.com (2603:10b6:610:e0::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 11 Nov 2021
+ 17:20:57 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5249.namprd11.prod.outlook.com (2603:10b6:610:e0::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4690.16; Thu, 11 Nov
+ 2021 17:20:55 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5%6]) with mapi id 15.20.4669.015; Thu, 11 Nov 2021
+ 17:20:55 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037549 /
+ Hartshorn
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037549 / Hartshorn
+Thread-Index: AdfXIEG6vR8hzZiSTEWxn7BFAQUl6g==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 11 Nov 2021 17:20:55 +0000
+Message-ID:
+	<CH0PR11MB54250256895B985AEAC89DBEF6949@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	d0aa7fdb-51ce-4cc6-43ca-08d9a5379ef5
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5249:
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Nov 2021 17:20:55.7019 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	d0aa7fdb-51ce-4cc6-43ca-08d9a5379ef5
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5249
+x-ms-exchange-transport-endtoendlatency: 00:00:01.3925697
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: d0aa7fdb-51ce-4cc6-43ca-08d9a5379ef5
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	eRwNNeEqjwErcAZc966IsO20M+8Jx0RAucykEHMZLq8yYGPPTqFwnnMMmMCxp7AzB5Akdrtk5k4N4aZKvkryzVfDGZa+d9AlhWPDVRXRSfk=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.016
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930096);
+X-Microsoft-Antispam-Message-Info:
+	el+MlRH7TGXyC6TywlSvR+KN/bPWnCAEXno0ZQIBCZmxMl+cLUJIfmm0BywTTQyJ3/s5E80UKBVHEKmBTsAlf9FChwcqcmXJsURgD46Kyt1xnxuYaCDghk7ty3ioI/oNcQ4TRlCM9Kc7SOkEPxQzh/kVf2lunfSvguqzb7rhQ7RbTqa2RFxgpL15VUl6Mk1BzJsAmepTo+CdUn5FflGgR/bIbaJ8LTQ5dDv4LG9qfcLDpHYW9PaE2ZKKJ8Z3I008z8jkycqHw6wkzX0weLikorAh/UgwTMq+XRHLLA/KCYkkAzNMp+iHm6VUg+m0/sjmnBVcvaOKOIdJVDkA0jBdFWdY7zEtVSQDj2TPqGauasAdHCti75m2oL2+tvIDNkE1Z25q1+T3q+srEIyvBnUQQRKr0uRG5VsX7nX3x5fTudtQvbB94etT1xQAQrH+gLMengugfQe6QeeVBfAhhukuFicC6mdNpfaco7eFlGZ2H7R/YfEX1Zy4XJrWbaaiP/ESvjOXdkqizQrYPsexQN0/Y3FXb0qCIGkyPTV9tP9PaEE0UJ6dDb89neYxslp5Wfcm0yGgKZM6kGVLW7O8fsqoH6VF2tXujC+Qs5DqyqQZeGc2UDA2MyAbiVvcQDqwPWoj+6fpTmG8QyDr3qnoRrpMaKttE6hNEMYGaQ3Dl0xP0F8=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB54250256895B985AEAC89DBEF6949CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB54250256895B985AEAC89DBEF6949CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Academy Mortgage Corporation / Broker Company NMLS: 234143
+
+LO First Name: DeLauna
+
+LO Last Name: Lucchetti
+
+LO Email: delauna.lucchetti@academymortgage.com<mailto:delauna.lucchetti@academymortgage.com>
+
+
+
+LP First Name: Nate
+
+LP Last Name: Endter
+
+LP Email: nathan.endter@academymortgage.com<mailto:nathan.endter@academymortgage.com>
+
+--_000_CH0PR11MB54250256895B985AEAC89DBEF6949CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Academy Mortgage Corporation / Broker Company NMLS: 234143<o:p></o:p></p>
+<p style="margin:0in">LO First Name: DeLauna<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Lucchetti <o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:delauna.lucchetti@academymortgage.com">
+delauna.lucchetti@academymortgage.com</a><o:p></o:p></p>
+<p style="margin:0in"><o:p>&nbsp;</o:p></p>
+<p style="margin:0in">LP First Name: Nate <o:p></o:p></p>
+<p style="margin:0in">LP Last Name: Endter<o:p></o:p></p>
+<p style="margin:0in">LP Email: <a href="mailto:nathan.endter@academymortgage.com">
+nathan.endter@academymortgage.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB54250256895B985AEAC89DBEF6949CH0PR11MB5425namp_--

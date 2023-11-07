@@ -1,0 +1,142 @@
+Received: from BL1PR11MB5480.namprd11.prod.outlook.com (2603:10b6:208:314::6)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 14 Jan 2022
+ 00:05:36 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by BL1PR11MB5480.namprd11.prod.outlook.com (2603:10b6:208:314::6) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4888.9; Fri, 14 Jan
+ 2022 00:05:35 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::e87b:66ad:91d0:f04e]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::e87b:66ad:91d0:f04e%4]) with mapi id 15.20.4888.011; Fri, 14 Jan 2022
+ 00:05:35 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7039115 /
+ Martinez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7039115 / Martinez
+Thread-Index: AdgI2k+l3P6gwFd1QLy02aRqHE+dRw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 14 Jan 2022 00:05:35 +0000
+Message-ID:
+	<BY5PR11MB42433E1CDEDA26AB1E602516FF549@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	4c8f65cb-4056-4af9-80bc-08d9d6f196d1
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5480:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 14 Jan 2022 00:05:35.4316 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	4c8f65cb-4056-4af9-80bc-08d9d6f196d1
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5480
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4103935
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 4c8f65cb-4056-4af9-80bc-08d9d6f196d1
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	dX2C/eXw4ZMaDyQ+x1I0rMfYqMHMaBIhds5jCu3XRW1+beFxTIJfImt6Mt6cTACzunnYAcbS+40EiBBGFlhYytg5HcEOuSTsmRVQwppFxuI=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4888.011
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	6tMUgx5IZ9yb5znVP9F8+qyoIXsd7BfW5Sy1Sr3Kp4cyAEvDvERDzDx8874dhdcp0DqLTmd9hz7fa5vpaIPNCZm+u8pIgM0cjAPx67hv3aeTpWzCIHXf31uc+VWmfnxDe5A+8oUy9VE/9sYEUUv6Lw7wsdTig0ICQbINBPJF8nmeZAyhaN/x9TRfTm4R1wxsegxHt+5u8iK7Uh8XXGKQEeGn27uXdM6+uC7FBfWhqDSXLX1Hpwy6jkEZY0+zFoUEG4OswrR8PI9Wwkza7NW8H5EG8gj96mCtvCH4SfzZAj6IKoanbrRAEQfgoUdxZKR5ATklmquWtyxbthW2gQAZBB0gS0hr6b2koszXWLcL+ChMRhgIfHKSV+B/nwnPH8c86rQA3L5fjQxP32n8XxU+Oqmyga4lhvuyOtVmCLXGT94kjLeUNPCkpezwQdewQ3GT6GKcStyM3fQWwrurwx7hxcGrUwTTG7v+uD17BBqwv7WBe0/7PEkiEGf0bwXyCqWNfxEUT1YxTuuPmXzMja1uofi5S4VyaTpzDwv+7a5tWKU32yoCtEGjqPcA0e9TkbnsbMorlMa9iSOZxFKdn8RS+npKlNUoCcud2R3uawWESlL8Ze+9i2h8tjDKlWHYFIdJ7t1hJvVlnP0WcllC3+pz/DjxVLNoGCVhHozx/I6nYvQ=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB42433E1CDEDA26AB1E602516FF549BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB42433E1CDEDA26AB1E602516FF549BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Groves Capital Inc
+Broker Company NMLS:  1678775
+
+LP First Name:  Loren
+LP Last Name: Ramos
+LP Email: Lramos@grovescapital.com<mailto:Lramos@grovescapital.com>
+
+
+
+
+--_000_BY5PR11MB42433E1CDEDA26AB1E602516FF549BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:
+</span><span style="color:black">Groves Capital Inc</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="color:black"> &nbsp;1678775</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="color:black"> Loren
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="color:black">Ramos</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="color:black"><a href="mailto:Lramos@grovescapital.com">Lramos@grovescapital.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB42433E1CDEDA26AB1E602516FF549BY5PR11MB4243namp_--

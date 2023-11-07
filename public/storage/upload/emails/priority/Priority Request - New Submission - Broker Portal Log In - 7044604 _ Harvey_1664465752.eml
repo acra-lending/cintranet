@@ -1,0 +1,146 @@
+Received: from CY8PR11MB7172.namprd11.prod.outlook.com (2603:10b6:930:93::10)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 29 Sep 2022
+ 03:14:54 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com (2603:10b6:a03:7b::23)
+ by CY8PR11MB7172.namprd11.prod.outlook.com (2603:10b6:930:93::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5654.16; Thu, 29 Sep
+ 2022 03:14:50 +0000
+Received: from BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::69c4:fdee:6734:dbac]) by BYAPR11MB3461.namprd11.prod.outlook.com
+ ([fe80::69c4:fdee:6734:dbac%3]) with mapi id 15.20.5654.025; Thu, 29 Sep 2022
+ 03:14:50 +0000
+From: Mayra Mendoza <mayra.mendoza@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044604 /
+ Harvey
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044604 / Harvey
+Thread-Index: AdjTsYBstr1n0GqiT3iqCu4MoaQoEQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 29 Sep 2022 03:14:50 +0000
+Message-ID:
+	<BYAPR11MB3461179802CD3FDA5BE7B0ECF9579@BYAPR11MB3461.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB3461.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	f785dbfe-4711-4a60-36c3-08daa1c8c571
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: f785dbfe-4711-4a60-36c3-08daa1c8c571
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: BYAPR11MB3461:EE_|CY8PR11MB7172:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB3461.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Sep 2022 03:14:50.4252 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	f785dbfe-4711-4a60-36c3-08daa1c8c571
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	b0kqGb+Cu0fHvrQrBi+7VK649sXdve5sAB1K6rYkHpr0zvbDdI5rUbRa8pDXYIVSx8RwN1e2nbiP1a+waSrOPpmHbWTFYaVgYf5DcMJyJEc=
+x-ms-exchange-transport-crosstenantheadersstamped: CY8PR11MB7172
+x-ms-exchange-transport-endtoendlatency: 00:00:03.6999415
+x-ms-exchange-processed-by-bccfoldering: 15.20.5654.027
+x-ms-exchange-crosstenant-authsource: BYAPR11MB3461.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	8hXjDZJ8Zqa40uWG+Tti9py1tCIfp23mguYAP4XW6DwYS6GIcosfwDQTk+mATRgqps6GmBzoGoF/rzTEEfxCzreTc0Ubmlmw8DHHkOQNBdiaunnHHv68raOD0As7ixdw4Sqz1YdD+CoB1MjW62plNphbXzWal6ts4Ik/l7ng71thJdW1CizoPEgBxyJJJyiTsY5NY6cM6fKQ/J7yeG6Lb3w6vvO8DYjC6h+lqcGygM7KImFKpDhhmfANIoho25q2GaAcZKoXTASWsoKil6PFTK+5tiJPo7wZQbaAkgaDIXiJTQbKH2xX+emp3YaK149ZyTzQxAoTWvT1Aaqe+64bnhZ7dMasnw6rOPmN7sgGzE3rc3RKLvYcauevj1d2f7oncDrRPRgVJMghltPGxx6Hi29tABRyKYJ8sguPqm3FtmeNLJcY2txunHnByJY+B5s1mOeVrXfqyhDaB3md3XHaFT+q/dLs3ucx0/s9zi182COKKsbiWCKyn75xLXjIrcPfeKoEbzA7ynqOXKFoZdDZKZJ09Z80vvZHZe97H5ns2vUDmR0otmaBjYa2hLY0TURYwsG7QPSrD2z2RzN+tEyQWUTEgEv2JPzuwszPwsGk+CI/H66I0ABqQcezdGIHPjeRDu9imxjlpt6sHi78MYaucFw6L0z3BhT/aZnA65DTrqAtE8K20g0k2IZzF3oEB7srygbhkDXvv+hf372GxfGeG0XpTaP4YAmd1A4l+2A4KcQAwtrZaakJaT9tP2UalGY4QmsmdDPsUPWRl5ehKMY21g==
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB3461179802CD3FDA5BE7B0ECF9579BYAPR11MB3461namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB3461179802CD3FDA5BE7B0ECF9579BYAPR11MB3461namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: ALL City Mortgage LLC /
+
+Broker Company NMLS: 107614 /
+
+
+
+LO First Name: Senal
+
+LO Last Name: Perera /
+
+LO Email: senalmperera@gmail.com /
+
+
+
+LP First Name: Josh
+
+LP Last Name: Kostelyk /
+
+LP Email: josh@lendinginseattle.com
+
+--_000_BYAPR11MB3461179802CD3FDA5BE7B0ECF9579BYAPR11MB3461namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Century Gothic";
+	panose-1:2 11 5 2 2 2 2 2 2 4;}
+/* Style Definitions */
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Century Gothic",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company Name: ALL City Mortgage LLC /<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">Broker Company NMLS: 107614 /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LO First Name: Senal<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LO Last Name: Perera /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LO Email: senalmperera@gmail.com /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP First Name: Josh<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP Last Name: Kostelyk /
+<o:p></o:p></span></p>
+<p><span style="font-size:13.5pt;font-family:&quot;Century Gothic&quot;,sans-serif">LP Email: josh@lendinginseattle.com</span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB3461179802CD3FDA5BE7B0ECF9579BYAPR11MB3461namp_--

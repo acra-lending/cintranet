@@ -1,0 +1,136 @@
+Received: from SA2PR11MB4905.namprd11.prod.outlook.com (2603:10b6:806:117::7)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 11 May 2022
+ 23:16:32 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ SA2PR11MB4905.namprd11.prod.outlook.com (2603:10b6:806:117::7) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5227.23; Wed, 11 May 2022 23:16:30 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::1dc2:75f4:88ca:c8ec]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::1dc2:75f4:88ca:c8ec%7]) with mapi id 15.20.5227.023; Wed, 11 May 2022
+ 23:16:29 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041847 /
+ Chu
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041847 / Chu
+Thread-Index: AdhljQ9O0m+2QhVDSTqjXZb+5Cz5fQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 11 May 2022 23:16:29 +0000
+Message-ID:
+	<DM6PR11MB28289F1F05F13D1177E35854FFC89@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	3c9f8dd2-763d-4ab7-0ee0-08da33a447dc
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA2PR11MB4905:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 11 May 2022 23:16:29.9134 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	3c9f8dd2-763d-4ab7-0ee0-08da33a447dc
+x-ms-exchange-transport-crosstenantheadersstamped: SA2PR11MB4905
+x-ms-exchange-transport-endtoendlatency: 00:00:02.9589447
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 3c9f8dd2-763d-4ab7-0ee0-08da33a447dc
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	WdJYYCcwwKOb8Lp6FaEvIf53NEbDqXrnwm9RMGjqcRerrZpebpETWmt8okEIhbF0TxinwtNYV0oxJGCiqgEtUvTsID67HSAOvsOaKwAWxSw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5227.023
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	Cmqfe55U3TY6PsiHuO5WyQcduSsnV8NWy5vOTZnkzh+csrqy/z8v2aY0d310BNI/b6Qncq3Zg4IODT2itvbTaA/0B/gXHq1ZiA7mo7w9Hm8qxW5IeVG9eVqbGUlARezQfmUzR4+XFbw/+/VFeHf+ew0V1rFJnBZVpHipngcFxuJY6eQiHv8tWrms6oh5hGneYmQVqYQeinfac39rXiH7pOQRivA21HoWCRnvuU77XVI799iTaMXZChOSinfp3yOldfLycxKVJdt0ng+3636CcC7IIl8EbwZWbbapyoEwH95zFqM1YQFETagaIua8X0CRDs7YQacwWgYsQTWkdAMghw6P3lfUCiXSucAsezCQiO8hEQvguyb0Hx1xMmc5e7p4ONj4zfxvxSkLesX/829SE9P28S2EH8eYugRmHmx24k23P8iVfiOyYQg/Kd2ShTQ+m2ELG7s9H+udSJlV5u0WdViVuI83HnT/dAk/+QEQYR1yqfEqnmW1Hp6SfxPj5qB6g1Las6rZ82mG95PYaitfjHPLv3tkrZ9iFd61fy8dosstUh9DBQSLtLqnrMfFHP9qrZ09wfeJ7em1ffkoFGdATpSm8pRkayhC+nEY8GSsn91k0F/tbqb65v0Bxa530PqmonnmkuyWMgCc53JO75D2S8g4Fx245ckZkTDyOcGWeng=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28289F1F05F13D1177E35854FFC89DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28289F1F05F13D1177E35854FFC89DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: American Pacific Mortgage Corporation
+Broker Company NMLS: 2047476
+
+LO First Name: Andrew
+LO Last Name: Sorenson
+LO Email: andy.sorenson@coast2coastlending.com
+
+
+
+
+--_000_DM6PR11MB28289F1F05F13D1177E35854FFC89DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> American Pacific Mortgage Corporation<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 2047476<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Andrew
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Sorenson<span style="font-size:12.0pt;color:black">
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>andy.sorenson@coast2coastlending.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28289F1F05F13D1177E35854FFC89DM6PR11MB2828namp_--

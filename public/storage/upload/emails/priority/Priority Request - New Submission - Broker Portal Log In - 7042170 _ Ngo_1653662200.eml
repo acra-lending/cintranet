@@ -1,0 +1,130 @@
+Received: from BL1PR11MB5978.namprd11.prod.outlook.com (2603:10b6:208:385::18)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 26 May 2022
+ 23:16:56 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by BL1PR11MB5978.namprd11.prod.outlook.com (2603:10b6:208:385::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5273.23; Thu, 26 May
+ 2022 23:16:54 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626%3]) with mapi id 15.20.5273.023; Thu, 26 May 2022
+ 23:16:53 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Lauren Nickerson
+	<Lauren.Nickerson@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042170 /
+ Ngo
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042170 / Ngo
+Thread-Index: AdhxVpr8fxrcxwpyRMKfC2L3meDmmw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 26 May 2022 23:16:53 +0000
+Message-ID:
+	<BYAPR11MB2854C872926525004A87C12887D99@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	1a80c3b3-7d78-4696-e177-08da3f6dd254
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL1PR11MB5978:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 26 May 2022 23:16:53.7234 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	1a80c3b3-7d78-4696-e177-08da3f6dd254
+x-ms-exchange-transport-crosstenantheadersstamped: BL1PR11MB5978
+x-ms-exchange-transport-endtoendlatency: 00:00:03.0243054
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 1a80c3b3-7d78-4696-e177-08da3f6dd254
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	uRjRiPx84bhEPxkNBIL2N1aEamm42Ppw73IC2fhaY2SamNga/hulhtAtgd4T3hzZPTm+Ve/1H77f8lZRcFzTHpYdLxLexraufGbD2OBxTXU=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5293.013
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	qtd3/U3imGZ/kaJhXr0Y3FEeojdTRTf4c+gE8yu23aw33F45ev6kpCjP/4rqGd5a8lCvosw0f02Wl3kw/8/LquHvPI5BgoN3lGtoyPmjFbj0bNC6UKDutOznGrc7WVdPGFCQ0ukPnC6sk5O7PJ9SqZKMoWIvm/jXZxRuZlOuyAmksxvtAzyIPzWyW1+tcAwiUvT+SFnvzFmE0W8KF/L87GsvvKGM/j6cdjwRLdcq22rCHCAnUtCu2cDJsLvZ+KHTTtGzkmHEBwOUb/XpWMv52Hc0SQO5yIz13PnJvLTy38ogvhZy05v0PVBr/1aCCVsOfuSqG2YoN97UuHR49y5SwufoteskgQv0fjNtJyRvM3CnJcxlMG3ldueSNyM0HLs8se/SKUBjvmsyVXTipjqzUsiQqcrug+npFOwzYzkgCKs1O7rGxakCQKxcajbNCO155b+1UeMy9x02As8GlUVasqKb/4HjaVQFwLdbK8Ib1b4xpF9Z0UkkM3DmZAlcs4qsQUORxcWYQaRGexDryWAYumTCgjIgEZkKUsEe3e2ri0f3011d5pVM2Hmc1MUq3cLg65XxlOtFVlCUkKqpOTMIBWSu8stPclVkx732/uk9MODXEe+ZB8v+B5OWDUKLMH4W7iurvAqbICNgM57kkdp6+TosbfVMg5lj4AXhA61Woos=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2854C872926525004A87C12887D99BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2854C872926525004A87C12887D99BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: First Federal Bank of Florida
+Broker Company NMLS: 408902
+
+LO First Name: Stu
+LO Last Name: Sharpe
+LO Email: sharpes@ffbf.com
+
+
+
+--_000_BYAPR11MB2854C872926525004A87C12887D99BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: First Federal Bank of Florida<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 408902<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Stu<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Sharpe<o:p></o:p></p>
+<p class="MsoNormal">LO Email: sharpes@ffbf.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2854C872926525004A87C12887D99BYAPR11MB2854namp_--

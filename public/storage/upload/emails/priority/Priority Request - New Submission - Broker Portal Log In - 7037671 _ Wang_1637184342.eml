@@ -1,0 +1,140 @@
+Received: from CH0PR11MB5268.namprd11.prod.outlook.com (2603:10b6:610:e3::24)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 17 Nov 2021
+ 17:47:59 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5268.namprd11.prod.outlook.com (2603:10b6:610:e3::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4690.26; Wed, 17 Nov
+ 2021 17:47:58 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea%7]) with mapi id 15.20.4713.021; Wed, 17 Nov 2021
+ 17:47:58 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037671 /
+ Wang
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037671 / Wang
+Thread-Index: Adfb2wz/Xw74YGY/QVKUmcHDdovdDA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 17 Nov 2021 17:47:58 +0000
+Message-ID:
+	<CH0PR11MB54252BC769DFF5FA0B083196F69A9@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	1c3125e1-91b6-41f1-631e-08d9a9f2646e
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5268:
+x-ms-exchange-crosstenant-originalarrivaltime: 17 Nov 2021 17:47:58.1204 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	1c3125e1-91b6-41f1-631e-08d9a9f2646e
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5268
+x-ms-exchange-transport-endtoendlatency: 00:00:01.6897466
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 1c3125e1-91b6-41f1-631e-08d9a9f2646e
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	+kHf+XvD2gwPddnEtW6zx5SIute3rBjpmqou4N24Ci8CCiSPmO/gBFzNqsGN105q8m8NJ7zJUhN9BX0loZwUpNYA8GHkS3Fj8UIJ7+JlxKo=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4690.027
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	qQao+ORbfpDzqQMFdaijMmYikg33Kf/9ul3vU+xGjuRww5pzP7EQo5sWwc/muBmhIxK616uj9972c/9S0+m9j383nmGaXHQq8+WddOlkYL4ijOy2hUwyHEOJa+nHzcF2YfDk1N8QcqzD0BQ8Uk+5tZHNb22dX6ybWGvPMAqWq89585EnoZafRgbjyfgpulY2fknxrCc6vHkvht1kBICFLDtVjH/sPUlz4O0P6kLaVddXP/AYkgrL5XcATcm34pk29tF0rilqFSitsx6ewDmB2Ddi68XlPnqREREPKVkVIYfSgubROqbUH7U0FLrcNtDD8hEw2k9/fYA4N6NDhWFhKKBuArCMkhRB1JezA+3svdgbSBaCtvKSlYA+e3vnC4C/3gSJODa6EgqRYnRxizg8joobdPdvMklmhea+uCTvFnnAhe5zpALHD+Z2pADx7dXDHuGYxCAE82bHnnBBSLzIHeEaQPfaWUD6UIFr2fgotL9UVPxt57Fnrlt3rwJlm5sgkS7ybnxUpAlCgKbCfn03lUGjeBpOT3wXGs3w45CfuJUN9HJZPTycqexBMLi03/i1b6vscWVKNxbvVyflRrRmdox1kqRVrbaloLOdoEll+HfOLU/BXZbD6AIQYmY3jyy5Xy3oIiEPgJ2Cd2bFYshZT04mkmgth0k8mySujiE/uNY=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB54252BC769DFF5FA0B083196F69A9CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB54252BC769DFF5FA0B083196F69A9CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: NEXA Mortgage, LLC / Broker Company NMLS: 1984262
+
+LO First Name: Jean-Paul
+
+LO Last Name: Vincent
+
+LO Email: jpvincent@nexamortgage.com<mailto:jpvincent@nexamortgage.com>
+
+
+
+LP First Name: Karen
+
+LP Last Name: Vincent
+
+LP Email: kvincent@nexamortgage.com<mailto:kvincent@nexamortgage.com>
+
+--_000_CH0PR11MB54252BC769DFF5FA0B083196F69A9CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: NEXA Mortgage, LLC / Broker Company NMLS: 1984262<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Jean-Paul<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Vincent<o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:jpvincent@nexamortgage.com">jpvincent@nexamortgage.com</a><o:p></o:p></p>
+<p style="margin:0in"><o:p>&nbsp;</o:p></p>
+<p style="margin:0in">LP First Name: Karen<o:p></o:p></p>
+<p style="margin:0in">LP Last Name: Vincent<o:p></o:p></p>
+<p style="margin:0in">LP Email: <a href="mailto:kvincent@nexamortgage.com">kvincent@nexamortgage.com</a>&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB54252BC769DFF5FA0B083196F69A9CH0PR11MB5425namp_--

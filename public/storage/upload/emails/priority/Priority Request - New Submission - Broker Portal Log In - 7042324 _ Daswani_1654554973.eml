@@ -1,0 +1,136 @@
+Received: from PH0PR11MB5830.namprd11.prod.outlook.com (2603:10b6:510:129::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022
+ 22:33:53 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by PH0PR11MB5830.namprd11.prod.outlook.com (2603:10b6:510:129::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.17; Mon, 6 Jun
+ 2022 22:33:50 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::c964:da1f:f129:d52a]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::c964:da1f:f129:d52a%2]) with mapi id 15.20.5314.019; Mon, 6 Jun 2022
+ 22:33:50 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Maria Bunes <Maria.Bunes@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042324 /
+ Daswani
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042324 / Daswani
+Thread-Index: Adh59WL98RA2ZijJTsGFHDsRTgo32g==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 22:33:50 +0000
+Message-ID:
+	<MN2PR11MB3696870DA2D4D90D9281770B9FA29@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	21efd4a1-f8c1-4cb3-2358-08da480ca106
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR11MB5830:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 22:33:50.4531 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	21efd4a1-f8c1-4cb3-2358-08da480ca106
+x-ms-exchange-transport-crosstenantheadersstamped: PH0PR11MB5830
+x-ms-exchange-transport-endtoendlatency: 00:00:03.2356137
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 21efd4a1-f8c1-4cb3-2358-08da480ca106
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	b77Jtq+K9RwA0xEDjn5BBr4Kd/pGv07UPMeK7kfSdwVvGiguvCdo/Y162WNv3SGb5+puLK99sVf7OBumUwt1jLzI2Lin2cJA0GhiMWE8yiA=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	MXhNjn6fUDOXoW6EBbcn2q7BtcbmAydP0ng2z+rsgSAbT+JdyluKV/fQliqHbh6QOzxrkcUpDEMuHOEZmRHyV4+y5sVgHk4GMZ0u4l18wTeh9FVV1rCbpvC9cX5BHHbEKsL+N1LHjeRf9hdGhUKYe29whpHrCyzsfaTNcDIjtxcFlNsu4yCwfqDIIWe5jW0PISmjazJTqLq8T5stnGokGBT2gTN+2jZ2PV78jNae59fzigefeX/xUYDhQcV60Xp+cx/S+0/XQYb2pQ4R0EnCHtJDDiF2dY9/MV6hUjISbvkq3nwkvgf6p4NW2mx7KzsNg9vLDSYQzTKKaUz2oJSp2oOntQ+iHnQ3UE+aXn1Uq1DzhnKkIAF6bAq2zwFrHkEM5d1yWc+alSayPHr1ZBBY5p82yl1pY2PB+gUZEr4YACHZ1JMFf4tUs2ybju+msXXcrPFOs3PomxWPggcPoSsm0HcqAPJHA/qZzgW/3WJRpNwrdZC889i3n/+4dVeeK6QVZqs16rLkXB4MX7vCQUh71bmS6mmlr3WlisNqpq4OqDbD7AibVRf1t9QbhmTwYpmlkjNJ5ax3oHQCg3ZBqOKAIGunsv3RbL7OZD9mM+ijMPGCUnT/XBbgzLR892mAnVaMD7WKFjZ6kahQQkY5LcSUpfbKkd6J7tVviabUeIZI6Bs=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB3696870DA2D4D90D9281770B9FA29MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB3696870DA2D4D90D9281770B9FA29MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Everett Financial, Inc
+Broker Company NMLS: 1514407
+
+LO First Name: Alvin
+LO Last Name: Reyes
+LO Email: Alvin.Reyes@SupremeLending.com<mailto:Alvin.Reyes@SupremeLending.com>
+
+
+
+--_000_MN2PR11MB3696870DA2D4D90D9281770B9FA29MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> Everett Financial, Inc</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> 1514407</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Alvin</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Reyes</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:Alvin.Reyes@SupremeLending.com">Alvin.Reyes@SupremeLending.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB3696870DA2D4D90D9281770B9FA29MN2PR11MB3696namp_--

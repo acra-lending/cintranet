@@ -1,0 +1,124 @@
+Received: from CH0PR11MB5266.namprd11.prod.outlook.com (2603:10b6:610:e1::7)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 23 Nov 2021
+ 17:31:10 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5266.namprd11.prod.outlook.com (2603:10b6:610:e1::7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Tue, 23 Nov
+ 2021 17:31:10 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::756b:db95:7cb9:27ea%7]) with mapi id 15.20.4713.022; Tue, 23 Nov 2021
+ 17:31:09 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037834 /
+ Arnold
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037834 / Arnold
+Thread-Index: Adfgj7yknJ+i0Q/BRlOZzXnyuAFWVA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 23 Nov 2021 17:31:09 +0000
+Message-ID:
+	<CH0PR11MB54255BC40183462AAFB6B33DF6609@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6ce54ff8-6e5d-4592-3d39-08d9aea709ef
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5266:
+x-ms-exchange-crosstenant-originalarrivaltime: 23 Nov 2021 17:31:09.7249 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6ce54ff8-6e5d-4592-3d39-08d9aea709ef
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5266
+x-ms-exchange-transport-endtoendlatency: 00:00:01.1011338
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 6ce54ff8-6e5d-4592-3d39-08d9aea709ef
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Yrbi0wYoOUt7iGx7rIOvSZhdU3/KImm+Hlxle84qcns/H1ENIzBMLpjDeMZwizy0esqwAW0GTgS5l6Qn1wICsQJuwY5ITCwTyDwW0nA+51Q=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4690.027
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	4qNoEp1Q0BEBQnYgg6jNmWpKi5KTB1Qq7OUQImhH26ReKJ2iy0xWjBDLRzzaGjEMCN8uC+iGQOkJu0d3+uxK/+gq+1s/RKaKbuAgxhtvjItHQntx9kOjWr1r4EBrpiBYdu4aPs08DxRQWovn5IUin9snRqbUsr14mk9LSzHp9NAQW8lHH7dM/TBtQm0uKZMs3NnzG1BxhK/ssInjCB8Xn518kcugyKjs2tTF+ClgcMK9hHEIZedY7NsDtNPc7iUJcF2ZeeRq/dxTXHq1AbYntppy64TdOgsTBg+wbXMS1XnuJsBWjO2ynkfs6s9OwLzYOZ80eBZhfuYtUVAODcarqrD8sjcdziuFhNhfeG+SbYoWkGcoxlpL5WpbyqvYN/7buopsCTD471NCD3D8bt78vCgqZbEnqBS6erA9LzGuHBMqTo1C7dQ8igbjy/8Km9QJvaRR0Zhr6ISAxkahWZiiDg0OtOYAQpg8PRrJmszmkyDW7kJTXqRcBNxs1NVUCvheUIZnnXq8YyQUJDgy3kWAcPCizXLNFeJTrl5v2sMsJTlVii+zYMMCUzdvO8MiQzWrR29+now9sTkwpVRu/of7ZEwsdWPJzIL4d0E0BGlYkXzKYRLiLe0N7IqbeumeVykKZkeORRPKxnY16OmvzedGtsLwWb/jG+qAATlyvpbVWXM=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB54255BC40183462AAFB6B33DF6609CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB54255BC40183462AAFB6B33DF6609CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Primary Residential Mortgage Inc / Broker Company NMLS: 1563617
+
+LP First Name: Kiki
+
+LP Last Name: Zhang
+
+LP Email: kikiz@elementfunding.com
+
+--_000_CH0PR11MB54255BC40183462AAFB6B33DF6609CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Primary Residential Mortgage Inc / Broker Company NMLS: 1563617<o:p></o:p></p>
+<p style="margin:0in">LP First Name: Kiki<o:p></o:p></p>
+<p style="margin:0in">LP Last Name: Zhang <o:p></o:p></p>
+<p style="margin:0in">LP Email: kikiz@elementfunding.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB54255BC40183462AAFB6B33DF6609CH0PR11MB5425namp_--

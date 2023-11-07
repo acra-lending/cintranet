@@ -1,0 +1,171 @@
+Received: from SJ0PR11MB5790.namprd11.prod.outlook.com (2603:10b6:a03:422::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Sat, 4 Jun 2022
+ 00:11:48 +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com (2603:10b6:406:b3::31)
+ by SJ0PR11MB5790.namprd11.prod.outlook.com (2603:10b6:a03:422::15) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5314.15; Sat, 4 Jun
+ 2022 00:11:47 +0000
+Received: from BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa]) by BN7PR11MB2850.namprd11.prod.outlook.com
+ ([fe80::d8dc:7ba:2b52:afaa%5]) with mapi id 15.20.5293.018; Sat, 4 Jun 2022
+ 00:11:46 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Kristin Graves <Kristin.Graves@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In -
+ 7042303 / Garcia Cortes
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042303 / Garcia Cortes
+Thread-Index: Adh3pe35lPKfB1d3TiuT6XwEFWvp7QAAa0Lw
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Sat, 4 Jun 2022 00:11:46 +0000
+Message-ID:
+	<BN7PR11MB28503E0F08343F05D9E66A8887A09@BN7PR11MB2850.namprd11.prod.outlook.com>
+References:
+	<BN7PR11MB28507D3118EFB11CC74F8B5187A09@BN7PR11MB2850.namprd11.prod.outlook.com>
+In-Reply-To:
+	<BN7PR11MB28507D3118EFB11CC74F8B5187A09@BN7PR11MB2850.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BN7PR11MB2850.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	c2fd2984-c17e-49db-30ec-08da45bed070
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB5790:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 04 Jun 2022 00:11:46.9150 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	c2fd2984-c17e-49db-30ec-08da45bed070
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB5790
+x-ms-exchange-transport-endtoendlatency: 00:00:02.0149156
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: c2fd2984-c17e-49db-30ec-08da45bed070
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BN7PR11MB2850.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	yBkszz1gHY+5hz8T3g+QWKF7txRzwG4RIv+Uh2mrR/uX7C+j1dAw/0PhQrcKwrxjvNRj+a4yN1y05xi2sIJIYd4ATPpzWistmANmURAPOGY=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.015
+x-ms-exchange-crosstenant-authsource: BN7PR11MB2850.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	it9VCvVbTdqD2xbVXfUiMifc5bWGbLY1bLgWhLRV3i/K75wuYPtgJKioDOrdQp28JD62XnHGSXN4k1GGL6OO09+7Cn2BjpWUgV4+7JUSG/Ao54mIAJnPjXnwuSJZ5IBcAfyKi1CtV17+NJye3Hqgz2SgDqqcI1lalBV2rEGTJptHNP9QYRuzHFmtTyvZDc/j7di3fO6nIi00qY+QZban8fdvDU/FuQo/2m1UTs/zKXTBNw3oJs6TC18ErRvRw1RgSbG+HYzvzR6t0+8JAam+q5589xu0cbT56iXzmzZCLu9b9geGKIAaZyuAzQAWtjfub1dpjtKZGTRbtlBKybvM6ARLuAZoKgSB7SJV8XcWxfX5V6Wqxqb4ZZj2XJhvGITGAPJw4GV+Agu5xEytR+phDDB9FhaWPN14Lvm+8/YSW1jaFhL0OEIDI+wVhdfoTjx8lfnb1xdOenC2rl59x6Ld7/hQ+UCHE02IWzyBfebf2dXhpw+3257cbxlv2sM0UP7TyU2kGmXiUQV+R5MP+kgN03gFuQ1e1l0Cg906Pz7ReBG5IwShirtODwy65IDCgKxzyP/If4eId5zkfUvOX30n8uumG+tWirYadWDOrpD6GyJnDH57vU1p29mbMsrLueUoVrXOlX9oweqCFKyXFY4B0JTuJCx7Qos3khp/FI9l6wg=
+Content-Type: multipart/alternative;
+	boundary="_000_BN7PR11MB28503E0F08343F05D9E66A8887A09BN7PR11MB2850namp_"
+MIME-Version: 1.0
+
+--_000_BN7PR11MB28503E0F08343F05D9E66A8887A09BN7PR11MB2850namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: New Era Solutions, Inc.
+Broker Company NMLS: 1284803
+
+LO First Name: Bertha
+LO Last Name: Rodriguez
+LO Email: bertha@newerafinancialgrp.com<mailto:bertha@newerafinancialgrp.com>
+
+LP First Name: Tashara
+LP Last Name: Turpin
+LP Email: tashara@infinityhomeloans.com<mailto:tashara@infinityhomeloans.com>
+
+
+
+--_000_BN7PR11MB28503E0F08343F05D9E66A8887A09BN7PR11MB2850namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle21
+	{mso-style-type:personal-reply;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: New Era Solutions, Inc.<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1284803<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Bertha<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Rodriguez<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:bertha@newerafinancialgrp.com">bertha@newerafinancialgrp.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Tashara<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Turpin<o:p></o:p></p>
+<p class="MsoNormal">LP Email: <a href="mailto:tashara@infinityhomeloans.com">tashara@infinityhomeloans.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<div>
+<div style="border:none;border-top:solid #E1E1E1 1.0pt;padding:3.0pt 0in 0in 0in">
+<p class="MsoNormal"><b>From:</b> Cyle Nebenzahl <br>
+<b>Sent:</b> Friday, June 3, 2022 5:01 PM<br>
+<b>To:</b> webupdates@citadelservicing.com; Rudy Morales &lt;Rudy.Morales@acralending.com&gt;<br>
+<b>Cc:</b> Kristin Graves &lt;Kristin.Graves@acralending.com&gt;<br>
+<b>Subject:</b> Priority Request - New Submission - Broker Portal Log In - 7042303 / Garcia Cortes<o:p></o:p></p>
+</div>
+</div>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Rudy, <o:p></o:p></p>
+<p class="MsoNormal">Please advise with LP&#8217;s email address.<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Broker Company Name: New Era Solutions, Inc.<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1284803<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Bertha<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Rodriguez<o:p></o:p></p>
+<p class="MsoNormal">LO Email: <a href="mailto:bertha@newerafinancialgrp.com">bertha@newerafinancialgrp.com</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Tashara<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Turpin<o:p></o:p></p>
+<p class="MsoNormal">LP Email:<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BN7PR11MB28503E0F08343F05D9E66A8887A09BN7PR11MB2850namp_--

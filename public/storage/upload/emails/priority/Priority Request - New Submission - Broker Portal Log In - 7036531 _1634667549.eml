@@ -1,0 +1,138 @@
+Received: from BL3PR11MB5745.namprd11.prod.outlook.com (2603:10b6:208:352::9)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 19 Oct 2021
+ 18:13:20 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com (2603:10b6:208:13e::25)
+ by BL3PR11MB5745.namprd11.prod.outlook.com (2603:10b6:208:352::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.16; Tue, 19 Oct
+ 2021 18:13:19 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a]) by MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a%7]) with mapi id 15.20.4608.018; Tue, 19 Oct 2021
+ 18:13:19 +0000
+From: Clark Deremo <Clark.Deremo@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036531 
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036531 
+Thread-Index: AdfFFP2DpLbnw+spSIiAHv8W5vaJDg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 19 Oct 2021 18:13:18 +0000
+Message-ID:
+	<MN2PR11MB401357041720B7CE5BC278FB8ABD9@MN2PR11MB4013.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB4013.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	13f88965-a4b3-4c21-664b-08d9932c20f1
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL3PR11MB5745:
+x-ms-exchange-crosstenant-originalarrivaltime: 19 Oct 2021 18:13:18.8782 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	13f88965-a4b3-4c21-664b-08d9932c20f1
+x-ms-exchange-transport-crosstenantheadersstamped: BL3PR11MB5745
+x-ms-exchange-transport-endtoendlatency: 00:00:01.5074915
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 13f88965-a4b3-4c21-664b-08d9932c20f1
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB4013.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	jczJXXvf1zaP+nCv/veHdG9zTRZfDzzeJBsCvziHvmTqbltCbXs7eovtKz7voYxIlpkq16DQZglq1I/c8s2LZpvUb5eIRoAjX84L8VeFFOI=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: MN2PR11MB4013.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	Uy3DUldNDEGDf0orKKIr+0WJERCEz6vcO5O5E4d7TwxDM5CXoHW3pPlOb8SW3g/5u/1uSz8nhWkcmjnyVUnd/7eubzlKbaRnAvU4yLdPACcdkSzAoAe7ZvyCKAVYWH9tRxKzg35YBSuTzbL+KSKOIER8V0VOY0vQDQD2uBfqChOf0/VBhgMHwMnzEgm/rB/SG9Fswr1rvtafgs7b6HYz1dqAv2S2Fs3rOvQec6NrjUakHSwrorkvZkbWqk1e9pwtzMKsjX9Ls0jHsgMxIr/n/9xMASIg6iFFbwfJCPuHxjBFD3Wo3GhnMQA/Z+FGIzXZWMCcgL5hKI1oQfvHaqZ6s096HLVgKnZVq8zJgm6HTWGj5ObX3oDXjlKvad0QOiUNpcaslrqOeuRvZAChnlQD76W3HpC/I0gtLvry7k06tJdWCEbKZmVPImg29I4ZpL+A8fjN0zGGDWy1EGVmUkYt3HfDpoMaUeVUO0qKZS78vqpU3SzTAkExwwz3hsAtDD+3XCuuaALhw/fTBGfdcJD+eXdcdtC97U+VYLHIK6BJJmqhhKHitbOmXZTQI16dVy2ffUV4qVrh/4pDHgvNYJi9Z1W2Fgfql8tpyWSFy3LN+KuQguaiLcc4RSh1BLhNkd1n0/CQe3SX5W7eMNjmD0mtIF+ZB8bMFup1BRfJ2WLS4kc=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB401357041720B7CE5BC278FB8ABD9MN2PR11MB4013namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB401357041720B7CE5BC278FB8ABD9MN2PR11MB4013namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Candace
+
+LO Last Name: Copeland
+
+LO Email: tchamberlain@boemortgage.com<mailto:tchamberlain@boemortgage.com>
+
+
+
+LP First Name: Jon
+
+LP Last Name: Dogan
+
+LP Email: jdogan@boemortgage.com<mailto:jdogan@boemortgage.com>
+
+
+
+--_000_MN2PR11MB401357041720B7CE5BC278FB8ABD9MN2PR11MB4013namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Candace<o:p></o:p></p>
+<p>LO Last Name: Copeland <o:p></o:p></p>
+<p>LO Email: <a href="mailto:tchamberlain@boemortgage.com">tchamberlain@boemortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Jon<o:p></o:p></p>
+<p>LP Last Name: Dogan <o:p></o:p></p>
+<p>LP Email: <a href="mailto:jdogan@boemortgage.com">jdogan@boemortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB401357041720B7CE5BC278FB8ABD9MN2PR11MB4013namp_--

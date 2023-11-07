@@ -1,0 +1,145 @@
+Received: from SA0PR11MB4767.namprd11.prod.outlook.com (2603:10b6:806:97::9)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 12 Jul 2022
+ 20:26:25 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ SA0PR11MB4767.namprd11.prod.outlook.com (2603:10b6:806:97::9) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5417.16; Tue, 12 Jul 2022 20:26:23 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::458d:aac8:1045:d3a1]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::458d:aac8:1045:d3a1%7]) with mapi id 15.20.5417.026; Tue, 12 Jul 2022
+ 20:26:22 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042951 /
+ Previtera
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042951 / Previtera
+Thread-Index: AdiWLYxTgtP185JGQLmuyO6wJm85SA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 12 Jul 2022 20:26:22 +0000
+Message-ID:
+	<DM6PR11MB28283F372B532B9426E20CE0FF869@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	ce649d83-5f24-4653-ea30-08da6444c985
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA0PR11MB4767:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 12 Jul 2022 20:26:22.7584 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	ce649d83-5f24-4653-ea30-08da6444c985
+x-ms-exchange-transport-crosstenantheadersstamped: SA0PR11MB4767
+x-ms-exchange-transport-endtoendlatency: 00:00:03.0107110
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: ce649d83-5f24-4653-ea30-08da6444c985
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	+nzpPTHHu3+nbEUMQ7eW6E7ykSwVCmYOho1h67SuDDwIbTldhB6OS7SaFfdCXh7ldNC2fCb6yJsBQiMZE5ruXscTU348pGa19fSnTqnsvl8=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5417.026
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	7b2NP/gVkKO5DzwYs7c1wLNBziCOOasAE6yHLFOSz7yaZ7asbX4gI/UAE45i+GVCZAph0PPnLitifrJXI+yhrJ1BWl2xy1LcyGDY96BbOHOqmS9jQMRHawwAfl4KrKTQ5CrzcnVB+AqwxbK3WXNPxL2M7Ye2rdTvFKyuBQfpMBRRJGFB0LE3164JJ+vH6IBr2JbEhAspkR1g1sn+7Y2GnDdSltZjHhKj5CXXl1yUp05f6tnFqv8ojJ5ojgzrHXYIQTAq1bmew78u4vNlxjA8PnIRfQUCaJgGdR2sA1ncZIkZ9aYCgyupQKDEMaYUKJby7+wRv5zqilwWh6s+/EdbgVBSCU6s4MaEoE27SM3/VlNK7ilGmLywbFWnQl3k44p2PI1P0ZNyKhhr+aTCcv4qlWC4Oj6e3aLpml1pKcF7c6GZZFlEo7Pyi5a+TVna4N/WfN1/O8cYdzWQUNY2jbG6llIQ/NH7jZLwrsT1dWYy/cQGCsES6Efa1sygWUNgYIbIMqXYp91Eiy5bOvda6EUSKWovYy8ZQxqKusc9lo+qWA9ruiEcRc918QJJB2k/o0c2tXVK1NvAt4ZJipfW/IWpJDF6Z3JYcGAUpA7y13rasZbDnOsutuLlnVubkOK2TIAxQWZzNgrGLksfLQR46hXir5CUYz6uFnYW75uBohg9dIcemje71RLmMwz86001ab+n6xdY3pJQ9pkMKPm426nr5+TEQtB4dgWYq26pFcKyAxl0LTC9o9lTv75OMCvMe7+W
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28283F372B532B9426E20CE0FF869DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28283F372B532B9426E20CE0FF869DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Torres & Torres Financial Services, LLC
+Broker Company NMLS: 2109941
+
+LO First Name: Selenia
+LO Last Name: Gutierrez
+LO Email: seleniag@tntfinsvcs.com
+
+LP First Name: Jamie
+LP Last Name: Torrez
+LP Email: jamie@tntfinsvcs.com
+
+
+
+
+--_000_DM6PR11MB28283F372B532B9426E20CE0FF869DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Torres &amp; Torres Financial Services, LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 2109941<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Selenia
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Gutierrez<span style="font-size:12.0pt;color:black">
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>seleniag@tntfinsvcs.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span>Jamie
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;</span>Torrez<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span>jamie@tntfinsvcs.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28283F372B532B9426E20CE0FF869DM6PR11MB2828namp_--

@@ -1,0 +1,434 @@
+Received: from CO1PR11MB5185.namprd11.prod.outlook.com (2603:10b6:303:95::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 22 Oct 2021
+ 16:51:46 +0000
+Received: from CO1PR11MB5201.namprd11.prod.outlook.com (2603:10b6:303:95::22)
+ by CO1PR11MB5185.namprd11.prod.outlook.com (2603:10b6:303:95::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.17; Fri, 22 Oct
+ 2021 16:51:45 +0000
+Received: from CO1PR11MB5201.namprd11.prod.outlook.com
+ ([fe80::3485:9703:48dc:42ac]) by CO1PR11MB5201.namprd11.prod.outlook.com
+ ([fe80::3485:9703:48dc:42ac%3]) with mapi id 15.20.4628.018; Fri, 22 Oct 2021
+ 16:51:45 +0000
+From: Brokers <brokers@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+Subject: Broker Portal Login Request - Alexa Schrecengost
+Thread-Topic: Broker Portal Login Request - Alexa Schrecengost
+Thread-Index: AdfHZOvm4BofZaSyTIKbJkYVwdH5yg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 22 Oct 2021 16:51:45 +0000
+Message-ID:
+	<CO1PR11MB520151C5A378762C3AF730D09A809@CO1PR11MB5201.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CO1PR11MB5201.namprd11.prod.outlook.com
+X-MS-Has-Attach: yes
+X-MS-Exchange-Organization-Network-Message-Id:
+	bd6c720c-7da3-42a9-13de-08d9957c3b84
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CO1PR11MB5185:
+x-ms-exchange-crosstenant-originalarrivaltime: 22 Oct 2021 16:51:45.5027 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	bd6c720c-7da3-42a9-13de-08d9957c3b84
+x-ms-exchange-transport-crosstenantheadersstamped: CO1PR11MB5185
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4937194
+authentication-results: acralending.com; dkim=none (message not signed)
+ header.d=none;acralending.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: bd6c720c-7da3-42a9-13de-08d9957c3b84
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:10000;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CO1PR11MB5201.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname: Miguel.Dominguez@acralending.com
+x-ms-exchange-processed-by-bccfoldering: 15.20.4628.018
+x-ms-exchange-crosstenant-authsource: CO1PR11MB5201.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+x-ms-exchange-messagesentrepresentingtype: 1
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920050)(425001)(930049);
+X-Microsoft-Antispam-Message-Info:
+	LVhQU0IFZTEsn11ZpUFLGqZbfdczxTSIJnB+jz95hvyhgAK6g/lpkVq/mnBHslFA7P0WF+t4bGPfVx7CO3DVjrarLfDgcpG25xFOcAz3Fj+9nqJLvXOGcFH+qlvFWKEvrjfS8WYwHHQHYWUSOSySfTCCY7Ff71Tos9q6nWDoQjb6Wg3Yf1/Tz/PYuXWFXO1tApSYKR5mWrlehIq3XsNp8y8r1P4myX0ckQRmeQ5AisH/FQKHVVCnIdobfw/gZFKikGesA397LqWCktrZs5c/A7YxX5bPzRUhwUN7O3TBKMEZe37lF2cWPyDu9Jc0g0BCVxnKBgsXaOSRrz2PAmN23AzMglFZA0O5rGnlzhv4pYfZ28+K5Tytft2/+pqqxBwLWPhAgahs0Q8Yn1I85SxmkWlE59iwwzaf/MX9mQ1iS1WFqDg3i5s0u2BdZQ+CyYydnDhnuoAV45M8MT6uJ2NT4g217kiIyBTylF+IZxE7HGShIJ+EnpGbWESDUiWouhKZ5rRi0bLsPO+JH52tdSINb+nEypszxK7G81fmsr6YniGMWGTDU4iGCDXh8LDQbS0gLe8E78+aK1d11vxAc1dX8P+q5phQbl9mdi5eLd1lYBj/yab+glgR0+Sj1xo64r8pXX2mWwBrl0f9lUFwwqPPnYHFQfqMGmsqOlqAXYV66uMme6eWjNbelt9G/UXcV0L7OMpIyPD0FdnUArlYwMhdzpG9iJsXf9N4JzBUtcYRYI4+/yA4UtGYKck9BaqUwwOR
+Content-Type: multipart/related;
+	boundary="_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_";
+	type="multipart/alternative"
+MIME-Version: 1.0
+
+--_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: multipart/alternative;
+	boundary="_000_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_"
+
+--_000_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: text/plain; charset="us-ascii"
+
+  *   First Name: Alexa
+  *   Last Name: Schrecengost
+  *   Email Address: aschrecengost@revolutionarymortgage.com<mailto:aschrecengost@revolutionarymortgage.com>
+
+
+Miguel A. Dominguez Vega
+Broker Approval Clerk
+[cid:image001.png@01D7C732.CD22A150]
+The Leader in Today's Non-QM Programs
+
+[cid:image002.png@01D7C732.CD22A150] (949) 900-6630 ext. 446
+[cid:image003.png@01D7C732.CD22A150] Miguel.Dominguez@acralending.com<mailto:Miguel.Dominguez@acralending.com>
+25531 Commercentre Drive, Ste 160
+Lake Forest, CA 92630
+
+Review our Privacy Policies at www.acralending.com/privacy-policy<http://www.acralending.com/privacy-policy>
+
+This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect. NMLS ID #144549
+
+
+--_000_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<!--[if !mso]><style>v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style><![endif]--><style><!--
+/* Font Definitions */
+@font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
+	{mso-style-priority:34;
+	margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle17
+	{mso-style-type:personal-compose;
+	font-family:"Calibri",sans-serif;
+	color:windowtext;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-family:"Calibri",sans-serif;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+/* List Definitions */
+@list l0
+	{mso-list-id:136724861;
+	mso-list-type:hybrid;
+	mso-list-template-ids:2050114232 67698689 67698691 67698693 67698689 67698691 67698693 67698689 67698691 67698693;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0B7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Symbol;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:o;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:"Courier New";}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:\F0A7;
+	mso-level-tab-stop:none;
+	mso-level-number-position:left;
+	text-indent:-.25in;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0in;}
+ul
+	{margin-bottom:0in;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<ul style="margin-top:0in" type="disc">
+<li class="MsoListParagraph" style="margin-left:0in;mso-list:l0 level1 lfo1">First Name: Alexa<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0in;mso-list:l0 level1 lfo1">Last Name: Schrecengost<o:p></o:p></li><li class="MsoListParagraph" style="margin-left:0in;mso-list:l0 level1 lfo1">Email Address:
+<a href="mailto:aschrecengost@revolutionarymortgage.com">aschrecengost@revolutionarymortgage.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></li></ul>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><b><span style="font-family:&quot;Arial&quot;,sans-serif">Miguel A. Dominguez Vega<o:p></o:p></span></b></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif">Broker Approval Clerk<o:p></o:p></span></p>
+<p class="MsoNormal"><i><span style="font-family:&quot;Arial&quot;,sans-serif;color:#595959"><img border="0" width="133" height="120" style="width:1.3833in;height:1.25in" id="_x0000_i1027" src="cid:image001.png@01D7C732.CD22A150"><o:p></o:p></span></i></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif">The Leader in Today&#8217;s Non-QM Programs<o:p></o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></b></p>
+<p class="MsoNormal"><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><img border="0" width="16" height="17" style="width:.1666in;height:.175in" id="Picture_x0020_1" src="cid:image002.png@01D7C732.CD22A150"></span></b><span style="font-family:&quot;Tahoma&quot;,sans-serif">
+ (949) 900-6630 </span><span style="font-family:&quot;Arial&quot;,sans-serif">ext. 446</span><b><span style="font-size:9.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></b></p>
+<p class="MsoNormal"><img border="0" width="24" height="18" style="width:.25in;height:.1916in" id="Picture_x0020_3" src="cid:image003.png@01D7C732.CD22A150"><span style="font-family:&quot;Tahoma&quot;,sans-serif;color:black">
+<a href="mailto:Miguel.Dominguez@acralending.com"><span style="color:#0563C1">Miguel.Dominguez@acralending.com</span></a></span><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">25531 Commercentre Drive, Ste 160<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Lake Forest, CA 92630<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">Review our Privacy Policies at
+<span style="color:#0070C0"><a href="http://www.acralending.com/privacy-policy"><span style="color:#0070C0">www.acralending.com/privacy-policy</span></a></span><span style="color:blue">
+</span><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:10.0pt;font-family:&quot;Arial&quot;,sans-serif">This email is for the use of the intended recipient(s) only. If you have received this email in error, please notify the sender immediately and then delete it. If you are not
+ the intended recipient, you must not keep, use, disclose, copy or distribute this email without the author's prior permission. We have taken precautions to minimize the risk of transmitting software viruses, but we advise you to carry out your own virus checks
+ on any attachment to this message. We cannot accept liability for any loss or damage caused by software viruses. The information contained in this communication may be confidential and may be subject to the attorney-client privilege. If you are the intended
+ recipient and you do not wish to receive similar electronic messages from us in the future then please respond to the sender to this effect.
+<b>NMLS ID #144549</b><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_--
+
+--_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: image/png; name="image001.png"
+Content-Description: image001.png
+Content-Disposition: inline; filename="image001.png"; size=7181;
+	creation-date="Fri, 22 Oct 2021 16:51:44 GMT";
+	modification-date="Fri, 22 Oct 2021 16:51:44 GMT"
+Content-ID: <image001.png@01D7C732.CD22A150>
+Content-Transfer-Encoding: base64
+
+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
+AABJRU5ErkJggg==
+
+--_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: image/png; name="image002.png"
+Content-Description: image002.png
+Content-Disposition: inline; filename="image002.png"; size=749;
+	creation-date="Fri, 22 Oct 2021 16:51:44 GMT";
+	modification-date="Fri, 22 Oct 2021 16:51:44 GMT"
+Content-ID: <image002.png@01D7C732.CD22A150>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABAAAAARCAYAAADUryzEAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFwSURBVDhPxZO7qsJAEIb/xEsweCkUEREFn0Ew
+nZ2VL2Dhq1jpCwRsfAHfJCJYCWqhqIUg2Cle0ThmhjQh5gjnFOeDZZeZ3X9urEIO+AOqu/+a/xf4
+2gN23+93HA4H2ePxOBKJBCKRiPgDBdj8fD6x3W4xnU4xn89xPB5RKBRQq9VQLpcRjUbloo/X60Xn
+85kmkwm1222qVCqUTCbJiUq5XI5M06T9fi93fT1wbLher5jNZuj1ehgMBgiHw3AeIpvNStTL5SLl
+ML4SHo+HPO73+7AsC41GA61WC+PxGOv1GqVSCdVqFcViEZqmeUvg1FerFXU6HTIMg7rdrpTC9iA8
+JXBaHH04HEqTms0mYrGY6/2MR4C7vNlssNvtpE4+K4oiKwiPwO12g5OyNPJ0OmGxWMiZVxAeAU43
+k8kglUpB13WZ+Tc8U+AeLJdLjEYjqKqKer2OfD7vej/jGyOLcPq2bSOdTiMUCrmez3z9Cz8DvAEg
+0Af3gBWEewAAAABJRU5ErkJggg==
+
+--_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_
+Content-Type: image/png; name="image003.png"
+Content-Description: image003.png
+Content-Disposition: inline; filename="image003.png"; size=904;
+	creation-date="Fri, 22 Oct 2021 16:51:45 GMT";
+	modification-date="Fri, 22 Oct 2021 16:51:45 GMT"
+Content-ID: <image003.png@01D7C732.CD22A150>
+Content-Transfer-Encoding: base64
+
+iVBORw0KGgoAAAANSUhEUgAAABgAAAASCAYAAABB7B6eAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAILSURBVDhP1VRNq2lhFH7oRiEUCQMp+SwZyUBG
+psTE19zAz3BGRhI/4pRiQJkZGDLykYlMJKKcTITyce69a53t3ONud3AGBvep1dpr7/ddz7vWs94t
++fkbeCKkgn8a/n+COw0ulwuu16sQfR8SiQQymUyIPnBHUCwW8fLyIkTfh9vtRq/XE6IP3LXodDph
+t9uxHQ4HyOVy3uRwOGC1Wj/NZrPB6XTCYDDgfD5/7tnv90KmP/gheBGoXK1Wi2QyCb/fj+PxiFux
+RLxYLFCv17FarfjdvyASWalUwm63s729vaHb7XLCQCCAUCjEZjabMZvNMJ1OodFo4PV6YTQahQz3
+EBGo1WoEg0Fks1m4XC50Oh2USiWMx2Ouar1eo1qtolar8UDE43GkUimYTCYhwz1ELZJKpXyaSCTC
+LSqXy2i1Wpw8HA5jMplwTC2LxWJIp9PYbDZoNpus4d8QVUCnonHV6XRMksvlWOR2u41KpYLX11f+
+Ho1Gkclk4PF4eN+j5ISHIt/E1Ov1LLJKpUKj0eD2UHWkA5FTciJ7f3/n9Y8gIqBWkNEmqoaSJxIJ
++Hw+LJdLFpXGlDytozV0IHp+BFGLaK7ppP1+H8PhkP1oNGJCElKhUPCI0rfBYMCeponuzSPc3eRC
+oYB8Ps+tsVgsPJ638m+VEb6+owq22y3m8zlfQpq2r3j6r+LJPzvgFwEfBSfsjhb4AAAAAElFTkSu
+QmCC
+
+--_006_CO1PR11MB520151C5A378762C3AF730D09A809CO1PR11MB5201namp_--

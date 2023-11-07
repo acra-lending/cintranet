@@ -1,0 +1,139 @@
+Received: from SA2PR11MB4858.namprd11.prod.outlook.com (2603:10b6:806:f9::10)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 18 Nov 2021
+ 02:27:13 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com (2603:10b6:805:61::14)
+ by SA2PR11MB4858.namprd11.prod.outlook.com (2603:10b6:806:f9::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4690.27; Thu, 18 Nov
+ 2021 02:27:12 +0000
+Received: from SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::5986:8897:b899:c6bd]) by SN6PR11MB2861.namprd11.prod.outlook.com
+ ([fe80::5986:8897:b899:c6bd%6]) with mapi id 15.20.4690.027; Thu, 18 Nov 2021
+ 02:27:12 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Mosias Venord
+	<Mosias.Venord@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037715 /
+ Vivas
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037715 / Vivas
+Thread-Index: AdfcI69ZfXGX8LNYSKSK2gXc9mNEMg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 18 Nov 2021 02:27:12 +0000
+Message-ID:
+	<SN6PR11MB28618E30CB3BD5F672857FBF879B9@SN6PR11MB2861.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: SN6PR11MB2861.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6aeea9eb-4037-44f6-03ea-08d9aa3aedd8
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SA2PR11MB4858:
+x-ms-exchange-crosstenant-originalarrivaltime: 18 Nov 2021 02:27:12.3808 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6aeea9eb-4037-44f6-03ea-08d9aa3aedd8
+x-ms-exchange-transport-crosstenantheadersstamped: SA2PR11MB4858
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2727387
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 6aeea9eb-4037-44f6-03ea-08d9aa3aedd8
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:SN6PR11MB2861.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	rs8BDxi4GK2On2Kruafy9Fkcw4AY6E1pfUUit4i1MFy62nURMvdCSEciAQnP5PDa+bjLKvyalPp/CHbT5qqo7qQigL8HgChsvswC0BwEV2I=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4690.027
+x-ms-exchange-crosstenant-authsource: SN6PR11MB2861.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	QH+JP7R+wxIndy31F8q3lhm+Ix/iHk9B5BaGIKPyf/ygKTIPdifbw6frw/M3in8UjKQRIOAKM3bFGLAxeEhEXysocm1AKJsm4w9aVCoX8PD+8bQDk38DDDg3dhxG4Co/TecDeUv52LvI+cS0d4o43UPu8lQTLlyI7UsFbWNbKIWj/mT6mObyMOkeGm4G4FP4NoBSIDwc+7ysNui2RvxD02Nx1j8Gbn1x1zT9BnTpJK1yQtjjKH/KpqUP48NhR4ht/Cjs0WH2uYVH8TCRVy8aZKzTRaKAKkm0relfCfCSFG7qYSMjbE/zvEMV/9p6w6ZTlrOOIkHMHeZqKkKZtgG+wBZTuCIzlNdhCVJ17ijt3SccfPcTDqUE5UMECmMMA/HxGUp5cf7fcCz0mYYJrCI2DMAWmn99PYjF7gfsejaD9yb1ZTFTQKLC9NsFzQuFTORZCCd3dKksWixD5p9z0/lY+IuV+yCWMxRkvVH/avan/FjtBwFk2p1SHIFamAXsDaRTcRNfpQz2IptMtfycZjvk33FsBlBsww+TpPxMlwMtZ4IdpX+uioqLis8rE+tJcxeGLF7w46108AR+iI+3g/D6mOvhR7YM6gUyuquqw3RUeE1rt+EpOoau8N30/ptgP7TXLCjSOsyNWN7+S9XkBTc00gOj2q9bpDjH88GYHwv8IV4=
+Content-Type: multipart/alternative;
+	boundary="_000_SN6PR11MB28618E30CB3BD5F672857FBF879B9SN6PR11MB2861namp_"
+MIME-Version: 1.0
+
+--_000_SN6PR11MB28618E30CB3BD5F672857FBF879B9SN6PR11MB2861namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Lending Capital Group Inc
+Broker Company NMLS: 1680087
+
+LO First Name: Edward
+LO Last Name: Walsh
+LO Email: ewalsh@lcgloans.com
+
+LP First Name: Theresa
+LP Last Name: Gesualdo
+LP Email: tgesualdo@lcgloans.com
+
+
+
+--_000_SN6PR11MB28618E30CB3BD5F672857FBF879B9SN6PR11MB2861namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Lending Capital Group Inc<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1680087<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Edward<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Walsh<o:p></o:p></p>
+<p class="MsoNormal">LO Email: ewalsh@lcgloans.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Theresa<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Gesualdo<o:p></o:p></p>
+<p class="MsoNormal">LP Email: tgesualdo@lcgloans.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_SN6PR11MB28618E30CB3BD5F672857FBF879B9SN6PR11MB2861namp_--

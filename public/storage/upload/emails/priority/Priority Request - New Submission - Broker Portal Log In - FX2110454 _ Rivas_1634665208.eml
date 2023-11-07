@@ -1,0 +1,139 @@
+Received: from SJ0PR11MB5101.namprd11.prod.outlook.com (2603:10b6:a03:2dc::18)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 19 Oct 2021
+ 17:39:10 +0000
+Received: from BYAPR11MB2709.namprd11.prod.outlook.com (2603:10b6:a02:be::10)
+ by SJ0PR11MB5101.namprd11.prod.outlook.com (2603:10b6:a03:2dc::18) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.16; Tue, 19 Oct
+ 2021 17:39:09 +0000
+Received: from BYAPR11MB2709.namprd11.prod.outlook.com
+ ([fe80::f492:735:caf8:1a67]) by BYAPR11MB2709.namprd11.prod.outlook.com
+ ([fe80::f492:735:caf8:1a67%6]) with mapi id 15.20.4608.018; Tue, 19 Oct 2021
+ 17:39:09 +0000
+From: Taylor Shelby-Clarke <Taylorsc@citadelservicing.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lindsay Stafford <Lindsay.Stafford@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - FX2110454
+ / Rivas
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ FX2110454 / Rivas
+Thread-Index: AdfFEFhVYw1deyenQyuMf6bxQR6deA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 19 Oct 2021 17:39:09 +0000
+Message-ID:
+	<BYAPR11MB270907E632CCB07244974486B2BD9@BYAPR11MB2709.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2709.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	e771d153-4c52-4436-11db-08d993275b69
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB5101:
+x-ms-exchange-crosstenant-originalarrivaltime: 19 Oct 2021 17:39:09.4876 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	e771d153-4c52-4436-11db-08d993275b69
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB5101
+x-ms-exchange-transport-endtoendlatency: 00:00:01.4415957
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=citadelservicing.com;
+x-ms-office365-filtering-correlation-id: e771d153-4c52-4436-11db-08d993275b69
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2709.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	OmWmf/hjyG3561QDWQ8izXzYxMX9RHsMUKbL7gtzHFVN/ppdWR6JBmmMwNwgY5989RK6Rut42ZC/Y3GWCItXXtjBlptnuc2t8qyfj1RR+bY=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2709.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	Z7dpzs0RWc6/5PHv7ZQcZNAgimgOIQPy/kYRZVbb+uUzYnVtQS0LBYfhs3MUqKnHBt6ga1lDaT0TpRA+SssA7zLi2dgDjp2q/XEAvC+EtQSf4TKI6yMjLKhzlzOB6EpIxloSbnz5e7XcE2cNzuaeuC7UrbVGDSWsQR6yJAIILaygPGOonVgTI/ndGXDnMfxeNE4BjqtPTmGF+Etpgx5jVxGJMOCFbt3Jy5mXlyfyUJdgvHSd+4vLS/xqSK0yRZTfN/MAYY+Lfe3l5n0zclgTqEnaqzV4aI2cQrAjRIL+k7uLOjNw10DlKUWS0riWZ/B8vzyNzqjHFRxDaNjIQark2Sd6/zpSSz5sGjEHYlVoncUajq+gkazEM+ILfSjYOcD4pmCniS7Wa+N09tajZIEz0345cy2yPFXEw2tcLC6k21fmHpEs2Go+2J7BP3WbRlHRIFJYpTPkDamhWBalGMxmYf/DlICmLWNSP4WEbofovJGFyCu2gXWoVx7QGPcnUoak+qvN2Caz8iSkrZYNa73fNT91Q6Ez8hXkCrm9y6fXZ2AVEILyXnv3NtHQwsUKJYuc5nHLThV26/cGE3KWveoX/shgH1LhX0IZzcGrbLC7m75uCCcsdpEPNB/fF3i8lxxKA1m4Y7RTSkfjul0vEq6XlKXeFQb6l5RX51kzplcPupo=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB270907E632CCB07244974486B2BD9BYAPR11MB2709namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB270907E632CCB07244974486B2BD9BYAPR11MB2709namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+LO First Name: John
+
+LO Last Name: Huizar
+
+LO Email: jhuizar@westcaplending.com
+
+
+
+LP First Name: Kyrie
+
+LP Last Name: Diaz
+
+LP Email: kdiaz@westcaplending.com<mailto:kdiaz@westcaplending.com>
+
+--_000_BYAPR11MB270907E632CCB07244974486B2BD9BYAPR11MB2709namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p><o:p>&nbsp;</o:p></p>
+<p>LO First Name: John<o:p></o:p></p>
+<p>LO Last Name: Huizar<o:p></o:p></p>
+<p>LO Email: jhuizar@westcaplending.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Kyrie<o:p></o:p></p>
+<p>LP Last Name: Diaz<o:p></o:p></p>
+<p>LP Email: <a href="mailto:kdiaz@westcaplending.com">kdiaz@westcaplending.com</a><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB270907E632CCB07244974486B2BD9BYAPR11MB2709namp_--

@@ -1,0 +1,132 @@
+Received: from DM6PR11MB4578.namprd11.prod.outlook.com (2603:10b6:5:2a7::15)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 3 Nov 2021
+ 19:40:42 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM6PR11MB4578.namprd11.prod.outlook.com (2603:10b6:5:2a7::15) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.4669.10; Wed, 3 Nov 2021 19:40:42 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4197:b2a7:ac62:1e40%5]) with mapi id 15.20.4649.020; Wed, 3 Nov 2021
+ 19:40:42 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037376 /
+ Johnson
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037376 / Johnson
+Thread-Index: AdfQ6pj3ooJ1YZz3RamoGvZas7fjRQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 3 Nov 2021 19:40:42 +0000
+Message-ID:
+	<DM6PR11MB28282AE8D824360C4F323DA9FF8C9@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	8c2b782d-eefc-4b2d-32f4-08d99f01d259
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM6PR11MB4578:
+x-ms-exchange-crosstenant-originalarrivaltime: 03 Nov 2021 19:40:42.1021 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	8c2b782d-eefc-4b2d-32f4-08d99f01d259
+x-ms-exchange-transport-crosstenantheadersstamped: DM6PR11MB4578
+x-ms-exchange-transport-endtoendlatency: 00:00:00.7902675
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 8c2b782d-eefc-4b2d-32f4-08d99f01d259
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	OdJYGpqNkc8CXePp10zRrTu4nDihM+gLFpfrHAStyiaXWJNhzL3NxuzASK0k6/URl26/l2B1RjVefPkXsa74MpMHgCmSTM6Nrvh3qwk7NHY=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4669.011
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920071)(425001)(930070);
+X-Microsoft-Antispam-Message-Info:
+	v97tDJxAHQyZvrj9y3Lv3Om1l4S5LP6hZqNQBX0Sg7Vk9pZn7OCFQZ4uZPAYbWHvBIcc6zkgvP6cbkbbNXl9JKwAITHlBlFy8fiMhQHKIIaRtzx4NwiVEYArRQkV30dNNE5FzJqiCR2Da/Bad62nBKEGQCXqYxjhMoTYZ7gKSUh8wn7o9Z4Hf4DD+w8XNhlMW5M9KtvNr4mTKOKyDg1FndQMK4yG8yHRwPeyvUX/bOKVO938mXCw1tShhuhdRtY40GHIIcVwg80bJjy9gaLZa19UUKutySIYHehd25wrEMTY0ppt0+f+Twm87PKgY5aECoVSP1v6GkRFuNFH5+i/UPsjIqaIYpqgZxIL41/T2o/qTP96ACMh06kGO9TF+fYxNuZfxigqrCUw1WskxcZ99rESear2tUud+QL8sbkycQiC1apz2/eI9mQY85tmGVFyj306wjyKCGbFNaRPUwGt3Csn8WGHANTk/9GKyBmd5B+coIJgHwo+uJ4WTU6/XyHcFYwqf8eEDfB3lWnYypghaxAVjRE3EhmXqSl3oETlM6Vjt31h7VCjP1SQhfNC7Aujvt1i2QqpwsFXUuwb34fyshTHmPzlLYN5ie6+yjBOOXorJ8hnDK3ZP4f5OycGCoyn/kEEKbAgjJX40oESkKfbgeoo/mzrKBOFHGgPJvS/p8Y=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB28282AE8D824360C4F323DA9FF8C9DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB28282AE8D824360C4F323DA9FF8C9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Academy Mortgage Corporation
+Broker Company NMLS: 1652050
+
+LO First Name: Jamie
+LO Last Name: Nettles
+LO Email: jamie.nettles@academymortgage.com
+
+
+
+
+--_000_DM6PR11MB28282AE8D824360C4F323DA9FF8C9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Academy Mortgage Corporation<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1652050<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Jamie<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Nettles<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>jamie.nettles@academymortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB28282AE8D824360C4F323DA9FF8C9DM6PR11MB2828namp_--

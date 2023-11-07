@@ -1,0 +1,136 @@
+Received: from SJ0PR11MB5151.namprd11.prod.outlook.com (2603:10b6:a03:2ac::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 19 Oct 2021
+ 18:34:00 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by SJ0PR11MB5151.namprd11.prod.outlook.com (2603:10b6:a03:2ac::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.18; Tue, 19 Oct
+ 2021 18:34:00 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::ad59:6d06:16df:f16a]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::ad59:6d06:16df:f16a%3]) with mapi id 15.20.4608.018; Tue, 19 Oct 2021
+ 18:34:00 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Mayra Mendoza <mayra.mendoza@acralending.com>, Carla Boudreau
+	<carla.boudreau@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036950 /
+ Investments
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036950 / Investments
+Thread-Index: AdfFF6iif0jwp6qzQJCFrFuUb55p8A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 19 Oct 2021 18:34:00 +0000
+Message-ID:
+	<BYAPR11MB2854A2EC1FA196510989C08387BD9@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	bf95208c-c83f-4d0f-30be-08d9932f04d6
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: SJ0PR11MB5151:
+x-ms-exchange-crosstenant-originalarrivaltime: 19 Oct 2021 18:34:00.2918 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	bf95208c-c83f-4d0f-30be-08d9932f04d6
+x-ms-exchange-transport-crosstenantheadersstamped: SJ0PR11MB5151
+x-ms-exchange-transport-endtoendlatency: 00:00:00.3656399
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: bf95208c-c83f-4d0f-30be-08d9932f04d6
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname: cylen@citadelservicing.com
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-transport-forked: True
+x-ms-exchange-processed-by-bccfoldering: 15.20.4608.018
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920039)(425001)(930038);
+X-Microsoft-Antispam-Message-Info:
+	VVKsZ/ciN8HCHdRTaclVDYqTypI5bFq9R3zB9Oo92p0Aq/Vvs8bTm21VkLOSmtE9tP/r3puDPLsKtleLl1MaHOYvDREvJ5475n1P65CSpRjINHPlCvo9TljdpEM7G4DvdpKTFs+QirMeA7GDopiuLA98QSe7GpgoJOqxSl5eKREvg91UlTsWJOYm06n8OSDesGSwUMKVrgNtkpn1ILOSTf3E57lGcGLotZWTgalEneZzGjntuqK5/T0Wgrth+8xV8lpamb7icifiPOKoToyLmUlZbil4PQdehT9tfsN+bGfma6uYBRk4h3B0VpPQDcmuQ69u9UTo3JI+vDdURf4sTD+Yt9fFQXMhk47NfpgB5ROtae4CFpwUDj64IAKyHord2Y8LHMmzJzLoy1EeBeJJd2uRYW7nOrm1XqUSjsIuXoU6sAzNztEI6AfgI4K8PmnOWCJU1hxg/YafHc8N3q/piGhUXY5vGApfUbUZ8qlXNKRLd0cGASZ3ZkpDKumCRNhUj5myHuCYf3PFDlUc2nvCbRykbB1uiCPGM359T2oYdy2h/dWqe56XI2HLr3ODAdRj++Bj97W5nHZb0gm/9F7kpqhS5uc9hqHcS0o+kBhc+jZ3Gm+n3d0SvetzUjVbnw8r8KTXL4ohhE8NhNj9isMLdgBZjxBGX5MLqRYIzQqW1HQ=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2854A2EC1FA196510989C08387BD9BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2854A2EC1FA196510989C08387BD9BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: US Mortgage Lenders
+Broker Company NMLS: 1108258
+
+LO First Name: Audley
+LO Last Name: Coakley
+LO Email: broker@rnbowmtg.com
+
+LP First Name: Brian
+LP Last Name: Culmer
+LP Email: boundlessconsultant@gmail.com
+
+--_000_BYAPR11MB2854A2EC1FA196510989C08387BD9BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: US Mortgage Lenders<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1108258<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: Audley <o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Coakley<o:p></o:p></p>
+<p class="MsoNormal">LO Email: broker@rnbowmtg.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Brian<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Culmer<o:p></o:p></p>
+<p class="MsoNormal">LP Email: boundlessconsultant@gmail.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2854A2EC1FA196510989C08387BD9BYAPR11MB2854namp_--

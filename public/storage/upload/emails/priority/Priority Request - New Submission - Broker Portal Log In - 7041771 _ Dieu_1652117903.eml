@@ -1,0 +1,150 @@
+Received: from DM8PR11MB5589.namprd11.prod.outlook.com (2603:10b6:8:26::7) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 9 May 2022 16:44:37
+ +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com (2603:10b6:a03:1c8::16)
+ by DM8PR11MB5589.namprd11.prod.outlook.com (2603:10b6:8:26::7) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5227.21; Mon, 9 May 2022 16:44:35 +0000
+Received: from BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::6d94:af1:b68e:8139]) by BY5PR11MB4243.namprd11.prod.outlook.com
+ ([fe80::6d94:af1:b68e:8139%7]) with mapi id 15.20.5227.023; Mon, 9 May 2022
+ 16:44:35 +0000
+From: Alexis Jordan <Alexis.Jordan@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Tom Esposito <Tom.Esposito@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7041771 /
+ Dieu
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7041771 / Dieu
+Thread-Index: Adhjw+TUE7oyqDDzQWeFWXMINyBzFA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 9 May 2022 16:44:35 +0000
+Message-ID:
+	<BY5PR11MB42431DC71545DC9AA469FB90FFC69@BY5PR11MB4243.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BY5PR11MB4243.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	2bc273f8-f706-43b0-d08a-08da31db3334
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM8PR11MB5589:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 09 May 2022 16:44:35.2575 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	2bc273f8-f706-43b0-d08a-08da31db3334
+x-ms-exchange-transport-crosstenantheadersstamped: DM8PR11MB5589
+x-ms-exchange-transport-endtoendlatency: 00:00:01.8565268
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 2bc273f8-f706-43b0-d08a-08da31db3334
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BY5PR11MB4243.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	/oQIg8853i5+ah+zIELSMlP46rBCLBQVyqsF9MaUWB5uwFMvJHXLZyXtai6k61RRPJg+eVnV562Hmt16R86S+I3CAgOJYRJ/gd3AtaLa6O4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5227.023
+x-ms-exchange-crosstenant-authsource: BY5PR11MB4243.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	7yOXPhhuI8K/qT9lDTnhuK8v4hL/nvBUrlFlwsEEi2/ZOVePEzSLMKkSwwFpMJSpDOiofiLKYQAzABK2WkirJJoIlo/Osz7MY2H2+uLFVGkUGtOmEWSecZxyWwr2sa6OjqHCZk6Bpy7T2Pi2yZN0TnEbPd09LICvQ44qLWOC7Z2WB27p0cIAIseITIJPFW8dsrU9HdRywniBOic+t8I3QmDy0BnTpQ4EFUJfFMajVT74g/nA1Oj5YbThMuS5Jf6VnGFvqhJvs88+HGadDZbn9HhbFMggZg0R7bmdETOQR4JubY2+0rNy9FJSPVZNDom1kRxLK1KKgnxlxQFSc+qqfw0T8Dm3RkkL8F9vbsViYcKGDlz3tnbVD+f7OnX3rsSaqPN7SgQcOSXLkQdyXpM+EV+989msiN+2CaDwk/NxhbHKSCjqNF8e6lKfrIDt2V0C0+bIRlkyqDkKWmZ1brVBqaAbYw8wW7WOypkCFDVHt2qnKuKSY4d8Zh9d1IVJVVvXRB+SM1ZcceEBcCVmjIy69PVaoupxAK6T6816L+llUR+RY9jZa35mlhpOLia/GwFn2nIiNXR38vZNG4AMd8h7MGODBf5A5ohBneDxxqMydz788i4rjCC3tJGpH6GUsFhSSY3WGxsI3R5JLXARs7m53IIxtGar/pIQCPbIvCO9OvE=
+Content-Type: multipart/alternative;
+	boundary="_000_BY5PR11MB42431DC71545DC9AA469FB90FFC69BY5PR11MB4243namp_"
+MIME-Version: 1.0
+
+--_000_BY5PR11MB42431DC71545DC9AA469FB90FFC69BY5PR11MB4243namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Loan Factory, Inc
+Broker Company NMLS: 2109126
+
+LO First Name: Luan
+LO Last Name: Nguyen
+LO Email: luan.nguyen@loanfactory.com<mailto:luan.nguyen@loanfactory.com>
+
+LP First Name: Benjamin
+LP Last Name: Huynh
+LP Email: benjamin@loanfactory.com<mailto:benjamin@loanfactory.com>
+
+
+
+
+--_000_BY5PR11MB42431DC71545DC9AA469FB90FFC69BY5PR11MB4243namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424">Broker Company Name:
+</span><span style="color:black">Loan Factory, Inc</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:
+</span><span style="color:black">2109126</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="color:black">Luan
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="color:black">Nguyen</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="color:black"><a href="mailto:luan.nguyen@loanfactory.com">luan.nguyen@loanfactory.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="color:black">Benjamin
+</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="color:black">Huynh</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="color:black"><a href="mailto:benjamin@loanfactory.com">benjamin@loanfactory.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BY5PR11MB42431DC71545DC9AA469FB90FFC69BY5PR11MB4243namp_--

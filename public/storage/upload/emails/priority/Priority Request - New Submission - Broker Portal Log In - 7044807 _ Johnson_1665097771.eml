@@ -1,0 +1,137 @@
+Received: from DS7PR11MB6064.namprd11.prod.outlook.com (2603:10b6:8:77::14) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 6 Oct 2022 22:16:59
+ +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by DS7PR11MB6064.namprd11.prod.outlook.com (2603:10b6:8:77::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5676.23; Thu, 6 Oct
+ 2022 22:16:57 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::3cf3:50a8:50b0:5110%3]) with mapi id 15.20.5676.036; Thu, 6 Oct 2022
+ 22:16:57 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044807 /
+ Johnson
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044807 / Johnson
+Thread-Index: AdjZ0OJ8lfzgXaJUR7+PWp32XZ1SOA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 6 Oct 2022 22:16:57 +0000
+Message-ID:
+	<MN2PR11MB36968B1AC794CAED521D79489F5C9@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	4cb53e40-90fc-4ca4-1f60-08daa7e87b7d
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 4cb53e40-90fc-4ca4-1f60-08daa7e87b7d
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: MN2PR11MB3696:EE_|DS7PR11MB6064:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Oct 2022 22:16:57.2239 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	4cb53e40-90fc-4ca4-1f60-08daa7e87b7d
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	xRaCXmDuzeDN7ArIzAOKk4f9AWiOlQWBRJ8nABCQWCAqEePcDIunYwbdyzv1Yoy3ZYWmTWjzH4UxTkidJX8pqLClwzEi+6FsgtTtTgYggDw=
+x-ms-exchange-transport-crosstenantheadersstamped: DS7PR11MB6064
+x-ms-exchange-transport-endtoendlatency: 00:00:01.8171426
+x-ms-exchange-processed-by-bccfoldering: 15.20.5676.034
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	d0Ss6z6Eqr05nU3FbmZAjARP9oePBs5pb9YET9y9lALWwAsoZH6guckxFOqFGS6RSv1p7pPVI7M9Hhci1CJwQMzHTYinnU3hH+VHox44qlRUZ0L50s5YjiqREIu056aKupexvC6syOroOVFC2c55GchG9BeD+OeehjmQ9ihlhrYTc/Pnu8UqK3JXe8moETYZRchCA3cmmeEAi0y87it9BHxar1FpgEFzoPNjmrCV17MTPIFwqwNWWVvO1kS3dy5s8ePdQq4sZERQ9+6JIsPo/vD3V93X+ewSTQ2looNoWLFI9o+70/hS71Y+R1a8sJtyBcnWkWu78RcrAdTIB3VCnhqCaR3Nl1Y45ahngoqHtE1NZcHH+mph3R0kH3zKpgcG9U/T+8FMDp1mzajcTNIzq+5q+AUMq0a9bFUtKGsGYxuO09krvwrLG9niMz9zEebzfNFb2nk+7VyzTuVBuDdx/UHdQSYSrbHVVHT2IXr/bGGMMv/OEcqUkRj26mp5shRHzwO6780SWnlgoVEYUy61bjZnLXLkxZMej16SbPKrBAcVROiQk2olSqbjN9P3krPuYvUOziCq1+GOwQ5Vl7xUaS8ppkqW1D3kfb3UuDFJachW7sDYfKX1s90MX4VB8ePvwhveUFU+G+PsboALV9EBm6Y1gxthp69Rt/xR0AT32xinq4tDeFE34gje8pdYZDl636j8OhaiWUJDqqWflDk5FCsVWPj+NE8GAeJfIekIqPRsg/HPsp7q9bgMPQ+Pw+OJuTkAhZ5m+wm9cUpMpvLfWpg9CByj/tZKoFFdsRsn4ac=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB36968B1AC794CAED521D79489F5C9MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB36968B1AC794CAED521D79489F5C9MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Florida Private Lending LLC
+Broker Company NMLS: N/A
+
+LO First Name: Nohemy
+LO Last Name: Sanchez
+LO Email: Georges.al.halabi@gmail.com<mailto:Georges.al.halabi@gmail.com>
+
+
+
+
+--_000_MN2PR11MB36968B1AC794CAED521D79489F5C9MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> Florida Private Lending LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS: N/A</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Nohemy</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Sanchez</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LO Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:Georges.al.halabi@gmail.com">Georges.al.halabi@gmail.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB36968B1AC794CAED521D79489F5C9MN2PR11MB3696namp_--

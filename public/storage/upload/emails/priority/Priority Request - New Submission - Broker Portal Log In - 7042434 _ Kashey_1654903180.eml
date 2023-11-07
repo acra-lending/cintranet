@@ -1,0 +1,135 @@
+Received: from CO1PR11MB4866.namprd11.prod.outlook.com (2603:10b6:303:91::16)
+ by CH2PR11MB4341.namprd11.prod.outlook.com with HTTPS; Fri, 10 Jun 2022
+ 23:18:30 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ CO1PR11MB4866.namprd11.prod.outlook.com (2603:10b6:303:91::16) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5332.12; Fri, 10 Jun 2022 23:18:29 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::d02:ab5:aaed:5d4b%6]) with mapi id 15.20.5332.013; Fri, 10 Jun 2022
+ 23:18:29 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Maria Bunes <Maria.Bunes@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042434 /
+ Kashey
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042434 / Kashey
+Thread-Index: Adh9IFSs8HzxSVp5SEiI+KpT9TacOw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 10 Jun 2022 23:18:29 +0000
+Message-ID:
+	<DM6PR11MB2828220A6C006394755A6697FFA69@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	a2d0a5f7-9570-4adb-b46d-08da4b37878e
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CO1PR11MB4866:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 10 Jun 2022 23:18:29.5438 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	a2d0a5f7-9570-4adb-b46d-08da4b37878e
+x-ms-exchange-transport-crosstenantheadersstamped: CO1PR11MB4866
+x-ms-exchange-transport-endtoendlatency: 00:00:01.2677135
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: a2d0a5f7-9570-4adb-b46d-08da4b37878e
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	OMVRX/e9Ywhqf/QITy/0KV/FNIoy7nYW2WvccgRLz9yXXFULByTfptKq89+mbDuiEuIfStlH5/cZ2v621+Cn/8Q2cQaMgex6BvElC/Jtf2s=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5332.014
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	ZcAw45SW7B82FAU+hGCkPW9v2xHeYsNWgtpxzExoUSWkNQ4+I4TeVY7O4yB2D0WIrl9lJuU2qe4d/DRQsNvUJ45xgxW996Gv0aQ4G/RPQKvRw5MwX+vxXW0jSnf/Zx5SfBMN0ZcHC5npTyElQy16tTxyYr5Aj4gWgvg/a+NAf/GdvkvB+h1KPCRWx57abxFJ0dwe8XoPsG+H/TeEtaXZG9eQqIfzlVFT0G2EjtBAJyFEEIBQUn4wcIB5240WPN+NQ3ipLDF5oybvaD2WiQX00nKECxU6+6X+KpeElLtOYcwj/nxzbZefKnWTma6+8rg/pju7G0Sq7k3mOa4dLM3J62hJO8giEcV1htCHRSVzLhiVwIldIBzLoJl1VnCnAt10MGLA06/hF2Ikr+23opKPzkrZ5ExjJ0i5oOttBDQ6G5ag0NhL13SD9Pn2GZS2tw0IGH1LCACjPK5jdXyopT2dn+5q8n2AkeCcfYTl5CANcS835yXzQ99arFDZcoLSbVmv7xkY4iLuL0kQgrOWBxosNbXi8Z0vJkIp8rcL2366UD+NgCaPGRyvyYsE5gmRwgV+i8TkjvxKdSE1IeIQX0IzJSzRKIwtRVbTZt0KX89jLTWEw/eQmUAsk6dp+6ubGMVNMK9P9aJdbZwHad+Qvi52Gy2oLpKijdVhx5mxH8dB7gc=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828220A6C006394755A6697FFA69DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828220A6C006394755A6697FFA69DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Barrett Financial Group, LLC
+Broker Company NMLS: 181106
+
+LO First Name: David
+LO Last Name: Bartolotta
+LO Email: davidb@barrettfinancial.com
+
+
+
+
+--_000_DM6PR11MB2828220A6C006394755A6697FFA69DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Barrett Financial Group, LLC<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 181106<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>David
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Bartolotta<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>davidb@barrettfinancial.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828220A6C006394755A6697FFA69DM6PR11MB2828namp_--

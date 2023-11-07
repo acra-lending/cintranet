@@ -1,0 +1,143 @@
+Received: from DM6PR11MB4561.namprd11.prod.outlook.com (2603:10b6:5:2ae::20)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 27 May 2022
+ 22:02:49 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com (2603:10b6:208:f6::23)
+ by DM6PR11MB4561.namprd11.prod.outlook.com (2603:10b6:5:2ae::20) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Fri, 27 May
+ 2022 22:02:48 +0000
+Received: from MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::c964:da1f:f129:d52a]) by MN2PR11MB3696.namprd11.prod.outlook.com
+ ([fe80::c964:da1f:f129:d52a%2]) with mapi id 15.20.5293.013; Fri, 27 May 2022
+ 22:02:47 +0000
+From: Erika Alvarado <Erika.Alvarado@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Maria Bunes <Maria.Bunes@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042195 /
+ Wallace
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042195 / Wallace
+Thread-Index: AdhyFWxp1LOoMW9tQ7+6KRfk5oQNpw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 27 May 2022 22:02:47 +0000
+Message-ID:
+	<MN2PR11MB369671772E26F276A69B4DF69FD89@MN2PR11MB3696.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB3696.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	12b3a2ad-9a87-4d7a-798a-08da402ca2a8
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM6PR11MB4561:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 27 May 2022 22:02:47.7566 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	12b3a2ad-9a87-4d7a-798a-08da402ca2a8
+x-ms-exchange-transport-crosstenantheadersstamped: DM6PR11MB4561
+x-ms-exchange-transport-endtoendlatency: 00:00:01.3331811
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 12b3a2ad-9a87-4d7a-798a-08da402ca2a8
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB3696.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	m4bpyuiulFte2KaM5qpwRv7LEOa7SvuI0rcwu7z4LAzPIocyVh/oQ4oKjG9Hqiu5ESxmk45RlsRVp/qDGqhd06cL4En2b6kVUVuUEz8a2Ac=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5293.013
+x-ms-exchange-crosstenant-authsource: MN2PR11MB3696.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	dy/TcWv/SZAUg/RQcvwom41do2celwgXGjVrk71QGAkvPUgRew2CTp/GoQoAQl0wAteCYLdwaWz9rGsTnLdfCCpTy0ab6XPOUO+pzEo+nxq31MX2PaPLirAHP/l8ikWm7Gd8qIAGfMEvE0w19E8xfigUorwid21tVydY7wYWP+tp0Fen0d8grD8tzkXCX/4lXZwVcWUoka82v7Kf/yZonGeIkbkprUv7pKU8aVcn7eAnMV/O2PaPB7+2Dqy+bmrrOt2x82XlAp8RqcXLvypAWREil/hk3kQnLlibfPxh9H0s6UW5GqxkP1wWyQan83ZSW2W9ykwm9Cmrn262kVlXrJovrVy6kkB5ma/fGsnHrvFChFxDGUr3en9mP1dxs3Ju0g7SgGDHg/N6TC9KV4NXxX8Jn6EkxC5vSiuj9iJLl0xGe+t9QuqORI76WIjbp9mOaqUwa1F8ifx7TJT7gpMDJDJIUZuqGqn2gvTdO+SANFCCW2alwTDR+zryz0jip7IvpzRCTJbuny6WHL0+Dsmhe/jkp80Vej2hDDukLXFwzEDKKAttkWoor7VIMqsozj8SzZOKN8ELRLKKtr2EC12Lrg1Lsq+9NzfBO5dJCrer7vfJlvxmCtjPuRd0vK8LNUa7er/xNgw/7+tlkdJL4LqpgS8XIJE/hHrH+M+p34cvCrc=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB369671772E26F276A69B4DF69FD89MN2PR11MB3696namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB369671772E26F276A69B4DF69FD89MN2PR11MB3696namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Skyway Financial, LLC
+Broker Company NMLS: 2139998
+
+LP First Name: Samantha
+LP Last Name: Morris
+LP Email: samantha@mytspros.com<mailto:samantha@mytspros.com>
+
+
+Broker Company Name: Skyway Financial, LLC / LO First and Last Name: Austin Hines / Broker Company NMLS: 2139998 / LO Email: austin@skywayfinancial.com; samantha@mytspros.com / LP First and Last Name: Samantha Morris / LP Email: samantha@mytspros.com
+
+--_000_MN2PR11MB369671772E26F276A69B4DF69FD89MN2PR11MB3696namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+@font-face
+	{font-family:"Segoe UI";
+	panose-1:2 11 5 2 4 2 4 2 2 3;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;
+	font-family:"Arial",sans-serif;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company Name:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> Skyway Financial, LLC</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">Broker Company NMLS:</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"> 2139998</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP First Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Samantha</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Last Name:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black">Morris</span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal" style="background:white"><span style="font-size:12.0pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:black">LP Email:&nbsp;</span><span style="font-family:&quot;Arial&quot;,sans-serif;color:black"><a href="mailto:samantha@mytspros.com">samantha@mytspros.com</a></span><span style="font-size:10.5pt;font-family:&quot;Segoe UI&quot;,sans-serif;color:#242424"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif"><o:p>&nbsp;</o:p></span></p>
+<p><span style="font-family:&quot;Arial&quot;,sans-serif">Broker Company Name: Skyway Financial, LLC / LO First and Last Name: Austin Hines / Broker Company NMLS: 2139998 / LO Email: austin@skywayfinancial.com; samantha@mytspros.com / LP First and Last Name: Samantha
+ Morris / LP Email: samantha@mytspros.com</span><o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB369671772E26F276A69B4DF69FD89MN2PR11MB3696namp_--

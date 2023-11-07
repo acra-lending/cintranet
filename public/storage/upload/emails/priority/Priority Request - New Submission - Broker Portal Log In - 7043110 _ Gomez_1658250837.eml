@@ -1,0 +1,141 @@
+Received: from DM4PR11MB5229.namprd11.prod.outlook.com (2603:10b6:5:39f::16)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 19 Jul 2022
+ 17:08:34 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB5229.namprd11.prod.outlook.com (2603:10b6:5:39f::16) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5438.12; Tue, 19 Jul 2022 17:08:33 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4432:91df:b947:50cc]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::4432:91df:b947:50cc%6]) with mapi id 15.20.5438.023; Tue, 19 Jul 2022
+ 17:08:33 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7043110 /
+ Gomez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7043110 / Gomez
+Thread-Index: AdibkhsuoPOwkm6TRnqYHHuG/YQofw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 19 Jul 2022 17:08:33 +0000
+Message-ID:
+	<DM6PR11MB2828AFB6C5DBB681EA698520FF8F9@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	40d2c000-048b-40e8-8dbd-08da69a94f91
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM4PR11MB5229:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 19 Jul 2022 17:08:33.1362 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	40d2c000-048b-40e8-8dbd-08da69a94f91
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB5229
+x-ms-exchange-transport-endtoendlatency: 00:00:01.0045083
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 40d2c000-048b-40e8-8dbd-08da69a94f91
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	ZFnAinijGNylKeqBnLiENjHQhOTk+axEv0zyRDYM1vLobHdYZLbGYr3NqP/33QwmcjoBcoRp+nlvsBaooLHXATNNFIR4kKoS3xmijyN29A0=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5438.024
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	ddDQ4lkzi++a9OTeLaqYKmeqbHFtyddmf+QaYdga598fWiAkJrzFeNUoKpGDo73OZfpp9uYruwZC3B0wXj+8aYvpZhnxfHyIkYGew7l2j6W7yeSE4+syCRn9f2LSEdSvR1DE4JxADKikR3PhJxDaZy6Bjium8Dyf2AlzohbHpajM8WciFYsrbEHiS2f+FKrY5VuguWsbdsShFcqxPeqBcKoZF+SJGHRDEmdxkMjm8Yph9OB4Y52RBd9dNIg4AFCdAogBR8XiQs/FbzK01upc45QA0q6laVn9srQ0/LK9ooMEW1ZxDyFnBFLGFDtCDdMGSqaxfwGpEov3IZd7o+WT0hYCfxSBfPpsj+Y17vsdqYJvfN36hRYlU+E+F9nECzKQtB09PMDz+VWY2+hGDcn3r9nODGn38lKkOkjlZ23dms54uOYrIcGHYMnDzn1DQrIRcOUeYd8O7sa7HIObrN+UsbDpITx8kG9We3OcKG3K4C0cvWLV12FwsDjJFDABEStVQzEAlVZKOmjUgN0j8PTREGf5rVylltyJub9HSnjZnyazcpTPFIggZYP3w2Hyo1d7r+bQIDEStrrsmzOBzm3lPimgLfKzuXgF9y1NU2cJeVLm6ckRqf8DQ7iUws38eVNLHNw4vuYzPPAZdAXBUw9cCi3LJudQSZE2Ryqpfuwzl5N6iO3ktWhLjNP+YVEiO2ASI3nn6VnU+TG6F71onAhY4XmE0L4cEIou0oEQtiS4v8E=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828AFB6C5DBB681EA698520FF8F9DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828AFB6C5DBB681EA698520FF8F9DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Republic State Mortgage Co
+Broker Company NMLS: 62411
+
+LO First Name: Dorris
+LO Last Name: Manecke
+LO Email: dmanecke@rsmc.net<mailto:dmanecke@rsmc.net>
+
+
+
+
+--_000_DM6PR11MB2828AFB6C5DBB681EA698520FF8F9DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:
+</span>Republic State Mortgage Co<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 62411<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Dorris
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Manecke<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span><a href="mailto:dmanecke@rsmc.net">dmanecke@rsmc.net</a>
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828AFB6C5DBB681EA698520FF8F9DM6PR11MB2828namp_--

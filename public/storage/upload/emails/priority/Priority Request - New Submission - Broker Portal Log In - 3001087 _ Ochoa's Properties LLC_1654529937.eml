@@ -1,0 +1,140 @@
+Received: from PH0PR11MB5659.namprd11.prod.outlook.com (2603:10b6:510:ea::6)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022
+ 15:37:08 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ PH0PR11MB5659.namprd11.prod.outlook.com (2603:10b6:510:ea::6) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5314.12; Mon, 6 Jun 2022 15:37:07 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::158b:5c5b:eafe:a4c3]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::158b:5c5b:eafe:a4c3%7]) with mapi id 15.20.5314.015; Mon, 6 Jun 2022
+ 15:37:07 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 3001087 /
+ Ochoa's Properties LLC
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 3001087 / Ochoa's Properties LLC
+Thread-Index: Adh5uy9DtSFcN7MCSLyhACmBpAt34A==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 15:37:07 +0000
+Message-ID:
+	<DM6PR11MB2828738BB481F7F66FCB17BAFFA29@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	847f690b-6a52-433b-6a90-08da47d26a17
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: PH0PR11MB5659:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 15:37:07.4657 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	847f690b-6a52-433b-6a90-08da47d26a17
+x-ms-exchange-transport-crosstenantheadersstamped: PH0PR11MB5659
+x-ms-exchange-transport-endtoendlatency: 00:00:01.1270797
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 847f690b-6a52-433b-6a90-08da47d26a17
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	Ia1c58eA6L0LOCfovda/JtGu9eubklQxuIPTPdOObEv8BkdlefFoSMwHSdRlAEGDDTNKN0FFLu+RhlnWgD0JHLhFZhCGt5l/aNdcsxRSi/s=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	DWZaL15D6u2zVSxgiz1ZOz1LYYVbfJNECQZR6SwHZNPyNH9NBwa6zpAddWTojHBV/CTuH7JKdZyiZ4pK8p8QbyHOv2yk6Q7Dj7VQvJ/MH9u2i54FMN39K2SvCxChUyYyXxG0oyJGk1VLA+BakCK+yyO7hpD/Ys/6ZCoA6SCpEyTgjE1BClK/6r0KTy9FiKtdh/V7tft2pyG0nl1XTx1pK9qRArDLdVMKUmoAbqJFMnpXOKKhoEWcpyyDgaVILIWt019qYJfLUjCxOBTsAkxG7H2D8WGA0lYVgK/1qxgdNbzaFj7e79Jr06krqY29QexuNVff+g3dOaMytYYDVlJnqGrOX3R3AGEgNjAoXYdlatqG92uj8LoOj6OsnShaJt+73ZqS7vq7aeSLBMBdGa68hnidBA/FVp8cTRnGWfs9s7U7PQ/Zw4Sdnr7fc3zpqhLS+cckohevsUW4XL8jhniZ1mgC0QVipjXwhLqVwUQ5E4xEnqLyoDC5J5uHsCV+2wFKzGe3B0ajApfYF/jJM2n+CuFNMw53NL+dy2pbjW0KhC73AHcdORpyzKY1KfcmXSULADa2TNPI2TPHgPMJfgSlr8IC9DhUfwIZix7NMvfefTk0rhE7ZqKEsLNitM3NWtbSKrr189V+2iPS36PnS5WgW6ZDgIyi3ddtNpaZKHHhIYw=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB2828738BB481F7F66FCB17BAFFA29DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB2828738BB481F7F66FCB17BAFFA29DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Bank of England
+Broker Company NMLS: 418481
+
+LO First Name: Clint
+LO Last Name: Edrington
+LO Email: cedrington@boemortgage.com
+
+LP First Name: Kim
+LP Last Name: Fazackerley
+LP Email: kfazackerley@boemortgage.com
+
+
+
+
+--_000_DM6PR11MB2828738BB481F7F66FCB17BAFFA29DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Bank of England<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 418481<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Clint
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Edrington<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>cedrington@boemortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP First Name:&nbsp;</span>Kim
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Last Name:&nbsp;</span>Fazackerley<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LP Email:&nbsp;</span>kfazackerley@boemortgage.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB2828738BB481F7F66FCB17BAFFA29DM6PR11MB2828namp_--

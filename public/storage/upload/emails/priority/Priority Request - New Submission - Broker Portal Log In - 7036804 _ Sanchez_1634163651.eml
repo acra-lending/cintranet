@@ -1,0 +1,134 @@
+Received: from MN2PR11MB4518.namprd11.prod.outlook.com (2603:10b6:208:24f::24)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 21:28:18 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com (2603:10b6:208:13e::25)
+ by MN2PR11MB4518.namprd11.prod.outlook.com (2603:10b6:208:24f::24) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4587.22; Wed, 13 Oct
+ 2021 21:28:16 +0000
+Received: from MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a]) by MN2PR11MB4013.namprd11.prod.outlook.com
+ ([fe80::4098:8346:5ff6:933a%7]) with mapi id 15.20.4587.030; Wed, 13 Oct 2021
+ 21:28:16 +0000
+From: Clark Deremo <Clark.Deremo@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Darci Lahl <Darci.Lahl@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036804 /
+ Sanchez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036804 / Sanchez
+Thread-Index: AdfAeRz6JY14m0reQ6CK3RcI7POl9Q==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 21:28:16 +0000
+Message-ID:
+	<MN2PR11MB4013F3DDBD97345A100F947C8AB79@MN2PR11MB4013.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: MN2PR11MB4013.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	973a1a53-545e-4ecc-7b27-08d98e905eda
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MN2PR11MB4518:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 21:28:16.5438 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	973a1a53-545e-4ecc-7b27-08d98e905eda
+x-ms-exchange-transport-crosstenantheadersstamped: MN2PR11MB4518
+x-ms-exchange-transport-endtoendlatency: 00:00:01.6400009
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 973a1a53-545e-4ecc-7b27-08d98e905eda
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:MN2PR11MB4013.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	KR2e43Ie0qpFgw1k1k0VtuWiUUBnz1xmcZAlHfSo0iu1UdHA9THLn2xSzW0RdSHp8VW/syymiFzds794+ZbmSms8xa3pFVC/oWIxagzHR1U=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: MN2PR11MB4013.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920035)(425001)(930034);
+X-Microsoft-Antispam-Message-Info:
+	Vfw/pd4w42Gr8qPevTNHgOb1l3isEi9vVLKny90HPe12zJ/RdFTZ3ahEBN8oTiQPoahhVV6CvICrbupVIooKgdb0N2+VXF3Qda16UZVE+2KUUdo5hwz4udGXRHZ+pXtxzo+ueqJUqN3SgUORIdgu2y6bRRW2v/23m5NGt++oLTwtoAfAhPwDRqa3ioPMjlKiWhcl5RWctzSNd5F2K1yJ/B5WXnxro7gzlV/lcx0pnflGQk5+/ZyeGSCDbauOIgQnMqM6woL9kfYer3PWCu9z6tfSfNJoeUDxMeqTZ7BTV071lpa5pv1fLrBlt7t6zhdCvb/qBE3qiCkpWGA2QYiwBx7V8cMrJqWijyxjHngbvK+AIWCZC2SfAXcw+bZ8JuOet7tpdp9itOQMOPRUpDWZDwpeUNpb1zupuEqwbuLKBguDkedVXC1swqPA/ZV+JIN8Q4Rfjgahu82ex28JvKGUlISMQXSMMZeRVevCTq0TsGNvU90naKcFasoQCguIR16eEtqDp0WinlOeu0hwTVHCyrWqvYcJUKnUD1t20SrfEb5gRUhrx5cJRUoYwGSnkzF2ZvuzLlfQc+mjjWZA/wXHXhm5e/mFJmx96T7Ws/a1lPg0dtanVSNnagZ219jV7Haebnk5FFLrCpletxN9Kcv3XVuJHv6NRybfvibqKsO7Wro=
+Content-Type: multipart/alternative;
+	boundary="_000_MN2PR11MB4013F3DDBD97345A100F947C8AB79MN2PR11MB4013namp_"
+MIME-Version: 1.0
+
+--_000_MN2PR11MB4013F3DDBD97345A100F947C8AB79MN2PR11MB4013namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Jonathan
+
+LO Last Name: Henry
+
+LO Email: jonathan.henry@myccmortgage.com<mailto:jonathan.henry@myccmortgage.com>
+
+LP First Name: Deedee
+
+LP Last Name: Gobbo
+
+LP Email: deedee.gobbo@myccmortgage.com<mailto:deedee.gobbo@myccmortgage.com>
+
+
+
+--_000_MN2PR11MB4013F3DDBD97345A100F947C8AB79MN2PR11MB4013namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Jonathan<o:p></o:p></p>
+<p>LO Last Name: Henry <o:p></o:p></p>
+<p>LO Email: <a href="mailto:jonathan.henry@myccmortgage.com">jonathan.henry@myccmortgage.com</a><o:p></o:p></p>
+<p>LP First Name: Deedee<o:p></o:p></p>
+<p>LP Last Name: Gobbo <o:p></o:p></p>
+<p>LP Email: <a href="mailto:deedee.gobbo@myccmortgage.com">deedee.gobbo@myccmortgage.com</a><o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_MN2PR11MB4013F3DDBD97345A100F947C8AB79MN2PR11MB4013namp_--

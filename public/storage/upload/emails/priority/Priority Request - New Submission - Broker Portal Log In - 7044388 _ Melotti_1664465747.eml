@@ -1,0 +1,143 @@
+Received: from DM4PR11MB6309.namprd11.prod.outlook.com (2603:10b6:8:a8::22) by
+ BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 29 Sep 2022 15:25:19
+ +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ DM4PR11MB6309.namprd11.prod.outlook.com (2603:10b6:8:a8::22) with Microsoft
+ SMTP Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.5676.20; Thu, 29 Sep 2022 15:25:15 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::e871:30f2:743b:aa32%4]) with mapi id 15.20.5676.023; Thu, 29 Sep 2022
+ 15:25:15 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Carla Boudreau <carla.boudreau@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044388 /
+ Melotti
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044388 / Melotti
+Thread-Index: AdjUF5HpMj4QbOBPR1G2bng91gxECQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 29 Sep 2022 15:25:15 +0000
+Message-ID:
+	<DM6PR11MB282862060637446284202C34FF579@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	74b7fc54-c246-464a-f69b-08daa22ecf3a
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 74b7fc54-c246-464a-f69b-08daa22ecf3a
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: DM6PR11MB2828:EE_|DM4PR11MB6309:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Sep 2022 15:25:15.4821 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	74b7fc54-c246-464a-f69b-08daa22ecf3a
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	ykhaKtzE3Sfm3s/P2sDc21nlbM6tix37q8tVQKRcg7aH+EdYa4ELbAIS8/NTLSN/0mqPds0Jf7+jIBkILQN6MbxfgoHNls2tHM6ZnZqNWmY=
+x-ms-exchange-transport-crosstenantheadersstamped: DM4PR11MB6309
+x-ms-exchange-transport-endtoendlatency: 00:00:04.3137436
+x-ms-exchange-processed-by-bccfoldering: 15.20.5676.020
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	LBOHvSCF6GaIu2AxcztQRhZjwsSGg2VKqKv3Lqs1YibgKv1pq5Ff3ouxBLL5Vy2Hhgsoq1RTysmRqHUJY8SHbWsLcGbSasZPXczFhzEocBxSVuoc6hOy+dSLrRiy+8yzEXhaOBbaCyhBkGcLQQZO+y7ixffXTS05FEvdND1+P6RR+rZ+IykAT0bj8twtbyVXZpk8QGQV0E6pLLxD5sQrrtzRRs9bmu9/vz0kreImvio6UGP2BaKRCXxj1IxqkjoVpsleGiTWwkCObARbip9WKOOeB21EeyR4djsMEdCvtWrRxqPZOpWfx06Q+Kvmd9RCMcRcSirFKXGvNsD89+Dgbc0jj/hpGYvNVo6Q68gmZSXd/NacM7X5GFf8MkQM0azGdSHwZwTW0PA/+iCO/qeqpCdM4bIy8zBMxIVifrfy+/fH/AB/KSlpiP2MgRHjosgIjAn4LdRXV7rkyjQzzCW6e3KTYvT8cgKcue6svvCZ1uuGQwK9LOuxH7IWcBaqHxeIJ8a+ChZzqPmkpNOEEfnqlRn9hMO5N5ZvRX23AIvq5sKa7iaLtN/s3/n0k4WJ8paIiZ48rl9SSNunwDNiiV56QlMgSJdIyXPI8CxeBz/XMQcmnx9MGdnUIsLpiQyhIQkKBBqObIpE+PFat/YFhrS1WTrwrraKctTA03T9L+ozfCBnY2OkjqB5vxmCf9re6lOg7hYAhUzPB2oOX7XUXNjgn3bqzjyg6FRpJLnEnnO7JfUD7j58lyvBotTHR5M2sBSnlg0sWKADUlbi28ofT+LrLQ==
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB282862060637446284202C34FF579DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB282862060637446284202C34FF579DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: CrossCountry Mortgage Inc
+Broker Company NMLS: 1745971
+
+
+LP First Name: Rubens
+LP Last Name: Filho
+
+LP Email: RUBENS.FILHO@MYCCMORTGAGE.COM<mailto:RUBENS.FILHO@MYCCMORTGAGE.COM>
+
+
+
+
+
+--_000_DM6PR11MB282862060637446284202C34FF579DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">Broker Company Name: CrossCountry Mortgage Inc<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1745971<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: Rubens <o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Filho<o:p></o:p></p>
+<p>LP Email: <a href="mailto:RUBENS.FILHO@MYCCMORTGAGE.COM">RUBENS.FILHO@MYCCMORTGAGE.COM</a><o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB282862060637446284202C34FF579DM6PR11MB2828namp_--

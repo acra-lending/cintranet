@@ -1,0 +1,129 @@
+Received: from CH0PR11MB5412.namprd11.prod.outlook.com (2603:10b6:610:d3::10)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 28 Oct 2021
+ 21:36:46 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5412.namprd11.prod.outlook.com (2603:10b6:610:d3::10) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4649.15; Thu, 28 Oct
+ 2021 21:36:46 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::f883:216a:f4bf:bfd5%8]) with mapi id 15.20.4649.015; Thu, 28 Oct 2021
+ 21:36:46 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Donna Abbo <Donna.Abbo@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037228 /
+ Jimenez Jimenez
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037228 / Jimenez Jimenez
+Thread-Index: AdfMQ8nMPBWTHsLsSUOqgZ2WTp2JxQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 28 Oct 2021 21:36:46 +0000
+Message-ID:
+	<CH0PR11MB5425426DAF6F5E432090526FF6869@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	ae44c5ed-209a-4749-c75f-08d99a5b0aa4
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5412:
+x-ms-exchange-crosstenant-originalarrivaltime: 28 Oct 2021 21:36:46.0181 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	ae44c5ed-209a-4749-c75f-08d99a5b0aa4
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5412
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9645426
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: ae44c5ed-209a-4749-c75f-08d99a5b0aa4
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	/0OcFlUzOZdPExnsXSY7pQKCiwKwkmPQzZL/E18lL5coDcZQi/tlEIuqgqtyW1UO5jC7rhLKkgB2Zb/SzttSelGAqyafLaCEHMK115oiZJ0=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.015
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920066)(425001)(930065);
+X-Microsoft-Antispam-Message-Info:
+	QoLFnCCn77cd+jpZYRsEDJG2t6ly2M3lYjeJra5+dhNs7wg/OGIaVJOeJLoBldyePG6Jy5lZU8s2e2i3XkNe5mdueH+ZUcil6r9HCwGs3BOpxs/1iKBBxIMnTkdG+WKuMNTCye5S05pKxr0P/7HHH1990yARFZ3TDLZTKua508Ck2qyprm8Jr3dPMKp+iC1rLBJF5HwqR6z+D6SKv60pJ92kBygir41wBNTK7KhaUa+7RwHz5phvwf5HNGWBfKlPVCqcsskLHJzVqMua142CgCid4kJfV6hm1u/Byq3+YUtpZRlBLi03hsx7p+imdEY/o85dPFlzjGHHIrXpOppPe5eisDta3mRETTH2eaEP/UxQgr14v5KSNYRM5lTfMwoYF+cOmmB7ZhYisvxlm1o6xtRJ7Daz4PKS+c6bKxp0An/zaFL7kBPjc8j48zLrld9iEI8gpqJv3rAGY0hPyCcZEnGeIPZatblFebE3SV/UkmA900oa2Yh3Jg2bfD0EgXCbgmb40euyA/9EtAL0OSVZEWTZ6DQANmLUx/ap8cWykuVvs7qKsNMvvPLe2uKJtBHSmzwZ67T0sFmILXvWPGbF+vGOTHBXdtVwdvo6ihanJkFPngTzAEenHuFH2Kdcr+HgbUEPSoCfNLRXvhrnHV/v76PXu3bi4xDgkE6xf95jRGQ=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB5425426DAF6F5E432090526FF6869CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB5425426DAF6F5E432090526FF6869CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Onboard 1 Mortgage LLC / Broker Company NMLS: 1664972
+
+LO First Name: Leonard
+
+LO Last Name: Henao
+
+LO Email: leonard@onboard1mortgage.com<mailto:leonard@onboard1mortgage.com>
+
+--_000_CH0PR11MB5425426DAF6F5E432090526FF6869CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Onboard 1 Mortgage LLC / Broker Company NMLS: 1664972<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Leonard <o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Henao <o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:leonard@onboard1mortgage.com">leonard@onboard1mortgage.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB5425426DAF6F5E432090526FF6869CH0PR11MB5425namp_--

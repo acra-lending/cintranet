@@ -1,0 +1,136 @@
+Received: from IA1PR11MB6171.namprd11.prod.outlook.com (2603:10b6:208:3e9::13)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Thu, 26 May 2022
+ 23:01:14 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by IA1PR11MB6171.namprd11.prod.outlook.com (2603:10b6:208:3e9::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5293.13; Thu, 26 May
+ 2022 23:01:12 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::2529:dcf0:8079:3626%3]) with mapi id 15.20.5273.023; Thu, 26 May 2022
+ 23:01:12 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Justin Jones <Justin.Jones@acralending.com>,
+	Lisa Ramirez <lisa.ramirez@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042165 /
+ Fernandes
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042165 / Fernandes
+Thread-Index: AdhxVFUHqu3V9dYsRGKkfgaJ8VnSEA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Thu, 26 May 2022 23:01:11 +0000
+Message-ID:
+	<BYAPR11MB2854BA84A05A429A73A4C23D87D99@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	0de8fcfb-2b1d-4a1d-82d7-08da3f6ba0e6
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: IA1PR11MB6171:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 26 May 2022 23:01:11.9702 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	0de8fcfb-2b1d-4a1d-82d7-08da3f6ba0e6
+x-ms-exchange-transport-crosstenantheadersstamped: IA1PR11MB6171
+x-ms-exchange-transport-endtoendlatency: 00:00:02.6634185
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 0de8fcfb-2b1d-4a1d-82d7-08da3f6ba0e6
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	jS+YW0ICoeyWnjPGmy9nNzpnRkRchutOpLS8GjR1FHvzJBebrrRh87RdNYi6oqFiTkRX0L4pQcLvceVca7MBlAenpyDGm8gLqh52ze3HAEM=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5293.013
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	gNMcJzsP/YNYRd+uuEOKVli2QWVkaYwxDnspJvOKfQGcbOVEuZ0mrdCx3hzqPfZoxesJ1Kx74twOFNgeXC/r7Qm0NxHvHE7m2wb6C/oIUMDS+tJVyS2VxMM2cgWpwjqbg+lHD2Ka/YEYtAgsbvMlipsFn7kWxXOgCwjkDCrYRjyqo+Z0BonV2MWPYs0tNRXq4M5SUrO5FjvcWtPfpYGrAiTb7YnArEJ+DgklEUIdYhL7VJSIjns1oFV5awcVwDKZCOpn7uqCf8mz1zoouQVCy1jSIySB5tExyfozOndUh9S1SoqvZ5e6dLZ/FWPZOrOLrkhwgl62F0EOZ1jKshxBuGvlB4knX4MDa/aY7w3s6VncU51kCL51ZTkvidRvsxrYlVMbNf9GL7XoqbpiS4it+oiifi7gUMsl6W+kC7njqqSJtq0sHYYFvVaPYO81MT4YvY+scoRGP4Cm9Rfe7tFpokMZPWCGXk8GvMQvzb/sesPHoUyTe52ad27lpV9fZkqVyL9qcv8+EBmMCi74YMfjODrHUagzoBJVGgrhSdJlXXuWopM3je4PV9W7gcAKzt2xBqLdlGxpqKMGsxqBwe139798eY0CfIhG58ACgBNS4iSrLJ3ZyUgNF7IBVNhYND+381zUTqNBjZVoZJBg/qDsdxgBabSaq2vrTx1d8mPsCeo=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2854BA84A05A429A73A4C23D87D99BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2854BA84A05A429A73A4C23D87D99BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Swiss Capital Financial Inc
+
+LO First Name: James
+LO Last Name: Pinto
+LO Email: dpinto@swisscapfinancial.com
+
+LP First Name: James
+LP Last Name: Pinto
+LP Email: adel@matrixmpi.com
+
+
+
+--_000_BYAPR11MB2854BA84A05A429A73A4C23D87D99BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Swiss Capital Financial Inc<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: James<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Pinto<o:p></o:p></p>
+<p class="MsoNormal">LO Email: dpinto@swisscapfinancial.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: James<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Pinto<o:p></o:p></p>
+<p class="MsoNormal">LP Email: adel@matrixmpi.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2854BA84A05A429A73A4C23D87D99BYAPR11MB2854namp_--

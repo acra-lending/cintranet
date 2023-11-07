@@ -1,0 +1,140 @@
+Received: from CH0PR11MB5233.namprd11.prod.outlook.com (2603:10b6:610:e0::14)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Wed, 13 Oct 2021
+ 18:23:45 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com (2603:10b6:610:d0::23)
+ by CH0PR11MB5233.namprd11.prod.outlook.com (2603:10b6:610:e0::14) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4608.16; Wed, 13 Oct
+ 2021 18:23:44 +0000
+Received: from CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::a83c:9ae2:165:6b9d]) by CH0PR11MB5425.namprd11.prod.outlook.com
+ ([fe80::a83c:9ae2:165:6b9d%3]) with mapi id 15.20.4587.026; Wed, 13 Oct 2021
+ 18:23:44 +0000
+From: Kevin Westerman <Kevin.Westerman@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Hoppin <lauren.hoppin@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7036791 /
+ ARRAYAGO CENTENO
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7036791 / ARRAYAGO CENTENO
+Thread-Index: AdfAXyRZy1U9zOStSRCiwNhObX3pHw==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Wed, 13 Oct 2021 18:23:44 +0000
+Message-ID:
+	<CH0PR11MB5425E5D2D384FD06DC8A7E1EF6B79@CH0PR11MB5425.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: CH0PR11MB5425.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	38b5787b-6349-4f63-9081-08d98e769767
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: CH0PR11MB5233:
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Oct 2021 18:23:44.6470 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	38b5787b-6349-4f63-9081-08d98e769767
+x-ms-exchange-transport-crosstenantheadersstamped: CH0PR11MB5233
+x-ms-exchange-transport-endtoendlatency: 00:00:01.1044132
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 38b5787b-6349-4f63-9081-08d98e769767
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:CH0PR11MB5425.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	iimHiG9p1lz+pJYEe6fAUsPT5X322DIr+sTXC6G42eZ/xxYIrfM8z3SSFkH2lkvJWDPEZOLyo/vsyuZiB8AbrKL6asWR2w0N+FMIuglddlw=
+x-ms-exchange-processed-by-bccfoldering: 15.20.4587.027
+x-ms-exchange-crosstenant-authsource: CH0PR11MB5425.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(750132)(520011016)(706158);
+X-Microsoft-Antispam-Message-Info:
+	tca1WVWskSmGX/qHJry64v7pVVqC+N/6H7+aOAiDfpL6qpp9OaNxQmLt9o0+ZewQfW/tTTriIeB7UFBqv3hwDmmxaB0HO8FgNBCHYVd5EeU4lY7KiQbFaT8j/Nns121PvqjsyqmMqKHaWIjiGvQ4Famp77SpZF90ssNVuPIEmcTR/rd3q9tx+bFUlPgdhqd3fyDKAP7pzmIMCH3bZDk3/WPj1Zvai33S3Ew3VIbIjEBLnYiZzUqS+W3HvesmCzhk2FF0+hWwtUJq9QI5hubMz7l9pVLL+eEUHaUVcMFd3dCS0qNuP8cjbkN1a/Ea5auzzYfqXVzZFaYx/icqaSl4SBpcU9KbiY0oG3qfLgofuuj3gLUs+Z+/JdQ2t0AquVcf4hEIvo+JmpA7M+FhewGLO4NWcr7nmcySAl9a1v2N7D896ScUG2lshOBr4Q3hFn+ksvxGx9fYIa9TiCISz7KD06rFZh91cDfmyf3E/Qm8tChhyXFTvVRFJUg5onTrkVPM414c7ffiJUZZR8pdadWvB29gifpNOTJWF5mpcih4qZQ5OfuPnDbnKijuDzYRRk0tuC84fvITF5O3rDM0jLvqF3iDq+Na7OlN49x9hK6Ao2Ts0EUJ1Jk3tpBqvFhfydwQyehynIO8ZKykdDeXCmOm4Qx1MQKVXn1d6n5btYSt83M=
+Content-Type: multipart/alternative;
+	boundary="_000_CH0PR11MB5425E5D2D384FD06DC8A7E1EF6B79CH0PR11MB5425namp_"
+MIME-Version: 1.0
+
+--_000_CH0PR11MB5425E5D2D384FD06DC8A7E1EF6B79CH0PR11MB5425namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Caliber Home Loans, Inc / Broker Company NMLS: 1197362
+
+LO First Name: Matthew
+
+LO Last Name: Carver
+
+LO Email: matt.carver@caliberhomeloans.com<mailto:matt.carver@caliberhomeloans.com>
+
+
+
+LP First Name: Derri
+
+LP Last Name: Davisson
+
+LP Email: derri.davisson@caliberhomeloans.com<mailto:derri.davisson@caliberhomeloans.com>
+
+--_000_CH0PR11MB5425E5D2D384FD06DC8A7E1EF6B79CH0PR11MB5425namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>Broker Company Name: Caliber Home Loans, Inc / Broker Company NMLS: 1197362<o:p></o:p></p>
+<p style="margin:0in">LO First Name: Matthew<o:p></o:p></p>
+<p style="margin:0in">LO Last Name: Carver <o:p></o:p></p>
+<p style="margin:0in">LO Email: <a href="mailto:matt.carver@caliberhomeloans.com">
+matt.carver@caliberhomeloans.com</a><o:p></o:p></p>
+<p style="margin:0in"><o:p>&nbsp;</o:p></p>
+<p style="margin:0in">LP First Name: Derri <o:p></o:p></p>
+<p style="margin:0in">LP Last Name: Davisson <o:p></o:p></p>
+<p style="margin:0in">LP Email: <a href="mailto:derri.davisson@caliberhomeloans.com">
+derri.davisson@caliberhomeloans.com</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_CH0PR11MB5425E5D2D384FD06DC8A7E1EF6B79CH0PR11MB5425namp_--

@@ -1,0 +1,135 @@
+Received: from BL3PR11MB6388.namprd11.prod.outlook.com (2603:10b6:208:3b8::17)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 11 Jul 2022
+ 21:34:37 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com (2603:10b6:5:c6::14) by
+ BL3PR11MB6388.namprd11.prod.outlook.com (2603:10b6:208:3b8::17) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5417.26; Mon, 11 Jul
+ 2022 21:34:35 +0000
+Received: from DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::458d:aac8:1045:d3a1]) by DM6PR11MB2828.namprd11.prod.outlook.com
+ ([fe80::458d:aac8:1045:d3a1%7]) with mapi id 15.20.5417.026; Mon, 11 Jul 2022
+ 21:34:35 +0000
+From: Haylee Couron <haylee.couron@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Maria Bunes <Maria.Bunes@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042924 /
+ Ledezma Ulloa
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042924 / Ledezma Ulloa
+Thread-Index: AdiVbfFONRf/bnbRRj6dOo5r+eADDg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 11 Jul 2022 21:34:35 +0000
+Message-ID:
+	<DM6PR11MB282861C67138B1A1BE15145AFF879@DM6PR11MB2828.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB2828.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	6e4ed3f6-b095-4ec9-00b3-08da6385269a
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: BL3PR11MB6388:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 11 Jul 2022 21:34:35.5148 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	6e4ed3f6-b095-4ec9-00b3-08da6385269a
+x-ms-exchange-transport-crosstenantheadersstamped: BL3PR11MB6388
+x-ms-exchange-transport-endtoendlatency: 00:00:01.5089050
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 6e4ed3f6-b095-4ec9-00b3-08da6385269a
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB2828.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	mo93EFuUHvBFdomwsFCjLWxxyoaJ0T9U62/LTRnndK4wOoza0yIJZpA578PFm8NpRXdCDdaORpAmYm3ddiJ0IQDwmdYiNBug+XBFJzFit/I=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5417.026
+x-ms-exchange-crosstenant-authsource: DM6PR11MB2828.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	eYXdFqPK32Sq9HD981xNxfQDYF7sMY+QTweG4Pfflslrs8joxIkK/8ZIKTgjM3x5PKcmb6++6ajJiCnO3qSYcQehiFAEokPLnMKeeEqAn4UoIUVi9vy030bF2AHkHOJ5xHD251MIzegf6ePxfmINKDGlUfWk4OBIC0gshUT2+DqEqneDuQF/KAqI2KsmiBgNOWatHLCDI0t8WqdZNAE9SJvO6Kegv1zOfoA4YGAdSPdU+T5h33HlZQlcnuaWuOMgefjKhqxxsqwMy5ERmLiRegju/PofWB90VXIP4g4KTx+/s8H/UpuCxeUspR/eymOWY2acRXeEOmHs9wXD001bLtA+i4PRkw0AQUbCKxDTqm+nHG5b3rC3KFK9vmDVIecC82diXirq8cjQNID3Co202OjiNgBHH3GPA0JWF8jFQNyiEgVcRNQTWGT8JdMsQ3ryXeLnjV/Uu4dW6vD7YPgfb2Yl8WyHoO4ZVcUPewtNQbxlxcJLRt6fB53rqf614EWoAi/uHc7mbnxph6Q3p64eux31MJGGM0Nn8v2qKn4GyRux/JgxrNkpwCILszUzsAx0Coi4pf6J4yRGZcaAf4MIeYIqodNT0o+9QoMJvk4GRXG+xgZzVrJPsOhGZL4Oag8I9tfZoHsgWg7tyCAYvTeIS8ErJgns+S2HefXYbdjj+pYJorWMn2hQuHHVx1MA5EMDdDxb2wFyf7S1NsoYpb43O8EqHuhscvxsosoPtz3wuo+9XA6iJsf2ts3Rswjt+6Tm
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB282861C67138B1A1BE15145AFF879DM6PR11MB2828namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB282861C67138B1A1BE15145AFF879DM6PR11MB2828namp_
+Content-Type: text/plain; charset="us-ascii"
+
+
+
+Broker Company Name: Everett Financial , Inc., Miami Lakes, FL Branch
+Broker Company NMLS: 1423762
+
+LO First Name: Jeniffer
+LO Last Name: Tabares Fuentes
+LO Email: jeniffer.fuentes@supremelending.com
+
+
+
+--_000_DM6PR11MB282861C67138B1A1BE15145AFF879DM6PR11MB2828namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company Name:</span> Everett Financial , Inc., Miami Lakes, FL Branch<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">Broker Company NMLS:</span> 1423762<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black"><o:p>&nbsp;</o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO First Name:&nbsp;</span>Jeniffer
+<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Last Name:&nbsp;</span>Tabares Fuentes<span style="font-size:12.0pt;color:black">
+<o:p></o:p></span></p>
+<p class="MsoNormal"><span style="font-size:12.0pt;color:black">LO Email:&nbsp;</span>jeniffer.fuentes@supremelending.com<span style="font-size:12.0pt;color:black"><o:p></o:p></span></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB282861C67138B1A1BE15145AFF879DM6PR11MB2828namp_--

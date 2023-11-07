@@ -1,0 +1,139 @@
+Received: from MW5PR11MB5761.namprd11.prod.outlook.com (2603:10b6:303:195::9)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Mon, 6 Jun 2022
+ 23:51:30 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com (2603:10b6:a02:c9::12)
+ by MW5PR11MB5761.namprd11.prod.outlook.com (2603:10b6:303:195::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5273.22; Mon, 6 Jun
+ 2022 23:51:29 +0000
+Received: from BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::1846:bae0:be53:a13b]) by BYAPR11MB2854.namprd11.prod.outlook.com
+ ([fe80::1846:bae0:be53:a13b%5]) with mapi id 15.20.5314.013; Mon, 6 Jun 2022
+ 23:51:29 +0000
+From: Cyle Nebenzahl <Cyle.Nebenzahl@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Haylee Couron <haylee.couron@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Tom Esposito <Tom.Esposito@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7042331 /
+ Properties and Investments
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7042331 / Properties and Investments
+Thread-Index: Adh6AEeuj5IQ2HPERk2iUDFLtEVKLg==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Mon, 6 Jun 2022 23:51:29 +0000
+Message-ID:
+	<BYAPR11MB2854DD4D221FCB065BFB628587A29@BYAPR11MB2854.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2854.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	745ede09-3110-4edf-8a2a-08da481779f6
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: MW5PR11MB5761:EE_
+x-ms-exchange-crosstenant-originalarrivaltime: 06 Jun 2022 23:51:29.3369 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	745ede09-3110-4edf-8a2a-08da481779f6
+x-ms-exchange-transport-crosstenantheadersstamped: MW5PR11MB5761
+x-ms-exchange-transport-endtoendlatency: 00:00:01.5192635
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 745ede09-3110-4edf-8a2a-08da481779f6
+x-microsoft-antispam: BCL:0;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2854.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	l/XFvj23OGVEr3oVwt/HtmDJDMedvI3g9wMgIAOLRrzQ3wa522zBpOugbpHL+iZt1G2RKLtJd7XszlR51kY247q1+cQymk+rbjSX6PGLqhw=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.5314.019
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2854.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	Yf9nuCYpyuLrFAA6KisKCUfzajGXHOn5TC1hC278eG32xvHHfm06DA+B77gLqu33IY4brRmPvGx9uhdVrXc2lDMdKn+eUvwFw+uWQO8z1tVFpYZsV+5hmttEfEgmP5/UUXG/7VCPYrq6XuL5n2KwcpoUHL+v3Jjw7xoro3VOG+aTRmqmvBa95d3gmJOpLQtBXfA+Vs7BO925i6RjPpgsX7ib74tLRW6JAwjb47IErxzIaU10WSyyPQNU1nhvpyRCN8M1SR3MTZwm0IZtQhx1uSnOxfH/h/0flMqjz4Q+Yx7aBaEcHv64lMdsxUGvSxgx08wr3V82H9Xnk73MD7sASZ5sN1Lb4x1S85Jh1APjeD6CGQdVVSYzANgpelCkbx5qL9IYgGSYgXFP+ZSGdCVdVOUTPEBhAX+W8lt2k18LoMg4UYATB7Dt0CNTZGQktDU4wGmEjBClsjZL68a0/MQicBnF7byt/jETvWwYQF5sFjKvUmYHPUxz+abCB30J5h/VF58CoWvljvkxMNpp5NfdvYptunvlsLLzr5x/jr90YbQGFGetK/7CYA1+JLnPiKzAeaeQ4Duz8MMtBpyBCE2s1Up8wLQiREi+UoE7AYaA7aUPUoEx5wtcS8y8GMT59nkTrYk2fxH7zI6y03H8H+lX7rgxBJKFQlh4NKwVCLzxy48=
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB2854DD4D221FCB065BFB628587A29BYAPR11MB2854namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB2854DD4D221FCB065BFB628587A29BYAPR11MB2854namp_
+Content-Type: text/plain; charset="us-ascii"
+
+Broker Company Name: Prestonwood Mortgage LLC
+Broker Company NMLS: 1704788
+
+LO First Name: John
+LO Last Name: Ginn
+LO Email: john@prestonwoodmortgage.com
+
+LP First Name: John
+LP Last Name: Ginn
+LP Email: john@prestonwoodmortgage.com
+
+
+
+
+--_000_BYAPR11MB2854DD4D221FCB065BFB628587A29BYAPR11MB2854namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0in;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p class="MsoNormal">Broker Company Name: Prestonwood Mortgage LLC<o:p></o:p></p>
+<p class="MsoNormal">Broker Company NMLS: 1704788<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LO First Name: John<o:p></o:p></p>
+<p class="MsoNormal">LO Last Name: Ginn<o:p></o:p></p>
+<p class="MsoNormal">LO Email: john@prestonwoodmortgage.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p class="MsoNormal">LP First Name: John<o:p></o:p></p>
+<p class="MsoNormal">LP Last Name: Ginn<o:p></o:p></p>
+<p class="MsoNormal">LP Email: john@prestonwoodmortgage.com<o:p></o:p></p>
+<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB2854DD4D221FCB065BFB628587A29BYAPR11MB2854namp_--

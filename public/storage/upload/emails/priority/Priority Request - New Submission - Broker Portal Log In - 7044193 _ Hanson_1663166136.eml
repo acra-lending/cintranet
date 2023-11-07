@@ -1,0 +1,129 @@
+Received: from MN0PR11MB6035.namprd11.prod.outlook.com (2603:10b6:208:376::13)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Tue, 13 Sep 2022
+ 23:24:32 +0000
+Received: from BYAPR11MB2709.namprd11.prod.outlook.com (2603:10b6:a02:be::10)
+ by MN0PR11MB6035.namprd11.prod.outlook.com (2603:10b6:208:376::13) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.5612.22; Tue, 13 Sep
+ 2022 23:24:28 +0000
+Received: from BYAPR11MB2709.namprd11.prod.outlook.com
+ ([fe80::10b5:305a:90f0:6c75]) by BYAPR11MB2709.namprd11.prod.outlook.com
+ ([fe80::10b5:305a:90f0:6c75%7]) with mapi id 15.20.5612.022; Tue, 13 Sep 2022
+ 23:24:27 +0000
+From: Taylor Shelby-Clarke <taylor.shelby-clarke@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Lauren Nickerson <Lauren.Nickerson@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7044193 /
+ Hanson
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7044193 / Hanson
+Thread-Index: AdjHx9A5HMKauo15QVufg57Fkig/gA==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Tue, 13 Sep 2022 23:24:27 +0000
+Message-ID:
+	<BYAPR11MB27099A6476C55777CC2D59E0C2479@BYAPR11MB2709.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: BYAPR11MB2709.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	7cf0d867-848e-409d-a8c1-08da95df1a46
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+authentication-results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: 7cf0d867-848e-409d-a8c1-08da95df1a46
+x-microsoft-antispam: BCL:0;
+x-ms-traffictypediagnostic: BYAPR11MB2709:EE_|MN0PR11MB6035:EE_
+x-ms-exchange-atpmessageproperties: SA
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:BYAPR11MB2709.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-originalarrivaltime: 13 Sep 2022 23:24:27.7117 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	7cf0d867-848e-409d-a8c1-08da95df1a46
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	B8geAmXDGvAboMRJAZMAXGBPAajtNwz8Gvwbhc54fFV/dLOuhf5qcAZYnLh/7kMi1r0o5s791tgZMLLFQ7udhbbFA3ZxZqbm4TDAzUetUA2v/NmLNA+BJHFSGrT9qWr/
+x-ms-exchange-transport-crosstenantheadersstamped: MN0PR11MB6035
+x-ms-exchange-transport-endtoendlatency: 00:00:04.8908390
+x-ms-exchange-processed-by-bccfoldering: 15.20.5612.022
+x-ms-exchange-crosstenant-authsource: BYAPR11MB2709.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506478)(944626604)(920097)(425001)(930097);
+X-Microsoft-Antispam-Message-Info:
+	O52WRais6GiMSUv0vTaMT8W0Eenyk8sxBx+V5c8kqsrwnjFuSY0JozAMuJklXHYoACGfkpssjXPOwdH0kSU9MW+bd/wwjsNAU/+ikUS4TZCtgH2DM8xee4cnlGBuhSfKbIO7wPIngJvWA5N5dt6kc1Moi1qS0979MqbIZUwwjxRzhBt8X8Gro1oxPV+Cp+c3DUFm2GCzF9n2WtEofNfZm/WZtR9zUuk6yQDVl6Zxui7EZZEacatbNdZuHOHFIKIgexW8uk3+fe5oUAlTsp/gtWrK7Gqx6Uk4fjlkaaONH8uCsesmZN24GWGjST36Xmup9wj4ijiOc4/OHl3RCNZWsYiykkz1sDQf2gEBLW7kYqQwDLW+BRzd9fZmcvNpqjBU/uhS5rFd7nUkx0DlKi/YojMnwhR8oFG0XqXtljwqM8/FT0JKhMhMUYN6nvsB0ym72xgG3Echr6dz6mkfwqZOnP+RyaXScrPcWFqDgg1BOa6xFKmF/6jEEoJmZDYB4w91F299DgjkTMpF/k3OkLRXDN76TmCqpXlIHlW2c/T5k3DGwvwpG4u7VyaAmspi6Zur1bQmTeTyDIAuqBAfPpNS7Ks3cITiz/oiYyYdSdrrazRiKcfxpGmhqk9dhFCtgQRv0abA6ZoGlEaJCXaj5nrJRrYSf8AchxJ0CjKCnN2jE74OKTxIUCSMWTq1vewaMF5qJkmtvqZakRRwUdKxi9PDP9XkIeM04+4qsfZaC1LKFwkyMqLlYOa3Vw9RuzDoaUwTj4P4BgqrQdzdd4z5VVgc2A==
+Content-Type: multipart/alternative;
+	boundary="_000_BYAPR11MB27099A6476C55777CC2D59E0C2479BYAPR11MB2709namp_"
+MIME-Version: 1.0
+
+--_000_BYAPR11MB27099A6476C55777CC2D59E0C2479BYAPR11MB2709namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Jane
+
+LO Last Name: Gregg
+
+LO Email: jane.gregg@wvmb.com
+
+
+
+LP First Name: Kristine
+
+LP Last Name: Reynolds
+
+LP Email: kristine.reynolds@wvmb.com
+
+--_000_BYAPR11MB27099A6476C55777CC2D59E0C2479BYAPR11MB2709namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO First Name: Jane<o:p></o:p></p>
+<p>LO Last Name: Gregg<o:p></o:p></p>
+<p>LO Email: jane.gregg@wvmb.com<o:p></o:p></p>
+<p><o:p>&nbsp;</o:p></p>
+<p>LP First Name: Kristine<o:p></o:p></p>
+<p>LP Last Name: Reynolds<o:p></o:p></p>
+<p>LP Email: kristine.reynolds@wvmb.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_BYAPR11MB27099A6476C55777CC2D59E0C2479BYAPR11MB2709namp_--

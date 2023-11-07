@@ -1,0 +1,134 @@
+Received: from DM6PR11MB4611.namprd11.prod.outlook.com (2603:10b6:5:2a5::11)
+ by BY5PR11MB4338.namprd11.prod.outlook.com with HTTPS; Fri, 29 Oct 2021
+ 01:10:17 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com (2603:10b6:5:1da::17)
+ by DM6PR11MB4611.namprd11.prod.outlook.com (2603:10b6:5:2a5::11) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.4628.18; Fri, 29 Oct
+ 2021 01:10:16 +0000
+Received: from DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::3dc5:2316:dbc1:907f]) by DM6PR11MB4507.namprd11.prod.outlook.com
+ ([fe80::3dc5:2316:dbc1:907f%7]) with mapi id 15.20.4628.020; Fri, 29 Oct 2021
+ 01:10:16 +0000
+From: Jacob Hayden <Jacob.Hayden@acralending.com>
+To: Web Updates <Webupdates@acralending.com>
+CC: Aubra Ronquillo <aubra.ronquillo@acralending.com>, Mayra Mendoza
+	<mayra.mendoza@acralending.com>, Haylee Couron
+	<haylee.couron@acralending.com>
+Subject: Priority Request - New Submission - Broker Portal Log In - 7037240 /
+ MONTALVO
+Thread-Topic: Priority Request - New Submission - Broker Portal Log In -
+ 7037240 / MONTALVO
+Thread-Index: AdfMYYJSaLL7DW4DTPqcIl6vgpmwqQ==
+X-MS-Exchange-MessageSentRepresentingType: 1
+Date: Fri, 29 Oct 2021 01:10:16 +0000
+Message-ID:
+	<DM6PR11MB4507C7180F8EA53ABF5C465B93879@DM6PR11MB4507.namprd11.prod.outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Internal
+X-MS-Exchange-Organization-AuthMechanism: 04
+X-MS-Exchange-Organization-AuthSource: DM6PR11MB4507.namprd11.prod.outlook.com
+X-MS-Has-Attach:
+X-MS-Exchange-Organization-Network-Message-Id:
+	d925689d-53d9-4ca5-f0af-08d99a78de6f
+X-MS-Exchange-Organization-SCL: -1
+X-MS-TNEF-Correlator:
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-ms-publictraffictype: Email
+x-ms-traffictypediagnostic: DM6PR11MB4611:
+x-ms-exchange-crosstenant-originalarrivaltime: 29 Oct 2021 01:10:16.6757 (UTC)
+x-ms-exchange-crosstenant-fromentityheader: Hosted
+x-ms-exchange-crosstenant-id: c8b8bb8d-4870-4d65-8701-a2ff9feb0102
+x-ms-exchange-crosstenant-network-message-id:
+	d925689d-53d9-4ca5-f0af-08d99a78de6f
+x-ms-exchange-transport-crosstenantheadersstamped: DM6PR11MB4611
+x-ms-exchange-transport-endtoendlatency: 00:00:00.9421519
+authentication-results: citadelservicing.com; dkim=none (message not signed)
+ header.d=none;citadelservicing.com; dmarc=none action=none
+ header.from=acralending.com;
+x-ms-office365-filtering-correlation-id: d925689d-53d9-4ca5-f0af-08d99a78de6f
+x-microsoft-antispam: BCL:0;
+x-ms-oob-tlc-oobclassifiers: OLM:1728;
+x-forefront-antispam-report:
+	CIP:255.255.255.255;CTRY:;LANG:en;SCL:-1;SRV:;IPV:NLI;SFV:SKI;H:DM6PR11MB4507.namprd11.prod.outlook.com;PTR:;CAT:NONE;SFS:;DIR:INB;
+x-ms-exchange-crosstenant-mailboxtype: HOSTED
+x-ms-exchange-crosstenant-userprincipalname:
+	wwT3hNdcRQ74Fv7v1IUKQzdvpXphxBxW1JAcurUqSRNE9VUSSZ5DUleAMtvRQm4lJz5npJOSpGpbWGelCadPF4Lvp8GgN+zkF9/Zx1f9uJ4=
+x-ms-exchange-atpmessageproperties: SA
+x-ms-exchange-processed-by-bccfoldering: 15.20.4649.015
+x-ms-exchange-crosstenant-authsource: DM6PR11MB4507.namprd11.prod.outlook.com
+x-ms-exchange-crosstenant-authas: Internal
+X-Microsoft-Antispam-Mailbox-Delivery:
+	ucf:0;jmr:0;auth:0;dest:I;ENG:(910001)(944506458)(944626604)(920069)(425001)(930068);
+X-Microsoft-Antispam-Message-Info:
+	G0wYsKSS1586VDTRkM5LA0W+ClGWwChwgXCHPZUwfeOYwDqj3YUxZ6XItSvcLf61XSFeKfUNJ3Wsk12r5DkoJCjE2VyxvAFhaBo4RmBW4PMiA7AbksDoTf2Z6fFTfJwzwtGIw+kAiQNoglHI94wlXJHrhNG2MPnwsjrLFmTY7s8C78aFMwYN6oZdMnw+pgNEXfT5gL4IqqDPqhGsZewCndUXrBXb0LyJFlgIjjUZU2YTpR7aIxRaAA47t3QQTmNeBzmfEgMDt8cJBjWeS8oXNcvls4XRQ7iYqlJp/j48qWWxWqpHZQ82mOEDk9dGcqimwXi3vRVh2buwo61SI8PCsGfUGBd6grXcPxk0CYM8T9RQQVu6pKXeKFepw14J4jhXMAZV2pdQvmVEoPz6FwJhf1G6tqrgzbkkM/BA5ahLKzdgwoOaPmigb+w4TuQlx9Jap93A2V2TeZsF2D6HmX0BsOQbJyRXU7rMKk79Ln3HB1vM9qT+UJ2EzBIafP95dtaLYC++95qXUrx/5mIjlv7E68iktOOTD5eExXbcyFxb6XMMFlP+Rz52Kqh5NN0WrP5UA4GbBRVxz1vYT2gv/B4MwYkmoFN5OiMYbYQJqaZqfSkY3rZ4Xpahr5oJsDumvr0u1JE29HRAEsWsFyw3AoSZgpYKE0/fUsZZ9ie7JpqAfVI=
+Content-Type: multipart/alternative;
+	boundary="_000_DM6PR11MB4507C7180F8EA53ABF5C465B93879DM6PR11MB4507namp_"
+MIME-Version: 1.0
+
+--_000_DM6PR11MB4507C7180F8EA53ABF5C465B93879DM6PR11MB4507namp_
+Content-Type: text/plain; charset="us-ascii"
+
+LO First Name: Lisandra
+
+LO Last Name: Castro
+
+LO Email: lcastro@primeres.com<mailto:lcastro@primeres.com>
+
+LP First Name: Karen
+
+LP Last Name: Guerra
+
+LP Email: kguerra@primeres.com
+
+--_000_DM6PR11MB4507C7180F8EA53ABF5C465B93879DM6PR11MB4507namp_
+Content-Type: text/html; charset="us-ascii"
+
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered medium)">
+<style><!--
+/* Font Definitions */
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
+/* Style Definitions */
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:#0563C1;
+	text-decoration:underline;}
+span.EmailStyle19
+	{mso-style-type:personal-compose;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	font-size:10.0pt;}
+@page WordSection1
+	{size:8.5in 11.0in;
+	margin:1.0in 1.0in 1.0in 1.0in;}
+div.WordSection1
+	{page:WordSection1;}
+--></style><!--[if gte mso 9]><xml>
+<o:shapedefaults v:ext="edit" spidmax="1026" />
+</xml><![endif]--><!--[if gte mso 9]><xml>
+<o:shapelayout v:ext="edit">
+<o:idmap v:ext="edit" data="1" />
+</o:shapelayout></xml><![endif]-->
+</head>
+<body lang="EN-US" link="#0563C1" vlink="#954F72" style="word-wrap:break-word">
+<div class="WordSection1">
+<p>LO first name &#8211; Lisandra<o:p></o:p></p>
+<p>LO last name &#8211; Castro<o:p></o:p></p>
+<p>LO email- <a href="mailto:lcastro@primeres.com">lcastro@primeres.com</a><o:p></o:p></p>
+<p>LP first name- Karen<o:p></o:p></p>
+<p>LP last name- Guerra<o:p></o:p></p>
+<p>LP email- kguerra@primeres.com<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_DM6PR11MB4507C7180F8EA53ABF5C465B93879DM6PR11MB4507namp_--
