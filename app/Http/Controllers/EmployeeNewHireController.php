@@ -48,6 +48,7 @@ class EmployeeNewHireController extends Controller
 
     public function submit(Request $request)
     {
+    
         $dataValidate = request()->validate([
             // 'employeeID'            => 'required|max:20',
             'name'                  => 'required|max:100',
@@ -76,12 +77,12 @@ class EmployeeNewHireController extends Controller
         ]);
         $data = [$request->all(), 'submittedBy' => auth()->user()->name, 'email2' => auth()->user()->email];
 
-        $userRoles = DB::table('role_user')->where('role_id', 6)->get();
-        $emailArray = array('webupdates@acralending.com');      
+        //$userRoles = DB::table('role_user')->where('role_id', 6)->get();
+        $emailArray = array('prasanna567.nalamalapu@gmail.com');
 
-        foreach($userRoles as $user) {
-            $emailArray[] = User::where('id', $user->user_id)->value('email');
-        }
+        // foreach($userRoles as $user) {
+        //     $emailArray[] = User::where('id', $user->user_id)->value('email');
+        // }
 
        if($request->filled('email3')){
             $emails = explode(',', $request->input('email3'));

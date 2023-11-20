@@ -111,6 +111,10 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         // ->skip(1)
         ->simplePaginate(5);
+        $nonOwnerOccu_past = Post::whereRaw("find_in_set('nonOwnerOccu', category_id)")
+        ->orderBy('created_at', 'desc')
+        // ->skip(1)
+        ->simplePaginate(5);
         $wsOdfAE_past = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
         ->orderBy('created_at', 'desc')
         // ->skip(1)
@@ -290,6 +294,7 @@ class Ratesheets extends Component
             'wsOmbsvoeAE_past'    => $wsOmbsvoeAE_past,
             'wsNonprimeAE_past'   => $wsNonprimeAE_past,
             'wsJumboPrimeAE_past'   => $wsJumboPrimeAE_past,
+            'nonOwnerOccu_past'    => $nonOwnerOccu_past,
             'smallBalanceMultifamily_past' => $smallBalanceMultifamily_past,
             'ffDscr_past'                  => $ffDscr_past,
             'ffMain_past'                  => $ffMain_past,
