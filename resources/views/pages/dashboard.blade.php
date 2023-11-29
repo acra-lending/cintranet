@@ -93,7 +93,7 @@
 
           </div>
           <div class="col-lg-3">
-            @include('pages.dashboard.announcements')
+            <!-- @include('pages.dashboard.announcements') -->
             @include('pages.dashboard.alu')
             @include('pages.dashboard.loannumbering')
 

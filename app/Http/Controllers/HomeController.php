@@ -51,7 +51,7 @@ class HomeController extends Controller
         // dd($reminders);
 
         // Announcements
-        $posts = Announcement::orderBy('created_at', 'desc')->paginate(2);
+        $posts = Announcement::orderBy('created_at', 'desc')->paginate(4);
         
         // Events
         // $currentMonth = date('m');
