@@ -3,6 +3,6 @@
     <a class="nav-link" id="vert-tabs-ild-dscr-tab" data-toggle="pill" href="#vert-tabs-ild-dscr" role="tab" aria-controls="vert-tabs-ild-dscr" aria-selected="false">DSCR</a>
     <a class="nav-link" id="vert-tabs-ild-mf-bridge-tab" style="display: none;" data-toggle="pill" href="#vert-tabs-ild-mf-bridge" role="tab" aria-controls="vert-tabs-ild-mf-bridge" aria-selected="false">MF Bridge</a>
     <a class="nav-link" id="vert-tabs-ild-bf-bridge-tab" style="display: none;" data-toggle="pill" href="#vert-tabs-ild-bf-bridge" role="tab" aria-controls="vert-tabs-ild-bf-bridge" aria-selected="false">Bridge</a>
-    <a class="nav-link" id="vert-tabs-ild-mf-long-term-tab" data-toggle="pill" href="#vert-tabs-ild-mf-long-term" role="tab" aria-controls="vert-tabs-ild-mf-long-term" aria-selected="false">MF Long Term</a>
+    <a class="nav-link" id="vert-tabs-ild-mf-long-term-tab" style="display: none;" data-toggle="pill" href="#vert-tabs-ild-mf-long-term" role="tab" aria-controls="vert-tabs-ild-mf-long-term" aria-selected="false">MF Long Term</a>
     <a class="nav-link" id="vert-tabs-ild-sfr-bridge-tab" data-toggle="pill" href="#vert-tabs-ild-sfr-bridge" role="tab" aria-controls="vert-tabs-ild-sfr-bridge" aria-selected="false">SFR Bridge</a>
 </div>
