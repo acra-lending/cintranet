@@ -11,9 +11,7 @@
                 </h3>
               </div>
               <div class="card-body">
-
-                  @include('livewire.sales.partials.toptabs.navtabs')
-
+                 @include('livewire.sales.partials.toptabs.navtabs')
                   <div class="tab-content" id="nav-tabContent">
                     <div class="tab-pane fade show active" id="nav-wholesale" role="tabpanel" aria-labelledby="nav-wholesale-tab">
                       <br>
@@ -28,7 +26,7 @@
                       @include('livewire.sales.partials.current.correspondent') 
                     </div>
                   </div>
-                </div>
+              </div>
                   
               </div>
             </div>

@@ -138,7 +138,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="float-left">
+                        <!-- <div class="float-left">
                             <div class="container">
                                 <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsCA->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_ca.jpg') }}" alt="csc-health-welfare"></a></button>
@@ -155,7 +155,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="float-left">
                             <div class="container">
                                 <div class="card" style="width: 17rem;">
@@ -169,6 +169,15 @@
                             <div class="container">
                                 <div class="card" style="width: 17rem;">
                                     <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsNonCA2023->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_non_ca_2023.jpg') }}" alt="csc-health-welfare-alt"></a></button>
+                                    <div class="card-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="float-left">
+                            <div class="container">
+                                <div class="card" style="width: 17rem;">
+                                    <button class="btn btn-outline-default"><a href="{{ asset ('storage/upload/' .$benefitsCA2024->filename) }}" target="_blank"><img class="card-img-top" src="{{ asset ('img/hr/benefits_ca_2024.jpg') }}" alt="csc-health-welfare"></a></button>
                                     <div class="card-body">
                                     </div>
                                 </div>

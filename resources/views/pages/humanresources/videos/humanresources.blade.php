@@ -252,7 +252,7 @@
               </div>
               <div class="card-body">
                 <div class="row">
-                    <div class="col-sm-2">
+                    <!-- <div class="col-sm-2">
                         <a href="{{ URL::to('https://players.brightcove.net/5184446941001/default_default/index.html?videoId=6238388138001') }}" target="_blank">
                             <img src="{{ asset('img/hr/Vivity-2021-1.jpg') }}" class="img-fluid mb-2" alt="Vivity" /></a>
                         </a>
@@ -279,7 +279,7 @@
                         </a>
                         <h6>Health Savings Account - Common Myths</h6>
                         {{-- <p>{{ Carbon\Carbon::parse($data['created_time'])->format('F d, Y') }}</p> --}}
-                    </div>
+                    </div> -->
                     @foreach($humanresourcesBenefitsAdditional as $data)
                         <div class="col-sm-2">
                             <a href="{{ URL::to('https://player.vimeo.com' .str_replace("s", "", $data['uri'])) }}" data-toggle="lightbox" data-title="{{ $data['name'] }}" data-gallery="gallery">

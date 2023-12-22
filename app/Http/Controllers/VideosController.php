@@ -312,6 +312,24 @@ class VideosController extends Controller
             ]));
     }
 
+    public function humanResources401kVideos()
+    {
+        $url = Cache::remember('humanresources401k', $this->seconds, function() {
+           return Vimeo::request("/users/124219438/projects/18722968/videos", ['per_page' => 99], 'GET');
+        });
+
+        $url = $url['body'];
+        $data = $url['data'];
+        $humanresources401k = $data;
+
+        
+
+        return view('pages.humanresources.401k', 
+            compact([
+                'humanresources401k',
+            ]));
+    }
+
 
 
 

@@ -148,7 +148,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="https://citadelservicing.sharepoint.com/:u:/r/sites/PoliciesAndProcedures/SitePages/Home.aspx?csf=1&web=1&share=EaiCs3EEQ1xFvlgcU6Bq_TcBGjOCQpfGVlgT2Rk8ylPhnQ&e=sNua35" class="nav-link" target=”_blank”>
+                <a href="https://citadelservicing.sharepoint.com/:u:/r/sites/PoliciesAndProcedures/SitePages/Home.aspx?csf=1&web=1&share=EaiCs3EEQ1xFvlgcU6Bq_TcBGjOCQpfGVlgT2Rk8ylPhnQ&e=MW4rzD" class="nav-link" target=”_blank”>
                     <i class="nav-icon fa fa-shield"></i>
                     <p>Policies and Procedures</p>
                 </a>
@@ -369,7 +369,8 @@
                             <p>401(k)</p>
                         </a>
                     </li>
-                </ul>
+                </ul> 
+            
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/careers" class="nav-link {{ Request::path() === 'humanresources/careers' ? 'active': ''}}">
@@ -412,14 +413,14 @@
                         </a>
                     </li>
                 </ul>
-                <ul class="nav nav-treeview">
+                <!-- <ul class="nav nav-treeview"style="display:none">
                     <li class="nav-item">
                         <a href="/humanresources/better" class="nav-link {{ Request::path() === 'humanresources/better' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>BetterVet</p>
                         </a>
                     </li>
-                </ul>
+                </ul> -->
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
                         <a href="/humanresources/paylocity" class="nav-link {{ Request::path() === 'humanresources/paylocity' ? 'active': ''}}">

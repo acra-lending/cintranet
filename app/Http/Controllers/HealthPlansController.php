@@ -32,6 +32,11 @@ class HealthPlansController extends Controller
         ->orderBy('created_at', 'desc')
         ->first();
 
+        $benefitsCA2024 = Post::where('category_id', 'hrHealthPlanDocs')
+        ->where('filename', 'like', '%Acra Lending 2024 Benefits Guide%')
+        ->orderBy('created_at', 'desc')
+        ->first();
+
         $fsaExpenseList = Post::where('category_id', 'hrHealthPlanDocs')
         ->where('filename', 'like', '%fsa expense list%')
         ->orderBy('created_at', 'desc')
@@ -56,6 +61,7 @@ class HealthPlansController extends Controller
             'benefitsNonCA'     => $benefitsNonCA,
             'benefitsCA2023'    => $benefitsCA2023,
             'benefitsNonCA2023' => $benefitsNonCA2023,
+            'benefitsCA2024'    => $benefitsCA2024,
             'fsaExpenseList'    => $fsaExpenseList,
             'fsaQuestions'      => $fsaQuestions,
             'hsa'               => $hsa,
