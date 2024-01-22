@@ -952,7 +952,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                    <a href="https://citadelservicing.sharepoint.com/:b:/s/ITPublications/Eehq0SzlcsNEjWes-11e-MEBqbVEGm1QGRuI_qOzk2HLtA?e=5KWnKC" class="nav-link" target="_blank">
+                    <a href="https://citadelservicing.sharepoint.com/:b:/s/ITPublications/EQdmYhZ27cVLlPzzelQJXywB3nZ0QChVMnUAUIp2AvvllQ?e=j0ylVn" class="nav-link" target="_blank">
                             <i class="far fa-dot-circle text-circle nav-icon"></i>
                             <p>Support Request Doc</p>
                         </a>
@@ -984,7 +984,7 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="/infotech/webprojectrequests" class="nav-link {{ Request::path() === 'infotech/webprojectrequests' ? 'active': ''}}">
+                        <a href="https://app.smartsheet.com/b/form/1351099c3311418d8143d50f76c48df1" class="nav-link {{ Request::path() === 'infotech/webprojectrequests' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Web Project Requests</p>
                         </a>

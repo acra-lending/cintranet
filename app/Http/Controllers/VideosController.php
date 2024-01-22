@@ -93,7 +93,16 @@ class VideosController extends Controller
 
     public function operations()
     {
-        $url = Cache::remember('operationsAll', $this->seconds, function() {
+
+      $url = Cache::remember('operationCcbt', $this->seconds, function() {
+         return Vimeo::request("/users/124219438/projects/19191599/videos", ['per_page' => 99], 'GET');
+      });
+
+      $url = $url['body'];
+      $data = $url['data'];
+      $operationCcbt = $data;
+
+      $url = Cache::remember('operationsAll', $this->seconds, function() {
            return Vimeo::request("/users/124219438/projects/3384652/videos", ['per_page' => 99], 'GET');
         });
 
@@ -135,6 +144,7 @@ class VideosController extends Controller
 
         return view('pages.operations.videos.operations', 
             compact([
+               'operationCcbt',
                 'operationsAll',
                 'operationsNewHire',
                 'operationsTM',
@@ -146,7 +156,8 @@ class VideosController extends Controller
     public function humanresources()
     {
         $url = Cache::remember('humanresources', $this->seconds, function() {
-           return Vimeo::request("/users/124219438/projects/4461110/videos", ['per_page' => 99], 'GET');
+         return "here";
+           //return Vimeo::request("/users/124219438/projects/4461110/videos", ['per_page' => 99], 'GET');
         });
 
         $url = $url['body'];

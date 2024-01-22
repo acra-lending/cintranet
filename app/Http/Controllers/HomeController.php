@@ -56,6 +56,7 @@ class HomeController extends Controller
         // Events
         // $currentMonth = date('m');
         // $events = Event::whereRaw('MONTH(created_at) = ?', [$currentMonth])->paginate(5);
+        //dd(date('Y-m-d'));
         $events = Event::where('start', '>', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);
 
         $wholesale_events = WholesaleEvent::where('start', '>=', date('Y-m-d'))->orderBy('start', 'asc')->paginate(5);

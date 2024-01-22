@@ -7,7 +7,7 @@
               <div class="card-header">
                 <h3 class="card-title">
                   <i class="fas fa-table"></i>
-                  Current Rate Sheets
+                  Current Pricing Sheets
                 </h3>
               </div>
               <div class="card-body">

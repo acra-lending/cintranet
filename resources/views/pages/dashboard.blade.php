@@ -87,14 +87,14 @@
             @include('pages.dashboard.officelocations')
           </div>
           <div class="col-lg-4">
-            @include('pages.dashboard.outofoffice')
+            @include('pages.dashboard.alu')
             @include('pages.dashboard.team')
             @include('pages.dashboard.calendar')
 
           </div>
           <div class="col-lg-3">
             <!-- @include('pages.dashboard.announcements') -->
-            @include('pages.dashboard.alu')
+            @include('pages.dashboard.outofoffice')
             @include('pages.dashboard.loannumbering')
 
           </div>

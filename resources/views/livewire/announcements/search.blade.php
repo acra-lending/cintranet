@@ -5,7 +5,7 @@
             <div class="col-md-8 pb-4">
                 <!-- SEARCH FORM -->  
                 <div class="input-group input-group" style="width:100%;">
-                    <input class="form-control" wire:model="searchTerm" type="text" value="" placeholder="Search Announcements" aria-label="Search">
+                    <input class="form-control" wire:model.live="searchTerm" type="text" value="" placeholder="Search Announcements" aria-label="Search">
                 <div class="input-group-append">
                     <button class="btn btn-navbar" type="submit" style="right: 40px;">
                         <i class="fas fa-search"></i>

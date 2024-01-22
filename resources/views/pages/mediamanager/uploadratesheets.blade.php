@@ -96,7 +96,6 @@
                         <div class="card-header">
                             <h4 class="card-title"><b>ITIN</b> Ratesheet Upload</h4>
                         </div>
-
                         <div class="card-body">           
                             {{ Form::open(['action' => 'WebRatesheetUploadController@store_itin', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
                                 <div class="input-group">

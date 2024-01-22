@@ -202,18 +202,61 @@
             'Wholesale' => [
                 'wholesaleDocs'     => 'Documents',
                     'Flyers & Programs' => [
-                        'aboutCsc'      => 'About CSC',
-                        'AEFlyers'      => 'AE Flyers',
-                        'automation'    => 'Automation',
-                        'cscPrograms'   => 'CSC Programs',
-                        'social'        => 'LinkedIn/Social Posting Images',
-                        'standards'     => 'Standard Flyers',
-                        'vertFlyers'    => 'Vertical Integration Flyers'
-                        // 'sbmfFlyers'    => 'Small Balance Multifamily Flyers'
+                        'Flyers'  => [
+                            'onescorenoscore' => 'One Score No Score',
+                            'selfemp'       =>  'Self Emplyoed',
+                            'only1099'      =>  '1099 Only',
+                            'bankstmt'      =>  'Bank Statements',
+                            'allprgms'      =>  'All Programs',
+                            'atr'           =>  'ATR',
+                            'busiprps'      =>  'Business Purpose',
+                            'expandguid'      =>  'Expanding Guidlines',
+                            'forinnat'      =>  'Foreign National',
+                            'invessol'      =>  'Investment Solutions',
+                            'dscrfly'      =>  'DSCR',
+                            'itinfly'      =>  'ITIN',
+                            'wvoefly'       =>   'WVOE',
+                            'bridgefly'      =>  'Bridge',
+                            'cashout'      =>  'Cashout',
+                            'uniqpro'      =>  'Unique Properties',
+                            'iofly'      =>  'IO',
+                            'condjum'      =>  'Condotel And Jumbo',
+                            'nqmniche'      =>  'NQM Niche',
+                            'plpro'      =>  'P&L Programs',
+                            'sbmffly'      =>  'SBMF'
+                            
+                        ],
+                            'Social Material'  => [
+                            'onescore'        =>  'One Score No Score',
+                            'selfempsm'       =>  'Self Emplyoed',
+                            'bankstmtsm'      =>  'Bank Statements',
+                            'allprgms'      =>  'All Programs',
+                            'atrsm'           =>  'ATR',
+                            'busipur'      =>  'Business Purpose',
+                            'expndguidsm'      =>  'Expanding Guidlines',
+                            'fornatsm'      =>  'Foreign National',
+                            'invsolsm'      =>  'Investment Solutions',
+                            'bridgesm'      =>  'Bridge',
+                            'cashout'      =>  'Cashout',
+                            'uniqprosm'      =>  'Unique Properties',
+                            'condjumsm'      =>  'Condotel And Jumbo',
+                            'dscrsm'      =>  'DSCR',
+                            'iosm'      =>  'IO',
+                            'itinsm'      =>  'ITIN',
+                            'nqmnichesm'      =>  'NQM Niche',
+                            'plpro'      =>  'P&L Programs',
+                            'smbfsm'      =>  'SBMF',
+                            'brokersm'      =>  'New Broker',
+                            'fundeal'      =>  'Funded deals',
+                            'specials'      =>  'Specials',
+                            'others'      =>  'Others',
+                            'rateupdate'      =>  'Rate Update'
+                        ],
                     ],
-                    'Flyers For Brokers' => [
-                        'flyersForBrokers'  => 'Flyers'
-                    ],
+
+                    // 'Flyers For Brokers' => [
+                        // 'flyersForBrokers'  => 'Flyers'
+                    // ],
                     'General Forms' => [
                         'generalForms'  => 'Forms'
                     ],

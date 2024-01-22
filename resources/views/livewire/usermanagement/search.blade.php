@@ -1,4 +1,4 @@
-<div>
+
     <div class="container-fluid">
         <div class="row">
           <div class="col-12">
@@ -18,7 +18,7 @@
                     <!-- SEARCH FORM -->
                     <div class="col-sm-6">
                       <div class="input-group input-group">
-                        <input class="form-control form-control-navbar" wire:model="searchTerm" type="text" placeholder="Search Name or Email" aria-label="Search" autofocus="autofocus">
+                        <input class="form-control form-control-navbar" wire:model.live="searchTerm" type="text" placeholder="Search Name or Email" aria-label="Search" autofocus="autofocus">
                         {{-- <div class="input-group-append">
                             <button class="btn btn-navbar" type="submit">
                             <i class="fas fa-search"></i>
@@ -30,7 +30,7 @@
                 </div>
                 <!-- /.card-header -->
                 <div class="card-body table-responsive p-0">
-                  @if(count($users) > 0)
+                @if(is_countable($users) && count($users) > 0)
                   <table class="table table-hover text-nowrap">
                     <thead>
                       <tr>
@@ -100,4 +100,3 @@
         </div>
       </div>
     </div>
-</div>

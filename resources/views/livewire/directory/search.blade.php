@@ -9,7 +9,7 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
-                            <input class="form-control" wire:model="search" value="" type="text" placeholder="Search Name or Email">
+                            <input class="form-control" wire:model.live="search" value="" type="text" placeholder="Search Name or Email">
                         </div>
                         <div class="col-md-6 col-lg-3 col-xl-3 pt-3" >
                             <select wire:model="search" class="form-control" placeholder="Department">
