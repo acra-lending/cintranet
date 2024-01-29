@@ -39,7 +39,8 @@ class RatesheetCategoryController extends Controller
         $nonOwnerOccu   = Post::whereRaw("find_in_set('nonOwnerOccu', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
-                                ->get();                        
+                                ->get(); 
+
         $wsOdfAE        = Post::whereRaw("find_in_set('wsOdfAE', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->limit(1)
@@ -101,6 +102,10 @@ class RatesheetCategoryController extends Controller
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
+        $corrNonocuPdf        = Post::whereRaw("find_in_set('corrNonocuPdf', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->limit(1)
+                                    ->get();                            
 
         $corrDscrPdf        = Post::whereRaw("find_in_set('corrDscrPdf', category_id)")
                                     ->orderBy('created_at', 'desc')
@@ -142,6 +147,11 @@ class RatesheetCategoryController extends Controller
                                     ->orderBy('created_at', 'desc')
                                     ->limit(1)
                                     ->get();
+
+        $corrNonocuXlsx   = Post::whereRaw("find_in_set('corrNonocuXlsx', category_id)")
+                                    ->orderBy('created_at', 'desc')
+                                    ->limit(1)
+                                    ->get();                            
 
         $corrNonprimeXlsx   = Post::whereRaw("find_in_set('corrNonprimeXlsx', category_id)")
                                     ->orderBy('created_at', 'desc')
@@ -230,6 +240,7 @@ class RatesheetCategoryController extends Controller
                     'corrNonprimePdf'   => $corrNonprimePdf,
                     'corrJumboPrimePdf'   => $corrJumboPrimePdf,
                     'corr3mbsPdf'       => $corr3mbsPdf,
+                    'corrNonocuPdf'       => $corrNonocuPdf,
                     'corrDscrPdf'       => $corrDscrPdf,
                     'corrOdfPdf'        => $corrOdfPdf,
                     'corrOdfPlusPdf'    => $corrOdfPlusPdf,
@@ -238,6 +249,7 @@ class RatesheetCategoryController extends Controller
                     'corrJumboPrimeXlsx'  => $corrJumboPrimeXlsx,
                     'corr3mbsXlsx'      => $corr3mbsXlsx,
                     'corrDscrXlsx'      => $corrDscrXlsx,
+                    'corrNonocuXlsx'    => $corrNonocuXlsx,
                     'corrOdfXlsx'       => $corrOdfXlsx,
                     'corrOdfPlusXlsx'   => $corrOdfPlusXlsx,
                     'corrOmbsvoePdf_past'   => $corrOmbsvoePdf_past,

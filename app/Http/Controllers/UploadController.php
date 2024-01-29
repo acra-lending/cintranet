@@ -25,6 +25,7 @@ use App\Classes\WSJumboPrimeUpload;
 use App\Classes\CorrJumboPrimeUpload;
 use App\Classes\WSItinUpload;
 use App\Classes\CorrItinUpload;
+use App\Classes\CorrNonocuUpload;
 use App\Classes\SmallBalanceMultiFamilyUpload;
 use App\Classes\FFSingleFamilyUpload;
 use App\Classes\FFMultiFamilyUpload;
@@ -192,6 +193,15 @@ class UploadController extends Controller
 
         }
 
+        elseif($categoryIdSingle == 'corrNonocuPdf') {
+
+            $uploadPdfCorrNonocu = new CorrNonocuUpload;
+            $uploadPdfCorrNonocu->uploadCorrNonocu($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
         elseif($categoryIdSingle == 'corrNonprimePdf') {
             
             $uploadPdfCorrNonPrime = new CorrNonPrimeUpload;
@@ -231,6 +241,14 @@ class UploadController extends Controller
 
             $uploadXlsxCorrItin = new CorrItinUpload;
             $uploadXlsxCorrItin->uploadCorrItin($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+        elseif($categoryIdSingle == 'corrNonocuXlsx') {
+
+            $uploadcorrNonocuXlsx = new CorrNonocuUpload;
+            $uploadcorrNonocuXlsx->uploadCorrNonocu($request);
 
             return response()->json(['success' => 'Uploaded Successfully']);
 

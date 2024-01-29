@@ -1,3 +1,5 @@
+<div>
+<div class="container">
 <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
     <div class="card card-danger card-outline">
@@ -25,4 +27,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <br>
+      @include('livewire.sales.partials.past.ild')
+      <br> 
+  </div>
   </div>

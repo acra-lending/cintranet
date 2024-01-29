@@ -186,6 +186,7 @@
                     'corr3mbsXlsx'       => '3-Month Bank Statement (Excel)',
                     'corrDscrXlsx'       => 'Business Purpose / DSCR (Excel)',
                     'corrItinXlsx'       => 'ITIN (Excel)',
+                    'corrNonocuXlsx'      => 'Non-Owner Occupied(Excel)',
                     'corrNonprimeXlsx'   => 'Non-Prime Correspondent (Excel)',
                     'corrJumboPrimeXlsx' => 'Jumbo Prime Correspondent (Excel)',
                     'corrOdfXlsx'        => 'Outside Dodd-Frank (Excel)', 

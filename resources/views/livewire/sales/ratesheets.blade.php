@@ -27,19 +27,9 @@
                     </div>
                   </div>
               </div>
-                  
-              </div>
             </div>
+          </div>
         </div>
       </div>
-
-      <br>
-      @include('livewire.sales.partials.past.past')
-      <br>
-      @include('livewire.sales.partials.past.ild')
-      <br>
-      @include('livewire.sales.partials.past.correspondent')
-      <br>
-
-    </div>
+  </div>
 </div>
