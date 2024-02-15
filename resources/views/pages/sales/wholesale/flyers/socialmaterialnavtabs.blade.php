@@ -17,7 +17,7 @@
     <a class="nav-link" id="vert-tabs-nqmnichesm-tab" data-toggle="pill" href="#vert-tabs-nqmnichesm" role="tab" aria-controls="vert-tabs-nqmnichesm" aria-selected="false">NQM Niche</a>
     <a class="nav-link" id="vert-tabs-smbfsm-tab" data-toggle="pill" href="#vert-tabs-smbfsm" role="tab" aria-controls="vert-tabs-smbfsm" aria-selected="false">SBMF</a>
     <a class="nav-link" id="vert-tabs-broker-tab" data-toggle="pill" href="#vert-tabs-broker" role="tab" aria-controls="vert-tabs-broker" aria-selected="false">New Broker</a>
-    <a class="nav-link" id="vert-tabs-fundeal-tab" data-toggle="pill" href="#vert-tabs-fundeal" role="tab" aria-controls="vert-tabs-fundeal" aria-selected="false">Funded Deals</a>
+    <a class="nav-link" id="vert-tabs-fundeal-tab" data-toggle="pill" we role="tab" aria-controls="vert-tabs-fundeal" aria-selected="false">Funded Deals</a>
     <a class="nav-link" id="vert-tabs-special-tab" data-toggle="pill" href="#vert-tabs-special" role="tab" aria-controls="vert-tabs-special" aria-selected="false">Specials</a>
     <a class="nav-link" id="vert-tabs-other-tab" data-toggle="pill" href="#vert-tabs-other" role="tab" aria-controls="vert-tabs-other" aria-selected="false">Other</a>
     <a class="nav-link" id="vert-tabs-rateupdate-tab" data-toggle="pill" href="#vert-tabs-rateupdate" role="tab" aria-controls="vert-tabs-rateupdate" aria-selected="false">Rate Update</a>

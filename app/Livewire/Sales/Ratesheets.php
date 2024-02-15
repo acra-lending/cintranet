@@ -31,7 +31,7 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
-        $nonOwnerOccu=Post::whereRaw("find_in_set('NonOwnerOccu', category_id)")
+        $nonOwnerOccu = Post::whereRaw("find_in_set('NonOwnerOccu', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
