@@ -76,7 +76,7 @@ class RatesheetCategoryController extends Controller
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
                                 ->paginate(3);
-        $nonOwnerOccu_past   = Post::whereRaw("find_in_set('$$nonOwnerOccu', category_id)")
+        $nonOwnerOccu_past   = Post::whereRaw("find_in_set('nonOwnerOccu', category_id)")
                                 ->orderBy('created_at', 'desc')
                                 ->skip(1)
                                 ->paginate(3);
@@ -222,7 +222,6 @@ class RatesheetCategoryController extends Controller
                     'wsOmbsvoeAE'         => $wsOmbsvoeAE,
                     'wsNonprimeAE'        => $wsNonprimeAE,
                     'wsJumboPrimeAE'      => $wsJumboPrimeAE,
-                    'nonOwnerOccu'        => $nonOwnerOccu,
                     'nonOwnerOccu'        => $nonOwnerOccu,
                     'ws3mbsAE'            => $ws3mbsAE,
                     'wsDscrAE'            => $wsDscrAE,

@@ -5,8 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Http;
 use Illuminate\Support\Facades\Storage;
-// use League\Flysystem\Filesystem;
-// use League\Flysystem\Sftp\SftpAdapter;
+// use League\Flysystem\Filesystem; 
+// use League\Flysystem\Sftp\V3\SftpAdapter;
 use App\Post;
 use Carbon\Carbon;
 use App\Jobs\UpdateRatesheet;
@@ -16,6 +16,8 @@ class WebRatesheetUploadController extends Controller
 {
     public function index()
     {
+        // $list = Storage::disk('sftp')->files('html');
+        // dd($list);
         return view ('pages.mediamanager.uploadratesheets');
     }
 
@@ -114,6 +116,63 @@ class WebRatesheetUploadController extends Controller
             // Upload
             $sftpFileName = 'acra-ws-ratematrix-dscr.pdf';
             $categoryId = 'wsDscrAE';
+            $directory = '2020/RateSheets/Wholesale/';
+
+            $post = Post::create();
+            
+            UpdateRatesheet::dispatch($post, $fileNameToStore, $filesizeToStore, $sftpFileName, $categoryId, $directory)->delay(now()->addMinutes($differenceInMinutes));
+    
+            
+            return response()->json(['success' => 'Uploaded Successfully']);
+        
+        } else {
+            return 'Error. Upload failed';
+        }
+    }
+
+    public function store_nonocp(Request $request)
+    {
+        if(Gate::denies('edit-users')){
+            return redirect(route('home'));
+        }
+
+        $this->validate($request, [
+            'file' => 'required|mimes:pdf|max:99999999',
+            'filename' => 'regex:/^[0-9a-zA-Z_\-. ()&]*$/'
+        ]);
+
+        $carbonDate = Carbon::parse($request->datetime)->addHours(8);
+        $start = Carbon::now();
+        $end = $carbonDate;
+        $differenceInMinutes = $end->diffInMinutes($start);
+
+        $num = 2;
+        //Handle File Upload
+        if($request->hasFile('file')){
+
+            $file = $request->file('file');
+            // Get filename with the extension
+            $filenameWithExt = $file->getClientOriginalName();          
+            // Get just filename
+            $filename = pathinfo($filenameWithExt, PATHINFO_FILENAME);  
+            // Get Just ext
+            $extension = $file->getClientOriginalExtension();           
+            // Get filesize
+            $filesize = $file->getSize();                               
+            $filesizeToStore = round($filesize * 0.0009765625, 2);
+            $fileNameToStore = 'LLPA Price Sheet NOO '.date('m-d-Y').'.'.$extension;
+
+            
+            //Check if Filename exists
+            while(Storage::disk('local')->exists('public/upload/'.$fileNameToStore)){
+                $fileNameToStore = 'LLPA Price Sheet NOO '.date('m-d-Y').' v'.$num.'.'.$extension;
+                $num++;
+            }
+            $path = $file->storeAs('public/upload', $fileNameToStore);
+            
+            // Upload
+            $sftpFileName = 'acra-ws-ratematrix-nonocp.pdf';
+            $categoryId = 'nonOwnerOccu';
             $directory = '2020/RateSheets/Wholesale/';
 
             $post = Post::create();

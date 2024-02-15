@@ -180,6 +180,14 @@
                 </ul>
                 <ul class="nav nav-treeview">
                     <li class="nav-item">
+                        <a href="https://citadelservicing.sharepoint.com/sites/LearningandDevelopment/Shared%20Documents/Forms/AllItems.aspx" class="nav-link" target=”_blank”>
+                            <i class="far fa-circle text-circle nav-icon"></i>
+                            <p>Training</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="nav nav-treeview">
+                    <li class="nav-item">
                         <a href="/learning/posts" class="nav-link {{ Request::path() === 'learning/posts' ? 'active': ''}}">
                             <i class="far fa-circle text-circle nav-icon"></i>
                             <p>Building Relationships</p>

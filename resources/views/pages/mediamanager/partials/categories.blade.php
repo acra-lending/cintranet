@@ -156,6 +156,7 @@
                 'wsOmbsvoeAE'     => 'OMBS & VOE', 
                 'ws3mbsAE'        => '3-Month Bank Statement', 
                 'wsDscrAE'        => 'Business Purpose / DSCR', 
+                'nonOwnerOccu'    => 'Non-Owner Occupied',
                 'wsItinAE'        => 'ITIN', 
                 'wsNonprimeAE'    => 'Non-Prime Wholesale', 
                 'wsJumboPrimeAE'  => 'Jumbo Prime Wholesale', 

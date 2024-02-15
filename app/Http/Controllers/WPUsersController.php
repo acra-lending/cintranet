@@ -17,8 +17,5 @@ class WPUsersController extends Controller
         
         // dd($wp_users);
         return view('pages.usermanagement.wpusers.wpusers')->with(['wp_users' => $wp_users]);
-        
-
-
     }
 }

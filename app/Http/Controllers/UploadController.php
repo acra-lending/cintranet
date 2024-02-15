@@ -92,6 +92,15 @@ class UploadController extends Controller
 
         }
 
+        elseif($categoryIdSingle == 'nonOwnerOccu') {
+                
+            $uploadNonOwner = new NonOwnerOccuUpload;
+            $uploadNonOwner->uploadNonPrime($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
         elseif($categoryIdSingle == 'wsJumboPrimeAE') {
 
             $uploadJumboPrime = new WSJumboPrimeUpload;

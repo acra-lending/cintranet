@@ -13,7 +13,7 @@
             Please allow for a turnaround time of <strong>10-12 business days</strong> when requesting marketing materials. You may be contacted by a member of the Marketing Department regarding your request.
         </p>
         <p>
-            <strong>For Funded Deals/Deal of the Day Social Image requests, Click </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLScLJGXYB_BZ2RXAFlJdTcCDwA4z1jAza4aXRwjvyywdo2rgig/viewform"><strong>here</strong></a>.
+            <strong>For Funded Deals/Deal of the Day Social Image requests, Click </strong><a href="{{env('APP_URL')}}/sales/flyers#vert-tabs-fundeal"><strong>here</strong></a>.
         </p>
  
         <hr/>

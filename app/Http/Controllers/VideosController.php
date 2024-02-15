@@ -156,8 +156,7 @@ class VideosController extends Controller
     public function humanresources()
     {
         $url = Cache::remember('humanresources', $this->seconds, function() {
-         return "here";
-           //return Vimeo::request("/users/124219438/projects/4461110/videos", ['per_page' => 99], 'GET');
+         return Vimeo::request("/users/124219438/projects/4461110/videos", ['per_page' => 99], 'GET');
         });
 
         $url = $url['body'];

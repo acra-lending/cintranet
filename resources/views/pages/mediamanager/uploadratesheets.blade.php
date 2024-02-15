@@ -91,6 +91,35 @@
                     </div>
                 </div>
                 <div class="row">
+                <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    <div class="card card-danger">
+                        <div class="card-header">
+                            <h4 class="card-title"><b>LLPA NON-OWNER OCCUPIED</b></h4>
+                        </div>
+
+                        <div class="card-body">           
+                            {{ Form::open(['action' => 'WebRatesheetUploadController@store_nonocp', 'method' => 'POST', 'enctype' => 'multipart/form-data']) }}
+                                <div class="input-group">
+                                    <div class="input-group">
+                                        <div class="form-group" style="width: 100%;">
+                                            {{ Form::file('file', array('multiple' => false, 'accept'=> 'pdf', 'style' => 'width: 100%')) }}
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <input type="text" class="form-control datepicker" name="datetime" id="dateTime" required>
+                                    </div>
+                                    <div>
+                                        {{ Form::submit('Upload', ['class' => 'btn btn-danger']) }}
+                                    </div>
+                                </div>
+                            
+
+                            {{ Form::close() }}
+                        </div>
+                    </div>
+                    </div>
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -119,7 +148,10 @@
                     </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title"><b>LLPA SMALL BALANCE MULTIFAMILY</b></h4>
@@ -147,8 +179,6 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -178,7 +208,10 @@
                     </div>
                     </div>
                 
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title">Wholesale <b>Jumbo Prime</b> Ratesheet Upload</h4>
@@ -206,8 +239,6 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -237,7 +268,10 @@
                     </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title"><b>ILD DSCR</b> Ratesheet Upload</h4>
@@ -265,8 +299,6 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
@@ -296,7 +328,10 @@
                     </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4" style="display:inline-block;">
+                    
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">
                             <h4 class="card-title"><b>ILD MF Long Term</b> Ratesheet Upload</h4>
@@ -324,8 +359,6 @@
                         </div>
                     </div>
                     </div>
-                </div>
-                <div class="row">
                     <div class="col-md-6 col-lg-4" style="display:inline-block;">
                     <div class="card card-danger">
                         <div class="card-header">

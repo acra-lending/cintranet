@@ -138,15 +138,13 @@ class FlyersController extends Controller
 
         //Other
         $otherFlyers = Cache::remember('otherFlyers', $seconds, function() {
-            $thirty_days_ago = date('Y-m-d', strtotime("-31 days"));
+            $sixty_days_ago = date('Y-m-d', strtotime("-61 days"));
             return Post::whereRaw("find_in_set('otherFlyers', category_id)")
-            ->where('created_at', ">=" , $thirty_days_ago)
+            ->where('created_at', ">=" , $sixty_days_ago)
             ->sortable('filename')
             ->get();
         });
-        //dd($otherFlyers);
-    
-
+        
         $only1099 = Cache::remember('only1099', $seconds, function() {
             return Post::whereRaw("find_in_set('only1099', category_id)")
             ->sortable('filename')

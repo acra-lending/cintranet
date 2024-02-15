@@ -50,21 +50,31 @@ class UpdateRatesheet implements ShouldQueue
     public function handle()
     {      
 
-        $filesystem = new Filesystem(new SftpAdapter([
-            'host' => config('filesystems.disks.sftp.host'),
-            'username' => config('filesystems.disks.sftp.username'),
-            'password' => config('filesystems.disks.sftp.password'),
-            'port' => 22,
-            'root' => '/var/www',
-            'timeout' => 10,
-        ]));
+        // $filesystem = new Filesystem(new SftpAdapter([
+        //     // 'host' => config('filesystems.disks.sftp.host'),
+        //     // 'username' => config('filesystems.disks.sftp.username'),
+        //     // 'password' => config('filesystems.disks.sftp.password'),
+        //     'host' => env('SFTP_HOST'),
+         
+        //     // Settings for basic authentication...
+        //     'username' => env('SFTP_USERNAME'),
+        //     'password' => env('SFTP_PASSWORD'),
+
+        //     'port' => 22,
+        //     'root' => '/var/www',
+        //     'timeout' => 10,
+        // ]));
           
-        $filesystem
-            ->put(
-                'acraweb/wp-content/uploads/'.$this->directory.$this->sftpFileName, 
-                Storage::disk('public')->get('upload/'.$this->fileNameToStore)
-                // 'public/upload/'.$this->fileNameToStore
-            );  
+        // $filesystem
+        //     ->put(
+        //         'acraweb/wp-content/uploads/'.$this->directory.$this->sftpFileName, 
+        //         Storage::disk('public')->get('upload/'.$this->fileNameToStore)
+        //         // 'public/upload/'.$this->fileNameToStore
+        //     );  
+        Storage::disk('sftp')->put(
+            'acraweb/wp-content/uploads/'.$this->directory.$this->sftpFileName, 
+            Storage::disk('public')->get('upload/'.$this->fileNameToStore)
+        );
 
         //Create Upload Post
         $this->post->category_id = $this->categoryId;
