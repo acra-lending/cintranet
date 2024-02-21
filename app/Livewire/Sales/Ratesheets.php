@@ -80,6 +80,10 @@ class Ratesheets extends Component
         ->orderBy('created_at', 'desc')
         ->limit(1)
         ->get();
+        $ffNonOwnerOccu = Post::whereRaw("find_in_set('ffNonOwnerOccu', category_id)")
+        ->orderBy('created_at', 'desc')
+        ->limit(1)
+        ->get();
         $ffFamily = Post::whereRaw("find_in_set('ffFamily', category_id)")
         ->orderBy('created_at', 'desc')
         ->limit(1)
@@ -291,6 +295,7 @@ class Ratesheets extends Component
             'ffMain'                  => $ffMain,
             'ffMultiFamilyLongTerm'   => $ffMultiFamilyLongTerm,
             'ffSingleFamily'          => $ffSingleFamily,
+            'ffNonOwnerOccu'          => $ffNonOwnerOccu,
             'ffFamily'                => $ffFamily,
             'ffMultiFamily'           => $ffMultiFamily,
             'ws3mbsAE'            => $ws3mbsAE,

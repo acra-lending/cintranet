@@ -170,6 +170,7 @@
                 'ffSingleFamily'             => 'SFR Bridge',
                 'ffMultiFamily'              => 'MF Bridge',
                 'ffMultiFamilyLongTerm'      => 'MF Long Term',
+                'ffNonOwnerOccu'             => 'Non Owner Occupied',
             ],
             'Correspondent' => [
                 'PDF' => [

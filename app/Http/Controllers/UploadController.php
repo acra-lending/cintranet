@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Storage;
@@ -34,6 +35,7 @@ use App\Classes\FFDscrUpload;
 use App\Classes\FFMainUpload;
 use App\Classes\FileUpload;
 use App\Classes\BrokerLoginRequestParser;
+use App\Classes\FFNonOwnerOccuUpload;
 use Gate;
 use Session;
 use URL;
@@ -164,6 +166,14 @@ class UploadController extends Controller
 
         }
 
+        elseif($categoryIdSingle == 'ffNonOwnerOccu') {
+            $uploadFfNonOwnerOccu = new FFNonOwnerOccuUpload;
+            $uploadFfNonOwnerOccu->uploadFfNonOwnerOccu($request);
+
+            return response()->json(['success' => 'Uploaded Successfully']);
+
+        }
+
         elseif($categoryIdSingle == 'ffMain') {
 
             $uploadFfMain = new FFMainUpload;
@@ -256,8 +266,8 @@ class UploadController extends Controller
         }
         elseif($categoryIdSingle == 'corrNonocuXlsx') {
 
-            $uploadcorrNonocuXlsx = new CorrNonocuUpload;
-            $uploadcorrNonocuXlsx->uploadCorrNonocu($request);
+            $uploadXlsxCorrNonocu = new CorrNonocuUpload;
+            $uploadXlsxCorrNonocu->uploadCorrNonocu($request);
 
             return response()->json(['success' => 'Uploaded Successfully']);
 

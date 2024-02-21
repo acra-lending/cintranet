@@ -18,6 +18,7 @@
             <div class="tab-content" id="vert-tabs-tabContent">
               @include('livewire.sales.partials.current.ff.ffMain')
               @include('livewire.sales.partials.current.ff.ffDscr')
+              @include('livewire.sales.partials.current.ff.ffNonOwnerOccu')
               @include('livewire.sales.partials.current.ff.ffMFBridge')
               @include('livewire.sales.partials.current.ff.ffBridge')
               @include('livewire.sales.partials.current.ff.ffMFLongTerm')
