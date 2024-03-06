@@ -3,9 +3,9 @@
     <a class="nav-link active" id="vert-tabs-non-prime-corr-tab" data-toggle="pill" href="#vert-tabs-non-prime-corr" role="tab" aria-controls="vert-tabs-non-prime-corr" aria-selected="false">Non-Prime Correspondent</a>
     <a class="nav-link" id="vert-tabs-dscr-corr-tab" data-toggle="pill" href="#vert-tabs-dscr-corr" role="tab" aria-controls="vert-tabs-dscr-corr" aria-selected="false">Business Purpose / DSCR</a>
     <a class="nav-link" id="vert-tabs-nonocp-corr-tab" data-toggle="pill" href="#vert-tabs-nonocp-corr" role="tab" aria-controls="vert-tabs-nonocp-corr" aria-selected="false">Non-Owner Occupied</a>
-    <a class="nav-link" id="vert-tabs-itin-corr-tab" data-toggle="pill" href="#vert-tabs-itin-corr" role="tab" aria-controls="vert-tabs-itin-corr" aria-selected="false">ITIN</a>
-    <a class="nav-link" id="vert-tabs-jumbo-prime-corr-tab" data-toggle="pill" href="#vert-tabs-jumbo-prime-corr" role="tab" aria-controls="vert-tabs-jumbo-prime-corr" aria-selected="false">Jumbo Prime</a>
-    <a class="nav-link" id="vert-tabs-3mbs-corr-tab" data-toggle="pill" href="#vert-tabs-3mbs-corr" role="tab" aria-controls="vert-tabs-3mbs-corr" aria-selected="false">3MBS</a>
+    <a class="nav-link" id="vert-tabs-itin-corr-tab" style="display:none" data-toggle="pill" href="#vert-tabs-itin-corr" role="tab" aria-controls="vert-tabs-itin-corr" aria-selected="false">ITIN</a>
+    <a class="nav-link" id="vert-tabs-jumbo-prime-corr-tab" style="display:none" data-toggle="pill" href="#vert-tabs-jumbo-prime-corr" role="tab" aria-controls="vert-tabs-jumbo-prime-corr" aria-selected="false">Jumbo Prime</a>
+    <a class="nav-link" id="vert-tabs-3mbs-corr-tab" style="display:none" data-toggle="pill" href="#vert-tabs-3mbs-corr" role="tab" aria-controls="vert-tabs-3mbs-corr" aria-selected="false">3MBS</a>
     {{-- <a class="nav-link" id="vert-tabs-odf-corr-tab" data-toggle="pill" href="#vert-tabs-odf-corr" role="tab" aria-controls="vert-tabs-odf-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup></a>
     <a class="nav-link" id="vert-tabs-odfplus-corr-tab" data-toggle="pill" href="#vert-tabs-odfplus-corr" role="tab" aria-controls="vert-tabs-odfplus-corr" aria-selected="false">Outside Dodd-Frank<sup>®</sup>Plus</a> --}}
 </div>

@@ -232,6 +232,7 @@
                             'Social Material'  => [
                             'onescore'        =>  'One Score No Score',
                             'selfempsm'       =>  'Self Emplyoed',
+                            'only1099sm'      =>  '1099 Only',
                             'bankstmtsm'      =>  'Bank Statements',
                             'allprgms'      =>  'All Programs',
                             'atrsm'           =>  'ATR',
@@ -246,6 +247,7 @@
                             'dscrsm'      =>  'DSCR',
                             'iosm'      =>  'IO',
                             'itinsm'      =>  'ITIN',
+                            'wvoesm'      =>  'WVOE',
                             'nqmnichesm'      =>  'NQM Niche',
                             'plpro'      =>  'P&L Programs',
                             'smbfsm'      =>  'SBMF',

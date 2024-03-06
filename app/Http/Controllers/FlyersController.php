@@ -150,7 +150,6 @@ class FlyersController extends Controller
             ->sortable('filename')
             ->get();
         });
-        //dd($only1099);
 
         $bankStmt = Cache::remember('bankStmt', $seconds, function() {
             return Post::whereRaw("find_in_set('bankstmt', category_id)")
@@ -273,6 +272,12 @@ class FlyersController extends Controller
             ->get();
         });
 
+        $only1099Sm = Cache::remember('only1099Sm', $seconds, function() {
+            return Post::whereRaw("find_in_set('only1099Sm', category_id)")
+            ->sortable('filename')
+            ->get();
+        });
+
         $bankStmtsm = Cache::remember('bankStmtsm', $seconds, function() {
             return Post::whereRaw("find_in_set('bankstmtsm', category_id)")
             ->sortable('filename')
@@ -320,6 +325,12 @@ class FlyersController extends Controller
             ->sortable('filename')
             ->get();
         });
+
+        $wvoeSm = Cache::remember('wvoeSm', $seconds, function() {
+            return Post::whereRaw("find_in_set('wvoeSm', category_id)")
+            ->sortable('filename')
+            ->get();
+        });
         
         $bridgeSm = Cache::remember('bridgeSm', $seconds, function() {
             return Post::whereRaw("find_in_set('bridgesm', category_id)")
@@ -347,6 +358,12 @@ class FlyersController extends Controller
 
         $nqmNichesm = Cache::remember('nqmNichesm', $seconds, function() {
             return Post::whereRaw("find_in_set('nqmnichesm', category_id)")
+            ->sortable('filename')
+            ->get();
+        });
+
+        $plprgmsSm = Cache::remember('plprgmsSm', $seconds, function() {
+            return Post::whereRaw("find_in_set('plprgmsSm', category_id)")
             ->sortable('filename')
             ->get();
         });
@@ -427,6 +444,7 @@ class FlyersController extends Controller
              'wvoeFly'   => $wvoeFly,
              'oneScore'   => $oneScore,
              'selfEmpsm'   => $selfEmpsm,
+             'only1099Sm'    => $only1099Sm,
              'bankStmtsm'   => $bankStmtsm,
              'atrSm'   => $atrSm,
              'busiPur'   => $busiPur,
@@ -435,11 +453,13 @@ class FlyersController extends Controller
              'invSolsm'   => $invSolsm,
              'dscrSm'   => $dscrSm,
              'itinSm'   => $itinSm,
+             'wvoeSm'   => $wvoeSm,
              'bridgeSm'   => $bridgeSm,
              'uniqProsm'   => $uniqProsm,
              'ioSm'   => $ioSm,
              'condJumsm'   => $condJumsm,
              'nqmNichesm'   => $nqmNichesm,
+             'plprgmsSm'   => $plprgmsSm,
              'smbfSm'   => $smbfSm,
              'brokerSm'   => $brokerSm,
              'funDeal'   => $funDeal,
