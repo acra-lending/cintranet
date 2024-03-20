@@ -22,13 +22,13 @@ monthDays = new Array("31", "28", "31", "30", "31", "30", "31", "31", "30", "31"
 var hr = gmtTime.getHours() + zone
 var min = gmtTime.getMinutes()
 var sec = gmtTime.getSeconds()
-
+var ampm = hr >= 0 ? "AM" : "PM";
 if (hr >= 24){
 hr = hr-24
 day -= -1
 }
 if (hr < 0){
-hr -= -24
+hr -= -12
 day -= 1
 }
 if (hr < 10){
@@ -64,21 +64,21 @@ if (region == "NAmerica"){
 	var startDST = new Date()
 	var endDST = new Date()
 	startDST.setMonth(2)
-	startDST.setHours(1)
+	startDST.setHours(0)
 	startDST.setDate(12)
 	var dayDST = startDST.getDay()
 	if (dayDST != 0){
 		startDST.setDate(8-dayDST)
-		}
-		else{
+	}
+	else{
 		startDST.setDate(1)
-		}
+	}
 	endDST.setMonth(10)
 	endDST.setHours(1)
 	endDST.setDate(5)
 	dayDST = endDST.getDay()
 	endDST.setDate(31-dayDST)
-	var currentTime = new Date()
+	var currentTime = new Date();
 	currentTime.setMonth(month)
 	currentTime.setYear(year)
 	currentTime.setDate(day)
@@ -284,15 +284,20 @@ if (dst == 1){
 	month -= -1
 	}
 	}
-return hr + ":" + min + ":" + sec
+return hr + ":" + min + ":" + sec + " " + ampm
 // monthArray[month] + " " + day + ", " + year + "<br>" + 
  
 // + " DST"
 }
 else{
-return hr + ":" + min + ":" + sec
+return hr + ":" + min + ":" + sec + " " + ampm
 // monthArray[month] + " " + day + ", " + year + "<br>" + 
 }
+}
+
+function worldClockTimeZone(timeZoneArea) {
+	var time = new Date().toLocaleTimeString('en-US', { timeZone: timeZoneArea });
+	return time;
 }
 
 function worldClockZone(){
@@ -300,13 +305,13 @@ function worldClockZone(){
 // document.getElementById("Vancouver").innerHTML = worldClock(-8, "NAmerica")
 // document.getElementById("SanFrancisco").innerHTML = worldClock(-8, "NAmerica")
 // document.getElementById("Seattle").innerHTML = worldClock(-8, "NAmerica")
-document.getElementById("LosAngeles").innerHTML = worldClock(-9, "NAmerica")
-document.getElementById("Denver").innerHTML = worldClock(-8, "NAmerica")
+document.getElementById("LosAngeles").innerHTML = worldClockTimeZone("America/Los_Angeles");
+document.getElementById("Denver").innerHTML = worldClockTimeZone("America/Denver");
 // document.getElementById("MexicoCity").innerHTML = worldClock(-6, "NAmerica")
 // document.getElementById("Houston").innerHTML = worldClock(-6, "NAmerica")
 // document.getElementById("Minneapolis").innerHTML = worldClock(-6, "NAmerica")
 // document.getElementById("NewOrleans").innerHTML = worldClock(-6, "NAmerica")
-document.getElementById("Chicago").innerHTML = worldClock(-7, "NAmerica")
+document.getElementById("Chicago").innerHTML = worldClockTimeZone("America/Chicago");
 // document.getElementById("Montgomery").innerHTML = worldClock(-6, "NAmerica")
 // document.getElementById("Indianapolis").innerHTML = worldClock(-5, "NAmerica")
 // document.getElementById("Atlanta").innerHTML = worldClock(-5, "NAmerica")
@@ -314,7 +319,7 @@ document.getElementById("Chicago").innerHTML = worldClock(-7, "NAmerica")
 // document.getElementById("Miami").innerHTML = worldClock(-5, "NAmerica")
 // document.getElementById("WashingtonDC").innerHTML = worldClock(-5, "NAmerica")
 // document.getElementById("Philadelphia").innerHTML = worldClock(-5, "NAmerica")
-document.getElementById("NewYork").innerHTML = worldClock(-6, "NAmerica")
+document.getElementById("NewYork").innerHTML = worldClockTimeZone("America/New_York");
 // document.getElementById("Montreal").innerHTML = worldClock(-5, "NAmerica")
 // document.getElementById("Boston").innerHTML = worldClock(-5, "NAmerica")
 // document.getElementById("BuenosAires").innerHTML = worldClock(-3, "BuenosAires")
@@ -357,7 +362,7 @@ document.getElementById("NewYork").innerHTML = worldClock(-6, "NAmerica")
 // document.getElementById("Vladivostok").innerHTML = worldClock(10, "Europe")
 // document.getElementById("Kamchatka").innerHTML = worldClock(12, "Europe")
 
-setTimeout("worldClockZone()", 0)
+setTimeout("worldClockZone()", 1000)
 }
 
 // window.onload=worldClockZone;

@@ -12,17 +12,20 @@
         <div>
           <h6>Bytepro:</h6>
             <p class="m-0" style="font-size: 10.5pt;">
-            0003000000 - Commercial<br>
+            0003000000 - Commercial (Legacy Byte)<br>
+            0003500000  - Commercial/Multifamily<br>
             0004000000 - Legacy 2nd Liens<br>
             0005000000 - Retail<br>
             0006000000 - Legacy Misc.<br>
-            0007000000 - Wholesale<br>
+            0007000000 - Wholesale (Legacy Byte)<br>
+            0007500000 - Consumer<br>
             0008000000 - Legacy 2nd Liens<br>
             0009000000 - Correspondent Flow<br>
             0010000000 - Correspondent Bulk<br>
             0011000000 - Correspondent 2 Step<br>
             0012000000 - Jumbo Prime Wholesale<br>
             0012500000 - Jumbo Prime Retail<br>
+            
             </p>
             <br>
             {{-- <h6>Empower:</h6>
